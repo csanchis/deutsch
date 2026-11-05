@@ -17,9 +17,10 @@ const VOCAB_TARGET = 1200;                          // palabras activas aproxima
 const A1_MARK = 0.53;                               // posición de «A1» en la barra (todas las unidades A1 + ~600 palabras)
 
 /* ───────── Estado ───────── */
-const blank = () => ({v: 2, cards: {}, log: {}, custom: {}, units: {}, pron: {}, sp: {}, uq: [],
+const EPOCH = 2;                                    // subir para descartar todo el progreso anterior (local y remoto)
+const blank = () => ({v: 2, epoch: EPOCH, cards: {}, log: {}, custom: {}, units: {}, pron: {}, sp: {}, uq: [],
   set: {newPerDay: 5, focus: 'mix', autoSpeak: true, theme: 'auto', classH: 0, rate: 0.95, t: 0}});
-let S = (() => { try { const s = JSON.parse(localStorage.getItem('de_state')); if (s && s.v) return {...blank(), ...s, set: {...blank().set, ...s.set}}; } catch {} return blank(); })();
+let S = (() => { try { const s = JSON.parse(localStorage.getItem('de_state')); if (s && s.v && (s.epoch || 1) >= EPOCH) return {...blank(), ...s, set: {...blank().set, ...s.set}}; } catch {} return blank(); })();
 const persist = () => { try { localStorage.setItem('de_state', JSON.stringify(S)); } catch {} };
 function save(delay = 2500) { persist(); schedulePush(delay); }
 function logT() { const t = today(); return S.log[t] ||= {r: 0, n: 0, g: 0, sec: 0, ex: 0, t: now()}; }
@@ -46,6 +47,7 @@ function merge(a, b) {
     const y = {...x}; for (const f of ['r', 'n', 'g', 'sec', 'ex', 'p', 't']) y[f] = Math.max(x[f] || 0, v[f] || 0);
     y.done = !!(x.done || v.done); m.log[d] = y;
   }
+  m.epoch = Math.max(a.epoch || 1, b.epoch || 1);
   m.uq = [...new Set([...(a.uq || []), ...(b.uq || [])])];
   m.set = (b.set?.t || 0) > (a.set?.t || 0) ? {...blank().set, ...b.set} : a.set;
   return m;
@@ -60,7 +62,7 @@ async function sync(final = false) {
       const r = await fetch(REST() + '?select=data&path=eq.' + encodeURIComponent(PATH), {headers: H()});
       if (!r.ok) throw new Error(r.status);
       const j = await r.json();
-      if (j[0]?.data?.v) { const before = JSON.stringify(S); S = merge(S, j[0].data); persist(); if (JSON.stringify(S) !== before && !R) route(); }
+      if (j[0]?.data?.v && (j[0].data.epoch || 1) >= EPOCH) { const before = JSON.stringify(S); S = merge(S, j[0].data); persist(); if (JSON.stringify(S) !== before && !R) route(); }
     }
     const body = JSON.stringify({path: PATH, col: 'deutsch', data: S, updated_at: new Date().toISOString()});
     const r2 = await fetch(REST(), {method: 'POST', headers: {...H(), Prefer: 'resolution=merge-duplicates,return=minimal'}, body, keepalive: final && body.length < 60000});
@@ -597,7 +599,7 @@ function viewProgreso() {
   $('#s-rate').onchange = e => { setv('rate', +e.target.value); speak('Hallo, ich bin deine Stimme.'); };
   $('#s-theme').onchange = e => setv('theme', e.target.value);
   $('#exp').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(S)], {type: 'application/json'})); a.download = `deutsch-progreso-${new Date().toISOString().slice(0, 10)}.json`; a.click(); };
-  $('#imp').onchange = async e => { try { const d = JSON.parse(await e.target.files[0].text()); if (!d.v) throw 0; S = merge(S, d); rebuildWords(); save(500); toast('Progreso importado'); route(); } catch { toast('Ese archivo no es una copia válida'); } };
+  $('#imp').onchange = async e => { try { const d = JSON.parse(await e.target.files[0].text()); if (!d.v) throw 0; if ((d.epoch || 1) < EPOCH) d.epoch = EPOCH; S = merge(S, d); rebuildWords(); save(500); toast('Progreso importado'); route(); } catch { toast('Ese archivo no es una copia válida'); } };
 }
 function applyTheme() { const t = S.set.theme; if (t === 'auto') document.documentElement.removeAttribute('data-theme'); else document.documentElement.dataset.theme = t; }
 function toast(m) { const d = document.createElement('div'); d.className = 'toast'; d.textContent = m; document.body.appendChild(d); setTimeout(() => d.remove(), 2600); }
