@@ -1,0 +1,545 @@
+{
+ "id": "a1-09",
+ "level": "A1",
+ "n": 9,
+ "title": "Termine und Pflichten",
+ "title_es": "Citas y verbos modales",
+ "goals": [
+  "Puedo conjugar können, müssen, wollen, dürfen y sollen en presente.",
+  "Puedo construir frases con el modal en 2ª posición y el infinitivo al final (Satzklammer).",
+  "Puedo proponer, aceptar y rechazar una cita (Hast du am Freitag Zeit?).",
+  "Puedo decir los meses y las fechas con ordinales (am ersten Mai)."
+ ],
+ "lessons": [
+  {
+   "h": "Los verbos modales",
+   "html": "<table><thead><tr><th></th><th>können</th><th>müssen</th><th>wollen</th><th>dürfen</th><th>sollen</th></tr></thead><tbody>\n<tr><td>ich</td><td><span class=\"de\">kann</span></td><td><span class=\"de\">muss</span></td><td><span class=\"de\">will</span></td><td><span class=\"de\">darf</span></td><td><span class=\"de\">soll</span></td></tr>\n<tr><td>du</td><td><span class=\"de\">kannst</span></td><td><span class=\"de\">musst</span></td><td><span class=\"de\">willst</span></td><td><span class=\"de\">darfst</span></td><td><span class=\"de\">sollst</span></td></tr>\n<tr><td>er/sie/es</td><td><span class=\"de\">kann</span></td><td><span class=\"de\">muss</span></td><td><span class=\"de\">will</span></td><td><span class=\"de\">darf</span></td><td><span class=\"de\">soll</span></td></tr>\n<tr><td>wir</td><td><span class=\"de\">können</span></td><td><span class=\"de\">müssen</span></td><td><span class=\"de\">wollen</span></td><td><span class=\"de\">dürfen</span></td><td><span class=\"de\">sollen</span></td></tr>\n<tr><td>ihr</td><td><span class=\"de\">könnt</span></td><td><span class=\"de\">müsst</span></td><td><span class=\"de\">wollt</span></td><td><span class=\"de\">dürft</span></td><td><span class=\"de\">sollt</span></td></tr>\n<tr><td>sie/Sie</td><td><span class=\"de\">können</span></td><td><span class=\"de\">müssen</span></td><td><span class=\"de\">wollen</span></td><td><span class=\"de\">dürfen</span></td><td><span class=\"de\">sollen</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">ich</span> y <span class=\"de\">er/sie/es</span> tienen la <b>misma forma, sin -t</b>: <span class=\"de\">er kann</span>, nunca <span class=\"de\">*er kannt</span>. En singular cambia la vocal (excepto <span class=\"de\">sollen</span>).</p>\n<table><thead><tr><th>Modal</th><th>Significado</th><th>Ejemplo</th></tr></thead><tbody>\n<tr><td><span class=\"de\">können</span></td><td>poder (capacidad, posibilidad); saber hacer</td><td><span class=\"de\">Ich kann schwimmen.</span> (Sé nadar.)</td></tr>\n<tr><td><span class=\"de\">müssen</span></td><td>tener que</td><td><span class=\"de\">Ich muss arbeiten.</span></td></tr>\n<tr><td><span class=\"de\">wollen</span></td><td>querer (intención firme)</td><td><span class=\"de\">Ich will Deutsch lernen.</span></td></tr>\n<tr><td><span class=\"de\">dürfen</span></td><td>tener permiso, poder (permiso)</td><td><span class=\"de\">Hier darf man parken.</span></td></tr>\n<tr><td><span class=\"de\">sollen</span></td><td>deber (otra persona lo dice o lo recomienda)</td><td><span class=\"de\">Ich soll mehr trinken.</span></td></tr>\n</tbody></table>\n<p><span class=\"de\">man</span> = «se» impersonal, con verbo en 3ª persona singular: <span class=\"de\">Hier darf man nicht rauchen.</span></p>\n<p><b>Ojo:</b> <span class=\"de\">Ich will</span> suena muy directo. Para pedir algo usa <span class=\"de\">Ich möchte</span> (unidad 5).</p>"
+  },
+  {
+   "h": "La Satzklammer: modal + infinitivo al final",
+   "html": "<p>El modal conjugado va en <b>posición 2</b> y el otro verbo, en <b>infinitivo, al final</b> de la frase.</p>\n<table><thead><tr><th>Pos. 1</th><th>Modal</th><th>Medio</th><th>Final</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Ich</span></td><td><span class=\"de\">muss</span></td><td><span class=\"de\">heute lange</span></td><td><span class=\"de\">arbeiten.</span></td></tr>\n<tr><td><span class=\"de\">Am Freitag</span></td><td><span class=\"de\">kann</span></td><td><span class=\"de\">ich nicht</span></td><td><span class=\"de\">kommen.</span></td></tr>\n<tr><td><span class=\"de\">Wann</span></td><td><span class=\"de\">musst</span></td><td><span class=\"de\">du morgen</span></td><td><span class=\"de\">aufstehen?</span></td></tr>\n<tr><td>—</td><td><span class=\"de\">Kannst</span></td><td><span class=\"de\">du am Montag</span></td><td><span class=\"de\">kommen?</span></td></tr>\n</tbody></table>\n<p>Los verbos separables van <b>juntos</b> al final: <span class=\"de\">Ich muss um sechs aufstehen.</span></p>\n<p><b>Ojo:</b> en español el infinitivo va pegado al modal («tengo que trabajar hoy»). En alemán <span class=\"de\">*Ich muss arbeiten heute</span> es incorrecto: <span class=\"de\">Ich muss heute arbeiten.</span></p>\n<p><b>Ojo:</b> el segundo verbo no se conjuga: <span class=\"de\">Er kann gut boxen</span> (no <span class=\"de\">*boxt</span>).</p>"
+  },
+  {
+   "h": "müssen nicht ≠ nicht dürfen",
+   "html": "<table><thead><tr><th>Alemán</th><th>Significa</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Du musst nicht kommen.</span></td><td>No hace falta que vengas (no es obligatorio).</td></tr>\n<tr><td><span class=\"de\">Du darfst nicht kommen.</span></td><td>No puedes venir (está prohibido).</td></tr>\n</tbody></table>\n<p><b>Ojo:</b> el español «no debes» puede significar las dos cosas; en alemán hay que elegir. <span class=\"de\">Am Sonntag muss ich nicht arbeiten</span> = el domingo no tengo que trabajar (¡qué bien!).</p>"
+  },
+  {
+   "h": "Termine – quedar y concertar citas",
+   "html": "<table><thead><tr><th>Función</th><th>Frases</th></tr></thead><tbody>\n<tr><td>Proponer</td><td><span class=\"de\">Hast du am Freitag Zeit?</span> / <span class=\"de\">Kannst du am Montag um zehn?</span> / <span class=\"de\">Wollen wir am Samstag ins Kino gehen?</span></td></tr>\n<tr><td>Aceptar</td><td><span class=\"de\">Ja, gern!</span> / <span class=\"de\">Ja, das geht.</span> / <span class=\"de\">Gute Idee!</span> / <span class=\"de\">Super, bis Samstag!</span></td></tr>\n<tr><td>Rechazar</td><td><span class=\"de\">Leider nicht.</span> / <span class=\"de\">Tut mir leid, ich kann nicht. Ich muss arbeiten.</span> / <span class=\"de\">Am Freitag geht es leider nicht.</span></td></tr>\n<tr><td>Alternativa</td><td><span class=\"de\">Und am Sonntag?</span> / <span class=\"de\">Geht es auch um elf?</span></td></tr>\n<tr><td>Formal</td><td><span class=\"de\">Ich möchte einen Termin machen.</span> / <span class=\"de\">Haben Sie am Dienstag Zeit?</span> / <span class=\"de\">Geht es am Mittwoch um neun Uhr?</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">der Termin</span> es una cita «oficial» (médico, oficina, reunión), no «término». Con amigos se dice <span class=\"de\">Hast du Zeit?</span> o <span class=\"de\">die Verabredung</span>.</p>"
+  },
+  {
+   "h": "Meses y fechas",
+   "html": "<p>Los meses son todos <span class=\"de\">der</span> y van con <span class=\"de\">im</span>: <span class=\"de\">Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember</span> → <span class=\"de\">im Juli</span>.</p>\n<p>Para las fechas se usan <b>ordinales</b>: del 1 al 19 se añade <b>-te</b>, desde el 20 <b>-ste</b>. Irregulares: <span class=\"de\">erste, dritte, siebte</span>.</p>\n<table><thead><tr><th>Número</th><th>Heute ist der …</th><th>am …</th></tr></thead><tbody>\n<tr><td>1.</td><td><span class=\"de\">erste</span></td><td><span class=\"de\">am ersten</span></td></tr>\n<tr><td>2.</td><td><span class=\"de\">zweite</span></td><td><span class=\"de\">am zweiten</span></td></tr>\n<tr><td>3.</td><td><span class=\"de\">dritte</span></td><td><span class=\"de\">am dritten</span></td></tr>\n<tr><td>4.</td><td><span class=\"de\">vierte</span></td><td><span class=\"de\">am vierten</span></td></tr>\n<tr><td>7.</td><td><span class=\"de\">siebte</span></td><td><span class=\"de\">am siebten</span></td></tr>\n<tr><td>8.</td><td><span class=\"de\">achte</span></td><td><span class=\"de\">am achten</span></td></tr>\n<tr><td>19.</td><td><span class=\"de\">neunzehnte</span></td><td><span class=\"de\">am neunzehnten</span></td></tr>\n<tr><td>20.</td><td><span class=\"de\">zwanzigste</span></td><td><span class=\"de\">am zwanzigsten</span></td></tr>\n<tr><td>31.</td><td><span class=\"de\">einunddreißigste</span></td><td><span class=\"de\">am einunddreißigsten</span></td></tr>\n</tbody></table>\n<p><span class=\"de\">Heute ist der erste Mai.</span> (-e) – <span class=\"de\">Ich habe am ersten Mai Geburtstag.</span> (am + -en). Por escrito: <span class=\"de\">am 1. Mai</span>; el punto indica ordinal. Pregunta: <span class=\"de\">Wann hast du Geburtstag?</span> – <span class=\"de\">Der Wievielte ist heute?</span></p>\n<p><b>Ojo:</b> en español decimos «el uno de mayo» con número cardinal; en alemán siempre ordinal. <span class=\"de\">Juni</span> y <span class=\"de\">Juli</span> se confunden: al teléfono se dice <span class=\"de\">Juno</span> y <span class=\"de\">Julei</span>.</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "können",
+   "es": "poder, saber (hacer)",
+   "ex": "Ich kann gut kochen."
+  },
+  {
+   "de": "müssen",
+   "es": "tener que",
+   "ex": "Ich muss heute arbeiten."
+  },
+  {
+   "de": "wollen",
+   "es": "querer",
+   "ex": "Wir wollen boxen gehen."
+  },
+  {
+   "de": "dürfen",
+   "es": "tener permiso",
+   "ex": "Hier darf man nicht parken."
+  },
+  {
+   "de": "sollen",
+   "es": "deber (según otro)",
+   "ex": "Ich soll mehr schlafen."
+  },
+  {
+   "de": "Termin",
+   "art": "der",
+   "pl": "Termine",
+   "es": "cita (médico, oficina…)",
+   "ex": "Ich habe am Montag einen Termin."
+  },
+  {
+   "de": "Zeit",
+   "art": "die",
+   "es": "tiempo",
+   "ex": "Hast du am Freitag Zeit?"
+  },
+  {
+   "de": "Verabredung",
+   "art": "die",
+   "pl": "Verabredungen",
+   "es": "cita, quedada",
+   "ex": "Ich habe heute eine Verabredung."
+  },
+  {
+   "de": "Kalender",
+   "art": "der",
+   "pl": "Kalender",
+   "es": "calendario, agenda",
+   "ex": "Der Kalender ist voll."
+  },
+  {
+   "de": "Geburtstag",
+   "art": "der",
+   "pl": "Geburtstage",
+   "es": "cumpleaños",
+   "ex": "Wann hast du Geburtstag?"
+  },
+  {
+   "de": "Datum",
+   "art": "das",
+   "pl": "Daten",
+   "es": "fecha",
+   "ex": "Ich brauche das Datum."
+  },
+  {
+   "de": "Woche",
+   "art": "die",
+   "pl": "Wochen",
+   "es": "semana",
+   "ex": "Die Woche ist lang."
+  },
+  {
+   "de": "Monat",
+   "art": "der",
+   "pl": "Monate",
+   "es": "mes",
+   "ex": "Der Monat hat 31 Tage."
+  },
+  {
+   "de": "Jahr",
+   "art": "das",
+   "pl": "Jahre",
+   "es": "año",
+   "ex": "Das Jahr hat zwölf Monate."
+  },
+  {
+   "de": "Januar",
+   "art": "der",
+   "es": "enero",
+   "ex": "Im Januar ist es kalt."
+  },
+  {
+   "de": "Mai",
+   "art": "der",
+   "es": "mayo",
+   "ex": "Am ersten Mai arbeite ich nicht."
+  },
+  {
+   "de": "heute",
+   "es": "hoy",
+   "ex": "Heute kann ich nicht."
+  },
+  {
+   "de": "morgen",
+   "es": "mañana (día siguiente)",
+   "ex": "Kannst du morgen kommen?"
+  },
+  {
+   "de": "übermorgen",
+   "es": "pasado mañana",
+   "ex": "Übermorgen habe ich Zeit."
+  },
+  {
+   "de": "leider",
+   "es": "por desgracia, lamentablemente",
+   "ex": "Leider kann ich nicht."
+  },
+  {
+   "de": "vielleicht",
+   "es": "quizás",
+   "ex": "Vielleicht am Sonntag?"
+  },
+  {
+   "de": "frei",
+   "es": "libre",
+   "ex": "Am Mittwoch bin ich frei."
+  },
+  {
+   "de": "man",
+   "es": "se (impersonal)",
+   "ex": "Hier darf man nicht rauchen."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "___ du am Freitag kommen?",
+   "o": [
+    "Kannst",
+    "Kann",
+    "Könnt"
+   ],
+   "a": 0,
+   "exp": "du kannst."
+  },
+  {
+   "t": "mc",
+   "q": "Er ___ heute lange arbeiten.",
+   "o": [
+    "muss",
+    "musst",
+    "müsst"
+   ],
+   "a": 0,
+   "exp": "er muss (igual que ich, sin -t)."
+  },
+  {
+   "t": "mc",
+   "q": "Hier ___ man nicht rauchen. (Está prohibido.)",
+   "o": [
+    "darf",
+    "muss",
+    "will"
+   ],
+   "a": 0,
+   "exp": "Prohibición: nicht dürfen."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué frase es correcta?",
+   "o": [
+    "Ich muss arbeiten heute.",
+    "Ich muss heute arbeiten.",
+    "Ich heute muss arbeiten."
+   ],
+   "a": 1,
+   "exp": "Modal en posición 2, infinitivo al final."
+  },
+  {
+   "t": "mc",
+   "q": "Morgen ist Sonntag. Ich ___ nicht früh aufstehen. (No hace falta.)",
+   "o": [
+    "darf",
+    "muss",
+    "soll"
+   ],
+   "a": 1,
+   "exp": "nicht müssen = no hace falta."
+  },
+  {
+   "t": "mc",
+   "q": "Mi entrenadora dice que me acueste pronto. → Ich ___ früh ins Bett gehen.",
+   "o": [
+    "soll",
+    "darf",
+    "will"
+   ],
+   "a": 0,
+   "exp": "sollen: otra persona te lo recomienda o lo pide."
+  },
+  {
+   "t": "gap",
+   "q": "Wir ___ am Samstag ins Kino gehen.",
+   "a": [
+    "wollen"
+   ],
+   "hint": "wollen",
+   "exp": "wir wollen."
+  },
+  {
+   "t": "gap",
+   "q": "___ ihr am Montag kommen?",
+   "a": [
+    "Könnt",
+    "könnt"
+   ],
+   "hint": "können",
+   "exp": "ihr könnt."
+  },
+  {
+   "t": "gap",
+   "q": "Du ___ hier nicht parken.",
+   "a": [
+    "darfst"
+   ],
+   "hint": "dürfen",
+   "exp": "du darfst."
+  },
+  {
+   "t": "gap",
+   "q": "Mein Geburtstag ist am ___ März.",
+   "a": [
+    "dritten"
+   ],
+   "hint": "3. (ordinal)",
+   "exp": "3. → dritte; con am: am dritten."
+  },
+  {
+   "t": "gap",
+   "q": "Am ___ Mai arbeite ich nicht.",
+   "a": [
+    "ersten"
+   ],
+   "hint": "1. (ordinal)",
+   "exp": "1. → erste; con am: am ersten."
+  },
+  {
+   "t": "order",
+   "w": [
+    "kann",
+    "Am",
+    "nicht",
+    "Freitag",
+    "ich",
+    "kommen"
+   ],
+   "a": "Am Freitag kann ich nicht kommen.",
+   "es": "El viernes no puedo venir."
+  },
+  {
+   "t": "order",
+   "w": [
+    "du",
+    "Zeit",
+    "Hast",
+    "Samstag",
+    "am"
+   ],
+   "a": "Hast du am Samstag Zeit?",
+   "es": "¿Tienes tiempo el sábado?"
+  },
+  {
+   "t": "order",
+   "w": [
+    "muss",
+    "um",
+    "Ich",
+    "sechs",
+    "aufstehen"
+   ],
+   "a": "Ich muss um sechs aufstehen.",
+   "es": "Tengo que levantarme a las seis."
+  },
+  {
+   "t": "listen",
+   "de": "Tut mir leid, am Dienstag kann ich nicht. Ich muss arbeiten.",
+   "es": "Lo siento, el martes no puedo. Tengo que trabajar."
+  },
+  {
+   "t": "listen",
+   "de": "Mein Geburtstag ist am siebten Juli.",
+   "es": "Mi cumpleaños es el siete de julio."
+  },
+  {
+   "t": "tr",
+   "es": "Tengo que trabajar el sábado.",
+   "a": [
+    "Ich muss am Samstag arbeiten.",
+    "Am Samstag muss ich arbeiten."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "¿Puedes venir mañana?",
+   "a": [
+    "Kannst du morgen kommen?"
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "am ersten",
+     "el día 1"
+    ],
+    [
+     "am dritten",
+     "el día 3"
+    ],
+    [
+     "am siebten",
+     "el día 7"
+    ],
+    [
+     "am zwanzigsten",
+     "el día 20"
+    ],
+    [
+     "am einunddreißigsten",
+     "el día 31"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Lena: Hallo Claudia! Hast du am Freitag Zeit? Wir wollen boxen gehen. Claudia: Am Freitag kann ich leider nicht, ich muss lange arbeiten. Aber am Samstag habe ich Zeit. Lena: Super, dann am Samstag um zehn!",
+   "q": "¿Cuándo quedan Lena y Claudia?",
+   "o": [
+    "El viernes por la tarde",
+    "El sábado a las diez",
+    "El domingo a las diez"
+   ],
+   "a": 1
+  }
+ ],
+ "speak": [
+  {
+   "de": "Hast du am Freitag Zeit?",
+   "es": "¿Tienes tiempo el viernes?",
+   "tip": "«Zeit» = «tsait»: la «z» suena «ts» y «ei» suena «ai»."
+  },
+  {
+   "de": "Tut mir leid, ich kann nicht.",
+   "es": "Lo siento, no puedo.",
+   "tip": "«ich» y «nicht»: «ch» suave, como un gato que bufa, nunca jota."
+  },
+  {
+   "de": "Ich muss am Samstag arbeiten.",
+   "es": "Tengo que trabajar el sábado.",
+   "tip": "La «u» de «muss» es corta. La «S» de «Samstag» es sonora: «zamstak»."
+  },
+  {
+   "de": "Kannst du morgen um zehn?",
+   "es": "¿Puedes mañana a las diez?",
+   "tip": "«zehn» = «tseen»: la «h» no suena y alarga la «e»."
+  },
+  {
+   "de": "Mein Geburtstag ist am dritten März.",
+   "es": "Mi cumpleaños es el tres de marzo.",
+   "tip": "«März» = «merts»: «ä» como e abierta y «z» final «ts»."
+  },
+  {
+   "de": "Das geht leider nicht.",
+   "es": "Eso no puede ser, lo siento.",
+   "tip": "La «g» de «geht» es dura; la «h» no se pronuncia."
+  },
+  {
+   "de": "Ich möchte einen Termin machen.",
+   "es": "Quisiera pedir una cita.",
+   "tip": "«ö»: di «e» con los labios redondeados como para «o»."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Ich ___ gut schwimmen. (sé)",
+   "o": [
+    "kann",
+    "darf",
+    "soll"
+   ],
+   "a": 0,
+   "exp": "Saber hacer algo = können."
+  },
+  {
+   "t": "mc",
+   "q": "Anna ___ heute nicht kommen.",
+   "o": [
+    "kann",
+    "kannst",
+    "können"
+   ],
+   "a": 0,
+   "exp": "er/sie/es kann."
+  },
+  {
+   "t": "mc",
+   "q": "«Du musst nicht kommen.» significa:",
+   "o": [
+    "No puedes venir.",
+    "No hace falta que vengas.",
+    "Tienes prohibido venir."
+   ],
+   "a": 1,
+   "exp": "nicht müssen = no es necesario."
+  },
+  {
+   "t": "gap",
+   "q": "Ihr ___ hier nicht laut sein.",
+   "a": [
+    "dürft",
+    "duerft"
+   ],
+   "hint": "dürfen",
+   "exp": "ihr dürft."
+  },
+  {
+   "t": "gap",
+   "q": "Er ___ jeden Tag trainieren.",
+   "a": [
+    "will"
+   ],
+   "hint": "wollen",
+   "exp": "er will (sin -t)."
+  },
+  {
+   "t": "gap",
+   "q": "Heute ist der ___ Oktober.",
+   "a": [
+    "zweite"
+   ],
+   "hint": "2. (ordinal)",
+   "exp": "Heute ist der … → terminación -e: der zweite."
+  },
+  {
+   "t": "order",
+   "w": [
+    "wir",
+    "Wollen",
+    "Kino",
+    "ins",
+    "gehen"
+   ],
+   "a": "Wollen wir ins Kino gehen?",
+   "es": "¿Vamos al cine?"
+  },
+  {
+   "t": "listen",
+   "de": "Haben Sie am Mittwoch um neun Uhr Zeit?",
+   "es": "¿Tiene usted tiempo el miércoles a las nueve?"
+  },
+  {
+   "t": "tr",
+   "es": "Lo siento, no puedo.",
+   "a": [
+    "Tut mir leid, ich kann nicht.",
+    "Es tut mir leid, ich kann nicht.",
+    "Tut mir leid, ich kann leider nicht."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "können",
+     "poder / saber hacer"
+    ],
+    [
+     "müssen",
+     "tener que"
+    ],
+    [
+     "wollen",
+     "querer"
+    ],
+    [
+     "dürfen",
+     "tener permiso"
+    ],
+    [
+     "sollen",
+     "deber (según otro)"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Herr Weber möchte einen Termin. Die Sekretärin sagt: «Am Montag geht es leider nicht. Aber am Mittwoch um halb neun ist noch frei.» Herr Weber sagt: «Gut, das geht.»",
+   "q": "¿Cuándo es la cita del señor Weber?",
+   "o": [
+    "El lunes a las 8:30",
+    "El miércoles a las 8:30",
+    "El miércoles a las 9:30"
+   ],
+   "a": 1
+  }
+ ]
+}

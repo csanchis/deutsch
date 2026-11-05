@@ -1,0 +1,527 @@
+{
+ "id": "a1-01",
+ "level": "A1",
+ "n": 1,
+ "title": "Hallo! Wer bist du?",
+ "title_es": "Saludar y presentarse",
+ "goals": [
+  "Puedo saludar y despedirme de forma formal e informal.",
+  "Puedo decir cómo me llamo, de dónde soy y dónde vivo.",
+  "Puedo preguntar a otra persona su nombre, su origen y dónde vive.",
+  "Sé cuándo usar «du» y cuándo «Sie»."
+ ],
+ "lessons": [
+  {
+   "h": "Saludos y despedidas",
+   "html": "<p>En alemán se distingue mucho entre registro <b>formal</b> (desconocidos, trabajo, tiendas) e <b>informal</b> (amigos, familia, compañeros de clase).</p><table><thead><tr><th></th><th>formal</th><th>informal</th></tr></thead><tbody><tr><td>saludar</td><td><span class=\"de\">Guten Morgen!</span> (hasta ~11 h)<br><span class=\"de\">Guten Tag!</span><br><span class=\"de\">Guten Abend!</span> (desde ~18 h)</td><td><span class=\"de\">Hallo!</span><br><span class=\"de\">Hi!</span><br><span class=\"de\">Morgen!</span></td></tr><tr><td>despedirse</td><td><span class=\"de\">Auf Wiedersehen!</span></td><td><span class=\"de\">Tschüss!</span><br><span class=\"de\">Bis später!</span> / <span class=\"de\">Bis morgen!</span></td></tr><tr><td>¿qué tal?</td><td><span class=\"de\">Wie geht es Ihnen?</span></td><td><span class=\"de\">Wie geht's?</span></td></tr></tbody></table><p>Respuestas: <span class=\"de\">Gut, danke. Und Ihnen?</span> / <span class=\"de\">Gut, danke. Und dir?</span> — <span class=\"de\">Es geht.</span> (regular).</p><p><b>Ojo:</b> <span class=\"de\">Gute Nacht!</span> solo se dice al irse a dormir; para saludar por la noche se dice <span class=\"de\">Guten Abend!</span>. Al presentarte: <span class=\"de\">Freut mich!</span> (¡encantada!).</p>"
+  },
+  {
+   "h": "Pronombres personales: du y Sie",
+   "html": "<table><thead><tr><th>alemán</th><th>español</th></tr></thead><tbody><tr><td>ich</td><td>yo</td></tr><tr><td>du</td><td>tú</td></tr><tr><td>er / sie / es</td><td>él / ella / (ello)</td></tr><tr><td>wir</td><td>nosotros/-as</td></tr><tr><td>ihr</td><td>vosotros/-as</td></tr><tr><td>sie</td><td>ellos/-as</td></tr><tr><td>Sie</td><td>usted / ustedes</td></tr></tbody></table><p><b>du</b> = tutear; <b>Sie</b> = tratar de usted. En Alemania se usa <b>Sie</b> mucho más que «usted» en España: con desconocidos, en el trabajo, en tiendas y con profesores (salvo que te ofrezcan el «du»). <b>Sie</b> formal se escribe siempre con mayúscula y se conjuga igual que <b>sie</b> (ellos).</p><p><b>Ojo:</b> en alemán el pronombre es <b>obligatorio</b>. «Vivo en Madrid» es <span class=\"de\">Ich wohne in Madrid</span>, nunca *Wohne in Madrid. Y <span class=\"de\">ich</span> va en minúscula (salvo al inicio de frase).</p>"
+  },
+  {
+   "h": "Los verbos heißen, kommen, wohnen",
+   "html": "<p>Para presentarte necesitas tres verbos regulares. La terminación cambia con cada persona:</p><table><thead><tr><th></th><th>heißen (llamarse)</th><th>kommen (venir, ser de)</th><th>wohnen (vivir)</th></tr></thead><tbody><tr><td>ich</td><td>heiße</td><td>komme</td><td>wohne</td></tr><tr><td>du</td><td>heißt</td><td>kommst</td><td>wohnst</td></tr><tr><td>er/sie/es</td><td>heißt</td><td>kommt</td><td>wohnt</td></tr><tr><td>wir</td><td>heißen</td><td>kommen</td><td>wohnen</td></tr><tr><td>ihr</td><td>heißt</td><td>kommt</td><td>wohnt</td></tr><tr><td>sie/Sie</td><td>heißen</td><td>kommen</td><td>wohnen</td></tr></tbody></table><p><b>Ojo:</b> <span class=\"de\">du heißt</span> (no *heißst): si la raíz acaba en -ß, solo se añade -t. «Llamarse» no es reflexivo en alemán: <span class=\"de\">Ich heiße Claudia</span> (no *Ich mich heiße).</p><p>Para decir solo el nombre también vale <span class=\"de\">Ich bin Claudia.</span> (el verbo <i>sein</i> completo lo verás en la unidad 2).</p>"
+  },
+  {
+   "h": "Preguntas con W: wie, woher, wo, was, wer",
+   "html": "<table><thead><tr><th>pregunta</th><th>significado</th><th>ejemplo</th></tr></thead><tbody><tr><td>Wie?</td><td>¿cómo?</td><td><span class=\"de\">Wie heißt du?</span></td></tr><tr><td>Woher?</td><td>¿de dónde?</td><td><span class=\"de\">Woher kommen Sie?</span></td></tr><tr><td>Wo?</td><td>¿dónde?</td><td><span class=\"de\">Wo wohnst du?</span></td></tr><tr><td>Was?</td><td>¿qué?</td><td><span class=\"de\">Was ist das?</span></td></tr><tr><td>Wer?</td><td>¿quién?</td><td><span class=\"de\">Wer ist das?</span></td></tr></tbody></table><p>Orden: <b>palabra W + verbo + sujeto</b>: <span class=\"de\">Wo wohnst du?</span> El verbo va siempre en 2ª posición.</p><p><b>Ojo:</b> <span class=\"de\">wer</span> = quién y <span class=\"de\">wo</span> = dónde (¡no te dejes engañar por el inglés <i>where</i>!). Y la pregunta lleva verbo conjugado: <span class=\"de\">Woher kommst du?</span>, no *Woher du?</p>"
+  },
+  {
+   "h": "Países y ciudades: aus / in",
+   "html": "<p><span class=\"de\">Woher?</span> → <b>aus</b> + país/ciudad: <span class=\"de\">Ich komme aus Spanien.</span><br><span class=\"de\">Wo?</span> → <b>in</b> + país/ciudad: <span class=\"de\">Ich wohne in Deutschland.</span></p><p>La mayoría de países no llevan artículo: <span class=\"de\">Spanien, Deutschland, Österreich, Italien, Frankreich, Mexiko</span>. Algunos son femeninos y lo llevan siempre:</p><table><thead><tr><th>país</th><th>Woher?</th><th>Wo?</th></tr></thead><tbody><tr><td>die Schweiz</td><td>aus der Schweiz</td><td>in der Schweiz</td></tr><tr><td>die Türkei</td><td>aus der Türkei</td><td>in der Türkei</td></tr></tbody></table><p>Aprende <span class=\"de\">aus der Schweiz</span> / <span class=\"de\">in der Schweiz</span> como bloque (el porqué, el dativo, llegará más adelante).</p><p><b>Ojo:</b> «soy de España» no se dice con <i>sein + von</i>, sino <span class=\"de\">Ich komme aus Spanien</span>. Y no confundas <span class=\"de\">aus</span> (origen) con <span class=\"de\">in</span> (lugar donde vives).</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "hallo",
+   "es": "hola",
+   "ex": "Hallo, ich heiße Claudia."
+  },
+  {
+   "de": "tschüss",
+   "es": "adiós, chao",
+   "ex": "Tschüss, bis morgen!"
+  },
+  {
+   "de": "danke",
+   "es": "gracias",
+   "ex": "Gut, danke."
+  },
+  {
+   "de": "bitte",
+   "es": "por favor; de nada",
+   "ex": "Wie heißen Sie, bitte?"
+  },
+  {
+   "de": "heißen",
+   "es": "llamarse",
+   "ex": "Wie heißt du?"
+  },
+  {
+   "de": "kommen",
+   "es": "venir; ser de",
+   "ex": "Ich komme aus Spanien."
+  },
+  {
+   "de": "wohnen",
+   "es": "vivir (residir)",
+   "ex": "Wir wohnen in Heidelberg."
+  },
+  {
+   "de": "wie",
+   "es": "cómo",
+   "ex": "Wie heißen Sie?"
+  },
+  {
+   "de": "woher",
+   "es": "de dónde",
+   "ex": "Woher kommst du?"
+  },
+  {
+   "de": "wo",
+   "es": "dónde",
+   "ex": "Wo wohnt ihr?"
+  },
+  {
+   "de": "wer",
+   "es": "quién",
+   "ex": "Wer ist das?"
+  },
+  {
+   "de": "was",
+   "es": "qué",
+   "ex": "Was ist das?"
+  },
+  {
+   "de": "und",
+   "es": "y",
+   "ex": "Ich komme aus Valencia und wohne in Berlin."
+  },
+  {
+   "de": "Name",
+   "art": "der",
+   "pl": "Namen",
+   "es": "nombre",
+   "ex": "Mein Name ist Claudia."
+  },
+  {
+   "de": "Land",
+   "art": "das",
+   "pl": "Länder",
+   "es": "país",
+   "ex": "Spanien ist ein Land."
+  },
+  {
+   "de": "Stadt",
+   "art": "die",
+   "pl": "Städte",
+   "es": "ciudad",
+   "ex": "Berlin ist eine Stadt."
+  },
+  {
+   "de": "Frau",
+   "art": "die",
+   "pl": "Frauen",
+   "es": "señora; mujer",
+   "ex": "Guten Tag, Frau Müller!"
+  },
+  {
+   "de": "Herr",
+   "art": "der",
+   "pl": "Herren",
+   "es": "señor",
+   "ex": "Auf Wiedersehen, Herr Schmidt!"
+  },
+  {
+   "de": "Spanien",
+   "es": "España",
+   "ex": "Claudia kommt aus Spanien."
+  },
+  {
+   "de": "Deutschland",
+   "es": "Alemania",
+   "ex": "Heidelberg ist in Deutschland."
+  },
+  {
+   "de": "Schweiz",
+   "art": "die",
+   "es": "Suiza",
+   "ex": "Luca kommt aus der Schweiz."
+  },
+  {
+   "de": "Österreich",
+   "es": "Austria",
+   "ex": "Wien ist in Österreich."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "___ heißen Sie?",
+   "o": [
+    "Wie",
+    "Wo",
+    "Woher"
+   ],
+   "a": 0,
+   "exp": "Para preguntar el nombre: «Wie heißen Sie?» (¿Cómo se llama usted?)."
+  },
+  {
+   "t": "mc",
+   "q": "Son las 20:00 y entras en un restaurante. ¿Qué dices?",
+   "o": [
+    "Guten Abend!",
+    "Gute Nacht!",
+    "Guten Morgen!"
+   ],
+   "a": 0,
+   "exp": "«Guten Abend» es el saludo de la tarde-noche; «Gute Nacht» solo se dice al irse a dormir."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué significa «Sie kommt aus Österreich»?",
+   "o": [
+    "Ella es de Austria.",
+    "Usted es de Austria.",
+    "Ellos son de Austria."
+   ],
+   "a": 0,
+   "exp": "«kommt» es la forma de er/sie/es: aquí «sie» = ella. Usted/ellos sería «kommen»."
+  },
+  {
+   "t": "mc",
+   "q": "Paul und Anna ___ in Wien.",
+   "o": [
+    "wohnen",
+    "wohnt",
+    "wohnst"
+   ],
+   "a": 0,
+   "exp": "Paul und Anna = sie (ellos) → wohnen."
+  },
+  {
+   "t": "gap",
+   "q": "Ich ___ Claudia.",
+   "a": [
+    "heiße",
+    "heisse"
+   ],
+   "hint": "heißen",
+   "exp": "ich → -e: ich heiße."
+  },
+  {
+   "t": "gap",
+   "q": "Woher ___ du?",
+   "a": [
+    "kommst"
+   ],
+   "hint": "kommen",
+   "exp": "du → -st: du kommst."
+  },
+  {
+   "t": "gap",
+   "q": "Wir ___ in Heidelberg.",
+   "a": [
+    "wohnen"
+   ],
+   "hint": "wohnen",
+   "exp": "wir → -en: wir wohnen."
+  },
+  {
+   "t": "gap",
+   "q": "Er ___ aus Valencia.",
+   "a": [
+    "kommt"
+   ],
+   "hint": "kommen",
+   "exp": "er/sie/es → -t: er kommt."
+  },
+  {
+   "t": "gap",
+   "q": "Ich komme aus ___ Schweiz.",
+   "a": [
+    "der"
+   ],
+   "hint": "artículo",
+   "exp": "Suiza lleva artículo: aus der Schweiz, in der Schweiz."
+  },
+  {
+   "t": "order",
+   "w": [
+    "du",
+    "Wo",
+    "wohnst"
+   ],
+   "a": "Wo wohnst du?",
+   "es": "¿Dónde vives?"
+  },
+  {
+   "t": "order",
+   "w": [
+    "komme",
+    "Ich",
+    "Spanien",
+    "aus"
+   ],
+   "a": "Ich komme aus Spanien.",
+   "es": "Soy de España."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Sie",
+    "Woher",
+    "kommen"
+   ],
+   "a": "Woher kommen Sie?",
+   "es": "¿De dónde es usted?"
+  },
+  {
+   "t": "listen",
+   "de": "Woher kommen Sie?",
+   "es": "¿De dónde es usted?"
+  },
+  {
+   "t": "listen",
+   "de": "Ich wohne in Berlin.",
+   "es": "Vivo en Berlín."
+  },
+  {
+   "t": "tr",
+   "es": "Me llamo Claudia.",
+   "a": [
+    "Ich heiße Claudia.",
+    "Ich heisse Claudia.",
+    "Mein Name ist Claudia.",
+    "Ich bin Claudia."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "¿Dónde vive usted?",
+   "a": [
+    "Wo wohnen Sie?"
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "Guten Morgen!",
+     "¡Buenos días!"
+    ],
+    [
+     "Tschüss!",
+     "¡Chao!"
+    ],
+    [
+     "Auf Wiedersehen!",
+     "¡Adiós! (formal)"
+    ],
+    [
+     "Gute Nacht!",
+     "¡Buenas noches! (al irse a dormir)"
+    ],
+    [
+     "Danke!",
+     "¡Gracias!"
+    ]
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "wer",
+     "quién"
+    ],
+    [
+     "wo",
+     "dónde"
+    ],
+    [
+     "woher",
+     "de dónde"
+    ],
+    [
+     "was",
+     "qué"
+    ],
+    [
+     "wie",
+     "cómo"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Hallo! Ich heiße Laura. Ich komme aus Madrid, aber ich wohne in Zürich. Zürich ist in der Schweiz. Marco kommt aus Italien. Er wohnt auch in Zürich.",
+   "q": "¿Dónde vive Laura?",
+   "o": [
+    "En Madrid",
+    "En Zúrich",
+    "En Italia"
+   ],
+   "a": 1
+  }
+ ],
+ "speak": [
+  {
+   "de": "Hallo, ich heiße Claudia.",
+   "es": "Hola, me llamo Claudia.",
+   "tip": "«ei» se pronuncia «ai»; «ß» es una s sorda, como la s española. La «h» de «Hallo» es aspirada, suave (no como la j)."
+  },
+  {
+   "de": "Ich komme aus Spanien.",
+   "es": "Soy de España.",
+   "tip": "«ch» de «ich»: pon la lengua como para decir «i» y sopla (como un gato que bufa), no es la j española. «Sp» al inicio suena «schp»: «Schpanien»."
+  },
+  {
+   "de": "Ich wohne in Heidelberg.",
+   "es": "Vivo en Heidelberg.",
+   "tip": "«w» se pronuncia como una v labiodental (dientes sobre el labio), no como la u. La «h» de «wohne» no suena: solo alarga la o."
+  },
+  {
+   "de": "Woher kommen Sie?",
+   "es": "¿De dónde es usted?",
+   "tip": "«Woher»: la h sí suena aquí (aspirada). Acento en la segunda sílaba: wo-HER."
+  },
+  {
+   "de": "Freut mich!",
+   "es": "¡Encantada!",
+   "tip": "«eu» se pronuncia «oi»: «froit mij»."
+  },
+  {
+   "de": "Auf Wiedersehen!",
+   "es": "¡Adiós!",
+   "tip": "«au» = «au»; «ie» = i larga; la «s» delante de vocal suena sonora, como una z zumbante: «vi:der-zeen»."
+  },
+  {
+   "de": "Tschüss, bis morgen!",
+   "es": "¡Chao, hasta mañana!",
+   "tip": "«ü»: di «i» redondeando los labios como para silbar."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "___ wohnst du? – In Madrid.",
+   "o": [
+    "Wo",
+    "Woher",
+    "Wer"
+   ],
+   "a": 0,
+   "exp": "La respuesta es un lugar donde vive: Wo?"
+  },
+  {
+   "t": "mc",
+   "q": "___ ist das? – Das ist Paul.",
+   "o": [
+    "Wer",
+    "Wo",
+    "Wie"
+   ],
+   "a": 0,
+   "exp": "Se pregunta por una persona: Wer? (¿quién?)."
+  },
+  {
+   "t": "gap",
+   "q": "Wie ___ ihr?",
+   "a": [
+    "heißt",
+    "heisst"
+   ],
+   "hint": "heißen",
+   "exp": "ihr → -t; con raíz en -ß: ihr heißt."
+  },
+  {
+   "t": "gap",
+   "q": "Frau Müller, wo ___ Sie?",
+   "a": [
+    "wohnen"
+   ],
+   "hint": "wohnen",
+   "exp": "Sie (usted) → -en: Sie wohnen."
+  },
+  {
+   "t": "gap",
+   "q": "Du ___ aus Spanien, oder?",
+   "a": [
+    "kommst"
+   ],
+   "hint": "kommen",
+   "exp": "du → -st: du kommst."
+  },
+  {
+   "t": "order",
+   "w": [
+    "heißen",
+    "Wie",
+    "Sie"
+   ],
+   "a": "Wie heißen Sie?",
+   "es": "¿Cómo se llama usted?"
+  },
+  {
+   "t": "order",
+   "w": [
+    "wohnt",
+    "in",
+    "Valencia",
+    "Maria"
+   ],
+   "a": "Maria wohnt in Valencia.",
+   "es": "María vive en Valencia."
+  },
+  {
+   "t": "listen",
+   "de": "Guten Tag, Herr Schmidt!",
+   "es": "¡Buenos días, señor Schmidt!"
+  },
+  {
+   "t": "tr",
+   "es": "Soy de Suiza.",
+   "a": [
+    "Ich komme aus der Schweiz."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "ich",
+     "yo"
+    ],
+    [
+     "du",
+     "tú"
+    ],
+    [
+     "wir",
+     "nosotros"
+    ],
+    [
+     "ihr",
+     "vosotros"
+    ],
+    [
+     "Sie",
+     "usted"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Das ist Herr Becker. Er kommt aus Österreich und wohnt in München. Frau Becker kommt aus der Türkei. Sie wohnt auch in München.",
+   "q": "¿De dónde es la señora Becker?",
+   "o": [
+    "De Austria",
+    "De Turquía",
+    "De Múnich"
+   ],
+   "a": 1
+  }
+ ]
+}

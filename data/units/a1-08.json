@@ -1,0 +1,578 @@
+{
+ "id": "a1-08",
+ "level": "A1",
+ "n": 8,
+ "title": "Wohnen",
+ "title_es": "La casa y la descripción",
+ "goals": [
+  "Puedo nombrar las habitaciones y los muebles con su artículo y su plural.",
+  "Puedo describir una casa con adjetivos y colores (Die Wohnung ist hell).",
+  "Puedo decir qué hay y qué no hay con es gibt / es gibt keinen.",
+  "Puedo matizar con sehr, ziemlich y zu, y entender anuncios de pisos y WG."
+ ],
+ "lessons": [
+  {
+   "h": "Zimmer und Möbel – habitaciones y muebles",
+   "html": "<table><thead><tr><th>Singular</th><th>Plural</th><th>Español</th></tr></thead><tbody>\n<tr><td><span class=\"de\">das Zimmer</span></td><td><span class=\"de\">die Zimmer</span></td><td>habitación</td></tr>\n<tr><td><span class=\"de\">die Küche</span></td><td><span class=\"de\">die Küchen</span></td><td>cocina</td></tr>\n<tr><td><span class=\"de\">das Bad</span></td><td><span class=\"de\">die Bäder</span></td><td>baño</td></tr>\n<tr><td><span class=\"de\">das Schlafzimmer</span></td><td><span class=\"de\">die Schlafzimmer</span></td><td>dormitorio</td></tr>\n<tr><td><span class=\"de\">das Wohnzimmer</span></td><td><span class=\"de\">die Wohnzimmer</span></td><td>salón</td></tr>\n<tr><td><span class=\"de\">der Flur</span></td><td><span class=\"de\">die Flure</span></td><td>pasillo, recibidor</td></tr>\n<tr><td><span class=\"de\">der Balkon</span></td><td><span class=\"de\">die Balkone</span></td><td>balcón</td></tr>\n<tr><td><span class=\"de\">der Tisch</span></td><td><span class=\"de\">die Tische</span></td><td>mesa</td></tr>\n<tr><td><span class=\"de\">der Stuhl</span></td><td><span class=\"de\">die Stühle</span></td><td>silla</td></tr>\n<tr><td><span class=\"de\">der Schrank</span></td><td><span class=\"de\">die Schränke</span></td><td>armario</td></tr>\n<tr><td><span class=\"de\">der Sessel</span></td><td><span class=\"de\">die Sessel</span></td><td>sillón</td></tr>\n<tr><td><span class=\"de\">das Bett</span></td><td><span class=\"de\">die Betten</span></td><td>cama</td></tr>\n<tr><td><span class=\"de\">das Regal</span></td><td><span class=\"de\">die Regale</span></td><td>estantería</td></tr>\n<tr><td><span class=\"de\">das Sofa</span></td><td><span class=\"de\">die Sofas</span></td><td>sofá</td></tr>\n<tr><td><span class=\"de\">die Lampe</span></td><td><span class=\"de\">die Lampen</span></td><td>lámpara</td></tr>\n</tbody></table>\n<p>Pistas de plural: palabras en <b>-er/-el</b> no cambian (<span class=\"de\">Zimmer, Sessel</span>); muchos masculinos cortos toman <b>-e + Umlaut</b> (<span class=\"de\">Stuhl → Stühle, Schrank → Schränke</span>); femeninos en <b>-e</b> toman <b>-n</b> (<span class=\"de\">Lampe → Lampen</span>); palabras extranjeras, <b>-s</b> (<span class=\"de\">Sofa → Sofas</span>). El artículo plural es siempre <span class=\"de\">die</span>.</p>\n<p><b>Ojo:</b> <span class=\"de\">die Möbel</span> (los muebles) se usa casi siempre en plural.</p>"
+  },
+  {
+   "h": "Die Wohnung ist hell – adjetivos predicativos",
+   "html": "<p>Detrás de <span class=\"de\">sein</span> (y de <span class=\"de\">finden</span>) el adjetivo <b>no cambia nunca</b>: ni género ni número.</p>\n<table><thead><tr><th>Alemán</th><th>Español</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Der Tisch ist neu.</span></td><td>La mesa es nuev<b>a</b>.</td></tr>\n<tr><td><span class=\"de\">Die Lampe ist neu.</span></td><td>La lámpara es nuev<b>a</b>.</td></tr>\n<tr><td><span class=\"de\">Das Bett ist neu.</span></td><td>La cama es nuev<b>a</b>.</td></tr>\n<tr><td><span class=\"de\">Die Stühle sind neu.</span></td><td>Las sillas son nuev<b>as</b>.</td></tr>\n</tbody></table>\n<p><b>Ojo:</b> no digas <span class=\"de\">*Die Stühle sind neue</span>: el español concuerda, el alemán aquí no.</p>\n<p>Para no repetir el nombre, usa el pronombre según el <b>género alemán</b>: <span class=\"de\">der → er, die → sie, das → es, Plural → sie</span>. <span class=\"de\">Der Schrank ist alt. Er ist braun.</span> <b>Ojo:</b> los objetos masculinos son <span class=\"de\">er</span> (no <span class=\"de\">es</span>), aunque en español sean femeninos: <span class=\"de\">Wie ist der Balkon? – Er ist klein.</span></p>\n<p>Parejas útiles: <span class=\"de\">groß – klein, hell – dunkel, neu – alt, teuer – billig, ruhig – laut, schön – hässlich</span>; además <span class=\"de\">gemütlich</span> (acogedor), <span class=\"de\">modern, praktisch</span>.</p>\n<p><b>Colores:</b> <span class=\"de\">rot, blau, grün, gelb, weiß, schwarz, grau, braun, orange, rosa</span>. Matices: <span class=\"de\">hellblau, dunkelgrün</span>. Pregunta: <span class=\"de\">Welche Farbe hat das Sofa? – Es ist grau.</span></p>"
+  },
+  {
+   "h": "Es gibt … / Es gibt keinen …",
+   "html": "<p><span class=\"de\">es gibt</span> = «hay». Va siempre con <b>acusativo</b> (solo cambia el masculino, como en la unidad 5) y siempre en singular, aunque lo que haya sea plural.</p>\n<table><thead><tr><th></th><th>hay</th><th>no hay</th></tr></thead><tbody>\n<tr><td>der Balkon</td><td><span class=\"de\">Es gibt einen Balkon.</span></td><td><span class=\"de\">Es gibt keinen Balkon.</span></td></tr>\n<tr><td>die Küche</td><td><span class=\"de\">Es gibt eine Küche.</span></td><td><span class=\"de\">Es gibt keine Küche.</span></td></tr>\n<tr><td>das Bad</td><td><span class=\"de\">Es gibt ein Bad.</span></td><td><span class=\"de\">Es gibt kein Bad.</span></td></tr>\n<tr><td>Plural</td><td><span class=\"de\">Es gibt zwei Bäder.</span></td><td><span class=\"de\">Es gibt keine Stühle.</span></td></tr>\n</tbody></table>\n<p>Pregunta: <span class=\"de\">Gibt es einen Balkon?</span> También con <span class=\"de\">haben</span>: <span class=\"de\">Die Wohnung hat einen Balkon.</span></p>\n<p><b>Ojo:</b> «hay tres habitaciones» = <span class=\"de\">Es gibt drei Zimmer</span>, nunca <span class=\"de\">*Es geben</span>. Y el masculino necesita <span class=\"de\">einen/keinen</span>.</p>"
+  },
+  {
+   "h": "sehr, ziemlich, zu",
+   "html": "<table><thead><tr><th>Alemán</th><th>Español</th><th>Ejemplo</th></tr></thead><tbody>\n<tr><td><span class=\"de\">sehr</span></td><td>muy</td><td><span class=\"de\">Die Küche ist sehr schön.</span></td></tr>\n<tr><td><span class=\"de\">ziemlich</span></td><td>bastante</td><td><span class=\"de\">Das Zimmer ist ziemlich klein.</span></td></tr>\n<tr><td><span class=\"de\">zu</span></td><td>demasiado</td><td><span class=\"de\">Die Wohnung ist zu teuer.</span></td></tr>\n<tr><td><span class=\"de\">nicht so</span></td><td>no muy</td><td><span class=\"de\">Der Balkon ist nicht so groß.</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">zu</span> siempre indica un <b>problema</b>: <span class=\"de\">Die Wohnung ist zu teuer</span> = no puedo pagarla. Si solo quieres decir «muy», usa <span class=\"de\">sehr</span>. <span class=\"de\">*Das Sofa ist zu schön</span> suena raro.</p>"
+  },
+  {
+   "h": "Wohnungssuche – buscar piso",
+   "html": "<ul>\n<li><span class=\"de\">die Miete</span>: alquiler. <span class=\"de\">Kaltmiete</span> = sin gastos; <span class=\"de\">Warmmiete</span> = con calefacción y gastos (<span class=\"de\">Nebenkosten</span>).</li>\n<li><span class=\"de\">die WG</span> (<span class=\"de\">Wohngemeinschaft</span>): piso compartido; <span class=\"de\">das WG-Zimmer</span>.</li>\n<li><span class=\"de\">möbliert</span>: amueblado. <span class=\"de\">die Kaution</span>: fianza. <span class=\"de\">m²</span> = <span class=\"de\">Quadratmeter</span>.</li>\n<li><span class=\"de\">2-Zi.-Whg.</span> = <span class=\"de\">Zwei-Zimmer-Wohnung</span>.</li>\n</ul>\n<p><b>Ojo:</b> en Alemania los <span class=\"de\">Zimmer</span> de un anuncio no cuentan cocina ni baño: una <span class=\"de\">Drei-Zimmer-Wohnung</span> suele ser salón + 2 dormitorios.</p>\n<p>Preguntas útiles: <span class=\"de\">Ist das Zimmer noch frei?</span> – <span class=\"de\">Wie hoch ist die Miete?</span> – <span class=\"de\">Wie groß ist die Wohnung? – Sie ist 60 Quadratmeter groß.</span> – <span class=\"de\">Gibt es eine Waschmaschine?</span></p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "Wohnung",
+   "art": "die",
+   "pl": "Wohnungen",
+   "es": "piso, vivienda",
+   "ex": "Die Wohnung ist hell."
+  },
+  {
+   "de": "Zimmer",
+   "art": "das",
+   "pl": "Zimmer",
+   "es": "habitación",
+   "ex": "Die Wohnung hat drei Zimmer."
+  },
+  {
+   "de": "Küche",
+   "art": "die",
+   "pl": "Küchen",
+   "es": "cocina",
+   "ex": "Die Küche ist klein."
+  },
+  {
+   "de": "Bad",
+   "art": "das",
+   "pl": "Bäder",
+   "es": "baño",
+   "ex": "Es gibt zwei Bäder."
+  },
+  {
+   "de": "Schlafzimmer",
+   "art": "das",
+   "pl": "Schlafzimmer",
+   "es": "dormitorio",
+   "ex": "Das Schlafzimmer ist ruhig."
+  },
+  {
+   "de": "Wohnzimmer",
+   "art": "das",
+   "pl": "Wohnzimmer",
+   "es": "salón",
+   "ex": "Das Wohnzimmer ist gemütlich."
+  },
+  {
+   "de": "Balkon",
+   "art": "der",
+   "pl": "Balkone",
+   "es": "balcón",
+   "ex": "Es gibt keinen Balkon."
+  },
+  {
+   "de": "Tisch",
+   "art": "der",
+   "pl": "Tische",
+   "es": "mesa",
+   "ex": "Der Tisch ist neu."
+  },
+  {
+   "de": "Stuhl",
+   "art": "der",
+   "pl": "Stühle",
+   "es": "silla",
+   "ex": "Die Stühle sind schwarz."
+  },
+  {
+   "de": "Schrank",
+   "art": "der",
+   "pl": "Schränke",
+   "es": "armario",
+   "ex": "Der Schrank ist zu groß."
+  },
+  {
+   "de": "Bett",
+   "art": "das",
+   "pl": "Betten",
+   "es": "cama",
+   "ex": "Das Bett ist bequem."
+  },
+  {
+   "de": "Sofa",
+   "art": "das",
+   "pl": "Sofas",
+   "es": "sofá",
+   "ex": "Das Sofa ist grau."
+  },
+  {
+   "de": "Lampe",
+   "art": "die",
+   "pl": "Lampen",
+   "es": "lámpara",
+   "ex": "Die Lampe ist gelb."
+  },
+  {
+   "de": "Regal",
+   "art": "das",
+   "pl": "Regale",
+   "es": "estantería",
+   "ex": "Das Regal ist weiß."
+  },
+  {
+   "de": "Miete",
+   "art": "die",
+   "pl": "Mieten",
+   "es": "alquiler",
+   "ex": "Die Miete ist 500 Euro."
+  },
+  {
+   "de": "WG",
+   "art": "die",
+   "pl": "WGs",
+   "es": "piso compartido",
+   "ex": "Die WG ist groß."
+  },
+  {
+   "de": "hell",
+   "es": "luminoso, claro",
+   "ex": "Das Zimmer ist sehr hell."
+  },
+  {
+   "de": "dunkel",
+   "es": "oscuro",
+   "ex": "Der Flur ist dunkel."
+  },
+  {
+   "de": "gemütlich",
+   "es": "acogedor",
+   "ex": "Die Küche ist gemütlich."
+  },
+  {
+   "de": "teuer",
+   "es": "caro",
+   "ex": "Die Wohnung ist zu teuer."
+  },
+  {
+   "de": "billig",
+   "es": "barato",
+   "ex": "Das Zimmer ist billig."
+  },
+  {
+   "de": "ruhig",
+   "es": "tranquilo",
+   "ex": "Die Straße ist ruhig."
+  },
+  {
+   "de": "laut",
+   "es": "ruidoso",
+   "ex": "Das Zimmer ist ziemlich laut."
+  },
+  {
+   "de": "ziemlich",
+   "es": "bastante",
+   "ex": "Der Balkon ist ziemlich klein."
+  },
+  {
+   "de": "zu",
+   "es": "demasiado (+ adjetivo)",
+   "ex": "Das Bett ist zu kurz."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Der Schrank ist alt. ___ ist braun.",
+   "o": [
+    "Er",
+    "Sie",
+    "Es"
+   ],
+   "a": 0,
+   "exp": "der Schrank → er."
+  },
+  {
+   "t": "mc",
+   "q": "Die Lampen ___ sehr modern.",
+   "o": [
+    "ist",
+    "sind",
+    "gibt"
+   ],
+   "a": 1,
+   "exp": "Plural: die Lampen sind."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuál es el plural de «der Stuhl»?",
+   "o": [
+    "die Stuhle",
+    "die Stühle",
+    "die Stühlen"
+   ],
+   "a": 1,
+   "exp": "der Stuhl → die Stühle (-e + Umlaut)."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuál es el plural de «das Bad»?",
+   "o": [
+    "die Bads",
+    "die Bäder",
+    "die Bade"
+   ],
+   "a": 1,
+   "exp": "das Bad → die Bäder."
+  },
+  {
+   "t": "mc",
+   "q": "Es gibt ___ Balkon. (no hay)",
+   "o": [
+    "kein",
+    "keine",
+    "keinen"
+   ],
+   "a": 2,
+   "exp": "der Balkon, acusativo masculino: keinen."
+  },
+  {
+   "t": "mc",
+   "q": "Das Zimmer kostet 1.500 Euro. Das ist ___ teuer für mich – ich nehme es nicht.",
+   "o": [
+    "zu",
+    "nicht so",
+    "gar nicht"
+   ],
+   "a": 0,
+   "exp": "zu = demasiado, indica un problema."
+  },
+  {
+   "t": "gap",
+   "q": "Die Küche ist klein, aber ___ ist hell.",
+   "a": [
+    "sie"
+   ],
+   "hint": "pronombre (die Küche)",
+   "exp": "die Küche → sie."
+  },
+  {
+   "t": "gap",
+   "q": "Die Wohnung hat ___ Balkon. (un)",
+   "a": [
+    "einen"
+   ],
+   "hint": "ein (der Balkon)",
+   "exp": "haben + acusativo; masculino: einen."
+  },
+  {
+   "t": "gap",
+   "q": "Das WG-Zimmer ist schön, aber es gibt ___ Schrank.",
+   "a": [
+    "keinen"
+   ],
+   "hint": "kein (der Schrank)",
+   "exp": "es gibt + acusativo masculino: keinen."
+  },
+  {
+   "t": "gap",
+   "q": "Das Sofa ist neu. Die Sessel ___ alt.",
+   "a": [
+    "sind"
+   ],
+   "hint": "sein",
+   "exp": "die Sessel es plural: sind."
+  },
+  {
+   "t": "order",
+   "w": [
+    "ist",
+    "Wohnzimmer",
+    "Das",
+    "hell",
+    "ziemlich"
+   ],
+   "a": "Das Wohnzimmer ist ziemlich hell.",
+   "es": "El salón es bastante luminoso."
+  },
+  {
+   "t": "order",
+   "w": [
+    "es",
+    "Gibt",
+    "Balkon",
+    "einen"
+   ],
+   "a": "Gibt es einen Balkon?",
+   "es": "¿Hay balcón?"
+  },
+  {
+   "t": "order",
+   "w": [
+    "keine",
+    "Es",
+    "Stühle",
+    "gibt"
+   ],
+   "a": "Es gibt keine Stühle.",
+   "es": "No hay sillas."
+  },
+  {
+   "t": "listen",
+   "de": "Die Wohnung hat drei Zimmer und einen Balkon.",
+   "es": "El piso tiene tres habitaciones y un balcón."
+  },
+  {
+   "t": "listen",
+   "de": "Das Sofa ist grau und die Lampe ist gelb.",
+   "es": "El sofá es gris y la lámpara es amarilla."
+  },
+  {
+   "t": "tr",
+   "es": "El piso es demasiado oscuro.",
+   "a": [
+    "Die Wohnung ist zu dunkel."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "La cocina es bastante pequeña.",
+   "a": [
+    "Die Küche ist ziemlich klein."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "rot",
+     "rojo"
+    ],
+    [
+     "blau",
+     "azul"
+    ],
+    [
+     "grün",
+     "verde"
+    ],
+    [
+     "gelb",
+     "amarillo"
+    ],
+    [
+     "weiß",
+     "blanco"
+    ]
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "teuer",
+     "caro"
+    ],
+    [
+     "billig",
+     "barato"
+    ],
+    [
+     "laut",
+     "ruidoso"
+    ],
+    [
+     "ruhig",
+     "tranquilo"
+    ],
+    [
+     "gemütlich",
+     "acogedor"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "WG-Zimmer in Heidelberg: 14 m², hell und ruhig, möbliert (Bett, Schrank, Tisch). Miete: 420 Euro warm. Es gibt eine Küche und ein Bad, aber keinen Balkon. Wir sind drei Studentinnen.",
+   "q": "¿Qué NO tiene el piso?",
+   "o": [
+    "Cocina",
+    "Baño",
+    "Balcón"
+   ],
+   "a": 2
+  }
+ ],
+ "speak": [
+  {
+   "de": "Die Wohnung ist sehr hell.",
+   "es": "El piso es muy luminoso.",
+   "tip": "La «h» de «hell» es una aspiración suave (como echar vaho), no una jota. «W» = v francesa."
+  },
+  {
+   "de": "Gibt es einen Balkon?",
+   "es": "¿Hay balcón?",
+   "tip": "La «G» es siempre dura, como en «gato». «ei» suena «ai»."
+  },
+  {
+   "de": "Das Zimmer ist zu klein.",
+   "es": "La habitación es demasiado pequeña.",
+   "tip": "La «z» suena «ts»: «tsímer», «tsu»."
+  },
+  {
+   "de": "Die Küche ist gemütlich.",
+   "es": "La cocina es acogedora.",
+   "tip": "«ü»: di «i» con labios de «u». La «ch» tras «ü» o «i» es suave, como en «ich»."
+  },
+  {
+   "de": "Wie hoch ist die Miete?",
+   "es": "¿Cuánto es el alquiler?",
+   "tip": "La «ch» de «hoch» es fuerte (jota) porque va tras «o». «ie» = i larga."
+  },
+  {
+   "de": "Das Sofa ist grau.",
+   "es": "El sofá es gris.",
+   "tip": "La «s» inicial delante de vocal es sonora: «zofa». «au» como en «aula»."
+  },
+  {
+   "de": "Ist das Zimmer noch frei?",
+   "es": "¿Está libre todavía la habitación?",
+   "tip": "«frei» = «frai». La «r» alemana se hace al fondo de la garganta."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Das Bett ist neu. ___ ist sehr bequem.",
+   "o": [
+    "Er",
+    "Sie",
+    "Es"
+   ],
+   "a": 2,
+   "exp": "das Bett → es."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuál es el plural de «der Schrank»?",
+   "o": [
+    "die Schranke",
+    "die Schränke",
+    "die Schränken"
+   ],
+   "a": 1,
+   "exp": "der Schrank → die Schränke."
+  },
+  {
+   "t": "mc",
+   "q": "Es gibt ___ Küche. (no hay)",
+   "o": [
+    "kein",
+    "keine",
+    "keinen"
+   ],
+   "a": 1,
+   "exp": "die Küche: keine."
+  },
+  {
+   "t": "mc",
+   "q": "Die Stühle sind ___.",
+   "o": [
+    "rot",
+    "rote",
+    "roten"
+   ],
+   "a": 0,
+   "exp": "Detrás de sein el adjetivo no cambia."
+  },
+  {
+   "t": "gap",
+   "q": "Gibt es ___ Tisch? (un)",
+   "a": [
+    "einen"
+   ],
+   "hint": "ein (der Tisch)",
+   "exp": "es gibt + acusativo masculino: einen."
+  },
+  {
+   "t": "gap",
+   "q": "Der Balkon ist groß, aber ___ ist laut.",
+   "a": [
+    "er"
+   ],
+   "hint": "pronombre (der Balkon)",
+   "exp": "der Balkon → er."
+  },
+  {
+   "t": "order",
+   "w": [
+    "zu",
+    "ist",
+    "Miete",
+    "Die",
+    "hoch"
+   ],
+   "a": "Die Miete ist zu hoch.",
+   "es": "El alquiler es demasiado alto."
+  },
+  {
+   "t": "listen",
+   "de": "Ist das Zimmer noch frei?",
+   "es": "¿Está libre todavía la habitación?"
+  },
+  {
+   "t": "tr",
+   "es": "No hay sofá.",
+   "a": [
+    "Es gibt kein Sofa."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "die Küche",
+     "la cocina"
+    ],
+    [
+     "das Bad",
+     "el baño"
+    ],
+    [
+     "das Schlafzimmer",
+     "el dormitorio"
+    ],
+    [
+     "das Wohnzimmer",
+     "el salón"
+    ],
+    [
+     "der Flur",
+     "el pasillo"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Anna sucht eine Wohnung in Berlin. Die Wohnung in Kreuzberg ist schön und hell, aber sie ist zu teuer: 1.200 Euro. Die Wohnung in Spandau ist billig, aber ziemlich dunkel.",
+   "q": "¿Cuál es el problema del piso de Kreuzberg?",
+   "o": [
+    "Es oscuro",
+    "Es demasiado caro",
+    "Es pequeño"
+   ],
+   "a": 1
+  }
+ ]
+}

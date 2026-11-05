@@ -1,0 +1,530 @@
+{
+ "id": "a2-06",
+ "level": "A2",
+ "n": 18,
+ "title": "Ein schönes Wochenende",
+ "title_es": "Declinación del adjetivo (básico)",
+ "goals": [
+  "Puedo distinguir el adjetivo predicativo (Das Kleid ist schön) del atributivo (ein schönes Kleid).",
+  "Puedo declinar el adjetivo tras der/die/das en nominativo y acusativo.",
+  "Puedo declinar el adjetivo tras ein/kein/mein en nominativo y acusativo.",
+  "Sé que en dativo el adjetivo tras artículo termina siempre en -en.",
+  "Puedo describir ropa, comida y personas."
+ ],
+ "lessons": [
+  {
+   "h": "Predicativo vs. atributivo",
+   "html": "<p>Después de <b>sein</b>, <b>werden</b> o <b>bleiben</b> el adjetivo <b>no cambia</b>: <span class=\"de\">Der Laptop ist neu.</span> <span class=\"de\">Die Schuhe sind teuer.</span></p><p>Pero cuando va <b>delante de un sustantivo</b> (atributivo) <b>siempre lleva terminación</b>: <span class=\"de\">der neue Laptop</span>, <span class=\"de\">teure Schuhe</span>.</p><p>En español el adjetivo suele ir detrás (<i>el portátil nuevo</i>); en alemán va <b>siempre delante</b> del sustantivo: <span class=\"de\">ein neuer Laptop</span>, nunca <i>ein Laptop neuer</i>.</p><p><b>Idea clave:</b> el género y el caso tienen que verse <b>al menos una vez</b>. Si el artículo ya los muestra (der, den, das…), el adjetivo lleva una terminación «floja» (-e / -en). Si el artículo no los muestra (ein), el adjetivo los toma él mismo (-er / -es).</p>"
+  },
+  {
+   "h": "Tras artículo determinado (der, die, das)",
+   "html": "<table><thead><tr><th></th><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td><b>Nom.</b></td><td>der neu<b>e</b> Laptop</td><td>die neu<b>e</b> Jacke</td><td>das neu<b>e</b> Handy</td><td>die neu<b>en</b> Schuhe</td></tr><tr><td><b>Akk.</b></td><td>den neu<b>en</b> Laptop</td><td>die neu<b>e</b> Jacke</td><td>das neu<b>e</b> Handy</td><td>die neu<b>en</b> Schuhe</td></tr></tbody></table><p><b>Regla:</b> <b>-e</b> solo en los cinco casos «de diccionario» (der/die/das en nominativo y die/das en acusativo). En todo lo demás: <b>-en</b>. Lo mismo vale tras <span class=\"de\">dieser, jeder, welcher</span>.</p><p><span class=\"de\">Der rote Pullover ist schön.</span> · <span class=\"de\">Ich nehme den roten Pullover.</span> · <span class=\"de\">Die neuen Schuhe sind bequem.</span></p>"
+  },
+  {
+   "h": "Tras artículo indeterminado (ein, kein, mein…)",
+   "html": "<table><thead><tr><th></th><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td><b>Nom.</b></td><td>ein neu<b>er</b> Laptop</td><td>eine neu<b>e</b> Jacke</td><td>ein neu<b>es</b> Handy</td><td>keine neu<b>en</b> Schuhe</td></tr><tr><td><b>Akk.</b></td><td>einen neu<b>en</b> Laptop</td><td>eine neu<b>e</b> Jacke</td><td>ein neu<b>es</b> Handy</td><td>keine neu<b>en</b> Schuhe</td></tr></tbody></table><p><span class=\"de\">ein</span> no deja ver si el sustantivo es masculino o neutro, así que el adjetivo «lo dice»: <b>-er</b> (como <i>der</i>) y <b>-es</b> (como <i>das</i>). Igual con <span class=\"de\">kein</span> y los posesivos: <span class=\"de\">mein neuer Trainer</span>, <span class=\"de\">unser altes Auto</span>, <span class=\"de\">Ich habe keinen warmen Pullover.</span></p><p>Plural <b>sin artículo</b>: <b>-e</b> → <span class=\"de\">Ich brauche neue Schuhe.</span> <span class=\"de\">Hier gibt es frische Brötchen.</span></p>"
+  },
+  {
+   "h": "Dativo: la regla fácil (-en)",
+   "html": "<p>En dativo, tras cualquier artículo (der/ein/kein/mein…), el adjetivo termina <b>siempre en -en</b>:</p><table><thead><tr><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td>mit dem neu<b>en</b> Laptop</td><td>in einer klein<b>en</b> Wohnung</td><td>mit meinem alt<b>en</b> Fahrrad</td><td>mit den neu<b>en</b> Schuhe<b>n</b></td></tr></tbody></table><p>Recuerda: en dativo plural también el sustantivo lleva <b>-n</b>: <span class=\"de\">mit meinen alten Freunden</span>.</p>"
+  },
+  {
+   "h": "Ojo: errores típicos",
+   "html": "<ul><li>Olvidar la terminación: ✗ <i>ein neu Laptop</i> → ✓ <span class=\"de\">ein neuer Laptop</span>.</li><li>Acusativo masculino: ¡dos veces -n! ✓ <span class=\"de\">Ich kaufe einen neuen Laptop.</span> (no <i>einen neuer</i>).</li><li>Poner terminación al predicativo: ✗ <i>Das Kleid ist schönes</i> → ✓ <span class=\"de\">Das Kleid ist schön.</span></li><li>Adjetivos que pierden una -e-: <span class=\"de\">teuer → ein teures Kleid</span>, <span class=\"de\">dunkel → eine dunkle Jacke</span>. Y <span class=\"de\">hoch → ein hoher Berg</span> (pierde la c).</li><li>Varios adjetivos seguidos llevan la misma terminación: <span class=\"de\">ein großer, sportlicher Mann</span>.</li><li><span class=\"de\">lila, rosa</span> y <span class=\"de\">orange</span> no se declinan: <span class=\"de\">ein lila Kleid</span>.</li></ul>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "Rock",
+   "art": "der",
+   "pl": "Röcke",
+   "es": "falda",
+   "ex": "Der kurze Rock ist schön."
+  },
+  {
+   "de": "Hose",
+   "art": "die",
+   "pl": "Hosen",
+   "es": "pantalón",
+   "ex": "Ich suche eine schwarze Hose."
+  },
+  {
+   "de": "Hemd",
+   "art": "das",
+   "pl": "Hemden",
+   "es": "camisa",
+   "ex": "Das weiße Hemd ist elegant."
+  },
+  {
+   "de": "Kleid",
+   "art": "das",
+   "pl": "Kleider",
+   "es": "vestido",
+   "ex": "Sie trägt ein rotes Kleid."
+  },
+  {
+   "de": "Jacke",
+   "art": "die",
+   "pl": "Jacken",
+   "es": "chaqueta",
+   "ex": "Die neue Jacke ist warm."
+  },
+  {
+   "de": "Pullover",
+   "art": "der",
+   "pl": "Pullover",
+   "es": "jersey",
+   "ex": "Ich nehme den blauen Pullover."
+  },
+  {
+   "de": "Schuh",
+   "art": "der",
+   "pl": "Schuhe",
+   "es": "zapato",
+   "ex": "Ich brauche neue Schuhe."
+  },
+  {
+   "de": "Boxhandschuh",
+   "art": "der",
+   "pl": "Boxhandschuhe",
+   "es": "guante de boxeo",
+   "ex": "Meine alten Boxhandschuhe sind kaputt."
+  },
+  {
+   "de": "Markt",
+   "art": "der",
+   "pl": "Märkte",
+   "es": "mercado",
+   "ex": "Auf dem Markt gibt es frisches Obst."
+  },
+  {
+   "de": "Wochenende",
+   "art": "das",
+   "pl": "Wochenenden",
+   "es": "fin de semana",
+   "ex": "Schönes Wochenende!"
+  },
+  {
+   "de": "tragen",
+   "es": "llevar (ropa), cargar",
+   "ex": "Er trägt einen grauen Mantel."
+  },
+  {
+   "de": "bequem",
+   "es": "cómodo",
+   "ex": "Die Schuhe sind sehr bequem."
+  },
+  {
+   "de": "eng",
+   "es": "estrecho, ajustado",
+   "ex": "Die Hose ist zu eng."
+  },
+  {
+   "de": "weit",
+   "es": "ancho, holgado",
+   "ex": "Ich mag weite Pullover."
+  },
+  {
+   "de": "teuer",
+   "es": "caro",
+   "ex": "Das ist ein teures Hemd."
+  },
+  {
+   "de": "billig",
+   "es": "barato",
+   "ex": "Ich habe eine billige Jacke gekauft."
+  },
+  {
+   "de": "günstig",
+   "es": "económico, a buen precio",
+   "ex": "Der Laptop ist günstig."
+  },
+  {
+   "de": "lecker",
+   "es": "rico, sabroso",
+   "ex": "Das ist ein leckerer Kuchen."
+  },
+  {
+   "de": "frisch",
+   "es": "fresco",
+   "ex": "Wir kaufen frisches Brot."
+  },
+  {
+   "de": "scharf",
+   "es": "picante",
+   "ex": "Ich mag scharfes Essen."
+  },
+  {
+   "de": "nett",
+   "es": "amable, simpático",
+   "ex": "Sie ist eine nette Kollegin."
+  },
+  {
+   "de": "lustig",
+   "es": "divertido, gracioso",
+   "ex": "Er ist ein lustiger Mensch."
+  },
+  {
+   "de": "sportlich",
+   "es": "deportista, deportivo",
+   "ex": "Mein Bruder ist sehr sportlich."
+  },
+  {
+   "de": "dunkel",
+   "es": "oscuro",
+   "ex": "Sie hat dunkle Haare."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Der ___ Laptop ist sehr teuer.",
+   "o": [
+    "neue",
+    "neuer",
+    "neuen"
+   ],
+   "a": 0,
+   "exp": "Nominativo masculino tras «der»: el artículo ya muestra el género, el adjetivo lleva -e."
+  },
+  {
+   "t": "mc",
+   "q": "Ich kaufe einen ___ Pullover.",
+   "o": [
+    "warmen",
+    "warme",
+    "warmer"
+   ],
+   "a": 0,
+   "exp": "Acusativo masculino: einen + -en (dos veces -n)."
+  },
+  {
+   "t": "gap",
+   "q": "Das ist ein ___ Kleid.",
+   "a": [
+    "schönes"
+   ],
+   "hint": "schön",
+   "exp": "Neutro tras «ein» (nominativo): el adjetivo toma -es, como «das»."
+  },
+  {
+   "t": "gap",
+   "q": "Heute trage ich die ___ Jacke.",
+   "a": [
+    "rote"
+   ],
+   "hint": "rot",
+   "exp": "Acusativo femenino tras «die»: -e (femenino no cambia en acusativo)."
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "ein teures Hemd",
+     "una camisa cara"
+    ],
+    [
+     "eine bequeme Hose",
+     "unos pantalones cómodos"
+    ],
+    [
+     "ein warmer Pullover",
+     "un jersey calentito"
+    ],
+    [
+     "frische Brötchen",
+     "panecillos frescos"
+    ],
+    [
+     "die scharfe Soße",
+     "la salsa picante"
+    ]
+   ]
+  },
+  {
+   "t": "order",
+   "w": [
+    "kaufe",
+    "Ich",
+    "schwarzen",
+    "einen",
+    "Rock"
+   ],
+   "a": "Ich kaufe einen schwarzen Rock.",
+   "es": "Me compro una falda negra."
+  },
+  {
+   "t": "listen",
+   "de": "Das ist ein sehr leckerer Kuchen.",
+   "es": "Es un pastel muy rico."
+  },
+  {
+   "t": "tr",
+   "es": "Tengo un perro pequeño.",
+   "a": [
+    "Ich habe einen kleinen Hund."
+   ]
+  },
+  {
+   "t": "mc",
+   "q": "Ich fahre mit dem ___ Fahrrad zur Uni.",
+   "o": [
+    "neuen",
+    "neue",
+    "neues"
+   ],
+   "a": 0,
+   "exp": "Dativo (mit dem): el adjetivo termina siempre en -en."
+  },
+  {
+   "t": "gap",
+   "q": "Wir essen heute in einem ___ Restaurant.",
+   "a": [
+    "italienischen"
+   ],
+   "hint": "italienisch",
+   "exp": "Dativo (in einem): -en."
+  },
+  {
+   "t": "mc",
+   "q": "Mein Trainer ist ein sehr ___ Mann.",
+   "o": [
+    "ruhiger",
+    "ruhige",
+    "ruhigen"
+   ],
+   "a": 0,
+   "exp": "Nominativo masculino tras «ein»: -er (sein + nominativo)."
+  },
+  {
+   "t": "order",
+   "w": [
+    "sind",
+    "neuen",
+    "Die",
+    "bequem",
+    "Schuhe"
+   ],
+   "a": "Die neuen Schuhe sind bequem.",
+   "es": "Los zapatos nuevos son cómodos."
+  },
+  {
+   "t": "gap",
+   "q": "Das Hemd ist leider sehr ___.",
+   "a": [
+    "teuer"
+   ],
+   "hint": "teuer",
+   "exp": "Después de «sein» el adjetivo no lleva terminación."
+  },
+  {
+   "t": "tr",
+   "es": "La chaqueta azul es bonita.",
+   "a": [
+    "Die blaue Jacke ist schön.",
+    "Die blaue Jacke ist hübsch."
+   ]
+  },
+  {
+   "t": "mc",
+   "q": "Ich habe ein ___ Problem mit meinem Laptop.",
+   "o": [
+    "großes",
+    "großer",
+    "große"
+   ],
+   "a": 0,
+   "exp": "Acusativo neutro tras «ein»: -es."
+  },
+  {
+   "t": "listen",
+   "de": "Ich brauche neue Boxhandschuhe.",
+   "es": "Necesito guantes de boxeo nuevos."
+  },
+  {
+   "t": "read",
+   "text": "Am Samstag war ich mit meiner Schwester auf dem Markt. Wir haben frisches Obst und einen leckeren Käse gekauft. Dann habe ich ein schönes Kleid gesehen. Das Kleid war aber zu teuer. Am Ende habe ich nur eine billige Sonnenbrille gekauft.",
+   "q": "¿Qué compró al final?",
+   "o": [
+    "un vestido bonito",
+    "unas gafas de sol baratas",
+    "un queso caro"
+   ],
+   "a": 1
+  },
+  {
+   "t": "read",
+   "text": "Das ist mein Freund Jonas. Er ist ein großer, sportlicher Mann mit kurzen, dunklen Haaren. Heute trägt er eine blaue Jeans und ein weißes T-Shirt. Jonas ist sehr lustig, aber manchmal ein bisschen chaotisch.",
+   "q": "¿Qué lleva Jonas hoy?",
+   "o": [
+    "vaqueros azules y camiseta blanca",
+    "vaqueros negros y camisa blanca",
+    "un jersey azul"
+   ],
+   "a": 0
+  },
+  {
+   "t": "tr",
+   "es": "Busco un piso barato.",
+   "a": [
+    "Ich suche eine billige Wohnung.",
+    "Ich suche eine günstige Wohnung."
+   ]
+  }
+ ],
+ "speak": [
+  {
+   "de": "Ich hätte gern einen schwarzen Pullover.",
+   "es": "Querría un jersey negro.",
+   "tip": "«sch» como «sh» inglés; la -en final de «schwarzen» casi se reduce a «n»."
+  },
+  {
+   "de": "Das ist ein schönes Kleid.",
+   "es": "Es un vestido bonito.",
+   "tip": "«ö»: pon los labios como para «o» y di «e»."
+  },
+  {
+   "de": "Die neue Jacke ist sehr bequem.",
+   "es": "La chaqueta nueva es muy cómoda.",
+   "tip": "«eu» suena «oi»; «qu» suena «kv»: «bekvém»."
+  },
+  {
+   "de": "Wir hatten ein tolles Wochenende.",
+   "es": "Tuvimos un fin de semana genial.",
+   "tip": "«W» se pronuncia como una «v» labiodental (dientes sobre el labio)."
+  },
+  {
+   "de": "Der Kuchen ist richtig lecker.",
+   "es": "El pastel está buenísimo.",
+   "tip": "«-ig» final suena como «ich»: «ríchtich»."
+  },
+  {
+   "de": "Ich suche eine günstige Wohnung.",
+   "es": "Busco un piso económico.",
+   "tip": "«ü»: di «i» con los labios redondeados como para «u»."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Das ist der ___ Film von Almodóvar.",
+   "o": [
+    "neue",
+    "neuen",
+    "neuer"
+   ],
+   "a": 0,
+   "exp": "Nominativo masculino tras «der»: -e."
+  },
+  {
+   "t": "mc",
+   "q": "Kennst du den ___ Lehrer?",
+   "o": [
+    "neuen",
+    "neue",
+    "neuer"
+   ],
+   "a": 0,
+   "exp": "Acusativo masculino: den + -en."
+  },
+  {
+   "t": "gap",
+   "q": "Mein Bruder hat ein ___ Auto.",
+   "a": [
+    "schnelles"
+   ],
+   "hint": "schnell",
+   "exp": "Acusativo neutro tras «ein»: -es."
+  },
+  {
+   "t": "gap",
+   "q": "Sie trägt eine ___ Bluse.",
+   "a": [
+    "weiße"
+   ],
+   "hint": "weiß",
+   "exp": "Acusativo femenino tras «eine»: -e."
+  },
+  {
+   "t": "gap",
+   "q": "Ich wohne in einer ___ Wohnung.",
+   "a": [
+    "kleinen"
+   ],
+   "hint": "klein",
+   "exp": "Dativo (in einer): -en."
+  },
+  {
+   "t": "order",
+   "w": [
+    "haben",
+    "Wir",
+    "großen",
+    "einen",
+    "Garten"
+   ],
+   "a": "Wir haben einen großen Garten.",
+   "es": "Tenemos un jardín grande."
+  },
+  {
+   "t": "tr",
+   "es": "Es una mujer simpática.",
+   "a": [
+    "Sie ist eine nette Frau.",
+    "Das ist eine nette Frau.",
+    "Sie ist eine sympathische Frau.",
+    "Das ist eine sympathische Frau.",
+    "Sie ist eine freundliche Frau.",
+    "Das ist eine freundliche Frau."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "ein alter Mann",
+     "un hombre mayor"
+    ],
+    [
+     "eine alte Stadt",
+     "una ciudad antigua"
+    ],
+    [
+     "ein altes Haus",
+     "una casa vieja"
+    ],
+    [
+     "alte Freunde",
+     "viejos amigos"
+    ]
+   ]
+  },
+  {
+   "t": "listen",
+   "de": "Heute ist ein schöner Tag.",
+   "es": "Hoy hace un día bonito."
+  },
+  {
+   "t": "read",
+   "text": "Mein Fitnessstudio hat einen neuen Boxraum. Der Raum ist groß und hell. Es gibt dort schwere Boxsäcke und einen großen Spiegel. Der neue Trainer heißt Ali. Er ist ein sehr geduldiger Mann.",
+   "q": "¿Cómo es el nuevo entrenador?",
+   "o": [
+    "muy paciente",
+    "muy estricto",
+    "muy joven"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mc",
+   "q": "Das Kleid ist wirklich ___.",
+   "o": [
+    "teuer",
+    "teures",
+    "teure"
+   ],
+   "a": 0,
+   "exp": "Predicativo (tras «ist»): sin terminación."
+  }
+ ]
+}

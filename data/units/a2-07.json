@@ -1,0 +1,512 @@
+{
+ "id": "a2-07",
+ "level": "A2",
+ "n": 19,
+ "title": "Ich freue mich",
+ "title_es": "Verbos reflexivos y rutina",
+ "goals": [
+  "Puedo usar los pronombres reflexivos (mich, dich, sich, uns, euch, sich).",
+  "Puedo contar mi rutina con verbos reflexivos (sich duschen, sich anziehen…).",
+  "Puedo expresar ilusión y alegría con sich freuen auf / über.",
+  "Puedo hablar de mis intereses con sich interessieren für.",
+  "Puedo usar el reflexivo en dativo: Ich putze mir die Zähne."
+ ],
+ "lessons": [
+  {
+   "h": "Los pronombres reflexivos",
+   "html": "<table><thead><tr><th>persona</th><th>acusativo</th><th>dativo</th><th>español</th></tr></thead><tbody><tr><td>ich</td><td><b>mich</b></td><td><b>mir</b></td><td>me</td></tr><tr><td>du</td><td><b>dich</b></td><td><b>dir</b></td><td>te</td></tr><tr><td>er / sie / es</td><td>sich</td><td>sich</td><td>se</td></tr><tr><td>wir</td><td>uns</td><td>uns</td><td>nos</td></tr><tr><td>ihr</td><td>euch</td><td>euch</td><td>os</td></tr><tr><td>sie / Sie</td><td>sich</td><td>sich</td><td>se</td></tr></tbody></table><p>¡Buena noticia! Funciona casi como en español: <span class=\"de\">Ich dusche mich.</span> = <i>Me ducho.</i> Solo <b>ich</b> y <b>du</b> tienen forma distinta en dativo (mir, dir).</p><p><b>Ojo:</b> con <b>Sie</b> (usted) el reflexivo es <b>sich</b> en minúscula: <span class=\"de\">Setzen Sie sich bitte!</span></p>"
+  },
+  {
+   "h": "Verbos reflexivos frecuentes",
+   "html": "<table><thead><tr><th>verbo</th><th>ejemplo</th><th>español</th></tr></thead><tbody><tr><td>sich duschen</td><td><span class=\"de\">Ich dusche mich jeden Morgen.</span></td><td>ducharse</td></tr><tr><td>sich anziehen</td><td><span class=\"de\">Ich ziehe mich schnell an.</span></td><td>vestirse</td></tr><tr><td>sich ausruhen</td><td><span class=\"de\">Am Sonntag ruhe ich mich aus.</span></td><td>descansar</td></tr><tr><td>sich treffen (mit)</td><td><span class=\"de\">Wir treffen uns um acht.</span> / <span class=\"de\">Ich treffe mich mit Anna.</span></td><td>quedar, verse</td></tr><tr><td>sich beeilen</td><td><span class=\"de\">Du musst dich beeilen!</span></td><td>darse prisa</td></tr><tr><td>sich fühlen</td><td><span class=\"de\">Ich fühle mich müde.</span></td><td>sentirse</td></tr><tr><td>sich setzen</td><td><span class=\"de\">Setz dich!</span></td><td>sentarse</td></tr></tbody></table><p><b>Ojo:</b> muchos verbos reflexivos en español <b>no lo son</b> en alemán: <span class=\"de\">aufstehen</span> (levantarse), <span class=\"de\">heißen</span> (llamarse), <span class=\"de\">einschlafen</span> (dormirse), <span class=\"de\">bleiben</span> (quedarse). ✗ <i>Ich stehe mich auf</i> → ✓ <span class=\"de\">Ich stehe um sieben auf.</span></p>"
+  },
+  {
+   "h": "¿Dónde va el pronombre?",
+   "html": "<p>El reflexivo va <b>justo después del verbo conjugado</b> (o del sujeto pronombre si hay inversión). La partícula separable y el infinitivo siguen al final.</p><ul><li>Normal: <span class=\"de\">Ich ziehe mich an.</span></li><li>Inversión: <span class=\"de\">Morgens ziehe ich mich schnell an.</span></li><li>Pregunta: <span class=\"de\">Freust du dich?</span></li><li>Con modal: <span class=\"de\">Ich muss mich beeilen.</span></li><li>Perfekt (con <b>haben</b>): <span class=\"de\">Ich habe mich sehr gefreut.</span></li><li>Subordinada: <span class=\"de\">…, weil ich mich für Biologie interessiere.</span></li></ul><p><b>Ojo:</b> en español el pronombre va delante del verbo (<i>me ducho</i>); en alemán va detrás: ✗ <i>Ich mich dusche</i>.</p>"
+  },
+  {
+   "h": "Reflexivos con preposición",
+   "html": "<table><thead><tr><th>verbo</th><th>uso</th><th>ejemplo</th></tr></thead><tbody><tr><td>sich freuen <b>auf</b> + Akk.</td><td>algo <b>futuro</b> (tener ganas de)</td><td><span class=\"de\">Ich freue mich auf den Urlaub.</span></td></tr><tr><td>sich freuen <b>über</b> + Akk.</td><td>algo que <b>ya</b> pasó o tengo</td><td><span class=\"de\">Ich freue mich über das Geschenk.</span></td></tr><tr><td>sich interessieren <b>für</b> + Akk.</td><td>interesarse por</td><td><span class=\"de\">Ich interessiere mich für Boxen.</span></td></tr><tr><td>sich ärgern <b>über</b> + Akk.</td><td>enfadarse por</td><td><span class=\"de\">Er ärgert sich über den Bus.</span></td></tr></tbody></table><p><b>Ojo:</b> <i>interesarse <b>por</b></i> → <span class=\"de\">sich interessieren <b>für</b></span> (no <i>durch</i> ni <i>über</i>). Y <i>alegrarse <b>de</b></i> → <span class=\"de\">über</span>, nunca <i>von</i>.</p>"
+  },
+  {
+   "h": "Reflexivo en dativo: Ich putze mir die Zähne",
+   "html": "<p>Si en la frase ya hay <b>otro complemento en acusativo</b> (los dientes, las manos, una chaqueta), el reflexivo pasa a <b>dativo</b>. Solo se nota con <b>ich → mir</b> y <b>du → dir</b>.</p><table><thead><tr><th>solo reflexivo (Akk.)</th><th>reflexivo (Dat.) + objeto (Akk.)</th></tr></thead><tbody><tr><td><span class=\"de\">Ich wasche mich.</span></td><td><span class=\"de\">Ich wasche mir die Hände.</span></td></tr><tr><td><span class=\"de\">Du ziehst dich an.</span></td><td><span class=\"de\">Du ziehst dir eine Jacke an.</span></td></tr><tr><td><span class=\"de\">Er kämmt sich.</span></td><td><span class=\"de\">Er kämmt sich die Haare.</span></td></tr></tbody></table><p>Como en español, se usa el <b>artículo</b>, no el posesivo: <i>me lavo <b>las</b> manos</i> = <span class=\"de\">Ich wasche mir <b>die</b> Hände</span> (no <i>meine Hände</i>).</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "sich freuen auf",
+   "es": "tener ganas de, alegrarse (futuro)",
+   "ex": "Ich freue mich auf Samstag."
+  },
+  {
+   "de": "sich freuen über",
+   "es": "alegrarse de",
+   "ex": "Sie freut sich über die Blumen."
+  },
+  {
+   "de": "sich treffen",
+   "es": "quedar, verse",
+   "ex": "Wir treffen uns im Café."
+  },
+  {
+   "de": "sich duschen",
+   "es": "ducharse",
+   "ex": "Ich dusche mich nach dem Training."
+  },
+  {
+   "de": "sich anziehen",
+   "es": "vestirse",
+   "ex": "Er zieht sich schnell an."
+  },
+  {
+   "de": "sich ausziehen",
+   "es": "desvestirse",
+   "ex": "Die Kinder ziehen sich aus."
+  },
+  {
+   "de": "sich ausruhen",
+   "es": "descansar",
+   "ex": "Am Sonntag ruhe ich mich aus."
+  },
+  {
+   "de": "sich interessieren für",
+   "es": "interesarse por",
+   "ex": "Ich interessiere mich für Wissenschaft."
+  },
+  {
+   "de": "sich beeilen",
+   "es": "darse prisa",
+   "ex": "Wir müssen uns beeilen."
+  },
+  {
+   "de": "sich ärgern über",
+   "es": "enfadarse por",
+   "ex": "Ich ärgere mich über den Regen."
+  },
+  {
+   "de": "sich fühlen",
+   "es": "sentirse",
+   "ex": "Wie fühlst du dich?"
+  },
+  {
+   "de": "sich waschen",
+   "es": "lavarse",
+   "ex": "Ich wasche mir die Hände."
+  },
+  {
+   "de": "sich setzen",
+   "es": "sentarse",
+   "ex": "Setzen Sie sich bitte!"
+  },
+  {
+   "de": "sich langweilen",
+   "es": "aburrirse",
+   "ex": "Im Kurs langweile ich mich nie."
+  },
+  {
+   "de": "sich kämmen",
+   "es": "peinarse",
+   "ex": "Sie kämmt sich die Haare."
+  },
+  {
+   "de": "Zahn",
+   "art": "der",
+   "pl": "Zähne",
+   "es": "diente",
+   "ex": "Ich putze mir die Zähne."
+  },
+  {
+   "de": "Zahnbürste",
+   "art": "die",
+   "pl": "Zahnbürsten",
+   "es": "cepillo de dientes",
+   "ex": "Wo ist meine Zahnbürste?"
+  },
+  {
+   "de": "Gefühl",
+   "art": "das",
+   "pl": "Gefühle",
+   "es": "sentimiento, sensación",
+   "ex": "Ich habe ein gutes Gefühl."
+  },
+  {
+   "de": "Geschenk",
+   "art": "das",
+   "pl": "Geschenke",
+   "es": "regalo",
+   "ex": "Danke für das Geschenk!"
+  },
+  {
+   "de": "müde",
+   "es": "cansado",
+   "ex": "Nach dem Boxen bin ich müde."
+  },
+  {
+   "de": "glücklich",
+   "es": "feliz",
+   "ex": "Heute bin ich sehr glücklich."
+  },
+  {
+   "de": "nervös",
+   "es": "nervioso",
+   "ex": "Vor der Prüfung bin ich nervös."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Ich dusche ___ jeden Morgen.",
+   "o": [
+    "mich",
+    "mir",
+    "sich"
+   ],
+   "a": 0,
+   "exp": "ich → mich (acusativo: no hay otro objeto)."
+  },
+  {
+   "t": "mc",
+   "q": "Wir treffen ___ am Samstag im Park.",
+   "o": [
+    "uns",
+    "euch",
+    "sich"
+   ],
+   "a": 0,
+   "exp": "wir → uns."
+  },
+  {
+   "t": "gap",
+   "q": "Interessierst du ___ für Musik?",
+   "a": [
+    "dich"
+   ],
+   "hint": "pronombre reflexivo (du)",
+   "exp": "du → dich."
+  },
+  {
+   "t": "gap",
+   "q": "Ich freue mich schon ___ das Wochenende.",
+   "a": [
+    "auf"
+   ],
+   "hint": "preposición: algo futuro",
+   "exp": "sich freuen auf + Akk. = tener ganas de algo que viene."
+  },
+  {
+   "t": "mc",
+   "q": "Ich putze ___ die Zähne.",
+   "o": [
+    "mir",
+    "mich",
+    "sich"
+   ],
+   "a": 0,
+   "exp": "Hay otro objeto en acusativo (die Zähne), así que el reflexivo va en dativo: mir."
+  },
+  {
+   "t": "order",
+   "w": [
+    "mich",
+    "Ich",
+    "an",
+    "ziehe",
+    "schnell"
+   ],
+   "a": "Ich ziehe mich schnell an.",
+   "es": "Me visto rápido."
+  },
+  {
+   "t": "tr",
+   "es": "Me alegro mucho.",
+   "a": [
+    "Ich freue mich sehr."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "sich duschen",
+     "ducharse"
+    ],
+    [
+     "sich anziehen",
+     "vestirse"
+    ],
+    [
+     "sich ausruhen",
+     "descansar"
+    ],
+    [
+     "sich beeilen",
+     "darse prisa"
+    ],
+    [
+     "sich ärgern",
+     "enfadarse"
+    ]
+   ]
+  },
+  {
+   "t": "listen",
+   "de": "Wir treffen uns um acht vor dem Kino.",
+   "es": "Quedamos a las ocho delante del cine."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuál es correcta? (Me levanto a las seis.)",
+   "o": [
+    "Ich stehe um sechs Uhr auf.",
+    "Ich stehe mich um sechs Uhr auf.",
+    "Ich stehe mir um sechs Uhr auf."
+   ],
+   "a": 0,
+   "exp": "aufstehen NO es reflexivo en alemán, aunque «levantarse» sí lo es en español."
+  },
+  {
+   "t": "gap",
+   "q": "Nach dem Training ruhe ich ___ aus.",
+   "a": [
+    "mich"
+   ],
+   "hint": "pronombre reflexivo (ich)",
+   "exp": "sich ausruhen: ich ruhe mich aus."
+  },
+  {
+   "t": "read",
+   "text": "Claudia steht um halb sieben auf. Zuerst duscht sie sich und zieht sich an. Dann frühstückt sie schnell, denn sie muss sich beeilen: Um acht beginnt ihre Arbeit im Labor. Am Abend trifft sie sich oft mit Freunden. Am Wochenende ruht sie sich aus.",
+   "q": "¿Por qué tiene que darse prisa?",
+   "o": [
+    "porque empieza en el laboratorio a las ocho",
+    "porque ha quedado con amigos",
+    "porque va al gimnasio"
+   ],
+   "a": 0
+  },
+  {
+   "t": "tr",
+   "es": "¿Os interesáis por la ciencia?",
+   "a": [
+    "Interessiert ihr euch für Wissenschaft?",
+    "Interessiert ihr euch für die Wissenschaft?"
+   ]
+  },
+  {
+   "t": "gap",
+   "q": "Er wäscht ___ die Hände.",
+   "a": [
+    "sich"
+   ],
+   "hint": "pronombre reflexivo (er)",
+   "exp": "er → sich, tanto en acusativo como en dativo."
+  },
+  {
+   "t": "mc",
+   "q": "Ich freue mich ___ dein Geschenk. Es ist wunderschön!",
+   "o": [
+    "über",
+    "auf",
+    "für"
+   ],
+   "a": 0,
+   "exp": "El regalo ya lo tiene: sich freuen über."
+  },
+  {
+   "t": "order",
+   "w": [
+    "beeilen",
+    "muss",
+    "Ich",
+    "mich"
+   ],
+   "a": "Ich muss mich beeilen.",
+   "es": "Tengo que darme prisa."
+  },
+  {
+   "t": "listen",
+   "de": "Ich fühle mich heute nicht gut.",
+   "es": "Hoy no me encuentro bien."
+  },
+  {
+   "t": "gap",
+   "q": "Es ist kalt. Ich ziehe ___ eine warme Jacke an.",
+   "a": [
+    "mir"
+   ],
+   "hint": "reflexivo (ich): hay otro objeto",
+   "exp": "Hay objeto en acusativo (eine warme Jacke): reflexivo en dativo, mir."
+  },
+  {
+   "t": "read",
+   "text": "Hallo Lena, ich freue mich schon auf Samstag! Treffen wir uns um zehn am Bahnhof? Ich interessiere mich sehr für das Museum. Danach können wir uns in einem Café ausruhen. Bis bald, Claudia",
+   "q": "¿Qué propone Claudia para después del museo?",
+   "o": [
+    "descansar en un café",
+    "ir al gimnasio",
+    "volver a casa"
+   ],
+   "a": 0
+  }
+ ],
+ "speak": [
+  {
+   "de": "Ich freue mich auf das Wochenende.",
+   "es": "Tengo ganas de que llegue el fin de semana.",
+   "tip": "«eu» en «freue» suena «oi»: «fróie»."
+  },
+  {
+   "de": "Wir treffen uns um acht.",
+   "es": "Quedamos a las ocho.",
+   "tip": "«ch» de «acht» es fuerte, como la «j» española."
+  },
+  {
+   "de": "Ich muss mich beeilen.",
+   "es": "Tengo que darme prisa.",
+   "tip": "«ei» suena «ai»; «ch» de «mich» suave, como un gato que bufa."
+  },
+  {
+   "de": "Ich interessiere mich für Biologie.",
+   "es": "Me intereso por la biología.",
+   "tip": "«ü» de «für»: di «i» con los labios en «u»; «ie» es una i larga."
+  },
+  {
+   "de": "Ich putze mir die Zähne.",
+   "es": "Me lavo los dientes.",
+   "tip": "«z» suena «ts»; la «h» de «Zähne» es muda y alarga la «ä»."
+  },
+  {
+   "de": "Ruh dich aus!",
+   "es": "¡Descansa!",
+   "tip": "«u» larga en «ruh»; «au» como en español."
+  },
+  {
+   "de": "Wie fühlst du dich?",
+   "es": "¿Cómo te sientes?",
+   "tip": "«W» como «v» labiodental; «ü» larga."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Setzen Sie ___ bitte!",
+   "o": [
+    "sich",
+    "Sie",
+    "ihr"
+   ],
+   "a": 0,
+   "exp": "Con Sie (usted) el reflexivo es sich, en minúscula."
+  },
+  {
+   "t": "mc",
+   "q": "Ihr müsst ___ beeilen.",
+   "o": [
+    "euch",
+    "uns",
+    "sich"
+   ],
+   "a": 0,
+   "exp": "ihr → euch."
+  },
+  {
+   "t": "gap",
+   "q": "Wir freuen ___ auf die Ferien.",
+   "a": [
+    "uns"
+   ],
+   "hint": "pronombre reflexivo (wir)",
+   "exp": "wir → uns."
+  },
+  {
+   "t": "gap",
+   "q": "Ich interessiere mich sehr ___ Boxen.",
+   "a": [
+    "für"
+   ],
+   "hint": "preposición",
+   "exp": "sich interessieren für + Akk."
+  },
+  {
+   "t": "gap",
+   "q": "Kämmst du ___ die Haare?",
+   "a": [
+    "dir"
+   ],
+   "hint": "reflexivo (du): hay otro objeto",
+   "exp": "Hay objeto en acusativo (die Haare): dativo, dir."
+  },
+  {
+   "t": "order",
+   "w": [
+    "ruhe",
+    "Am",
+    "aus",
+    "ich",
+    "Abend",
+    "mich"
+   ],
+   "a": "Am Abend ruhe ich mich aus.",
+   "es": "Por la tarde-noche descanso."
+  },
+  {
+   "t": "tr",
+   "es": "Nos vemos mañana.",
+   "a": [
+    "Wir treffen uns morgen.",
+    "Morgen treffen wir uns.",
+    "Wir sehen uns morgen.",
+    "Morgen sehen wir uns."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "sich freuen auf",
+     "tener ganas de (algo futuro)"
+    ],
+    [
+     "sich freuen über",
+     "alegrarse de (algo que ya ha pasado)"
+    ],
+    [
+     "sich ärgern über",
+     "enfadarse por"
+    ],
+    [
+     "sich interessieren für",
+     "interesarse por"
+    ]
+   ]
+  },
+  {
+   "t": "listen",
+   "de": "Er zieht sich schnell an und geht zur Arbeit.",
+   "es": "Se viste rápido y se va al trabajo."
+  },
+  {
+   "t": "read",
+   "text": "Paul ist Student. Er ärgert sich oft, denn sein Bus kommt immer zu spät. Aber heute freut er sich: Er hat ein neues Fahrrad! Jetzt muss er sich nicht mehr über den Bus ärgern.",
+   "q": "¿Por qué está contento Paul hoy?",
+   "o": [
+    "tiene una bici nueva",
+    "el autobús ha llegado puntual",
+    "no tiene clase"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuál es correcta? (Me llamo Claudia.)",
+   "o": [
+    "Ich heiße Claudia.",
+    "Ich heiße mich Claudia.",
+    "Ich heiße mir Claudia."
+   ],
+   "a": 0,
+   "exp": "heißen no es reflexivo en alemán."
+  }
+ ]
+}

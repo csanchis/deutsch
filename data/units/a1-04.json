@@ -1,0 +1,551 @@
+{
+ "id": "a1-04",
+ "level": "A1",
+ "n": 4,
+ "title": "Meine Familie",
+ "title_es": "Familia, artículos y posesivos",
+ "goals": [
+  "Puedo presentar a mi familia.",
+  "Puedo usar der/die/das y ein/eine, y reconozco pistas para el género.",
+  "Puedo formar plurales frecuentes.",
+  "Puedo usar los posesivos (mein, dein, sein, ihr…) y negar con «kein»."
+ ],
+ "lessons": [
+  {
+   "h": "Tres géneros: der, die, das",
+   "html": "<p>En alemán hay <b>tres géneros</b>: masculino (<b>der</b>), femenino (<b>die</b>) y neutro (<b>das</b>). El artículo indeterminado es <b>ein</b> (m. y n.) y <b>eine</b> (f.). En plural: <b>die</b> y sin indeterminado.</p><table><thead><tr><th></th><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td>determinado</td><td>der Vater</td><td>die Mutter</td><td>das Kind</td><td>die Kinder</td></tr><tr><td>indeterminado</td><td>ein Vater</td><td>eine Mutter</td><td>ein Kind</td><td>Kinder</td></tr><tr><td>negación</td><td>kein Vater</td><td>keine Mutter</td><td>kein Kind</td><td>keine Kinder</td></tr></tbody></table><p><b>Ojo:</b> el género casi nunca coincide con el español: <span class=\"de\">der Tisch</span> (la mesa), <span class=\"de\">die Sonne</span> (el sol), <span class=\"de\">das Mädchen</span> (la chica, ¡neutro!). Aprende siempre cada sustantivo <b>con su artículo y su plural</b>. Todos los sustantivos se escriben con mayúscula.</p>"
+  },
+  {
+   "h": "Pistas para adivinar el género",
+   "html": "<table><thead><tr><th>terminación</th><th>género</th><th>ejemplos</th></tr></thead><tbody><tr><td>-ung, -heit, -keit, -schaft, -ion, -tät</td><td>die (siempre)</td><td>die Zeitung, die Freiheit, die Freundschaft, die Information, die Universität</td></tr><tr><td>-in (personas femeninas)</td><td>die</td><td>die Lehrerin, die Ärztin</td></tr><tr><td>-chen, -lein (diminutivos)</td><td>das (siempre)</td><td>das Mädchen, das Brötchen</td></tr><tr><td>-e</td><td>die (casi siempre)</td><td>die Tante, die Familie (pero: der Junge)</td></tr><tr><td>-er (personas, aparatos)</td><td>der (a menudo)</td><td>der Lehrer, der Computer</td></tr></tbody></table><p>Las personas suelen tener su género natural (<span class=\"de\">der Vater, die Mutter</span>), con excepciones como <span class=\"de\">das Mädchen</span> o <span class=\"de\">das Kind</span>.</p><p><b>Ojo:</b> el pronombre sigue al género gramatical: <span class=\"de\">Das Mädchen heißt Lena. Es ist sechs.</span></p>"
+  },
+  {
+   "h": "El plural",
+   "html": "<p>No hay una única regla; aprende el plural con cada palabra. El artículo en plural es siempre <b>die</b>.</p><table><thead><tr><th>tipo</th><th>singular → plural</th></tr></thead><tbody><tr><td>-(e)n</td><td>die Schwester → die Schwester<b>n</b>, die Frau → die Frau<b>en</b>, die Tante → die Tante<b>n</b></td></tr><tr><td>-e / ¨-e</td><td>der Hund → die Hund<b>e</b>, der Sohn → die S<b>ö</b>hn<b>e</b></td></tr><tr><td>-er / ¨-er</td><td>das Kind → die Kind<b>er</b>, der Mann → die M<b>ä</b>nn<b>er</b></td></tr><tr><td>sin cambio / ¨</td><td>der Onkel → die Onkel, der Vater → die V<b>ä</b>ter, die Mutter → die M<b>ü</b>tter, der Bruder → die Br<b>ü</b>der, die Tochter → die T<b>ö</b>chter</td></tr><tr><td>-s (palabras cortas o extranjeras)</td><td>die Oma → die Oma<b>s</b>, der Opa → die Opa<b>s</b>, das Foto → die Foto<b>s</b></td></tr></tbody></table><p>Pistas: femeninos en -e e -in → -n/-nen (<span class=\"de\">die Lehrerinnen</span>); -chen y -er no cambian (<span class=\"de\">die Mädchen, die Lehrer</span>).</p><p><b>Ojo:</b> no pongas -s a todo como en español (*die Kinds). Algunas palabras solo existen en plural: <span class=\"de\">die Eltern</span> (los padres), <span class=\"de\">die Geschwister</span> (los hermanos).</p>"
+  },
+  {
+   "h": "Posesivos en nominativo",
+   "html": "<table><thead><tr><th>persona</th><th>der / das</th><th>die / plural</th><th>español</th></tr></thead><tbody><tr><td>ich</td><td>mein</td><td>meine</td><td>mi, mis</td></tr><tr><td>du</td><td>dein</td><td>deine</td><td>tu, tus</td></tr><tr><td>er / es</td><td>sein</td><td>seine</td><td>su (de él)</td></tr><tr><td>sie</td><td>ihr</td><td>ihre</td><td>su (de ella)</td></tr><tr><td>wir</td><td>unser</td><td>unsere</td><td>nuestro/a</td></tr><tr><td>ihr</td><td>euer</td><td><b>eure</b></td><td>vuestro/a</td></tr><tr><td>sie</td><td>ihr</td><td>ihre</td><td>su (de ellos)</td></tr><tr><td>Sie</td><td>Ihr</td><td>Ihre</td><td>su (de usted)</td></tr></tbody></table><p>El posesivo lleva las mismas terminaciones que <i>ein/kein</i>: <span class=\"de\">mein Vater, meine Mutter, mein Kind, meine Eltern</span>.</p><p><b>Ojo:</b> el español «su» es ambiguo; el alemán no. Depende de <b>quién posee</b>: <span class=\"de\">Peter und sein Bruder</span>, <span class=\"de\">Anna und ihr Bruder</span>. Y <span class=\"de\">euer</span> pierde la e: <span class=\"de\">eure Mutter</span> (no *euere).</p>"
+  },
+  {
+   "h": "La familia y la negación con kein",
+   "html": "<table><thead><tr><th>masculino</th><th>femenino</th><th>plural</th></tr></thead><tbody><tr><td>der Vater (padre)</td><td>die Mutter (madre)</td><td>die Eltern (padres)</td></tr><tr><td>der Bruder (hermano)</td><td>die Schwester (hermana)</td><td>die Geschwister (hermanos)</td></tr><tr><td>der Sohn (hijo)</td><td>die Tochter (hija)</td><td>die Kinder (hijos)</td></tr><tr><td>der Opa / Großvater</td><td>die Oma / Großmutter</td><td>die Großeltern</td></tr><tr><td>der Onkel (tío)</td><td>die Tante (tía)</td><td></td></tr><tr><td>der Mann (marido, hombre)</td><td>die Frau (mujer, esposa)</td><td></td></tr></tbody></table><p><b>kein / keine</b> niega un sustantivo que llevaría <i>ein</i> o ningún artículo: <span class=\"de\">Das ist kein Hund, das ist eine Katze.</span> <span class=\"de\">Ich habe keine Kinder.</span> Se declina como <i>ein</i> (kein Bruder, keine Schwester, kein Kind, keine Geschwister).</p><p><b>Ojo:</b> no se dice *nicht ein; se dice <span class=\"de\">kein</span>. Estado civil: <span class=\"de\">Ich bin verheiratet / ledig / geschieden.</span></p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "Familie",
+   "art": "die",
+   "pl": "Familien",
+   "es": "familia",
+   "ex": "Das ist meine Familie."
+  },
+  {
+   "de": "Vater",
+   "art": "der",
+   "pl": "Väter",
+   "es": "padre",
+   "ex": "Mein Vater heißt Luis."
+  },
+  {
+   "de": "Mutter",
+   "art": "die",
+   "pl": "Mütter",
+   "es": "madre",
+   "ex": "Meine Mutter ist Lehrerin."
+  },
+  {
+   "de": "Eltern",
+   "art": "die",
+   "es": "padres",
+   "ex": "Meine Eltern wohnen in Madrid."
+  },
+  {
+   "de": "Bruder",
+   "art": "der",
+   "pl": "Brüder",
+   "es": "hermano",
+   "ex": "Das ist mein Bruder."
+  },
+  {
+   "de": "Schwester",
+   "art": "die",
+   "pl": "Schwestern",
+   "es": "hermana",
+   "ex": "Meine Schwester ist 19."
+  },
+  {
+   "de": "Geschwister",
+   "art": "die",
+   "es": "hermanos (hermanos y hermanas)",
+   "ex": "Hast du Geschwister?"
+  },
+  {
+   "de": "Sohn",
+   "art": "der",
+   "pl": "Söhne",
+   "es": "hijo",
+   "ex": "Ihr Sohn heißt Leo."
+  },
+  {
+   "de": "Tochter",
+   "art": "die",
+   "pl": "Töchter",
+   "es": "hija",
+   "ex": "Unsere Tochter ist drei."
+  },
+  {
+   "de": "Kind",
+   "art": "das",
+   "pl": "Kinder",
+   "es": "niño/a; hijo/a",
+   "ex": "Das Kind spielt."
+  },
+  {
+   "de": "Opa",
+   "art": "der",
+   "pl": "Opas",
+   "es": "abuelo",
+   "ex": "Mein Opa ist 80."
+  },
+  {
+   "de": "Oma",
+   "art": "die",
+   "pl": "Omas",
+   "es": "abuela",
+   "ex": "Meine Oma kocht gut."
+  },
+  {
+   "de": "Onkel",
+   "art": "der",
+   "pl": "Onkel",
+   "es": "tío",
+   "ex": "Mein Onkel wohnt in Valencia."
+  },
+  {
+   "de": "Tante",
+   "art": "die",
+   "pl": "Tanten",
+   "es": "tía",
+   "ex": "Meine Tante ist Ärztin."
+  },
+  {
+   "de": "Mann",
+   "art": "der",
+   "pl": "Männer",
+   "es": "hombre; marido",
+   "ex": "Ihr Mann kommt aus Köln."
+  },
+  {
+   "de": "Frau",
+   "art": "die",
+   "pl": "Frauen",
+   "es": "mujer; esposa",
+   "ex": "Seine Frau ist Biologin."
+  },
+  {
+   "de": "Mädchen",
+   "art": "das",
+   "pl": "Mädchen",
+   "es": "chica, niña",
+   "ex": "Das Mädchen heißt Lena."
+  },
+  {
+   "de": "Junge",
+   "art": "der",
+   "pl": "Jungen",
+   "es": "chico, niño",
+   "ex": "Der Junge ist zehn."
+  },
+  {
+   "de": "Hund",
+   "art": "der",
+   "pl": "Hunde",
+   "es": "perro",
+   "ex": "Das ist kein Hund."
+  },
+  {
+   "de": "Katze",
+   "art": "die",
+   "pl": "Katzen",
+   "es": "gato/a",
+   "ex": "Die Katze heißt Mimi."
+  },
+  {
+   "de": "Foto",
+   "art": "das",
+   "pl": "Fotos",
+   "es": "foto",
+   "ex": "Das Foto ist schön."
+  },
+  {
+   "de": "verheiratet",
+   "es": "casado/a",
+   "ex": "Ich bin verheiratet."
+  },
+  {
+   "de": "ledig",
+   "es": "soltero/a",
+   "ex": "Mein Bruder ist ledig."
+  },
+  {
+   "de": "kein / keine",
+   "es": "ningún, no (+ sustantivo)",
+   "ex": "Ich habe keine Kinder."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "___ Mädchen heißt Lena.",
+   "o": [
+    "Das",
+    "Die",
+    "Der"
+   ],
+   "a": 0,
+   "exp": "Palabras en -chen son siempre neutras: das Mädchen."
+  },
+  {
+   "t": "mc",
+   "q": "Das ist ___ Bruder.",
+   "o": [
+    "mein",
+    "meine",
+    "meinen"
+   ],
+   "a": 0,
+   "exp": "Bruder es masculino (der) → mein."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuál es el plural de «das Kind»?",
+   "o": [
+    "die Kinder",
+    "die Kinde",
+    "die Kinds"
+   ],
+   "a": 0,
+   "exp": "das Kind → die Kinder."
+  },
+  {
+   "t": "mc",
+   "q": "Anna y su padre: «Das ist Anna und ___ Vater.»",
+   "o": [
+    "ihr",
+    "sein",
+    "ihre"
+   ],
+   "a": 0,
+   "exp": "Poseedora femenina (Anna) → ihr; Vater es masculino → ihr (sin -e)."
+  },
+  {
+   "t": "mc",
+   "q": "La hermana de Peter: «Peter und ___ Schwester wohnen in Köln.»",
+   "o": [
+    "seine",
+    "sein",
+    "ihre"
+   ],
+   "a": 0,
+   "exp": "Poseedor masculino (Peter) → sein; Schwester es femenino → seine."
+  },
+  {
+   "t": "gap",
+   "q": "Das ist ___ Foto.",
+   "a": [
+    "ein"
+   ],
+   "hint": "un/una",
+   "exp": "das Foto (neutro) → ein."
+  },
+  {
+   "t": "gap",
+   "q": "Wir wohnen in Berlin. ___ Wohnung ist klein.",
+   "a": [
+    "Unsere",
+    "unsere"
+   ],
+   "hint": "nuestro/a",
+   "exp": "wir → unser; Wohnung es femenino (-ung) → unsere."
+  },
+  {
+   "t": "gap",
+   "q": "Kinder, wo ist ___ Mutter?",
+   "a": [
+    "eure"
+   ],
+   "hint": "vuestro/a",
+   "exp": "ihr → euer; con femenino pierde la e: eure."
+  },
+  {
+   "t": "gap",
+   "q": "Das ist ___ Hund, das ist eine Katze!",
+   "a": [
+    "kein"
+   ],
+   "hint": "negación",
+   "exp": "der Hund → kein Hund."
+  },
+  {
+   "t": "gap",
+   "q": "___ Zeitung ist neu.",
+   "a": [
+    "Die",
+    "die"
+   ],
+   "hint": "artículo determinado",
+   "exp": "Las palabras en -ung son femeninas: die Zeitung."
+  },
+  {
+   "t": "order",
+   "w": [
+    "ist",
+    "Das",
+    "Schwester",
+    "meine"
+   ],
+   "a": "Das ist meine Schwester.",
+   "es": "Esta es mi hermana."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Eltern",
+    "Meine",
+    "in",
+    "wohnen",
+    "Valencia"
+   ],
+   "a": "Meine Eltern wohnen in Valencia.",
+   "es": "Mis padres viven en Valencia."
+  },
+  {
+   "t": "listen",
+   "de": "Hast du Geschwister?",
+   "es": "¿Tienes hermanos?"
+  },
+  {
+   "t": "listen",
+   "de": "Mein Vater heißt Antonio.",
+   "es": "Mi padre se llama Antonio."
+  },
+  {
+   "t": "tr",
+   "es": "Mi madre es profesora.",
+   "a": [
+    "Meine Mutter ist Lehrerin."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "¿Es tu hermano?",
+   "a": [
+    "Ist das dein Bruder?",
+    "Ist er dein Bruder?"
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "der Vater",
+     "die Väter"
+    ],
+    [
+     "die Mutter",
+     "die Mütter"
+    ],
+    [
+     "der Sohn",
+     "die Söhne"
+    ],
+    [
+     "die Tochter",
+     "die Töchter"
+    ],
+    [
+     "das Kind",
+     "die Kinder"
+    ]
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "das Mädchen",
+     "la chica"
+    ],
+    [
+     "der Tisch",
+     "la mesa"
+    ],
+    [
+     "die Sonne",
+     "el sol"
+    ],
+    [
+     "das Brötchen",
+     "el panecillo"
+    ],
+    [
+     "der Junge",
+     "el chico"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Das ist meine Familie. Mein Vater heißt Luis und meine Mutter heißt Carmen. Ich habe zwei Geschwister: Mein Bruder ist 25 und meine Schwester ist 19. Meine Oma wohnt auch in Madrid.",
+   "q": "¿Cuántos años tiene su hermana?",
+   "o": [
+    "25",
+    "19",
+    "29"
+   ],
+   "a": 1
+  }
+ ],
+ "speak": [
+  {
+   "de": "Das ist meine Familie.",
+   "es": "Esta es mi familia.",
+   "tip": "«ei» = «ai»: «maine». Acento: fa-MI-lie, y la -ie final se pronuncia «-ie» (fa-mi-lie)."
+  },
+  {
+   "de": "Mein Bruder heißt Pablo.",
+   "es": "Mi hermano se llama Pablo.",
+   "tip": "La «u» de «Bruder» es larga; la -er final suena casi «a»: «bruuda»."
+  },
+  {
+   "de": "Hast du Geschwister?",
+   "es": "¿Tienes hermanos?",
+   "tip": "«sch» = «sh»; «w» = v labiodental: «gueshvista». La «G» siempre es «gu» (no «j»)."
+  },
+  {
+   "de": "Meine Eltern wohnen in Madrid.",
+   "es": "Mis padres viven en Madrid.",
+   "tip": "«Eltern» con e abierta; la «h» de «wohnen» no suena, alarga la o."
+  },
+  {
+   "de": "Ich habe keine Kinder.",
+   "es": "No tengo hijos.",
+   "tip": "La «K» va aspirada (con un soplo de aire). «ei» = «ai»: «kaine»."
+  },
+  {
+   "de": "Das sind meine Großeltern.",
+   "es": "Estos son mis abuelos.",
+   "tip": "«ß» = s sorda; «o» larga y cerrada: «groos»."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "___ Zeitung ist von heute.",
+   "o": [
+    "Die",
+    "Der",
+    "Das"
+   ],
+   "a": 0,
+   "exp": "-ung → femenino: die Zeitung."
+  },
+  {
+   "t": "mc",
+   "q": "Das ist ___ Kind.",
+   "o": [
+    "kein",
+    "keine",
+    "keinen"
+   ],
+   "a": 0,
+   "exp": "das Kind (neutro) → kein."
+  },
+  {
+   "t": "mc",
+   "q": "Herr und Frau Gómez, ist das ___ Sohn?",
+   "o": [
+    "Ihr",
+    "ihr",
+    "euer"
+   ],
+   "a": 0,
+   "exp": "Se les trata de usted (Herr und Frau…) → Ihr, con mayúscula."
+  },
+  {
+   "t": "gap",
+   "q": "Lukas, ist das ___ Hund?",
+   "a": [
+    "dein"
+   ],
+   "hint": "tu",
+   "exp": "du → dein; der Hund → dein."
+  },
+  {
+   "t": "gap",
+   "q": "Marta und ___ Mann wohnen in Bonn.",
+   "a": [
+    "ihr"
+   ],
+   "hint": "su (de Marta)",
+   "exp": "Poseedora femenina → ihr; der Mann → ihr."
+  },
+  {
+   "t": "gap",
+   "q": "ein Bruder, zwei ___",
+   "a": [
+    "Brüder"
+   ],
+   "hint": "plural",
+   "exp": "der Bruder → die Brüder (con Umlaut)."
+  },
+  {
+   "t": "gap",
+   "q": "___ Mädchen ist sechs Jahre alt.",
+   "a": [
+    "Das",
+    "das"
+   ],
+   "hint": "artículo determinado",
+   "exp": "-chen → neutro: das Mädchen."
+  },
+  {
+   "t": "order",
+   "w": [
+    "unser",
+    "ist",
+    "Das",
+    "Opa"
+   ],
+   "a": "Das ist unser Opa.",
+   "es": "Este es nuestro abuelo."
+  },
+  {
+   "t": "listen",
+   "de": "Meine Tante ist Ärztin.",
+   "es": "Mi tía es médica."
+  },
+  {
+   "t": "tr",
+   "es": "Nuestros hijos viven en Berlín.",
+   "a": [
+    "Unsere Kinder wohnen in Berlin.",
+    "Unsere Kinder leben in Berlin.",
+    "Unsere Söhne wohnen in Berlin.",
+    "Unsere Söhne leben in Berlin."
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Hallo, ich bin Tim. Ich bin verheiratet. Meine Frau heißt Julia und ist Biologin. Wir haben eine Tochter, Mia. Mia ist drei Jahre alt. Ihr Opa wohnt in Wien.",
+   "q": "¿Quién es Mia?",
+   "o": [
+    "La mujer de Tim",
+    "La hija de Tim",
+    "La abuela de Tim"
+   ],
+   "a": 1
+  }
+ ]
+}

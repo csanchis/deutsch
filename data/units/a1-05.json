@@ -1,0 +1,543 @@
+{
+ "id": "a1-05",
+ "level": "A1",
+ "n": 5,
+ "title": "Essen und Einkaufen",
+ "title_es": "Comida, compras y acusativo",
+ "goals": [
+  "Puedo comprar en el supermercado y en la panadería.",
+  "Puedo usar el acusativo (den, einen, keinen) con verbos como kaufen, brauchen, möchten.",
+  "Puedo preguntar y decir precios y cantidades.",
+  "Sé cuándo negar con «nicht» y cuándo con «kein»."
+ ],
+ "lessons": [
+  {
+   "h": "El acusativo: solo cambia el masculino",
+   "html": "<p>El <b>complemento directo</b> (lo que compras, comes, necesitas…) va en <b>acusativo</b>. ¡Buena noticia: solo cambia el masculino!</p><table><thead><tr><th></th><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td>nominativo</td><td>der / ein / kein</td><td>die / eine / keine</td><td>das / ein / kein</td><td>die / – / keine</td></tr><tr><td>acusativo</td><td><b>den / einen / keinen</b></td><td>die / eine / keine</td><td>das / ein / kein</td><td>die / – / keine</td></tr></tbody></table><p>Los posesivos igual: <span class=\"de\">Ich suche meinen Schlüssel.</span></p><p>Ejemplos: <span class=\"de\">Der Kaffee ist heiß.</span> (sujeto, nominativo) – <span class=\"de\">Ich trinke den Kaffee.</span> (CD, acusativo). <span class=\"de\">Ich kaufe einen Apfel, eine Banane und ein Brot.</span></p><p><b>Ojo:</b> el sujeto sigue en nominativo aunque esté detrás del verbo: <span class=\"de\">Was kostet der Käse?</span> (el queso cuesta → sujeto → <i>der</i>). Verbos que piden acusativo: <i>haben, kaufen, brauchen, essen, trinken, nehmen, möchten, es gibt</i>.</p>"
+  },
+  {
+   "h": "es gibt, möchten, ich hätte gern",
+   "html": "<p><span class=\"de\">es gibt</span> = «hay», y siempre va con acusativo: <span class=\"de\">Es gibt einen Supermarkt.</span> <span class=\"de\">Gibt es hier eine Bäckerei?</span></p><table><thead><tr><th>persona</th><th>möchten (querría)</th></tr></thead><tbody><tr><td>ich</td><td>möchte</td></tr><tr><td>du</td><td>möchtest</td></tr><tr><td>er/sie/es</td><td>möchte</td></tr><tr><td>wir</td><td>möchten</td></tr><tr><td>ihr</td><td>möchtet</td></tr><tr><td>sie/Sie</td><td>möchten</td></tr></tbody></table><p><span class=\"de\">Ich hätte gern …</span> (me gustaría tener…) es la fórmula más educada en tiendas y bares: <span class=\"de\">Ich hätte gern zwei Brötchen.</span></p><p><b>Ojo:</b> <span class=\"de\">ich möchte / er möchte</span> no llevan -t (como ich/er son iguales). «Quiero un café» suena brusco como <i>Ich will…</i>; en la tienda usa <span class=\"de\">Ich möchte…</span> o <span class=\"de\">Ich hätte gern…</span>.</p>"
+  },
+  {
+   "h": "Precios y cantidades",
+   "html": "<p><span class=\"de\">Was kostet das?</span> / <span class=\"de\">Wie viel kostet der Käse?</span> – <span class=\"de\">Er kostet 3,50 €.</span> En plural: <span class=\"de\">Was kosten die Äpfel?</span> Al pagar: <span class=\"de\">Das macht 7,80 Euro.</span></p><table><thead><tr><th>se escribe</th><th>se dice</th></tr></thead><tbody><tr><td>2,50 €</td><td>zwei Euro fünfzig</td></tr><tr><td>0,99 €</td><td>neunundneunzig Cent</td></tr><tr><td>12,00 €</td><td>zwölf Euro</td></tr></tbody></table><p>Cantidades (sin «de»): <span class=\"de\">ein Kilo Tomaten</span>, <span class=\"de\">500 Gramm Käse</span>, <span class=\"de\">ein Liter Milch</span>, <span class=\"de\">eine Flasche Wasser</span>, <span class=\"de\">eine Dose Tomaten</span>, <span class=\"de\">ein Stück Kuchen</span>, <span class=\"de\">eine Packung Reis</span>.</p><p><b>Ojo:</b> <span class=\"de\">zwei Euro</span>, nunca *zwei Euros; <span class=\"de\">zwei Kilo</span>, no *Kilos. Y no se traduce el «de»: «un kilo de manzanas» = <span class=\"de\">ein Kilo Äpfel</span> (no *ein Kilo von Äpfel).</p>"
+  },
+  {
+   "h": "nicht o kein",
+   "html": "<table><thead><tr><th>usa</th><th>cuando niegas…</th><th>ejemplo</th></tr></thead><tbody><tr><td><b>kein</b></td><td>un sustantivo con <i>ein</i> o sin artículo</td><td><span class=\"de\">Ich esse kein Fleisch.</span> <span class=\"de\">Wir haben keinen Fisch.</span> <span class=\"de\">Ich habe keine Zeit.</span></td></tr><tr><td><b>nicht</b></td><td>un verbo, un adjetivo, o un sustantivo con <i>der/die/das</i> o posesivo</td><td><span class=\"de\">Ich koche nicht.</span> <span class=\"de\">Das Brot ist nicht frisch.</span> <span class=\"de\">Ich kaufe den Käse nicht.</span></td></tr></tbody></table><p><b>Ojo:</b> en español decimos «no como carne»; en alemán no se pone *nicht ein Fleisch ni *nicht Fleisch: <span class=\"de\">kein Fleisch</span>. <span class=\"de\">keinen</span> se usa con masculino en acusativo: <span class=\"de\">Ich trinke keinen Kaffee.</span></p>"
+  },
+  {
+   "h": "En la panadería y el supermercado",
+   "html": "<table><thead><tr><th>dependiente/a</th><th>cliente</th></tr></thead><tbody><tr><td><span class=\"de\">Guten Morgen! Was möchten Sie?</span></td><td><span class=\"de\">Ich hätte gern vier Brötchen, bitte.</span></td></tr><tr><td><span class=\"de\">Sonst noch etwas?</span> (¿algo más?)</td><td><span class=\"de\">Ja, ein Stück Kuchen.</span> / <span class=\"de\">Nein, danke. Das ist alles.</span></td></tr><tr><td><span class=\"de\">Das macht 5,40 Euro.</span></td><td><span class=\"de\">Hier, bitte.</span></td></tr></tbody></table><p>En el súper: <span class=\"de\">Entschuldigung, wo gibt es Milch?</span> (perdone, ¿dónde hay leche?). <span class=\"de\">Haben Sie auch Bio-Eier?</span></p><p><b>Ojo:</b> <span class=\"de\">das Brötchen</span> (panecillo) es el pan típico del desayuno alemán; <span class=\"de\">das Brot</span> es la hogaza.</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "Brot",
+   "art": "das",
+   "pl": "Brote",
+   "es": "pan (hogaza)",
+   "ex": "Ich kaufe ein Brot."
+  },
+  {
+   "de": "Brötchen",
+   "art": "das",
+   "pl": "Brötchen",
+   "es": "panecillo",
+   "ex": "Ich hätte gern zwei Brötchen."
+  },
+  {
+   "de": "Käse",
+   "art": "der",
+   "es": "queso",
+   "ex": "Der Käse kostet 3,50 €."
+  },
+  {
+   "de": "Milch",
+   "art": "die",
+   "es": "leche",
+   "ex": "Wir brauchen Milch."
+  },
+  {
+   "de": "Wasser",
+   "art": "das",
+   "es": "agua",
+   "ex": "Eine Flasche Wasser, bitte."
+  },
+  {
+   "de": "Apfel",
+   "art": "der",
+   "pl": "Äpfel",
+   "es": "manzana",
+   "ex": "Ich esse einen Apfel."
+  },
+  {
+   "de": "Tomate",
+   "art": "die",
+   "pl": "Tomaten",
+   "es": "tomate",
+   "ex": "Ein Kilo Tomaten, bitte."
+  },
+  {
+   "de": "Ei",
+   "art": "das",
+   "pl": "Eier",
+   "es": "huevo",
+   "ex": "Ich brauche sechs Eier."
+  },
+  {
+   "de": "Fleisch",
+   "art": "das",
+   "es": "carne",
+   "ex": "Ich esse kein Fleisch."
+  },
+  {
+   "de": "Fisch",
+   "art": "der",
+   "pl": "Fische",
+   "es": "pescado; pez",
+   "ex": "Haben Sie Fisch?"
+  },
+  {
+   "de": "Kaffee",
+   "art": "der",
+   "es": "café",
+   "ex": "Ich möchte einen Kaffee."
+  },
+  {
+   "de": "Tee",
+   "art": "der",
+   "es": "té",
+   "ex": "Möchtest du einen Tee?"
+  },
+  {
+   "de": "Kuchen",
+   "art": "der",
+   "pl": "Kuchen",
+   "es": "pastel, tarta",
+   "ex": "Ein Stück Kuchen, bitte."
+  },
+  {
+   "de": "Flasche",
+   "art": "die",
+   "pl": "Flaschen",
+   "es": "botella",
+   "ex": "Ich kaufe eine Flasche Wasser."
+  },
+  {
+   "de": "Kilo",
+   "art": "das",
+   "pl": "Kilo",
+   "es": "kilo",
+   "ex": "Ein Kilo Äpfel kostet 2 Euro."
+  },
+  {
+   "de": "Euro",
+   "art": "der",
+   "pl": "Euro",
+   "es": "euro",
+   "ex": "Das macht zehn Euro."
+  },
+  {
+   "de": "Supermarkt",
+   "art": "der",
+   "pl": "Supermärkte",
+   "es": "supermercado",
+   "ex": "Gibt es hier einen Supermarkt?"
+  },
+  {
+   "de": "Bäckerei",
+   "art": "die",
+   "pl": "Bäckereien",
+   "es": "panadería",
+   "ex": "Die Bäckerei ist neu."
+  },
+  {
+   "de": "kaufen",
+   "es": "comprar",
+   "ex": "Was kaufst du?"
+  },
+  {
+   "de": "kosten",
+   "es": "costar",
+   "ex": "Was kostet das?"
+  },
+  {
+   "de": "brauchen",
+   "es": "necesitar",
+   "ex": "Wir brauchen einen Kuchen."
+  },
+  {
+   "de": "möchten",
+   "es": "querría, me gustaría",
+   "ex": "Was möchten Sie?"
+  },
+  {
+   "de": "teuer",
+   "es": "caro",
+   "ex": "Der Fisch ist teuer."
+  },
+  {
+   "de": "billig",
+   "es": "barato",
+   "ex": "Die Tomaten sind billig."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Ich kaufe ___ Apfel.",
+   "o": [
+    "einen",
+    "ein",
+    "eine"
+   ],
+   "a": 0,
+   "exp": "der Apfel → acusativo masculino: einen."
+  },
+  {
+   "t": "mc",
+   "q": "Nein, wir haben heute ___ Fisch.",
+   "o": [
+    "keinen",
+    "kein",
+    "keine"
+   ],
+   "a": 0,
+   "exp": "der Fisch → acusativo masculino: keinen."
+  },
+  {
+   "t": "mc",
+   "q": "Ich esse ___ Fleisch.",
+   "o": [
+    "kein",
+    "nicht",
+    "keinen"
+   ],
+   "a": 0,
+   "exp": "Sustantivo sin artículo → kein; das Fleisch es neutro → kein."
+  },
+  {
+   "t": "mc",
+   "q": "Der Kaffee ist ___ heiß.",
+   "o": [
+    "nicht",
+    "kein",
+    "keine"
+   ],
+   "a": 0,
+   "exp": "Se niega un adjetivo → nicht."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cómo se dice 4,20 €?",
+   "o": [
+    "vier Euro zwanzig",
+    "vierzig Euro zwei",
+    "vier Euros zwanzig"
+   ],
+   "a": 0,
+   "exp": "Euros + céntimos: vier Euro zwanzig (Euro sin -s)."
+  },
+  {
+   "t": "gap",
+   "q": "Ich ___ einen Tee, bitte.",
+   "a": [
+    "möchte"
+   ],
+   "hint": "möchten",
+   "exp": "ich → möchte (sin -t)."
+  },
+  {
+   "t": "gap",
+   "q": "Was ___ du?",
+   "a": [
+    "möchtest"
+   ],
+   "hint": "möchten",
+   "exp": "du → möchtest."
+  },
+  {
+   "t": "gap",
+   "q": "Wir brauchen ___ Kuchen.",
+   "a": [
+    "einen"
+   ],
+   "hint": "un (der Kuchen)",
+   "exp": "der Kuchen es CD → einen."
+  },
+  {
+   "t": "gap",
+   "q": "Gibt es hier ___ Supermarkt?",
+   "a": [
+    "einen"
+   ],
+   "hint": "un (der Supermarkt)",
+   "exp": "es gibt + acusativo: einen Supermarkt."
+  },
+  {
+   "t": "gap",
+   "q": "Wie viel ___ die Äpfel?",
+   "a": [
+    "kosten"
+   ],
+   "hint": "kosten",
+   "exp": "Sujeto plural (die Äpfel) → kosten."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Was",
+    "der",
+    "kostet",
+    "Käse"
+   ],
+   "a": "Was kostet der Käse?",
+   "es": "¿Cuánto cuesta el queso?"
+  },
+  {
+   "t": "order",
+   "w": [
+    "kaufe",
+    "Ich",
+    "Wasser",
+    "eine",
+    "Flasche"
+   ],
+   "a": "Ich kaufe eine Flasche Wasser.",
+   "es": "Compro una botella de agua."
+  },
+  {
+   "t": "order",
+   "w": [
+    "einen",
+    "Ich",
+    "Kaffee",
+    "möchte"
+   ],
+   "a": "Ich möchte einen Kaffee.",
+   "es": "Querría un café."
+  },
+  {
+   "t": "listen",
+   "de": "Das macht sieben Euro achtzig.",
+   "es": "Son siete euros con ochenta."
+  },
+  {
+   "t": "listen",
+   "de": "Ich hätte gern ein Kilo Tomaten.",
+   "es": "Querría un kilo de tomates."
+  },
+  {
+   "t": "tr",
+   "es": "No como carne.",
+   "a": [
+    "Ich esse kein Fleisch."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "¿Hay un supermercado aquí?",
+   "a": [
+    "Gibt es hier einen Supermarkt?"
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "das Brötchen",
+     "el panecillo"
+    ],
+    [
+     "der Käse",
+     "el queso"
+    ],
+    [
+     "die Milch",
+     "la leche"
+    ],
+    [
+     "das Ei",
+     "el huevo"
+    ],
+    [
+     "der Apfel",
+     "la manzana"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Verkäuferin: Guten Morgen! Was möchten Sie? – Kunde: Ich hätte gern vier Brötchen und ein Brot. – Verkäuferin: Sonst noch etwas? – Kunde: Nein, danke. Das ist alles. – Verkäuferin: Das macht 5,40 Euro.",
+   "q": "¿Cuánto paga el cliente?",
+   "o": [
+    "4,50 €",
+    "5,40 €",
+    "4,40 €"
+   ],
+   "a": 1
+  }
+ ],
+ "speak": [
+  {
+   "de": "Ich hätte gern zwei Brötchen.",
+   "es": "Querría dos panecillos.",
+   "tip": "«ä» = e abierta; «ö» = di «e» con los labios redondeados. «ch» de «Brötchen» suave, como en «ich»."
+  },
+  {
+   "de": "Was kostet das?",
+   "es": "¿Cuánto cuesta?",
+   "tip": "«o» corta y abierta en «kostet»; la «K» con soplo de aire."
+  },
+  {
+   "de": "Das macht fünf Euro zwanzig.",
+   "es": "Son cinco euros con veinte.",
+   "tip": "«Euro» se dice «oiro»; «z» = «ts»: «tsvantsij». «ü» con labios redondos."
+  },
+  {
+   "de": "Ich möchte einen Kaffee.",
+   "es": "Querría un café.",
+   "tip": "«ö» con labios redondos; «ch» de «möchte» suave (como en «ich»). Acento de «Kaffee» en la primera sílaba: KA-ffee."
+  },
+  {
+   "de": "Gibt es hier einen Supermarkt?",
+   "es": "¿Hay un supermercado aquí?",
+   "tip": "«ie» = i larga: «hiia». La «S» inicial de «Supermarkt» es sonora (zumbido)."
+  },
+  {
+   "de": "Nein, danke. Das ist alles.",
+   "es": "No, gracias. Eso es todo.",
+   "tip": "«ei» = «ai»: «nain». Acento en «A-lles»."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Ich nehme ___ Kuchen.",
+   "o": [
+    "den",
+    "der",
+    "dem"
+   ],
+   "a": 0,
+   "exp": "der Kuchen como CD → den."
+  },
+  {
+   "t": "mc",
+   "q": "Wir trinken ___ Kaffee.",
+   "o": [
+    "keinen",
+    "kein",
+    "keine"
+   ],
+   "a": 0,
+   "exp": "der Kaffee, acusativo masculino → keinen."
+  },
+  {
+   "t": "mc",
+   "q": "Elige la frase correcta.",
+   "o": [
+    "Ich habe keine Zeit.",
+    "Ich habe nicht Zeit.",
+    "Ich habe kein Zeit."
+   ],
+   "a": 0,
+   "exp": "die Zeit sin artículo → keine Zeit."
+  },
+  {
+   "t": "gap",
+   "q": "___ du einen Tee?",
+   "a": [
+    "Möchtest",
+    "möchtest"
+   ],
+   "hint": "möchten",
+   "exp": "du → möchtest."
+  },
+  {
+   "t": "gap",
+   "q": "Gibt es hier ___ Bäckerei?",
+   "a": [
+    "eine"
+   ],
+   "hint": "una (die Bäckerei)",
+   "exp": "Femenino: no cambia en acusativo → eine."
+  },
+  {
+   "t": "gap",
+   "q": "Wie viel kostet ___ Käse?",
+   "a": [
+    "der"
+   ],
+   "hint": "el (der Käse)",
+   "exp": "«der Käse» es el sujeto de «kostet» → nominativo: der."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Ich",
+    "Fisch",
+    "keinen",
+    "esse"
+   ],
+   "a": "Ich esse keinen Fisch.",
+   "es": "No como pescado."
+  },
+  {
+   "t": "listen",
+   "de": "Was kostet ein Kilo Äpfel?",
+   "es": "¿Cuánto cuesta un kilo de manzanas?"
+  },
+  {
+   "t": "tr",
+   "es": "Querría una botella de agua, por favor.",
+   "a": [
+    "Ich hätte gern eine Flasche Wasser, bitte.",
+    "Ich hätte gerne eine Flasche Wasser, bitte.",
+    "Ich möchte eine Flasche Wasser, bitte.",
+    "Ich hätte gern eine Flasche Wasser.",
+    "Ich hätte gerne eine Flasche Wasser.",
+    "Ich möchte eine Flasche Wasser.",
+    "Eine Flasche Wasser, bitte."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "teuer",
+     "caro"
+    ],
+    [
+     "billig",
+     "barato"
+    ],
+    [
+     "kaufen",
+     "comprar"
+    ],
+    [
+     "kosten",
+     "costar"
+    ],
+    [
+     "brauchen",
+     "necesitar"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Claudia braucht Milch, Eier und einen Kuchen. Die Eier kosten 2,30 Euro. Sie kauft keinen Käse, sie hat noch Käse. Sie möchte auch eine Flasche Wasser.",
+   "q": "¿Qué NO compra Claudia?",
+   "o": [
+    "Leche",
+    "Queso",
+    "Huevos"
+   ],
+   "a": 1
+  }
+ ]
+}

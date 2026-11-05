@@ -1,0 +1,563 @@
+{
+ "id": "a2-03",
+ "level": "A2",
+ "n": 15,
+ "title": "Wo? Wohin?",
+ "title_es": "Preposiciones de lugar (Wechselpräpositionen)",
+ "goals": [
+  "Conozco las nueve preposiciones de lugar: in, an, auf, unter, über, vor, hinter, neben, zwischen.",
+  "Sé cuándo llevan dativo (Wo?) y cuándo acusativo (Wohin?).",
+  "Distingo stellen/stehen, legen/liegen, setzen/sitzen y hängen.",
+  "Puedo describir dónde están las cosas en casa o en el laboratorio y decir dónde ponerlas."
+ ],
+ "lessons": [
+  {
+   "h": "Las nueve preposiciones de lugar",
+   "html": "<table><thead><tr><th>Preposición</th><th>Significado</th><th>Ejemplo (Wo?)</th></tr></thead><tbody><tr><td>in</td><td>en, dentro de</td><td><span class=\"de\">in der Küche</span></td></tr><tr><td>an</td><td>en, junto a (pegado a un lado, pared, borde)</td><td><span class=\"de\">an der Wand</span></td></tr><tr><td>auf</td><td>sobre, encima (tocando, superficie horizontal)</td><td><span class=\"de\">auf dem Tisch</span></td></tr><tr><td>über</td><td>encima de (sin tocar)</td><td><span class=\"de\">über dem Sofa</span></td></tr><tr><td>unter</td><td>debajo de</td><td><span class=\"de\">unter dem Bett</span></td></tr><tr><td>vor</td><td>delante de</td><td><span class=\"de\">vor dem Haus</span></td></tr><tr><td>hinter</td><td>detrás de</td><td><span class=\"de\">hinter der Tür</span></td></tr><tr><td>neben</td><td>al lado de</td><td><span class=\"de\">neben dem Computer</span></td></tr><tr><td>zwischen</td><td>entre</td><td><span class=\"de\">zwischen den Büchern</span></td></tr></tbody></table><p><b>ojo:</b> el español «en» puede ser <span class=\"de\">in</span>, <span class=\"de\">an</span> o <span class=\"de\">auf</span>: el cuadro está <span class=\"de\">an der Wand</span> (pared, vertical), el móvil <span class=\"de\">auf dem Tisch</span> (superficie), la leche <span class=\"de\">im Kühlschrank</span> (dentro). Ojo también con <span class=\"de\">auf dem Balkon</span>.</p>"
+  },
+  {
+   "h": "Wo? + dativo · Wohin? + acusativo",
+   "html": "<p>Estas preposiciones se llaman <b>Wechselpräpositionen</b> (preposiciones «de cambio») porque pueden llevar dos casos:</p><ul><li><b>Wo?</b> (¿dónde?) → posición, estado, sin cambio de lugar → <b>dativo</b>: <span class=\"de\">Ich bin in der Küche.</span></li><li><b>Wohin?</b> (¿adónde?) → dirección, movimiento hacia un lugar → <b>acusativo</b>: <span class=\"de\">Ich gehe in die Küche.</span></li></ul><table><thead><tr><th></th><th>m</th><th>f</th><th>n</th><th>pl</th></tr></thead><tbody><tr><td>Wo? (dativo)</td><td>dem</td><td>der</td><td>dem</td><td>den …-n</td></tr><tr><td>Wohin? (acusativo)</td><td>den</td><td>die</td><td>das</td><td>die</td></tr></tbody></table><p><b>Contracciones</b> (muy frecuentes): <span class=\"de\">in dem = im</span>, <span class=\"de\">in das = ins</span>, <span class=\"de\">an dem = am</span>, <span class=\"de\">an das = ans</span>.</p><p><span class=\"de\">Ich bin im Kino.</span> (Wo?) · <span class=\"de\">Ich gehe ins Kino.</span> (Wohin?)</p><p><b>ojo:</b> lo que cuenta es si hay <b>cambio de lugar</b>, no si hay movimiento: <span class=\"de\">Ich laufe im Park.</span> (corro dentro del parque → dativo) vs <span class=\"de\">Ich laufe in den Park.</span> (corro hasta el parque → acusativo).</p>"
+  },
+  {
+   "h": "Poner y estar: stellen/stehen, legen/liegen, setzen/sitzen, hängen",
+   "html": "<p>El español «poner» y «estar» se reparten en alemán según la <b>posición</b> del objeto.</p><table><thead><tr><th>Acción (Wohin? + Akk)</th><th>Estado (Wo? + Dat)</th><th>Para…</th></tr></thead><tbody><tr><td><b>stellen</b> – hat gestellt</td><td><b>stehen</b> – hat gestanden</td><td>en vertical: botellas, vasos, sillas, el portátil abierto</td></tr><tr><td><b>legen</b> – hat gelegt</td><td><b>liegen</b> – hat gelegen</td><td>en horizontal: el móvil, las llaves, una carta</td></tr><tr><td><b>setzen</b> – hat gesetzt</td><td><b>sitzen</b> – hat gesessen</td><td>sentar / estar sentado</td></tr><tr><td><b>hängen</b> – hat gehängt</td><td><b>hängen</b> – hat gehangen</td><td>colgar / estar colgado</td></tr></tbody></table><p><span class=\"de\">Ich stelle die Flasche auf den Tisch. → Die Flasche steht auf dem Tisch.</span></p><p><span class=\"de\">Ich lege das Handy auf den Tisch. → Das Handy liegt auf dem Tisch.</span></p><p><span class=\"de\">Ich hänge das Bild an die Wand. → Das Bild hängt an der Wand.</span></p><p><b>Truco:</b> los verbos de acción (stellen, legen, setzen) son regulares y llevan objeto en acusativo; los de estado (stehen, liegen, sitzen) son irregulares.</p><p><b>ojo:</b> «Ich stelle die Flasche auf dem Tisch» ✗ → con verbo de acción va acusativo: <span class=\"de\">auf den Tisch</span>.</p>"
+  },
+  {
+   "h": "Ordenar el piso y el laboratorio",
+   "html": "<ul><li><span class=\"de\">Wo ist mein Schlüssel? – Er liegt in der Schublade.</span></li><li><span class=\"de\">Stell die Proben bitte in den Kühlschrank!</span></li><li><span class=\"de\">Die Pipetten liegen neben dem Mikroskop.</span></li><li><span class=\"de\">Wohin hast du meine Brille gelegt? – Auf das Regal.</span></li><li><span class=\"de\">Das Poster hängt über dem Schreibtisch.</span></li></ul><p>Fíjate en la pregunta: <b>Wo</b> → respuesta en dativo; <b>Wohin</b> → respuesta en acusativo.</p><p><b>ojo:</b> no confundas <span class=\"de\">wo</span> (dónde) con <span class=\"de\">wohin</span> (adónde): «Wo gehst du?» ✗ → <span class=\"de\">Wohin gehst du?</span> ✓</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "Tisch",
+   "art": "der",
+   "pl": "Tische",
+   "es": "mesa",
+   "ex": "Das Handy liegt auf dem Tisch."
+  },
+  {
+   "de": "Stuhl",
+   "art": "der",
+   "pl": "Stühle",
+   "es": "silla",
+   "ex": "Der Stuhl steht am Fenster."
+  },
+  {
+   "de": "Schrank",
+   "art": "der",
+   "pl": "Schränke",
+   "es": "armario",
+   "ex": "Die Gläser stehen im Schrank."
+  },
+  {
+   "de": "Regal",
+   "art": "das",
+   "pl": "Regale",
+   "es": "estantería",
+   "ex": "Die Bücher stehen im Regal."
+  },
+  {
+   "de": "Schublade",
+   "art": "die",
+   "pl": "Schubladen",
+   "es": "cajón",
+   "ex": "Der Schlüssel liegt in der Schublade."
+  },
+  {
+   "de": "Wand",
+   "art": "die",
+   "pl": "Wände",
+   "es": "pared",
+   "ex": "Das Bild hängt an der Wand."
+  },
+  {
+   "de": "Boden",
+   "art": "der",
+   "pl": "Böden",
+   "es": "suelo",
+   "ex": "Die Tasche liegt auf dem Boden."
+  },
+  {
+   "de": "Ecke",
+   "art": "die",
+   "pl": "Ecken",
+   "es": "rincón, esquina",
+   "ex": "Die Lampe steht in der Ecke."
+  },
+  {
+   "de": "Kühlschrank",
+   "art": "der",
+   "pl": "Kühlschränke",
+   "es": "nevera",
+   "ex": "Die Milch steht im Kühlschrank."
+  },
+  {
+   "de": "Waschbecken",
+   "art": "das",
+   "pl": "Waschbecken",
+   "es": "lavabo, fregadero",
+   "ex": "Die Flasche steht neben dem Waschbecken."
+  },
+  {
+   "de": "Bild",
+   "art": "das",
+   "pl": "Bilder",
+   "es": "cuadro, imagen",
+   "ex": "Ich hänge das Bild an die Wand."
+  },
+  {
+   "de": "Probe",
+   "art": "die",
+   "pl": "Proben",
+   "es": "muestra",
+   "ex": "Die Proben stehen im Kühlschrank."
+  },
+  {
+   "de": "Mikroskop",
+   "art": "das",
+   "pl": "Mikroskope",
+   "es": "microscopio",
+   "ex": "Das Mikroskop steht neben dem Computer."
+  },
+  {
+   "de": "Pipette",
+   "art": "die",
+   "pl": "Pipetten",
+   "es": "pipeta",
+   "ex": "Die Pipetten liegen in der Schublade."
+  },
+  {
+   "de": "Schreibtisch",
+   "art": "der",
+   "pl": "Schreibtische",
+   "es": "escritorio",
+   "ex": "Der Laptop liegt auf dem Schreibtisch."
+  },
+  {
+   "de": "Garderobe",
+   "art": "die",
+   "pl": "Garderoben",
+   "es": "perchero (de la entrada)",
+   "ex": "Die Jacke hängt an der Garderobe."
+  },
+  {
+   "de": "stellen",
+   "es": "poner (en vertical)",
+   "ex": "Ich stelle die Flasche auf den Tisch."
+  },
+  {
+   "de": "stehen",
+   "es": "estar (de pie, en vertical)",
+   "ex": "Die Flasche steht auf dem Tisch."
+  },
+  {
+   "de": "legen",
+   "es": "poner (en horizontal), dejar",
+   "ex": "Ich lege das Buch auf den Tisch."
+  },
+  {
+   "de": "liegen",
+   "es": "estar (tumbado, en horizontal)",
+   "ex": "Das Buch liegt auf dem Tisch."
+  },
+  {
+   "de": "setzen",
+   "es": "sentar (a alguien)",
+   "ex": "Ich setze das Kind auf den Stuhl."
+  },
+  {
+   "de": "sitzen",
+   "es": "estar sentado",
+   "ex": "Das Kind sitzt auf dem Stuhl."
+  },
+  {
+   "de": "hängen",
+   "es": "colgar / estar colgado",
+   "ex": "Der Mantel hängt an der Garderobe."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Wo ist der Schlüssel? – Er liegt auf ___ Tisch.",
+   "o": [
+    "den",
+    "dem",
+    "der"
+   ],
+   "a": 1,
+   "exp": "Wo? → dativo; der Tisch → dem Tisch."
+  },
+  {
+   "t": "mc",
+   "q": "Ich lege den Schlüssel auf ___ Tisch.",
+   "o": [
+    "den",
+    "dem",
+    "der"
+   ],
+   "a": 0,
+   "exp": "legen = acción, Wohin? → acusativo: den Tisch."
+  },
+  {
+   "t": "mc",
+   "q": "Die Flasche ___ im Kühlschrank.",
+   "o": [
+    "steht",
+    "stellt",
+    "legt"
+   ],
+   "a": 0,
+   "exp": "Estado de un objeto vertical: stehen. stellen y legen son acciones con objeto."
+  },
+  {
+   "t": "mc",
+   "q": "Ich ___ die Gläser in den Schrank.",
+   "o": [
+    "stelle",
+    "stehe",
+    "liege"
+   ],
+   "a": 0,
+   "exp": "Acción con objeto (die Gläser) + acusativo → stellen."
+  },
+  {
+   "t": "gap",
+   "q": "Das Bild hängt an ___ Wand.",
+   "a": [
+    "der"
+   ],
+   "hint": "die Wand – Wo?",
+   "exp": "Wo? → dativo; femenino: der."
+  },
+  {
+   "t": "gap",
+   "q": "Ich gehe heute Abend ___ Kino.",
+   "a": [
+    "ins",
+    "in das"
+   ],
+   "hint": "in + das Kino (Wohin?)",
+   "exp": "Dirección → acusativo: in das = ins."
+  },
+  {
+   "t": "gap",
+   "q": "Die Katze schläft unter ___ Bett.",
+   "a": [
+    "dem"
+   ],
+   "hint": "das Bett – Wo?",
+   "exp": "Posición → dativo neutro: dem."
+  },
+  {
+   "t": "gap",
+   "q": "Stell die Proben bitte ___ Kühlschrank!",
+   "a": [
+    "in den"
+   ],
+   "hint": "in + der Kühlschrank (Wohin?)",
+   "exp": "stellen → Wohin? → acusativo masculino: in den."
+  },
+  {
+   "t": "gap",
+   "q": "Das Fahrrad steht ___ Haus. (delante de)",
+   "a": [
+    "vor dem",
+    "vorm"
+   ],
+   "hint": "vor + das Haus (Wo?)",
+   "exp": "stehen = estado → dativo: vor dem Haus."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Der",
+    "Laptop",
+    "liegt",
+    "zwischen",
+    "den",
+    "Büchern"
+   ],
+   "a": "Der Laptop liegt zwischen den Büchern.",
+   "es": "El portátil está entre los libros."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Ich",
+    "stelle",
+    "die",
+    "Flasche",
+    "auf",
+    "den",
+    "Tisch"
+   ],
+   "a": "Ich stelle die Flasche auf den Tisch.",
+   "es": "Pongo la botella en la mesa."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Wohin",
+    "hast",
+    "du",
+    "gelegt",
+    "mein",
+    "Handy"
+   ],
+   "a": "Wohin hast du mein Handy gelegt?",
+   "es": "¿Dónde has puesto mi móvil?"
+  },
+  {
+   "t": "listen",
+   "de": "Der Kalender hängt neben der Tür.",
+   "es": "El calendario está colgado al lado de la puerta."
+  },
+  {
+   "t": "listen",
+   "de": "Die Kinder sitzen am Tisch und essen.",
+   "es": "Los niños están sentados a la mesa y comen."
+  },
+  {
+   "t": "tr",
+   "es": "Pongo el vaso en la mesa.",
+   "a": [
+    "Ich stelle das Glas auf den Tisch."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "Las llaves están en el bolso.",
+   "a": [
+    "Die Schlüssel liegen in der Tasche.",
+    "Die Schlüssel sind in der Tasche."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "hinter",
+     "detrás de"
+    ],
+    [
+     "neben",
+     "al lado de"
+    ],
+    [
+     "über",
+     "encima de (sin tocar)"
+    ],
+    [
+     "unter",
+     "debajo de"
+    ],
+    [
+     "zwischen",
+     "entre"
+    ]
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "in dem",
+     "im"
+    ],
+    [
+     "in das",
+     "ins"
+    ],
+    [
+     "an dem",
+     "am"
+    ],
+    [
+     "an das",
+     "ans"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Im Labor ist heute Chaos. Die Pipetten liegen auf dem Boden, und die Proben stehen nicht im Kühlschrank, sondern neben dem Waschbecken. Claudia stellt die Proben sofort in den Kühlschrank und legt die Pipetten in die Schublade. Das Poster hängt jetzt über ihrem Schreibtisch.",
+   "q": "¿Dónde estaban las muestras al principio?",
+   "o": [
+    "En la nevera",
+    "Junto al lavabo",
+    "En el cajón"
+   ],
+   "a": 1
+  }
+ ],
+ "speak": [
+  {
+   "de": "Wo ist mein Handy? – Es liegt auf dem Tisch.",
+   "es": "¿Dónde está mi móvil? – Está en la mesa.",
+   "tip": "«W» se pronuncia como una «v» con los dientes sobre el labio inferior; «ie» es una «i» larga."
+  },
+  {
+   "de": "Ich stelle die Proben in den Kühlschrank.",
+   "es": "Pongo las muestras en la nevera.",
+   "tip": "«st» al inicio = «sht»; «ü» = «i» con labios de «u»."
+  },
+  {
+   "de": "Das Bild hängt über dem Sofa.",
+   "es": "El cuadro está colgado encima del sofá.",
+   "tip": "«ä» como «e» abierta; la «ng» final sin «g» explosiva, solo nasal."
+  },
+  {
+   "de": "Ich gehe ins Bett.",
+   "es": "Me voy a la cama.",
+   "tip": "«Bett»: «e» corta y la «t» final bien marcada."
+  },
+  {
+   "de": "Die Schlüssel liegen zwischen den Büchern.",
+   "es": "Las llaves están entre los libros.",
+   "tip": "«zw» = «tsv»: TSVI-shen; «ü» redondeada."
+  },
+  {
+   "de": "Häng die Jacke bitte an die Garderobe!",
+   "es": "¡Cuelga la chaqueta en el perchero, por favor!",
+   "tip": "«J» de Jacke = «y»; la «G» siempre como en «gato»."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Wir fahren am Wochenende ___ Berge.",
+   "o": [
+    "in die",
+    "in den",
+    "in der"
+   ],
+   "a": 0,
+   "exp": "Dirección (Wohin?) → acusativo plural: in die Berge."
+  },
+  {
+   "t": "mc",
+   "q": "Mein Mantel hängt ___ Garderobe.",
+   "o": [
+    "an der",
+    "an die",
+    "auf die"
+   ],
+   "a": 0,
+   "exp": "Estado (Wo?) → dativo femenino: an der."
+  },
+  {
+   "t": "mc",
+   "q": "Ich habe den Teller in die Spülmaschine ___.",
+   "o": [
+    "gestellt",
+    "gestanden",
+    "gelegen"
+   ],
+   "a": 0,
+   "exp": "Acción con objeto + acusativo → stellen: gestellt."
+  },
+  {
+   "t": "mc",
+   "q": "Welcher Satz ist richtig?",
+   "o": [
+    "Ich stelle die Flasche auf dem Tisch.",
+    "Ich stelle die Flasche auf den Tisch.",
+    "Die Flasche steht auf den Tisch."
+   ],
+   "a": 1,
+   "exp": "stellen (acción) + acusativo; stehen (estado) + dativo."
+  },
+  {
+   "t": "gap",
+   "q": "Der Hund liegt ___ Sofa.",
+   "a": [
+    "auf dem"
+   ],
+   "hint": "auf + das Sofa (Wo?)",
+   "exp": "liegen = estado → dativo: auf dem Sofa."
+  },
+  {
+   "t": "gap",
+   "q": "Häng die Jacke bitte ___ Schrank!",
+   "a": [
+    "in den"
+   ],
+   "hint": "in + der Schrank (Wohin?)",
+   "exp": "hängen como acción → acusativo: in den Schrank."
+  },
+  {
+   "t": "gap",
+   "q": "Am Abend sitzen wir ___ Balkon.",
+   "a": [
+    "auf dem"
+   ],
+   "hint": "auf + der Balkon (Wo?)",
+   "exp": "Balkon va con auf; sitzen = estado → dativo."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Das",
+    "Mikroskop",
+    "steht",
+    "neben",
+    "dem",
+    "Computer"
+   ],
+   "a": "Das Mikroskop steht neben dem Computer.",
+   "es": "El microscopio está al lado del ordenador."
+  },
+  {
+   "t": "listen",
+   "de": "Wohin stellst du den Stuhl? – Zwischen das Bett und den Schrank.",
+   "es": "¿Dónde pones la silla? – Entre la cama y el armario."
+  },
+  {
+   "t": "tr",
+   "es": "El gato está debajo de la mesa.",
+   "a": [
+    "Die Katze ist unter dem Tisch.",
+    "Die Katze liegt unter dem Tisch.",
+    "Die Katze sitzt unter dem Tisch."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "im Büro",
+     "en la oficina"
+    ],
+    [
+     "ins Büro",
+     "a la oficina"
+    ],
+    [
+     "am Fenster",
+     "junto a la ventana"
+    ],
+    [
+     "ans Fenster",
+     "hacia la ventana"
+    ],
+    [
+     "auf dem Tisch",
+     "sobre la mesa"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Lukas sucht seine Boxhandschuhe. Sie liegen nicht in seiner Sporttasche. Sie sind auch nicht unter dem Bett. Endlich findet er sie: Sie hängen an der Tür im Flur!",
+   "q": "¿Dónde están los guantes?",
+   "o": [
+    "En la bolsa de deporte",
+    "Debajo de la cama",
+    "Colgados en la puerta del pasillo"
+   ],
+   "a": 2
+  }
+ ]
+}

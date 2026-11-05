@@ -1,0 +1,566 @@
+{
+ "id": "a1-07",
+ "level": "A1",
+ "n": 7,
+ "title": "Mein Tag",
+ "title_es": "La hora y la rutina diaria",
+ "goals": [
+  "Puedo preguntar y decir la hora de forma formal e informal.",
+  "Puedo usar um, am e im con expresiones de tiempo (días, partes del día, estaciones).",
+  "Puedo usar verbos separables (aufstehen, einkaufen, anrufen, fernsehen…) en la posición correcta.",
+  "Puedo contar mi rutina diaria y empezar la frase con una expresión de tiempo (Am Abend lerne ich…)."
+ ],
+ "lessons": [
+  {
+   "h": "Wie spät ist es? – La hora",
+   "html": "<p>Para preguntar la hora: <span class=\"de\">Wie spät ist es?</span> o <span class=\"de\">Wie viel Uhr ist es?</span> Respuesta: <span class=\"de\">Es ist …</span>. Para «¿a qué hora…?»: <span class=\"de\">Um wie viel Uhr …?</span> o simplemente <span class=\"de\">Wann …?</span></p>\n<p><b>Formal</b> (trenes, radio, horarios oficiales): formato 24 h, hora + <span class=\"de\">Uhr</span> + minutos: <span class=\"de\">19:30 = neunzehn Uhr dreißig</span>. <b>Informal</b> (conversación): formato 12 h con <span class=\"de\">nach</span> (y), <span class=\"de\">vor</span> (menos), <span class=\"de\">Viertel</span> (cuarto) y <span class=\"de\">halb</span> (media).</p>\n<table><thead><tr><th>Hora</th><th>Informal</th><th>Formal</th></tr></thead><tbody>\n<tr><td>7:00</td><td><span class=\"de\">sieben (Uhr)</span></td><td><span class=\"de\">sieben Uhr</span></td></tr>\n<tr><td>7:05</td><td><span class=\"de\">fünf nach sieben</span></td><td><span class=\"de\">sieben Uhr fünf</span></td></tr>\n<tr><td>7:15</td><td><span class=\"de\">Viertel nach sieben</span></td><td><span class=\"de\">sieben Uhr fünfzehn</span></td></tr>\n<tr><td>7:25</td><td><span class=\"de\">fünf vor halb acht</span></td><td><span class=\"de\">sieben Uhr fünfundzwanzig</span></td></tr>\n<tr><td>7:30</td><td><span class=\"de\">halb acht</span></td><td><span class=\"de\">sieben Uhr dreißig</span></td></tr>\n<tr><td>7:35</td><td><span class=\"de\">fünf nach halb acht</span></td><td><span class=\"de\">sieben Uhr fünfunddreißig</span></td></tr>\n<tr><td>7:45</td><td><span class=\"de\">Viertel vor acht</span></td><td><span class=\"de\">sieben Uhr fünfundvierzig</span></td></tr>\n<tr><td>7:50</td><td><span class=\"de\">zehn vor acht</span></td><td><span class=\"de\">sieben Uhr fünfzig</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">halb acht</span> significa «media hora <i>hacia</i> las ocho» = <b>7:30</b>, ¡no 8:30! Es el error número uno de los hispanohablantes. Piensa siempre en la hora <i>siguiente</i>.</p>\n<p><b>Ojo:</b> «es la una» = <span class=\"de\">Es ist eins</span> o <span class=\"de\">Es ist ein Uhr</span> (sin -s delante de Uhr). Y «a las ocho» = <span class=\"de\">um acht</span>, sin artículo.</p>"
+  },
+  {
+   "h": "um, am, im – preposiciones de tiempo",
+   "html": "<table><thead><tr><th>Preposición</th><th>Se usa con</th><th>Ejemplos</th></tr></thead><tbody>\n<tr><td><span class=\"de\">um</span></td><td>la hora exacta</td><td><span class=\"de\">um acht Uhr, um halb neun</span></td></tr>\n<tr><td><span class=\"de\">am</span></td><td>días y partes del día</td><td><span class=\"de\">am Montag, am Morgen, am Abend, am Wochenende</span></td></tr>\n<tr><td><span class=\"de\">im</span></td><td>meses y estaciones</td><td><span class=\"de\">im Mai, im Sommer, im Winter</span></td></tr>\n</tbody></table>\n<p>Excepción: <span class=\"de\">in der Nacht</span> (por la noche, de madrugada).</p>\n<p><b>Días</b> (todos <span class=\"de\">der</span>, con mayúscula): <span class=\"de\">Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag</span>.</p>\n<p><b>Partes del día</b>: <span class=\"de\">der Morgen</span> (primera hora), <span class=\"de\">der Vormittag</span> (mañana hasta las 12), <span class=\"de\">der Mittag</span>, <span class=\"de\">der Nachmittag</span>, <span class=\"de\">der Abend</span>, <span class=\"de\">die Nacht</span>.</p>\n<p>Con <b>-s y minúscula</b> expresan costumbre: <span class=\"de\">morgens, abends, montags, samstags</span> = «por las mañanas, los lunes…».</p>\n<p><b>Ojo:</b> nuestra «tarde» son dos palabras: hasta las 18 h aprox. es <span class=\"de\">Nachmittag</span>, después <span class=\"de\">Abend</span>. «Ceno por la noche» = <span class=\"de\">am Abend</span>; <span class=\"de\">in der Nacht</span> es cuando duermes.</p>\n<p><b>Ojo:</b> <span class=\"de\">morgen</span> (minúscula) = mañana, el día siguiente; <span class=\"de\">der Morgen</span> = la mañana.</p>"
+  },
+  {
+   "h": "Verbos separables",
+   "html": "<p>Muchos verbos llevan un prefijo (<span class=\"de\">auf-, ein-, an-, fern-</span>…) que en presente se separa y va <b>al final de la frase</b>. El verbo conjugado sigue en la posición 2: forman un «paréntesis».</p>\n<table><thead><tr><th>Infinitivo</th><th>Ejemplo</th></tr></thead><tbody>\n<tr><td><span class=\"de\">aufstehen</span> (levantarse)</td><td><span class=\"de\">Ich stehe um sechs Uhr auf.</span></td></tr>\n<tr><td><span class=\"de\">einkaufen</span> (hacer la compra)</td><td><span class=\"de\">Wir kaufen am Samstag ein.</span></td></tr>\n<tr><td><span class=\"de\">anrufen</span> (llamar por teléfono)</td><td><span class=\"de\">Er ruft seine Mutter an.</span></td></tr>\n<tr><td><span class=\"de\">fernsehen</span> (ver la tele)</td><td><span class=\"de\">Sie sieht am Abend fern.</span></td></tr>\n<tr><td><span class=\"de\">anfangen</span> (empezar)</td><td><span class=\"de\">Der Kurs fängt um acht an.</span></td></tr>\n<tr><td><span class=\"de\">aufräumen</span> (ordenar)</td><td><span class=\"de\">Ich räume die Küche auf.</span></td></tr>\n</tbody></table>\n<p>En preguntas igual: <span class=\"de\">Wann stehst du auf?</span> – <span class=\"de\">Kaufst du heute ein?</span></p>\n<p><b>Ojo:</b> el cambio vocálico se mantiene: <span class=\"de\">du siehst fern, er sieht fern</span>; <span class=\"de\">du fängst an, er fängt an</span>.</p>\n<p><b>Ojo:</b> ¡no olvides el prefijo! <span class=\"de\">Ich rufe Anna an</span> = llamo a Anna por teléfono; sin <span class=\"de\">an</span> significa «llamar a gritos». El acento va en el prefijo: <b>AUF</b>stehen, <b>EIN</b>kaufen.</p>"
+  },
+  {
+   "h": "Am Abend lerne ich Deutsch – la inversión",
+   "html": "<p>El verbo conjugado va <b>siempre en la posición 2</b>. Si empiezas con una expresión de tiempo, el sujeto pasa <b>detrás</b> del verbo.</p>\n<table><thead><tr><th>Posición 1</th><th>Posición 2 (verbo)</th><th>Resto</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Ich</span></td><td><span class=\"de\">lerne</span></td><td><span class=\"de\">am Abend Deutsch.</span></td></tr>\n<tr><td><span class=\"de\">Am Abend</span></td><td><span class=\"de\">lerne</span></td><td><span class=\"de\">ich Deutsch.</span></td></tr>\n<tr><td><span class=\"de\">Um sieben</span></td><td><span class=\"de\">stehe</span></td><td><span class=\"de\">ich auf.</span></td></tr>\n<tr><td><span class=\"de\">Montags</span></td><td><span class=\"de\">geht</span></td><td><span class=\"de\">Claudia ins Fitnessstudio.</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> en español decimos «por la tarde yo estudio», pero <span class=\"de\">*Am Abend ich lerne</span> es incorrecto. Correcto: <span class=\"de\">Am Abend lerne ich.</span></p>\n<p>Una rutina típica: <span class=\"de\">Ich stehe um halb sieben auf. Ich dusche und frühstücke. Um acht fängt meine Arbeit an. Am Nachmittag kaufe ich ein. Am Abend koche ich und sehe fern. Um elf gehe ich ins Bett.</span></p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "Uhr",
+   "art": "die",
+   "pl": "Uhren",
+   "es": "reloj; hora (en la hora exacta)",
+   "ex": "Es ist acht Uhr."
+  },
+  {
+   "de": "Stunde",
+   "art": "die",
+   "pl": "Stunden",
+   "es": "hora (duración)",
+   "ex": "Der Kurs dauert eine Stunde."
+  },
+  {
+   "de": "Minute",
+   "art": "die",
+   "pl": "Minuten",
+   "es": "minuto",
+   "ex": "Ich brauche fünf Minuten."
+  },
+  {
+   "de": "Viertel",
+   "art": "das",
+   "pl": "Viertel",
+   "es": "cuarto",
+   "ex": "Es ist Viertel nach neun."
+  },
+  {
+   "de": "halb",
+   "es": "media (halb acht = 7:30)",
+   "ex": "Es ist halb acht."
+  },
+  {
+   "de": "Tag",
+   "art": "der",
+   "pl": "Tage",
+   "es": "día",
+   "ex": "Mein Tag ist lang."
+  },
+  {
+   "de": "Morgen",
+   "art": "der",
+   "pl": "Morgen",
+   "es": "mañana (primera hora)",
+   "ex": "Am Morgen trinke ich Kaffee."
+  },
+  {
+   "de": "Vormittag",
+   "art": "der",
+   "pl": "Vormittage",
+   "es": "mañana (hasta mediodía)",
+   "ex": "Am Vormittag arbeite ich."
+  },
+  {
+   "de": "Mittag",
+   "art": "der",
+   "pl": "Mittage",
+   "es": "mediodía",
+   "ex": "Am Mittag esse ich Salat."
+  },
+  {
+   "de": "Nachmittag",
+   "art": "der",
+   "pl": "Nachmittage",
+   "es": "tarde (hasta las 18 h aprox.)",
+   "ex": "Am Nachmittag gehe ich ins Fitnessstudio."
+  },
+  {
+   "de": "Abend",
+   "art": "der",
+   "pl": "Abende",
+   "es": "tarde-noche",
+   "ex": "Am Abend koche ich."
+  },
+  {
+   "de": "Nacht",
+   "art": "die",
+   "pl": "Nächte",
+   "es": "noche",
+   "ex": "In der Nacht schlafe ich."
+  },
+  {
+   "de": "Wochenende",
+   "art": "das",
+   "pl": "Wochenenden",
+   "es": "fin de semana",
+   "ex": "Am Wochenende schlafe ich lange."
+  },
+  {
+   "de": "Montag",
+   "art": "der",
+   "pl": "Montage",
+   "es": "lunes",
+   "ex": "Am Montag arbeite ich."
+  },
+  {
+   "de": "aufstehen",
+   "es": "levantarse",
+   "ex": "Ich stehe um sechs Uhr auf."
+  },
+  {
+   "de": "frühstücken",
+   "es": "desayunar",
+   "ex": "Ich frühstücke um sieben."
+  },
+  {
+   "de": "duschen",
+   "es": "ducharse",
+   "ex": "Ich dusche am Morgen."
+  },
+  {
+   "de": "einkaufen",
+   "es": "hacer la compra",
+   "ex": "Wir kaufen am Samstag ein."
+  },
+  {
+   "de": "anrufen",
+   "es": "llamar por teléfono",
+   "ex": "Ich rufe meine Mutter an."
+  },
+  {
+   "de": "fernsehen",
+   "es": "ver la tele",
+   "ex": "Er sieht am Abend fern."
+  },
+  {
+   "de": "anfangen",
+   "es": "empezar",
+   "ex": "Der Film fängt um acht an."
+  },
+  {
+   "de": "aufräumen",
+   "es": "ordenar, recoger",
+   "ex": "Ich räume die Küche auf."
+  },
+  {
+   "de": "früh",
+   "es": "temprano",
+   "ex": "Ich stehe früh auf."
+  },
+  {
+   "de": "spät",
+   "es": "tarde",
+   "ex": "Es ist schon spät."
+  },
+  {
+   "de": "jeden Tag",
+   "es": "cada día, todos los días",
+   "ex": "Ich lerne jeden Tag Deutsch."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Es ist 7:30. ¿Cómo se dice en la conversación?",
+   "o": [
+    "halb sieben",
+    "halb acht",
+    "sieben halb"
+   ],
+   "a": 1,
+   "exp": "halb acht = media hora hacia las ocho, es decir, 7:30."
+  },
+  {
+   "t": "mc",
+   "q": "Es ist 9:45. ¿Cómo se dice en la conversación?",
+   "o": [
+    "Viertel nach neun",
+    "Viertel vor neun",
+    "Viertel vor zehn"
+   ],
+   "a": 2,
+   "exp": "9:45 = un cuarto para las diez: Viertel vor zehn."
+  },
+  {
+   "t": "mc",
+   "q": "Der Deutschkurs beginnt ___ 18 Uhr.",
+   "o": [
+    "am",
+    "um",
+    "im"
+   ],
+   "a": 1,
+   "exp": "Con la hora exacta se usa um."
+  },
+  {
+   "t": "mc",
+   "q": "___ Sonntag schlafe ich lange.",
+   "o": [
+    "Um",
+    "Im",
+    "Am"
+   ],
+   "a": 2,
+   "exp": "Con los días de la semana se usa am."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué frase es correcta?",
+   "o": [
+    "Am Abend ich lerne Deutsch.",
+    "Am Abend lerne ich Deutsch.",
+    "Am Abend lerne Deutsch ich."
+   ],
+   "a": 1,
+   "exp": "El verbo va en posición 2; si empiezas con «Am Abend», el sujeto va detrás del verbo."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué pregunta es correcta?",
+   "o": [
+    "Wann fängt der Film an?",
+    "Wann anfängt der Film?",
+    "Wann fängt an der Film?"
+   ],
+   "a": 0,
+   "exp": "El prefijo an- se separa y va al final."
+  },
+  {
+   "t": "gap",
+   "q": "Ich ___ jeden Tag um halb sieben auf.",
+   "a": [
+    "stehe"
+   ],
+   "hint": "aufstehen",
+   "exp": "stehen → ich stehe; el prefijo auf va al final."
+  },
+  {
+   "t": "gap",
+   "q": "Am Samstag ___ Claudia ein.",
+   "a": [
+    "kauft"
+   ],
+   "hint": "einkaufen",
+   "exp": "kaufen → sie kauft … ein."
+  },
+  {
+   "t": "gap",
+   "q": "Der Film ___ um acht Uhr an.",
+   "a": [
+    "fängt",
+    "faengt"
+   ],
+   "hint": "anfangen (a → ä)",
+   "exp": "anfangen cambia la vocal: er/sie/es fängt … an."
+  },
+  {
+   "t": "gap",
+   "q": "___ du am Abend fern?",
+   "a": [
+    "Siehst",
+    "siehst"
+   ],
+   "hint": "fernsehen (e → ie)",
+   "exp": "sehen → du siehst; pregunta sí/no con el verbo delante."
+  },
+  {
+   "t": "gap",
+   "q": "Am Abend ___ ich meine Mutter an.",
+   "a": [
+    "rufe"
+   ],
+   "hint": "anrufen",
+   "exp": "rufen → ich rufe … an. Tras «Am Abend» viene el verbo y luego el sujeto."
+  },
+  {
+   "t": "order",
+   "w": [
+    "auf",
+    "stehe",
+    "Um",
+    "ich",
+    "sieben"
+   ],
+   "a": "Um sieben stehe ich auf.",
+   "es": "A las siete me levanto."
+  },
+  {
+   "t": "order",
+   "w": [
+    "ruft",
+    "an",
+    "Am",
+    "Paula",
+    "Abend",
+    "ihre",
+    "Mutter"
+   ],
+   "a": "Am Abend ruft Paula ihre Mutter an.",
+   "es": "Por la noche Paula llama a su madre."
+  },
+  {
+   "t": "order",
+   "w": [
+    "du",
+    "Wann",
+    "auf",
+    "stehst"
+   ],
+   "a": "Wann stehst du auf?",
+   "es": "¿Cuándo te levantas?"
+  },
+  {
+   "t": "listen",
+   "de": "Wie spät ist es? Es ist Viertel nach acht.",
+   "es": "¿Qué hora es? Son las ocho y cuarto."
+  },
+  {
+   "t": "listen",
+   "de": "Am Montag stehe ich um halb sieben auf.",
+   "es": "El lunes me levanto a las seis y media."
+  },
+  {
+   "t": "tr",
+   "es": "Me levanto a las siete.",
+   "a": [
+    "Ich stehe um sieben auf.",
+    "Ich stehe um sieben Uhr auf.",
+    "Um sieben stehe ich auf.",
+    "Um sieben Uhr stehe ich auf."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "Por la noche veo la tele.",
+   "a": [
+    "Am Abend sehe ich fern.",
+    "Ich sehe am Abend fern.",
+    "Abends sehe ich fern.",
+    "Ich sehe abends fern."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "7:15",
+     "Viertel nach sieben"
+    ],
+    [
+     "7:45",
+     "Viertel vor acht"
+    ],
+    [
+     "7:30",
+     "halb acht"
+    ],
+    [
+     "6:50",
+     "zehn vor sieben"
+    ],
+    [
+     "7:25",
+     "fünf vor halb acht"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Claudia ist Biologin. Sie steht um sechs Uhr auf und frühstückt. Um halb acht fängt ihre Arbeit an. Am Nachmittag geht sie ins Fitnessstudio. Am Abend kocht sie und sieht fern.",
+   "q": "¿A qué hora empieza a trabajar Claudia?",
+   "o": [
+    "A las 6:00",
+    "A las 7:30",
+    "A las 8:30"
+   ],
+   "a": 1
+  }
+ ],
+ "speak": [
+  {
+   "de": "Wie spät ist es?",
+   "es": "¿Qué hora es?",
+   "tip": "«sp» al principio de palabra suena «shp»: «shpét». La «ä» es una e abierta."
+  },
+  {
+   "de": "Es ist halb acht.",
+   "es": "Son las siete y media.",
+   "tip": "La «ch» de «acht» es como una jota suave española («ajt»)."
+  },
+  {
+   "de": "Ich stehe um sechs Uhr auf.",
+   "es": "Me levanto a las seis.",
+   "tip": "«st» inicial suena «sht»: «shtée». «sechs» se pronuncia «seks»."
+  },
+  {
+   "de": "Am Abend sehe ich fern.",
+   "es": "Por la noche veo la tele.",
+   "tip": "La «s» de «sehe» delante de vocal es sonora, como un zumbido de abeja. La «ch» de «ich» es suave, como un gato que bufa."
+  },
+  {
+   "de": "Wann fängt der Kurs an?",
+   "es": "¿Cuándo empieza el curso?",
+   "tip": "La «W» se pronuncia como una «v» francesa (labios y dientes). «ä» = e abierta."
+  },
+  {
+   "de": "Am Wochenende kaufe ich ein.",
+   "es": "El fin de semana hago la compra.",
+   "tip": "La «ch» de «Wochen» es fuerte (jota) porque va tras «o». «ei» suena «ai»."
+  },
+  {
+   "de": "Ich frühstücke um sieben.",
+   "es": "Desayuno a las siete.",
+   "tip": "Para la «ü» di «i» con los labios redondeados como para «u»."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Es ist 14:30. ¿Cómo se dice en la conversación?",
+   "o": [
+    "halb zwei",
+    "halb drei",
+    "zwei halb"
+   ],
+   "a": 1,
+   "exp": "halb drei = media hora hacia las tres = 14:30."
+  },
+  {
+   "t": "mc",
+   "q": "Es ist 6:40. ¿Cómo se dice en la conversación?",
+   "o": [
+    "zwanzig vor sieben",
+    "zwanzig nach sechs",
+    "zehn vor halb sieben"
+   ],
+   "a": 0,
+   "exp": "6:40 = faltan veinte minutos para las siete: zwanzig vor sieben."
+  },
+  {
+   "t": "mc",
+   "q": "Ich gehe ___ Freitag ins Kino.",
+   "o": [
+    "um",
+    "am",
+    "im"
+   ],
+   "a": 1,
+   "exp": "Días de la semana: am."
+  },
+  {
+   "t": "gap",
+   "q": "Wir ___ am Samstag die Küche auf.",
+   "a": [
+    "räumen",
+    "raeumen"
+   ],
+   "hint": "aufräumen",
+   "exp": "wir räumen … auf."
+  },
+  {
+   "t": "gap",
+   "q": "Wann ___ der Deutschkurs an?",
+   "a": [
+    "fängt",
+    "faengt"
+   ],
+   "hint": "anfangen",
+   "exp": "er fängt … an (a → ä)."
+  },
+  {
+   "t": "gap",
+   "q": "Paul ___ seine Freundin an.",
+   "a": [
+    "ruft"
+   ],
+   "hint": "anrufen",
+   "exp": "er ruft … an."
+  },
+  {
+   "t": "order",
+   "w": [
+    "sieht",
+    "Am",
+    "fern",
+    "Abend",
+    "er"
+   ],
+   "a": "Am Abend sieht er fern.",
+   "es": "Por la noche él ve la tele."
+  },
+  {
+   "t": "listen",
+   "de": "Der Kurs fängt um Viertel vor neun an.",
+   "es": "El curso empieza a las nueve menos cuarto."
+  },
+  {
+   "t": "tr",
+   "es": "Los sábados hago la compra.",
+   "a": [
+    "Samstags kaufe ich ein.",
+    "Ich kaufe samstags ein.",
+    "Am Samstag kaufe ich ein.",
+    "Ich kaufe am Samstag ein."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "Montag",
+     "lunes"
+    ],
+    [
+     "Dienstag",
+     "martes"
+    ],
+    [
+     "Mittwoch",
+     "miércoles"
+    ],
+    [
+     "Donnerstag",
+     "jueves"
+    ],
+    [
+     "Freitag",
+     "viernes"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Tom ist Student. Er steht spät auf, um zehn Uhr. Er frühstückt nicht. Am Nachmittag lernt er. Am Abend boxt er. Um Mitternacht geht er ins Bett.",
+   "q": "¿Qué hace Tom por la tarde (am Nachmittag)?",
+   "o": [
+    "Boxea",
+    "Estudia",
+    "Desayuna"
+   ],
+   "a": 1
+  }
+ ]
+}

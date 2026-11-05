@@ -1,0 +1,546 @@
+{
+ "id": "a1-02",
+ "level": "A1",
+ "n": 2,
+ "title": "Zahlen und Buchstaben",
+ "title_es": "Números, alfabeto y datos personales",
+ "goals": [
+  "Puedo decir el alfabeto y deletrear mi nombre y mi email.",
+  "Puedo contar del 0 al 100 y entender precios, edades y números de teléfono.",
+  "Puedo decir mi edad y preguntar la de otra persona.",
+  "Puedo conjugar el verbo «sein» en todas las personas."
+ ],
+ "lessons": [
+  {
+   "h": "El alfabeto y deletrear",
+   "html": "<p>Así suenan las letras (aproximación en español):</p><table><thead><tr><th>letra</th><th>suena</th><th>letra</th><th>suena</th><th>letra</th><th>suena</th></tr></thead><tbody><tr><td>A</td><td>a</td><td>K</td><td>ka</td><td>U</td><td>u</td></tr><tr><td>B</td><td>be</td><td>L</td><td>el</td><td>V</td><td>fau</td></tr><tr><td>C</td><td>tse</td><td>M</td><td>em</td><td>W</td><td>ve</td></tr><tr><td>D</td><td>de</td><td>N</td><td>en</td><td>X</td><td>iks</td></tr><tr><td>E</td><td>e</td><td>O</td><td>o</td><td>Y</td><td>ýpsilon</td></tr><tr><td>F</td><td>ef</td><td>P</td><td>pe</td><td>Z</td><td>tset</td></tr><tr><td>G</td><td>gue</td><td>Q</td><td>ku</td><td>Ä</td><td>e abierta</td></tr><tr><td>H</td><td>ha</td><td>R</td><td>er</td><td>Ö</td><td>«e» con labios redondos</td></tr><tr><td>I</td><td>i</td><td>S</td><td>es</td><td>Ü</td><td>«i» con labios redondos</td></tr><tr><td>J</td><td>yot</td><td>T</td><td>te</td><td>ß</td><td>es-tset (Eszett)</td></tr></tbody></table><p>Para pedir que te deletreen: <span class=\"de\">Wie schreibt man das?</span> (¿Cómo se escribe?). En un email: @ = <span class=\"de\">ät</span>, . = <span class=\"de\">Punkt</span>, - = <span class=\"de\">Bindestrich</span>, _ = <span class=\"de\">Unterstrich</span>.</p><p><b>Ojo:</b> la E se dice «e» y la I «i» (no como en inglés). La J es «yot», la V es «fau» y la W es «ve»: «Valencia» se deletrea <i>fau-a-el-e-en-tse-i-a</i>.</p>"
+  },
+  {
+   "h": "Números del 0 al 20",
+   "html": "<table><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>0 null</td><td>1 eins</td><td>2 zwei</td><td>3 drei</td></tr><tr><td>4 vier</td><td>5 fünf</td><td>6 sechs</td><td>7 sieben</td></tr><tr><td>8 acht</td><td>9 neun</td><td>10 zehn</td><td>11 elf</td></tr><tr><td>12 zwölf</td><td>13 dreizehn</td><td>14 vierzehn</td><td>15 fünfzehn</td></tr><tr><td>16 sechzehn</td><td>17 siebzehn</td><td>18 achtzehn</td><td>19 neunzehn</td></tr><tr><td>20 zwanzig</td><td></td><td></td><td></td></tr></tbody></table><p><b>Ojo:</b> <span class=\"de\">sechzehn</span> pierde la -s y <span class=\"de\">siebzehn</span> pierde el -en. Por teléfono se dice a menudo <span class=\"de\">zwo</span> en vez de <i>zwei</i> para no confundirlo con <i>drei</i>.</p>"
+  },
+  {
+   "h": "Del 21 al 100: primero las unidades",
+   "html": "<p>En alemán se dicen <b>las unidades antes que las decenas</b>, unidas con <i>und</i> y todo en una palabra:</p><p><span class=\"de\">21 = einundzwanzig</span> (uno-y-veinte), <span class=\"de\">35 = fünfunddreißig</span>, <span class=\"de\">99 = neunundneunzig</span>.</p><table><thead><tr><th>decenas</th><th></th></tr></thead><tbody><tr><td>20 zwanzig</td><td>60 sechzig</td></tr><tr><td>30 dreißig</td><td>70 siebzig</td></tr><tr><td>40 vierzig</td><td>80 achtzig</td></tr><tr><td>50 fünfzig</td><td>90 neunzig</td></tr><tr><td colspan=\"2\">100 hundert / einhundert</td></tr></tbody></table><p><b>Ojo:</b> <span class=\"de\">dreißig</span> se escribe con ß (no -zig como las demás). Con «und» el 1 pierde la -s: <span class=\"de\">einundzwanzig</span>, no *einsundzwanzig. Muchos hispanohablantes dicen «zweiundvierzig» pero escriben 24: ¡piensa primero en la unidad!</p>"
+  },
+  {
+   "h": "El verbo sein (ser / estar)",
+   "html": "<table><thead><tr><th>persona</th><th>sein</th><th>ejemplo</th></tr></thead><tbody><tr><td>ich</td><td>bin</td><td><span class=\"de\">Ich bin Claudia.</span></td></tr><tr><td>du</td><td>bist</td><td><span class=\"de\">Du bist aus Madrid.</span></td></tr><tr><td>er/sie/es</td><td>ist</td><td><span class=\"de\">Das ist Tom.</span></td></tr><tr><td>wir</td><td>sind</td><td><span class=\"de\">Wir sind in Berlin.</span></td></tr><tr><td>ihr</td><td>seid</td><td><span class=\"de\">Ihr seid nett.</span></td></tr><tr><td>sie/Sie</td><td>sind</td><td><span class=\"de\">Sind Sie Frau Weber?</span></td></tr></tbody></table><p>Un solo verbo para «ser» y «estar»: <span class=\"de\">Ich bin müde</span> (estoy cansada), <span class=\"de\">Ich bin Spanierin</span> (soy española).</p><p><b>Ojo:</b> <span class=\"de\">ihr seid</span> (vosotros sois) se escribe con <b>d</b>; <i>seit</i> con t es otra palabra (desde).</p>"
+  },
+  {
+   "h": "Edad, teléfono y email",
+   "html": "<table><thead><tr><th>pregunta</th><th>respuesta</th></tr></thead><tbody><tr><td><span class=\"de\">Wie alt bist du?</span> / <span class=\"de\">Wie alt sind Sie?</span></td><td><span class=\"de\">Ich bin 30 (Jahre alt).</span></td></tr><tr><td><span class=\"de\">Wie ist deine Telefonnummer?</span> / <span class=\"de\">Wie ist Ihre Telefonnummer?</span></td><td><span class=\"de\">Meine Nummer ist 0176 3482 91.</span></td></tr><tr><td><span class=\"de\">Wie ist deine E-Mail-Adresse?</span></td><td><span class=\"de\">claudia.ruiz@web.de</span> (claudia Punkt ruiz ät web Punkt de)</td></tr></tbody></table><p><span class=\"de\">deine</span> = tu, <span class=\"de\">Ihre</span> = su (de usted), <span class=\"de\">meine</span> = mi: de momento apréndelos como fórmula (los posesivos llegan en la unidad 4).</p><p><b>Ojo:</b> la edad se dice con <b>sein</b>, no con «tener»: <span class=\"de\">Ich bin 30 Jahre alt</span>, nunca *Ich habe 30 Jahre. Y se pregunta <span class=\"de\">Wie ist …?</span> (no *Was ist …?) para números y direcciones. Los teléfonos se dicen cifra a cifra o en pares: <span class=\"de\">null eins sieben sechs</span>.</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "Zahl",
+   "art": "die",
+   "pl": "Zahlen",
+   "es": "número",
+   "ex": "Sieben ist eine Zahl."
+  },
+  {
+   "de": "Buchstabe",
+   "art": "der",
+   "pl": "Buchstaben",
+   "es": "letra",
+   "ex": "Das A ist ein Buchstabe."
+  },
+  {
+   "de": "Alphabet",
+   "art": "das",
+   "pl": "Alphabete",
+   "es": "alfabeto",
+   "ex": "Das Alphabet hat 26 Buchstaben."
+  },
+  {
+   "de": "Jahr",
+   "art": "das",
+   "pl": "Jahre",
+   "es": "año",
+   "ex": "Ich bin 30 Jahre alt."
+  },
+  {
+   "de": "alt",
+   "es": "viejo; (edad)",
+   "ex": "Wie alt bist du?"
+  },
+  {
+   "de": "Telefonnummer",
+   "art": "die",
+   "pl": "Telefonnummern",
+   "es": "número de teléfono",
+   "ex": "Wie ist deine Telefonnummer?"
+  },
+  {
+   "de": "Handynummer",
+   "art": "die",
+   "pl": "Handynummern",
+   "es": "número de móvil",
+   "ex": "Meine Handynummer ist 0151 2846 397."
+  },
+  {
+   "de": "Handy",
+   "art": "das",
+   "pl": "Handys",
+   "es": "móvil",
+   "ex": "Das Handy ist neu."
+  },
+  {
+   "de": "E-Mail-Adresse",
+   "art": "die",
+   "pl": "E-Mail-Adressen",
+   "es": "dirección de email",
+   "ex": "Wie ist Ihre E-Mail-Adresse?"
+  },
+  {
+   "de": "Adresse",
+   "art": "die",
+   "pl": "Adressen",
+   "es": "dirección",
+   "ex": "Wie ist die Adresse?"
+  },
+  {
+   "de": "Vorname",
+   "art": "der",
+   "pl": "Vornamen",
+   "es": "nombre (de pila)",
+   "ex": "Mein Vorname ist Claudia."
+  },
+  {
+   "de": "Nachname",
+   "art": "der",
+   "pl": "Nachnamen",
+   "es": "apellido",
+   "ex": "Mein Nachname ist Ruiz."
+  },
+  {
+   "de": "Straße",
+   "art": "die",
+   "pl": "Straßen",
+   "es": "calle",
+   "ex": "Die Straße heißt Hauptstraße."
+  },
+  {
+   "de": "sein",
+   "es": "ser; estar",
+   "ex": "Wir sind in Berlin."
+  },
+  {
+   "de": "schreiben",
+   "es": "escribir",
+   "ex": "Wie schreibt man das?"
+  },
+  {
+   "de": "buchstabieren",
+   "es": "deletrear",
+   "ex": "Ich buchstabiere: C-L-A-U-D-I-A."
+  },
+  {
+   "de": "null",
+   "es": "cero",
+   "ex": "Die Nummer beginnt mit null."
+  },
+  {
+   "de": "zwanzig",
+   "es": "veinte",
+   "ex": "Ich bin zwanzig Jahre alt."
+  },
+  {
+   "de": "dreißig",
+   "es": "treinta",
+   "ex": "Claudia ist dreißig."
+  },
+  {
+   "de": "hundert",
+   "es": "cien",
+   "ex": "Ich zähle bis hundert."
+  },
+  {
+   "de": "Punkt",
+   "art": "der",
+   "pl": "Punkte",
+   "es": "punto",
+   "ex": "claudia Punkt ruiz ät web Punkt de"
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "¿Cómo se escribe 37?",
+   "o": [
+    "siebenunddreißig",
+    "dreißigsieben",
+    "siebzehndreißig"
+   ],
+   "a": 0,
+   "exp": "Unidades primero + und + decenas: sieben-und-dreißig."
+  },
+  {
+   "t": "mc",
+   "q": "Wie alt ___ du?",
+   "o": [
+    "bist",
+    "ist",
+    "bin"
+   ],
+   "a": 0,
+   "exp": "du → bist."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cómo se escribe 60?",
+   "o": [
+    "sechzig",
+    "sechszig",
+    "sechzehn"
+   ],
+   "a": 0,
+   "exp": "60 = sechzig (pierde la -s). sechzehn = 16."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cómo se dice «@» en un email?",
+   "o": [
+    "ät",
+    "Punkt",
+    "Strich"
+   ],
+   "a": 0,
+   "exp": "@ = «ät»; «Punkt» es el punto."
+  },
+  {
+   "t": "gap",
+   "q": "Wir ___ aus Spanien.",
+   "a": [
+    "sind"
+   ],
+   "hint": "sein",
+   "exp": "wir → sind."
+  },
+  {
+   "t": "gap",
+   "q": "Ihr ___ in Berlin, oder?",
+   "a": [
+    "seid"
+   ],
+   "hint": "sein",
+   "exp": "ihr → seid (con d)."
+  },
+  {
+   "t": "gap",
+   "q": "Ich bin 30 Jahre ___.",
+   "a": [
+    "alt"
+   ],
+   "hint": "edad",
+   "exp": "La edad: «… Jahre alt»."
+  },
+  {
+   "t": "gap",
+   "q": "Herr Kim, ___ Sie aus Korea?",
+   "a": [
+    "sind"
+   ],
+   "hint": "sein",
+   "exp": "Sie (usted) → sind."
+  },
+  {
+   "t": "gap",
+   "q": "zwei, vier, sechs, acht, ___",
+   "a": [
+    "zehn"
+   ],
+   "hint": "10",
+   "exp": "La serie va de dos en dos: zehn."
+  },
+  {
+   "t": "order",
+   "w": [
+    "alt",
+    "Wie",
+    "du",
+    "bist"
+   ],
+   "a": "Wie alt bist du?",
+   "es": "¿Cuántos años tienes?"
+  },
+  {
+   "t": "order",
+   "w": [
+    "Jahre",
+    "bin",
+    "Ich",
+    "alt",
+    "25"
+   ],
+   "a": "Ich bin 25 Jahre alt.",
+   "es": "Tengo 25 años."
+  },
+  {
+   "t": "order",
+   "w": [
+    "man",
+    "Wie",
+    "das",
+    "schreibt"
+   ],
+   "a": "Wie schreibt man das?",
+   "es": "¿Cómo se escribe eso?"
+  },
+  {
+   "t": "listen",
+   "de": "Wie ist deine Telefonnummer?",
+   "es": "¿Cuál es tu número de teléfono?"
+  },
+  {
+   "t": "listen",
+   "de": "Wie schreibt man das?",
+   "es": "¿Cómo se escribe eso?"
+  },
+  {
+   "t": "tr",
+   "es": "Tengo 30 años.",
+   "a": [
+    "Ich bin 30 Jahre alt.",
+    "Ich bin 30.",
+    "Ich bin dreißig Jahre alt.",
+    "Ich bin dreissig Jahre alt.",
+    "Ich bin dreißig.",
+    "Ich bin dreissig."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "¿Cuál es tu número de teléfono?",
+   "a": [
+    "Wie ist deine Telefonnummer?",
+    "Wie ist deine Nummer?",
+    "Wie ist deine Handynummer?",
+    "Was ist deine Telefonnummer?",
+    "Was ist deine Nummer?"
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "13",
+     "dreizehn"
+    ],
+    [
+     "30",
+     "dreißig"
+    ],
+    [
+     "17",
+     "siebzehn"
+    ],
+    [
+     "70",
+     "siebzig"
+    ],
+    [
+     "16",
+     "sechzehn"
+    ]
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "J",
+     "«yot»"
+    ],
+    [
+     "V",
+     "«fau»"
+    ],
+    [
+     "W",
+     "«ve»"
+    ],
+    [
+     "Z",
+     "«tset»"
+    ],
+    [
+     "E",
+     "«e»"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Hallo! Ich bin Tom. Ich bin 34 Jahre alt und wohne in Heidelberg. Meine E-Mail-Adresse ist tom.berg@web.de. Meine Handynummer ist 0151 2846 397.",
+   "q": "¿Cuántos años tiene Tom?",
+   "o": [
+    "43",
+    "34",
+    "24"
+   ],
+   "a": 1
+  }
+ ],
+ "speak": [
+  {
+   "de": "Wie alt bist du?",
+   "es": "¿Cuántos años tienes?",
+   "tip": "«W» como v labiodental: «vi alt bist du»."
+  },
+  {
+   "de": "Ich bin dreißig Jahre alt.",
+   "es": "Tengo treinta años.",
+   "tip": "«ei» = «ai», «ß» = s sorda: «draisij». La «J» de «Jahre» suena como la «y» de «yo»."
+  },
+  {
+   "de": "Wie schreibt man das?",
+   "es": "¿Cómo se escribe eso?",
+   "tip": "«sch» suena como «sh» (pide silencio: shhh). «ei» = «ai»: «shraipt»."
+  },
+  {
+   "de": "Meine Nummer ist null eins sieben sechs.",
+   "es": "Mi número es cero uno siete seis.",
+   "tip": "La «s» inicial de «sieben» es sonora (zumbido de abeja). «ch» de «sechs» suena «k»: «zeks»."
+  },
+  {
+   "de": "Einundzwanzig, zweiundzwanzig, dreiundzwanzig.",
+   "es": "Veintiuno, veintidós, veintitrés.",
+   "tip": "«z» alemana = «ts»: «tsvantsij». La terminación -ig se pronuncia como «-ij» suave."
+  },
+  {
+   "de": "Wie ist deine E-Mail-Adresse?",
+   "es": "¿Cuál es tu dirección de email?",
+   "tip": "«E-Mail» se dice como en inglés: «imeil». Acento de «Adresse» en la segunda sílaba: a-DRES-se."
+  },
+  {
+   "de": "Fünf, zwölf, sechzehn.",
+   "es": "Cinco, doce, dieciséis.",
+   "tip": "«ü» e «ö» se hacen redondeando los labios mientras dices «i» y «e». No digas «funf» ni «zwolf»."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "¿Qué número es «zweiundneunzig»?",
+   "o": [
+    "92",
+    "29",
+    "22"
+   ],
+   "a": 0,
+   "exp": "zwei-und-neunzig: 2 + 90 = 92."
+  },
+  {
+   "t": "mc",
+   "q": "Du ___ aus Valencia, oder?",
+   "o": [
+    "bist",
+    "seid",
+    "bin"
+   ],
+   "a": 0,
+   "exp": "du → bist."
+  },
+  {
+   "t": "gap",
+   "q": "Er ___ 50 Jahre alt.",
+   "a": [
+    "ist"
+   ],
+   "hint": "sein",
+   "exp": "er → ist."
+  },
+  {
+   "t": "gap",
+   "q": "Wie alt ___ Sie, Frau Weber?",
+   "a": [
+    "sind"
+   ],
+   "hint": "sein",
+   "exp": "Sie (usted) → sind."
+  },
+  {
+   "t": "gap",
+   "q": "Fünfzehn plus fünf ist ___.",
+   "a": [
+    "zwanzig"
+   ],
+   "hint": "20",
+   "exp": "15 + 5 = 20 = zwanzig."
+  },
+  {
+   "t": "order",
+   "w": [
+    "deine",
+    "Wie",
+    "Nummer",
+    "ist"
+   ],
+   "a": "Wie ist deine Nummer?",
+   "es": "¿Cuál es tu número?"
+  },
+  {
+   "t": "listen",
+   "de": "Wie alt sind Sie?",
+   "es": "¿Cuántos años tiene usted?"
+  },
+  {
+   "t": "tr",
+   "es": "Somos de Madrid.",
+   "a": [
+    "Wir kommen aus Madrid.",
+    "Wir sind aus Madrid."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "11",
+     "elf"
+    ],
+    [
+     "12",
+     "zwölf"
+    ],
+    [
+     "21",
+     "einundzwanzig"
+    ],
+    [
+     "100",
+     "hundert"
+    ],
+    [
+     "0",
+     "null"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Das ist Frau Lehmann. Sie wohnt in Berlin. Sie ist 61 Jahre alt. Ihre Telefonnummer ist 030 7184 22.",
+   "q": "¿Cuántos años tiene la señora Lehmann?",
+   "o": [
+    "16",
+    "61",
+    "71"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mc",
+   "q": "Deletreas «Müller»: M – ___ – L – L – E – R",
+   "o": [
+    "Ü",
+    "U",
+    "Ö"
+   ],
+   "a": 0,
+   "exp": "Müller se escribe con ü."
+  }
+ ]
+}

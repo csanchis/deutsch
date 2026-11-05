@@ -1,0 +1,546 @@
+{
+ "id": "a1-12",
+ "level": "A1",
+ "n": 12,
+ "title": "Was hast du gemacht?",
+ "title_es": "Hablar del pasado: Perfekt y war/hatte",
+ "goals": [
+  "Puedo formar el Perfekt de los verbos regulares con haben (gemacht, gekauft, gearbeitet).",
+  "Puedo usar los participios irregulares más frecuentes (gegessen, getrunken, gesehen…).",
+  "Puedo elegir sein con los verbos de movimiento y con bleiben (Ich bin gefahren).",
+  "Puedo usar war y hatte y contar qué hice el fin de semana."
+ ],
+ "lessons": [
+  {
+   "h": "El Perfekt: haben/sein + participio al final",
+   "html": "<p>Para hablar del pasado en la conversación, el alemán usa sobre todo el <b>Perfekt</b>: <span class=\"de\">haben</span> o <span class=\"de\">sein</span> conjugado en <b>posición 2</b> + <b>participio al final</b>. Equivale tanto a «he comido» como a «comí».</p>\n<table><thead><tr><th>Pos. 1</th><th>haben/sein</th><th>Medio</th><th>Participio</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Ich</span></td><td><span class=\"de\">habe</span></td><td><span class=\"de\">gestern Pizza</span></td><td><span class=\"de\">gegessen.</span></td></tr>\n<tr><td><span class=\"de\">Am Samstag</span></td><td><span class=\"de\">bin</span></td><td><span class=\"de\">ich ins Kino</span></td><td><span class=\"de\">gegangen.</span></td></tr>\n<tr><td><span class=\"de\">Was</span></td><td><span class=\"de\">hast</span></td><td><span class=\"de\">du am Wochenende</span></td><td><span class=\"de\">gemacht?</span></td></tr>\n<tr><td>—</td><td><span class=\"de\">Hast</span></td><td><span class=\"de\">du gut</span></td><td><span class=\"de\">geschlafen?</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> el participio va <b>al final</b>, no junto al auxiliar como en español: <span class=\"de\">*Ich habe gegessen Pizza</span> es incorrecto → <span class=\"de\">Ich habe Pizza gegessen.</span></p>\n<p>Expresiones de tiempo: <span class=\"de\">gestern</span> (ayer), <span class=\"de\">vorgestern</span> (anteayer), <span class=\"de\">letzte Woche</span> (la semana pasada), <span class=\"de\">letzten Samstag</span> (el sábado pasado), <span class=\"de\">am Wochenende</span>.</p>"
+  },
+  {
+   "h": "Participios regulares: ge- … -t",
+   "html": "<p>Los verbos regulares forman el participio con <b>ge- + raíz + -t</b>. Si la raíz acaba en -t o -d, se añade <b>-et</b>.</p>\n<table><thead><tr><th>Infinitivo</th><th>Participio</th><th>Ejemplo</th></tr></thead><tbody>\n<tr><td><span class=\"de\">machen</span></td><td><span class=\"de\">gemacht</span></td><td><span class=\"de\">Was hast du gemacht?</span></td></tr>\n<tr><td><span class=\"de\">kaufen</span></td><td><span class=\"de\">gekauft</span></td><td><span class=\"de\">Ich habe Brot gekauft.</span></td></tr>\n<tr><td><span class=\"de\">kochen</span></td><td><span class=\"de\">gekocht</span></td><td><span class=\"de\">Wir haben Paella gekocht.</span></td></tr>\n<tr><td><span class=\"de\">spielen</span></td><td><span class=\"de\">gespielt</span></td><td><span class=\"de\">Er hat Fußball gespielt.</span></td></tr>\n<tr><td><span class=\"de\">lernen</span></td><td><span class=\"de\">gelernt</span></td><td><span class=\"de\">Ich habe Deutsch gelernt.</span></td></tr>\n<tr><td><span class=\"de\">hören</span></td><td><span class=\"de\">gehört</span></td><td><span class=\"de\">Sie hat Musik gehört.</span></td></tr>\n<tr><td><span class=\"de\">tanzen</span></td><td><span class=\"de\">getanzt</span></td><td><span class=\"de\">Wir haben getanzt.</span></td></tr>\n<tr><td><span class=\"de\">boxen</span></td><td><span class=\"de\">geboxt</span></td><td><span class=\"de\">Ich habe zwei Stunden geboxt.</span></td></tr>\n<tr><td><span class=\"de\">arbeiten</span></td><td><span class=\"de\">gearbeitet</span></td><td><span class=\"de\">Ich habe viel gearbeitet.</span></td></tr>\n<tr><td><span class=\"de\">warten</span></td><td><span class=\"de\">gewartet</span></td><td><span class=\"de\">Wir haben lange gewartet.</span></td></tr>\n</tbody></table>\n<p>Recuerda <span class=\"de\">haben</span>: <span class=\"de\">ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben</span>.</p>"
+  },
+  {
+   "h": "Participios irregulares frecuentes: ge- … -en",
+   "html": "<p>Muchos verbos frecuentes son irregulares: el participio acaba en <b>-en</b> y a veces cambia la vocal. Hay que aprenderlos de memoria.</p>\n<table><thead><tr><th>Infinitivo</th><th>Participio</th><th>Español</th></tr></thead><tbody>\n<tr><td><span class=\"de\">essen</span></td><td><span class=\"de\">gegessen</span></td><td>comer</td></tr>\n<tr><td><span class=\"de\">trinken</span></td><td><span class=\"de\">getrunken</span></td><td>beber</td></tr>\n<tr><td><span class=\"de\">sehen</span></td><td><span class=\"de\">gesehen</span></td><td>ver</td></tr>\n<tr><td><span class=\"de\">lesen</span></td><td><span class=\"de\">gelesen</span></td><td>leer</td></tr>\n<tr><td><span class=\"de\">schlafen</span></td><td><span class=\"de\">geschlafen</span></td><td>dormir</td></tr>\n<tr><td><span class=\"de\">schreiben</span></td><td><span class=\"de\">geschrieben</span></td><td>escribir</td></tr>\n<tr><td><span class=\"de\">treffen</span></td><td><span class=\"de\">getroffen</span></td><td>quedar con, encontrarse con</td></tr>\n<tr><td><span class=\"de\">finden</span></td><td><span class=\"de\">gefunden</span></td><td>encontrar</td></tr>\n<tr><td><span class=\"de\">sprechen</span></td><td><span class=\"de\">gesprochen</span></td><td>hablar</td></tr>\n<tr><td><span class=\"de\">nehmen</span></td><td><span class=\"de\">genommen</span></td><td>tomar, coger</td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">gegessen</span> lleva <b>dos g</b> (<span class=\"de\">ge-g-essen</span>). Y nunca mezcles: <span class=\"de\">*getrinkt</span> o <span class=\"de\">*geschlaft</span> no existen.</p>"
+  },
+  {
+   "h": "Perfekt con sein",
+   "html": "<p>Usan <span class=\"de\">sein</span> los verbos de <b>movimiento de un lugar a otro</b> y además <span class=\"de\">bleiben</span> (quedarse):</p>\n<table><thead><tr><th>Infinitivo</th><th>Perfekt</th><th>Ejemplo</th></tr></thead><tbody>\n<tr><td><span class=\"de\">gehen</span></td><td><span class=\"de\">ist gegangen</span></td><td><span class=\"de\">Ich bin ins Kino gegangen.</span></td></tr>\n<tr><td><span class=\"de\">fahren</span></td><td><span class=\"de\">ist gefahren</span></td><td><span class=\"de\">Wir sind nach Berlin gefahren.</span></td></tr>\n<tr><td><span class=\"de\">kommen</span></td><td><span class=\"de\">ist gekommen</span></td><td><span class=\"de\">Meine Freunde sind gekommen.</span></td></tr>\n<tr><td><span class=\"de\">fliegen</span></td><td><span class=\"de\">ist geflogen</span></td><td><span class=\"de\">Sie ist nach Madrid geflogen.</span></td></tr>\n<tr><td><span class=\"de\">laufen</span></td><td><span class=\"de\">ist gelaufen</span></td><td><span class=\"de\">Er ist zehn Kilometer gelaufen.</span></td></tr>\n<tr><td><span class=\"de\">bleiben</span></td><td><span class=\"de\">ist geblieben</span></td><td><span class=\"de\">Ich bin zu Hause geblieben.</span></td></tr>\n</tbody></table>\n<p>Recuerda <span class=\"de\">sein</span>: <span class=\"de\">ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind</span>.</p>\n<p><b>Ojo:</b> en español todo va con «haber», por eso decimos mal <span class=\"de\">*Ich habe gegangen</span>. Movimiento → <span class=\"de\">sein</span>: <span class=\"de\">Ich bin gegangen.</span></p>"
+  },
+  {
+   "h": "war y hatte",
+   "html": "<p><span class=\"de\">sein</span> y <span class=\"de\">haben</span> casi nunca se usan en Perfekt: en el pasado se usa el <b>Präteritum</b>.</p>\n<table><thead><tr><th></th><th>sein</th><th>haben</th></tr></thead><tbody>\n<tr><td>ich</td><td><span class=\"de\">war</span></td><td><span class=\"de\">hatte</span></td></tr>\n<tr><td>du</td><td><span class=\"de\">warst</span></td><td><span class=\"de\">hattest</span></td></tr>\n<tr><td>er/sie/es</td><td><span class=\"de\">war</span></td><td><span class=\"de\">hatte</span></td></tr>\n<tr><td>wir</td><td><span class=\"de\">waren</span></td><td><span class=\"de\">hatten</span></td></tr>\n<tr><td>ihr</td><td><span class=\"de\">wart</span></td><td><span class=\"de\">hattet</span></td></tr>\n<tr><td>sie/Sie</td><td><span class=\"de\">waren</span></td><td><span class=\"de\">hatten</span></td></tr>\n</tbody></table>\n<p><span class=\"de\">Wie war dein Wochenende? – Es war super!</span> – <span class=\"de\">Ich war in Berlin.</span> – <span class=\"de\">Ich hatte keine Zeit.</span></p>\n<p><b>Ojo:</b> <span class=\"de\">ich war</span> = <span class=\"de\">er war</span> (sin -t). <span class=\"de\">war</span> traduce «era, estaba, fui, estuve» (del verbo ser/estar), no «iba». <span class=\"de\">Ich bin in Berlin gewesen</span> también es correcto, pero <span class=\"de\">Ich war in Berlin</span> es mucho más frecuente.</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "machen – hat gemacht",
+   "es": "hacer",
+   "ex": "Was hast du gemacht?"
+  },
+  {
+   "de": "kaufen – hat gekauft",
+   "es": "comprar",
+   "ex": "Ich habe Obst gekauft."
+  },
+  {
+   "de": "arbeiten – hat gearbeitet",
+   "es": "trabajar",
+   "ex": "Er hat viel gearbeitet."
+  },
+  {
+   "de": "kochen – hat gekocht",
+   "es": "cocinar",
+   "ex": "Wir haben zusammen gekocht."
+  },
+  {
+   "de": "essen – hat gegessen",
+   "es": "comer",
+   "ex": "Ich habe Pizza gegessen."
+  },
+  {
+   "de": "trinken – hat getrunken",
+   "es": "beber",
+   "ex": "Sie hat Kaffee getrunken."
+  },
+  {
+   "de": "sehen – hat gesehen",
+   "es": "ver",
+   "ex": "Hast du den Film gesehen?"
+  },
+  {
+   "de": "lesen – hat gelesen",
+   "es": "leer",
+   "ex": "Ich habe ein Buch gelesen."
+  },
+  {
+   "de": "schlafen – hat geschlafen",
+   "es": "dormir",
+   "ex": "Ich habe lange geschlafen."
+  },
+  {
+   "de": "schreiben – hat geschrieben",
+   "es": "escribir",
+   "ex": "Er hat eine E-Mail geschrieben."
+  },
+  {
+   "de": "treffen – hat getroffen",
+   "es": "quedar con, ver a",
+   "ex": "Ich habe Anna getroffen."
+  },
+  {
+   "de": "gehen – ist gegangen",
+   "es": "ir (a pie)",
+   "ex": "Wir sind ins Kino gegangen."
+  },
+  {
+   "de": "fahren – ist gefahren",
+   "es": "ir (en vehículo)",
+   "ex": "Ich bin nach Heidelberg gefahren."
+  },
+  {
+   "de": "kommen – ist gekommen",
+   "es": "venir, llegar",
+   "ex": "Wann bist du gekommen?"
+  },
+  {
+   "de": "bleiben – ist geblieben",
+   "es": "quedarse",
+   "ex": "Sie ist zu Hause geblieben."
+  },
+  {
+   "de": "fliegen – ist geflogen",
+   "es": "volar, ir en avión",
+   "ex": "Ich bin nach Valencia geflogen."
+  },
+  {
+   "de": "war",
+   "es": "era, estaba, estuve (sein)",
+   "ex": "Das Wetter war schön."
+  },
+  {
+   "de": "hatte",
+   "es": "tenía, tuve (haben)",
+   "ex": "Ich hatte keine Zeit."
+  },
+  {
+   "de": "gestern",
+   "es": "ayer",
+   "ex": "Gestern war ich müde."
+  },
+  {
+   "de": "vorgestern",
+   "es": "anteayer",
+   "ex": "Vorgestern habe ich geboxt."
+  },
+  {
+   "de": "letzte Woche",
+   "es": "la semana pasada",
+   "ex": "Letzte Woche war ich krank."
+  },
+  {
+   "de": "Party",
+   "art": "die",
+   "pl": "Partys",
+   "es": "fiesta",
+   "ex": "Die Party war super."
+  },
+  {
+   "de": "Ausflug",
+   "art": "der",
+   "pl": "Ausflüge",
+   "es": "excursión",
+   "ex": "Der Ausflug war schön."
+  },
+  {
+   "de": "Konzert",
+   "art": "das",
+   "pl": "Konzerte",
+   "es": "concierto",
+   "ex": "Das Konzert war laut."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Ich ___ gestern Pizza gegessen.",
+   "o": [
+    "bin",
+    "habe",
+    "hat"
+   ],
+   "a": 1,
+   "exp": "essen forma el Perfekt con haben: ich habe."
+  },
+  {
+   "t": "mc",
+   "q": "Wir ___ nach Berlin gefahren.",
+   "o": [
+    "haben",
+    "sind",
+    "seid"
+   ],
+   "a": 1,
+   "exp": "fahren (movimiento) va con sein: wir sind."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuál es el participio de «trinken»?",
+   "o": [
+    "getrinkt",
+    "getrunken",
+    "getranken"
+   ],
+   "a": 1,
+   "exp": "trinken → getrunken (irregular)."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuál es el participio de «arbeiten»?",
+   "o": [
+    "gearbeitet",
+    "gearbeitt",
+    "gearbeiten"
+   ],
+   "a": 0,
+   "exp": "Raíz en -t: ge- + arbeit + -et."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué frase es correcta?",
+   "o": [
+    "Ich habe gekauft ein Buch.",
+    "Ich habe ein Buch gekauft.",
+    "Ich ein Buch habe gekauft."
+   ],
+   "a": 1,
+   "exp": "El participio va al final."
+  },
+  {
+   "t": "mc",
+   "q": "Am Samstag ___ ich keine Zeit.",
+   "o": [
+    "hatte",
+    "war",
+    "bin"
+   ],
+   "a": 0,
+   "exp": "Zeit haben → pasado: ich hatte."
+  },
+  {
+   "t": "gap",
+   "q": "Wie ___ dein Wochenende?",
+   "a": [
+    "war"
+   ],
+   "hint": "sein (pasado)",
+   "exp": "es war."
+  },
+  {
+   "t": "gap",
+   "q": "Gestern habe ich drei Stunden ___.",
+   "a": [
+    "gelernt"
+   ],
+   "hint": "lernen",
+   "exp": "Regular: ge- + lern + -t."
+  },
+  {
+   "t": "gap",
+   "q": "Hast du den Film ___?",
+   "a": [
+    "gesehen"
+   ],
+   "hint": "sehen",
+   "exp": "sehen → gesehen."
+  },
+  {
+   "t": "gap",
+   "q": "Claudia ___ am Sonntag zu Hause geblieben.",
+   "a": [
+    "ist"
+   ],
+   "hint": "haben o sein",
+   "exp": "bleiben forma el Perfekt con sein."
+  },
+  {
+   "t": "gap",
+   "q": "Wir ___ gestern in Heidelberg.",
+   "a": [
+    "waren"
+   ],
+   "hint": "sein (pasado)",
+   "exp": "wir waren."
+  },
+  {
+   "t": "order",
+   "w": [
+    "habe",
+    "Ich",
+    "Kaffee",
+    "getrunken"
+   ],
+   "a": "Ich habe Kaffee getrunken.",
+   "es": "He bebido café."
+  },
+  {
+   "t": "order",
+   "w": [
+    "bist",
+    "Wann",
+    "gekommen",
+    "du"
+   ],
+   "a": "Wann bist du gekommen?",
+   "es": "¿Cuándo has llegado?"
+  },
+  {
+   "t": "order",
+   "w": [
+    "Am",
+    "ich",
+    "gegangen",
+    "bin",
+    "Kino",
+    "Samstag",
+    "ins"
+   ],
+   "a": "Am Samstag bin ich ins Kino gegangen.",
+   "es": "El sábado fui al cine."
+  },
+  {
+   "t": "listen",
+   "de": "Was hast du am Wochenende gemacht?",
+   "es": "¿Qué hiciste el fin de semana?"
+  },
+  {
+   "t": "listen",
+   "de": "Ich bin nach Madrid geflogen und habe meine Familie getroffen.",
+   "es": "Volé a Madrid y vi a mi familia."
+  },
+  {
+   "t": "tr",
+   "es": "Ayer trabajé mucho.",
+   "a": [
+    "Ich habe gestern viel gearbeitet.",
+    "Gestern habe ich viel gearbeitet."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "El fin de semana estuve en Berlín.",
+   "a": [
+    "Am Wochenende war ich in Berlin.",
+    "Ich war am Wochenende in Berlin.",
+    "Am Wochenende bin ich in Berlin gewesen.",
+    "Ich bin am Wochenende in Berlin gewesen."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "essen",
+     "gegessen"
+    ],
+    [
+     "schlafen",
+     "geschlafen"
+    ],
+    [
+     "gehen",
+     "gegangen"
+    ],
+    [
+     "schreiben",
+     "geschrieben"
+    ],
+    [
+     "treffen",
+     "getroffen"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Mein Wochenende: Am Samstag habe ich lange geschlafen. Dann habe ich mit Anna Kaffee getrunken. Am Nachmittag bin ich zum Boxtraining gegangen. Am Sonntag war das Wetter schlecht. Ich bin zu Hause geblieben und habe ein Buch gelesen.",
+   "q": "¿Qué hizo el domingo?",
+   "o": [
+    "Fue a entrenar boxeo",
+    "Se quedó en casa y leyó",
+    "Tomó café con Anna"
+   ],
+   "a": 1
+  }
+ ],
+ "speak": [
+  {
+   "de": "Was hast du am Wochenende gemacht?",
+   "es": "¿Qué hiciste el fin de semana?",
+   "tip": "«W» = v francesa; la «ch» de «gemacht» es fuerte (jota) porque va tras «a»."
+  },
+  {
+   "de": "Ich habe lange geschlafen.",
+   "es": "He dormido mucho.",
+   "tip": "«ge-» siempre con g dura (nunca «je»); «sch» = «sh»."
+  },
+  {
+   "de": "Ich bin nach Berlin gefahren.",
+   "es": "Fui a Berlín.",
+   "tip": "La «ch» de «nach» es fuerte (jota) porque va tras «a». «Berlin» lleva el acento al final: «ber-LÍN»."
+  },
+  {
+   "de": "Wie war dein Wochenende?",
+   "es": "¿Qué tal tu fin de semana?",
+   "tip": "Tres «w» = v: «vi var dain vójenende»."
+  },
+  {
+   "de": "Ich hatte keine Zeit.",
+   "es": "No tuve tiempo.",
+   "tip": "«Zeit» = «tsait». La «h» de «hatte» es una aspiración suave."
+  },
+  {
+   "de": "Wir haben Pizza gegessen.",
+   "es": "Comimos pizza.",
+   "tip": "«Pizza» se dice «pitsa»; en «gegessen» las dos g son duras."
+  },
+  {
+   "de": "Es war super!",
+   "es": "¡Fue genial!",
+   "tip": "La «s» de «super» delante de vocal es sonora: «zuper»."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Er ___ nach Hause gegangen.",
+   "o": [
+    "hat",
+    "ist",
+    "habe"
+   ],
+   "a": 1,
+   "exp": "gehen (movimiento) va con sein: er ist."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuál es el participio de «schlafen»?",
+   "o": [
+    "geschlaft",
+    "geschlafen",
+    "geschliefen"
+   ],
+   "a": 1,
+   "exp": "schlafen → geschlafen."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuál es el participio de «kochen»?",
+   "o": [
+    "gekocht",
+    "gekochen",
+    "kocht"
+   ],
+   "a": 0,
+   "exp": "Regular: ge- + koch + -t."
+  },
+  {
+   "t": "mc",
+   "q": "Ihr ___ gestern sehr müde.",
+   "o": [
+    "wart",
+    "war",
+    "waren"
+   ],
+   "a": 0,
+   "exp": "ihr wart."
+  },
+  {
+   "t": "gap",
+   "q": "Ich ___ am Montag keine Zeit.",
+   "a": [
+    "hatte"
+   ],
+   "hint": "haben (pasado)",
+   "exp": "ich hatte."
+  },
+  {
+   "t": "gap",
+   "q": "Wir haben am Abend Musik ___.",
+   "a": [
+    "gehört",
+    "gehoert"
+   ],
+   "hint": "hören",
+   "exp": "Regular: ge- + hör + -t."
+  },
+  {
+   "t": "gap",
+   "q": "Meine Eltern ___ mit dem Zug gekommen.",
+   "a": [
+    "sind"
+   ],
+   "hint": "haben o sein",
+   "exp": "kommen va con sein: sie sind."
+  },
+  {
+   "t": "order",
+   "w": [
+    "hast",
+    "Was",
+    "gegessen",
+    "du"
+   ],
+   "a": "Was hast du gegessen?",
+   "es": "¿Qué has comido?"
+  },
+  {
+   "t": "listen",
+   "de": "Am Sonntag bin ich zu Hause geblieben.",
+   "es": "El domingo me quedé en casa."
+  },
+  {
+   "t": "tr",
+   "es": "He leído un libro.",
+   "a": [
+    "Ich habe ein Buch gelesen."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "gefahren",
+     "ido (en vehículo)"
+    ],
+    [
+     "gesehen",
+     "visto"
+    ],
+    [
+     "getrunken",
+     "bebido"
+    ],
+    [
+     "geschrieben",
+     "escrito"
+    ],
+    [
+     "gefunden",
+     "encontrado"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Lukas: Ich hatte am Freitag Geburtstag. Am Abend sind meine Freunde gekommen. Wir haben zusammen gekocht und getanzt. Es war super!",
+   "q": "¿Qué hicieron Lukas y sus amigos?",
+   "o": [
+    "Fueron a un restaurante",
+    "Cocinaron y bailaron",
+    "Vieron una película"
+   ],
+   "a": 1
+  }
+ ]
+}

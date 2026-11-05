@@ -1,0 +1,527 @@
+{
+ "id": "a1-03",
+ "level": "A1",
+ "n": 3,
+ "title": "Was machst du?",
+ "title_es": "Verbos en presente y orden de la frase",
+ "goals": [
+  "Puedo conjugar cualquier verbo regular en presente.",
+  "Puedo colocar el verbo en 2ª posición y formar preguntas de sí/no.",
+  "Puedo usar el verbo «haben».",
+  "Puedo decir mi profesión y preguntar por la de otros (femenino y masculino)."
+ ],
+ "lessons": [
+  {
+   "h": "Conjugación regular en presente",
+   "html": "<p>Quita <b>-en</b> al infinitivo (<i>lern-en</i>) y añade la terminación:</p><table><thead><tr><th>persona</th><th>terminación</th><th>lernen</th><th>machen</th><th>spielen</th></tr></thead><tbody><tr><td>ich</td><td>-e</td><td>lerne</td><td>mache</td><td>spiele</td></tr><tr><td>du</td><td>-st</td><td>lernst</td><td>machst</td><td>spielst</td></tr><tr><td>er/sie/es</td><td>-t</td><td>lernt</td><td>macht</td><td>spielt</td></tr><tr><td>wir</td><td>-en</td><td>lernen</td><td>machen</td><td>spielen</td></tr><tr><td>ihr</td><td>-t</td><td>lernt</td><td>macht</td><td>spielt</td></tr><tr><td>sie/Sie</td><td>-en</td><td>lernen</td><td>machen</td><td>spielen</td></tr></tbody></table><p>Fíjate: <b>er</b> e <b>ihr</b> tienen la misma forma (<span class=\"de\">er lernt / ihr lernt</span>), y <b>wir</b>, <b>sie</b> y <b>Sie</b> son iguales al infinitivo.</p><p>El presente alemán sirve para «aprendo» y «estoy aprendiendo»: <span class=\"de\">Ich lerne Deutsch</span>. <b>Ojo:</b> no existe *Ich bin lernen.</p>"
+  },
+  {
+   "h": "Verbos en -ten / -den y en -s / -ß / -z",
+   "html": "<p>Si la raíz acaba en <b>-t</b> o <b>-d</b>, se mete una <b>-e-</b> en du, er/sie/es e ihr para poder pronunciarlo:</p><table><thead><tr><th></th><th>arbeiten</th><th>finden</th></tr></thead><tbody><tr><td>ich</td><td>arbeite</td><td>finde</td></tr><tr><td>du</td><td>arbeit<b>e</b>st</td><td>find<b>e</b>st</td></tr><tr><td>er/sie/es</td><td>arbeit<b>e</b>t</td><td>find<b>e</b>t</td></tr><tr><td>wir</td><td>arbeiten</td><td>finden</td></tr><tr><td>ihr</td><td>arbeit<b>e</b>t</td><td>find<b>e</b>t</td></tr><tr><td>sie/Sie</td><td>arbeiten</td><td>finden</td></tr></tbody></table><p>Si la raíz acaba en <b>-s, -ß, -z</b>, en du solo se añade <b>-t</b>: <span class=\"de\">du heißt, du tanzt</span>.</p><p><b>Ojo:</b> *du arbeitst o *er arbeitt son errores frecuentes. <span class=\"de\">Wie findest du Berlin?</span> = ¿Qué te parece Berlín?</p>"
+  },
+  {
+   "h": "El verbo haben (tener)",
+   "html": "<table><thead><tr><th>persona</th><th>haben</th></tr></thead><tbody><tr><td>ich</td><td>habe</td></tr><tr><td>du</td><td>hast</td></tr><tr><td>er/sie/es</td><td>hat</td></tr><tr><td>wir</td><td>haben</td></tr><tr><td>ihr</td><td>habt</td></tr><tr><td>sie/Sie</td><td>haben</td></tr></tbody></table><p>Igual que en español: <span class=\"de\">Ich habe Hunger</span> (tengo hambre), <span class=\"de\">Hast du Durst?</span> (¿tienes sed?), <span class=\"de\">Wir haben Zeit</span> (tenemos tiempo).</p><p><b>Ojo:</b> la edad <b>no</b> va con haben: <span class=\"de\">Ich bin 30</span>, no *Ich habe 30 Jahre. Y <span class=\"de\">du hast / er hat</span> pierden la b.</p>"
+  },
+  {
+   "h": "El verbo en 2ª posición y las preguntas de sí/no",
+   "html": "<table><thead><tr><th>tipo</th><th>posición 1</th><th>posición 2 (verbo)</th><th>resto</th></tr></thead><tbody><tr><td>afirmación</td><td>Ich</td><td>arbeite</td><td>in Heidelberg.</td></tr><tr><td>pregunta W</td><td>Wo</td><td>arbeitest</td><td>du?</td></tr><tr><td>pregunta sí/no</td><td colspan=\"2\">Arbeitest (verbo en posición 1)</td><td>du in Heidelberg?</td></tr></tbody></table><p>En una frase afirmativa el verbo conjugado es siempre el <b>segundo elemento</b>. Si empieza otro elemento, el sujeto se coloca justo detrás del verbo: <span class=\"de\">Heute arbeite ich.</span> (lo practicarás a fondo en la unidad 7).</p><p>En las preguntas de sí/no el verbo va <b>el primero</b>: <span class=\"de\">Lernst du Deutsch?</span> – <span class=\"de\">Ja.</span> / <span class=\"de\">Nein.</span></p><p><b>Ojo:</b> en español basta la entonación («¿Trabajas en Berlín?»); en alemán hay que <b>invertir</b> verbo y sujeto: <span class=\"de\">Arbeitest du in Berlin?</span></p>"
+  },
+  {
+   "h": "Profesiones: masculino y femenino -in",
+   "html": "<table><thead><tr><th>masculino</th><th>femenino</th><th>español</th></tr></thead><tbody><tr><td>der Lehrer</td><td>die Lehrerin</td><td>profesor/a</td></tr><tr><td>der Biologe</td><td>die Biologin</td><td>biólogo/a</td></tr><tr><td>der Ingenieur</td><td>die Ingenieurin</td><td>ingeniero/a</td></tr><tr><td>der Student</td><td>die Studentin</td><td>estudiante</td></tr><tr><td>der Verkäufer</td><td>die Verkäuferin</td><td>vendedor/a</td></tr><tr><td>der Arzt</td><td>die <b>Ä</b>rztin</td><td>médico/a</td></tr><tr><td>der Koch</td><td>die K<b>ö</b>chin</td><td>cocinero/a</td></tr></tbody></table><p>El femenino casi siempre se forma con <b>-in</b> (plural <b>-innen</b>); algunos añaden Umlaut (Arzt → Ärztin). Si el masculino acaba en -e, la -e cae: Biologe → Biologin.</p><p>La profesión va <b>sin artículo</b>, como en español: <span class=\"de\">Ich bin Biologin.</span> (no *Ich bin eine Biologin). Preguntar: <span class=\"de\">Was sind Sie von Beruf?</span> / <span class=\"de\">Was machst du beruflich?</span> También: <span class=\"de\">Ich arbeite als Ärztin.</span></p><p><b>Ojo:</b> una mujer dice siempre la forma en -in: <span class=\"de\">Ich bin Lehrerin</span>, no *Ich bin Lehrer.</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "machen",
+   "es": "hacer",
+   "ex": "Was machst du?"
+  },
+  {
+   "de": "arbeiten",
+   "es": "trabajar",
+   "ex": "Sie arbeitet in Heidelberg."
+  },
+  {
+   "de": "lernen",
+   "es": "aprender",
+   "ex": "Ich lerne Deutsch."
+  },
+  {
+   "de": "studieren",
+   "es": "estudiar (en la universidad)",
+   "ex": "Er studiert Biologie."
+  },
+  {
+   "de": "spielen",
+   "es": "jugar; tocar (un instrumento)",
+   "ex": "Wir spielen Tennis."
+  },
+  {
+   "de": "kochen",
+   "es": "cocinar",
+   "ex": "Paul kocht gut."
+  },
+  {
+   "de": "finden",
+   "es": "encontrar; opinar",
+   "ex": "Wie findest du Berlin?"
+  },
+  {
+   "de": "haben",
+   "es": "tener",
+   "ex": "Hast du Zeit?"
+  },
+  {
+   "de": "Beruf",
+   "art": "der",
+   "pl": "Berufe",
+   "es": "profesión",
+   "ex": "Was sind Sie von Beruf?"
+  },
+  {
+   "de": "Arbeit",
+   "art": "die",
+   "es": "trabajo",
+   "ex": "Die Arbeit ist interessant."
+  },
+  {
+   "de": "Biologin",
+   "art": "die",
+   "pl": "Biologinnen",
+   "es": "bióloga",
+   "ex": "Claudia ist Biologin."
+  },
+  {
+   "de": "Biologe",
+   "art": "der",
+   "pl": "Biologen",
+   "es": "biólogo",
+   "ex": "Er ist Biologe."
+  },
+  {
+   "de": "Lehrer",
+   "art": "der",
+   "pl": "Lehrer",
+   "es": "profesor",
+   "ex": "Herr Braun ist Lehrer."
+  },
+  {
+   "de": "Lehrerin",
+   "art": "die",
+   "pl": "Lehrerinnen",
+   "es": "profesora",
+   "ex": "Frau Kaya ist Lehrerin."
+  },
+  {
+   "de": "Arzt",
+   "art": "der",
+   "pl": "Ärzte",
+   "es": "médico",
+   "ex": "Er arbeitet als Arzt."
+  },
+  {
+   "de": "Ärztin",
+   "art": "die",
+   "pl": "Ärztinnen",
+   "es": "médica",
+   "ex": "Sie ist Ärztin."
+  },
+  {
+   "de": "Koch",
+   "art": "der",
+   "pl": "Köche",
+   "es": "cocinero",
+   "ex": "Jonas ist Koch."
+  },
+  {
+   "de": "Ingenieurin",
+   "art": "die",
+   "pl": "Ingenieurinnen",
+   "es": "ingeniera",
+   "ex": "Ich bin Ingenieurin."
+  },
+  {
+   "de": "Student",
+   "art": "der",
+   "pl": "Studenten",
+   "es": "estudiante (m.)",
+   "ex": "Tim ist Student."
+  },
+  {
+   "de": "Studentin",
+   "art": "die",
+   "pl": "Studentinnen",
+   "es": "estudiante (f.)",
+   "ex": "Lisa ist Studentin."
+  },
+  {
+   "de": "Zeit",
+   "art": "die",
+   "es": "tiempo",
+   "ex": "Wir haben heute Zeit."
+  },
+  {
+   "de": "Hunger",
+   "art": "der",
+   "es": "hambre",
+   "ex": "Ich habe Hunger."
+  },
+  {
+   "de": "heute",
+   "es": "hoy",
+   "ex": "Was machst du heute?"
+  },
+  {
+   "de": "ja / nein",
+   "es": "sí / no",
+   "ex": "Lernst du Deutsch? – Ja."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Du ___ in Berlin.",
+   "o": [
+    "arbeitest",
+    "arbeitst",
+    "arbeiten"
+   ],
+   "a": 0,
+   "exp": "Raíz en -t: se añade -e-: du arbeitest."
+  },
+  {
+   "t": "mc",
+   "q": "___ du Hunger?",
+   "o": [
+    "Hast",
+    "Hat",
+    "Habt"
+   ],
+   "a": 0,
+   "exp": "du → hast."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuál es la pregunta correcta?",
+   "o": [
+    "Lernst du Deutsch?",
+    "Lernst Deutsch du?",
+    "Du Deutsch lernst?"
+   ],
+   "a": 0,
+   "exp": "Pregunta de sí/no: verbo + sujeto + resto."
+  },
+  {
+   "t": "mc",
+   "q": "Claudia ist ___.",
+   "o": [
+    "Biologin",
+    "eine Biologe",
+    "Biologe"
+   ],
+   "a": 0,
+   "exp": "Mujer → forma en -in, y sin artículo: Claudia ist Biologin."
+  },
+  {
+   "t": "gap",
+   "q": "Er ___ in Madrid.",
+   "a": [
+    "arbeitet"
+   ],
+   "hint": "arbeiten",
+   "exp": "er + raíz en -t → arbeitet."
+  },
+  {
+   "t": "gap",
+   "q": "Wir ___ heute Pasta.",
+   "a": [
+    "kochen"
+   ],
+   "hint": "kochen",
+   "exp": "wir → -en: wir kochen."
+  },
+  {
+   "t": "gap",
+   "q": "Ihr ___ Deutsch.",
+   "a": [
+    "lernt"
+   ],
+   "hint": "lernen",
+   "exp": "ihr → -t: ihr lernt."
+  },
+  {
+   "t": "gap",
+   "q": "Anna ___ heute Zeit.",
+   "a": [
+    "hat"
+   ],
+   "hint": "haben",
+   "exp": "er/sie/es → hat."
+  },
+  {
+   "t": "gap",
+   "q": "Wie ___ du Berlin?",
+   "a": [
+    "findest"
+   ],
+   "hint": "finden",
+   "exp": "Raíz en -d: du findest."
+  },
+  {
+   "t": "gap",
+   "q": "Paul ist Lehrer, und Lisa ist ___.",
+   "a": [
+    "Lehrerin"
+   ],
+   "hint": "femenino de Lehrer",
+   "exp": "Femenino con -in: Lehrerin."
+  },
+  {
+   "t": "order",
+   "w": [
+    "du",
+    "Spielst",
+    "Tennis"
+   ],
+   "a": "Spielst du Tennis?",
+   "es": "¿Juegas al tenis?"
+  },
+  {
+   "t": "order",
+   "w": [
+    "arbeitet",
+    "Wo",
+    "Paula"
+   ],
+   "a": "Wo arbeitet Paula?",
+   "es": "¿Dónde trabaja Paula?"
+  },
+  {
+   "t": "order",
+   "w": [
+    "bin",
+    "Ich",
+    "Ingenieurin"
+   ],
+   "a": "Ich bin Ingenieurin.",
+   "es": "Soy ingeniera."
+  },
+  {
+   "t": "listen",
+   "de": "Was machst du heute?",
+   "es": "¿Qué haces hoy?"
+  },
+  {
+   "t": "listen",
+   "de": "Ich arbeite als Ärztin in Valencia.",
+   "es": "Trabajo como médica en Valencia."
+  },
+  {
+   "t": "tr",
+   "es": "Soy bióloga.",
+   "a": [
+    "Ich bin Biologin."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "¿Tienes tiempo hoy?",
+   "a": [
+    "Hast du heute Zeit?"
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "der Arzt",
+     "die Ärztin"
+    ],
+    [
+     "der Koch",
+     "die Köchin"
+    ],
+    [
+     "der Lehrer",
+     "die Lehrerin"
+    ],
+    [
+     "der Student",
+     "die Studentin"
+    ],
+    [
+     "der Verkäufer",
+     "die Verkäuferin"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Das ist Jonas. Er ist 29 Jahre alt und kommt aus Hamburg. Er ist Koch und arbeitet in Berlin. Heute hat er frei. Er spielt Fußball und kocht Paella.",
+   "q": "¿Cuál es la profesión de Jonas?",
+   "o": [
+    "Cocinero",
+    "Profesor",
+    "Futbolista"
+   ],
+   "a": 0
+  }
+ ],
+ "speak": [
+  {
+   "de": "Was machst du?",
+   "es": "¿Qué haces?",
+   "tip": "«ch» después de a, o, u suena como una j española suave: «majst»."
+  },
+  {
+   "de": "Ich arbeite in Heidelberg.",
+   "es": "Trabajo en Heidelberg.",
+   "tip": "«ei» = «ai»: «arbaite». La «h» de Heidelberg es aspirada, muy suave."
+  },
+  {
+   "de": "Hast du heute Zeit?",
+   "es": "¿Tienes tiempo hoy?",
+   "tip": "«eu» = «oi»: «hoite». «z» = «ts»: «tsait»."
+  },
+  {
+   "de": "Ich bin Biologin.",
+   "es": "Soy bióloga.",
+   "tip": "Acento en la tercera sílaba: bi-o-LO-gin, con o larga."
+  },
+  {
+   "de": "Was sind Sie von Beruf?",
+   "es": "¿Cuál es su profesión?",
+   "tip": "«v» en «von» suena como f: «fon». «s» inicial de «sind» sonora: «zint». Acento: be-RUF."
+  },
+  {
+   "de": "Wie findest du Berlin?",
+   "es": "¿Qué te parece Berlín?",
+   "tip": "Acento al final: ber-LIN. La «r» alemana se hace al fondo de la garganta, no con la punta de la lengua."
+  },
+  {
+   "de": "Ich habe Hunger.",
+   "es": "Tengo hambre.",
+   "tip": "La «h» se aspira: echa aire como al empañar un cristal. La -er final suena casi como una «a»: «hunga»."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Ihr ___ Fußball.",
+   "o": [
+    "spielt",
+    "spielen",
+    "spielst"
+   ],
+   "a": 0,
+   "exp": "ihr → -t: ihr spielt."
+  },
+  {
+   "t": "mc",
+   "q": "Was ___ Sie von Beruf?",
+   "o": [
+    "sind",
+    "ist",
+    "seid"
+   ],
+   "a": 0,
+   "exp": "Sie → sind."
+  },
+  {
+   "t": "gap",
+   "q": "Ich ___ Hunger.",
+   "a": [
+    "habe"
+   ],
+   "hint": "haben",
+   "exp": "ich → habe."
+  },
+  {
+   "t": "gap",
+   "q": "Was ___ ihr heute?",
+   "a": [
+    "macht"
+   ],
+   "hint": "machen",
+   "exp": "ihr → macht."
+  },
+  {
+   "t": "gap",
+   "q": "Du ___ in Heidelberg, oder?",
+   "a": [
+    "studierst"
+   ],
+   "hint": "studieren",
+   "exp": "du → -st: du studierst."
+  },
+  {
+   "t": "gap",
+   "q": "Martin ___ Heidelberg super.",
+   "a": [
+    "findet"
+   ],
+   "hint": "finden",
+   "exp": "er + raíz en -d → findet."
+  },
+  {
+   "t": "order",
+   "w": [
+    "ihr",
+    "Habt",
+    "Zeit"
+   ],
+   "a": "Habt ihr Zeit?",
+   "es": "¿Tenéis tiempo?"
+  },
+  {
+   "t": "listen",
+   "de": "Arbeitest du in Berlin?",
+   "es": "¿Trabajas en Berlín?"
+  },
+  {
+   "t": "tr",
+   "es": "Pedro es médico y trabaja en Madrid.",
+   "a": [
+    "Pedro ist Arzt und arbeitet in Madrid."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "lernen",
+     "aprender"
+    ],
+    [
+     "studieren",
+     "estudiar (en la universidad)"
+    ],
+    [
+     "arbeiten",
+     "trabajar"
+    ],
+    [
+     "spielen",
+     "jugar"
+    ],
+    [
+     "kochen",
+     "cocinar"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Frau Ortiz ist Ingenieurin. Sie kommt aus Sevilla und wohnt in Stuttgart. Sie arbeitet viel und hat wenig Zeit. Aber sie lernt abends Deutsch.",
+   "q": "¿Qué hace la señora Ortiz por las noches?",
+   "o": [
+    "Trabaja",
+    "Aprende alemán",
+    "Cocina"
+   ],
+   "a": 1
+  }
+ ]
+}

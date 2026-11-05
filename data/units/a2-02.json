@@ -1,0 +1,558 @@
+{
+ "id": "a2-02",
+ "level": "A2",
+ "n": 14,
+ "title": "Mir gefällt das",
+ "title_es": "Dativo: pronombres y verbos",
+ "goals": [
+  "Conozco los pronombres personales en dativo (mir, dir, ihm, ihr…).",
+  "Uso bien los verbos que rigen dativo: helfen, gefallen, gehören, schmecken, passen, danken.",
+  "Puedo decir quién da, regala o enseña algo a quién (geben, schenken, zeigen) con el orden correcto.",
+  "Puedo comprar ropa y hablar de regalos."
+ ],
+ "lessons": [
+  {
+   "h": "Pronombres personales en dativo",
+   "html": "<p>El <b>dativo</b> es el caso del complemento indirecto: responde a <b>Wem?</b> (¿a quién?).</p><table><thead><tr><th>Nominativo</th><th>Acusativo</th><th>Dativo</th><th>Español</th></tr></thead><tbody><tr><td>ich</td><td>mich</td><td><b>mir</b></td><td>(a) mí, me</td></tr><tr><td>du</td><td>dich</td><td><b>dir</b></td><td>(a) ti, te</td></tr><tr><td>er</td><td>ihn</td><td><b>ihm</b></td><td>(a) él, le</td></tr><tr><td>sie</td><td>sie</td><td><b>ihr</b></td><td>(a) ella, le</td></tr><tr><td>es</td><td>es</td><td><b>ihm</b></td><td>le</td></tr><tr><td>wir</td><td>uns</td><td><b>uns</b></td><td>(a) nosotros, nos</td></tr><tr><td>ihr</td><td>euch</td><td><b>euch</b></td><td>(a) vosotros, os</td></tr><tr><td>sie</td><td>sie</td><td><b>ihnen</b></td><td>(a) ellos, les</td></tr><tr><td>Sie</td><td>Sie</td><td><b>Ihnen</b></td><td>(a) usted(es), le(s)</td></tr></tbody></table><p><b>ojo:</b> <span class=\"de\">ihr</span> puede ser «vosotros» (nominativo) o «a ella» (dativo): <span class=\"de\">Ihr helft ihr.</span> = Vosotros la ayudáis. Y <span class=\"de\">ihnen</span> (a ellos) ≠ <span class=\"de\">Ihnen</span> (a usted), solo cambia la mayúscula.</p>"
+  },
+  {
+   "h": "Verbos con dativo",
+   "html": "<p>Algunos verbos llevan <b>dativo</b> aunque en español usemos un complemento directo. Hay que aprenderlos:</p><table><thead><tr><th>Verbo</th><th>Ejemplo</th><th>Español</th></tr></thead><tbody><tr><td>helfen</td><td><span class=\"de\">Ich helfe dir.</span></td><td>Te ayudo.</td></tr><tr><td>danken</td><td><span class=\"de\">Ich danke Ihnen.</span></td><td>Le doy las gracias.</td></tr><tr><td>gefallen</td><td><span class=\"de\">Berlin gefällt mir.</span></td><td>Berlín me gusta.</td></tr><tr><td>schmecken</td><td><span class=\"de\">Die Suppe schmeckt mir.</span></td><td>La sopa me gusta (está rica).</td></tr><tr><td>gehören</td><td><span class=\"de\">Das Handy gehört ihm.</span></td><td>El móvil es suyo (de él).</td></tr><tr><td>passen</td><td><span class=\"de\">Die Hose passt mir.</span></td><td>El pantalón me queda bien (talla).</td></tr></tbody></table><p><span class=\"de\">gefallen</span> funciona como «gustar»: la cosa es el sujeto y la persona va en dativo: <span class=\"de\">Die Schuhe gefallen mir.</span> (plural → gefallen). <span class=\"de\">gefallen</span> es para lo que vemos u oímos; para la comida se usa <span class=\"de\">schmecken</span>.</p><p><b>ojo:</b> «Ich helfe dich» ✗ → <span class=\"de\">Ich helfe dir</span> ✓. En español «te ayudo» es complemento directo, en alemán es dativo. También <span class=\"de\">Wie geht es dir?</span> y <span class=\"de\">Das steht dir gut</span> (te queda bien, te favorece) llevan dativo.</p>"
+  },
+  {
+   "h": "Dar, regalar, enseñar: dativo + acusativo",
+   "html": "<p>Verbos como <span class=\"de\">geben, schenken, zeigen, bringen, kaufen, schicken, erklären</span> tienen dos complementos: la <b>persona en dativo</b> y la <b>cosa en acusativo</b>.</p><p>Recuerda los artículos en dativo: <b>dem</b> (m), <b>der</b> (f), <b>dem</b> (n), <b>den</b> + -n (pl); <b>einem / einer / einem</b>; <b>meinem / meiner / meinem / meinen</b>.</p><table><thead><tr><th>Caso</th><th>Orden</th><th>Ejemplo</th></tr></thead><tbody><tr><td>dos sustantivos</td><td>Dativo → Acusativo</td><td><span class=\"de\">Ich schenke meiner Mutter einen Schal.</span></td></tr><tr><td>dativo pronombre</td><td>Dativo → Acusativo</td><td><span class=\"de\">Ich schenke ihr einen Schal.</span></td></tr><tr><td>acusativo pronombre</td><td>Acusativo → Dativo</td><td><span class=\"de\">Ich schenke ihn meiner Mutter.</span></td></tr><tr><td>dos pronombres</td><td>Acusativo → Dativo</td><td><span class=\"de\">Ich schenke ihn ihr.</span></td></tr></tbody></table><p><b>Regla corta:</b> normalmente persona antes que cosa, pero si la cosa es un <b>pronombre</b>, va primero.</p><p><b>ojo:</b> en español decimos «se lo doy»; en alemán el orden es al revés: <span class=\"de\">Ich gebe es dir</span> (lo → a ti), no «Ich gebe dir es».</p>"
+  },
+  {
+   "h": "De compras: ropa y regalos",
+   "html": "<ul><li><span class=\"de\">Kann ich Ihnen helfen?</span> – ¿Le puedo ayudar?</li><li><span class=\"de\">Ich suche ein Geschenk für meinen Vater.</span> – Busco un regalo para mi padre (<span class=\"de\">für</span> + acusativo).</li><li><span class=\"de\">Welche Größe haben Sie?</span> – ¿Qué talla tiene?</li><li><span class=\"de\">Kann ich die Jacke anprobieren?</span> – ¿Me puedo probar la chaqueta?</li><li><span class=\"de\">Die Hose passt mir nicht. Sie ist zu klein.</span> – No me queda bien, es demasiado pequeña.</li><li><span class=\"de\">Die Farbe gefällt mir.</span> – Me gusta el color.</li><li><span class=\"de\">Das Kleid steht dir sehr gut!</span> – ¡El vestido te queda muy bien!</li></ul><p><b>ojo:</b> <span class=\"de\">passen</span> = talla correcta; <span class=\"de\">stehen</span> = favorecer. Una chaqueta puede <span class=\"de\">passen</span> y no <span class=\"de\">stehen</span>.</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "Geschenk",
+   "art": "das",
+   "pl": "Geschenke",
+   "es": "regalo",
+   "ex": "Das Geschenk gefällt mir."
+  },
+  {
+   "de": "Geburtstag",
+   "art": "der",
+   "pl": "Geburtstage",
+   "es": "cumpleaños",
+   "ex": "Morgen hat meine Mutter Geburtstag."
+  },
+  {
+   "de": "Jacke",
+   "art": "die",
+   "pl": "Jacken",
+   "es": "chaqueta",
+   "ex": "Die Jacke passt mir nicht."
+  },
+  {
+   "de": "Hose",
+   "art": "die",
+   "pl": "Hosen",
+   "es": "pantalón",
+   "ex": "Die Hose ist zu lang."
+  },
+  {
+   "de": "Kleid",
+   "art": "das",
+   "pl": "Kleider",
+   "es": "vestido",
+   "ex": "Das Kleid steht dir gut."
+  },
+  {
+   "de": "Hemd",
+   "art": "das",
+   "pl": "Hemden",
+   "es": "camisa",
+   "ex": "Das Hemd gehört meinem Bruder."
+  },
+  {
+   "de": "Bluse",
+   "art": "die",
+   "pl": "Blusen",
+   "es": "blusa",
+   "ex": "Die Bluse ist sehr schön."
+  },
+  {
+   "de": "Pullover",
+   "art": "der",
+   "pl": "Pullover",
+   "es": "jersey",
+   "ex": "Der Pullover ist sehr warm."
+  },
+  {
+   "de": "Schal",
+   "art": "der",
+   "pl": "Schals",
+   "es": "bufanda",
+   "ex": "Ich schenke ihr einen Schal."
+  },
+  {
+   "de": "Schuh",
+   "art": "der",
+   "pl": "Schuhe",
+   "es": "zapato",
+   "ex": "Die Schuhe passen mir perfekt."
+  },
+  {
+   "de": "Größe",
+   "art": "die",
+   "pl": "Größen",
+   "es": "talla, tamaño",
+   "ex": "Welche Größe haben Sie?"
+  },
+  {
+   "de": "Umkleidekabine",
+   "art": "die",
+   "pl": "Umkleidekabinen",
+   "es": "probador",
+   "ex": "Die Umkleidekabine ist dort hinten."
+  },
+  {
+   "de": "Boxhandschuh",
+   "art": "der",
+   "pl": "Boxhandschuhe",
+   "es": "guante de boxeo",
+   "ex": "Die Boxhandschuhe gehören mir."
+  },
+  {
+   "de": "Blume",
+   "art": "die",
+   "pl": "Blumen",
+   "es": "flor",
+   "ex": "Ich schenke dir Blumen."
+  },
+  {
+   "de": "helfen (+D)",
+   "es": "ayudar",
+   "ex": "Kannst du mir helfen?"
+  },
+  {
+   "de": "gefallen (+D)",
+   "es": "gustar (lo que se ve u oye)",
+   "ex": "Berlin gefällt mir."
+  },
+  {
+   "de": "gehören (+D)",
+   "es": "pertenecer, ser de",
+   "ex": "Das Fahrrad gehört mir."
+  },
+  {
+   "de": "schmecken (+D)",
+   "es": "saber bien, gustar (comida)",
+   "ex": "Die Suppe schmeckt mir."
+  },
+  {
+   "de": "passen (+D)",
+   "es": "quedar bien (de talla)",
+   "ex": "Die Hose passt mir."
+  },
+  {
+   "de": "danken (+D)",
+   "es": "dar las gracias",
+   "ex": "Ich danke Ihnen."
+  },
+  {
+   "de": "schenken",
+   "es": "regalar",
+   "ex": "Ich schenke dir ein Buch."
+  },
+  {
+   "de": "zeigen",
+   "es": "enseñar, mostrar",
+   "ex": "Zeig mir das Foto!"
+  },
+  {
+   "de": "geben",
+   "es": "dar",
+   "ex": "Gibst du mir das Salz?"
+  },
+  {
+   "de": "anprobieren",
+   "es": "probarse (ropa)",
+   "ex": "Kann ich die Jacke anprobieren?"
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Kannst du ___ helfen? Der Koffer ist so schwer.",
+   "o": [
+    "mich",
+    "mir",
+    "ich"
+   ],
+   "a": 1,
+   "exp": "helfen rige dativo: mir."
+  },
+  {
+   "t": "mc",
+   "q": "Die Jacke gefällt ___. (a ella)",
+   "o": [
+    "sie",
+    "ihr",
+    "ihm"
+   ],
+   "a": 1,
+   "exp": "Dativo de sie (ella) = ihr."
+  },
+  {
+   "t": "mc",
+   "q": "Wem gehört das Handy? – Es gehört ___. (a nosotros)",
+   "o": [
+    "uns",
+    "euch",
+    "unser"
+   ],
+   "a": 0,
+   "exp": "Dativo de wir = uns."
+  },
+  {
+   "t": "mc",
+   "q": "Ich schenke ___ einen Schal.",
+   "o": [
+    "meiner Mutter",
+    "meine Mutter",
+    "meinen Mutter"
+   ],
+   "a": 0,
+   "exp": "La persona que recibe va en dativo; femenino: meiner."
+  },
+  {
+   "t": "mc",
+   "q": "Ich zeige dem Kunden die Hose. → Ich zeige ___.",
+   "o": [
+    "sie ihm",
+    "ihm sie",
+    "ihn sie"
+   ],
+   "a": 0,
+   "exp": "Con dos pronombres: primero el acusativo (sie = die Hose), luego el dativo (ihm)."
+  },
+  {
+   "t": "gap",
+   "q": "Wie gefällt ___ Berlin? (a ti)",
+   "a": [
+    "dir"
+   ],
+   "hint": "du → dativo",
+   "exp": "gefallen + dativo: dir."
+  },
+  {
+   "t": "gap",
+   "q": "Ich danke ___ für die Hilfe! (a usted)",
+   "a": [
+    "Ihnen"
+   ],
+   "hint": "Sie → dativo",
+   "exp": "danken + dativo; forma de cortesía con mayúscula: Ihnen."
+  },
+  {
+   "t": "gap",
+   "q": "Die Hose passt ___ nicht. (a él)",
+   "a": [
+    "ihm"
+   ],
+   "hint": "er → dativo",
+   "exp": "passen + dativo: ihm."
+  },
+  {
+   "t": "gap",
+   "q": "Schmeckt ___ die Paella? (a vosotros)",
+   "a": [
+    "euch"
+   ],
+   "hint": "ihr → dativo",
+   "exp": "schmecken + dativo: euch."
+  },
+  {
+   "t": "order",
+   "w": [
+    "schenke",
+    "Ich",
+    "meinem",
+    "Bruder",
+    "Boxhandschuhe"
+   ],
+   "a": "Ich schenke meinem Bruder Boxhandschuhe.",
+   "es": "Le regalo a mi hermano unos guantes de boxeo."
+  },
+  {
+   "t": "order",
+   "w": [
+    "zeigt",
+    "Die",
+    "Verkäuferin",
+    "mir",
+    "Jacke",
+    "die"
+   ],
+   "a": "Die Verkäuferin zeigt mir die Jacke.",
+   "es": "La dependienta me enseña la chaqueta."
+  },
+  {
+   "t": "order",
+   "w": [
+    "gebe",
+    "Ich",
+    "es",
+    "dir",
+    "morgen"
+   ],
+   "a": "Ich gebe es dir morgen.",
+   "es": "Te lo doy mañana."
+  },
+  {
+   "t": "listen",
+   "de": "Das Kleid steht dir sehr gut.",
+   "es": "El vestido te queda muy bien."
+  },
+  {
+   "t": "listen",
+   "de": "Gehört dir der Schal? – Nein, er gehört meiner Schwester.",
+   "es": "¿Es tuya la bufanda? – No, es de mi hermana."
+  },
+  {
+   "t": "tr",
+   "es": "Me gusta la camisa.",
+   "a": [
+    "Das Hemd gefällt mir.",
+    "Mir gefällt das Hemd.",
+    "Die Bluse gefällt mir.",
+    "Mir gefällt die Bluse."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "¿Te ayudo?",
+   "a": [
+    "Soll ich dir helfen?",
+    "Kann ich dir helfen?",
+    "Helfe ich dir?"
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "ich",
+     "mir"
+    ],
+    [
+     "du",
+     "dir"
+    ],
+    [
+     "er",
+     "ihm"
+    ],
+    [
+     "sie (ella)",
+     "ihr"
+    ],
+    [
+     "sie (ellos)",
+     "ihnen"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Heute hat Lena Geburtstag. Ihr Freund Tom schenkt ihr ein Kleid. Aber das Kleid passt ihr nicht, es ist zu klein. Die Farbe gefällt ihr aber sehr gut. Morgen tauscht sie es im Geschäft um.",
+   "q": "¿Cuál es el problema del vestido?",
+   "o": [
+    "No le gusta el color",
+    "Le queda pequeño",
+    "Es demasiado caro"
+   ],
+   "a": 1
+  },
+  {
+   "t": "read",
+   "text": "Verkäufer: Guten Tag, kann ich Ihnen helfen? – Kundin: Ja, ich suche ein Geschenk für meinen Vater. – Verkäufer: Wie gefällt Ihnen dieser Pullover? – Kundin: Der ist schön, aber mein Vater trägt keine Pullover. Ich nehme den Schal da.",
+   "q": "¿Qué compra la clienta?",
+   "o": [
+    "Un jersey",
+    "Una bufanda",
+    "Una camisa"
+   ],
+   "a": 1
+  }
+ ],
+ "speak": [
+  {
+   "de": "Kann ich Ihnen helfen?",
+   "es": "¿Le puedo ayudar?",
+   "tip": "La «h» es una aspiración suave, como echar vaho en un cristal; nunca una jota."
+  },
+  {
+   "de": "Das gefällt mir sehr gut.",
+   "es": "Me gusta mucho.",
+   "tip": "«ä» es una «e» abierta; la «r» final de mir casi no se oye: «mia»."
+  },
+  {
+   "de": "Die Hose passt mir nicht.",
+   "es": "El pantalón no me queda bien.",
+   "tip": "La «s» entre vocales de Hose es sonora, como un zumbido de abeja."
+  },
+  {
+   "de": "Das schmeckt mir!",
+   "es": "¡Qué rico!",
+   "tip": "«schm» sin «e» de apoyo: no digas «eschmekt»."
+  },
+  {
+   "de": "Ich schenke dir ein Buch.",
+   "es": "Te regalo un libro.",
+   "tip": "Distingue «ich» (ch suave) de «sch» (sh, labios hacia fuera)."
+  },
+  {
+   "de": "Wem gehört der Schal?",
+   "es": "¿De quién es la bufanda?",
+   "tip": "«ö»: pon los labios para «o» y di «e»; «W» suena como una «v» con los dientes en el labio."
+  },
+  {
+   "de": "Vielen Dank, das ist sehr nett von dir.",
+   "es": "Muchas gracias, es muy amable por tu parte.",
+   "tip": "La «v» de vielen y von suena «f»."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Das Auto gehört ___. (a ellos)",
+   "o": [
+    "ihnen",
+    "ihr",
+    "sie"
+   ],
+   "a": 0,
+   "exp": "Dativo de sie (plural) = ihnen."
+  },
+  {
+   "t": "mc",
+   "q": "Ich helfe ___ Kollegin im Labor.",
+   "o": [
+    "die",
+    "der",
+    "den"
+   ],
+   "a": 1,
+   "exp": "helfen + dativo; femenino en dativo: der."
+  },
+  {
+   "t": "mc",
+   "q": "Ich schenke meinem Vater ein Buch. → Ich schenke ___.",
+   "o": [
+    "es ihm",
+    "ihm es",
+    "ihn es"
+   ],
+   "a": 0,
+   "exp": "Dos pronombres: acusativo (es) antes que dativo (ihm)."
+  },
+  {
+   "t": "mc",
+   "q": "Wem gehört die Tasche?",
+   "o": [
+    "Sie gehört mir.",
+    "Sie gehört mich.",
+    "Sie gehört ich."
+   ],
+   "a": 0,
+   "exp": "gehören + dativo: mir."
+  },
+  {
+   "t": "gap",
+   "q": "Schmeckt ___ der Kuchen? (a ti)",
+   "a": [
+    "dir"
+   ],
+   "hint": "du → dativo",
+   "exp": "schmecken + dativo."
+  },
+  {
+   "t": "gap",
+   "q": "Wir danken ___ für die Einladung. (a vosotros)",
+   "a": [
+    "euch"
+   ],
+   "hint": "ihr → dativo",
+   "exp": "danken + dativo: euch."
+  },
+  {
+   "t": "gap",
+   "q": "Die Schuhe passen ___ perfekt. (a mí)",
+   "a": [
+    "mir"
+   ],
+   "hint": "ich → dativo",
+   "exp": "passen + dativo: mir."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Kannst",
+    "du",
+    "mir",
+    "zeigen",
+    "das",
+    "Foto"
+   ],
+   "a": "Kannst du mir das Foto zeigen?",
+   "es": "¿Me puedes enseñar la foto?"
+  },
+  {
+   "t": "listen",
+   "de": "Wie gefällt Ihnen die Wohnung?",
+   "es": "¿Qué le parece el piso?"
+  },
+  {
+   "t": "tr",
+   "es": "Le regalo flores (a ella).",
+   "a": [
+    "Ich schenke ihr Blumen."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "helfen",
+     "ayudar"
+    ],
+    [
+     "gefallen",
+     "gustar"
+    ],
+    [
+     "gehören",
+     "pertenecer"
+    ],
+    [
+     "danken",
+     "dar las gracias"
+    ],
+    [
+     "schenken",
+     "regalar"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Max ist im Kaufhaus. Die Jeans gefällt ihm, aber sie passt ihm nicht. Der Verkäufer hilft ihm und bringt ihm die Jeans in Größe 32. Jetzt passt sie!",
+   "q": "¿Quién ayuda a Max?",
+   "o": [
+    "Su madre",
+    "El dependiente",
+    "Nadie"
+   ],
+   "a": 1
+  }
+ ]
+}

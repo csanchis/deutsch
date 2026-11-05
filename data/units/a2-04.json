@@ -1,0 +1,545 @@
+{
+ "id": "a2-04",
+ "level": "A2",
+ "n": 16,
+ "title": "Weil ich Deutsch lerne",
+ "title_es": "Oraciones subordinadas: weil, dass, wenn",
+ "goals": [
+  "Puedo formar subordinadas con weil, dass, wenn y ob con el verbo al final.",
+  "Distingo weil (verbo al final) de denn (verbo en 2ª posición) y uso und, aber, oder sin cambiar el orden.",
+  "Puedo empezar la frase con la subordinada: Wenn ich Zeit habe, gehe ich …",
+  "Puedo dar mi opinión con Ich finde, dass … / Ich glaube, dass …"
+ ],
+ "lessons": [
+  {
+   "h": "La subordinada: el verbo se va al final",
+   "html": "<p>En una oración subordinada el <b>verbo conjugado va al final</b>. Entre la principal y la subordinada siempre hay <b>coma</b>.</p><table><thead><tr><th>Conector</th><th>Significado</th><th>Ejemplo</th></tr></thead><tbody><tr><td>weil</td><td>porque</td><td><span class=\"de\">Ich lerne Deutsch, weil ich in Heidelberg <b>arbeite</b>.</span></td></tr><tr><td>dass</td><td>que</td><td><span class=\"de\">Ich weiß, dass du müde <b>bist</b>.</span></td></tr><tr><td>wenn</td><td>si (condición), cuando (habitual/futuro)</td><td><span class=\"de\">Ich gehe joggen, wenn es nicht <b>regnet</b>.</span></td></tr><tr><td>ob</td><td>si (pregunta indirecta, duda)</td><td><span class=\"de\">Ich weiß nicht, ob er heute <b>kommt</b>.</span></td></tr></tbody></table><p><b>ojo:</b> el «si» español tiene dos traducciones: condición → <span class=\"de\">wenn</span> (<i>si llueve…</i>); duda o pregunta → <span class=\"de\">ob</span> (<i>no sé si…</i>).</p><p><b>ojo:</b> no escribas «dass» con una sola s (<span class=\"de\">das</span> es el artículo).</p>"
+  },
+  {
+   "h": "Verbo final con separables, modales y Perfekt",
+   "html": "<table><thead><tr><th>Tipo</th><th>Principal</th><th>Subordinada</th></tr></thead><tbody><tr><td>separable</td><td><span class=\"de\">Er ruft heute an.</span></td><td><span class=\"de\">…, dass er heute <b>anruft</b>.</span> (se junta)</td></tr><tr><td>modal</td><td><span class=\"de\">Ich muss arbeiten.</span></td><td><span class=\"de\">…, weil ich arbeiten <b>muss</b>.</span></td></tr><tr><td>Perfekt</td><td><span class=\"de\">Sie hat viel gelernt.</span></td><td><span class=\"de\">…, weil sie viel gelernt <b>hat</b>.</span></td></tr></tbody></table><p>El sujeto va justo detrás del conector: <span class=\"de\">weil <b>ich</b> …</span>, <span class=\"de\">dass <b>du</b> …</span>. La negación <span class=\"de\">nicht</span> va antes del verbo final: <span class=\"de\">…, weil ich heute nicht arbeite.</span></p><p><b>ojo:</b> «weil ich muss arbeiten» ✗ → <span class=\"de\">weil ich arbeiten muss</span> ✓. El verbo conjugado es siempre el último.</p>"
+  },
+  {
+   "h": "Posición 0: und, aber, oder, denn, sondern",
+   "html": "<p>Estos conectores unen dos oraciones principales y <b>no ocupan posición</b>: después viene una frase normal con el verbo en 2ª posición.</p><table><thead><tr><th>Posición 0</th><th>1</th><th>2 (verbo)</th><th>resto</th></tr></thead><tbody><tr><td>denn</td><td>ich</td><td>bin</td><td>krank.</td></tr><tr><td>aber</td><td>ich</td><td>habe</td><td>keine Zeit.</td></tr><tr><td>und</td><td>dann</td><td>gehe</td><td>ich ins Kino.</td></tr></tbody></table><p><span class=\"de\">weil</span> y <span class=\"de\">denn</span> significan lo mismo (porque), pero cambian el orden:</p><p><span class=\"de\">Ich komme nicht, <b>weil</b> ich krank <b>bin</b>.</span> = <span class=\"de\">Ich komme nicht, <b>denn</b> ich <b>bin</b> krank.</span></p><p><b>ojo:</b> <span class=\"de\">denn</span> no puede ir al principio de la frase ni responder a <span class=\"de\">Warum?</span>; para eso se usa <span class=\"de\">weil</span>: <span class=\"de\">Warum lernst du Deutsch? – Weil ich in Deutschland arbeite.</span></p>"
+  },
+  {
+   "h": "La subordinada delante: verbo, coma, verbo",
+   "html": "<p>La subordinada puede ir <b>primero</b>. Entonces ocupa la posición 1 de la frase y la principal empieza directamente con el <b>verbo</b>:</p><p><span class=\"de\">Wenn ich Zeit <b>habe</b>, <b>gehe</b> ich boxen.</span></p><p><span class=\"de\">Weil es regnet, <b>bleiben</b> wir zu Hause.</span></p><p>Fórmula: … <b>verbo</b>, <b>verbo</b> … — dos verbos juntos separados por la coma.</p><p><b>ojo:</b> «Wenn ich Zeit habe, ich gehe boxen» ✗ (orden español) → <span class=\"de\">Wenn ich Zeit habe, gehe ich boxen.</span> ✓</p>"
+  },
+  {
+   "h": "Dar tu opinión",
+   "html": "<ul><li><span class=\"de\">Ich finde, dass Deutsch schwierig ist.</span> – Me parece que el alemán es difícil.</li><li><span class=\"de\">Ich glaube, dass er recht hat.</span> – Creo que tiene razón.</li><li><span class=\"de\">Ich denke, dass die Idee gut ist.</span> – Pienso que la idea es buena.</li><li><span class=\"de\">Meinst du, dass wir pünktlich ankommen?</span> – ¿Crees que llegaremos puntuales?</li></ul><p>En la lengua hablada, tras <span class=\"de\">ich finde / ich glaube / ich denke</span> se puede omitir <span class=\"de\">dass</span>; entonces el orden es normal (verbo en 2ª): <span class=\"de\">Ich glaube, er hat recht.</span></p><p><b>ojo:</b> «Ich finde, dass Deutsch ist schwierig» ✗ → con <span class=\"de\">dass</span>, verbo al final; sin <span class=\"de\">dass</span>, verbo en 2ª.</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "weil",
+   "es": "porque (verbo al final)",
+   "ex": "Ich bleibe zu Hause, weil ich krank bin."
+  },
+  {
+   "de": "denn",
+   "es": "porque (verbo en 2ª posición)",
+   "ex": "Ich bleibe zu Hause, denn ich bin krank."
+  },
+  {
+   "de": "dass",
+   "es": "que (conjunción)",
+   "ex": "Ich glaube, dass sie kommt."
+  },
+  {
+   "de": "wenn",
+   "es": "si, cuando",
+   "ex": "Wenn ich Zeit habe, koche ich."
+  },
+  {
+   "de": "ob",
+   "es": "si (pregunta indirecta)",
+   "ex": "Ich weiß nicht, ob er Zeit hat."
+  },
+  {
+   "de": "glauben",
+   "es": "creer",
+   "ex": "Ich glaube, dass das stimmt."
+  },
+  {
+   "de": "finden",
+   "es": "opinar, parecer (y encontrar)",
+   "ex": "Ich finde, dass der Film gut ist."
+  },
+  {
+   "de": "denken",
+   "es": "pensar",
+   "ex": "Ich denke, dass wir gewinnen."
+  },
+  {
+   "de": "meinen",
+   "es": "opinar, querer decir",
+   "ex": "Was meinst du?"
+  },
+  {
+   "de": "wissen",
+   "es": "saber",
+   "ex": "Weißt du, dass Lisa in Berlin wohnt?"
+  },
+  {
+   "de": "Meinung",
+   "art": "die",
+   "pl": "Meinungen",
+   "es": "opinión",
+   "ex": "Was ist deine Meinung?"
+  },
+  {
+   "de": "Grund",
+   "art": "der",
+   "pl": "Gründe",
+   "es": "motivo, razón",
+   "ex": "Der Grund ist einfach."
+  },
+  {
+   "de": "Prüfung",
+   "art": "die",
+   "pl": "Prüfungen",
+   "es": "examen",
+   "ex": "Ich lerne, weil ich eine Prüfung habe."
+  },
+  {
+   "de": "Kurs",
+   "art": "der",
+   "pl": "Kurse",
+   "es": "curso",
+   "ex": "Der Kurs beginnt um sieben."
+  },
+  {
+   "de": "Hausaufgabe",
+   "art": "die",
+   "pl": "Hausaufgaben",
+   "es": "deberes",
+   "ex": "Hast du die Hausaufgaben gemacht?"
+  },
+  {
+   "de": "Erkältung",
+   "art": "die",
+   "pl": "Erkältungen",
+   "es": "resfriado",
+   "ex": "Ich habe eine Erkältung."
+  },
+  {
+   "de": "Wettkampf",
+   "art": "der",
+   "pl": "Wettkämpfe",
+   "es": "competición, combate",
+   "ex": "Am Samstag habe ich einen Wettkampf."
+  },
+  {
+   "de": "wichtig",
+   "es": "importante",
+   "ex": "Ich finde, dass Sport wichtig ist."
+  },
+  {
+   "de": "schwierig",
+   "es": "difícil",
+   "ex": "Die Grammatik ist schwierig."
+  },
+  {
+   "de": "anstrengend",
+   "es": "agotador, cansado (que cansa)",
+   "ex": "Boxen ist sehr anstrengend."
+  },
+  {
+   "de": "müde",
+   "es": "cansado",
+   "ex": "Ich gehe schlafen, weil ich müde bin."
+  },
+  {
+   "de": "recht haben",
+   "es": "tener razón",
+   "ex": "Ich glaube, du hast recht."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Ich lerne Deutsch, ___",
+   "o": [
+    "weil ich arbeite in Heidelberg.",
+    "weil ich in Heidelberg arbeite.",
+    "weil arbeite ich in Heidelberg."
+   ],
+   "a": 1,
+   "exp": "Tras weil el verbo conjugado va al final."
+  },
+  {
+   "t": "mc",
+   "q": "Ich komme heute nicht, ___ ich bin krank.",
+   "o": [
+    "weil",
+    "denn",
+    "dass"
+   ],
+   "a": 1,
+   "exp": "El verbo está en 2ª posición (ich bin…) → denn."
+  },
+  {
+   "t": "mc",
+   "q": "Ich frage den Trainer, ___ das Training heute stattfindet.",
+   "o": [
+    "ob",
+    "dass",
+    "weil"
+   ],
+   "a": 0,
+   "exp": "Pregunta indirecta de sí/no → ob."
+  },
+  {
+   "t": "mc",
+   "q": "___ das Wetter schön ist, gehen wir an den Strand.",
+   "o": [
+    "Wenn",
+    "Ob",
+    "Denn"
+   ],
+   "a": 0,
+   "exp": "Condición → wenn. Denn no puede ir al principio."
+  },
+  {
+   "t": "mc",
+   "q": "Welcher Satz ist richtig?",
+   "o": [
+    "Wenn ich müde bin, ich trinke Kaffee.",
+    "Wenn ich müde bin, trinke ich Kaffee.",
+    "Wenn ich bin müde, trinke ich Kaffee."
+   ],
+   "a": 1,
+   "exp": "Subordinada delante: verbo al final, coma y luego el verbo de la principal."
+  },
+  {
+   "t": "gap",
+   "q": "Ich glaube, ___ der Kurs sehr gut ist.",
+   "a": [
+    "dass"
+   ],
+   "hint": "que",
+   "exp": "Opinión + subordinada: dass (con doble s)."
+  },
+  {
+   "t": "gap",
+   "q": "Ich bleibe zu Hause, ___ ich müde bin.",
+   "a": [
+    "weil",
+    "da"
+   ],
+   "hint": "porque",
+   "exp": "Verbo al final → weil."
+  },
+  {
+   "t": "gap",
+   "q": "Ich gehe joggen, ___ es nicht regnet.",
+   "a": [
+    "wenn",
+    "falls"
+   ],
+   "hint": "si (condición)",
+   "exp": "Condición → wenn."
+  },
+  {
+   "t": "gap",
+   "q": "Ich weiß, dass du morgen früh ___.",
+   "a": [
+    "aufstehst"
+   ],
+   "hint": "aufstehen",
+   "exp": "En la subordinada el verbo separable se junta al final: aufstehst."
+  },
+  {
+   "t": "gap",
+   "q": "Sie ist müde, weil sie gestern lange gearbeitet ___.",
+   "a": [
+    "hat"
+   ],
+   "hint": "haben",
+   "exp": "En Perfekt, el auxiliar va al final de la subordinada."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Ich",
+    "lerne",
+    "viel,",
+    "weil",
+    "ich",
+    "eine",
+    "Prüfung",
+    "habe"
+   ],
+   "a": "Ich lerne viel, weil ich eine Prüfung habe.",
+   "es": "Estudio mucho porque tengo un examen."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Wenn",
+    "ich",
+    "Zeit",
+    "habe,",
+    "gehe",
+    "ich",
+    "ins",
+    "Fitnessstudio"
+   ],
+   "a": "Wenn ich Zeit habe, gehe ich ins Fitnessstudio.",
+   "es": "Si tengo tiempo, voy al gimnasio."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Ich",
+    "finde,",
+    "dass",
+    "Boxen",
+    "sehr",
+    "anstrengend",
+    "ist"
+   ],
+   "a": "Ich finde, dass Boxen sehr anstrengend ist.",
+   "es": "Me parece que el boxeo es muy agotador."
+  },
+  {
+   "t": "listen",
+   "de": "Ich weiß nicht, ob sie heute Zeit hat.",
+   "es": "No sé si tiene tiempo hoy."
+  },
+  {
+   "t": "listen",
+   "de": "Ich lerne Deutsch, denn ich möchte in Deutschland arbeiten.",
+   "es": "Aprendo alemán porque quiero trabajar en Alemania."
+  },
+  {
+   "t": "tr",
+   "es": "Creo que el examen es difícil.",
+   "a": [
+    "Ich glaube, dass die Prüfung schwierig ist.",
+    "Ich glaube, dass die Prüfung schwer ist.",
+    "Ich glaube, die Prüfung ist schwierig.",
+    "Ich glaube, die Prüfung ist schwer.",
+    "Ich denke, dass die Prüfung schwierig ist.",
+    "Ich denke, dass die Prüfung schwer ist."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "Si llueve, me quedo en casa.",
+   "a": [
+    "Wenn es regnet, bleibe ich zu Hause.",
+    "Ich bleibe zu Hause, wenn es regnet.",
+    "Wenn es regnet, bleibe ich daheim."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "weil",
+     "porque (verbo al final)"
+    ],
+    [
+     "denn",
+     "porque (verbo en 2ª posición)"
+    ],
+    [
+     "dass",
+     "que"
+    ],
+    [
+     "ob",
+     "si (pregunta indirecta)"
+    ],
+    [
+     "wenn",
+     "si (condición)"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Marta wohnt seit einem Jahr in Berlin. Sie lernt Deutsch, weil sie an der Universität arbeitet. Sie findet, dass die Grammatik schwierig ist, aber sie lernt jeden Abend. Wenn sie Zeit hat, geht sie mit Kollegen in ein Café, denn sie möchte viel sprechen.",
+   "q": "¿Por qué aprende Marta alemán?",
+   "o": [
+    "Porque trabaja en la universidad",
+    "Porque su novio es alemán",
+    "Porque la gramática es fácil"
+   ],
+   "a": 0
+  }
+ ],
+ "speak": [
+  {
+   "de": "Ich lerne Deutsch, weil ich in Deutschland arbeite.",
+   "es": "Aprendo alemán porque trabajo en Alemania.",
+   "tip": "«eu» suena «oi»: DOITSH; «w» de weil = «v»."
+  },
+  {
+   "de": "Ich glaube, dass das richtig ist.",
+   "es": "Creo que eso es correcto.",
+   "tip": "La «-ig» final de richtig suena como «ich»: RICH-tich."
+  },
+  {
+   "de": "Wenn ich Zeit habe, gehe ich boxen.",
+   "es": "Si tengo tiempo, voy a boxear.",
+   "tip": "«Z» = «ts»: TSAIT. Haz una pausa breve en la coma."
+  },
+  {
+   "de": "Ich weiß nicht, ob er kommt.",
+   "es": "No sé si viene.",
+   "tip": "«ß» es una «s» sorda; la «b» final de ob suena «p»."
+  },
+  {
+   "de": "Ich finde, dass Boxen sehr anstrengend ist.",
+   "es": "Me parece que el boxeo es muy agotador.",
+   "tip": "«x» = «ks»; en anstrengend la «st» va en medio y suena «sht» porque empieza la raíz strengen."
+  },
+  {
+   "de": "Ich komme nicht, denn ich bin krank.",
+   "es": "No vengo, porque estoy enfermo.",
+   "tip": "«-ank» con «n» nasal como en «banco»."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Ich kann nicht kommen, ___ ich arbeiten muss.",
+   "o": [
+    "weil",
+    "denn",
+    "aber"
+   ],
+   "a": 0,
+   "exp": "El verbo conjugado (muss) está al final → weil."
+  },
+  {
+   "t": "mc",
+   "q": "Ich glaube, dass er ___.",
+   "o": [
+    "heute kommt nicht",
+    "heute nicht kommt",
+    "kommt heute nicht"
+   ],
+   "a": 1,
+   "exp": "Verbo al final; nicht justo delante del verbo."
+  },
+  {
+   "t": "mc",
+   "q": "Ich möchte mitkommen, ___ ich habe keine Zeit.",
+   "o": [
+    "aber",
+    "weil",
+    "dass"
+   ],
+   "a": 0,
+   "exp": "Verbo en 2ª posición y sentido contrario → aber."
+  },
+  {
+   "t": "gap",
+   "q": "Ich weiß nicht, ___ ich am Samstag Zeit habe.",
+   "a": [
+    "ob"
+   ],
+   "hint": "si (duda)",
+   "exp": "Duda / pregunta indirecta → ob."
+  },
+  {
+   "t": "gap",
+   "q": "Ich bin froh, ___ du hier bist.",
+   "a": [
+    "dass"
+   ],
+   "hint": "que",
+   "exp": "Me alegro de que… → dass."
+  },
+  {
+   "t": "gap",
+   "q": "Er sagt, dass er morgen ___.",
+   "a": [
+    "anruft"
+   ],
+   "hint": "anrufen",
+   "exp": "Separable al final de la subordinada: anruft, junto."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Ich",
+    "trainiere",
+    "jeden",
+    "Tag,",
+    "weil",
+    "ich",
+    "einen",
+    "Wettkampf",
+    "habe"
+   ],
+   "a": "Ich trainiere jeden Tag, weil ich einen Wettkampf habe.",
+   "es": "Entreno cada día porque tengo una competición."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Wenn",
+    "du",
+    "Hunger",
+    "hast,",
+    "kannst",
+    "du",
+    "etwas",
+    "kochen"
+   ],
+   "a": "Wenn du Hunger hast, kannst du etwas kochen.",
+   "es": "Si tienes hambre, puedes cocinar algo."
+  },
+  {
+   "t": "listen",
+   "de": "Ich finde, dass Heidelberg sehr schön ist.",
+   "es": "Me parece que Heidelberg es muy bonito."
+  },
+  {
+   "t": "tr",
+   "es": "No sé si viene (él).",
+   "a": [
+    "Ich weiß nicht, ob er kommt."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "Ich esse etwas,",
+     "weil ich Hunger habe."
+    ],
+    [
+     "Ich trinke Wasser,",
+     "weil ich Durst habe."
+    ],
+    [
+     "Ich gehe schlafen,",
+     "weil ich müde bin."
+    ],
+    [
+     "Ich gehe zum Arzt,",
+     "weil ich krank bin."
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Liebe Claudia, ich kann am Freitag leider nicht zum Boxtraining kommen, denn ich habe eine Erkältung. Ich glaube, dass ich am Montag wieder fit bin. Wenn du willst, können wir dann zusammen trainieren. Viele Grüße, Jonas",
+   "q": "¿Por qué no va Jonas el viernes?",
+   "o": [
+    "Porque tiene que trabajar",
+    "Porque está resfriado",
+    "Porque no quiere"
+   ],
+   "a": 1
+  }
+ ]
+}

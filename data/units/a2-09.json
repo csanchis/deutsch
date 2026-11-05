@@ -1,0 +1,539 @@
+{
+ "id": "a2-09",
+ "level": "A2",
+ "n": 21,
+ "title": "Arbeit und Beruf",
+ "title_es": "Trabajo y cortesía (Konjunktiv II)",
+ "goals": [
+  "Puedo hablar de mi profesión, mi lugar de trabajo y mi doctorado.",
+  "Puedo pedir cosas con cortesía: Könnten Sie …?, Ich hätte gern …, Ich würde gern …",
+  "Puedo dar consejos con Du solltest …",
+  "Puedo escribir un email formal sencillo (saludo y despedida).",
+  "Puedo responder preguntas sencillas en una entrevista de trabajo."
+ ],
+ "lessons": [
+  {
+   "h": "Profesiones y lugar de trabajo",
+   "html": "<table><thead><tr><th>masculino</th><th>femenino</th><th>español</th></tr></thead><tbody><tr><td>der Arzt</td><td>die Ärztin</td><td>médico/a</td></tr><tr><td>der Ingenieur</td><td>die Ingenieurin</td><td>ingeniero/a</td></tr><tr><td>der Forscher</td><td>die Forscherin</td><td>investigador/a</td></tr><tr><td>der Doktorand</td><td>die Doktorandin</td><td>doctorando/a</td></tr><tr><td>der Krankenpfleger</td><td>die Krankenpflegerin</td><td>enfermero/a</td></tr><tr><td>der Verkäufer</td><td>die Verkäuferin</td><td>dependiente/a</td></tr></tbody></table><ul><li><span class=\"de\">Ich bin Biologin.</span> / <span class=\"de\">Ich arbeite als Biologin.</span> (sin artículo)</li><li><span class=\"de\">Ich arbeite bei Siemens / an der Universität / im Labor / in einem Krankenhaus.</span></li><li><span class=\"de\">Ich mache meine Doktorarbeit über Bakterien.</span> / <span class=\"de\">Ich promoviere in Mikrobiologie.</span></li><li><span class=\"de\">Ich arbeite Vollzeit / Teilzeit.</span></li></ul><p><b>Ojo:</b> empresa → <span class=\"de\">bei</span> (<span class=\"de\">bei BASF</span>); universidad → <span class=\"de\">an</span> (<span class=\"de\">an der Uni</span>); lugar físico → <span class=\"de\">in</span> (<span class=\"de\">im Büro</span>).</p>"
+  },
+  {
+   "h": "Konjunktiv II de cortesía",
+   "html": "<p>Equivale al <b>condicional</b> español (<i>querría, podría, sería</i>) y suena más amable que el presente.</p><table><thead><tr><th></th><th>werden → würde</th><th>haben → hätte</th><th>sein → wäre</th><th>können → könnte</th></tr></thead><tbody><tr><td>ich</td><td>würde</td><td>hätte</td><td>wäre</td><td>könnte</td></tr><tr><td>du</td><td>würdest</td><td>hättest</td><td>wär(e)st</td><td>könntest</td></tr><tr><td>er / sie / es</td><td>würde</td><td>hätte</td><td>wäre</td><td>könnte</td></tr><tr><td>wir</td><td>würden</td><td>hätten</td><td>wären</td><td>könnten</td></tr><tr><td>ihr</td><td>würdet</td><td>hättet</td><td>wär(e)t</td><td>könntet</td></tr><tr><td>sie / Sie</td><td>würden</td><td>hätten</td><td>wären</td><td>könnten</td></tr></tbody></table><ul><li>Deseos: <span class=\"de\">Ich würde gern im Ausland arbeiten.</span> (würde + infinitivo al final)</li><li>Pedir: <span class=\"de\">Ich hätte gern einen Termin.</span></li><li>Preguntar con cortesía: <span class=\"de\">Könnten Sie mir bitte helfen?</span> <span class=\"de\">Würden Sie das bitte wiederholen?</span> <span class=\"de\">Hätten Sie morgen Zeit?</span></li><li>Valorar: <span class=\"de\">Das wäre super!</span> <span class=\"de\">Wäre Montag möglich?</span></li></ul><p><b>Ojo:</b> la diéresis lo cambia todo: <span class=\"de\">konnte</span> (pude) / <span class=\"de\">könnte</span> (podría); <span class=\"de\">hatte</span> (tenía) / <span class=\"de\">hätte</span> (tendría); <span class=\"de\">wurde</span> / <span class=\"de\">würde</span>.</p>"
+  },
+  {
+   "h": "Dar consejos: Du solltest …",
+   "html": "<table><thead><tr><th>sollen (Konj. II)</th><th>ejemplo</th></tr></thead><tbody><tr><td>ich sollte</td><td><span class=\"de\">Ich sollte mehr schlafen.</span></td></tr><tr><td>du solltest</td><td><span class=\"de\">Du solltest eine Pause machen.</span></td></tr><tr><td>er / sie sollte</td><td><span class=\"de\">Sie sollte mit ihrem Chef sprechen.</span></td></tr><tr><td>wir sollten</td><td><span class=\"de\">Wir sollten früher anfangen.</span></td></tr><tr><td>ihr solltet</td><td><span class=\"de\">Ihr solltet mehr Deutsch sprechen.</span></td></tr><tr><td>sie / Sie sollten</td><td><span class=\"de\">Sie sollten Ihren Lebenslauf mitbringen.</span></td></tr></tbody></table><p>= <i>deberías …</i>. Infinitivo al final, como con todos los modales. Otra fórmula: <span class=\"de\">An deiner Stelle würde ich …</span> (<i>yo que tú…</i>).</p><p><b>Ojo:</b> la forma coincide con el Präteritum (ich sollte); el contexto de consejo lo aclara.</p>"
+  },
+  {
+   "h": "El email formal",
+   "html": "<table><thead><tr><th></th><th>formal</th><th>informal</th></tr></thead><tbody><tr><td>saludo (mujer)</td><td><span class=\"de\">Sehr geehrte Frau Müller,</span></td><td><span class=\"de\">Liebe Anna,</span></td></tr><tr><td>saludo (hombre)</td><td><span class=\"de\">Sehr geehrter Herr Schmidt,</span></td><td><span class=\"de\">Lieber Jonas,</span></td></tr><tr><td>no sé el nombre</td><td><span class=\"de\">Sehr geehrte Damen und Herren,</span></td><td><span class=\"de\">Hallo zusammen,</span></td></tr><tr><td>despedida</td><td><span class=\"de\">Mit freundlichen Grüßen</span></td><td><span class=\"de\">Viele Grüße / Liebe Grüße</span></td></tr></tbody></table><ul><li>Tras el saludo va <b>coma</b> (no dos puntos) y la primera palabra del texto en <b>minúscula</b>: <span class=\"de\">Sehr geehrte Frau Müller, vielen Dank für Ihre E-Mail.</span></li><li>Tras <span class=\"de\">Mit freundlichen Grüßen</span> no se pone coma; el nombre va en la línea siguiente.</li><li>Frases útiles: <span class=\"de\">Ich schreibe Ihnen, weil …</span> · <span class=\"de\">Könnten Sie mir bitte … schicken?</span> · <span class=\"de\">Ich freue mich auf Ihre Antwort.</span></li></ul><p><b>Ojo:</b> la terminación del adjetivo depende del género: <span class=\"de\">geehrte</span> Frau, <span class=\"de\">geehrter</span> Herr, <span class=\"de\">Liebe</span> Anna, <span class=\"de\">Lieber</span> Jonas.</p>"
+  },
+  {
+   "h": "La entrevista de trabajo",
+   "html": "<table><thead><tr><th>pregunta</th><th>respuesta posible</th></tr></thead><tbody><tr><td><span class=\"de\">Erzählen Sie etwas über sich.</span></td><td><span class=\"de\">Ich bin Biologin und mache gerade meine Doktorarbeit.</span></td></tr><tr><td><span class=\"de\">Was sind Ihre Stärken?</span></td><td><span class=\"de\">Ich bin genau und arbeite gern im Team.</span></td></tr><tr><td><span class=\"de\">Welche Erfahrung haben Sie?</span></td><td><span class=\"de\">Ich habe drei Jahre in einem Labor gearbeitet.</span></td></tr><tr><td><span class=\"de\">Warum möchten Sie bei uns arbeiten?</span></td><td><span class=\"de\">Ich interessiere mich sehr für Ihre Forschung.</span></td></tr><tr><td><span class=\"de\">Haben Sie noch Fragen?</span></td><td><span class=\"de\">Ja, wann würde die Stelle beginnen?</span></td></tr></tbody></table><p>En una entrevista se usa siempre <b>Sie</b>, y en Alemania se llama a la gente por su apellido: <span class=\"de\">Frau Dr. Lehmann</span>.</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "Beruf",
+   "art": "der",
+   "pl": "Berufe",
+   "es": "profesión",
+   "ex": "Was sind Sie von Beruf?"
+  },
+  {
+   "de": "Stelle",
+   "art": "die",
+   "pl": "Stellen",
+   "es": "puesto (de trabajo)",
+   "ex": "Ich suche eine neue Stelle."
+  },
+  {
+   "de": "Bewerbung",
+   "art": "die",
+   "pl": "Bewerbungen",
+   "es": "solicitud de empleo",
+   "ex": "Ich schreibe eine Bewerbung."
+  },
+  {
+   "de": "sich bewerben",
+   "es": "presentarse a un puesto",
+   "ex": "Ich bewerbe mich bei einer Firma in Berlin."
+  },
+  {
+   "de": "Vorstellungsgespräch",
+   "art": "das",
+   "pl": "Vorstellungsgespräche",
+   "es": "entrevista de trabajo",
+   "ex": "Morgen habe ich ein Vorstellungsgespräch."
+  },
+  {
+   "de": "Lebenslauf",
+   "art": "der",
+   "pl": "Lebensläufe",
+   "es": "currículum",
+   "ex": "Bitte schicken Sie Ihren Lebenslauf."
+  },
+  {
+   "de": "Erfahrung",
+   "art": "die",
+   "pl": "Erfahrungen",
+   "es": "experiencia",
+   "ex": "Ich habe Erfahrung mit Bioinformatik."
+  },
+  {
+   "de": "Kollege",
+   "art": "der",
+   "pl": "Kollegen",
+   "es": "compañero de trabajo",
+   "ex": "Mein Kollege kommt aus Italien."
+  },
+  {
+   "de": "Kollegin",
+   "art": "die",
+   "pl": "Kolleginnen",
+   "es": "compañera de trabajo",
+   "ex": "Meine Kollegin hilft mir oft."
+  },
+  {
+   "de": "Chef",
+   "art": "der",
+   "pl": "Chefs",
+   "es": "jefe",
+   "ex": "Der Chef ist heute nicht da."
+  },
+  {
+   "de": "Chefin",
+   "art": "die",
+   "pl": "Chefinnen",
+   "es": "jefa",
+   "ex": "Meine Chefin ist sehr nett."
+  },
+  {
+   "de": "Labor",
+   "art": "das",
+   "pl": "Labore",
+   "es": "laboratorio",
+   "ex": "Ich arbeite jeden Tag im Labor."
+  },
+  {
+   "de": "Doktorarbeit",
+   "art": "die",
+   "pl": "Doktorarbeiten",
+   "es": "tesis doctoral",
+   "ex": "Meine Doktorarbeit ist fast fertig."
+  },
+  {
+   "de": "Forschung",
+   "art": "die",
+   "es": "investigación",
+   "ex": "Ich interessiere mich für Forschung."
+  },
+  {
+   "de": "Besprechung",
+   "art": "die",
+   "pl": "Besprechungen",
+   "es": "reunión",
+   "ex": "Die Besprechung beginnt um zehn."
+  },
+  {
+   "de": "Gehalt",
+   "art": "das",
+   "pl": "Gehälter",
+   "es": "sueldo",
+   "ex": "Das Gehalt ist gut."
+  },
+  {
+   "de": "Vollzeit",
+   "art": "die",
+   "es": "jornada completa",
+   "ex": "Ich arbeite Vollzeit."
+  },
+  {
+   "de": "Teilzeit",
+   "art": "die",
+   "es": "media jornada",
+   "ex": "Sie möchte Teilzeit arbeiten."
+  },
+  {
+   "de": "verdienen",
+   "es": "ganar (dinero)",
+   "ex": "Wie viel verdient man als Doktorandin?"
+  },
+  {
+   "de": "Stärke",
+   "art": "die",
+   "pl": "Stärken",
+   "es": "punto fuerte",
+   "ex": "Teamarbeit ist meine Stärke."
+  },
+  {
+   "de": "Unterlagen",
+   "art": "die",
+   "es": "documentación (solo plural)",
+   "ex": "Bitte bringen Sie Ihre Unterlagen mit."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "___ Sie mir bitte helfen?",
+   "o": [
+    "Könnten",
+    "Konnten",
+    "Kannst"
+   ],
+   "a": 0,
+   "exp": "Petición cortés: Konjunktiv II «könnten». «Konnten» es pasado; «kannst» es para du."
+  },
+  {
+   "t": "mc",
+   "q": "Guten Tag, ich ___ gern einen Termin bei Frau Weber.",
+   "o": [
+    "hätte",
+    "hatte",
+    "hat"
+   ],
+   "a": 0,
+   "exp": "Ich hätte gern … = querría (cortesía)."
+  },
+  {
+   "t": "gap",
+   "q": "Ich ___ gern bei Ihrer Firma arbeiten.",
+   "a": [
+    "würde"
+   ],
+   "hint": "werden, Konjunktiv II",
+   "exp": "würde + gern + infinitivo al final = me gustaría."
+  },
+  {
+   "t": "gap",
+   "q": "Du bist so müde. Du ___ mehr schlafen.",
+   "a": [
+    "solltest"
+   ],
+   "hint": "sollen, Konjunktiv II",
+   "exp": "Consejo: du solltest + infinitivo."
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "Sehr geehrte Frau Klein,",
+     "Estimada señora Klein:"
+    ],
+    [
+     "Sehr geehrter Herr Braun,",
+     "Estimado señor Braun:"
+    ],
+    [
+     "Sehr geehrte Damen und Herren,",
+     "Estimados señores:"
+    ],
+    [
+     "Mit freundlichen Grüßen",
+     "Atentamente"
+    ],
+    [
+     "Liebe Grüße",
+     "Un abrazo"
+    ]
+   ]
+  },
+  {
+   "t": "order",
+   "w": [
+    "Sie",
+    "Könnten",
+    "schicken",
+    "die",
+    "mir",
+    "Unterlagen"
+   ],
+   "a": "Könnten Sie mir die Unterlagen schicken?",
+   "es": "¿Podría enviarme la documentación?"
+  },
+  {
+   "t": "listen",
+   "de": "Ich würde gern im Team arbeiten.",
+   "es": "Me gustaría trabajar en equipo."
+  },
+  {
+   "t": "tr",
+   "es": "Deberías hablar con tu jefa.",
+   "a": [
+    "Du solltest mit deiner Chefin sprechen.",
+    "Du solltest mit deiner Chefin reden."
+   ]
+  },
+  {
+   "t": "mc",
+   "q": "Sehr ___ Herr Schmidt,",
+   "o": [
+    "geehrter",
+    "geehrte",
+    "geehrten"
+   ],
+   "a": 0,
+   "exp": "Herr es masculino: geehrter (como «lieber»)."
+  },
+  {
+   "t": "gap",
+   "q": "Ein Termin am Freitag? Das ___ super!",
+   "a": [
+    "wäre"
+   ],
+   "hint": "sein, Konjunktiv II",
+   "exp": "Das wäre … = sería …"
+  },
+  {
+   "t": "read",
+   "text": "Das Labor für Mikrobiologie an der Universität Heidelberg sucht ab Oktober eine Doktorandin oder einen Doktoranden (Teilzeit). Sie haben einen Master in Biologie und Erfahrung mit Bioinformatik. Sie sprechen gut Englisch und ein bisschen Deutsch. Bitte schicken Sie Ihre Bewerbung bis zum 15. September an Prof. Dr. Wagner.",
+   "q": "¿Qué experiencia piden?",
+   "o": [
+    "bioinformática",
+    "docencia",
+    "ventas"
+   ],
+   "a": 0
+  },
+  {
+   "t": "gap",
+   "q": "Sie ___ zum Vorstellungsgespräch Ihren Lebenslauf mitbringen.",
+   "a": [
+    "sollten"
+   ],
+   "hint": "sollen, Konjunktiv II (Sie)",
+   "exp": "Consejo formal: Sie sollten + infinitivo."
+  },
+  {
+   "t": "order",
+   "w": [
+    "als",
+    "Ich",
+    "im",
+    "arbeite",
+    "Labor",
+    "Biologin"
+   ],
+   "a": "Ich arbeite als Biologin im Labor.",
+   "es": "Trabajo como bióloga en el laboratorio."
+  },
+  {
+   "t": "tr",
+   "es": "Querría un café, por favor.",
+   "a": [
+    "Ich hätte gern einen Kaffee, bitte.",
+    "Ich hätte gerne einen Kaffee, bitte.",
+    "Ich hätte gern einen Kaffee.",
+    "Ich hätte gerne einen Kaffee.",
+    "Ich möchte einen Kaffee, bitte.",
+    "Ich möchte bitte einen Kaffee.",
+    "Ich hätte bitte gern einen Kaffee."
+   ]
+  },
+  {
+   "t": "listen",
+   "de": "Was sind Ihre Stärken?",
+   "es": "¿Cuáles son sus puntos fuertes?"
+  },
+  {
+   "t": "mc",
+   "q": "Pasado real: «Als Kind ___ ich gut zeichnen.»",
+   "o": [
+    "konnte",
+    "könnte",
+    "würde"
+   ],
+   "a": 0,
+   "exp": "Hecho pasado: Präteritum konnte (sin diéresis). «könnte» = podría."
+  },
+  {
+   "t": "read",
+   "text": "Sehr geehrte Frau Dr. Lehmann, vielen Dank für Ihre E-Mail. Leider kann ich am Montag nicht zum Vorstellungsgespräch kommen, denn ich habe eine Prüfung. Wäre auch Dienstag oder Mittwoch möglich? Ich würde mich sehr freuen. Mit freundlichen Grüßen Claudia Pérez",
+   "q": "¿Qué pide Claudia?",
+   "o": [
+    "cambiar la entrevista al martes o al miércoles",
+    "más información sobre el sueldo",
+    "cancelar la entrevista"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mc",
+   "q": "An deiner Stelle ___ ich die Stelle nehmen.",
+   "o": [
+    "würde",
+    "wurde",
+    "werde"
+   ],
+   "a": 0,
+   "exp": "«An deiner Stelle würde ich …» = yo que tú… (Konjunktiv II)."
+  }
+ ],
+ "speak": [
+  {
+   "de": "Könnten Sie mir bitte helfen?",
+   "es": "¿Podría ayudarme, por favor?",
+   "tip": "«ö»: labios redondeados como para «o» diciendo «e»."
+  },
+  {
+   "de": "Ich würde gern bei Ihnen arbeiten.",
+   "es": "Me gustaría trabajar con ustedes.",
+   "tip": "«ü» de «würde»: «i» con labios de «u»; «w» como «v»."
+  },
+  {
+   "de": "Ich hätte gern einen Termin.",
+   "es": "Querría una cita.",
+   "tip": "«h» aspirada; «ä» como «e» abierta."
+  },
+  {
+   "de": "Sehr geehrte Damen und Herren,",
+   "es": "Estimados señores:",
+   "tip": "«ee» es una «e» larga y cerrada: «geérte»; la «h» de «sehr» es muda."
+  },
+  {
+   "de": "Mit freundlichen Grüßen",
+   "es": "Atentamente",
+   "tip": "«eu» suena «oi»; «ß» es una «s» sorda; «ü» larga."
+  },
+  {
+   "de": "Ich schreibe gerade meine Doktorarbeit.",
+   "es": "Estoy escribiendo mi tesis doctoral.",
+   "tip": "«sch» como «sh»; «ei» suena «ai»."
+  },
+  {
+   "de": "Du solltest eine Pause machen.",
+   "es": "Deberías hacer una pausa.",
+   "tip": "«s» inicial de «solltest» sonora, como un zumbido «z»; «au» como en español."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "___ Sie bitte das Fenster öffnen?",
+   "o": [
+    "Würden",
+    "Wurden",
+    "Wird"
+   ],
+   "a": 0,
+   "exp": "Petición cortés: Würden Sie …? + infinitivo."
+  },
+  {
+   "t": "mc",
+   "q": "Sehr geehrte ___,",
+   "o": [
+    "Frau Becker",
+    "Herr Becker",
+    "Herren Becker"
+   ],
+   "a": 0,
+   "exp": "«geehrte» va con femenino: Frau. Para un hombre: Sehr geehrter Herr …"
+  },
+  {
+   "t": "gap",
+   "q": "Ihr ___ mehr Pausen machen.",
+   "a": [
+    "solltet"
+   ],
+   "hint": "sollen, Konjunktiv II",
+   "exp": "ihr solltet."
+  },
+  {
+   "t": "gap",
+   "q": "Ich ___ gern ein Glas Wasser.",
+   "a": [
+    "hätte"
+   ],
+   "hint": "haben, Konjunktiv II",
+   "exp": "Ich hätte gern … = querría …"
+  },
+  {
+   "t": "gap",
+   "q": "___ Sie morgen um zehn Uhr Zeit?",
+   "a": [
+    "Hätten",
+    "hätten"
+   ],
+   "hint": "haben, Konjunktiv II",
+   "exp": "Pregunta cortés: Hätten Sie …?"
+  },
+  {
+   "t": "order",
+   "w": [
+    "gern",
+    "Ich",
+    "arbeiten",
+    "würde",
+    "Teilzeit"
+   ],
+   "a": "Ich würde gern Teilzeit arbeiten.",
+   "es": "Me gustaría trabajar a media jornada."
+  },
+  {
+   "t": "tr",
+   "es": "¿Podría repetirlo, por favor?",
+   "a": [
+    "Könnten Sie das bitte wiederholen?",
+    "Könnten Sie das wiederholen?",
+    "Würden Sie das bitte wiederholen?",
+    "Würden Sie das wiederholen?",
+    "Könnten Sie das bitte noch einmal sagen?",
+    "Könnten Sie es bitte wiederholen?"
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "der Lebenslauf",
+     "el currículum"
+    ],
+    [
+     "die Bewerbung",
+     "la solicitud de empleo"
+    ],
+    [
+     "das Vorstellungsgespräch",
+     "la entrevista de trabajo"
+    ],
+    [
+     "das Gehalt",
+     "el sueldo"
+    ],
+    [
+     "die Stelle",
+     "el puesto"
+    ]
+   ]
+  },
+  {
+   "t": "listen",
+   "de": "Ich freue mich auf Ihre Antwort.",
+   "es": "Quedo a la espera de su respuesta."
+  },
+  {
+   "t": "read",
+   "text": "Tom ist immer müde. Er arbeitet zehn Stunden am Tag und schläft nur fünf Stunden. Seine Kollegin sagt: «Du solltest weniger arbeiten und früher ins Bett gehen. An deiner Stelle würde ich mit dem Chef sprechen.»",
+   "q": "¿Qué le aconseja su compañera?",
+   "o": [
+    "trabajar menos y acostarse antes",
+    "cambiar de trabajo",
+    "tomar más café"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué saludo usas en un email a tu compañera y amiga Anna?",
+   "o": [
+    "Liebe Anna,",
+    "Sehr geehrte Anna,",
+    "Mit freundlichen Grüßen"
+   ],
+   "a": 0,
+   "exp": "Informal: Liebe + nombre. «Sehr geehrte» va con Frau + apellido."
+  }
+ ]
+}

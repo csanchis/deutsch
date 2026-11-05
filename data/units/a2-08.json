@@ -1,0 +1,514 @@
+{
+ "id": "a2-08",
+ "level": "A2",
+ "n": 20,
+ "title": "Früher war alles anders",
+ "title_es": "Präteritum de modales y futuro",
+ "goals": [
+  "Puedo conjugar sein y haben en Präteritum (war, hatte).",
+  "Puedo usar los modales en Präteritum (konnte, musste, wollte, durfte, sollte).",
+  "Sé cuándo se usa Präteritum y cuándo Perfekt al hablar.",
+  "Puedo comparar el pasado y el presente (Als Kind…, früher vs. heute).",
+  "Puedo hablar de planes con presente + expresión de tiempo y con werden + infinitivo."
+ ],
+ "lessons": [
+  {
+   "h": "Präteritum de sein y haben",
+   "html": "<table><thead><tr><th></th><th>sein</th><th>haben</th></tr></thead><tbody><tr><td>ich</td><td>war</td><td>hatte</td></tr><tr><td>du</td><td>warst</td><td>hattest</td></tr><tr><td>er / sie / es</td><td>war</td><td>hatte</td></tr><tr><td>wir</td><td>waren</td><td>hatten</td></tr><tr><td>ihr</td><td>wart</td><td>hattet</td></tr><tr><td>sie / Sie</td><td>waren</td><td>hatten</td></tr></tbody></table><p>En Präteritum <b>ich</b> y <b>er/sie/es</b> son iguales y no llevan -t: <span class=\"de\">ich war, er war</span>; <span class=\"de\">ich hatte, sie hatte</span>.</p><p>Al español se traduce según el contexto con imperfecto o indefinido: <span class=\"de\">Ich war müde.</span> = <i>Estaba / estuve cansada.</i></p>"
+  },
+  {
+   "h": "Präteritum de los modales",
+   "html": "<p>Receta: raíz <b>sin diéresis</b> + <b>-te</b> + terminación.</p><table><thead><tr><th></th><th>können</th><th>müssen</th><th>dürfen</th><th>wollen</th><th>sollen</th></tr></thead><tbody><tr><td>ich</td><td>konnte</td><td>musste</td><td>durfte</td><td>wollte</td><td>sollte</td></tr><tr><td>du</td><td>konntest</td><td>musstest</td><td>durftest</td><td>wolltest</td><td>solltest</td></tr><tr><td>er / sie / es</td><td>konnte</td><td>musste</td><td>durfte</td><td>wollte</td><td>sollte</td></tr><tr><td>wir</td><td>konnten</td><td>mussten</td><td>durften</td><td>wollten</td><td>sollten</td></tr><tr><td>ihr</td><td>konntet</td><td>musstet</td><td>durftet</td><td>wolltet</td><td>solltet</td></tr><tr><td>sie / Sie</td><td>konnten</td><td>mussten</td><td>durften</td><td>wollten</td><td>sollten</td></tr></tbody></table><p>También <span class=\"de\">mögen → mochte</span>: <span class=\"de\">Früher mochte ich keinen Kaffee.</span></p><p>La estructura es la misma que en presente: modal en 2ª posición, infinitivo al final: <span class=\"de\">Gestern musste ich lange arbeiten.</span></p><p><b>Ojo:</b> ¡sin diéresis! <span class=\"de\">konnte</span> = <i>pude/podía</i>, pero <span class=\"de\">könnte</span> = <i>podría</i> (otra forma, la verás en la próxima unidad). Igual <span class=\"de\">mochte</span> (me gustaba) ≠ <span class=\"de\">möchte</span> (quisiera).</p>"
+  },
+  {
+   "h": "¿Präteritum o Perfekt?",
+   "html": "<p>Al <b>hablar</b> (y en mensajes), los alemanes usan:</p><ul><li><b>Präteritum</b> con <b>sein, haben</b> y los <b>modales</b>: <span class=\"de\">Ich war in Berlin. Ich hatte keine Zeit. Ich musste arbeiten.</span></li><li><b>Perfekt</b> con casi todos los demás verbos: <span class=\"de\">Ich habe viel gesehen. Wir sind ins Museum gegangen.</span></li></ul><p>Por eso es normal mezclarlos: <span class=\"de\">Am Wochenende war ich in Heidelberg. Ich habe meine Freundin besucht, aber ich konnte nicht lange bleiben.</span></p><p><b>Ojo:</b> el Perfekt alemán no equivale al pretérito perfecto español. <span class=\"de\">Gestern habe ich gearbeitet</span> = <i>Ayer trabajé</i>. Y no hay distinción imperfecto/indefinido: el contexto lo decide.</p>"
+  },
+  {
+   "h": "Früher vs. heute · Als Kind …",
+   "html": "<p>Para comparar épocas: <span class=\"de\">früher</span> (antes), <span class=\"de\">damals</span> (entonces), <span class=\"de\">als Kind</span> (de niña), <span class=\"de\">heute / jetzt</span> (hoy / ahora). Si van al principio, el verbo va <b>en 2ª posición</b>:</p><ul><li><span class=\"de\">Früher hatte ich keinen Hund, heute habe ich zwei.</span></li><li><span class=\"de\">Als Kind wollte ich Astronautin werden.</span></li><li><span class=\"de\">Damals durften wir nicht allein ins Kino gehen.</span></li></ul><p><b>Ojo:</b> ✗ <i>Als Kind ich wollte…</i> → ✓ <span class=\"de\">Als Kind wollte ich…</span> (inversión). Y «de niña» es <span class=\"de\">als Kind</span>, no <i>von Kind</i>.</p>"
+  },
+  {
+   "h": "Hablar del futuro",
+   "html": "<p><b>1. Presente + expresión de tiempo</b> (lo más frecuente para planes): <span class=\"de\">Morgen fahre ich nach Heidelberg.</span> <span class=\"de\">Nächste Woche habe ich eine Prüfung.</span></p><p><b>2. werden + infinitivo al final</b> (planes firmes, previsiones, promesas):</p><table><thead><tr><th>werden</th><th>ejemplo</th></tr></thead><tbody><tr><td>ich werde</td><td><span class=\"de\">Ich werde dich anrufen.</span></td></tr><tr><td>du wirst</td><td><span class=\"de\">Du wirst das schaffen!</span></td></tr><tr><td>er / sie / es wird</td><td><span class=\"de\">Es wird morgen regnen.</span></td></tr><tr><td>wir werden</td><td><span class=\"de\">Wir werden in Berlin wohnen.</span></td></tr><tr><td>ihr werdet</td><td><span class=\"de\">Ihr werdet viel lernen.</span></td></tr><tr><td>sie / Sie werden</td><td><span class=\"de\">Sie werden bald kommen.</span></td></tr></tbody></table><p>Expresiones útiles: <span class=\"de\">morgen, übermorgen, bald, später, nächste Woche, nächstes Jahr, im Sommer</span>.</p><p><b>Ojo:</b> <span class=\"de\">Ich will</span> = <i>quiero</i>, ¡no es futuro! (cuidado con el inglés <i>will</i>). Y <span class=\"de\">werden</span> sin infinitivo significa <i>llegar a ser / ponerse</i>: <span class=\"de\">Ich werde Ärztin.</span> = <i>Voy a ser médica.</i></p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "früher",
+   "es": "antes, antiguamente",
+   "ex": "Früher war alles anders."
+  },
+  {
+   "de": "damals",
+   "es": "entonces, en aquella época",
+   "ex": "Damals hatte ich kein Handy."
+  },
+  {
+   "de": "als Kind",
+   "es": "de niño / de niña",
+   "ex": "Als Kind wollte ich Pilotin werden."
+  },
+  {
+   "de": "Kindheit",
+   "art": "die",
+   "es": "infancia",
+   "ex": "Meine Kindheit war schön."
+  },
+  {
+   "de": "Zukunft",
+   "art": "die",
+   "es": "futuro",
+   "ex": "In der Zukunft möchte ich in Deutschland arbeiten."
+  },
+  {
+   "de": "Plan",
+   "art": "der",
+   "pl": "Pläne",
+   "es": "plan",
+   "ex": "Hast du schon Pläne für den Sommer?"
+  },
+  {
+   "de": "Traum",
+   "art": "der",
+   "pl": "Träume",
+   "es": "sueño",
+   "ex": "Das war mein Traum."
+  },
+  {
+   "de": "Schule",
+   "art": "die",
+   "pl": "Schulen",
+   "es": "colegio, escuela",
+   "ex": "In der Schule mussten wir Uniformen tragen."
+  },
+  {
+   "de": "Spielzeug",
+   "art": "das",
+   "pl": "Spielzeuge",
+   "es": "juguete",
+   "ex": "Als Kind hatte ich nicht viel Spielzeug."
+  },
+  {
+   "de": "werden",
+   "es": "llegar a ser; (con infinitivo) futuro",
+   "ex": "Ich werde morgen kommen."
+  },
+  {
+   "de": "konnte",
+   "es": "pude, podía (können)",
+   "ex": "Als Kind konnte ich gut schwimmen."
+  },
+  {
+   "de": "musste",
+   "es": "tuve que, tenía que (müssen)",
+   "ex": "Ich musste früh aufstehen."
+  },
+  {
+   "de": "durfte",
+   "es": "me dejaron, podía (dürfen)",
+   "ex": "Ich durfte nicht lange fernsehen."
+  },
+  {
+   "de": "wollte",
+   "es": "quise, quería (wollen)",
+   "ex": "Sie wollte Ärztin werden."
+  },
+  {
+   "de": "sollte",
+   "es": "debía, se suponía que (sollen)",
+   "ex": "Ich sollte mein Zimmer aufräumen."
+  },
+  {
+   "de": "nächstes Jahr",
+   "es": "el año que viene",
+   "ex": "Nächstes Jahr fahre ich nach Berlin."
+  },
+  {
+   "de": "letzte Woche",
+   "es": "la semana pasada",
+   "ex": "Letzte Woche war ich krank."
+  },
+  {
+   "de": "bald",
+   "es": "pronto",
+   "ex": "Ich werde bald Deutsch sprechen."
+  },
+  {
+   "de": "später",
+   "es": "más tarde",
+   "ex": "Später möchte ich Professorin werden."
+  },
+  {
+   "de": "vielleicht",
+   "es": "quizás",
+   "ex": "Vielleicht fahre ich im Sommer nach Wien."
+  },
+  {
+   "de": "bestimmt",
+   "es": "seguro, seguramente",
+   "ex": "Das wird bestimmt toll."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Gestern ___ ich leider keine Zeit.",
+   "o": [
+    "hatte",
+    "hat",
+    "habe"
+   ],
+   "a": 0,
+   "exp": "«Gestern» → pasado: Präteritum de haben, ich hatte."
+  },
+  {
+   "t": "mc",
+   "q": "Als Kind ___ ich nicht schwimmen.",
+   "o": [
+    "konnte",
+    "könnte",
+    "kann"
+   ],
+   "a": 0,
+   "exp": "Pasado real: konnte (sin diéresis). «könnte» es condicional."
+  },
+  {
+   "t": "gap",
+   "q": "Wir ___ letzte Woche in Valencia.",
+   "a": [
+    "waren"
+   ],
+   "hint": "sein, Präteritum",
+   "exp": "wir waren."
+  },
+  {
+   "t": "gap",
+   "q": "Du ___ gestern sehr früh aufstehen, oder?",
+   "a": [
+    "musstest"
+   ],
+   "hint": "müssen, Präteritum",
+   "exp": "du musstest: raíz muss- + -te + -st."
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "können",
+     "konnte"
+    ],
+    [
+     "müssen",
+     "musste"
+    ],
+    [
+     "dürfen",
+     "durfte"
+    ],
+    [
+     "wollen",
+     "wollte"
+    ],
+    [
+     "sollen",
+     "sollte"
+    ]
+   ]
+  },
+  {
+   "t": "order",
+   "w": [
+    "ich",
+    "Früher",
+    "keinen",
+    "hatte",
+    "Hund"
+   ],
+   "a": "Früher hatte ich keinen Hund.",
+   "es": "Antes no tenía perro."
+  },
+  {
+   "t": "listen",
+   "de": "Als Kind wollte ich Astronautin werden.",
+   "es": "De niña quería ser astronauta."
+  },
+  {
+   "t": "tr",
+   "es": "Ayer no pude venir.",
+   "a": [
+    "Ich konnte gestern nicht kommen.",
+    "Gestern konnte ich nicht kommen."
+   ]
+  },
+  {
+   "t": "mc",
+   "q": "Nächstes Jahr ___ ich in Berlin arbeiten.",
+   "o": [
+    "werde",
+    "wurde",
+    "würde"
+   ],
+   "a": 0,
+   "exp": "Futuro: werden en presente (ich werde) + infinitivo al final."
+  },
+  {
+   "t": "gap",
+   "q": "Es ___ morgen bestimmt regnen.",
+   "a": [
+    "wird"
+   ],
+   "hint": "werden",
+   "exp": "es wird + infinitivo: previsión."
+  },
+  {
+   "t": "read",
+   "text": "Als Kind war Claudia sehr sportlich. Sie wollte immer draußen spielen, aber sie durfte nicht allein in den Park gehen. Heute ist sie Biologin und hat wenig Zeit. Aber sie geht dreimal pro Woche zum Boxtraining.",
+   "q": "¿Qué no le dejaban hacer de niña?",
+   "o": [
+    "ir sola al parque",
+    "jugar fuera",
+    "hacer deporte"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuál es correcta? (Ayer estuve en casa.)",
+   "o": [
+    "Gestern war ich zu Hause.",
+    "Gestern habe ich zu Hause gewesen.",
+    "Gestern hatte ich zu Hause."
+   ],
+   "a": 0,
+   "exp": "Con sein se usa el Präteritum (war). El Perfekt de sein se forma con «bin … gewesen», nunca con haben."
+  },
+  {
+   "t": "gap",
+   "q": "Wir ___ am Wochenende nach Heidelberg fahren.",
+   "a": [
+    "werden"
+   ],
+   "hint": "werden",
+   "exp": "wir werden + infinitivo."
+  },
+  {
+   "t": "order",
+   "w": [
+    "ich",
+    "Madrid",
+    "Morgen",
+    "nach",
+    "fliege"
+   ],
+   "a": "Morgen fliege ich nach Madrid.",
+   "es": "Mañana vuelo a Madrid."
+  },
+  {
+   "t": "tr",
+   "es": "De niña tenía un gato.",
+   "a": [
+    "Als Kind hatte ich eine Katze.",
+    "Ich hatte als Kind eine Katze.",
+    "Als Kind hatte ich einen Kater.",
+    "Ich hatte als Kind einen Kater."
+   ]
+  },
+  {
+   "t": "listen",
+   "de": "Früher war alles anders.",
+   "es": "Antes todo era distinto."
+  },
+  {
+   "t": "mc",
+   "q": "Ihr ___ gestern lange im Labor bleiben, oder?",
+   "o": [
+    "musstet",
+    "müsst",
+    "musstest"
+   ],
+   "a": 0,
+   "exp": "ihr musstet (Präteritum). «müsst» es presente; «musstest» es para du."
+  },
+  {
+   "t": "read",
+   "text": "Nächsten Sommer werde ich drei Wochen nach Deutschland fahren. Zuerst bleibe ich in Berlin, dann fahre ich nach Heidelberg. Dort werde ich einen Sprachkurs machen. Ich freue mich schon sehr!",
+   "q": "¿Qué hará en Heidelberg?",
+   "o": [
+    "un curso de idiomas",
+    "visitar a su familia",
+    "trabajar en un laboratorio"
+   ],
+   "a": 0
+  },
+  {
+   "t": "gap",
+   "q": "Warum ___ du gestern nicht im Kurs?",
+   "a": [
+    "warst"
+   ],
+   "hint": "sein, Präteritum",
+   "exp": "du warst."
+  }
+ ],
+ "speak": [
+  {
+   "de": "Als Kind wollte ich Astronautin werden.",
+   "es": "De niña quería ser astronauta.",
+   "tip": "«w» de «wollte» y «werden» como una «v» labiodental, nunca como «u»."
+  },
+  {
+   "de": "Gestern hatte ich keine Zeit.",
+   "es": "Ayer no tuve tiempo.",
+   "tip": "«h» aspirada, como echar vaho; «Z» suena «ts»."
+  },
+  {
+   "de": "Früher war alles anders.",
+   "es": "Antes todo era distinto.",
+   "tip": "«ü» con labios redondeados; la «r» final de «war» casi se convierte en «a»."
+  },
+  {
+   "de": "Ich konnte nicht kommen, ich musste arbeiten.",
+   "es": "No pude venir, tuve que trabajar.",
+   "tip": "«o» y «u» cortas y sin diéresis: «kónte», «múste»."
+  },
+  {
+   "de": "Nächstes Jahr werde ich in Berlin wohnen.",
+   "es": "El año que viene viviré en Berlín.",
+   "tip": "«ä» como «e» abierta; «ch» de «nächstes» suave; «J» de «Jahr» suena «y»."
+  },
+  {
+   "de": "Morgen fahre ich nach Heidelberg.",
+   "es": "Mañana voy a Heidelberg.",
+   "tip": "«ei» suena «ai»; la «g» final de «Heidelberg» suena casi «k»."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Letztes Jahr ___ wir einen kleinen Garten.",
+   "o": [
+    "hatten",
+    "haben",
+    "hattet"
+   ],
+   "a": 0,
+   "exp": "Pasado, wir → hatten."
+  },
+  {
+   "t": "mc",
+   "q": "Früher ___ ich keinen Kaffee, aber heute trinke ich jeden Tag zwei Tassen.",
+   "o": [
+    "mochte",
+    "möchte",
+    "mag"
+   ],
+   "a": 0,
+   "exp": "Pasado de mögen: mochte (sin diéresis)."
+  },
+  {
+   "t": "gap",
+   "q": "Er ___ als Kind nicht lange fernsehen.",
+   "a": [
+    "durfte"
+   ],
+   "hint": "dürfen, Präteritum",
+   "exp": "er durfte."
+  },
+  {
+   "t": "gap",
+   "q": "Ich ___ dich morgen anrufen.",
+   "a": [
+    "werde"
+   ],
+   "hint": "werden",
+   "exp": "ich werde + infinitivo."
+  },
+  {
+   "t": "gap",
+   "q": "Ihr ___ gestern sehr müde.",
+   "a": [
+    "wart"
+   ],
+   "hint": "sein, Präteritum",
+   "exp": "ihr wart (sin -e-)."
+  },
+  {
+   "t": "order",
+   "w": [
+    "wollte",
+    "Als",
+    "werden",
+    "ich",
+    "Kind",
+    "Ärztin"
+   ],
+   "a": "Als Kind wollte ich Ärztin werden.",
+   "es": "De niña quería ser médica."
+  },
+  {
+   "t": "tr",
+   "es": "Mañana vamos a Berlín.",
+   "a": [
+    "Morgen fahren wir nach Berlin.",
+    "Wir fahren morgen nach Berlin.",
+    "Morgen fliegen wir nach Berlin.",
+    "Wir fliegen morgen nach Berlin.",
+    "Morgen werden wir nach Berlin fahren.",
+    "Wir werden morgen nach Berlin fahren."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "früher",
+     "antes"
+    ],
+    [
+     "damals",
+     "entonces"
+    ],
+    [
+     "nächstes Jahr",
+     "el año que viene"
+    ],
+    [
+     "letzte Woche",
+     "la semana pasada"
+    ],
+    [
+     "als Kind",
+     "de niño / de niña"
+    ]
+   ]
+  },
+  {
+   "t": "listen",
+   "de": "Wir mussten lange warten.",
+   "es": "Tuvimos que esperar mucho."
+  },
+  {
+   "t": "read",
+   "text": "Lisa erzählt: Früher hatte ich ein Auto, aber heute fahre ich nur Fahrrad. Ich wollte mehr Sport machen und weniger Geld ausgeben. Nächstes Jahr werde ich mit dem Fahrrad von München nach Wien fahren.",
+   "q": "¿Por qué dejó Lisa el coche?",
+   "o": [
+    "quería hacer más deporte y gastar menos",
+    "el coche se rompió",
+    "se mudó a Viena"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mc",
+   "q": "Morgen ___ es bestimmt schön.",
+   "o": [
+    "wird",
+    "wirst",
+    "werdet"
+   ],
+   "a": 0,
+   "exp": "es wird (3ª persona singular de werden)."
+  }
+ ]
+}

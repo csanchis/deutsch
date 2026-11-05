@@ -1,0 +1,575 @@
+{
+ "id": "a1-11",
+ "level": "A1",
+ "n": 11,
+ "title": "Gesundheit",
+ "title_es": "Cuerpo, salud y médico",
+ "goals": [
+  "Puedo nombrar las partes del cuerpo y decir qué me duele (Mir tut … weh / Ich habe …schmerzen).",
+  "Puedo pedir cita y entender al médico (Termin, Rezept, Krankmeldung).",
+  "Puedo dar y entender consejos con el imperativo formal y con sollen.",
+  "Puedo entender prohibiciones con dürfen y comprar en la farmacia."
+ ],
+ "lessons": [
+  {
+   "h": "Der Körper – el cuerpo",
+   "html": "<table><thead><tr><th>Singular</th><th>Plural</th><th>Español</th></tr></thead><tbody>\n<tr><td><span class=\"de\">der Kopf</span></td><td><span class=\"de\">die Köpfe</span></td><td>cabeza</td></tr>\n<tr><td><span class=\"de\">das Auge</span></td><td><span class=\"de\">die Augen</span></td><td>ojo</td></tr>\n<tr><td><span class=\"de\">das Ohr</span></td><td><span class=\"de\">die Ohren</span></td><td>oreja, oído</td></tr>\n<tr><td><span class=\"de\">die Nase</span></td><td><span class=\"de\">die Nasen</span></td><td>nariz</td></tr>\n<tr><td><span class=\"de\">der Mund</span></td><td><span class=\"de\">die Münder</span></td><td>boca</td></tr>\n<tr><td><span class=\"de\">der Zahn</span></td><td><span class=\"de\">die Zähne</span></td><td>diente, muela</td></tr>\n<tr><td><span class=\"de\">der Hals</span></td><td><span class=\"de\">die Hälse</span></td><td>cuello, garganta</td></tr>\n<tr><td><span class=\"de\">die Schulter</span></td><td><span class=\"de\">die Schultern</span></td><td>hombro</td></tr>\n<tr><td><span class=\"de\">der Rücken</span></td><td><span class=\"de\">die Rücken</span></td><td>espalda</td></tr>\n<tr><td><span class=\"de\">der Bauch</span></td><td><span class=\"de\">die Bäuche</span></td><td>barriga, tripa</td></tr>\n<tr><td><span class=\"de\">der Arm</span></td><td><span class=\"de\">die Arme</span></td><td>brazo</td></tr>\n<tr><td><span class=\"de\">die Hand</span></td><td><span class=\"de\">die Hände</span></td><td>mano</td></tr>\n<tr><td><span class=\"de\">der Finger</span></td><td><span class=\"de\">die Finger</span></td><td>dedo (de la mano)</td></tr>\n<tr><td><span class=\"de\">das Bein</span></td><td><span class=\"de\">die Beine</span></td><td>pierna</td></tr>\n<tr><td><span class=\"de\">das Knie</span></td><td><span class=\"de\">die Knie</span></td><td>rodilla</td></tr>\n<tr><td><span class=\"de\">der Fuß</span></td><td><span class=\"de\">die Füße</span></td><td>pie</td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">die Hand</span> es femenino, como en español, pero <span class=\"de\">der Kopf, der Bauch, der Rücken</span> son masculinos aunque «cabeza» y «espalda» sean femeninos.</p>"
+  },
+  {
+   "h": "¿Qué te duele?",
+   "html": "<p>Hay dos estructuras principales:</p>\n<table><thead><tr><th>Estructura</th><th>Ejemplos</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Ich habe</span> + …<span class=\"de\">schmerzen</span> (plural, sin artículo)</td><td><span class=\"de\">Ich habe Kopfschmerzen / Halsschmerzen / Bauchschmerzen / Rückenschmerzen / Zahnschmerzen.</span></td></tr>\n<tr><td><span class=\"de\">Mir tut</span> + singular + <span class=\"de\">weh</span></td><td><span class=\"de\">Mir tut der Kopf weh.</span> (Me duele la cabeza.)</td></tr>\n<tr><td><span class=\"de\">Mir tun</span> + plural + <span class=\"de\">weh</span></td><td><span class=\"de\">Mir tun die Füße weh.</span> (Me duelen los pies.)</td></tr>\n</tbody></table>\n<p><span class=\"de\">mir</span> = «a mí», <span class=\"de\">dir</span> = «a ti», <span class=\"de\">Ihnen</span> = «a usted» (son pronombres en dativo; los verás todos en A2). Preguntas: <span class=\"de\">Was tut dir weh?</span> – <span class=\"de\">Tut dir der Rücken weh?</span> – <span class=\"de\">Was fehlt Ihnen?</span> (¿Qué le pasa?).</p>\n<p>Otros problemas, también <b>sin artículo</b>: <span class=\"de\">Ich habe Fieber / Husten / Schnupfen.</span> – <span class=\"de\">Ich bin krank / erkältet.</span></p>\n<p><b>Ojo:</b> el verbo concuerda con la parte del cuerpo, igual que «me duele / me duelen»: <span class=\"de\">Mir tut der Arm weh</span>, <span class=\"de\">Mir tun die Augen weh</span>.</p>\n<p><b>Ojo:</b> «estoy enferma» = <span class=\"de\">Ich bin krank</span>, no <span class=\"de\">*Ich habe krank</span>. «Estoy constipada» = <span class=\"de\">Ich bin erkältet</span>: ¡<span class=\"de\">konstipiert</span> significa «estreñida»!</p>"
+  },
+  {
+   "h": "Beim Arzt – en la consulta",
+   "html": "<ul>\n<li><span class=\"de\">Ich möchte einen Termin machen.</span> – Quisiera pedir cita.</li>\n<li><span class=\"de\">Haben Sie Ihre Versichertenkarte?</span> – ¿Tiene su tarjeta sanitaria? (también <span class=\"de\">Gesundheitskarte</span>)</li>\n<li><span class=\"de\">Was fehlt Ihnen?</span> – ¿Qué le pasa?</li>\n<li><span class=\"de\">Seit wann haben Sie die Schmerzen? – Seit drei Tagen.</span></li>\n<li><span class=\"de\">Ich schreibe Ihnen ein Rezept.</span> – Le hago una receta.</li>\n<li><span class=\"de\">Brauchen Sie eine Krankmeldung?</span> – ¿Necesita una baja?</li>\n</ul>\n<p><span class=\"de\">der Arzt / die Ärztin</span> (médico/a), <span class=\"de\">die Praxis</span> (consulta), <span class=\"de\">das Wartezimmer</span> (sala de espera), <span class=\"de\">das Rezept</span> (receta), <span class=\"de\">die Krankmeldung</span> (baja médica para el trabajo).</p>\n<p><b>Ojo:</b> si estás enferma más de tres días, tu empresa necesita una <span class=\"de\">Krankmeldung</span> del médico. Hoy el médico la envía normalmente de forma electrónica.</p>"
+  },
+  {
+   "h": "Consejos: imperativo formal, sollen y dürfen",
+   "html": "<p>El médico da consejos con el <b>imperativo formal</b> (unidad 10):</p>\n<ul>\n<li><span class=\"de\">Trinken Sie viel Tee!</span></li>\n<li><span class=\"de\">Bleiben Sie zu Hause!</span></li>\n<li><span class=\"de\">Nehmen Sie dreimal täglich eine Tablette!</span></li>\n<li><span class=\"de\">Gehen Sie früh ins Bett!</span></li>\n</ul>\n<p>Para <b>repetir</b> lo que dice el médico se usa <span class=\"de\">sollen</span>: <span class=\"de\">Ich soll viel Tee trinken.</span> – <span class=\"de\">Was soll ich machen?</span> – <span class=\"de\">Sie sollen zu Hause bleiben.</span></p>\n<p>Para <b>prohibir</b> se usa <span class=\"de\">nicht/kein + dürfen</span>:</p>\n<table><thead><tr><th>Alemán</th><th>Español</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Sie dürfen eine Woche keinen Sport machen.</span></td><td>No puede hacer deporte durante una semana.</td></tr>\n<tr><td><span class=\"de\">Sie dürfen nicht boxen.</span></td><td>No puede boxear.</td></tr>\n<tr><td><span class=\"de\">Sie müssen nicht ins Krankenhaus.</span></td><td>No hace falta que vaya al hospital.</td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">keinen Sport</span> (kein + sustantivo) pero <span class=\"de\">nicht boxen</span> (nicht + verbo).</p>"
+  },
+  {
+   "h": "In der Apotheke – en la farmacia",
+   "html": "<ul>\n<li><span class=\"de\">Ich brauche etwas gegen Kopfschmerzen.</span> – Necesito algo para el dolor de cabeza.</li>\n<li><span class=\"de\">Haben Sie etwas gegen Husten?</span></li>\n<li><span class=\"de\">Brauche ich ein Rezept?</span></li>\n<li><span class=\"de\">Wie oft soll ich die Tabletten nehmen? – Dreimal täglich, nach dem Essen.</span></li>\n</ul>\n<p><span class=\"de\">etwas gegen</span> + problema = «algo para / contra». <span class=\"de\">einmal, zweimal, dreimal täglich</span> = una, dos, tres veces al día.</p>\n<p><b>Ojo:</b> la <span class=\"de\">Drogerie</span> (dm, Rossmann) vende cosmética y productos de higiene, <b>no medicamentos</b>. Hasta el ibuprofeno se compra en la <span class=\"de\">Apotheke</span>.</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "Körper",
+   "art": "der",
+   "pl": "Körper",
+   "es": "cuerpo",
+   "ex": "Der Körper braucht Wasser."
+  },
+  {
+   "de": "Kopf",
+   "art": "der",
+   "pl": "Köpfe",
+   "es": "cabeza",
+   "ex": "Mir tut der Kopf weh."
+  },
+  {
+   "de": "Hals",
+   "art": "der",
+   "pl": "Hälse",
+   "es": "cuello, garganta",
+   "ex": "Mein Hals tut weh."
+  },
+  {
+   "de": "Bauch",
+   "art": "der",
+   "pl": "Bäuche",
+   "es": "barriga, tripa",
+   "ex": "Mir tut der Bauch weh."
+  },
+  {
+   "de": "Rücken",
+   "art": "der",
+   "pl": "Rücken",
+   "es": "espalda",
+   "ex": "Der Rücken tut mir weh."
+  },
+  {
+   "de": "Zahn",
+   "art": "der",
+   "pl": "Zähne",
+   "es": "diente, muela",
+   "ex": "Mir tut ein Zahn weh."
+  },
+  {
+   "de": "Auge",
+   "art": "das",
+   "pl": "Augen",
+   "es": "ojo",
+   "ex": "Mir tun die Augen weh."
+  },
+  {
+   "de": "Bein",
+   "art": "das",
+   "pl": "Beine",
+   "es": "pierna",
+   "ex": "Mein Bein tut weh."
+  },
+  {
+   "de": "Fuß",
+   "art": "der",
+   "pl": "Füße",
+   "es": "pie",
+   "ex": "Mir tun die Füße weh."
+  },
+  {
+   "de": "Hand",
+   "art": "die",
+   "pl": "Hände",
+   "es": "mano",
+   "ex": "Meine Hand ist kalt."
+  },
+  {
+   "de": "Kopfschmerzen",
+   "art": "die",
+   "es": "dolor de cabeza (plural)",
+   "ex": "Ich habe Kopfschmerzen."
+  },
+  {
+   "de": "Fieber",
+   "art": "das",
+   "es": "fiebre",
+   "ex": "Ich habe Fieber."
+  },
+  {
+   "de": "Husten",
+   "art": "der",
+   "es": "tos",
+   "ex": "Haben Sie etwas gegen Husten?"
+  },
+  {
+   "de": "Schnupfen",
+   "art": "der",
+   "es": "resfriado nasal, mocos",
+   "ex": "Ich habe Schnupfen."
+  },
+  {
+   "de": "wehtun",
+   "es": "doler",
+   "ex": "Was tut dir weh?"
+  },
+  {
+   "de": "krank",
+   "es": "enfermo",
+   "ex": "Ich bin krank."
+  },
+  {
+   "de": "gesund",
+   "es": "sano",
+   "ex": "Sport ist gesund."
+  },
+  {
+   "de": "erkältet",
+   "es": "resfriado, constipado",
+   "ex": "Ich bin erkältet."
+  },
+  {
+   "de": "Arzt",
+   "art": "der",
+   "pl": "Ärzte",
+   "es": "médico",
+   "ex": "Ich gehe zum Arzt."
+  },
+  {
+   "de": "Ärztin",
+   "art": "die",
+   "pl": "Ärztinnen",
+   "es": "médica",
+   "ex": "Die Ärztin ist sehr nett."
+  },
+  {
+   "de": "Praxis",
+   "art": "die",
+   "pl": "Praxen",
+   "es": "consulta (médica)",
+   "ex": "Die Praxis ist am Mittwoch zu."
+  },
+  {
+   "de": "Rezept",
+   "art": "das",
+   "pl": "Rezepte",
+   "es": "receta",
+   "ex": "Brauche ich ein Rezept?"
+  },
+  {
+   "de": "Krankmeldung",
+   "art": "die",
+   "pl": "Krankmeldungen",
+   "es": "baja médica",
+   "ex": "Ich brauche eine Krankmeldung."
+  },
+  {
+   "de": "Tablette",
+   "art": "die",
+   "pl": "Tabletten",
+   "es": "pastilla",
+   "ex": "Nehmen Sie eine Tablette."
+  },
+  {
+   "de": "Medikament",
+   "art": "das",
+   "pl": "Medikamente",
+   "es": "medicamento",
+   "ex": "Das Medikament hilft."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Mir ___ der Kopf weh.",
+   "o": [
+    "tut",
+    "tun",
+    "habe"
+   ],
+   "a": 0,
+   "exp": "der Kopf es singular: tut … weh."
+  },
+  {
+   "t": "mc",
+   "q": "Mir ___ die Füße weh.",
+   "o": [
+    "tut",
+    "tun",
+    "sind"
+   ],
+   "a": 1,
+   "exp": "die Füße es plural: tun … weh."
+  },
+  {
+   "t": "mc",
+   "q": "Ich habe ___. (Me duele la garganta.)",
+   "o": [
+    "Halsschmerzen",
+    "Kopfschmerzen",
+    "Bauchschmerzen"
+   ],
+   "a": 0,
+   "exp": "der Hals = garganta → Halsschmerzen."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuál es el plural de «der Zahn»?",
+   "o": [
+    "die Zahne",
+    "die Zähne",
+    "die Zähnen"
+   ],
+   "a": 1,
+   "exp": "der Zahn → die Zähne."
+  },
+  {
+   "t": "mc",
+   "q": "Der Arzt sagt: Sie ___ zwei Wochen nicht boxen. (Está prohibido.)",
+   "o": [
+    "dürfen",
+    "müssen",
+    "können"
+   ],
+   "a": 0,
+   "exp": "Prohibición: nicht dürfen."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué significa «Ich bin erkältet»?",
+   "o": [
+    "Tengo frío.",
+    "Estoy resfriada.",
+    "Estoy estreñida."
+   ],
+   "a": 1,
+   "exp": "erkältet = resfriado; ¡konstipiert = estreñido!"
+  },
+  {
+   "t": "gap",
+   "q": "___ Sie viel Tee!",
+   "a": [
+    "Trinken"
+   ],
+   "hint": "trinken (Sie)",
+   "exp": "Imperativo formal: infinitivo + Sie."
+  },
+  {
+   "t": "gap",
+   "q": "Ich ___ zu Hause bleiben. Das sagt die Ärztin.",
+   "a": [
+    "soll"
+   ],
+   "hint": "sollen",
+   "exp": "sollen: otra persona lo dice. ich soll."
+  },
+  {
+   "t": "gap",
+   "q": "Sie dürfen ___ Sport machen.",
+   "a": [
+    "keinen"
+   ],
+   "hint": "kein (der Sport)",
+   "exp": "Negación de un sustantivo masculino en acusativo: keinen."
+  },
+  {
+   "t": "gap",
+   "q": "Ich habe ___ drei Tagen Fieber.",
+   "a": [
+    "seit"
+   ],
+   "hint": "desde hace",
+   "exp": "seit + dativo plural (Tagen)."
+  },
+  {
+   "t": "gap",
+   "q": "Tut ___ der Rücken weh? (a ti)",
+   "a": [
+    "dir"
+   ],
+   "hint": "a ti",
+   "exp": "mir = a mí, dir = a ti."
+  },
+  {
+   "t": "order",
+   "w": [
+    "tut",
+    "Mir",
+    "weh",
+    "Bauch",
+    "der"
+   ],
+   "a": "Mir tut der Bauch weh.",
+   "es": "Me duele la tripa."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Sie",
+    "zu",
+    "Bleiben",
+    "Hause"
+   ],
+   "a": "Bleiben Sie zu Hause!",
+   "es": "¡Quédese en casa!"
+  },
+  {
+   "t": "order",
+   "w": [
+    "ich",
+    "Was",
+    "machen",
+    "soll"
+   ],
+   "a": "Was soll ich machen?",
+   "es": "¿Qué debo hacer?"
+  },
+  {
+   "t": "listen",
+   "de": "Guten Tag, ich möchte bitte einen Termin machen.",
+   "es": "Buenos días, quisiera pedir una cita, por favor."
+  },
+  {
+   "t": "listen",
+   "de": "Nehmen Sie dreimal täglich eine Tablette.",
+   "es": "Tome una pastilla tres veces al día."
+  },
+  {
+   "t": "tr",
+   "es": "Me duele la cabeza.",
+   "a": [
+    "Mir tut der Kopf weh.",
+    "Ich habe Kopfschmerzen.",
+    "Der Kopf tut mir weh.",
+    "Ich habe Kopfweh."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "Necesito algo contra la tos.",
+   "a": [
+    "Ich brauche etwas gegen Husten."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "der Kopf",
+     "la cabeza"
+    ],
+    [
+     "der Bauch",
+     "la tripa"
+    ],
+    [
+     "der Rücken",
+     "la espalda"
+    ],
+    [
+     "das Bein",
+     "la pierna"
+    ],
+    [
+     "die Hand",
+     "la mano"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Claudia ist krank. Sie hat Fieber und Halsschmerzen. Sie geht zum Arzt. Der Arzt sagt: «Bleiben Sie drei Tage zu Hause und trinken Sie viel Tee. Sie dürfen eine Woche nicht ins Fitnessstudio gehen.» Er schreibt ein Rezept und eine Krankmeldung.",
+   "q": "¿Qué no puede hacer Claudia durante una semana?",
+   "o": [
+    "Beber té",
+    "Ir al gimnasio",
+    "Ir al médico"
+   ],
+   "a": 1
+  }
+ ],
+ "speak": [
+  {
+   "de": "Mir tut der Kopf weh.",
+   "es": "Me duele la cabeza.",
+   "tip": "«weh» = «vee»: «w» como v francesa y e larga (la «h» no suena)."
+  },
+  {
+   "de": "Ich habe Halsschmerzen.",
+   "es": "Me duele la garganta.",
+   "tip": "«schm» = «shm»; la «z» suena «ts»: «hals-shmer-tsen»."
+  },
+  {
+   "de": "Ich bin erkältet.",
+   "es": "Estoy resfriada.",
+   "tip": "«ä» como e abierta; la «r» de «er-» casi no suena."
+  },
+  {
+   "de": "Haben Sie etwas gegen Husten?",
+   "es": "¿Tiene algo para la tos?",
+   "tip": "La «H» de «Haben» y «Husten» es una aspiración suave, nunca una jota."
+  },
+  {
+   "de": "Brauche ich ein Rezept?",
+   "es": "¿Necesito receta?",
+   "tip": "«Rezept» = «re-TSEPT». «au» como en «aula»."
+  },
+  {
+   "de": "Wie oft soll ich die Tabletten nehmen?",
+   "es": "¿Cada cuánto tengo que tomar las pastillas?",
+   "tip": "«nehmen» con e larga; la «h» no suena."
+  },
+  {
+   "de": "Ich möchte einen Termin machen.",
+   "es": "Quisiera pedir una cita.",
+   "tip": "«ö»: e con los labios redondeados. La «ch» de «machen» es fuerte (jota)."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Mir tun die ___ weh.",
+   "o": [
+    "Kopf",
+    "Augen",
+    "Bauch"
+   ],
+   "a": 1,
+   "exp": "tun → plural: die Augen."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué frase es correcta?",
+   "o": [
+    "Ich habe krank.",
+    "Ich bin krank.",
+    "Ich bin Fieber."
+   ],
+   "a": 1,
+   "exp": "krank va con sein; Fieber va con haben."
+  },
+  {
+   "t": "mc",
+   "q": "En Alemania los medicamentos se compran en la ___.",
+   "o": [
+    "Drogerie",
+    "Apotheke",
+    "Bäckerei"
+   ],
+   "a": 1,
+   "exp": "Medicamentos solo en la Apotheke."
+  },
+  {
+   "t": "mc",
+   "q": "«Sie müssen nicht ins Krankenhaus.» significa:",
+   "o": [
+    "No hace falta que vaya al hospital.",
+    "Tiene prohibido ir al hospital.",
+    "No puede ir al hospital."
+   ],
+   "a": 0,
+   "exp": "nicht müssen = no es necesario."
+  },
+  {
+   "t": "gap",
+   "q": "___ Sie früh ins Bett!",
+   "a": [
+    "Gehen"
+   ],
+   "hint": "gehen (Sie)",
+   "exp": "Imperativo formal: Gehen Sie!"
+  },
+  {
+   "t": "gap",
+   "q": "Mir ___ die Beine weh.",
+   "a": [
+    "tun"
+   ],
+   "hint": "wehtun",
+   "exp": "die Beine es plural: tun."
+  },
+  {
+   "t": "gap",
+   "q": "Du ___ keinen Kaffee trinken.",
+   "a": [
+    "darfst"
+   ],
+   "hint": "dürfen",
+   "exp": "du darfst."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Rezept",
+    "Brauche",
+    "ein",
+    "ich"
+   ],
+   "a": "Brauche ich ein Rezept?",
+   "es": "¿Necesito receta?"
+  },
+  {
+   "t": "listen",
+   "de": "Seit wann haben Sie Rückenschmerzen?",
+   "es": "¿Desde cuándo tiene dolor de espalda?"
+  },
+  {
+   "t": "tr",
+   "es": "Estoy resfriada.",
+   "a": [
+    "Ich bin erkältet."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "das Fieber",
+     "la fiebre"
+    ],
+    [
+     "der Husten",
+     "la tos"
+    ],
+    [
+     "der Schnupfen",
+     "los mocos"
+    ],
+    [
+     "die Zahnschmerzen",
+     "el dolor de muelas"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Kunde: Guten Tag, ich habe Husten. Haben Sie etwas gegen Husten? Apothekerin: Ja, nehmen Sie den Saft hier. Zweimal täglich, nach dem Essen.",
+   "q": "¿Cuándo tiene que tomar el jarabe?",
+   "o": [
+    "Una vez al día",
+    "Dos veces al día, después de comer",
+    "Dos veces al día, antes de comer"
+   ],
+   "a": 1
+  }
+ ]
+}

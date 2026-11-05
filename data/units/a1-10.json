@@ -1,0 +1,551 @@
+{
+ "id": "a1-10",
+ "level": "A1",
+ "n": 10,
+ "title": "In der Stadt",
+ "title_es": "La ciudad, direcciones y dativo con preposiciones",
+ "goals": [
+  "Puedo nombrar lugares de la ciudad, preguntar el camino y entender la respuesta.",
+  "Puedo dar instrucciones con el imperativo (du, ihr, Sie).",
+  "Puedo usar mit, zu, bei, nach, aus, von y seit con dativo (zum, zur, beim, vom).",
+  "Puedo decir cómo me desplazo (mit dem Bus, mit der U-Bahn, zu Fuß)."
+ ],
+ "lessons": [
+  {
+   "h": "In der Stadt – lugares y preguntar el camino",
+   "html": "<p>Lugares: <span class=\"de\">der Bahnhof, die Haltestelle, die Post, die Bank, die Apotheke, das Rathaus, das Museum, das Kino, der Supermarkt, die Bäckerei, das Krankenhaus, die Kirche, der Platz, die Straße</span>.</p>\n<table><thead><tr><th>Preguntar</th><th>Responder</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Entschuldigung, wo ist der Bahnhof?</span></td><td><span class=\"de\">Gehen Sie geradeaus.</span> (todo recto)</td></tr>\n<tr><td><span class=\"de\">Wie komme ich zum Rathaus?</span></td><td><span class=\"de\">Gehen Sie die erste Straße links.</span></td></tr>\n<tr><td><span class=\"de\">Gibt es hier eine Apotheke?</span></td><td><span class=\"de\">Nehmen Sie die zweite Straße rechts.</span></td></tr>\n<tr><td><span class=\"de\">Ist das weit?</span></td><td><span class=\"de\">Nein, das ist ganz nah. Nur fünf Minuten zu Fuß.</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">links</span> = izquierda, <span class=\"de\">rechts</span> = derecha (truco: <span class=\"de\">rechts</span> y «derecha» tienen r). «¿Cómo llego a…?» = <span class=\"de\">Wie komme ich zum/zur …?</span>, no <span class=\"de\">*Wo ist zum …</span></p>"
+  },
+  {
+   "h": "El imperativo: Geh! – Geht! – Gehen Sie!",
+   "html": "<table><thead><tr><th>Infinitivo</th><th>du</th><th>ihr</th><th>Sie</th></tr></thead><tbody>\n<tr><td><span class=\"de\">gehen</span></td><td><span class=\"de\">Geh!</span></td><td><span class=\"de\">Geht!</span></td><td><span class=\"de\">Gehen Sie!</span></td></tr>\n<tr><td><span class=\"de\">nehmen</span></td><td><span class=\"de\">Nimm!</span></td><td><span class=\"de\">Nehmt!</span></td><td><span class=\"de\">Nehmen Sie!</span></td></tr>\n<tr><td><span class=\"de\">lesen</span></td><td><span class=\"de\">Lies!</span></td><td><span class=\"de\">Lest!</span></td><td><span class=\"de\">Lesen Sie!</span></td></tr>\n<tr><td><span class=\"de\">fahren</span></td><td><span class=\"de\">Fahr!</span></td><td><span class=\"de\">Fahrt!</span></td><td><span class=\"de\">Fahren Sie!</span></td></tr>\n<tr><td><span class=\"de\">warten</span></td><td><span class=\"de\">Warte!</span></td><td><span class=\"de\">Wartet!</span></td><td><span class=\"de\">Warten Sie!</span></td></tr>\n<tr><td><span class=\"de\">aussteigen</span></td><td><span class=\"de\">Steig aus!</span></td><td><span class=\"de\">Steigt aus!</span></td><td><span class=\"de\">Steigen Sie aus!</span></td></tr>\n<tr><td><span class=\"de\">sein</span></td><td><span class=\"de\">Sei!</span></td><td><span class=\"de\">Seid!</span></td><td><span class=\"de\">Seien Sie!</span></td></tr>\n</tbody></table>\n<ul>\n<li><b>du</b>: forma de <span class=\"de\">du</span> sin <span class=\"de\">-st</span> y sin pronombre: <span class=\"de\">du gehst → Geh!</span> El cambio <b>e → i/ie se mantiene</b> (<span class=\"de\">Nimm! Lies! Iss!</span>), pero <b>a → ä no</b> (<span class=\"de\">Fahr!</span>, no <span class=\"de\">*Fähr!</span>). Verbos en -ten/-den añaden -e: <span class=\"de\">Warte!</span></li>\n<li><b>ihr</b>: igual que el presente, sin pronombre: <span class=\"de\">ihr geht → Geht!</span></li>\n<li><b>Sie</b>: infinitivo + <span class=\"de\">Sie</span>: <span class=\"de\">Gehen Sie!</span></li>\n</ul>\n<p>Los prefijos separables van al final: <span class=\"de\">Steigen Sie hier aus!</span> Con <span class=\"de\">bitte</span> suena más amable: <span class=\"de\">Nehmen Sie bitte den Bus!</span></p>\n<p><b>Ojo:</b> en el imperativo formal el <span class=\"de\">Sie</span> es <b>obligatorio</b>: <span class=\"de\">*Gehen geradeaus!</span> es incorrecto.</p>"
+  },
+  {
+   "h": "El dativo: dem, der, dem, den",
+   "html": "<p>Tras ciertas preposiciones los artículos van en <b>dativo</b>:</p>\n<table><thead><tr><th></th><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody>\n<tr><td>Nominativo</td><td><span class=\"de\">der</span></td><td><span class=\"de\">die</span></td><td><span class=\"de\">das</span></td><td><span class=\"de\">die</span></td></tr>\n<tr><td>Dativo</td><td><span class=\"de\">dem</span></td><td><span class=\"de\">der</span></td><td><span class=\"de\">dem</span></td><td><span class=\"de\">den</span> + -n</td></tr>\n<tr><td>ein / kein</td><td><span class=\"de\">einem / keinem</span></td><td><span class=\"de\">einer / keiner</span></td><td><span class=\"de\">einem / keinem</span></td><td><span class=\"de\">keinen</span> + -n</td></tr>\n<tr><td>mein</td><td><span class=\"de\">meinem</span></td><td><span class=\"de\">meiner</span></td><td><span class=\"de\">meinem</span></td><td><span class=\"de\">meinen</span> + -n</td></tr>\n</tbody></table>\n<p>En plural el sustantivo añade <b>-n</b>: <span class=\"de\">mit den Freunden, seit drei Jahren</span> (no si ya acaba en -n o en -s: <span class=\"de\">mit den Autos</span>).</p>\n<p><b>Ojo:</b> el femenino en dativo es <span class=\"de\">der</span>: <span class=\"de\">mit der U-Bahn</span>. ¡No es masculino!</p>"
+  },
+  {
+   "h": "Preposiciones con dativo",
+   "html": "<p><span class=\"de\">mit, zu, bei, nach, aus, von, seit</span> van <b>siempre</b> con dativo.</p>\n<table><thead><tr><th>Prep.</th><th>Uso</th><th>Ejemplos</th></tr></thead><tbody>\n<tr><td><span class=\"de\">mit</span></td><td>con; medio de transporte</td><td><span class=\"de\">mit meiner Freundin, mit dem Bus</span></td></tr>\n<tr><td><span class=\"de\">zu</span></td><td>a (personas, tiendas, lugares)</td><td><span class=\"de\">zum Arzt, zur Post, zu Anna</span></td></tr>\n<tr><td><span class=\"de\">bei</span></td><td>en casa de; en (tienda, empresa)</td><td><span class=\"de\">bei Anna, beim Bäcker, bei Siemens</span></td></tr>\n<tr><td><span class=\"de\">nach</span></td><td>a (ciudades, países sin artículo); a casa; después de</td><td><span class=\"de\">nach Berlin, nach Spanien, nach Hause, nach dem Kurs</span></td></tr>\n<tr><td><span class=\"de\">aus</span></td><td>de (origen); de dentro de</td><td><span class=\"de\">aus Spanien, aus dem Haus</span></td></tr>\n<tr><td><span class=\"de\">von</span></td><td>de (punto de partida; de alguien)</td><td><span class=\"de\">vom Bahnhof, von Anna</span></td></tr>\n<tr><td><span class=\"de\">seit</span></td><td>desde, desde hace</td><td><span class=\"de\">seit Montag, seit einem Jahr</span></td></tr>\n</tbody></table>\n<p><b>Contracciones:</b> <span class=\"de\">zu dem = zum, zu der = zur, bei dem = beim, von dem = vom</span>.</p>\n<p><b>Ojo:</b> «voy a Madrid» = <span class=\"de\">nach Madrid</span>, pero «voy al médico» = <span class=\"de\">zum Arzt</span>. «Voy a casa» = <span class=\"de\">nach Hause</span>; «estoy en casa» = <span class=\"de\">zu Hause</span>.</p>\n<p><b>Ojo:</b> <span class=\"de\">seit</span> va con <b>presente</b>: <span class=\"de\">Ich wohne seit zwei Jahren in Heidelberg.</span> = «Vivo en Heidelberg desde hace dos años / llevo dos años viviendo en Heidelberg».</p>"
+  },
+  {
+   "h": "Medios de transporte",
+   "html": "<table><thead><tr><th>Alemán</th><th>Español</th></tr></thead><tbody>\n<tr><td><span class=\"de\">mit dem Bus / Zug / Auto / Fahrrad</span></td><td>en autobús / tren / coche / bici</td></tr>\n<tr><td><span class=\"de\">mit der U-Bahn / S-Bahn / Straßenbahn</span></td><td>en metro / tren de cercanías / tranvía</td></tr>\n<tr><td><span class=\"de\">zu Fuß</span></td><td>a pie</td></tr>\n</tbody></table>\n<p><span class=\"de\">Wie kommst du zur Arbeit? – Mit dem Fahrrad.</span> – <span class=\"de\">Ich gehe zu Fuß nach Hause.</span></p>\n<p><b>Ojo:</b> «en autobús» no es <span class=\"de\">*in Bus</span> sino <span class=\"de\">mit dem Bus</span>. Y «a pie» es <span class=\"de\">zu Fuß</span>, no <span class=\"de\">*mit Fuß</span>. Con vehículo se usa <span class=\"de\">fahren</span>; <span class=\"de\">gehen</span> es ir andando.</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "Stadt",
+   "art": "die",
+   "pl": "Städte",
+   "es": "ciudad",
+   "ex": "Heidelberg ist eine schöne Stadt."
+  },
+  {
+   "de": "Bahnhof",
+   "art": "der",
+   "pl": "Bahnhöfe",
+   "es": "estación de tren",
+   "ex": "Wie komme ich zum Bahnhof?"
+  },
+  {
+   "de": "Haltestelle",
+   "art": "die",
+   "pl": "Haltestellen",
+   "es": "parada",
+   "ex": "Die Haltestelle ist nicht weit."
+  },
+  {
+   "de": "Post",
+   "art": "die",
+   "es": "correos",
+   "ex": "Ich gehe zur Post."
+  },
+  {
+   "de": "Bank",
+   "art": "die",
+   "pl": "Banken",
+   "es": "banco (dinero)",
+   "ex": "Die Bank ist geschlossen."
+  },
+  {
+   "de": "Apotheke",
+   "art": "die",
+   "pl": "Apotheken",
+   "es": "farmacia",
+   "ex": "Gibt es hier eine Apotheke?"
+  },
+  {
+   "de": "Rathaus",
+   "art": "das",
+   "pl": "Rathäuser",
+   "es": "ayuntamiento",
+   "ex": "Das Rathaus ist alt."
+  },
+  {
+   "de": "Museum",
+   "art": "das",
+   "pl": "Museen",
+   "es": "museo",
+   "ex": "Das Museum ist am Montag zu."
+  },
+  {
+   "de": "Supermarkt",
+   "art": "der",
+   "pl": "Supermärkte",
+   "es": "supermercado",
+   "ex": "Ich gehe zum Supermarkt."
+  },
+  {
+   "de": "Krankenhaus",
+   "art": "das",
+   "pl": "Krankenhäuser",
+   "es": "hospital",
+   "ex": "Das Krankenhaus ist groß."
+  },
+  {
+   "de": "Straße",
+   "art": "die",
+   "pl": "Straßen",
+   "es": "calle",
+   "ex": "Nehmen Sie die erste Straße links."
+  },
+  {
+   "de": "Ampel",
+   "art": "die",
+   "pl": "Ampeln",
+   "es": "semáforo",
+   "ex": "Die Ampel ist rot."
+  },
+  {
+   "de": "Kreuzung",
+   "art": "die",
+   "pl": "Kreuzungen",
+   "es": "cruce",
+   "ex": "Die Kreuzung ist gefährlich."
+  },
+  {
+   "de": "Bus",
+   "art": "der",
+   "pl": "Busse",
+   "es": "autobús",
+   "ex": "Ich fahre mit dem Bus."
+  },
+  {
+   "de": "U-Bahn",
+   "art": "die",
+   "pl": "U-Bahnen",
+   "es": "metro",
+   "ex": "Wir fahren mit der U-Bahn."
+  },
+  {
+   "de": "Zug",
+   "art": "der",
+   "pl": "Züge",
+   "es": "tren",
+   "ex": "Der Zug kommt aus Berlin."
+  },
+  {
+   "de": "Fahrrad",
+   "art": "das",
+   "pl": "Fahrräder",
+   "es": "bicicleta",
+   "ex": "Ich fahre mit dem Fahrrad zur Arbeit."
+  },
+  {
+   "de": "Auto",
+   "art": "das",
+   "pl": "Autos",
+   "es": "coche",
+   "ex": "Mein Auto ist alt."
+  },
+  {
+   "de": "geradeaus",
+   "es": "todo recto",
+   "ex": "Gehen Sie geradeaus."
+  },
+  {
+   "de": "links",
+   "es": "a la izquierda",
+   "ex": "Dann gehen Sie links."
+  },
+  {
+   "de": "rechts",
+   "es": "a la derecha",
+   "ex": "Die Post ist rechts."
+  },
+  {
+   "de": "weit",
+   "es": "lejos",
+   "ex": "Ist das weit?"
+  },
+  {
+   "de": "nah",
+   "es": "cerca",
+   "ex": "Das ist ganz nah."
+  },
+  {
+   "de": "zu Fuß",
+   "es": "a pie",
+   "ex": "Ich gehe zu Fuß."
+  },
+  {
+   "de": "aussteigen",
+   "es": "bajarse (de un vehículo)",
+   "ex": "Steigen Sie hier aus!"
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Ich fahre ___ Bus.",
+   "o": [
+    "mit dem",
+    "mit der",
+    "mit den"
+   ],
+   "a": 0,
+   "exp": "der Bus → dativo: dem."
+  },
+  {
+   "t": "mc",
+   "q": "Wie komme ich ___ Post?",
+   "o": [
+    "zum",
+    "zur",
+    "zu die"
+   ],
+   "a": 1,
+   "exp": "die Post → zu der = zur."
+  },
+  {
+   "t": "mc",
+   "q": "Am Wochenende fahre ich ___ Berlin.",
+   "o": [
+    "zu",
+    "nach",
+    "bei"
+   ],
+   "a": 1,
+   "exp": "Ciudades sin artículo: nach."
+  },
+  {
+   "t": "mc",
+   "q": "Imperativo de «nehmen» (du): ___ den Bus!",
+   "o": [
+    "Nehm",
+    "Nimm",
+    "Nimmst"
+   ],
+   "a": 1,
+   "exp": "du nimmst → Nimm! (el cambio e → i se mantiene)."
+  },
+  {
+   "t": "mc",
+   "q": "Imperativo formal de «gehen»:",
+   "o": [
+    "Geh Sie geradeaus!",
+    "Gehen Sie geradeaus!",
+    "Gehen geradeaus!"
+   ],
+   "a": 1,
+   "exp": "Sie: infinitivo + Sie."
+  },
+  {
+   "t": "mc",
+   "q": "Claudia wohnt ___ einem Jahr in Heidelberg.",
+   "o": [
+    "seit",
+    "von",
+    "mit"
+   ],
+   "a": 0,
+   "exp": "seit + dativo = desde hace."
+  },
+  {
+   "t": "gap",
+   "q": "Ich gehe heute ___ Arzt.",
+   "a": [
+    "zum"
+   ],
+   "hint": "zu + dem",
+   "exp": "zu dem = zum."
+  },
+  {
+   "t": "gap",
+   "q": "Wir kaufen Brot ___ Bäcker.",
+   "a": [
+    "beim"
+   ],
+   "hint": "bei + dem",
+   "exp": "bei dem = beim."
+  },
+  {
+   "t": "gap",
+   "q": "Ich fahre mit ___ U-Bahn.",
+   "a": [
+    "der"
+   ],
+   "hint": "die U-Bahn",
+   "exp": "Femenino en dativo: der."
+  },
+  {
+   "t": "gap",
+   "q": "___ bitte geradeaus!",
+   "a": [
+    "Fahr",
+    "Fahre"
+   ],
+   "hint": "fahren (du)",
+   "exp": "Imperativo de du: Fahr! (sin Umlaut)."
+  },
+  {
+   "t": "gap",
+   "q": "Ich lerne Deutsch mit ___ Freunden.",
+   "a": [
+    "meinen"
+   ],
+   "hint": "mein (plural)",
+   "exp": "Dativo plural: meinen + -n."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Sie",
+    "links",
+    "Gehen",
+    "dann"
+   ],
+   "a": "Gehen Sie dann links!",
+   "es": "¡Luego vaya a la izquierda!"
+  },
+  {
+   "t": "order",
+   "w": [
+    "mit",
+    "Ich",
+    "Fahrrad",
+    "fahre",
+    "dem"
+   ],
+   "a": "Ich fahre mit dem Fahrrad.",
+   "es": "Voy en bici."
+  },
+  {
+   "t": "order",
+   "w": [
+    "komme",
+    "Wie",
+    "Bahnhof",
+    "zum",
+    "ich"
+   ],
+   "a": "Wie komme ich zum Bahnhof?",
+   "es": "¿Cómo llego a la estación?"
+  },
+  {
+   "t": "listen",
+   "de": "Entschuldigung, wie komme ich zum Rathaus?",
+   "es": "Perdone, ¿cómo llego al ayuntamiento?"
+  },
+  {
+   "t": "listen",
+   "de": "Gehen Sie geradeaus und dann die zweite Straße rechts.",
+   "es": "Vaya todo recto y luego la segunda calle a la derecha."
+  },
+  {
+   "t": "tr",
+   "es": "Voy a casa a pie.",
+   "a": [
+    "Ich gehe zu Fuß nach Hause.",
+    "Zu Fuß gehe ich nach Hause."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "¡Coge el autobús número 5! (a un amigo)",
+   "a": [
+    "Nimm den Bus Nummer 5!",
+    "Nimm den Bus Nummer fünf!",
+    "Nimm bitte den Bus Nummer 5!"
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "mit dem Zug",
+     "en tren"
+    ],
+    [
+     "mit der U-Bahn",
+     "en metro"
+    ],
+    [
+     "mit dem Fahrrad",
+     "en bici"
+    ],
+    [
+     "mit dem Auto",
+     "en coche"
+    ],
+    [
+     "zu Fuß",
+     "a pie"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Claudia ist neu in Berlin. Sie fragt: «Entschuldigung, wo ist hier eine Apotheke?» Ein Mann sagt: «Gehen Sie hier geradeaus und dann die erste Straße links. Es ist nicht weit, nur fünf Minuten zu Fuß.»",
+   "q": "¿Por dónde tiene que ir Claudia?",
+   "o": [
+    "Recto y luego la primera a la derecha",
+    "Recto y luego la primera a la izquierda",
+    "La primera a la izquierda y luego cinco minutos en autobús"
+   ],
+   "a": 1
+  }
+ ],
+ "speak": [
+  {
+   "de": "Entschuldigung, wie komme ich zum Bahnhof?",
+   "es": "Perdone, ¿cómo llego a la estación?",
+   "tip": "«Entschuldigung»: «ent-SHUL-di-gung»; la «tsch» suena como «ch» española. En «Bahnhof» la «h» tras «a» no suena."
+  },
+  {
+   "de": "Gehen Sie geradeaus.",
+   "es": "Vaya todo recto.",
+   "tip": "«geradeaus» = «gue-ra-de-AUS», con «g» dura y acento al final."
+  },
+  {
+   "de": "Nimm die zweite Straße rechts.",
+   "es": "Coge la segunda calle a la derecha.",
+   "tip": "«zw» = «tsv»; «St» inicial = «sht»; «ß» es una s sorda; en «rechts» la «ch» es suave."
+  },
+  {
+   "de": "Ich fahre mit dem Fahrrad.",
+   "es": "Voy en bici.",
+   "tip": "La «r» final de «fahre» casi no suena; la «r» de «Rad» se hace en la garganta."
+  },
+  {
+   "de": "Ist das weit?",
+   "es": "¿Está lejos?",
+   "tip": "«weit» = «vait»: «w» como v francesa, «ei» = ai."
+  },
+  {
+   "de": "Ich gehe zu Fuß nach Hause.",
+   "es": "Voy a casa a pie.",
+   "tip": "«Fuß» con u larga; «nach» con «ch» fuerte (jota); la «H» de «Hause» es una aspiración suave."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Ich wohne ___ meiner Freundin. (en casa de)",
+   "o": [
+    "bei",
+    "zu",
+    "nach"
+   ],
+   "a": 0,
+   "exp": "bei = en casa de."
+  },
+  {
+   "t": "mc",
+   "q": "Sie kommt gerade ___ Supermarkt. (viene de allí)",
+   "o": [
+    "vom",
+    "von der",
+    "zur"
+   ],
+   "a": 0,
+   "exp": "der Supermarkt → von dem = vom."
+  },
+  {
+   "t": "mc",
+   "q": "Imperativo de «lesen» (du): ___ den Text!",
+   "o": [
+    "Les",
+    "Lies",
+    "Liest"
+   ],
+   "a": 1,
+   "exp": "du liest → Lies!"
+  },
+  {
+   "t": "mc",
+   "q": "Imperativo de «sein» (ihr): ___ bitte leise!",
+   "o": [
+    "Seid",
+    "Sei",
+    "Seien"
+   ],
+   "a": 0,
+   "exp": "ihr → Seid!"
+  },
+  {
+   "t": "gap",
+   "q": "Wir fahren ___ Hause.",
+   "a": [
+    "nach"
+   ],
+   "hint": "a casa",
+   "exp": "a casa = nach Hause."
+  },
+  {
+   "t": "gap",
+   "q": "Ich fahre mit ___ Zug nach Madrid.",
+   "a": [
+    "dem"
+   ],
+   "hint": "der Zug",
+   "exp": "Masculino en dativo: dem."
+  },
+  {
+   "t": "gap",
+   "q": "___ Sie hier aus!",
+   "a": [
+    "Steigen"
+   ],
+   "hint": "aussteigen (Sie)",
+   "exp": "Sie: infinitivo + Sie; el prefijo aus va al final."
+  },
+  {
+   "t": "order",
+   "w": [
+    "Seit",
+    "lerne",
+    "Jahren",
+    "ich",
+    "Deutsch",
+    "zwei"
+   ],
+   "a": "Seit zwei Jahren lerne ich Deutsch.",
+   "es": "Desde hace dos años estudio alemán."
+  },
+  {
+   "t": "listen",
+   "de": "Wie kommst du zur Arbeit? Mit dem Fahrrad.",
+   "es": "¿Cómo vas al trabajo? En bici."
+  },
+  {
+   "t": "tr",
+   "es": "Voy al supermercado.",
+   "a": [
+    "Ich gehe zum Supermarkt.",
+    "Ich gehe in den Supermarkt."
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Paul wohnt seit drei Monaten in Hamburg. Er fährt jeden Tag mit der S-Bahn zur Arbeit. Am Wochenende fährt er mit dem Fahrrad zu seiner Freundin. Sie wohnt nicht weit.",
+   "q": "¿Cómo va Paul a casa de su novia?",
+   "o": [
+    "En S-Bahn",
+    "En bici",
+    "A pie"
+   ],
+   "a": 1
+  }
+ ]
+}

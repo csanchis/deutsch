@@ -1,0 +1,531 @@
+{
+ "id": "a1-06",
+ "level": "A1",
+ "n": 6,
+ "title": "Freizeit und Sport",
+ "title_es": "Tiempo libre, deporte y verbos irregulares",
+ "goals": [
+  "Puedo hablar de mis aficiones y del deporte que hago.",
+  "Puedo conjugar verbos con cambio vocálico (fahren, lesen, sprechen, essen, schlafen…).",
+  "Puedo decir lo que me gusta con gern, lieber, am liebsten y mögen.",
+  "Puedo decir con qué frecuencia hago algo (immer, oft, manchmal, selten, nie)."
+ ],
+ "lessons": [
+  {
+   "h": "Verbos con cambio vocálico",
+   "html": "<p>Algunos verbos frecuentes cambian la vocal de la raíz <b>solo en du y er/sie/es</b>. Las terminaciones son las normales.</p><table><thead><tr><th></th><th>a → ä</th><th>a → ä</th><th>e → i</th><th>e → i</th><th>e → ie</th></tr></thead><tbody><tr><td></td><td>fahren</td><td>schlafen</td><td>sprechen</td><td>essen</td><td>lesen</td></tr><tr><td>ich</td><td>fahre</td><td>schlafe</td><td>spreche</td><td>esse</td><td>lese</td></tr><tr><td>du</td><td><b>fährst</b></td><td><b>schläfst</b></td><td><b>sprichst</b></td><td><b>isst</b></td><td><b>liest</b></td></tr><tr><td>er/sie/es</td><td><b>fährt</b></td><td><b>schläft</b></td><td><b>spricht</b></td><td><b>isst</b></td><td><b>liest</b></td></tr><tr><td>wir</td><td>fahren</td><td>schlafen</td><td>sprechen</td><td>essen</td><td>lesen</td></tr><tr><td>ihr</td><td>fahrt</td><td>schlaft</td><td>sprecht</td><td>esst</td><td>lest</td></tr><tr><td>sie/Sie</td><td>fahren</td><td>schlafen</td><td>sprechen</td><td>essen</td><td>lesen</td></tr></tbody></table><p>Otros del mismo tipo: <span class=\"de\">laufen → du läufst, er läuft</span> (correr), <span class=\"de\">sehen → du siehst, er sieht</span> (ver), <span class=\"de\">nehmen → du nimmst, er nimmt</span> (tomar), <span class=\"de\">treffen → du triffst, er trifft</span> (quedar con).</p><p><b>Ojo:</b> <b>ihr</b> no cambia: <span class=\"de\">ihr fahrt, ihr sprecht</span> (no *ihr fährt). Con raíz en -s/-ß, du solo lleva -t: <span class=\"de\">du isst, du liest</span> (no *du liesst).</p>"
+  },
+  {
+   "h": "gern, lieber, am liebsten",
+   "html": "<p>Para decir que algo te gusta hacer, pon <b>gern</b> detrás del verbo. No existe un verbo «gustar» como en español.</p><table><thead><tr><th>alemán</th><th>español</th></tr></thead><tbody><tr><td><span class=\"de\">Ich boxe gern.</span></td><td>Me gusta boxear.</td></tr><tr><td><span class=\"de\">Ich jogge lieber.</span></td><td>Prefiero correr.</td></tr><tr><td><span class=\"de\">Ich schwimme am liebsten.</span></td><td>Lo que más me gusta es nadar.</td></tr><tr><td><span class=\"de\">Ich koche nicht gern.</span></td><td>No me gusta cocinar.</td></tr></tbody></table><p>Pregunta: <span class=\"de\">Was machst du gern?</span> / <span class=\"de\">Liest du gern?</span></p><p><b>Ojo:</b> el sujeto es la persona, no la cosa: «me gusta leer» = <span class=\"de\">Ich lese gern</span> (literalmente «yo leo con gusto»), nunca *Mir gusta lesen. <span class=\"de\">gern</span> y <span class=\"de\">gerne</span> son iguales.</p>"
+  },
+  {
+   "h": "El verbo mögen",
+   "html": "<table><thead><tr><th>persona</th><th>mögen</th></tr></thead><tbody><tr><td>ich</td><td>mag</td></tr><tr><td>du</td><td>magst</td></tr><tr><td>er/sie/es</td><td>mag</td></tr><tr><td>wir</td><td>mögen</td></tr><tr><td>ihr</td><td>mögt</td></tr><tr><td>sie/Sie</td><td>mögen</td></tr></tbody></table><p><span class=\"de\">mögen</span> + sustantivo (en acusativo) = «gustar algo»: <span class=\"de\">Ich mag Fußball.</span> <span class=\"de\">Magst du Käse?</span> <span class=\"de\">Er mag den Film nicht.</span></p><p><b>Regla práctica:</b> con un <b>sustantivo</b> → <span class=\"de\">mögen</span>; con una <b>actividad (verbo)</b> → <span class=\"de\">verbo + gern</span>. <span class=\"de\">Ich mag Musik</span> / <span class=\"de\">Ich tanze gern</span>.</p><p><b>Ojo:</b> <span class=\"de\">ich mag</span> y <span class=\"de\">er mag</span> no llevan terminación.</p>"
+  },
+  {
+   "h": "Aficiones y deporte",
+   "html": "<table><thead><tr><th>alemán</th><th>español</th></tr></thead><tbody><tr><td>boxen – ich boxe, er boxt</td><td>boxear</td></tr><tr><td>joggen – ich jogge</td><td>correr (hacer jogging)</td></tr><tr><td>schwimmen</td><td>nadar</td></tr><tr><td>tanzen – du tanzt</td><td>bailar</td></tr><tr><td>ins Fitnessstudio gehen</td><td>ir al gimnasio</td></tr><tr><td>Fahrrad fahren – er fährt Fahrrad</td><td>ir en bici</td></tr><tr><td>Fußball / Tennis spielen</td><td>jugar al fútbol / al tenis</td></tr><tr><td>lesen, Musik hören, Filme sehen</td><td>leer, escuchar música, ver películas</td></tr></tbody></table><p><span class=\"de\">ins</span> = <i>in das</i>: aprende <span class=\"de\">Ich gehe ins Fitnessstudio</span> como bloque.</p><p><b>Ojo:</b> los deportes con <i>spielen</i> no llevan artículo ni preposición: <span class=\"de\">Ich spiele Tennis</span> (no *Ich spiele am Tennis).</p>"
+  },
+  {
+   "h": "¿Con qué frecuencia?",
+   "html": "<p>siempre → nunca: <span class=\"de\">immer</span> – <span class=\"de\">oft</span> – <span class=\"de\">manchmal</span> – <span class=\"de\">selten</span> – <span class=\"de\">nie</span>. También: <span class=\"de\">jeden Tag</span> (cada día), <span class=\"de\">einmal / zweimal / dreimal pro Woche</span> (una/dos/tres veces por semana).</p><table><thead><tr><th>1</th><th>2 (verbo)</th><th>3</th><th>…</th></tr></thead><tbody><tr><td>Ich</td><td>boxe</td><td>oft.</td><td></td></tr><tr><td>Er</td><td>geht</td><td>manchmal</td><td>ins Fitnessstudio.</td></tr><tr><td>Wir</td><td>essen</td><td>nie</td><td>Fleisch.</td></tr></tbody></table><p>El adverbio de frecuencia va normalmente justo después del verbo (y del sujeto, si este va detrás).</p><p><b>Ojo:</b> <span class=\"de\">nie</span> ya es negativo: «no como nunca carne» = <span class=\"de\">Ich esse nie Fleisch</span>, sin <i>nicht</i> ni <i>kein</i> (en alemán no hay doble negación).</p>"
+  }
+ ],
+ "vocab": [
+  {
+   "de": "boxen",
+   "es": "boxear",
+   "ex": "Ich boxe dreimal pro Woche."
+  },
+  {
+   "de": "joggen",
+   "es": "correr, hacer jogging",
+   "ex": "Wir joggen oft."
+  },
+  {
+   "de": "schwimmen",
+   "es": "nadar",
+   "ex": "Schwimmst du gern?"
+  },
+  {
+   "de": "tanzen",
+   "es": "bailar",
+   "ex": "Sie tanzt sehr gut."
+  },
+  {
+   "de": "fahren",
+   "es": "ir (en vehículo), conducir",
+   "ex": "Er fährt gern Fahrrad."
+  },
+  {
+   "de": "lesen",
+   "es": "leer",
+   "ex": "Sie liest viel."
+  },
+  {
+   "de": "schlafen",
+   "es": "dormir",
+   "ex": "Mein Bruder schläft lange."
+  },
+  {
+   "de": "sprechen",
+   "es": "hablar",
+   "ex": "Sprichst du Deutsch?"
+  },
+  {
+   "de": "essen",
+   "es": "comer",
+   "ex": "Was isst du gern?"
+  },
+  {
+   "de": "mögen",
+   "es": "gustar (algo)",
+   "ex": "Ich mag Fußball."
+  },
+  {
+   "de": "gern",
+   "es": "con gusto (me gusta…)",
+   "ex": "Ich koche gern."
+  },
+  {
+   "de": "lieber",
+   "es": "preferiblemente (prefiero…)",
+   "ex": "Ich trinke lieber Tee."
+  },
+  {
+   "de": "am liebsten",
+   "es": "lo que más me gusta",
+   "ex": "Ich boxe am liebsten."
+  },
+  {
+   "de": "oft",
+   "es": "a menudo",
+   "ex": "Ich gehe oft ins Fitnessstudio."
+  },
+  {
+   "de": "manchmal",
+   "es": "a veces",
+   "ex": "Er joggt manchmal."
+  },
+  {
+   "de": "selten",
+   "es": "pocas veces",
+   "ex": "Wir tanzen selten."
+  },
+  {
+   "de": "nie",
+   "es": "nunca",
+   "ex": "Ich esse nie Fisch."
+  },
+  {
+   "de": "Hobby",
+   "art": "das",
+   "pl": "Hobbys",
+   "es": "afición, hobby",
+   "ex": "Was ist dein Hobby?"
+  },
+  {
+   "de": "Sport",
+   "art": "der",
+   "es": "deporte",
+   "ex": "Sport ist gesund."
+  },
+  {
+   "de": "Fitnessstudio",
+   "art": "das",
+   "pl": "Fitnessstudios",
+   "es": "gimnasio",
+   "ex": "Das Fitnessstudio ist groß."
+  },
+  {
+   "de": "Fahrrad",
+   "art": "das",
+   "pl": "Fahrräder",
+   "es": "bicicleta",
+   "ex": "Das Fahrrad ist neu."
+  },
+  {
+   "de": "Buch",
+   "art": "das",
+   "pl": "Bücher",
+   "es": "libro",
+   "ex": "Das Buch ist interessant."
+  },
+  {
+   "de": "Film",
+   "art": "der",
+   "pl": "Filme",
+   "es": "película",
+   "ex": "Ich sehe gern Filme."
+  },
+  {
+   "de": "Musik",
+   "art": "die",
+   "es": "música",
+   "ex": "Magst du Musik?"
+  },
+  {
+   "de": "Wochenende",
+   "art": "das",
+   "pl": "Wochenenden",
+   "es": "fin de semana",
+   "ex": "Das Wochenende ist super."
+  }
+ ],
+ "exercises": [
+  {
+   "t": "mc",
+   "q": "Er ___ gern Fahrrad.",
+   "o": [
+    "fährt",
+    "fahrt",
+    "fahrst"
+   ],
+   "a": 0,
+   "exp": "fahren: a → ä en er: er fährt."
+  },
+  {
+   "t": "mc",
+   "q": "Du ___ viel.",
+   "o": [
+    "liest",
+    "lest",
+    "liesst"
+   ],
+   "a": 0,
+   "exp": "lesen: e → ie en du, y solo -t porque la raíz acaba en -s: du liest."
+  },
+  {
+   "t": "mc",
+   "q": "Sie (ella) ___ drei Sprachen.",
+   "o": [
+    "spricht",
+    "sprecht",
+    "sprichst"
+   ],
+   "a": 0,
+   "exp": "sprechen: e → i en er/sie/es: sie spricht."
+  },
+  {
+   "t": "mc",
+   "q": "Ich ___ Fußball.",
+   "o": [
+    "mag",
+    "magst",
+    "mögt"
+   ],
+   "a": 0,
+   "exp": "ich → mag (sin terminación)."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cómo se dice «Me gusta boxear»?",
+   "o": [
+    "Ich boxe gern.",
+    "Ich gern boxe.",
+    "Mir gefällt gern boxen."
+   ],
+   "a": 0,
+   "exp": "Actividad → verbo conjugado en 2ª posición + gern."
+  },
+  {
+   "t": "mc",
+   "q": "Wir ___ heute Fahrrad.",
+   "o": [
+    "fahren",
+    "fähren",
+    "fährt"
+   ],
+   "a": 0,
+   "exp": "El cambio vocálico solo afecta a du y er/sie/es; wir fahren."
+  },
+  {
+   "t": "gap",
+   "q": "Was ___ du gern?",
+   "a": [
+    "isst"
+   ],
+   "hint": "essen",
+   "exp": "essen: e → i; du isst (solo -t)."
+  },
+  {
+   "t": "gap",
+   "q": "Mein Bruder ___ sehr lange.",
+   "a": [
+    "schläft"
+   ],
+   "hint": "schlafen",
+   "exp": "schlafen: a → ä en er: schläft."
+  },
+  {
+   "t": "gap",
+   "q": "Ihr ___ Spanisch, oder?",
+   "a": [
+    "sprecht"
+   ],
+   "hint": "sprechen",
+   "exp": "ihr no cambia la vocal: ihr sprecht."
+  },
+  {
+   "t": "gap",
+   "q": "Ich jogge gern, aber ich schwimme ___.",
+   "a": [
+    "lieber"
+   ],
+   "hint": "prefiero",
+   "exp": "gern → lieber (más a gusto)."
+  },
+  {
+   "t": "gap",
+   "q": "Magst du Käse? – Ja, ich ___ Käse sehr.",
+   "a": [
+    "mag"
+   ],
+   "hint": "mögen",
+   "exp": "ich → mag."
+  },
+  {
+   "t": "order",
+   "w": [
+    "oft",
+    "gehe",
+    "Ich",
+    "ins",
+    "Fitnessstudio"
+   ],
+   "a": "Ich gehe oft ins Fitnessstudio.",
+   "es": "Voy a menudo al gimnasio."
+  },
+  {
+   "t": "order",
+   "w": [
+    "du",
+    "Liest",
+    "gern"
+   ],
+   "a": "Liest du gern?",
+   "es": "¿Te gusta leer?"
+  },
+  {
+   "t": "listen",
+   "de": "Ich gehe dreimal pro Woche ins Fitnessstudio.",
+   "es": "Voy tres veces por semana al gimnasio."
+  },
+  {
+   "t": "listen",
+   "de": "Was sind deine Hobbys?",
+   "es": "¿Cuáles son tus aficiones?"
+  },
+  {
+   "t": "tr",
+   "es": "Nunca como pescado.",
+   "a": [
+    "Ich esse nie Fisch."
+   ]
+  },
+  {
+   "t": "tr",
+   "es": "Ella lee mucho.",
+   "a": [
+    "Sie liest viel."
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "immer",
+     "siempre"
+    ],
+    [
+     "oft",
+     "a menudo"
+    ],
+    [
+     "manchmal",
+     "a veces"
+    ],
+    [
+     "selten",
+     "pocas veces"
+    ],
+    [
+     "nie",
+     "nunca"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Carlos ist 32 und wohnt in Berlin. Er boxt dreimal pro Woche und joggt manchmal. Er liest nicht gern, aber er sieht gern Filme. Er schwimmt nie.",
+   "q": "¿Qué NO le gusta hacer a Carlos?",
+   "o": [
+    "Boxear",
+    "Leer",
+    "Ver películas"
+   ],
+   "a": 1
+  }
+ ],
+ "speak": [
+  {
+   "de": "Ich boxe gern.",
+   "es": "Me gusta boxear.",
+   "tip": "La «x» se pronuncia «ks»: «bokse». La «g» de «gern» siempre es «gu»."
+  },
+  {
+   "de": "Ich gehe oft ins Fitnessstudio.",
+   "es": "Voy a menudo al gimnasio.",
+   "tip": "«st» al inicio de sílaba en «Studio» suena «sht»: «fitnes-shtudio»."
+  },
+  {
+   "de": "Er fährt gern Fahrrad.",
+   "es": "Le gusta ir en bici.",
+   "tip": "«ä» = e abierta y larga; la «h» tras vocal no suena, solo alarga: «feert»."
+  },
+  {
+   "de": "Sprichst du Deutsch?",
+   "es": "¿Hablas alemán?",
+   "tip": "«Sp» inicial = «schp»: «schprijst». «eu» = «oi»: «doitsh»."
+  },
+  {
+   "de": "Was isst du am liebsten?",
+   "es": "¿Qué es lo que más te gusta comer?",
+   "tip": "«ie» = i larga: «liipsten». La «b» delante de s/t suena casi como p."
+  },
+  {
+   "de": "Ich schwimme nie.",
+   "es": "Nunca nado.",
+   "tip": "«schw» = «shv»: «shvime». «ie» = i larga."
+  },
+  {
+   "de": "Ich mag Musik.",
+   "es": "Me gusta la música.",
+   "tip": "Acento en la última sílaba: mu-SIK. La «g» final de «mag» suena casi «k»: «maak»."
+  }
+ ],
+ "test": [
+  {
+   "t": "mc",
+   "q": "Was ___ du? – Ich nehme einen Tee.",
+   "o": [
+    "nimmst",
+    "nehmst",
+    "nimmt"
+   ],
+   "a": 0,
+   "exp": "nehmen: du nimmst (e → i, y la h desaparece)."
+  },
+  {
+   "t": "mc",
+   "q": "Er ___ gern Krimis.",
+   "o": [
+    "liest",
+    "lest",
+    "lesen"
+   ],
+   "a": 0,
+   "exp": "lesen: er liest."
+  },
+  {
+   "t": "mc",
+   "q": "Wir ___ Pizza.",
+   "o": [
+    "mögen",
+    "mag",
+    "mögt"
+   ],
+   "a": 0,
+   "exp": "wir → mögen."
+  },
+  {
+   "t": "gap",
+   "q": "Anna ___ gut Englisch.",
+   "a": [
+    "spricht"
+   ],
+   "hint": "sprechen",
+   "exp": "sprechen: sie spricht."
+  },
+  {
+   "t": "gap",
+   "q": "Du ___ sehr viel!",
+   "a": [
+    "schläfst"
+   ],
+   "hint": "schlafen",
+   "exp": "schlafen: du schläfst."
+  },
+  {
+   "t": "gap",
+   "q": "Ich mag Kaffee, aber ich trinke ___ Tee.",
+   "a": [
+    "lieber"
+   ],
+   "hint": "prefiero",
+   "exp": "Preferencia → lieber."
+  },
+  {
+   "t": "order",
+   "w": [
+    "nie",
+    "Er",
+    "Fleisch",
+    "isst"
+   ],
+   "a": "Er isst nie Fleisch.",
+   "es": "Él nunca come carne."
+  },
+  {
+   "t": "listen",
+   "de": "Ich fahre gern Fahrrad.",
+   "es": "Me gusta ir en bici."
+  },
+  {
+   "t": "tr",
+   "es": "¿Te gusta nadar?",
+   "a": [
+    "Schwimmst du gern?",
+    "Schwimmst du gerne?",
+    "Magst du Schwimmen?"
+   ]
+  },
+  {
+   "t": "match",
+   "p": [
+    [
+     "fahren",
+     "er fährt"
+    ],
+    [
+     "lesen",
+     "er liest"
+    ],
+    [
+     "essen",
+     "er isst"
+    ],
+    [
+     "schlafen",
+     "er schläft"
+    ],
+    [
+     "sprechen",
+     "er spricht"
+    ]
+   ]
+  },
+  {
+   "t": "read",
+   "text": "Lisa ist Ärztin und hat wenig Freizeit. Sie liest gern, aber sie hat selten Zeit. Sie joggt oft und schwimmt manchmal. Sie tanzt nie.",
+   "q": "¿Con qué frecuencia nada Lisa?",
+   "o": [
+    "A menudo",
+    "A veces",
+    "Nunca"
+   ],
+   "a": 1
+  }
+ ]
+}
