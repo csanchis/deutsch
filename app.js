@@ -318,7 +318,7 @@ function resolve(it, ok, extra = {}) {
     <div class="row" style="margin-top:12px">${s ? `<button class="btn sm" data-speak="${esc(s)}">🔊 Escuchar</button>` : ''}<button class="btn primary grow" id="next" style="justify-content:center">Continuar</button></div></div>`;
   if (s && S.set.autoSpeak && R.mode !== 'test') speak(s);
   $('#next').onclick = () => { R.i++; renderRun(); };
-  $('#next').focus();
+  $('#next').focus({preventScroll: true});
 }
 const RENDER = {
   mc(it, el) {
@@ -396,7 +396,7 @@ const umlautKeys = () => ['ä', 'ö', 'ü', 'ß'].map(c => `<button class="btn s
 function textInput(el, check) {
   const inp = $('#ans', el); setTimeout(() => inp.focus(), 50);
   $$('[data-k]', el).forEach(b => b.onclick = () => { const s = inp.selectionStart ?? inp.value.length; inp.value = inp.value.slice(0, s) + b.dataset.k + inp.value.slice(inp.selectionEnd ?? s); inp.focus(); inp.setSelectionRange(s + 1, s + 1); });
-  const go = () => { if (R.answered || !inp.value.trim()) return; inp.disabled = true; check(); };
+  const go = () => { if (R.answered || !inp.value.trim()) return; inp.disabled = true; inp.blur(); check(); };
   $('#chk', el).onclick = go; inp.onkeydown = e => { if (e.key === 'Enter') { e.preventDefault(); go(); } };
 }
 document.addEventListener('keydown', e => {
