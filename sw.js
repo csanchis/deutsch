@@ -1,6 +1,6 @@
 // Funciona sin conexión: primero red (para recibir cambios), si falla, la copia guardada.
-const C = 'deutsch-v3';
-const SHELL = ['./', 'index.html', 'style.css?v=3', 'app.js?v=3', 'config.js?v=3', 'manifest.webmanifest', 'icon-192.png',
+const C = 'deutsch-v4';
+const SHELL = ['./', 'index.html', 'style.css?v=4', 'app.js?v=4', 'games.js?v=4', 'config.js?v=4', 'manifest.webmanifest', 'icon-192.png',
   'data/words.json', 'data/grammar.json', 'data/aussprache.json', 'data/course.json'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(C).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== C).map(k => caches.delete(k)))).then(() => self.clients.claim())); });

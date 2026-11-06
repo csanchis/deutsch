@@ -18,8 +18,8 @@ const A1_MARK = 0.53;                               // posición de «A1» en la
 
 /* ───────── Estado ───────── */
 const EPOCH = 2;                                    // subir para descartar todo el progreso anterior (local y remoto)
-const blank = () => ({v: 2, epoch: EPOCH, cards: {}, log: {}, custom: {}, units: {}, pron: {}, sp: {}, uq: [],
-  set: {newPerDay: 5, focus: 'mix', autoSpeak: true, theme: 'auto', classH: 0, rate: 0.95, t: 0}});
+const blank = () => ({v: 2, epoch: EPOCH, cards: {}, log: {}, custom: {}, units: {}, pron: {}, sp: {}, games: {}, uq: [],
+  set: {newPerDay: 5, focus: 'mix', autoSpeak: true, theme: 'auto', classH: 0, rate: 0.95, gpool: 'mine', t: 0}});
 let S = (() => { try { const s = JSON.parse(localStorage.getItem('de_state')); if (s && s.v && (s.epoch || 1) >= EPOCH) return {...blank(), ...s, set: {...blank().set, ...s.set}}; } catch {} return blank(); })();
 const persist = () => { try { localStorage.setItem('de_state', JSON.stringify(S)); } catch {} };
 function save(delay = 2500) { persist(); schedulePush(delay); }
@@ -37,14 +37,14 @@ function merge(a, b) {
   const m = blank();
   m.cards = {...a.cards};
   for (const [id, v] of Object.entries(b.cards || {})) if (!m.cards[id] || v[2] > m.cards[id][2]) m.cards[id] = v;
-  for (const k of ['custom', 'units', 'pron', 'sp']) {
+  for (const k of ['custom', 'units', 'pron', 'sp', 'games']) {
     m[k] = {...a[k]};
     for (const [id, v] of Object.entries(b[k] || {})) if (!m[k][id] || (v.t || 0) > (m[k][id].t || 0)) m[k][id] = v;
   }
   m.log = {...a.log};
   for (const [d, v] of Object.entries(b.log || {})) {
     const x = m.log[d]; if (!x) { m.log[d] = v; continue; }
-    const y = {...x}; for (const f of ['r', 'n', 'g', 'sec', 'ex', 'p', 't']) y[f] = Math.max(x[f] || 0, v[f] || 0);
+    const y = {...x}; for (const f of ['r', 'n', 'g', 'sec', 'ex', 'xp', 'p', 't']) y[f] = Math.max(x[f] || 0, v[f] || 0);
     y.done = !!(x.done || v.done); m.log[d] = y;
   }
   m.epoch = Math.max(a.epoch || 1, b.epoch || 1);
@@ -285,8 +285,13 @@ function answerOf(it) {
   if (it.t === 'order') return it.a; if (it.t === 'listen') return it.de; if (it.t === 'tr') return it.a[0];
   return '';
 }
+function shuffleOpts(it) {   // baraja las opciones de elección múltiple manteniendo la respuesta correcta
+  if ((it.t !== 'mc' && it.t !== 'read') || !Array.isArray(it.o)) return {...it};
+  const idx = shuffle(it.o.map((_, i) => i));
+  return {...it, o: idx.map(i => it.o[i]), a: idx.indexOf(it.a)};
+}
 function startRun(items, opt) {
-  R = {items: items.map(x => ({...x})), i: 0, ok: 0, scored: 0, wrong: [], ...opt};
+  R = {items: items.map(shuffleOpts), i: 0, ok: 0, scored: 0, wrong: [], ...opt};
   document.body.classList.add('running'); window.scrollTo(0, 0); renderRun();
 }
 function quitRun() { R = null; document.body.classList.remove('running'); route(); }
@@ -433,8 +438,9 @@ const ICON = {
   palabras: '<svg viewBox="0 0 24 24"><rect x="3" y="5" width="13" height="15" rx="2"/><path d="M8 2h11a2 2 0 0 1 2 2v13"/></svg>',
   hablar: '<svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>',
   progreso: '<svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>',
+  jugar: '<svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 11v3M5.5 12.5h3M15.5 12h.01M18 14h.01"/></svg>',
 };
-function nav(cur) { return `<nav class="tabs">${[['hoy', 'Hoy'], ['curso', 'Curso'], ['palabras', 'Palabras'], ['hablar', 'Hablar'], ['progreso', 'Progreso']].map(([k, l]) => `<a href="#${k}" class="${cur === k ? 'on' : ''}">${ICON[k]}${l}</a>`).join('')}</nav>`; }
+function nav(cur) { return `<nav class="tabs">${[['hoy', 'Hoy'], ['curso', 'Curso'], ['jugar', 'Jugar'], ['palabras', 'Palabras'], ['hablar', 'Hablar'], ['progreso', 'Progreso']].map(([k, l]) => `<a href="#${k}" class="${cur === k ? 'on' : ''}">${ICON[k]}${l}</a>`).join('')}</nav>`; }
 function page(cur, html) { $('#app').innerHTML = `<div class="wrap">${html}</div>${nav(cur)}`; }
 function bigBar(p) {
   return `<div class="bigbar"><div class="bar"><i style="width:${(p * 100).toFixed(1)}%"></i></div><div class="mark" style="left:${A1_MARK * 100}%"><span>A1</span></div><div class="mark" style="left:calc(100% - 2px)"><span style="left:auto;right:0;transform:none">A2</span></div></div>`;
@@ -462,6 +468,7 @@ function viewHoy() {
       ${nu ? (() => { const s = unitStep(nu); return `<div class="card task"><div class="n">2</div><div class="grow"><h3>Curso · Unidad ${nu.n}</h3><div class="small ink2">${esc(nu.title)} — ${esc(nu.title_es)}</div><div class="bar thin" style="margin:8px 0"><i style="width:${unitScore(nu.id) * 100}%"></i></div><div class="row"><a class="btn sm" href="${s.hash}">${s.label}</a></div></div></div>`; })() : `<div class="card task done"><div class="n">✓</div><div><h3>Curso completado</h3><div class="small ink2">Has aprobado las 22 unidades.</div></div></div>`}
       ${sod ? `<div class="card task ${soundDone(sod.id) ? 'done' : ''}"><div class="n">${soundDone(sod.id) ? '✓' : 3}</div><div class="grow"><h3>Pronunciación · ${esc(sod.t)}</h3><div class="small ink2">Escucha, repite y comprueba si se te entiende.</div><div class="row" style="margin-top:10px"><a class="btn sm" href="#sonido/${sod.id}">Practicar</a></div></div></div>` : ''}
     </div>
+    <a class="unit" href="#jugar" style="margin-top:14px"><div class="tag orange" style="width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;flex:none">▶</div><div class="grow"><div style="font-weight:600">¿Sin ganas de estudiar? Juega</div><div class="small muted">Contrarreloj, der/die/das, parejas… también cuenta para tu racha${L.xp ? ` · hoy ${L.xp} puntos` : ''}</div></div></a>
     <details class="card plain" style="margin-top:22px"><summary>＋ Apuntar palabras de clase</summary>
       <textarea id="addtxt" placeholder="Una por línea:\njetzt = ahora\ndie Schweiz = Suiza\ntanzen = bailar"></textarea>
       <div class="row" style="margin-top:8px"><span class="tiny muted grow">Entran primero en tu repaso diario.</span><button class="btn sm primary" id="addbtn">Guardar</button></div></details>`);
@@ -610,12 +617,14 @@ function route() {
   if (!G) return;
   const [v, arg] = (location.hash.slice(1) || 'hoy').split('/');
   if (R && !['sesion', 'mas', 'ej', 'test'].includes(v)) { R = null; document.body.classList.remove('running'); }
+  if (typeof GM !== 'undefined' && GM && v !== 'juego') stopGame();
+  if (v === 'juego') return startGame(arg);
   if (v === 'sesion' || v === 'mas') { history.replaceState(null, '', '#hoy'); const q = buildWordSession(v === 'mas'); if (!q.length) { toast('No hay nada pendiente. ¡Bien!'); return viewHoy(); } return startRun(q, {mode: 'words', title: v === 'mas' ? 'Práctica extra' : 'Palabras de hoy', extra: v === 'mas'}); }
   if ((v === 'ej' || v === 'test') && UNIT[arg]) { history.replaceState(null, '', '#unidad/' + arg); const u = UNIT[arg]; const items = v === 'ej' ? shuffle(u.exercises || []) : shuffle(u.test || []); return startRun(items, {mode: v === 'ej' ? 'ex' : 'test', unit: arg, title: `${v === 'ej' ? 'Ejercicios' : 'Test'} · ${u.title}`}); }
   window.scrollTo(0, 0);
-  ({hoy: viewHoy, curso: viewCurso, unidad: () => viewUnidad(arg), palabras: viewPalabras, hablar: viewHablar, sonido: () => viewSonido(arg), progreso: viewProgreso}[v] || viewHoy)();
+  ({hoy: viewHoy, curso: viewCurso, unidad: () => viewUnidad(arg), palabras: viewPalabras, hablar: viewHablar, sonido: () => viewSonido(arg), progreso: viewProgreso, jugar: viewJugar}[v] || viewHoy)();
 }
 addEventListener('hashchange', route);
 applyTheme();
-loadData().then(() => { route(); sync(); }).catch(err => { $('#app').innerHTML = `<div class="wrap"><h1>No se pudieron cargar los datos</h1><p class="muted">${esc(err.message)}</p></div>`; });
+addEventListener('DOMContentLoaded', () => loadData().then(() => { route(); sync(); }).catch(err => { $('#app').innerHTML = `<div class="wrap"><h1>No se pudieron cargar los datos</h1><p class="muted">${esc(err.message)}</p></div>`; }));
 if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js');
