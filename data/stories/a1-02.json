@@ -1,0 +1,138 @@
+{
+ "title": "Die Nummer",
+ "title_es": "El número",
+ "lines": [
+  {
+   "de": "Lucía und Jonas sind im Labor, Raum zweiundvierzig.",
+   "es": "Lucía y Jonas están en el laboratorio, sala cuarenta y dos."
+  },
+  {
+   "who": "Jonas",
+   "de": "Der Code für die Tür ist vier – sieben – eins – neun.",
+   "es": "El código de la puerta es cuatro – siete – uno – nueve."
+  },
+  {
+   "who": "Lucía",
+   "de": "Vier, sieben, eins, neun. Danke! Und wie ist dein Nachname, Jonas?",
+   "es": "Cuatro, siete, uno, nueve. ¡Gracias! ¿Y cuál es tu apellido, Jonas?"
+  },
+  {
+   "who": "Jonas",
+   "de": "Schulz. S – C – H – U – L – Z.",
+   "es": "Schulz. Ese – tse – ha – u – el – tset."
+  },
+  {
+   "who": "Lucía",
+   "de": "Schulz. Und wie alt bist du?",
+   "es": "Schulz. ¿Y cuántos años tienes?"
+  },
+  {
+   "who": "Jonas",
+   "de": "Ich bin einunddreißig. Und du?",
+   "es": "Tengo treinta y uno. ¿Y tú?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ich bin neunundzwanzig. Jonas, hier ist ein Zettel: «Ich kenne dich.»",
+   "es": "Tengo veintinueve. Jonas, aquí hay una nota: «Te conozco.»"
+  },
+  {
+   "who": "Jonas",
+   "de": "Und hier ist eine Nummer: null – eins – sieben – sechs, drei – vier – acht – zwo, neun – eins.",
+   "es": "Y aquí hay un número: cero – uno – siete – seis, tres – cuatro – ocho – dos, nueve – uno."
+  },
+  {
+   "who": "Lucía",
+   "de": "Wer ist das? Bist du das, Jonas?",
+   "es": "¿Quién es? ¿Eres tú, Jonas?"
+  },
+  {
+   "who": "Jonas",
+   "de": "Ich? Nein! Ich bin harmlos. Und müde.",
+   "es": "¿Yo? ¡No! Soy inofensivo. Y estoy cansado."
+  },
+  {
+   "de": "Abends. Lucía ist zu Hause. Das Handy klingelt: eine Nummer, null – eins – sieben – sechs…",
+   "es": "Por la noche. Lucía está en casa. Suena el móvil: un número, cero – uno – siete – seis…"
+  },
+  {
+   "who": "Lucía",
+   "de": "Hallo? Hier ist Lucía García. Wer ist da?",
+   "es": "¿Hola? Soy Lucía García. ¿Quién es?"
+  },
+  {
+   "de": "Stille.",
+   "es": "Silencio."
+  },
+  {
+   "who": "Lucía",
+   "de": "Hallo?! Wer sind Sie?",
+   "es": "¿¡Hola!? ¿Quién es usted?"
+  }
+ ],
+ "gloss": [
+  [
+   "der Raum",
+   "la sala"
+  ],
+  [
+   "die Tür",
+   "la puerta"
+  ],
+  [
+   "der Code",
+   "el código"
+  ],
+  [
+   "harmlos",
+   "inofensivo/a"
+  ],
+  [
+   "zu Hause",
+   "en casa"
+  ],
+  [
+   "klingeln",
+   "sonar (teléfono, timbre)"
+  ],
+  [
+   "die Stille",
+   "el silencio"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿En qué sala está el laboratorio?",
+   "o": [
+    "En la 42",
+    "En la 24",
+    "En la 4719"
+   ],
+   "a": 0,
+   "exp": "«Raum zweiundvierzig»: zwei-und-vierzig = 42."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuántos años tiene Jonas?",
+   "o": [
+    "31",
+    "29",
+    "13"
+   ],
+   "a": 0,
+   "exp": "Jonas dice: «Ich bin einunddreißig» = 31. Lucía tiene 29."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué pasa al final?",
+   "o": [
+    "Llaman a Lucía y nadie habla",
+    "Jonas llama a Lucía para gastarle una broma",
+    "Lucía llama a la profesora Wolf"
+   ],
+   "a": 0,
+   "exp": "Suena el móvil, Lucía pregunta quién es… y solo hay silencio (Stille)."
+  }
+ ]
+}

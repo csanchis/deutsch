@@ -1,0 +1,158 @@
+{
+ "title": "Die rote Jacke",
+ "title_es": "La chaqueta roja",
+ "lines": [
+  {
+   "de": "Heidelberg, Samstag, Viertel vor acht. Der Bahnhof ist voll.",
+   "es": "Heidelberg, sábado, las ocho menos cuarto. La estación está llena."
+  },
+  {
+   "who": "Jonas",
+   "de": "Ich habe einen großen Kaffee und zwei warme Brezeln. Möchtest du eine?",
+   "es": "Tengo un café grande y dos pretzels calentitos. ¿Quieres uno?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Danke, aber ich bin zu nervös. Wir suchen einen großen, grauen Koffer, oder?",
+   "es": "Gracias, pero estoy demasiado nerviosa. Buscamos una maleta grande y gris, ¿no?"
+  },
+  {
+   "who": "Jonas",
+   "de": "Genau. Frau Becker sagt, Felix hat den grauen Koffer gestern abgeholt.",
+   "es": "Exacto. Frau Becker dice que Felix recogió ayer la maleta gris."
+  },
+  {
+   "who": "Lucía",
+   "de": "Und Mia? Sie hat eine neue Jacke. Eine rote Jacke mit einer großen Kapuze.",
+   "es": "¿Y Mia? Tiene una chaqueta nueva. Una chaqueta roja con una capucha grande."
+  },
+  {
+   "who": "Jonas",
+   "de": "Rot? Mia trägt doch immer graue Pullover und alte Jeans!",
+   "es": "¿Roja? ¡Pero si Mia siempre lleva jerséis grises y vaqueros viejos!"
+  },
+  {
+   "who": "Lucía",
+   "de": "Eben. Und die neue Jacke war teuer. Sehr teuer.",
+   "es": "Precisamente. Y la chaqueta nueva era cara. Muy cara."
+  },
+  {
+   "de": "Ein großer Mann mit einem grauen Koffer geht langsam vorbei.",
+   "es": "Un hombre alto con una maleta gris pasa despacio."
+  },
+  {
+   "who": "Jonas",
+   "de": "Da! Ist das Felix?",
+   "es": "¡Ahí! ¿Es Felix?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Nein. Der Mann ist sicher siebzig Jahre alt und hat einen langen, weißen Bart.",
+   "es": "No. Ese hombre tiene por lo menos setenta años y una barba larga y blanca."
+  },
+  {
+   "who": "Jonas",
+   "de": "Und die junge Frau dort, mit dem roten Mantel?",
+   "es": "¿Y la chica de ahí, la del abrigo rojo?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Das ist ein Mantel, keine Jacke. Und sie hat einen kleinen, dicken Hund.",
+   "es": "Eso es un abrigo, no una chaqueta. Y lleva un perro pequeño y gordo."
+  },
+  {
+   "who": "Jonas",
+   "de": "Okay, okay. Ich bin ein schlechter Detektiv.",
+   "es": "Vale, vale. Soy un mal detective."
+  },
+  {
+   "who": "Lucía",
+   "de": "Du bist ein müder Detektiv. Trink deinen großen Kaffee!",
+   "es": "Eres un detective cansado. ¡Bébete tu café grande!"
+  },
+  {
+   "who": "Jonas",
+   "de": "Es ist genau acht Uhr. Kein Felix. Vielleicht war die Nachricht nur ein dummer Witz.",
+   "es": "Son las ocho en punto. Ni rastro de Felix. Quizá el mensaje era solo una broma tonta."
+  },
+  {
+   "who": "Lucía",
+   "de": "Warte! Siehst du die rote Jacke dort, neben dem Fahrkartenautomaten?",
+   "es": "¡Espera! ¿Ves la chaqueta roja de ahí, al lado de la máquina de billetes?"
+  },
+  {
+   "de": "Eine kleine, blasse Frau kommt in den Bahnhof. Sie trägt eine neue, rote Jacke … und eine blaue Kühlbox.",
+   "es": "Una mujer bajita y pálida entra en la estación. Lleva una chaqueta roja nueva… y una nevera azul."
+  },
+  {
+   "who": "Lucía",
+   "de": "Das ist Mia.",
+   "es": "Es Mia."
+  }
+ ],
+ "gloss": [
+  [
+   "die Kühlbox",
+   "la nevera portátil"
+  ],
+  [
+   "die Kapuze",
+   "la capucha"
+  ],
+  [
+   "der Bart",
+   "la barba"
+  ],
+  [
+   "blass",
+   "pálido/a"
+  ],
+  [
+   "der Fahrkartenautomat",
+   "la máquina de billetes"
+  ],
+  [
+   "eben",
+   "precisamente"
+  ],
+  [
+   "abholen",
+   "recoger"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Por qué le extraña a Jonas la chaqueta roja de Mia?",
+   "o": [
+    "Porque es la chaqueta de Lucía",
+    "Porque Mia suele llevar jerséis grises y vaqueros viejos",
+    "Porque hace mucho calor"
+   ],
+   "a": 1,
+   "exp": "Jonas dice: «Mia trägt doch immer graue Pullover und alte Jeans!»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Por qué el hombre de la maleta gris no es Felix?",
+   "o": [
+    "Tiene unos setenta años y barba blanca",
+    "Lleva un perro pequeño",
+    "Lleva un abrigo rojo"
+   ],
+   "a": 0,
+   "exp": "Lucía: «Der Mann ist sicher siebzig Jahre alt und hat einen langen, weißen Bart.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué lleva Mia cuando llega a la estación?",
+   "o": [
+    "Una maleta grande y gris",
+    "Un café y dos pretzels",
+    "Una nevera azul"
+   ],
+   "a": 2,
+   "exp": "«Sie trägt eine neue, rote Jacke … und eine blaue Kühlbox.»"
+  }
+ ]
+}

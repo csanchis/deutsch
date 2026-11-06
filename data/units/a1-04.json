@@ -13,23 +13,255 @@
  "lessons": [
   {
    "h": "Tres géneros: der, die, das",
-   "html": "<p>En alemán hay <b>tres géneros</b>: masculino (<b>der</b>), femenino (<b>die</b>) y neutro (<b>das</b>). El artículo indeterminado es <b>ein</b> (m. y n.) y <b>eine</b> (f.). En plural: <b>die</b> y sin indeterminado.</p><table><thead><tr><th></th><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td>determinado</td><td>der Vater</td><td>die Mutter</td><td>das Kind</td><td>die Kinder</td></tr><tr><td>indeterminado</td><td>ein Vater</td><td>eine Mutter</td><td>ein Kind</td><td>Kinder</td></tr><tr><td>negación</td><td>kein Vater</td><td>keine Mutter</td><td>kein Kind</td><td>keine Kinder</td></tr></tbody></table><p><b>Ojo:</b> el género casi nunca coincide con el español: <span class=\"de\">der Tisch</span> (la mesa), <span class=\"de\">die Sonne</span> (el sol), <span class=\"de\">das Mädchen</span> (la chica, ¡neutro!). Aprende siempre cada sustantivo <b>con su artículo y su plural</b>. Todos los sustantivos se escriben con mayúscula.</p>"
+   "html": "<p>En alemán hay <b>tres géneros</b>: masculino (<b>der</b>), femenino (<b>die</b>) y neutro (<b>das</b>). El artículo indeterminado es <b>ein</b> (m. y n.) y <b>eine</b> (f.). En plural: <b>die</b> y sin indeterminado.</p><table><thead><tr><th></th><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td>determinado</td><td>der Vater</td><td>die Mutter</td><td>das Kind</td><td>die Kinder</td></tr><tr><td>indeterminado</td><td>ein Vater</td><td>eine Mutter</td><td>ein Kind</td><td>Kinder</td></tr><tr><td>negación</td><td>kein Vater</td><td>keine Mutter</td><td>kein Kind</td><td>keine Kinder</td></tr></tbody></table><p><b>Ojo:</b> el género casi nunca coincide con el español: <span class=\"de\">der Tisch</span> (la mesa), <span class=\"de\">die Sonne</span> (el sol), <span class=\"de\">das Mädchen</span> (la chica, ¡neutro!). Aprende siempre cada sustantivo <b>con su artículo y su plural</b>. Todos los sustantivos se escriben con mayúscula.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "El español tiene dos géneros (el/la). El alemán usa tres artículos: der, die, das. ¿Qué crees que significa eso?",
+    "o": [
+     "Hay masculino, femenino y neutro",
+     "Hay dos géneros y un plural",
+     "Son tres formas de decir «el»"
+    ],
+    "a": 0,
+    "exp": "Tres géneros: der (masculino), die (femenino) y das (neutro). Y casi nunca coinciden con el español."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Das ist ___ Tisch.",
+     "o": [
+      "ein",
+      "eine",
+      "einen"
+     ],
+     "a": 0,
+     "exp": "der Tisch (masculino) → ein Tisch."
+    },
+    {
+     "t": "gap",
+     "q": "Das ist ___ Mutter.",
+     "a": [
+      "eine"
+     ],
+     "hint": "artículo indeterminado",
+     "exp": "die Mutter (femenino) → eine Mutter."
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué palabras se escriben con mayúscula en alemán?",
+     "o": [
+      "Todos los sustantivos",
+      "Solo los nombres propios",
+      "Solo la primera palabra de la frase"
+     ],
+     "a": 0,
+     "exp": "Todos los sustantivos van con mayúscula: der Tisch, die Mutter, das Kind."
+    }
+   ]
   },
   {
    "h": "Pistas para adivinar el género",
-   "html": "<table><thead><tr><th>terminación</th><th>género</th><th>ejemplos</th></tr></thead><tbody><tr><td>-ung, -heit, -keit, -schaft, -ion, -tät</td><td>die (siempre)</td><td>die Zeitung, die Freiheit, die Freundschaft, die Information, die Universität</td></tr><tr><td>-in (personas femeninas)</td><td>die</td><td>die Lehrerin, die Ärztin</td></tr><tr><td>-chen, -lein (diminutivos)</td><td>das (siempre)</td><td>das Mädchen, das Brötchen</td></tr><tr><td>-e</td><td>die (casi siempre)</td><td>die Tante, die Familie (pero: der Junge)</td></tr><tr><td>-er (personas, aparatos)</td><td>der (a menudo)</td><td>der Lehrer, der Computer</td></tr></tbody></table><p>Las personas suelen tener su género natural (<span class=\"de\">der Vater, die Mutter</span>), con excepciones como <span class=\"de\">das Mädchen</span> o <span class=\"de\">das Kind</span>.</p><p><b>Ojo:</b> el pronombre sigue al género gramatical: <span class=\"de\">Das Mädchen heißt Lena. Es ist sechs.</span></p>"
+   "html": "<table><thead><tr><th>terminación</th><th>género</th><th>ejemplos</th></tr></thead><tbody><tr><td>-ung, -heit, -keit, -schaft, -ion, -tät</td><td>die (siempre)</td><td>die Zeitung, die Freiheit, die Freundschaft, die Information, die Universität</td></tr><tr><td>-in (personas femeninas)</td><td>die</td><td>die Lehrerin, die Ärztin</td></tr><tr><td>-chen, -lein (diminutivos)</td><td>das (siempre)</td><td>das Mädchen, das Brötchen</td></tr><tr><td>-e</td><td>die (casi siempre)</td><td>die Tante, die Familie (pero: der Junge)</td></tr><tr><td>-er (personas, aparatos)</td><td>der (a menudo)</td><td>der Lehrer, der Computer</td></tr></tbody></table><p>Las personas suelen tener su género natural (<span class=\"de\">der Vater, die Mutter</span>), con excepciones como <span class=\"de\">das Mädchen</span> o <span class=\"de\">das Kind</span>.</p><p><b>Ojo:</b> el pronombre sigue al género gramatical: <span class=\"de\">Das Mädchen heißt Lena. Es ist sechs.</span></p>",
+   "pre": {
+    "t": "mc",
+    "q": "die Zeitung (periódico), die Wohnung (piso), die Übung (ejercicio)… ¿Qué artículo crees que lleva «Rechnung» (factura)?",
+    "o": [
+     "die",
+     "der",
+     "das"
+    ],
+    "a": 0,
+    "exp": "Las palabras en -ung son siempre femeninas: die Rechnung."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "___ Brötchen ist klein.",
+     "o": [
+      "Das",
+      "Die",
+      "Der"
+     ],
+     "a": 0,
+     "exp": "-chen es siempre neutro: das Brötchen."
+    },
+    {
+     "t": "gap",
+     "q": "___ Universität ist alt.",
+     "a": [
+      "Die",
+      "die"
+     ],
+     "hint": "artículo determinado",
+     "exp": "-tät es siempre femenino: die Universität."
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué artículo lleva «Information»?",
+     "o": [
+      "die",
+      "der",
+      "das"
+     ],
+     "a": 0,
+     "exp": "-ion es siempre femenino: die Information."
+    }
+   ]
   },
   {
    "h": "El plural",
-   "html": "<p>No hay una única regla; aprende el plural con cada palabra. El artículo en plural es siempre <b>die</b>.</p><table><thead><tr><th>tipo</th><th>singular → plural</th></tr></thead><tbody><tr><td>-(e)n</td><td>die Schwester → die Schwester<b>n</b>, die Frau → die Frau<b>en</b>, die Tante → die Tante<b>n</b></td></tr><tr><td>-e / ¨-e</td><td>der Hund → die Hund<b>e</b>, der Sohn → die S<b>ö</b>hn<b>e</b></td></tr><tr><td>-er / ¨-er</td><td>das Kind → die Kind<b>er</b>, der Mann → die M<b>ä</b>nn<b>er</b></td></tr><tr><td>sin cambio / ¨</td><td>der Onkel → die Onkel, der Vater → die V<b>ä</b>ter, die Mutter → die M<b>ü</b>tter, der Bruder → die Br<b>ü</b>der, die Tochter → die T<b>ö</b>chter</td></tr><tr><td>-s (palabras cortas o extranjeras)</td><td>die Oma → die Oma<b>s</b>, der Opa → die Opa<b>s</b>, das Foto → die Foto<b>s</b></td></tr></tbody></table><p>Pistas: femeninos en -e e -in → -n/-nen (<span class=\"de\">die Lehrerinnen</span>); -chen y -er no cambian (<span class=\"de\">die Mädchen, die Lehrer</span>).</p><p><b>Ojo:</b> no pongas -s a todo como en español (*die Kinds). Algunas palabras solo existen en plural: <span class=\"de\">die Eltern</span> (los padres), <span class=\"de\">die Geschwister</span> (los hermanos).</p>"
+   "html": "<p>No hay una única regla; aprende el plural con cada palabra. El artículo en plural es siempre <b>die</b>.</p><table><thead><tr><th>tipo</th><th>singular → plural</th></tr></thead><tbody><tr><td>-(e)n</td><td>die Schwester → die Schwester<b>n</b>, die Frau → die Frau<b>en</b>, die Tante → die Tante<b>n</b></td></tr><tr><td>-e / ¨-e</td><td>der Hund → die Hund<b>e</b>, der Sohn → die S<b>ö</b>hn<b>e</b></td></tr><tr><td>-er / ¨-er</td><td>das Kind → die Kind<b>er</b>, der Mann → die M<b>ä</b>nn<b>er</b></td></tr><tr><td>sin cambio / ¨</td><td>der Onkel → die Onkel, der Vater → die V<b>ä</b>ter, die Mutter → die M<b>ü</b>tter, der Bruder → die Br<b>ü</b>der, die Tochter → die T<b>ö</b>chter</td></tr><tr><td>-s (palabras cortas o extranjeras)</td><td>die Oma → die Oma<b>s</b>, der Opa → die Opa<b>s</b>, das Foto → die Foto<b>s</b></td></tr></tbody></table><p>Pistas: femeninos en -e e -in → -n/-nen (<span class=\"de\">die Lehrerinnen</span>); -chen y -er no cambian (<span class=\"de\">die Mädchen, die Lehrer</span>).</p><p><b>Ojo:</b> no pongas -s a todo como en español (*die Kinds). Algunas palabras solo existen en plural: <span class=\"de\">die Eltern</span> (los padres), <span class=\"de\">die Geschwister</span> (los hermanos).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Las palabras cortas o extranjeras a veces hacen el plural como en español. ¿Cuál crees que es el plural de «das Foto»?",
+    "o": [
+     "die Fotos",
+     "die Fotoen",
+     "die Föter"
+    ],
+    "a": 0,
+    "exp": "Palabras cortas o extranjeras → -s: die Fotos. Pero ojo: la mayoría NO lleva -s (das Kind → die Kinder)."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "eine Schwester, zwei ___",
+     "a": [
+      "Schwestern"
+     ],
+     "hint": "plural",
+     "exp": "Femeninos en -er/-e → -n: die Schwestern."
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál es el plural de «der Mann»?",
+     "o": [
+      "die Männer",
+      "die Manns",
+      "die Manne"
+     ],
+     "a": 0,
+     "exp": "der Mann → die Männer (-er con Umlaut)."
+    },
+    {
+     "t": "mc",
+     "q": "___ Eltern wohnen in Valencia.",
+     "o": [
+      "Die",
+      "Der",
+      "Das"
+     ],
+     "a": 0,
+     "exp": "En plural el artículo es siempre die. Y Eltern solo existe en plural."
+    }
+   ]
   },
   {
    "h": "Posesivos en nominativo",
-   "html": "<table><thead><tr><th>persona</th><th>der / das</th><th>die / plural</th><th>español</th></tr></thead><tbody><tr><td>ich</td><td>mein</td><td>meine</td><td>mi, mis</td></tr><tr><td>du</td><td>dein</td><td>deine</td><td>tu, tus</td></tr><tr><td>er / es</td><td>sein</td><td>seine</td><td>su (de él)</td></tr><tr><td>sie</td><td>ihr</td><td>ihre</td><td>su (de ella)</td></tr><tr><td>wir</td><td>unser</td><td>unsere</td><td>nuestro/a</td></tr><tr><td>ihr</td><td>euer</td><td><b>eure</b></td><td>vuestro/a</td></tr><tr><td>sie</td><td>ihr</td><td>ihre</td><td>su (de ellos)</td></tr><tr><td>Sie</td><td>Ihr</td><td>Ihre</td><td>su (de usted)</td></tr></tbody></table><p>El posesivo lleva las mismas terminaciones que <i>ein/kein</i>: <span class=\"de\">mein Vater, meine Mutter, mein Kind, meine Eltern</span>.</p><p><b>Ojo:</b> el español «su» es ambiguo; el alemán no. Depende de <b>quién posee</b>: <span class=\"de\">Peter und sein Bruder</span>, <span class=\"de\">Anna und ihr Bruder</span>. Y <span class=\"de\">euer</span> pierde la e: <span class=\"de\">eure Mutter</span> (no *euere).</p>"
+   "html": "<table><thead><tr><th>persona</th><th>der / das</th><th>die / plural</th><th>español</th></tr></thead><tbody><tr><td>ich</td><td>mein</td><td>meine</td><td>mi, mis</td></tr><tr><td>du</td><td>dein</td><td>deine</td><td>tu, tus</td></tr><tr><td>er / es</td><td>sein</td><td>seine</td><td>su (de él)</td></tr><tr><td>sie</td><td>ihr</td><td>ihre</td><td>su (de ella)</td></tr><tr><td>wir</td><td>unser</td><td>unsere</td><td>nuestro/a</td></tr><tr><td>ihr</td><td>euer</td><td><b>eure</b></td><td>vuestro/a</td></tr><tr><td>sie</td><td>ihr</td><td>ihre</td><td>su (de ellos)</td></tr><tr><td>Sie</td><td>Ihr</td><td>Ihre</td><td>su (de usted)</td></tr></tbody></table><p>El posesivo lleva las mismas terminaciones que <i>ein/kein</i>: <span class=\"de\">mein Vater, meine Mutter, mein Kind, meine Eltern</span>.</p><p><b>Ojo:</b> el español «su» es ambiguo; el alemán no. Depende de <b>quién posee</b>: <span class=\"de\">Peter und sein Bruder</span>, <span class=\"de\">Anna und ihr Bruder</span>. Y <span class=\"de\">euer</span> pierde la e: <span class=\"de\">eure Mutter</span> (no *euere).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español «su hermano» puede ser de él o de ella. Si «sein» = su (de él), ¿cómo crees que se dice «Anna y su hermano» (el hermano de ella)?",
+    "o": [
+     "Anna und ihr Bruder",
+     "Anna und sein Bruder",
+     "Anna und seine Bruder"
+    ],
+    "a": 0,
+    "exp": "En alemán «su» depende de quién posee: de él → sein, de ella → ihr. Anna und ihr Bruder."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Lucía, ist das ___ Katze?",
+     "a": [
+      "deine"
+     ],
+     "hint": "tu",
+     "exp": "du → dein; die Katze es femenino → deine."
+    },
+    {
+     "t": "mc",
+     "q": "Frau Becker hat eine Katze. ___ Katze heißt Einstein.",
+     "o": [
+      "Ihre",
+      "Seine",
+      "Deine"
+     ],
+     "a": 0,
+     "exp": "Poseedora femenina (Frau Becker) → ihr; Katze es femenino → Ihre (mayúscula por ir al principio)."
+    },
+    {
+     "t": "tr",
+     "es": "Tu hermano es profesor.",
+     "a": [
+      "Dein Bruder ist Lehrer."
+     ],
+     "exp": "du → dein; der Bruder (masculino) → dein Bruder. Profesión sin artículo."
+    }
+   ]
   },
   {
    "h": "La familia y la negación con kein",
-   "html": "<table><thead><tr><th>masculino</th><th>femenino</th><th>plural</th></tr></thead><tbody><tr><td>der Vater (padre)</td><td>die Mutter (madre)</td><td>die Eltern (padres)</td></tr><tr><td>der Bruder (hermano)</td><td>die Schwester (hermana)</td><td>die Geschwister (hermanos)</td></tr><tr><td>der Sohn (hijo)</td><td>die Tochter (hija)</td><td>die Kinder (hijos)</td></tr><tr><td>der Opa / Großvater</td><td>die Oma / Großmutter</td><td>die Großeltern</td></tr><tr><td>der Onkel (tío)</td><td>die Tante (tía)</td><td></td></tr><tr><td>der Mann (marido, hombre)</td><td>die Frau (mujer, esposa)</td><td></td></tr></tbody></table><p><b>kein / keine</b> niega un sustantivo que llevaría <i>ein</i> o ningún artículo: <span class=\"de\">Das ist kein Hund, das ist eine Katze.</span> <span class=\"de\">Ich habe keine Kinder.</span> Se declina como <i>ein</i> (kein Bruder, keine Schwester, kein Kind, keine Geschwister).</p><p><b>Ojo:</b> no se dice *nicht ein; se dice <span class=\"de\">kein</span>. Estado civil: <span class=\"de\">Ich bin verheiratet / ledig / geschieden.</span></p>"
+   "html": "<table><thead><tr><th>masculino</th><th>femenino</th><th>plural</th></tr></thead><tbody><tr><td>der Vater (padre)</td><td>die Mutter (madre)</td><td>die Eltern (padres)</td></tr><tr><td>der Bruder (hermano)</td><td>die Schwester (hermana)</td><td>die Geschwister (hermanos)</td></tr><tr><td>der Sohn (hijo)</td><td>die Tochter (hija)</td><td>die Kinder (hijos)</td></tr><tr><td>der Opa / Großvater</td><td>die Oma / Großmutter</td><td>die Großeltern</td></tr><tr><td>der Onkel (tío)</td><td>die Tante (tía)</td><td></td></tr><tr><td>der Mann (marido, hombre)</td><td>die Frau (mujer, esposa)</td><td></td></tr></tbody></table><p><b>kein / keine</b> niega un sustantivo que llevaría <i>ein</i> o ningún artículo: <span class=\"de\">Das ist kein Hund, das ist eine Katze.</span> <span class=\"de\">Ich habe keine Kinder.</span> Se declina como <i>ein</i> (kein Bruder, keine Schwester, kein Kind, keine Geschwister).</p><p><b>Ojo:</b> no se dice *nicht ein; se dice <span class=\"de\">kein</span>. Estado civil: <span class=\"de\">Ich bin verheiratet / ledig / geschieden.</span></p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Ich habe Kinder» = tengo hijos. Si «kein» es la negación de los sustantivos, ¿cómo crees que se dice «No tengo hijos»?",
+    "o": [
+     "Ich habe keine Kinder.",
+     "Ich habe nicht Kinder.",
+     "Ich nicht habe Kinder."
+    ],
+    "a": 0,
+    "exp": "Para negar un sustantivo sin artículo (o con ein) se usa kein/keine: Ich habe keine Kinder."
+   },
+   "check": [
+    {
+     "t": "match",
+     "p": [
+      [
+       "der Onkel",
+       "el tío"
+      ],
+      [
+       "die Tante",
+       "la tía"
+      ],
+      [
+       "die Großeltern",
+       "los abuelos"
+      ],
+      [
+       "die Geschwister",
+       "los hermanos"
+      ],
+      [
+       "die Eltern",
+       "los padres"
+      ]
+     ]
+    },
+    {
+     "t": "gap",
+     "q": "Das ist ___ Katze, das ist ein Hund!",
+     "a": [
+      "keine"
+     ],
+     "hint": "negación",
+     "exp": "die Katze (femenino) → keine Katze."
+    },
+    {
+     "t": "mc",
+     "q": "«Ich bin ledig» significa…",
+     "o": [
+      "Estoy soltera.",
+      "Estoy casada.",
+      "Estoy divorciada."
+     ],
+     "a": 0,
+     "exp": "ledig = soltero/a; verheiratet = casado/a; geschieden = divorciado/a."
+    }
+   ]
   }
  ],
  "vocab": [

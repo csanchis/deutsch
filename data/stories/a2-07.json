@@ -1,0 +1,153 @@
+{
+ "title": "Ich schäme mich",
+ "title_es": "Me da vergüenza",
+ "lines": [
+  {
+   "de": "Lucía geht langsam zu Mia. Jonas versteckt sich hinter einer Zeitung und isst die zweite Brezel.",
+   "es": "Lucía se acerca despacio a Mia. Jonas se esconde detrás de un periódico y se come el segundo pretzel."
+  },
+  {
+   "who": "Lucía",
+   "de": "Guten Morgen, Mia. Was machst du denn hier?",
+   "es": "Buenos días, Mia. ¿Qué haces tú aquí?"
+  },
+  {
+   "who": "Mia",
+   "de": "Lucía! Ich … ich treffe mich hier mit einer Freundin.",
+   "es": "¡Lucía! Yo… he quedado aquí con una amiga."
+  },
+  {
+   "who": "Lucía",
+   "de": "Mit einer Freundin? Oder mit Felix?",
+   "es": "¿Con una amiga? ¿O con Felix?"
+  },
+  {
+   "de": "Mia wird rot. Sie setzt sich auf eine Bank und sieht auf ihre Schuhe.",
+   "es": "Mia se pone roja. Se sienta en un banco y se mira los zapatos."
+  },
+  {
+   "who": "Mia",
+   "de": "Ich schäme mich so, Lucía. Ich fühle mich schrecklich.",
+   "es": "Me da tanta vergüenza, Lucía. Me siento fatal."
+  },
+  {
+   "de": "Lucía setzt sich neben sie. „Erzähl mir alles. Ganz ruhig.“",
+   "es": "Lucía se sienta a su lado. «Cuéntamelo todo. Con calma.»"
+  },
+  {
+   "who": "Mia",
+   "de": "Felix hat mich letzten Monat angerufen. Er hat gesagt: „NovaGen sucht eine Laborassistentin in Berlin.“",
+   "es": "Felix me llamó el mes pasado. Me dijo: «NovaGen busca una técnica de laboratorio en Berlín.»"
+  },
+  {
+   "who": "Mia",
+   "de": "Ich interessiere mich sehr für den Job. Das Geld ist viel besser, und ich möchte so gern in Berlin wohnen.",
+   "es": "Me interesa mucho el trabajo. Pagan mucho mejor, y me encantaría vivir en Berlín."
+  },
+  {
+   "who": "Lucía",
+   "de": "Und was möchte Felix von dir?",
+   "es": "¿Y qué quiere Felix de ti?"
+  },
+  {
+   "who": "Mia",
+   "de": "Den Code von Herrn Brandt habe ich ihm nicht gegeben, ehrlich! Aber ich habe ihm gesagt, dass die Proben im Inkubator sind.",
+   "es": "¡El código de Herr Brandt no se lo di, de verdad! Pero le dije que las muestras estaban en la incubadora."
+  },
+  {
+   "who": "Mia",
+   "de": "Und die kleine Hand im Video … das war meine. Felix hat gesagt: „Kontrollier die Proben im Inkubator!“",
+   "es": "Y la mano pequeña del vídeo… era la mía. Felix me dijo: «¡Comprueba las muestras de la incubadora!»."
+  },
+  {
+   "who": "Lucía",
+   "de": "Ärgerst du dich nicht über ihn? Er spielt mit dir!",
+   "es": "¿No te enfadas con él? ¡Está jugando contigo!"
+  },
+  {
+   "who": "Mia",
+   "de": "Doch. Ich ärgere mich sehr – über ihn und über mich.",
+   "es": "Sí. Estoy muy enfadada: con él y conmigo misma."
+  },
+  {
+   "who": "Mia",
+   "de": "Heute soll ich ihm nur die Kühlbox bringen. Aber sie ist leer. Ich verstehe das nicht.",
+   "es": "Hoy solo tengo que llevarle la nevera. Pero está vacía. No lo entiendo."
+  },
+  {
+   "who": "Lucía",
+   "de": "Beruhig dich, Mia. Wo ist Felix jetzt? Und wo ist meine Hefe?",
+   "es": "Tranquilízate, Mia. ¿Dónde está Felix ahora? ¿Y dónde está mi levadura?"
+  },
+  {
+   "de": "Mia sieht Lucía an. Ihre Hände zittern.",
+   "es": "Mia mira a Lucía. Le tiemblan las manos."
+  },
+  {
+   "who": "Mia",
+   "de": "Er hat die Hefe. Er fährt morgen nach Berlin.",
+   "es": "Él tiene la levadura. Mañana se va a Berlín."
+  }
+ ],
+ "gloss": [
+  [
+   "sich schämen",
+   "avergonzarse"
+  ],
+  [
+   "sich verstecken",
+   "esconderse"
+  ],
+  [
+   "sich beruhigen",
+   "tranquilizarse"
+  ],
+  [
+   "die Bank",
+   "el banco (para sentarse)"
+  ],
+  [
+   "zittern",
+   "temblar"
+  ],
+  [
+   "ehrlich",
+   "de verdad, sinceramente"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Qué le prometió Felix a Mia?",
+   "o": [
+    "Dinero por la levadura",
+    "Un trabajo en Berlín",
+    "Un viaje a Valencia"
+   ],
+   "a": 1,
+   "exp": "Felix le dijo que NovaGen buscaba una técnica de laboratorio en Berlín."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué le contó Mia a Felix?",
+   "o": [
+    "Que las muestras estaban en la incubadora",
+    "El código de Herr Brandt",
+    "Dónde vive Lucía"
+   ],
+   "a": 0,
+   "exp": "«Aber ich habe ihm gesagt, dass die Proben im Inkubator sind.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Cómo está la nevera azul?",
+   "o": [
+    "Llena de levadura",
+    "Rota",
+    "Vacía"
+   ],
+   "a": 2,
+   "exp": "Mia: «Aber sie ist leer.»"
+  }
+ ]
+}

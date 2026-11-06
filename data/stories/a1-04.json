@@ -1,0 +1,130 @@
+{
+ "title": "Das Foto",
+ "title_es": "La foto",
+ "lines": [
+  {
+   "de": "Frau Becker und Einstein sind bei Lucía. Frau Becker hat ein Fotoalbum.",
+   "es": "Frau Becker y Einstein están en casa de Lucía. Frau Becker trae un álbum de fotos."
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Das ist meine Familie! Das ist mein Mann, Karl. Und das sind meine Kinder.",
+   "es": "¡Esta es mi familia! Este es mi marido, Karl. Y estos son mis hijos."
+  },
+  {
+   "who": "Lucía",
+   "de": "Sie haben zwei Kinder?",
+   "es": "¿Tiene dos hijos?"
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Ja, Peter und Anna. Und fünf Enkel!",
+   "es": "Sí, Peter y Anna. ¡Y cinco nietos!"
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Und Sie, Lucía? Haben Sie Geschwister? Sind Sie verheiratet?",
+   "es": "¿Y usted, Lucía? ¿Tiene hermanos? ¿Está casada?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Meine Familie wohnt in Valencia. Mein Bruder Pablo ist Koch und meine Schwester ist Studentin.",
+   "es": "Mi familia vive en Valencia. Mi hermano Pablo es cocinero y mi hermana es estudiante."
+  },
+  {
+   "who": "Lucía",
+   "de": "Und ich bin ledig, Frau Becker.",
+   "es": "Y estoy soltera, señora Becker."
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Ledig! Hmm… Mein Enkel ist auch ledig.",
+   "es": "¡Soltera! Mmm… Mi nieto también está soltero."
+  },
+  {
+   "who": "Lucía",
+   "de": "Und Einstein? Hat er Kinder?",
+   "es": "¿Y Einstein? ¿Tiene hijos?"
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Nein, Einstein hat keine Kinder. Er ist ein Philosoph.",
+   "es": "No, Einstein no tiene hijos. Es un filósofo."
+  },
+  {
+   "de": "Miau! Einstein hat ein Foto im Maul.",
+   "es": "¡Miau! Einstein tiene una foto en la boca."
+  },
+  {
+   "who": "Lucía",
+   "de": "Moment… Das ist das Labor von Professorin Wolf! Und wer ist der Mann hier?",
+   "es": "Un momento… ¡Este es el laboratorio de la profesora Wolf! ¿Y quién es este hombre?"
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Das ist mein Enkel Felix.",
+   "es": "Ese es mi nieto Felix."
+  }
+ ],
+ "gloss": [
+  [
+   "bei Lucía",
+   "en casa de Lucía"
+  ],
+  [
+   "das Fotoalbum",
+   "el álbum de fotos"
+  ],
+  [
+   "der Enkel",
+   "el nieto"
+  ],
+  [
+   "der Philosoph",
+   "el filósofo"
+  ],
+  [
+   "das Maul",
+   "la boca (de un animal)"
+  ],
+  [
+   "Moment!",
+   "¡Un momento!"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Cuántos hijos tiene Frau Becker?",
+   "o": [
+    "Dos",
+    "Cinco",
+    "Ninguno"
+   ],
+   "a": 0,
+   "exp": "Tiene dos hijos, Peter y Anna, y cinco nietos (Enkel)."
+  },
+  {
+   "t": "mc",
+   "q": "¿A qué se dedica el hermano de Lucía?",
+   "o": [
+    "Es cocinero",
+    "Es estudiante",
+    "Es biólogo"
+   ],
+   "a": 0,
+   "exp": "«Mein Bruder Pablo ist Koch» = mi hermano Pablo es cocinero. La estudiante es su hermana."
+  },
+  {
+   "t": "mc",
+   "q": "¿Quién es el hombre de la foto en el laboratorio?",
+   "o": [
+    "Felix, el nieto de Frau Becker",
+    "Karl, el marido de Frau Becker",
+    "Peter, el hijo de Frau Becker"
+   ],
+   "a": 0,
+   "exp": "«Das ist mein Enkel Felix» = es mi nieto Felix. ¿Qué hacía en el laboratorio de la profesora Wolf?"
+  }
+ ]
+}

@@ -163,3 +163,12 @@ details>summary{cursor:pointer;list-style:none;font-weight:500}
 details>summary::-webkit-details-marker{display:none}
 details[open]>summary{margin-bottom:10px}
 hr{border:none;border-top:1px solid var(--grid);margin:18px 0}
+/* clase guiada e historias */
+.slide{border-left:4px solid var(--teal)}
+.slide h3{margin:4px 0 8px}
+.story{margin-top:12px;display:grid;gap:8px}
+.sl{padding:10px 12px;border-radius:var(--radius);border:1px solid var(--grid);background:var(--surface);cursor:pointer;transition:background .2s}
+.sl.now{background:var(--teal-l);border-color:var(--teal)}
+.sl .who{font-size:12px;font-weight:700;color:var(--orange,var(--ink2));text-transform:uppercase;letter-spacing:.05em}
+.sl .sde{font-size:18px;line-height:1.45}
+.sl .ses{margin-top:6px;color:var(--ink2);font-size:15px;border-top:1px dashed var(--grid);padding-top:6px}

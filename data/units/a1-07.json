@@ -13,19 +13,210 @@
  "lessons": [
   {
    "h": "Wie spät ist es? – La hora",
-   "html": "<p>Para preguntar la hora: <span class=\"de\">Wie spät ist es?</span> o <span class=\"de\">Wie viel Uhr ist es?</span> Respuesta: <span class=\"de\">Es ist …</span>. Para «¿a qué hora…?»: <span class=\"de\">Um wie viel Uhr …?</span> o simplemente <span class=\"de\">Wann …?</span></p>\n<p><b>Formal</b> (trenes, radio, horarios oficiales): formato 24 h, hora + <span class=\"de\">Uhr</span> + minutos: <span class=\"de\">19:30 = neunzehn Uhr dreißig</span>. <b>Informal</b> (conversación): formato 12 h con <span class=\"de\">nach</span> (y), <span class=\"de\">vor</span> (menos), <span class=\"de\">Viertel</span> (cuarto) y <span class=\"de\">halb</span> (media).</p>\n<table><thead><tr><th>Hora</th><th>Informal</th><th>Formal</th></tr></thead><tbody>\n<tr><td>7:00</td><td><span class=\"de\">sieben (Uhr)</span></td><td><span class=\"de\">sieben Uhr</span></td></tr>\n<tr><td>7:05</td><td><span class=\"de\">fünf nach sieben</span></td><td><span class=\"de\">sieben Uhr fünf</span></td></tr>\n<tr><td>7:15</td><td><span class=\"de\">Viertel nach sieben</span></td><td><span class=\"de\">sieben Uhr fünfzehn</span></td></tr>\n<tr><td>7:25</td><td><span class=\"de\">fünf vor halb acht</span></td><td><span class=\"de\">sieben Uhr fünfundzwanzig</span></td></tr>\n<tr><td>7:30</td><td><span class=\"de\">halb acht</span></td><td><span class=\"de\">sieben Uhr dreißig</span></td></tr>\n<tr><td>7:35</td><td><span class=\"de\">fünf nach halb acht</span></td><td><span class=\"de\">sieben Uhr fünfunddreißig</span></td></tr>\n<tr><td>7:45</td><td><span class=\"de\">Viertel vor acht</span></td><td><span class=\"de\">sieben Uhr fünfundvierzig</span></td></tr>\n<tr><td>7:50</td><td><span class=\"de\">zehn vor acht</span></td><td><span class=\"de\">sieben Uhr fünfzig</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">halb acht</span> significa «media hora <i>hacia</i> las ocho» = <b>7:30</b>, ¡no 8:30! Es el error número uno de los hispanohablantes. Piensa siempre en la hora <i>siguiente</i>.</p>\n<p><b>Ojo:</b> «es la una» = <span class=\"de\">Es ist eins</span> o <span class=\"de\">Es ist ein Uhr</span> (sin -s delante de Uhr). Y «a las ocho» = <span class=\"de\">um acht</span>, sin artículo.</p>"
+   "html": "<p>Para preguntar la hora: <span class=\"de\">Wie spät ist es?</span> o <span class=\"de\">Wie viel Uhr ist es?</span> Respuesta: <span class=\"de\">Es ist …</span>. Para «¿a qué hora…?»: <span class=\"de\">Um wie viel Uhr …?</span> o simplemente <span class=\"de\">Wann …?</span></p>\n<p><b>Formal</b> (trenes, radio, horarios oficiales): formato 24 h, hora + <span class=\"de\">Uhr</span> + minutos: <span class=\"de\">19:30 = neunzehn Uhr dreißig</span>. <b>Informal</b> (conversación): formato 12 h con <span class=\"de\">nach</span> (y), <span class=\"de\">vor</span> (menos), <span class=\"de\">Viertel</span> (cuarto) y <span class=\"de\">halb</span> (media).</p>\n<table><thead><tr><th>Hora</th><th>Informal</th><th>Formal</th></tr></thead><tbody>\n<tr><td>7:00</td><td><span class=\"de\">sieben (Uhr)</span></td><td><span class=\"de\">sieben Uhr</span></td></tr>\n<tr><td>7:05</td><td><span class=\"de\">fünf nach sieben</span></td><td><span class=\"de\">sieben Uhr fünf</span></td></tr>\n<tr><td>7:15</td><td><span class=\"de\">Viertel nach sieben</span></td><td><span class=\"de\">sieben Uhr fünfzehn</span></td></tr>\n<tr><td>7:25</td><td><span class=\"de\">fünf vor halb acht</span></td><td><span class=\"de\">sieben Uhr fünfundzwanzig</span></td></tr>\n<tr><td>7:30</td><td><span class=\"de\">halb acht</span></td><td><span class=\"de\">sieben Uhr dreißig</span></td></tr>\n<tr><td>7:35</td><td><span class=\"de\">fünf nach halb acht</span></td><td><span class=\"de\">sieben Uhr fünfunddreißig</span></td></tr>\n<tr><td>7:45</td><td><span class=\"de\">Viertel vor acht</span></td><td><span class=\"de\">sieben Uhr fünfundvierzig</span></td></tr>\n<tr><td>7:50</td><td><span class=\"de\">zehn vor acht</span></td><td><span class=\"de\">sieben Uhr fünfzig</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">halb acht</span> significa «media hora <i>hacia</i> las ocho» = <b>7:30</b>, ¡no 8:30! Es el error número uno de los hispanohablantes. Piensa siempre en la hora <i>siguiente</i>.</p>\n<p><b>Ojo:</b> «es la una» = <span class=\"de\">Es ist eins</span> o <span class=\"de\">Es ist ein Uhr</span> (sin -s delante de Uhr). Y «a las ocho» = <span class=\"de\">um acht</span>, sin artículo.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«halb» significa «media». ¿Qué hora crees que es «halb acht»?",
+    "o": [
+     "8:30",
+     "8:00",
+     "7:30"
+    ],
+    "a": 2,
+    "exp": "¡Sorpresa! Es 7:30: los alemanes piensan en «media hora hacia las ocho». Cuenta siempre hacia la hora siguiente."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Der Kurs beginnt um halb zehn. ¿A qué hora empieza?",
+     "o": [
+      "10:00",
+      "10:30",
+      "9:30"
+     ],
+     "a": 2,
+     "exp": "«halb zehn» = media hora hacia las diez = 9:30."
+    },
+    {
+     "t": "gap",
+     "q": "Es ist 8:45. Es ist Viertel ___ neun.",
+     "a": [
+      "vor"
+     ],
+     "hint": "antes de",
+     "exp": "8:45 = un cuarto antes de las nueve: «Viertel vor neun». «nach» sería después (9:15)."
+    },
+    {
+     "t": "mc",
+     "q": "En la estación oyes: «Der Zug fährt um zwanzig Uhr fünfzehn.» ¿A qué hora sale?",
+     "o": [
+      "20:15",
+      "19:45",
+      "20:45"
+     ],
+     "a": 0,
+     "exp": "Formato formal: hora + Uhr + minutos. «zwanzig Uhr fünfzehn» = 20:15."
+    }
+   ]
   },
   {
    "h": "um, am, im – preposiciones de tiempo",
-   "html": "<table><thead><tr><th>Preposición</th><th>Se usa con</th><th>Ejemplos</th></tr></thead><tbody>\n<tr><td><span class=\"de\">um</span></td><td>la hora exacta</td><td><span class=\"de\">um acht Uhr, um halb neun</span></td></tr>\n<tr><td><span class=\"de\">am</span></td><td>días y partes del día</td><td><span class=\"de\">am Montag, am Morgen, am Abend, am Wochenende</span></td></tr>\n<tr><td><span class=\"de\">im</span></td><td>meses y estaciones</td><td><span class=\"de\">im Mai, im Sommer, im Winter</span></td></tr>\n</tbody></table>\n<p>Excepción: <span class=\"de\">in der Nacht</span> (por la noche, de madrugada).</p>\n<p><b>Días</b> (todos <span class=\"de\">der</span>, con mayúscula): <span class=\"de\">Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag</span>.</p>\n<p><b>Partes del día</b>: <span class=\"de\">der Morgen</span> (primera hora), <span class=\"de\">der Vormittag</span> (mañana hasta las 12), <span class=\"de\">der Mittag</span>, <span class=\"de\">der Nachmittag</span>, <span class=\"de\">der Abend</span>, <span class=\"de\">die Nacht</span>.</p>\n<p>Con <b>-s y minúscula</b> expresan costumbre: <span class=\"de\">morgens, abends, montags, samstags</span> = «por las mañanas, los lunes…».</p>\n<p><b>Ojo:</b> nuestra «tarde» son dos palabras: hasta las 18 h aprox. es <span class=\"de\">Nachmittag</span>, después <span class=\"de\">Abend</span>. «Ceno por la noche» = <span class=\"de\">am Abend</span>; <span class=\"de\">in der Nacht</span> es cuando duermes.</p>\n<p><b>Ojo:</b> <span class=\"de\">morgen</span> (minúscula) = mañana, el día siguiente; <span class=\"de\">der Morgen</span> = la mañana.</p>"
+   "html": "<table><thead><tr><th>Preposición</th><th>Se usa con</th><th>Ejemplos</th></tr></thead><tbody>\n<tr><td><span class=\"de\">um</span></td><td>la hora exacta</td><td><span class=\"de\">um acht Uhr, um halb neun</span></td></tr>\n<tr><td><span class=\"de\">am</span></td><td>días y partes del día</td><td><span class=\"de\">am Montag, am Morgen, am Abend, am Wochenende</span></td></tr>\n<tr><td><span class=\"de\">im</span></td><td>meses y estaciones</td><td><span class=\"de\">im Mai, im Sommer, im Winter</span></td></tr>\n</tbody></table>\n<p>Excepción: <span class=\"de\">in der Nacht</span> (por la noche, de madrugada).</p>\n<p><b>Días</b> (todos <span class=\"de\">der</span>, con mayúscula): <span class=\"de\">Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag</span>.</p>\n<p><b>Partes del día</b>: <span class=\"de\">der Morgen</span> (primera hora), <span class=\"de\">der Vormittag</span> (mañana hasta las 12), <span class=\"de\">der Mittag</span>, <span class=\"de\">der Nachmittag</span>, <span class=\"de\">der Abend</span>, <span class=\"de\">die Nacht</span>.</p>\n<p>Con <b>-s y minúscula</b> expresan costumbre: <span class=\"de\">morgens, abends, montags, samstags</span> = «por las mañanas, los lunes…».</p>\n<p><b>Ojo:</b> nuestra «tarde» son dos palabras: hasta las 18 h aprox. es <span class=\"de\">Nachmittag</span>, después <span class=\"de\">Abend</span>. «Ceno por la noche» = <span class=\"de\">am Abend</span>; <span class=\"de\">in der Nacht</span> es cuando duermes.</p>\n<p><b>Ojo:</b> <span class=\"de\">morgen</span> (minúscula) = mañana, el día siguiente; <span class=\"de\">der Morgen</span> = la mañana.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Si «am Montag» es «el lunes» y «um acht» es «a las ocho», ¿cómo crees que se dice «en mayo»?",
+    "o": [
+     "um Mai",
+     "im Mai",
+     "am Mai"
+    ],
+    "a": 1,
+    "exp": "¡Bien pensado! um para la hora exacta, am para días y partes del día, e im para periodos largos: meses y estaciones."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Ich gehe ___ Winter oft ins Fitnessstudio.",
+     "a": [
+      "im"
+     ],
+     "exp": "Las estaciones van con «im»: im Winter, im Sommer."
+    },
+    {
+     "t": "mc",
+     "q": "Ich esse ___ Abend um neun.",
+     "o": [
+      "im",
+      "am",
+      "um"
+     ],
+     "a": 1,
+     "exp": "Las partes del día van con «am»: am Abend. La hora exacta (um neun) ya lleva su «um»."
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "der Vormittag",
+       "la mañana (hasta las 12)"
+      ],
+      [
+       "der Nachmittag",
+       "la tarde (hasta las 18 h)"
+      ],
+      [
+       "der Abend",
+       "la tarde-noche (desde las 18 h)"
+      ],
+      [
+       "die Nacht",
+       "la noche (cuando duermes)"
+      ],
+      [
+       "morgen",
+       "mañana (el día siguiente)"
+      ]
+     ]
+    }
+   ]
   },
   {
    "h": "Verbos separables",
-   "html": "<p>Muchos verbos llevan un prefijo (<span class=\"de\">auf-, ein-, an-, fern-</span>…) que en presente se separa y va <b>al final de la frase</b>. El verbo conjugado sigue en la posición 2: forman un «paréntesis».</p>\n<table><thead><tr><th>Infinitivo</th><th>Ejemplo</th></tr></thead><tbody>\n<tr><td><span class=\"de\">aufstehen</span> (levantarse)</td><td><span class=\"de\">Ich stehe um sechs Uhr auf.</span></td></tr>\n<tr><td><span class=\"de\">einkaufen</span> (hacer la compra)</td><td><span class=\"de\">Wir kaufen am Samstag ein.</span></td></tr>\n<tr><td><span class=\"de\">anrufen</span> (llamar por teléfono)</td><td><span class=\"de\">Er ruft seine Mutter an.</span></td></tr>\n<tr><td><span class=\"de\">fernsehen</span> (ver la tele)</td><td><span class=\"de\">Sie sieht am Abend fern.</span></td></tr>\n<tr><td><span class=\"de\">anfangen</span> (empezar)</td><td><span class=\"de\">Der Kurs fängt um acht an.</span></td></tr>\n<tr><td><span class=\"de\">aufräumen</span> (ordenar)</td><td><span class=\"de\">Ich räume die Küche auf.</span></td></tr>\n</tbody></table>\n<p>En preguntas igual: <span class=\"de\">Wann stehst du auf?</span> – <span class=\"de\">Kaufst du heute ein?</span></p>\n<p><b>Ojo:</b> el cambio vocálico se mantiene: <span class=\"de\">du siehst fern, er sieht fern</span>; <span class=\"de\">du fängst an, er fängt an</span>.</p>\n<p><b>Ojo:</b> ¡no olvides el prefijo! <span class=\"de\">Ich rufe Anna an</span> = llamo a Anna por teléfono; sin <span class=\"de\">an</span> significa «llamar a gritos». El acento va en el prefijo: <b>AUF</b>stehen, <b>EIN</b>kaufen.</p>"
+   "html": "<p>Muchos verbos llevan un prefijo (<span class=\"de\">auf-, ein-, an-, fern-</span>…) que en presente se separa y va <b>al final de la frase</b>. El verbo conjugado sigue en la posición 2: forman un «paréntesis».</p>\n<table><thead><tr><th>Infinitivo</th><th>Ejemplo</th></tr></thead><tbody>\n<tr><td><span class=\"de\">aufstehen</span> (levantarse)</td><td><span class=\"de\">Ich stehe um sechs Uhr auf.</span></td></tr>\n<tr><td><span class=\"de\">einkaufen</span> (hacer la compra)</td><td><span class=\"de\">Wir kaufen am Samstag ein.</span></td></tr>\n<tr><td><span class=\"de\">anrufen</span> (llamar por teléfono)</td><td><span class=\"de\">Er ruft seine Mutter an.</span></td></tr>\n<tr><td><span class=\"de\">fernsehen</span> (ver la tele)</td><td><span class=\"de\">Sie sieht am Abend fern.</span></td></tr>\n<tr><td><span class=\"de\">anfangen</span> (empezar)</td><td><span class=\"de\">Der Kurs fängt um acht an.</span></td></tr>\n<tr><td><span class=\"de\">aufräumen</span> (ordenar)</td><td><span class=\"de\">Ich räume die Küche auf.</span></td></tr>\n</tbody></table>\n<p>En preguntas igual: <span class=\"de\">Wann stehst du auf?</span> – <span class=\"de\">Kaufst du heute ein?</span></p>\n<p><b>Ojo:</b> el cambio vocálico se mantiene: <span class=\"de\">du siehst fern, er sieht fern</span>; <span class=\"de\">du fängst an, er fängt an</span>.</p>\n<p><b>Ojo:</b> ¡no olvides el prefijo! <span class=\"de\">Ich rufe Anna an</span> = llamo a Anna por teléfono; sin <span class=\"de\">an</span> significa «llamar a gritos». El acento va en el prefijo: <b>AUF</b>stehen, <b>EIN</b>kaufen.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«aufstehen» = levantarse. ¿Cómo crees que se dice «Me levanto a las seis»?",
+    "o": [
+     "Ich aufstehe um sechs.",
+     "Ich stehe auf um sechs.",
+     "Ich stehe um sechs auf."
+    ],
+    "a": 2,
+    "exp": "El prefijo «auf» se separa y salta al final de la frase. El verbo (stehe) se queda en la posición 2."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Am Sonntag ___ Jonas das Labor auf.",
+     "a": [
+      "räumt",
+      "raeumt"
+     ],
+     "hint": "aufräumen",
+     "exp": "aufräumen es separable: el verbo conjugado (räumt) va en 2ª posición y «auf» al final."
+    },
+    {
+     "t": "order",
+     "w": [
+      "fängt",
+      "an?",
+      "Training",
+      "Wann",
+      "das"
+     ],
+     "a": "Wann fängt das Training an?",
+     "es": "¿Cuándo empieza el entrenamiento?",
+     "exp": "anfangen: «fängt» detrás de la palabra interrogativa, «an» al final."
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué significa «Ich rufe Kai an»?",
+     "o": [
+      "Le grito a Kai.",
+      "Kai me llama por teléfono.",
+      "Llamo a Kai por teléfono."
+     ],
+     "a": 2,
+     "exp": "anrufen = llamar por teléfono; el «an» del final es imprescindible. El sujeto es «ich»: soy yo quien llama."
+    }
+   ]
   },
   {
    "h": "Am Abend lerne ich Deutsch – la inversión",
-   "html": "<p>El verbo conjugado va <b>siempre en la posición 2</b>. Si empiezas con una expresión de tiempo, el sujeto pasa <b>detrás</b> del verbo.</p>\n<table><thead><tr><th>Posición 1</th><th>Posición 2 (verbo)</th><th>Resto</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Ich</span></td><td><span class=\"de\">lerne</span></td><td><span class=\"de\">am Abend Deutsch.</span></td></tr>\n<tr><td><span class=\"de\">Am Abend</span></td><td><span class=\"de\">lerne</span></td><td><span class=\"de\">ich Deutsch.</span></td></tr>\n<tr><td><span class=\"de\">Um sieben</span></td><td><span class=\"de\">stehe</span></td><td><span class=\"de\">ich auf.</span></td></tr>\n<tr><td><span class=\"de\">Montags</span></td><td><span class=\"de\">geht</span></td><td><span class=\"de\">Claudia ins Fitnessstudio.</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> en español decimos «por la tarde yo estudio», pero <span class=\"de\">*Am Abend ich lerne</span> es incorrecto. Correcto: <span class=\"de\">Am Abend lerne ich.</span></p>\n<p>Una rutina típica: <span class=\"de\">Ich stehe um halb sieben auf. Ich dusche und frühstücke. Um acht fängt meine Arbeit an. Am Nachmittag kaufe ich ein. Am Abend koche ich und sehe fern. Um elf gehe ich ins Bett.</span></p>"
+   "html": "<p>El verbo conjugado va <b>siempre en la posición 2</b>. Si empiezas con una expresión de tiempo, el sujeto pasa <b>detrás</b> del verbo.</p>\n<table><thead><tr><th>Posición 1</th><th>Posición 2 (verbo)</th><th>Resto</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Ich</span></td><td><span class=\"de\">lerne</span></td><td><span class=\"de\">am Abend Deutsch.</span></td></tr>\n<tr><td><span class=\"de\">Am Abend</span></td><td><span class=\"de\">lerne</span></td><td><span class=\"de\">ich Deutsch.</span></td></tr>\n<tr><td><span class=\"de\">Um sieben</span></td><td><span class=\"de\">stehe</span></td><td><span class=\"de\">ich auf.</span></td></tr>\n<tr><td><span class=\"de\">Montags</span></td><td><span class=\"de\">geht</span></td><td><span class=\"de\">Claudia ins Fitnessstudio.</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> en español decimos «por la tarde yo estudio», pero <span class=\"de\">*Am Abend ich lerne</span> es incorrecto. Correcto: <span class=\"de\">Am Abend lerne ich.</span></p>\n<p>Una rutina típica: <span class=\"de\">Ich stehe um halb sieben auf. Ich dusche und frühstücke. Um acht fängt meine Arbeit an. Am Nachmittag kaufe ich ein. Am Abend koche ich und sehe fern. Um elf gehe ich ins Bett.</span></p>",
+   "pre": {
+    "t": "mc",
+    "q": "Quieres decir «Hoy cocino paella» empezando por «Heute». ¿Qué crees que va después?",
+    "o": [
+     "Heute koche ich Paella.",
+     "Heute ich koche Paella.",
+     "Heute Paella ich koche."
+    ],
+    "a": 0,
+    "exp": "El verbo es el rey de la posición 2: si delante va «Heute», el sujeto «ich» se aparta y va detrás del verbo."
+   },
+   "check": [
+    {
+     "t": "order",
+     "w": [
+      "trinke",
+      "einen",
+      "Kaffee.",
+      "Morgens",
+      "ich"
+     ],
+     "a": "Morgens trinke ich einen Kaffee.",
+     "es": "Por las mañanas me tomo un café.",
+     "exp": "«Morgens» en posición 1, el verbo «trinke» en la 2 y el sujeto detrás."
+    },
+    {
+     "t": "gap",
+     "q": "Um sechs ___ ich ins Fitnessstudio.",
+     "a": [
+      "gehe"
+     ],
+     "hint": "gehen",
+     "exp": "Tras «Um sechs» viene el verbo (gehe) y luego el sujeto (ich)."
+    },
+    {
+     "t": "tr",
+     "es": "Por la tarde (a partir de las 18 h) cocino. (Empieza por «Am Abend».)",
+     "a": [
+      "Am Abend koche ich."
+     ],
+     "exp": "Empezando por la expresión de tiempo, el verbo va en 2ª posición: Am Abend koche ich."
+    }
+   ]
   }
  ],
  "vocab": [

@@ -14,23 +14,251 @@
  "lessons": [
   {
    "h": "En la estación y en el hotel",
-   "html": "<table><thead><tr><th>en la estación</th><th>en el hotel</th></tr></thead><tbody><tr><td><span class=\"de\">Eine Fahrkarte nach Berlin, bitte.</span></td><td><span class=\"de\">Ich habe ein Zimmer reserviert.</span></td></tr><tr><td><span class=\"de\">Einfach oder hin und zurück?</span></td><td><span class=\"de\">Ein Einzelzimmer / Doppelzimmer mit Frühstück.</span></td></tr><tr><td><span class=\"de\">Von welchem Gleis fährt der Zug?</span></td><td><span class=\"de\">Ab wann gibt es Frühstück?</span></td></tr><tr><td><span class=\"de\">Muss ich umsteigen?</span></td><td><span class=\"de\">Ist das WLAN kostenlos?</span></td></tr><tr><td><span class=\"de\">Der Zug hat 20 Minuten Verspätung.</span></td><td><span class=\"de\">Bis wann muss ich auschecken?</span></td></tr></tbody></table><p><b>Ojo:</b> <span class=\"de\">die Verspätung</span> (el retraso) ≠ <i>Versprechen</i>. Y el andén es <span class=\"de\">das Gleis</span>: <span class=\"de\">auf Gleis 5</span>.</p>"
+   "html": "<table><thead><tr><th>en la estación</th><th>en el hotel</th></tr></thead><tbody><tr><td><span class=\"de\">Eine Fahrkarte nach Berlin, bitte.</span></td><td><span class=\"de\">Ich habe ein Zimmer reserviert.</span></td></tr><tr><td><span class=\"de\">Einfach oder hin und zurück?</span></td><td><span class=\"de\">Ein Einzelzimmer / Doppelzimmer mit Frühstück.</span></td></tr><tr><td><span class=\"de\">Von welchem Gleis fährt der Zug?</span></td><td><span class=\"de\">Ab wann gibt es Frühstück?</span></td></tr><tr><td><span class=\"de\">Muss ich umsteigen?</span></td><td><span class=\"de\">Ist das WLAN kostenlos?</span></td></tr><tr><td><span class=\"de\">Der Zug hat 20 Minuten Verspätung.</span></td><td><span class=\"de\">Bis wann muss ich auschecken?</span></td></tr></tbody></table><p><b>Ojo:</b> <span class=\"de\">die Verspätung</span> (el retraso) ≠ <i>Versprechen</i>. Y el andén es <span class=\"de\">das Gleis</span>: <span class=\"de\">auf Gleis 5</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En la taquilla te preguntan: «Einfach oder hin und zurück?» ¿Qué crees que quieren saber?",
+    "o": [
+     "Si viajas solo o acompañado",
+     "Si quieres solo ida o ida y vuelta",
+     "Si pagas en efectivo"
+    ],
+    "a": 1,
+    "exp": "einfach = solo ida; hin und zurück = ida y vuelta."
+   },
+   "check": [
+    {
+     "t": "match",
+     "p": [
+      [
+       "das Gleis",
+       "el andén / la vía"
+      ],
+      [
+       "die Verspätung",
+       "el retraso"
+      ],
+      [
+       "umsteigen",
+       "hacer transbordo"
+      ],
+      [
+       "das Einzelzimmer",
+       "la habitación individual"
+      ],
+      [
+       "die Fahrkarte",
+       "el billete"
+      ]
+     ]
+    },
+    {
+     "t": "gap",
+     "q": "Guten Abend, ich habe ein Zimmer ___.",
+     "a": [
+      "reserviert"
+     ],
+     "hint": "reservieren",
+     "exp": "Perfekt de reservieren: habe … reserviert (sin ge-)."
+    },
+    {
+     "t": "tr",
+     "es": "¿Tengo que hacer transbordo?",
+     "a": [
+      "Muss ich umsteigen?"
+     ],
+     "exp": "umsteigen = hacer transbordo; con modal, infinitivo al final."
+    }
+   ]
   },
   {
    "h": "Preposiciones de tiempo: vor, nach, seit, ab, bis",
-   "html": "<table><thead><tr><th>prep.</th><th>significado</th><th>ejemplo</th></tr></thead><tbody><tr><td><b>vor</b> + Dat.</td><td>hace (pasado) / antes de</td><td><span class=\"de\">vor zwei Jahren</span> · <span class=\"de\">vor dem Essen</span></td></tr><tr><td><b>nach</b> + Dat.</td><td>después de</td><td><span class=\"de\">nach dem Training</span> · <span class=\"de\">nach einer Stunde</span></td></tr><tr><td><b>seit</b> + Dat.</td><td>desde (hace) – sigue ahora</td><td><span class=\"de\">seit drei Monaten</span> · <span class=\"de\">seit 2023</span></td></tr><tr><td><b>ab</b> + Dat.</td><td>a partir de</td><td><span class=\"de\">ab Montag</span> · <span class=\"de\">ab nächster Woche</span></td></tr><tr><td><b>bis</b></td><td>hasta</td><td><span class=\"de\">bis Freitag</span> · <span class=\"de\">bis morgen</span> · <span class=\"de\">bis zum Wochenende</span></td></tr></tbody></table><p>Dativo plural: el sustantivo lleva <b>-n</b>: <span class=\"de\">vor drei Tagen, seit zwei Jahren</span>.</p><p><b>Ojo 1:</b> «hace dos años» va <b>delante</b>: <span class=\"de\">vor zwei Jahren</span> (✗ <i>zwei Jahre vor</i>).</p><p><b>Ojo 2:</b> con <b>seit</b>, si la acción continúa, se usa el <b>presente</b>: <span class=\"de\">Ich wohne seit drei Monaten in Heidelberg.</span> = <i>Llevo tres meses viviendo en Heidelberg.</i> (✗ <i>Ich habe seit drei Monaten gewohnt</i>).</p>"
+   "html": "<table><thead><tr><th>prep.</th><th>significado</th><th>ejemplo</th></tr></thead><tbody><tr><td><b>vor</b> + Dat.</td><td>hace (pasado) / antes de</td><td><span class=\"de\">vor zwei Jahren</span> · <span class=\"de\">vor dem Essen</span></td></tr><tr><td><b>nach</b> + Dat.</td><td>después de</td><td><span class=\"de\">nach dem Training</span> · <span class=\"de\">nach einer Stunde</span></td></tr><tr><td><b>seit</b> + Dat.</td><td>desde (hace) – sigue ahora</td><td><span class=\"de\">seit drei Monaten</span> · <span class=\"de\">seit 2023</span></td></tr><tr><td><b>ab</b> + Dat.</td><td>a partir de</td><td><span class=\"de\">ab Montag</span> · <span class=\"de\">ab nächster Woche</span></td></tr><tr><td><b>bis</b></td><td>hasta</td><td><span class=\"de\">bis Freitag</span> · <span class=\"de\">bis morgen</span> · <span class=\"de\">bis zum Wochenende</span></td></tr></tbody></table><p>Dativo plural: el sustantivo lleva <b>-n</b>: <span class=\"de\">vor drei Tagen, seit zwei Jahren</span>.</p><p><b>Ojo 1:</b> «hace dos años» va <b>delante</b>: <span class=\"de\">vor zwei Jahren</span> (✗ <i>zwei Jahre vor</i>).</p><p><b>Ojo 2:</b> con <b>seit</b>, si la acción continúa, se usa el <b>presente</b>: <span class=\"de\">Ich wohne seit drei Monaten in Heidelberg.</span> = <i>Llevo tres meses viviendo en Heidelberg.</i> (✗ <i>Ich habe seit drei Monaten gewohnt</i>).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Hace dos años» en alemán se dice con «vor». ¿Dónde crees que va?",
+    "o": [
+     "zwei Jahre vor",
+     "vor zwei Jahren",
+     "zwei Jahren vor"
+    ],
+    "a": 1,
+    "exp": "vor va delante y pide dativo (plural con -n): vor zwei Jahren."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Das Training beginnt ___ Montag. (a partir del lunes)",
+     "o": [
+      "seit",
+      "vor",
+      "ab"
+     ],
+     "a": 2,
+     "exp": "ab = a partir de."
+    },
+    {
+     "t": "gap",
+     "q": "Ich boxe seit fünf ___.",
+     "a": [
+      "Jahren"
+     ],
+     "hint": "das Jahr",
+     "exp": "seit + dativo plural: el sustantivo lleva -n (Jahren)."
+    },
+    {
+     "t": "tr",
+     "es": "Trabajo aquí desde 2023.",
+     "a": [
+      "Ich arbeite seit 2023 hier.",
+      "Seit 2023 arbeite ich hier.",
+      "Ich arbeite hier seit 2023."
+     ],
+     "exp": "seit + presente porque sigues trabajando."
+    }
+   ]
   },
   {
    "h": "Preguntas indirectas",
-   "html": "<p>Para preguntar con más cortesía se empieza con <span class=\"de\">Können Sie mir sagen, …?</span>, <span class=\"de\">Wissen Sie, …?</span> o <span class=\"de\">Ich weiß nicht, …</span>. La pregunta pasa a ser una <b>subordinada</b>: ¡verbo al final!</p><table><thead><tr><th>pregunta directa</th><th>pregunta indirecta</th></tr></thead><tbody><tr><td><span class=\"de\">Wo ist der Bahnhof?</span></td><td><span class=\"de\">Können Sie mir sagen, wo der Bahnhof ist?</span></td></tr><tr><td><span class=\"de\">Wann fährt der Zug?</span></td><td><span class=\"de\">Wissen Sie, wann der Zug fährt?</span></td></tr><tr><td><span class=\"de\">Hat das Hotel WLAN?</span></td><td><span class=\"de\">Wissen Sie, <b>ob</b> das Hotel WLAN hat?</span></td></tr><tr><td><span class=\"de\">Muss ich umsteigen?</span></td><td><span class=\"de\">Ich weiß nicht, <b>ob</b> ich umsteigen muss.</span></td></tr></tbody></table><p>Con palabra interrogativa (wo, wann, wie…) se mantiene esa palabra; en preguntas de sí/no se usa <b>ob</b> (<i>si</i>).</p><p><b>Ojo:</b> «si» condicional es <span class=\"de\">wenn</span>; «si» de pregunta indirecta es <span class=\"de\">ob</span>: <i>No sé si viene</i> = <span class=\"de\">Ich weiß nicht, ob er kommt.</span></p>"
+   "html": "<p>Para preguntar con más cortesía se empieza con <span class=\"de\">Können Sie mir sagen, …?</span>, <span class=\"de\">Wissen Sie, …?</span> o <span class=\"de\">Ich weiß nicht, …</span>. La pregunta pasa a ser una <b>subordinada</b>: ¡verbo al final!</p><table><thead><tr><th>pregunta directa</th><th>pregunta indirecta</th></tr></thead><tbody><tr><td><span class=\"de\">Wo ist der Bahnhof?</span></td><td><span class=\"de\">Können Sie mir sagen, wo der Bahnhof ist?</span></td></tr><tr><td><span class=\"de\">Wann fährt der Zug?</span></td><td><span class=\"de\">Wissen Sie, wann der Zug fährt?</span></td></tr><tr><td><span class=\"de\">Hat das Hotel WLAN?</span></td><td><span class=\"de\">Wissen Sie, <b>ob</b> das Hotel WLAN hat?</span></td></tr><tr><td><span class=\"de\">Muss ich umsteigen?</span></td><td><span class=\"de\">Ich weiß nicht, <b>ob</b> ich umsteigen muss.</span></td></tr></tbody></table><p>Con palabra interrogativa (wo, wann, wie…) se mantiene esa palabra; en preguntas de sí/no se usa <b>ob</b> (<i>si</i>).</p><p><b>Ojo:</b> «si» condicional es <span class=\"de\">wenn</span>; «si» de pregunta indirecta es <span class=\"de\">ob</span>: <i>No sé si viene</i> = <span class=\"de\">Ich weiß nicht, ob er kommt.</span></p>",
+   "pre": {
+    "t": "mc",
+    "q": "«¿Dónde está el andén 3?» Para preguntarlo con más cortesía empiezas con «Können Sie mir sagen, …». ¿Qué crees que pasa con el verbo?",
+    "o": [
+     "Se queda igual: …, wo ist Gleis 3?",
+     "Desaparece: …, wo Gleis 3?",
+     "Se va al final: …, wo Gleis 3 ist?"
+    ],
+    "a": 2,
+    "exp": "La pregunta se vuelve subordinada, como con weil o dass: verbo al final."
+   },
+   "check": [
+    {
+     "t": "order",
+     "w": [
+      "Wissen",
+      "das",
+      "Museum",
+      "wann",
+      "Sie,",
+      "öffnet?"
+     ],
+     "a": "Wissen Sie, wann das Museum öffnet?",
+     "es": "¿Sabe cuándo abre el museo?",
+     "exp": "Pregunta indirecta: wann + verbo al final."
+    },
+    {
+     "t": "gap",
+     "q": "Können Sie mir sagen, wie viel die Fahrkarte ___?",
+     "a": [
+      "kostet"
+     ],
+     "hint": "kosten",
+     "exp": "Pregunta indirecta: el verbo va al final."
+    },
+    {
+     "t": "tr",
+     "es": "No sé dónde está el hotel.",
+     "a": [
+      "Ich weiß nicht, wo das Hotel ist."
+     ],
+     "exp": "Ich weiß nicht, wo … + verbo al final."
+    }
+   ]
   },
   {
    "h": "Verbos con preposición · wo- y da-",
-   "html": "<table><thead><tr><th>verbo</th><th>pregunta (cosa)</th><th>respuesta (cosa)</th></tr></thead><tbody><tr><td>warten <b>auf</b> + Akk.</td><td><span class=\"de\">Worauf wartest du?</span></td><td><span class=\"de\">Ich warte darauf.</span></td></tr><tr><td>denken <b>an</b> + Akk.</td><td><span class=\"de\">Woran denkst du?</span></td><td><span class=\"de\">Ich denke daran.</span></td></tr><tr><td>sich interessieren <b>für</b> + Akk.</td><td><span class=\"de\">Wofür interessierst du dich?</span></td><td><span class=\"de\">Ich interessiere mich dafür.</span></td></tr><tr><td>sprechen <b>über</b> + Akk.</td><td><span class=\"de\">Worüber sprecht ihr?</span></td><td><span class=\"de\">Wir sprechen darüber.</span></td></tr><tr><td>sich freuen <b>auf</b> + Akk.</td><td><span class=\"de\">Worauf freust du dich?</span></td><td><span class=\"de\">Ich freue mich darauf.</span></td></tr></tbody></table><p>Forma: <b>wo- / da-</b> + preposición. Si la preposición empieza por vocal se añade <b>-r-</b>: wo<b>r</b>auf, da<b>r</b>an, wo<b>r</b>über (pero <span class=\"de\">wofür, dafür</span>).</p><p><b>Personas:</b> nada de wo-/da-, sino preposición + pronombre: <span class=\"de\">Auf wen wartest du? – Auf meine Schwester. Ich warte auf sie.</span></p><p><b>Ojo:</b> la preposición no siempre es la del español: <i>esperar <b>a</b></i> → <span class=\"de\">warten <b>auf</b></span>; <i>pensar <b>en</b></i> → <span class=\"de\">denken <b>an</b></span> (✗ <i>denken in</i>).</p>"
+   "html": "<table><thead><tr><th>verbo</th><th>pregunta (cosa)</th><th>respuesta (cosa)</th></tr></thead><tbody><tr><td>warten <b>auf</b> + Akk.</td><td><span class=\"de\">Worauf wartest du?</span></td><td><span class=\"de\">Ich warte darauf.</span></td></tr><tr><td>denken <b>an</b> + Akk.</td><td><span class=\"de\">Woran denkst du?</span></td><td><span class=\"de\">Ich denke daran.</span></td></tr><tr><td>sich interessieren <b>für</b> + Akk.</td><td><span class=\"de\">Wofür interessierst du dich?</span></td><td><span class=\"de\">Ich interessiere mich dafür.</span></td></tr><tr><td>sprechen <b>über</b> + Akk.</td><td><span class=\"de\">Worüber sprecht ihr?</span></td><td><span class=\"de\">Wir sprechen darüber.</span></td></tr><tr><td>sich freuen <b>auf</b> + Akk.</td><td><span class=\"de\">Worauf freust du dich?</span></td><td><span class=\"de\">Ich freue mich darauf.</span></td></tr></tbody></table><p>Forma: <b>wo- / da-</b> + preposición. Si la preposición empieza por vocal se añade <b>-r-</b>: wo<b>r</b>auf, da<b>r</b>an, wo<b>r</b>über (pero <span class=\"de\">wofür, dafür</span>).</p><p><b>Personas:</b> nada de wo-/da-, sino preposición + pronombre: <span class=\"de\">Auf wen wartest du? – Auf meine Schwester. Ich warte auf sie.</span></p><p><b>Ojo:</b> la preposición no siempre es la del español: <i>esperar <b>a</b></i> → <span class=\"de\">warten <b>auf</b></span>; <i>pensar <b>en</b></i> → <span class=\"de\">denken <b>an</b></span> (✗ <i>denken in</i>).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Si wo + auf = «Worauf?», ¿qué crees que sale de da + an?",
+    "o": [
+     "daan",
+     "danan",
+     "daran"
+    ],
+    "a": 2,
+    "exp": "Si la preposición empieza por vocal se mete una -r-: daran, darauf, woran."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Ich denke oft ___ meine Familie in Valencia.",
+     "o": [
+      "in",
+      "an",
+      "auf"
+     ],
+     "a": 1,
+     "exp": "pensar en = denken an (no in)."
+    },
+    {
+     "t": "gap",
+     "q": "___ sprecht ihr? – Über den Film.",
+     "a": [
+      "Worüber",
+      "worüber"
+     ],
+     "hint": "wo- + über",
+     "exp": "sprechen über → pregunta por cosa: wo + r + über."
+    },
+    {
+     "t": "mc",
+     "q": "Wartest du auf Jonas? – Ja, ich warte ___.",
+     "o": [
+      "darauf",
+      "auf ihn",
+      "worauf"
+     ],
+     "a": 1,
+     "exp": "Jonas es una persona: preposición + pronombre (auf ihn), no da-."
+    }
+   ]
   },
   {
    "h": "El tiempo atmosférico",
-   "html": "<table><thead><tr><th>alemán</th><th>español</th></tr></thead><tbody><tr><td><span class=\"de\">Wie ist das Wetter?</span></td><td>¿Qué tiempo hace?</td></tr><tr><td><span class=\"de\">Die Sonne scheint. / Es ist sonnig.</span></td><td>Hace sol.</td></tr><tr><td><span class=\"de\">Es regnet. / Es schneit.</span></td><td>Llueve. / Nieva.</td></tr><tr><td><span class=\"de\">Es ist bewölkt / windig / neblig.</span></td><td>Está nublado / hace viento / hay niebla.</td></tr><tr><td><span class=\"de\">Es ist heiß / warm / kalt.</span></td><td>Hace calor / buen tiempo / frío.</td></tr><tr><td><span class=\"de\">Es sind 25 Grad.</span></td><td>Estamos a 25 grados.</td></tr><tr><td><span class=\"de\">Es gibt ein Gewitter.</span></td><td>Hay tormenta.</td></tr></tbody></table><p><b>Ojo:</b> no existe «hacer» para el tiempo: ✗ <i>Es macht kalt</i> → ✓ <span class=\"de\">Es ist kalt.</span> Y si tú tienes frío: <span class=\"de\">Mir ist kalt.</span> (no <i>Ich bin kalt</i>).</p>"
+   "html": "<table><thead><tr><th>alemán</th><th>español</th></tr></thead><tbody><tr><td><span class=\"de\">Wie ist das Wetter?</span></td><td>¿Qué tiempo hace?</td></tr><tr><td><span class=\"de\">Die Sonne scheint. / Es ist sonnig.</span></td><td>Hace sol.</td></tr><tr><td><span class=\"de\">Es regnet. / Es schneit.</span></td><td>Llueve. / Nieva.</td></tr><tr><td><span class=\"de\">Es ist bewölkt / windig / neblig.</span></td><td>Está nublado / hace viento / hay niebla.</td></tr><tr><td><span class=\"de\">Es ist heiß / warm / kalt.</span></td><td>Hace calor / buen tiempo / frío.</td></tr><tr><td><span class=\"de\">Es sind 25 Grad.</span></td><td>Estamos a 25 grados.</td></tr><tr><td><span class=\"de\">Es gibt ein Gewitter.</span></td><td>Hay tormenta.</td></tr></tbody></table><p><b>Ojo:</b> no existe «hacer» para el tiempo: ✗ <i>Es macht kalt</i> → ✓ <span class=\"de\">Es ist kalt.</span> Y si tú tienes frío: <span class=\"de\">Mir ist kalt.</span> (no <i>Ich bin kalt</i>).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español decimos «hace frío». ¿Cómo crees que se dice en alemán?",
+    "o": [
+     "Es macht kalt.",
+     "Es hat kalt.",
+     "Es ist kalt."
+    ],
+    "a": 2,
+    "exp": "Para el tiempo no se usa «hacer»: Es ist kalt, es ist warm."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Tú tienes frío. Dices:",
+     "o": [
+      "Ich bin kalt.",
+      "Mir ist kalt.",
+      "Ich habe kalt."
+     ],
+     "a": 1,
+     "exp": "Sensación personal: Mir ist kalt (dativo)."
+    },
+    {
+     "t": "gap",
+     "q": "Heute sind es 30 ___. Es ist heiß!",
+     "a": [
+      "Grad"
+     ],
+     "hint": "grados",
+     "exp": "Es sind … Grad."
+    },
+    {
+     "t": "tr",
+     "es": "Hay niebla.",
+     "a": [
+      "Es ist neblig."
+     ],
+     "exp": "Es ist neblig = hay niebla."
+    }
+   ]
   }
  ],
  "vocab": [

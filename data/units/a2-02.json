@@ -13,19 +13,227 @@
  "lessons": [
   {
    "h": "Pronombres personales en dativo",
-   "html": "<p>El <b>dativo</b> es el caso del complemento indirecto: responde a <b>Wem?</b> (¿a quién?).</p><table><thead><tr><th>Nominativo</th><th>Acusativo</th><th>Dativo</th><th>Español</th></tr></thead><tbody><tr><td>ich</td><td>mich</td><td><b>mir</b></td><td>(a) mí, me</td></tr><tr><td>du</td><td>dich</td><td><b>dir</b></td><td>(a) ti, te</td></tr><tr><td>er</td><td>ihn</td><td><b>ihm</b></td><td>(a) él, le</td></tr><tr><td>sie</td><td>sie</td><td><b>ihr</b></td><td>(a) ella, le</td></tr><tr><td>es</td><td>es</td><td><b>ihm</b></td><td>le</td></tr><tr><td>wir</td><td>uns</td><td><b>uns</b></td><td>(a) nosotros, nos</td></tr><tr><td>ihr</td><td>euch</td><td><b>euch</b></td><td>(a) vosotros, os</td></tr><tr><td>sie</td><td>sie</td><td><b>ihnen</b></td><td>(a) ellos, les</td></tr><tr><td>Sie</td><td>Sie</td><td><b>Ihnen</b></td><td>(a) usted(es), le(s)</td></tr></tbody></table><p><b>ojo:</b> <span class=\"de\">ihr</span> puede ser «vosotros» (nominativo) o «a ella» (dativo): <span class=\"de\">Ihr helft ihr.</span> = Vosotros la ayudáis. Y <span class=\"de\">ihnen</span> (a ellos) ≠ <span class=\"de\">Ihnen</span> (a usted), solo cambia la mayúscula.</p>"
+   "html": "<p>El <b>dativo</b> es el caso del complemento indirecto: responde a <b>Wem?</b> (¿a quién?).</p><table><thead><tr><th>Nominativo</th><th>Acusativo</th><th>Dativo</th><th>Español</th></tr></thead><tbody><tr><td>ich</td><td>mich</td><td><b>mir</b></td><td>(a) mí, me</td></tr><tr><td>du</td><td>dich</td><td><b>dir</b></td><td>(a) ti, te</td></tr><tr><td>er</td><td>ihn</td><td><b>ihm</b></td><td>(a) él, le</td></tr><tr><td>sie</td><td>sie</td><td><b>ihr</b></td><td>(a) ella, le</td></tr><tr><td>es</td><td>es</td><td><b>ihm</b></td><td>le</td></tr><tr><td>wir</td><td>uns</td><td><b>uns</b></td><td>(a) nosotros, nos</td></tr><tr><td>ihr</td><td>euch</td><td><b>euch</b></td><td>(a) vosotros, os</td></tr><tr><td>sie</td><td>sie</td><td><b>ihnen</b></td><td>(a) ellos, les</td></tr><tr><td>Sie</td><td>Sie</td><td><b>Ihnen</b></td><td>(a) usted(es), le(s)</td></tr></tbody></table><p><b>ojo:</b> <span class=\"de\">ihr</span> puede ser «vosotros» (nominativo) o «a ella» (dativo): <span class=\"de\">Ihr helft ihr.</span> = Vosotros la ayudáis. Y <span class=\"de\">ihnen</span> (a ellos) ≠ <span class=\"de\">Ihnen</span> (a usted), solo cambia la mayúscula.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Ya conoces «mich» y «dich». Si «a mí» (dativo) es «mir», ¿cómo crees que es «a ti»?",
+    "o": [
+     "dich",
+     "dir",
+     "du"
+    ],
+    "a": 1,
+    "exp": "¡Sigue el mismo patrón! mich → mir, dich → dir. El dativo responde a «Wem?» (¿a quién?)."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Wie geht es ___? (a usted)",
+     "o": [
+      "Ihnen",
+      "ihnen",
+      "Sie"
+     ],
+     "a": 0,
+     "exp": "«a usted» en dativo es «Ihnen», con mayúscula. «ihnen» en minúscula es «a ellos»."
+    },
+    {
+     "t": "mc",
+     "q": "En «Ich helfe ihr», ¿qué significa «ihr»?",
+     "o": [
+      "vosotros",
+      "a ella",
+      "a ellos"
+     ],
+     "a": 1,
+     "exp": "«ihr» tiene dos caras: «vosotros» (nominativo) o «a ella» (dativo). Aquí es el complemento: «a ella»."
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "wir",
+       "uns"
+      ],
+      [
+       "ihr",
+       "euch"
+      ],
+      [
+       "es",
+       "ihm"
+      ],
+      [
+       "Sie (usted)",
+       "Ihnen"
+      ]
+     ]
+    }
+   ]
   },
   {
    "h": "Verbos con dativo",
-   "html": "<p>Algunos verbos llevan <b>dativo</b> aunque en español usemos un complemento directo. Hay que aprenderlos:</p><table><thead><tr><th>Verbo</th><th>Ejemplo</th><th>Español</th></tr></thead><tbody><tr><td>helfen</td><td><span class=\"de\">Ich helfe dir.</span></td><td>Te ayudo.</td></tr><tr><td>danken</td><td><span class=\"de\">Ich danke Ihnen.</span></td><td>Le doy las gracias.</td></tr><tr><td>gefallen</td><td><span class=\"de\">Berlin gefällt mir.</span></td><td>Berlín me gusta.</td></tr><tr><td>schmecken</td><td><span class=\"de\">Die Suppe schmeckt mir.</span></td><td>La sopa me gusta (está rica).</td></tr><tr><td>gehören</td><td><span class=\"de\">Das Handy gehört ihm.</span></td><td>El móvil es suyo (de él).</td></tr><tr><td>passen</td><td><span class=\"de\">Die Hose passt mir.</span></td><td>El pantalón me queda bien (talla).</td></tr></tbody></table><p><span class=\"de\">gefallen</span> funciona como «gustar»: la cosa es el sujeto y la persona va en dativo: <span class=\"de\">Die Schuhe gefallen mir.</span> (plural → gefallen). <span class=\"de\">gefallen</span> es para lo que vemos u oímos; para la comida se usa <span class=\"de\">schmecken</span>.</p><p><b>ojo:</b> «Ich helfe dich» ✗ → <span class=\"de\">Ich helfe dir</span> ✓. En español «te ayudo» es complemento directo, en alemán es dativo. También <span class=\"de\">Wie geht es dir?</span> y <span class=\"de\">Das steht dir gut</span> (te queda bien, te favorece) llevan dativo.</p>"
+   "html": "<p>Algunos verbos llevan <b>dativo</b> aunque en español usemos un complemento directo. Hay que aprenderlos:</p><table><thead><tr><th>Verbo</th><th>Ejemplo</th><th>Español</th></tr></thead><tbody><tr><td>helfen</td><td><span class=\"de\">Ich helfe dir.</span></td><td>Te ayudo.</td></tr><tr><td>danken</td><td><span class=\"de\">Ich danke Ihnen.</span></td><td>Le doy las gracias.</td></tr><tr><td>gefallen</td><td><span class=\"de\">Berlin gefällt mir.</span></td><td>Berlín me gusta.</td></tr><tr><td>schmecken</td><td><span class=\"de\">Die Suppe schmeckt mir.</span></td><td>La sopa me gusta (está rica).</td></tr><tr><td>gehören</td><td><span class=\"de\">Das Handy gehört ihm.</span></td><td>El móvil es suyo (de él).</td></tr><tr><td>passen</td><td><span class=\"de\">Die Hose passt mir.</span></td><td>El pantalón me queda bien (talla).</td></tr></tbody></table><p><span class=\"de\">gefallen</span> funciona como «gustar»: la cosa es el sujeto y la persona va en dativo: <span class=\"de\">Die Schuhe gefallen mir.</span> (plural → gefallen). <span class=\"de\">gefallen</span> es para lo que vemos u oímos; para la comida se usa <span class=\"de\">schmecken</span>.</p><p><b>ojo:</b> «Ich helfe dich» ✗ → <span class=\"de\">Ich helfe dir</span> ✓. En español «te ayudo» es complemento directo, en alemán es dativo. También <span class=\"de\">Wie geht es dir?</span> y <span class=\"de\">Das steht dir gut</span> (te queda bien, te favorece) llevan dativo.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«gefallen» funciona como «gustar». ¿Cómo crees que se dice «me gusta Berlín»?",
+    "o": [
+     "Ich gefalle Berlin.",
+     "Berlin gefällt mir.",
+     "Berlin gefällt mich."
+    ],
+    "a": 1,
+    "exp": "Igual que en español: la cosa que gusta es el sujeto (Berlin gefällt) y la persona va en dativo (mir). «Ich gefalle Berlin» sería «yo le gusto a Berlín»."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Die Boxhandschuhe ___ mir.",
+     "o": [
+      "gefällt",
+      "gefallen",
+      "gefalle"
+     ],
+     "a": 1,
+     "exp": "El sujeto es «die Boxhandschuhe» (plural), así que el verbo va en plural: gefallen."
+    },
+    {
+     "t": "mc",
+     "q": "Estás comiendo y la paella está riquísima: Die Paella ___ mir sehr gut.",
+     "o": [
+      "schmeckt",
+      "passt",
+      "hilft"
+     ],
+     "a": 0,
+     "exp": "Para la comida se usa «schmecken» + dativo: Die Paella schmeckt mir."
+    },
+    {
+     "t": "gap",
+     "q": "Der Laptop gehört ___ nicht, er gehört Jonas. (a mí)",
+     "a": [
+      "mir"
+     ],
+     "hint": "a mí",
+     "exp": "«gehören» lleva dativo: Der Laptop gehört mir = el portátil es mío."
+    }
+   ]
   },
   {
    "h": "Dar, regalar, enseñar: dativo + acusativo",
-   "html": "<p>Verbos como <span class=\"de\">geben, schenken, zeigen, bringen, kaufen, schicken, erklären</span> tienen dos complementos: la <b>persona en dativo</b> y la <b>cosa en acusativo</b>.</p><p>Recuerda los artículos en dativo: <b>dem</b> (m), <b>der</b> (f), <b>dem</b> (n), <b>den</b> + -n (pl); <b>einem / einer / einem</b>; <b>meinem / meiner / meinem / meinen</b>.</p><table><thead><tr><th>Caso</th><th>Orden</th><th>Ejemplo</th></tr></thead><tbody><tr><td>dos sustantivos</td><td>Dativo → Acusativo</td><td><span class=\"de\">Ich schenke meiner Mutter einen Schal.</span></td></tr><tr><td>dativo pronombre</td><td>Dativo → Acusativo</td><td><span class=\"de\">Ich schenke ihr einen Schal.</span></td></tr><tr><td>acusativo pronombre</td><td>Acusativo → Dativo</td><td><span class=\"de\">Ich schenke ihn meiner Mutter.</span></td></tr><tr><td>dos pronombres</td><td>Acusativo → Dativo</td><td><span class=\"de\">Ich schenke ihn ihr.</span></td></tr></tbody></table><p><b>Regla corta:</b> normalmente persona antes que cosa, pero si la cosa es un <b>pronombre</b>, va primero.</p><p><b>ojo:</b> en español decimos «se lo doy»; en alemán el orden es al revés: <span class=\"de\">Ich gebe es dir</span> (lo → a ti), no «Ich gebe dir es».</p>"
+   "html": "<p>Verbos como <span class=\"de\">geben, schenken, zeigen, bringen, kaufen, schicken, erklären</span> tienen dos complementos: la <b>persona en dativo</b> y la <b>cosa en acusativo</b>.</p><p>Recuerda los artículos en dativo: <b>dem</b> (m), <b>der</b> (f), <b>dem</b> (n), <b>den</b> + -n (pl); <b>einem / einer / einem</b>; <b>meinem / meiner / meinem / meinen</b>.</p><table><thead><tr><th>Caso</th><th>Orden</th><th>Ejemplo</th></tr></thead><tbody><tr><td>dos sustantivos</td><td>Dativo → Acusativo</td><td><span class=\"de\">Ich schenke meiner Mutter einen Schal.</span></td></tr><tr><td>dativo pronombre</td><td>Dativo → Acusativo</td><td><span class=\"de\">Ich schenke ihr einen Schal.</span></td></tr><tr><td>acusativo pronombre</td><td>Acusativo → Dativo</td><td><span class=\"de\">Ich schenke ihn meiner Mutter.</span></td></tr><tr><td>dos pronombres</td><td>Acusativo → Dativo</td><td><span class=\"de\">Ich schenke ihn ihr.</span></td></tr></tbody></table><p><b>Regla corta:</b> normalmente persona antes que cosa, pero si la cosa es un <b>pronombre</b>, va primero.</p><p><b>ojo:</b> en español decimos «se lo doy»; en alemán el orden es al revés: <span class=\"de\">Ich gebe es dir</span> (lo → a ti), no «Ich gebe dir es».</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Tienes una foto (das Foto) y quieres enseñársela a tu amiga. ¿Cómo crees que se dice «te la enseño»?",
+    "o": [
+     "Ich zeige dir es.",
+     "Ich zeige es dir.",
+     "Ich zeige dich es."
+    ],
+    "a": 1,
+    "exp": "Cuando la cosa es un pronombre, va primero: es (la) → dir (a ti). Justo al revés que el español «te la»."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Ich kaufe meinem Bruder einen Boxsack. → Ich kaufe ___.",
+     "o": [
+      "ihn ihm",
+      "ihm ihn",
+      "ihn ihn"
+     ],
+     "a": 0,
+     "exp": "Dos pronombres: primero el acusativo (ihn = el saco) y luego el dativo (ihm = a mi hermano)."
+    },
+    {
+     "t": "gap",
+     "q": "Ich schenke ___ Schwester ein Parfüm. (mi)",
+     "a": [
+      "meiner"
+     ],
+     "hint": "mein-",
+     "exp": "«die Schwester» es femenino; en dativo «meine» pasa a «meiner»."
+    },
+    {
+     "t": "order",
+     "w": [
+      "die",
+      "Übung.",
+      "uns",
+      "erklärt",
+      "Kai"
+     ],
+     "a": "Kai erklärt uns die Übung.",
+     "es": "Kai nos explica el ejercicio."
+    }
+   ]
   },
   {
    "h": "De compras: ropa y regalos",
-   "html": "<ul><li><span class=\"de\">Kann ich Ihnen helfen?</span> – ¿Le puedo ayudar?</li><li><span class=\"de\">Ich suche ein Geschenk für meinen Vater.</span> – Busco un regalo para mi padre (<span class=\"de\">für</span> + acusativo).</li><li><span class=\"de\">Welche Größe haben Sie?</span> – ¿Qué talla tiene?</li><li><span class=\"de\">Kann ich die Jacke anprobieren?</span> – ¿Me puedo probar la chaqueta?</li><li><span class=\"de\">Die Hose passt mir nicht. Sie ist zu klein.</span> – No me queda bien, es demasiado pequeña.</li><li><span class=\"de\">Die Farbe gefällt mir.</span> – Me gusta el color.</li><li><span class=\"de\">Das Kleid steht dir sehr gut!</span> – ¡El vestido te queda muy bien!</li></ul><p><b>ojo:</b> <span class=\"de\">passen</span> = talla correcta; <span class=\"de\">stehen</span> = favorecer. Una chaqueta puede <span class=\"de\">passen</span> y no <span class=\"de\">stehen</span>.</p>"
+   "html": "<ul><li><span class=\"de\">Kann ich Ihnen helfen?</span> – ¿Le puedo ayudar?</li><li><span class=\"de\">Ich suche ein Geschenk für meinen Vater.</span> – Busco un regalo para mi padre (<span class=\"de\">für</span> + acusativo).</li><li><span class=\"de\">Welche Größe haben Sie?</span> – ¿Qué talla tiene?</li><li><span class=\"de\">Kann ich die Jacke anprobieren?</span> – ¿Me puedo probar la chaqueta?</li><li><span class=\"de\">Die Hose passt mir nicht. Sie ist zu klein.</span> – No me queda bien, es demasiado pequeña.</li><li><span class=\"de\">Die Farbe gefällt mir.</span> – Me gusta el color.</li><li><span class=\"de\">Das Kleid steht dir sehr gut!</span> – ¡El vestido te queda muy bien!</li></ul><p><b>ojo:</b> <span class=\"de\">passen</span> = talla correcta; <span class=\"de\">stehen</span> = favorecer. Una chaqueta puede <span class=\"de\">passen</span> y no <span class=\"de\">stehen</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Tu amiga se prueba una chaqueta y el color le favorece muchísimo. ¿Qué crees que le dices?",
+    "o": [
+     "Die Jacke steht dir super!",
+     "Die Jacke passt dich super!",
+     "Die Jacke gehört dir super!"
+    ],
+    "a": 0,
+    "exp": "«stehen» + dativo = quedar bien, favorecer. «passen» es solo para la talla, y también lleva dativo (dir, nunca dich)."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "La chaqueta es de tu talla, pero el color no te favorece: Die Jacke ___ mir, aber sie steht mir nicht.",
+     "o": [
+      "passt",
+      "schmeckt",
+      "hilft"
+     ],
+     "a": 0,
+     "exp": "«passen» = ser de tu talla. Una prenda puede «passen» y no «stehen»."
+    },
+    {
+     "t": "order",
+     "w": [
+      "Ich",
+      "Schwester.",
+      "für",
+      "meine",
+      "Geschenk",
+      "suche",
+      "ein"
+     ],
+     "a": "Ich suche ein Geschenk für meine Schwester.",
+     "es": "Busco un regalo para mi hermana."
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "Welche Größe haben Sie?",
+       "¿Qué talla tiene?"
+      ],
+      [
+       "anprobieren",
+       "probarse"
+      ],
+      [
+       "zu klein",
+       "demasiado pequeño"
+      ],
+      [
+       "das Geschenk",
+       "el regalo"
+      ],
+      [
+       "Kann ich Ihnen helfen?",
+       "¿Le puedo ayudar?"
+      ]
+     ]
+    }
+   ]
   }
  ],
  "vocab": [

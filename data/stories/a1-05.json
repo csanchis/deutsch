@@ -1,0 +1,133 @@
+{
+ "title": "Eine Probe ist weg!",
+ "title_es": "¡Falta una muestra!",
+ "lines": [
+  {
+   "de": "Samstag. Lucía und Jonas sind auf dem Markt.",
+   "es": "Sábado. Lucía y Jonas están en el mercado."
+  },
+  {
+   "who": "Jonas",
+   "de": "Ich brauche einen Kaffee. Sofort.",
+   "es": "Necesito un café. Ya."
+  },
+  {
+   "who": "Lucía",
+   "de": "Jonas, hier gibt es Tomaten, Käse und Äpfel. Aber hier gibt es keinen Kaffee.",
+   "es": "Jonas, aquí hay tomates, queso y manzanas. Pero aquí no hay café."
+  },
+  {
+   "who": "Verkäufer",
+   "de": "Guten Morgen! Was möchten Sie?",
+   "es": "¡Buenos días! ¿Qué desea?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ich hätte gern ein Kilo Tomaten und ein Stück Käse, bitte.",
+   "es": "Querría un kilo de tomates y un trozo de queso, por favor."
+  },
+  {
+   "who": "Verkäufer",
+   "de": "Sonst noch etwas? – Nein? Das macht sechs Euro vierzig.",
+   "es": "¿Algo más? – ¿No? Son seis euros con cuarenta."
+  },
+  {
+   "de": "In der Bäckerei.",
+   "es": "En la panadería."
+  },
+  {
+   "who": "Jonas",
+   "de": "Ich nehme drei Brötchen, einen Kuchen und einen Kaffee. Bitte schnell!",
+   "es": "Me llevo tres panecillos, un pastel y un café. ¡Rápido, por favor!"
+  },
+  {
+   "who": "Verkäuferin",
+   "de": "Das macht neun Euro zwanzig.",
+   "es": "Son nueve euros con veinte."
+  },
+  {
+   "who": "Jonas",
+   "de": "Oh… Lucía? Ich habe kein Geld.",
+   "es": "Oh… ¿Lucía? No tengo dinero."
+  },
+  {
+   "who": "Lucía",
+   "de": "Natürlich. Hier, bitte. Aber der Kuchen ist für mich!",
+   "es": "Claro. Tome, aquí tiene. ¡Pero el pastel es para mí!"
+  },
+  {
+   "de": "Später im Labor. Lucía sucht ihre Proben: Probe eins, Probe zwei…",
+   "es": "Más tarde, en el laboratorio. Lucía busca sus muestras: muestra uno, muestra dos…"
+  },
+  {
+   "who": "Lucía",
+   "de": "Probe drei? Jonas! Ich habe nur zwei Proben. Eine Probe ist weg!",
+   "es": "¿La muestra tres? ¡Jonas! Solo tengo dos muestras. ¡Falta una muestra!"
+  }
+ ],
+ "gloss": [
+  [
+   "Samstag",
+   "sábado"
+  ],
+  [
+   "auf dem Markt",
+   "en el mercado"
+  ],
+  [
+   "sofort",
+   "ya, enseguida"
+  ],
+  [
+   "schnell",
+   "rápido"
+  ],
+  [
+   "das Geld",
+   "el dinero"
+  ],
+  [
+   "die Probe",
+   "la muestra"
+  ],
+  [
+   "weg",
+   "desaparecido, ido"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Qué NO hay en el mercado, según Lucía?",
+   "o": [
+    "Café",
+    "Tomates",
+    "Queso"
+   ],
+   "a": 0,
+   "exp": "«Hier gibt es keinen Kaffee» = aquí no hay café."
+  },
+  {
+   "t": "mc",
+   "q": "¿Por qué paga Lucía en la panadería?",
+   "o": [
+    "Porque Jonas no tiene dinero",
+    "Porque Jonas no tiene hambre",
+    "Porque es su cumpleaños"
+   ],
+   "a": 0,
+   "exp": "Jonas: «Ich habe kein Geld» = no tengo dinero."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué descubre Lucía en el laboratorio?",
+   "o": [
+    "Que falta una muestra de levadura",
+    "Que Jonas se ha comido el pastel",
+    "Que hay otra nota en su mesa"
+   ],
+   "a": 0,
+   "exp": "Solo hay dos muestras: «Eine Probe ist weg!»"
+  }
+ ]
+}

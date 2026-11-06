@@ -13,23 +13,252 @@
  "lessons": [
   {
    "h": "El acusativo: solo cambia el masculino",
-   "html": "<p>El <b>complemento directo</b> (lo que compras, comes, necesitas…) va en <b>acusativo</b>. ¡Buena noticia: solo cambia el masculino!</p><table><thead><tr><th></th><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td>nominativo</td><td>der / ein / kein</td><td>die / eine / keine</td><td>das / ein / kein</td><td>die / – / keine</td></tr><tr><td>acusativo</td><td><b>den / einen / keinen</b></td><td>die / eine / keine</td><td>das / ein / kein</td><td>die / – / keine</td></tr></tbody></table><p>Los posesivos igual: <span class=\"de\">Ich suche meinen Schlüssel.</span></p><p>Ejemplos: <span class=\"de\">Der Kaffee ist heiß.</span> (sujeto, nominativo) – <span class=\"de\">Ich trinke den Kaffee.</span> (CD, acusativo). <span class=\"de\">Ich kaufe einen Apfel, eine Banane und ein Brot.</span></p><p><b>Ojo:</b> el sujeto sigue en nominativo aunque esté detrás del verbo: <span class=\"de\">Was kostet der Käse?</span> (el queso cuesta → sujeto → <i>der</i>). Verbos que piden acusativo: <i>haben, kaufen, brauchen, essen, trinken, nehmen, möchten, es gibt</i>.</p>"
+   "html": "<p>El <b>complemento directo</b> (lo que compras, comes, necesitas…) va en <b>acusativo</b>. ¡Buena noticia: solo cambia el masculino!</p><table><thead><tr><th></th><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td>nominativo</td><td>der / ein / kein</td><td>die / eine / keine</td><td>das / ein / kein</td><td>die / – / keine</td></tr><tr><td>acusativo</td><td><b>den / einen / keinen</b></td><td>die / eine / keine</td><td>das / ein / kein</td><td>die / – / keine</td></tr></tbody></table><p>Los posesivos igual: <span class=\"de\">Ich suche meinen Schlüssel.</span></p><p>Ejemplos: <span class=\"de\">Der Kaffee ist heiß.</span> (sujeto, nominativo) – <span class=\"de\">Ich trinke den Kaffee.</span> (CD, acusativo). <span class=\"de\">Ich kaufe einen Apfel, eine Banane und ein Brot.</span></p><p><b>Ojo:</b> el sujeto sigue en nominativo aunque esté detrás del verbo: <span class=\"de\">Was kostet der Käse?</span> (el queso cuesta → sujeto → <i>der</i>). Verbos que piden acusativo: <i>haben, kaufen, brauchen, essen, trinken, nehmen, möchten, es gibt</i>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Der Apfel ist gut» (la manzana es el sujeto). Cuando la manzana es lo que te comes, el masculino cambia. ¿Qué forma crees que toma?",
+    "o": [
+     "Ich esse den Apfel.",
+     "Ich esse der Apfel.",
+     "Ich esse die Apfel."
+    ],
+    "a": 0,
+    "exp": "El complemento directo va en acusativo y solo cambia el masculino: der → den. Ich esse den Apfel."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Lucía kauft ___ Käse.",
+     "a": [
+      "einen"
+     ],
+     "hint": "un (der Käse)",
+     "exp": "der Käse es el CD → acusativo masculino: einen Käse."
+    },
+    {
+     "t": "mc",
+     "q": "Ich kaufe ___ Banane.",
+     "o": [
+      "eine",
+      "einen",
+      "ein"
+     ],
+     "a": 0,
+     "exp": "die Banane es femenino: en acusativo no cambia → eine."
+    },
+    {
+     "t": "order",
+     "w": [
+      "trinkt",
+      "den",
+      "Jonas",
+      "Kaffee."
+     ],
+     "a": "Jonas trinkt den Kaffee.",
+     "es": "Jonas se bebe el café."
+    }
+   ]
   },
   {
    "h": "es gibt, möchten, ich hätte gern",
-   "html": "<p><span class=\"de\">es gibt</span> = «hay», y siempre va con acusativo: <span class=\"de\">Es gibt einen Supermarkt.</span> <span class=\"de\">Gibt es hier eine Bäckerei?</span></p><table><thead><tr><th>persona</th><th>möchten (querría)</th></tr></thead><tbody><tr><td>ich</td><td>möchte</td></tr><tr><td>du</td><td>möchtest</td></tr><tr><td>er/sie/es</td><td>möchte</td></tr><tr><td>wir</td><td>möchten</td></tr><tr><td>ihr</td><td>möchtet</td></tr><tr><td>sie/Sie</td><td>möchten</td></tr></tbody></table><p><span class=\"de\">Ich hätte gern …</span> (me gustaría tener…) es la fórmula más educada en tiendas y bares: <span class=\"de\">Ich hätte gern zwei Brötchen.</span></p><p><b>Ojo:</b> <span class=\"de\">ich möchte / er möchte</span> no llevan -t (como ich/er son iguales). «Quiero un café» suena brusco como <i>Ich will…</i>; en la tienda usa <span class=\"de\">Ich möchte…</span> o <span class=\"de\">Ich hätte gern…</span>.</p>"
+   "html": "<p><span class=\"de\">es gibt</span> = «hay», y siempre va con acusativo: <span class=\"de\">Es gibt einen Supermarkt.</span> <span class=\"de\">Gibt es hier eine Bäckerei?</span></p><table><thead><tr><th>persona</th><th>möchten (querría)</th></tr></thead><tbody><tr><td>ich</td><td>möchte</td></tr><tr><td>du</td><td>möchtest</td></tr><tr><td>er/sie/es</td><td>möchte</td></tr><tr><td>wir</td><td>möchten</td></tr><tr><td>ihr</td><td>möchtet</td></tr><tr><td>sie/Sie</td><td>möchten</td></tr></tbody></table><p><span class=\"de\">Ich hätte gern …</span> (me gustaría tener…) es la fórmula más educada en tiendas y bares: <span class=\"de\">Ich hätte gern zwei Brötchen.</span></p><p><b>Ojo:</b> <span class=\"de\">ich möchte / er möchte</span> no llevan -t (como ich/er son iguales). «Quiero un café» suena brusco como <i>Ich will…</i>; en la tienda usa <span class=\"de\">Ich möchte…</span> o <span class=\"de\">Ich hätte gern…</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En una panadería alemana, ¿qué crees que suena más educado?",
+    "o": [
+     "Ich hätte gern zwei Brötchen.",
+     "Ich will zwei Brötchen.",
+     "Zwei Brötchen! Schnell!"
+    ],
+    "a": 0,
+    "exp": "«Ich hätte gern…» (me gustaría tener) es la fórmula más educada. «Ich will…» suena brusco."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Jonas ___ ein Stück Kuchen.",
+     "a": [
+      "möchte"
+     ],
+     "hint": "möchten",
+     "exp": "er → möchte, sin -t, igual que ich."
+    },
+    {
+     "t": "mc",
+     "q": "Gibt es hier ___ Park?",
+     "o": [
+      "einen",
+      "ein",
+      "eine"
+     ],
+     "a": 0,
+     "exp": "der Park; es gibt va siempre con acusativo → einen Park."
+    },
+    {
+     "t": "tr",
+     "es": "¿Qué queréis (vosotros)?",
+     "a": [
+      "Was möchtet ihr?"
+     ],
+     "exp": "ihr → möchtet: Was möchtet ihr?"
+    }
+   ]
   },
   {
    "h": "Precios y cantidades",
-   "html": "<p><span class=\"de\">Was kostet das?</span> / <span class=\"de\">Wie viel kostet der Käse?</span> – <span class=\"de\">Er kostet 3,50 €.</span> En plural: <span class=\"de\">Was kosten die Äpfel?</span> Al pagar: <span class=\"de\">Das macht 7,80 Euro.</span></p><table><thead><tr><th>se escribe</th><th>se dice</th></tr></thead><tbody><tr><td>2,50 €</td><td>zwei Euro fünfzig</td></tr><tr><td>0,99 €</td><td>neunundneunzig Cent</td></tr><tr><td>12,00 €</td><td>zwölf Euro</td></tr></tbody></table><p>Cantidades (sin «de»): <span class=\"de\">ein Kilo Tomaten</span>, <span class=\"de\">500 Gramm Käse</span>, <span class=\"de\">ein Liter Milch</span>, <span class=\"de\">eine Flasche Wasser</span>, <span class=\"de\">eine Dose Tomaten</span>, <span class=\"de\">ein Stück Kuchen</span>, <span class=\"de\">eine Packung Reis</span>.</p><p><b>Ojo:</b> <span class=\"de\">zwei Euro</span>, nunca *zwei Euros; <span class=\"de\">zwei Kilo</span>, no *Kilos. Y no se traduce el «de»: «un kilo de manzanas» = <span class=\"de\">ein Kilo Äpfel</span> (no *ein Kilo von Äpfel).</p>"
+   "html": "<p><span class=\"de\">Was kostet das?</span> / <span class=\"de\">Wie viel kostet der Käse?</span> – <span class=\"de\">Er kostet 3,50 €.</span> En plural: <span class=\"de\">Was kosten die Äpfel?</span> Al pagar: <span class=\"de\">Das macht 7,80 Euro.</span></p><table><thead><tr><th>se escribe</th><th>se dice</th></tr></thead><tbody><tr><td>2,50 €</td><td>zwei Euro fünfzig</td></tr><tr><td>0,99 €</td><td>neunundneunzig Cent</td></tr><tr><td>12,00 €</td><td>zwölf Euro</td></tr></tbody></table><p>Cantidades (sin «de»): <span class=\"de\">ein Kilo Tomaten</span>, <span class=\"de\">500 Gramm Käse</span>, <span class=\"de\">ein Liter Milch</span>, <span class=\"de\">eine Flasche Wasser</span>, <span class=\"de\">eine Dose Tomaten</span>, <span class=\"de\">ein Stück Kuchen</span>, <span class=\"de\">eine Packung Reis</span>.</p><p><b>Ojo:</b> <span class=\"de\">zwei Euro</span>, nunca *zwei Euros; <span class=\"de\">zwei Kilo</span>, no *Kilos. Y no se traduce el «de»: «un kilo de manzanas» = <span class=\"de\">ein Kilo Äpfel</span> (no *ein Kilo von Äpfel).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Un kilo de tomates». Al alemán le gusta ahorrar palabras… ¿cómo crees que se dice?",
+    "o": [
+     "ein Kilo Tomaten",
+     "ein Kilo von Tomaten",
+     "ein Kilo aus Tomaten"
+    ],
+    "a": 0,
+    "exp": "No se traduce el «de»: ein Kilo Tomaten, eine Flasche Wasser."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "En la etiqueta pone 1,99 €. ¿Cómo se dice?",
+     "o": [
+      "ein Euro neunundneunzig",
+      "eins Euro neunundneunzig",
+      "neunundneunzig Euro eins"
+     ],
+     "a": 0,
+     "exp": "Primero los euros y luego los céntimos: ein Euro neunundneunzig."
+    },
+    {
+     "t": "gap",
+     "q": "Was ___ das?",
+     "a": [
+      "kostet"
+     ],
+     "hint": "kosten",
+     "exp": "«Was kostet das?» = ¿Cuánto cuesta esto?"
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "eine Flasche",
+       "una botella"
+      ],
+      [
+       "eine Dose",
+       "una lata"
+      ],
+      [
+       "ein Stück",
+       "un trozo"
+      ],
+      [
+       "eine Packung",
+       "un paquete"
+      ],
+      [
+       "ein Liter",
+       "un litro"
+      ]
+     ]
+    }
+   ]
   },
   {
    "h": "nicht o kein",
-   "html": "<table><thead><tr><th>usa</th><th>cuando niegas…</th><th>ejemplo</th></tr></thead><tbody><tr><td><b>kein</b></td><td>un sustantivo con <i>ein</i> o sin artículo</td><td><span class=\"de\">Ich esse kein Fleisch.</span> <span class=\"de\">Wir haben keinen Fisch.</span> <span class=\"de\">Ich habe keine Zeit.</span></td></tr><tr><td><b>nicht</b></td><td>un verbo, un adjetivo, o un sustantivo con <i>der/die/das</i> o posesivo</td><td><span class=\"de\">Ich koche nicht.</span> <span class=\"de\">Das Brot ist nicht frisch.</span> <span class=\"de\">Ich kaufe den Käse nicht.</span></td></tr></tbody></table><p><b>Ojo:</b> en español decimos «no como carne»; en alemán no se pone *nicht ein Fleisch ni *nicht Fleisch: <span class=\"de\">kein Fleisch</span>. <span class=\"de\">keinen</span> se usa con masculino en acusativo: <span class=\"de\">Ich trinke keinen Kaffee.</span></p>"
+   "html": "<table><thead><tr><th>usa</th><th>cuando niegas…</th><th>ejemplo</th></tr></thead><tbody><tr><td><b>kein</b></td><td>un sustantivo con <i>ein</i> o sin artículo</td><td><span class=\"de\">Ich esse kein Fleisch.</span> <span class=\"de\">Wir haben keinen Fisch.</span> <span class=\"de\">Ich habe keine Zeit.</span></td></tr><tr><td><b>nicht</b></td><td>un verbo, un adjetivo, o un sustantivo con <i>der/die/das</i> o posesivo</td><td><span class=\"de\">Ich koche nicht.</span> <span class=\"de\">Das Brot ist nicht frisch.</span> <span class=\"de\">Ich kaufe den Käse nicht.</span></td></tr></tbody></table><p><b>Ojo:</b> en español decimos «no como carne»; en alemán no se pone *nicht ein Fleisch ni *nicht Fleisch: <span class=\"de\">kein Fleisch</span>. <span class=\"de\">keinen</span> se usa con masculino en acusativo: <span class=\"de\">Ich trinke keinen Kaffee.</span></p>",
+   "pre": {
+    "t": "mc",
+    "q": "«kein» niega sustantivos (lo viste con la familia). ¿Cómo crees que se dice «No cocino»?",
+    "o": [
+     "Ich koche nicht.",
+     "Ich koche kein.",
+     "Ich kein koche."
+    ],
+    "a": 0,
+    "exp": "Para negar un verbo se usa nicht: Ich koche nicht. «kein» solo va delante de sustantivos."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Ich kaufe den Käse ___.",
+     "o": [
+      "nicht",
+      "kein",
+      "keinen"
+     ],
+     "a": 0,
+     "exp": "Sustantivo con artículo determinado (den Käse) → se niega con nicht."
+    },
+    {
+     "t": "gap",
+     "q": "Wir haben ___ Brot.",
+     "a": [
+      "kein"
+     ],
+     "hint": "no… (das Brot)",
+     "exp": "das Brot sin artículo → kein (neutro, no cambia en acusativo)."
+    },
+    {
+     "t": "tr",
+     "es": "No bebo leche.",
+     "a": [
+      "Ich trinke keine Milch."
+     ],
+     "exp": "Sustantivo sin artículo → keine (die Milch)."
+    }
+   ]
   },
   {
    "h": "En la panadería y el supermercado",
-   "html": "<table><thead><tr><th>dependiente/a</th><th>cliente</th></tr></thead><tbody><tr><td><span class=\"de\">Guten Morgen! Was möchten Sie?</span></td><td><span class=\"de\">Ich hätte gern vier Brötchen, bitte.</span></td></tr><tr><td><span class=\"de\">Sonst noch etwas?</span> (¿algo más?)</td><td><span class=\"de\">Ja, ein Stück Kuchen.</span> / <span class=\"de\">Nein, danke. Das ist alles.</span></td></tr><tr><td><span class=\"de\">Das macht 5,40 Euro.</span></td><td><span class=\"de\">Hier, bitte.</span></td></tr></tbody></table><p>En el súper: <span class=\"de\">Entschuldigung, wo gibt es Milch?</span> (perdone, ¿dónde hay leche?). <span class=\"de\">Haben Sie auch Bio-Eier?</span></p><p><b>Ojo:</b> <span class=\"de\">das Brötchen</span> (panecillo) es el pan típico del desayuno alemán; <span class=\"de\">das Brot</span> es la hogaza.</p>"
+   "html": "<table><thead><tr><th>dependiente/a</th><th>cliente</th></tr></thead><tbody><tr><td><span class=\"de\">Guten Morgen! Was möchten Sie?</span></td><td><span class=\"de\">Ich hätte gern vier Brötchen, bitte.</span></td></tr><tr><td><span class=\"de\">Sonst noch etwas?</span> (¿algo más?)</td><td><span class=\"de\">Ja, ein Stück Kuchen.</span> / <span class=\"de\">Nein, danke. Das ist alles.</span></td></tr><tr><td><span class=\"de\">Das macht 5,40 Euro.</span></td><td><span class=\"de\">Hier, bitte.</span></td></tr></tbody></table><p>En el súper: <span class=\"de\">Entschuldigung, wo gibt es Milch?</span> (perdone, ¿dónde hay leche?). <span class=\"de\">Haben Sie auch Bio-Eier?</span></p><p><b>Ojo:</b> <span class=\"de\">das Brötchen</span> (panecillo) es el pan típico del desayuno alemán; <span class=\"de\">das Brot</span> es la hogaza.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "La panadera te pregunta: «Sonst noch etwas?». Por el contexto, ¿qué crees que significa?",
+    "o": [
+     "¿Algo más?",
+     "¿Cuánto es?",
+     "¿Para llevar?"
+    ],
+    "a": 0,
+    "exp": "«Sonst noch etwas?» = ¿Algo más? Respondes: «Ja, …» o «Nein, danke. Das ist alles.»"
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Ya no quieres nada más. ¿Qué dices?",
+     "o": [
+      "Nein, danke. Das ist alles.",
+      "Ja, das macht alles.",
+      "Nein, das kostet alles."
+     ],
+     "a": 0,
+     "exp": "«Das ist alles» = eso es todo."
+    },
+    {
+     "t": "order",
+     "w": [
+      "gibt",
+      "Wo",
+      "es",
+      "hier",
+      "Eier?"
+     ],
+     "a": "Wo gibt es hier Eier?",
+     "es": "¿Dónde hay huevos por aquí?"
+    },
+    {
+     "t": "gap",
+     "q": "Das ___ 5,40 Euro.",
+     "a": [
+      "macht"
+     ],
+     "hint": "al cobrar",
+     "exp": "Al pagar se dice «Das macht … Euro» (son … euros)."
+    }
+   ]
   }
  ],
  "vocab": [

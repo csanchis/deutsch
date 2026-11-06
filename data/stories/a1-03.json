@@ -1,0 +1,142 @@
+{
+ "title": "Wer arbeitet hier?",
+ "title_es": "¿Quién trabaja aquí?",
+ "lines": [
+  {
+   "de": "Im Institut arbeiten viele Leute. Jonas zeigt Lucía alles.",
+   "es": "En el instituto trabaja mucha gente. Jonas se lo enseña todo a Lucía."
+  },
+  {
+   "who": "Jonas",
+   "de": "Das ist Mia. Sie ist Laborassistentin und arbeitet sehr viel.",
+   "es": "Esta es Mia. Es técnica de laboratorio y trabaja muchísimo."
+  },
+  {
+   "who": "Mia",
+   "de": "Ha… hallo, Lucía.",
+   "es": "Ho… hola, Lucía."
+  },
+  {
+   "who": "Jonas",
+   "de": "Und das ist Herr Brandt. Er ist Hausmeister.",
+   "es": "Y este es el señor Brandt. Es el conserje."
+  },
+  {
+   "who": "Herr Brandt",
+   "de": "Hm. Die Spanierin. Was sind Sie von Beruf?",
+   "es": "Hm. La española. ¿A qué se dedica usted?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ich bin Biologin. Ich arbeite mit Hefe.",
+   "es": "Soy bióloga. Trabajo con levadura."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Frau García, was ist Ihr Projekt?",
+   "es": "Señora García, ¿cuál es su proyecto?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Meine Hefe leuchtet im Dunkeln. Sie ist grün!",
+   "es": "Mi levadura brilla en la oscuridad. ¡Es verde!"
+  },
+  {
+   "who": "Jonas",
+   "de": "Wow! Hast du ein Foto? Leuchtet sie auch heute?",
+   "es": "¡Uau! ¿Tienes una foto? ¿Brilla también hoy?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Herr Brandt, arbeitet hier jemand nachts?",
+   "es": "Señor Brandt, ¿trabaja alguien aquí por la noche?"
+  },
+  {
+   "who": "Herr Brandt",
+   "de": "Nein. Nachts arbeitet hier niemand. Niemand!",
+   "es": "No. Por la noche aquí no trabaja nadie. ¡Nadie!"
+  },
+  {
+   "de": "Es ist spät. Lucía joggt nach Hause. Das Institut ist dunkel…",
+   "es": "Es tarde. Lucía vuelve a casa corriendo. El instituto está a oscuras…"
+  },
+  {
+   "de": "…aber im Labor ist Licht!",
+   "es": "…¡pero en el laboratorio hay luz!"
+  },
+  {
+   "who": "Lucía",
+   "de": "Licht? Arbeitet da jemand?!",
+   "es": "¿Luz? ¿¡Hay alguien trabajando ahí!?"
+  }
+ ],
+ "gloss": [
+  [
+   "die Leute",
+   "la gente"
+  ],
+  [
+   "zeigen",
+   "enseñar, mostrar"
+  ],
+  [
+   "der Hausmeister",
+   "el conserje"
+  ],
+  [
+   "die Hefe",
+   "la levadura"
+  ],
+  [
+   "leuchten",
+   "brillar"
+  ],
+  [
+   "im Dunkeln",
+   "en la oscuridad"
+  ],
+  [
+   "nachts",
+   "por la noche"
+  ],
+  [
+   "jemand / niemand",
+   "alguien / nadie"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Cuál es la profesión de Mia?",
+   "o": [
+    "Técnica de laboratorio",
+    "Profesora",
+    "Conserje"
+   ],
+   "a": 0,
+   "exp": "Jonas dice: «Sie ist Laborassistentin»."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué tiene de especial la levadura de Lucía?",
+   "o": [
+    "Brilla en la oscuridad",
+    "Huele a café",
+    "Viene de Valencia"
+   ],
+   "a": 0,
+   "exp": "«Meine Hefe leuchtet im Dunkeln» = mi levadura brilla en la oscuridad."
+  },
+  {
+   "t": "mc",
+   "q": "¿Por qué es raro lo que ve Lucía al final?",
+   "o": [
+    "Hay luz en el laboratorio, pero Brandt dice que de noche no trabaja nadie",
+    "Jonas está corriendo por la calle",
+    "El instituto está cerrado con llave"
+   ],
+   "a": 0,
+   "exp": "Herr Brandt: «Nachts arbeitet hier niemand». Y sin embargo, hay luz…"
+  }
+ ]
+}

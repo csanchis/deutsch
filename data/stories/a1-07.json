@@ -1,0 +1,135 @@
+{
+ "title": "Viertel nach zwei",
+ "title_es": "Las dos y cuarto",
+ "lines": [
+  {
+   "de": "Heidelberg, Dienstag. Lucía steht um halb sieben auf.",
+   "es": "Heidelberg, martes. Lucía se levanta a las seis y media."
+  },
+  {
+   "de": "Sie duscht und frühstückt. Um acht fängt ihre Arbeit an.",
+   "es": "Se ducha y desayuna. A las ocho empieza su trabajo."
+  },
+  {
+   "de": "Jonas kommt um Viertel nach neun. Er hat natürlich einen Kaffee.",
+   "es": "Jonas llega a las nueve y cuarto. Lleva, cómo no, un café."
+  },
+  {
+   "who": "Jonas",
+   "de": "Morgen! Morgens bin ich langsam. Aber abends bin ich super!",
+   "es": "¡Buenos días! Por las mañanas soy lento. ¡Pero por las noches soy genial!"
+  },
+  {
+   "who": "Lucía",
+   "de": "Jonas, eine Probe ist weg. Heute Abend bleibe ich im Labor.",
+   "es": "Jonas, falta una muestra. Esta noche me quedo en el laboratorio."
+  },
+  {
+   "who": "Jonas",
+   "de": "Allein? Dann rufst du mich an, okay? Ich sehe nur fern.",
+   "es": "¿Sola? Entonces me llamas, ¿vale? Yo solo estaré viendo la tele."
+  },
+  {
+   "de": "Am Abend ist niemand im Institut. Lucía räumt den Kühlschrank auf und wartet.",
+   "es": "Por la noche no hay nadie en el instituto. Lucía ordena la nevera y espera."
+  },
+  {
+   "who": "Herr Brandt",
+   "de": "Frau García? Es ist halb elf! Um elf schließe ich ab.",
+   "es": "¿Señora García? ¡Son las diez y media! A las once cierro con llave."
+  },
+  {
+   "who": "Lucía",
+   "de": "Herr Brandt, kommt in der Nacht jemand ins Institut?",
+   "es": "Herr Brandt, ¿viene alguien al instituto por la noche?"
+  },
+  {
+   "who": "Herr Brandt",
+   "de": "Nein. Die Tür hat einen Code, und der Computer speichert alles. Hier, das Protokoll.",
+   "es": "No. La puerta tiene un código y el ordenador lo registra todo. Tenga, el registro."
+  },
+  {
+   "de": "Lucía liest: «Montag, 22:05 Uhr – Brandt. Dienstag, 2:15 Uhr – Brandt. Dienstag, 7:58 Uhr – Wolf.»",
+   "es": "Lucía lee: «Lunes, 22:05 – Brandt. Martes, 2:15 – Brandt. Martes, 7:58 – Wolf.»"
+  },
+  {
+   "who": "Lucía",
+   "de": "Zwei Uhr fünfzehn? Arbeiten Sie in der Nacht?",
+   "es": "¿Las dos y cuarto? ¿Usted trabaja por la noche?"
+  },
+  {
+   "who": "Herr Brandt",
+   "de": "Ich? Nein! Um Viertel nach zwei schlafe ich!",
+   "es": "¿Yo? ¡No! ¡A las dos y cuarto estoy durmiendo!"
+  },
+  {
+   "de": "Herr Brandt ist plötzlich ganz weiß. Jemand hat seinen Code.",
+   "es": "Herr Brandt se pone blanco de repente. Alguien tiene su código."
+  }
+ ],
+ "gloss": [
+  [
+   "die Probe",
+   "la muestra"
+  ],
+  [
+   "niemand / jemand",
+   "nadie / alguien"
+  ],
+  [
+   "der Kühlschrank",
+   "la nevera"
+  ],
+  [
+   "abschließen",
+   "cerrar con llave"
+  ],
+  [
+   "speichern",
+   "guardar, registrar"
+  ],
+  [
+   "das Protokoll",
+   "el registro"
+  ],
+  [
+   "plötzlich",
+   "de repente"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿A qué hora llega Jonas al laboratorio?",
+   "o": [
+    "A las 8:45",
+    "A las 9:30",
+    "A las 9:15"
+   ],
+   "a": 2,
+   "exp": "«Viertel nach neun» = las nueve y cuarto."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué dice Herr Brandt de la puerta?",
+   "o": [
+    "Que nunca la cierra",
+    "Que solo la Prof. Wolf tiene la llave",
+    "Que tiene un código y el ordenador lo registra todo"
+   ],
+   "a": 2,
+   "exp": "«Die Tür hat einen Code, und der Computer speichert alles.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué descubre Lucía en el registro?",
+   "o": [
+    "Que alguien abrió la puerta a las 2:15 con el código de Herr Brandt",
+    "Que la Prof. Wolf trabajó hasta las once",
+    "Que Jonas entró de noche"
+   ],
+   "a": 0,
+   "exp": "El martes a las 2:15 aparece «Brandt», pero él dice que a esa hora duerme."
+  }
+ ]
+}

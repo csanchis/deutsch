@@ -1,0 +1,154 @@
+{
+ "title": "Auf Gleis 12",
+ "title_es": "En el andén 12",
+ "lines": [
+  {
+   "de": "Felix sieht Lucía an, dann die Vitrine. Lucía nimmt die Flasche und rennt los.",
+   "es": "Felix mira a Lucía y luego la vitrina. Lucía coge el frasco y echa a correr."
+  },
+  {
+   "de": "Mit der S-Bahn fährt sie zum Hauptbahnhof. Ihr Herz schlägt sehr schnell.",
+   "es": "Va en el tren de cercanías hasta la estación central. El corazón le late muy rápido."
+  },
+  {
+   "who": "Lucía",
+   "de": "Entschuldigung, können Sie mir sagen, wann der nächste Zug nach Heidelberg fährt?",
+   "es": "Perdone, ¿me puede decir cuándo sale el próximo tren a Heidelberg?"
+  },
+  {
+   "who": "Herr von der Bahn",
+   "de": "Um 11:20 Uhr von Gleis 12. Aber er hat leider zwanzig Minuten Verspätung.",
+   "es": "A las 11:20, del andén 12. Pero, por desgracia, lleva veinte minutos de retraso."
+  },
+  {
+   "who": "Lucía",
+   "de": "Jonas, ich warte auf Gleis 12. Weißt du, ob die Polizei kommt?",
+   "es": "Jonas, estoy esperando en el andén 12. ¿Sabes si viene la policía?"
+  },
+  {
+   "who": "Jonas",
+   "de": "Sie ist schon unterwegs! Und ich bin seit einer Stunde in Berlin und suche dich überall!",
+   "es": "¡Ya está en camino! ¡Y yo llevo una hora en Berlín buscándote por todas partes!"
+  },
+  {
+   "de": "Plötzlich steht Felix auf dem Bahnsteig. Er ist außer Atem.",
+   "es": "De repente Felix aparece en el andén. Le falta el aliento."
+  },
+  {
+   "who": "Felix",
+   "de": "Gib mir die Flasche, Lucía. Du hast keine Chance.",
+   "es": "Dame el frasco, Lucía. No tienes ninguna posibilidad."
+  },
+  {
+   "who": "Lucía",
+   "de": "Doch. Ich boxe seit zehn Jahren. Und ich bin schneller als du.",
+   "es": "Sí que la tengo. Llevo diez años boxeando. Y soy más rápida que tú."
+  },
+  {
+   "de": "Felix springt nach vorn – aber Lucía macht einen schnellen Schritt zur Seite. Felix liegt auf dem Boden.",
+   "es": "Felix se lanza hacia delante, pero Lucía da un paso rápido a un lado. Felix acaba en el suelo."
+  },
+  {
+   "who": "Polizistin",
+   "de": "Polizei! Bleiben Sie liegen! Sie kommen mit uns.",
+   "es": "¡Policía! ¡No se levante! Usted se viene con nosotros."
+  },
+  {
+   "de": "Zwei Wochen später, Heidelberg. Die Hefe leuchtet wieder im Labor, an ihrem Platz.",
+   "es": "Dos semanas después, Heidelberg. La levadura vuelve a brillar en el laboratorio, en su sitio."
+  },
+  {
+   "who": "Mia",
+   "de": "Lucía, es tut mir so leid. Ich denke jeden Tag daran.",
+   "es": "Lucía, lo siento muchísimo. Pienso en ello cada día."
+  },
+  {
+   "who": "Lucía",
+   "de": "Ich weiß. Ab Montag arbeiten wir wieder zusammen, okay?",
+   "es": "Lo sé. A partir del lunes volvemos a trabajar juntas, ¿vale?"
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Frau García, vor zwei Monaten waren Sie neu hier. Heute bin ich sehr stolz auf Sie.",
+   "es": "Señora García, hace dos meses era usted nueva aquí. Hoy estoy muy orgullosa de usted."
+  },
+  {
+   "who": "Jonas",
+   "de": "Und auf mich? Ich habe zwei Stunden auf die Polizei gewartet!",
+   "es": "¿Y de mí? ¡Estuve dos horas esperando a la policía!"
+  },
+  {
+   "de": "Am Abend scheint die Sonne über Heidelberg. Lucía kommt nach Hause.",
+   "es": "Por la tarde brilla el sol sobre Heidelberg. Lucía llega a casa."
+  },
+  {
+   "de": "Auf dem Sofa schläft Einstein – auf dem Laborbuch. Lucía lacht: „Na, Einstein, worauf wartest du? Auf Applaus?“",
+   "es": "En el sofá duerme Einstein, encima del cuaderno de laboratorio. Lucía se ríe: «Bueno, Einstein, ¿a qué esperas? ¿A que te aplaudan?»"
+  }
+ ],
+ "gloss": [
+  [
+   "losrennen",
+   "echar a correr"
+  ],
+  [
+   "der Bahnsteig",
+   "el andén"
+  ],
+  [
+   "außer Atem",
+   "sin aliento"
+  ],
+  [
+   "unterwegs",
+   "en camino"
+  ],
+  [
+   "springen",
+   "saltar, lanzarse"
+  ],
+  [
+   "der Schritt",
+   "el paso"
+  ],
+  [
+   "stolz auf",
+   "orgulloso/a de"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Qué problema tiene el tren a Heidelberg?",
+   "o": [
+    "Sale de otro andén",
+    "Lleva veinte minutos de retraso",
+    "Está cancelado"
+   ],
+   "a": 1,
+   "exp": "«Aber er hat leider zwanzig Minuten Verspätung.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Cuánto tiempo lleva Lucía boxeando?",
+   "o": [
+    "Seis meses",
+    "Dos años",
+    "Diez años"
+   ],
+   "a": 2,
+   "exp": "«Ich boxe seit zehn Jahren.» (seit + presente: sigue boxeando)."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué pasará a partir del lunes?",
+   "o": [
+    "Mia y Lucía volverán a trabajar juntas",
+    "Mia se irá a Berlín",
+    "Lucía dejará el laboratorio"
+   ],
+   "a": 0,
+   "exp": "Lucía: «Ab Montag arbeiten wir wieder zusammen, okay?»"
+  }
+ ]
+}

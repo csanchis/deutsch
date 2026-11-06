@@ -1,0 +1,134 @@
+{
+ "title": "Ich darf nicht",
+ "title_es": "No me está permitido",
+ "lines": [
+  {
+   "de": "Donnerstag, der zwölfte Oktober. Prof. Wolf ist nicht glücklich.",
+   "es": "Jueves, doce de octubre. La Prof. Wolf no está contenta."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Frau García, eine Probe ist weg und Ihr Laborbuch auch. Das ist ein Problem.",
+   "es": "Señora García, falta una muestra y su cuaderno de laboratorio también. Eso es un problema."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Sie müssen alles neu dokumentieren. Und Sie dürfen in der Nacht nicht allein im Labor arbeiten.",
+   "es": "Tiene que documentarlo todo de nuevo. Y no puede trabajar sola en el laboratorio por la noche."
+  },
+  {
+   "who": "Lucía",
+   "de": "Aber ich will die Hefe finden! Ich kann helfen.",
+   "es": "¡Pero quiero encontrar la levadura! Puedo ayudar."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Sie sollen arbeiten, nicht Detektiv spielen. Am Montag will ich einen Bericht.",
+   "es": "Usted tiene que trabajar, no jugar a los detectives. El lunes quiero un informe."
+  },
+  {
+   "de": "Später in der Küche. Jonas trinkt Kaffee Nummer drei.",
+   "es": "Más tarde, en la cocina. Jonas se toma el café número tres."
+  },
+  {
+   "who": "Jonas",
+   "de": "Detektiv spielen? Gute Idee! Herr Brandt muss etwas wissen.",
+   "es": "¿Jugar a los detectives? ¡Buena idea! Herr Brandt tiene que saber algo."
+  },
+  {
+   "who": "Jonas",
+   "de": "Wir müssen mit ihm sprechen. Hast du am Samstag Zeit?",
+   "es": "Tenemos que hablar con él. ¿Tienes tiempo el sábado?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Am Samstag kann ich nicht, da habe ich Boxtraining. Geht es am Freitag?",
+   "es": "El sábado no puedo, tengo entrenamiento de boxeo. ¿Te va bien el viernes?"
+  },
+  {
+   "who": "Jonas",
+   "de": "Freitag, der dreizehnte? Hm … Okay, das geht. Um sieben im Labor.",
+   "es": "¿Viernes trece? Mmm… Vale, me va bien. A las siete en el laboratorio."
+  },
+  {
+   "de": "Am Freitag um sieben ist Herr Brandt im Flur. Er sieht sehr müde aus.",
+   "es": "El viernes a las siete Herr Brandt está en el pasillo. Parece muy cansado."
+  },
+  {
+   "who": "Lucía",
+   "de": "Herr Brandt, wir wollen nur sprechen. Wer kennt Ihren Code?",
+   "es": "Herr Brandt, solo queremos hablar. ¿Quién conoce su código?"
+  },
+  {
+   "who": "Jonas",
+   "de": "Bitte! Sie können uns helfen.",
+   "es": "¡Por favor! Usted puede ayudarnos."
+  },
+  {
+   "who": "Herr Brandt",
+   "de": "Ich kann nicht sprechen. Ich darf nicht.",
+   "es": "No puedo hablar. No me está permitido."
+  }
+ ],
+ "gloss": [
+  [
+   "dokumentieren",
+   "documentar"
+  ],
+  [
+   "Detektiv spielen",
+   "jugar a los detectives"
+  ],
+  [
+   "der Bericht",
+   "el informe"
+  ],
+  [
+   "wissen",
+   "saber"
+  ],
+  [
+   "mit ihm",
+   "con él"
+  ],
+  [
+   "müde aussehen",
+   "parecer cansado"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Qué le prohíbe la Prof. Wolf a Lucía?",
+   "o": [
+    "Hablar con Jonas",
+    "Trabajar sola en el laboratorio por la noche",
+    "Ir al club de boxeo"
+   ],
+   "a": 1,
+   "exp": "«Sie dürfen in der Nacht nicht allein im Labor arbeiten.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Por qué no quedan Lucía y Jonas el sábado?",
+   "o": [
+    "Porque Lucía tiene entrenamiento de boxeo",
+    "Porque el laboratorio está cerrado",
+    "Porque Jonas tiene que trabajar"
+   ],
+   "a": 0,
+   "exp": "«Am Samstag kann ich nicht, da habe ich Boxtraining.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué dice Herr Brandt al final?",
+   "o": [
+    "Que no puede hablar porque no le está permitido",
+    "Que tiene que irse a casa",
+    "Que no conoce su propio código"
+   ],
+   "a": 0,
+   "exp": "«Ich kann nicht sprechen. Ich darf nicht.» Alguien se lo prohíbe… ¿pero quién?"
+  }
+ ]
+}

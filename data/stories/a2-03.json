@@ -1,0 +1,161 @@
+{
+ "title": "Die Kamera im Regal",
+ "title_es": "La cámara en la estantería",
+ "lines": [
+  {
+   "de": "Mittwoch, 21 Uhr. Das Institut ist dunkel. Lucía und Jonas sind allein im Labor.",
+   "es": "Miércoles, las nueve de la noche. El instituto está a oscuras. Lucía y Jonas están solos en el laboratorio."
+  },
+  {
+   "who": "Jonas",
+   "de": "Okay, Frau Detektivin. Wo suchen wir zuerst?",
+   "es": "Vale, señora detective. ¿Dónde buscamos primero?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Du suchst hinter den Schränken, ich suche unter den Tischen.",
+   "es": "Tú buscas detrás de los armarios, yo debajo de las mesas."
+  },
+  {
+   "who": "Jonas",
+   "de": "Hier liegt etwas! Unter dem Regal … Ach nein. Das ist mein Sandwich vom Montag.",
+   "es": "¡Aquí hay algo! Debajo de la estantería… Ah, no. Es mi sándwich del lunes."
+  },
+  {
+   "who": "Lucía",
+   "de": "Jonas! … Aber schau mal: Warum liegt Mias Kalender im Kühlschrank?",
+   "es": "¡Jonas!… Pero mira: ¿por qué está la agenda de Mia en la nevera?"
+  },
+  {
+   "who": "Jonas",
+   "de": "Vielleicht ist ihr zu warm?",
+   "es": "¿A lo mejor tiene demasiado calor?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Sehr witzig. Hast du die Kamera?",
+   "es": "Muy gracioso. ¿Tienes la cámara?"
+  },
+  {
+   "who": "Jonas",
+   "de": "Ja, hier. Wohin stellen wir sie? Auf den Schrank?",
+   "es": "Sí, aquí. ¿Dónde la ponemos? ¿Encima del armario?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Nein, da sieht man sie sofort. Stell sie ins Regal, zwischen die Bücher.",
+   "es": "No, ahí se ve enseguida. Ponla en la estantería, entre los libros."
+  },
+  {
+   "de": "Jonas stellt die Kamera zwischen die Bücher. Jetzt steht sie im Regal, und niemand sieht sie.",
+   "es": "Jonas pone la cámara entre los libros. Ahora está en la estantería y nadie la ve."
+  },
+  {
+   "who": "Lucía",
+   "de": "Und der Inkubator? Sieht die Kamera ihn?",
+   "es": "¿Y la incubadora? ¿La ve la cámara?"
+  },
+  {
+   "who": "Jonas",
+   "de": "Ja, er steht direkt vor der Kamera. Und ich lege mein Sandwich neben den Inkubator. Als Köder!",
+   "es": "Sí, está justo delante de la cámara. Y pongo mi sándwich al lado de la incubadora. ¡Como cebo!"
+  },
+  {
+   "de": "Donnerstag, sieben Uhr. Lucía und Jonas sitzen am Computer und sehen das Video.",
+   "es": "Jueves, las siete. Lucía y Jonas están sentados delante del ordenador y ven el vídeo."
+  },
+  {
+   "who": "Jonas",
+   "de": "Ein Uhr: nichts. Zwei Uhr: nichts. Ich schlafe gleich ein …",
+   "es": "La una: nada. Las dos: nada. Me voy a quedar dormido…"
+  },
+  {
+   "who": "Lucía",
+   "de": "Warte! 3:40 Uhr. Da springt etwas auf den Tisch!",
+   "es": "¡Espera! Las 3:40. ¡Algo salta a la mesa!"
+  },
+  {
+   "who": "Jonas",
+   "de": "Eine Katze?! Im Labor? Ist das … Einstein?",
+   "es": "¿¡Un gato!? ¿En el laboratorio? ¿Es… Einstein?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ja, das ist Einstein! Und er frisst dein Sandwich!",
+   "es": "¡Sí, es Einstein! ¡Y se está comiendo tu sándwich!"
+  },
+  {
+   "de": "Dann kommt noch etwas ins Bild: eine Hand.",
+   "es": "Entonces aparece algo más en la imagen: una mano."
+  }
+ ],
+ "gloss": [
+  [
+   "die Detektivin",
+   "la detective"
+  ],
+  [
+   "das Regal",
+   "la estantería"
+  ],
+  [
+   "der Kalender",
+   "la agenda"
+  ],
+  [
+   "witzig",
+   "gracioso"
+  ],
+  [
+   "der Köder",
+   "el cebo"
+  ],
+  [
+   "springen",
+   "saltar"
+  ],
+  [
+   "fressen (er frisst)",
+   "comer (un animal)"
+  ],
+  [
+   "das Bild",
+   "la imagen"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Qué encuentra Jonas debajo de la estantería?",
+   "o": [
+    "Una muestra de levadura",
+    "Su sándwich del lunes",
+    "La llave de la maleta"
+   ],
+   "a": 1,
+   "exp": "«Das ist mein Sandwich vom Montag.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Dónde ponen la cámara?",
+   "o": [
+    "Encima del armario",
+    "En la estantería, entre los libros",
+    "Dentro de la nevera"
+   ],
+   "a": 1,
+   "exp": "«Stell sie ins Regal, zwischen die Bücher.» Encima del armario se vería enseguida."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué se ve en el vídeo a las 3:40?",
+   "o": [
+    "A Herr Brandt con una llave",
+    "A Einstein comiéndose el sándwich… y una mano",
+    "A Mia con su agenda"
+   ],
+   "a": 1,
+   "exp": "Einstein salta a la mesa y se come el sándwich; después aparece «eine Hand»."
+  }
+ ]
+}

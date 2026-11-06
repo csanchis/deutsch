@@ -13,23 +13,259 @@
  "lessons": [
   {
    "h": "Comparativo: -er + als",
-   "html": "<p>En alemán no se dice «más rápido» con una palabra aparte: se añade <b>-er</b> al adjetivo, y «que» es <b>als</b>.</p><table><thead><tr><th>Adjetivo</th><th>Comparativo</th><th>Ejemplo</th></tr></thead><tbody><tr><td>klein</td><td>klein<b>er</b></td><td><span class=\"de\">Heidelberg ist kleiner als Berlin.</span></td></tr><tr><td>schnell</td><td>schnell<b>er</b></td><td><span class=\"de\">Der Zug ist schneller als der Bus.</span></td></tr><tr><td>billig</td><td>billig<b>er</b></td><td><span class=\"de\">Das Fahrrad ist billiger als das Auto.</span></td></tr><tr><td>teuer</td><td>teu<b>rer</b></td><td><span class=\"de\">Der Laptop ist teurer als das Handy.</span></td></tr><tr><td>dunkel</td><td>dunk<b>ler</b></td><td><span class=\"de\">Das Zimmer ist dunkler als die Küche.</span></td></tr></tbody></table><p>Los adjetivos en <b>-er</b> y <b>-el</b> pierden la <b>e</b>: teuer → teurer, dunkel → dunkler.</p><p>También funciona con adverbios: <span class=\"de\">Sie läuft schneller als ich.</span></p><p><b>ojo:</b> «mehr schnell» ✗ → <span class=\"de\">schneller</span> ✓. Y «que» es <span class=\"de\">als</span>, no <span class=\"de\">wie</span>: «größer wie» es un error frecuente (también entre nativos).</p>"
+   "html": "<p>En alemán no se dice «más rápido» con una palabra aparte: se añade <b>-er</b> al adjetivo, y «que» es <b>als</b>.</p><table><thead><tr><th>Adjetivo</th><th>Comparativo</th><th>Ejemplo</th></tr></thead><tbody><tr><td>klein</td><td>klein<b>er</b></td><td><span class=\"de\">Heidelberg ist kleiner als Berlin.</span></td></tr><tr><td>schnell</td><td>schnell<b>er</b></td><td><span class=\"de\">Der Zug ist schneller als der Bus.</span></td></tr><tr><td>billig</td><td>billig<b>er</b></td><td><span class=\"de\">Das Fahrrad ist billiger als das Auto.</span></td></tr><tr><td>teuer</td><td>teu<b>rer</b></td><td><span class=\"de\">Der Laptop ist teurer als das Handy.</span></td></tr><tr><td>dunkel</td><td>dunk<b>ler</b></td><td><span class=\"de\">Das Zimmer ist dunkler als die Küche.</span></td></tr></tbody></table><p>Los adjetivos en <b>-er</b> y <b>-el</b> pierden la <b>e</b>: teuer → teurer, dunkel → dunkler.</p><p>También funciona con adverbios: <span class=\"de\">Sie läuft schneller als ich.</span></p><p><b>ojo:</b> «mehr schnell» ✗ → <span class=\"de\">schneller</span> ✓. Y «que» es <span class=\"de\">als</span>, no <span class=\"de\">wie</span>: «größer wie» es un error frecuente (también entre nativos).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En inglés: fast → faster. ¿Cómo crees que se dice «más rápido» en alemán?",
+    "o": [
+     "mehr schnell",
+     "schneller",
+     "schnellst"
+    ],
+    "a": 1,
+    "exp": "¡Como en inglés! Se añade -er al adjetivo: schnell → schneller. Y «que» se dice «als»."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Im Winter ist es in Berlin ___ als in Valencia.",
+     "o": [
+      "dunkeler",
+      "dunkler",
+      "mehr dunkel"
+     ],
+     "a": 1,
+     "exp": "Los adjetivos en -el pierden la e: dunkel → dunkler."
+    },
+    {
+     "t": "gap",
+     "q": "Der Kaffee in der Mensa ist billiger ___ im Café.",
+     "a": [
+      "als"
+     ],
+     "hint": "que",
+     "exp": "Tras el comparativo (-er), «que» es «als»."
+    },
+    {
+     "t": "tr",
+     "es": "Corro más rápido que tú.",
+     "a": [
+      "Ich laufe schneller als du.",
+      "Ich renne schneller als du."
+     ],
+     "exp": "El comparativo también funciona con verbos: schneller als du."
+    }
+   ]
   },
   {
    "h": "Igualdad: so … wie",
-   "html": "<table><thead><tr><th>Alemán</th><th>Español</th></tr></thead><tbody><tr><td><span class=\"de\">Paul ist so groß wie Anna.</span></td><td>Paul es tan alto como Anna.</td></tr><tr><td><span class=\"de\">Paul ist genauso groß wie Anna.</span></td><td>Paul es exactamente igual de alto que Anna.</td></tr><tr><td><span class=\"de\">Das Handy ist nicht so teuer wie der Laptop.</span></td><td>El móvil no es tan caro como el portátil.</td></tr></tbody></table><p>Con <b>so … wie</b> el adjetivo <b>no cambia</b> (sin -er).</p><p><b>ojo:</b> «so groß als» ✗ → <span class=\"de\">so groß wie</span>. Regla: igualdad → <b>wie</b>; diferencia (-er) → <b>als</b>.</p>"
+   "html": "<table><thead><tr><th>Alemán</th><th>Español</th></tr></thead><tbody><tr><td><span class=\"de\">Paul ist so groß wie Anna.</span></td><td>Paul es tan alto como Anna.</td></tr><tr><td><span class=\"de\">Paul ist genauso groß wie Anna.</span></td><td>Paul es exactamente igual de alto que Anna.</td></tr><tr><td><span class=\"de\">Das Handy ist nicht so teuer wie der Laptop.</span></td><td>El móvil no es tan caro como el portátil.</td></tr></tbody></table><p>Con <b>so … wie</b> el adjetivo <b>no cambia</b> (sin -er).</p><p><b>ojo:</b> «so groß als» ✗ → <span class=\"de\">so groß wie</span>. Regla: igualdad → <b>wie</b>; diferencia (-er) → <b>als</b>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Jonas es tan alto como Kai.» ¿Qué crees que va en el hueco? Jonas ist so groß ___ Kai.",
+    "o": [
+     "als",
+     "wie",
+     "dass"
+    ],
+    "a": 1,
+    "exp": "Para la igualdad (so … wie) se usa «wie», igual que nuestro «como». «als» es solo para las diferencias (-er)."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Madrid ist nicht so ___ wie Berlin.",
+     "o": [
+      "groß",
+      "größer"
+     ],
+     "a": 0,
+     "exp": "Con «so … wie» el adjetivo no cambia: so groß wie."
+    },
+    {
+     "t": "gap",
+     "q": "Mein Kaffee ist genauso heiß ___ dein Tee.",
+     "a": [
+      "wie"
+     ],
+     "hint": "como",
+     "exp": "«genauso … wie» = exactamente igual de … que: siempre con «wie»."
+    },
+    {
+     "t": "tr",
+     "es": "El gimnasio no es tan caro como el club de boxeo.",
+     "a": [
+      "Das Fitnessstudio ist nicht so teuer wie der Boxclub.",
+      "Das Fitnessstudio ist nicht so teuer wie der Boxverein."
+     ],
+     "exp": "«no tan … como» = nicht so … wie, con el adjetivo sin cambiar."
+    }
+   ]
   },
   {
    "h": "Superlativo: am -sten",
-   "html": "<p>Para decir «el/la más …» detrás del verbo (sin sustantivo) usamos <b>am + adjetivo + -sten</b>.</p><table><thead><tr><th>Adjetivo</th><th>Comparativo</th><th>Superlativo</th></tr></thead><tbody><tr><td>schnell</td><td>schneller</td><td>am schnell<b>sten</b></td></tr><tr><td>billig</td><td>billiger</td><td>am billig<b>sten</b></td></tr><tr><td>teuer</td><td>teurer</td><td>am teuer<b>sten</b></td></tr><tr><td>alt</td><td>älter</td><td>am ält<b>esten</b></td></tr><tr><td>heiß</td><td>heißer</td><td>am heiß<b>esten</b></td></tr><tr><td>kurz</td><td>kürzer</td><td>am kürz<b>esten</b></td></tr></tbody></table><p>Si el adjetivo termina en <b>-d, -t, -s, -ß, -z</b> se añade una <b>e</b>: am ältesten, am heißesten, am kürzesten. Excepción: <span class=\"de\">groß → am größten</span>.</p><p><span class=\"de\">Tim, Ben und Ali sind schnell, aber Ali läuft am schnellsten.</span></p><p><b>ojo:</b> el superlativo con <span class=\"de\">am</span> va solo, después del verbo: <span class=\"de\">Dieser Laptop ist am teuersten.</span> No se dice «am teuersten Laptop».</p>"
+   "html": "<p>Para decir «el/la más …» detrás del verbo (sin sustantivo) usamos <b>am + adjetivo + -sten</b>.</p><table><thead><tr><th>Adjetivo</th><th>Comparativo</th><th>Superlativo</th></tr></thead><tbody><tr><td>schnell</td><td>schneller</td><td>am schnell<b>sten</b></td></tr><tr><td>billig</td><td>billiger</td><td>am billig<b>sten</b></td></tr><tr><td>teuer</td><td>teurer</td><td>am teuer<b>sten</b></td></tr><tr><td>alt</td><td>älter</td><td>am ält<b>esten</b></td></tr><tr><td>heiß</td><td>heißer</td><td>am heiß<b>esten</b></td></tr><tr><td>kurz</td><td>kürzer</td><td>am kürz<b>esten</b></td></tr></tbody></table><p>Si el adjetivo termina en <b>-d, -t, -s, -ß, -z</b> se añade una <b>e</b>: am ältesten, am heißesten, am kürzesten. Excepción: <span class=\"de\">groß → am größten</span>.</p><p><span class=\"de\">Tim, Ben und Ali sind schnell, aber Ali läuft am schnellsten.</span></p><p><b>ojo:</b> el superlativo con <span class=\"de\">am</span> va solo, después del verbo: <span class=\"de\">Dieser Laptop ist am teuersten.</span> No se dice «am teuersten Laptop».</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Tim y Ben corren rápido, pero Ali es el que más. ¿Cómo crees que se dice? (pista: empieza por «am»)",
+    "o": [
+     "Ali läuft am schnellsten.",
+     "Ali läuft am schneller.",
+     "Ali läuft am mehr schnell."
+    ],
+    "a": 0,
+    "exp": "El superlativo detrás del verbo es «am» + adjetivo + -sten: am schnellsten."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Im August ist es in Sevilla am ___.",
+     "a": [
+      "heißesten"
+     ],
+     "hint": "heiß",
+     "exp": "«heiß» termina en -ß, así que se añade una e: am heißesten."
+    },
+    {
+     "t": "mc",
+     "q": "Welcher Weg ist am ___?",
+     "o": [
+      "kurzsten",
+      "kürzesten",
+      "kürzsten"
+     ],
+     "a": 1,
+     "exp": "«kurz» toma Umlaut y, como termina en -z, añade una e: am kürzesten."
+    },
+    {
+     "t": "order",
+     "w": [
+      "Mia",
+      "am",
+      "arbeitet",
+      "Labor",
+      "Im",
+      "schnellsten."
+     ],
+     "a": "Im Labor arbeitet Mia am schnellsten.",
+     "es": "En el laboratorio, Mia es la que trabaja más rápido."
+    }
+   ]
   },
   {
    "h": "Umlaut e irregulares",
-   "html": "<p>Muchos adjetivos cortos con <b>a, o, u</b> toman <b>Umlaut</b>:</p><table><thead><tr><th>Adjetivo</th><th>Comparativo</th><th>Superlativo</th></tr></thead><tbody><tr><td>alt</td><td>älter</td><td>am ältesten</td></tr><tr><td>jung</td><td>jünger</td><td>am jüngsten</td></tr><tr><td>groß</td><td>größer</td><td>am größten</td></tr><tr><td>lang</td><td>länger</td><td>am längsten</td></tr><tr><td>warm / kalt</td><td>wärmer / kälter</td><td>am wärmsten / am kältesten</td></tr><tr><td>stark</td><td>stärker</td><td>am stärksten</td></tr></tbody></table><p><b>Irregulares</b> (¡de memoria!):</p><table><thead><tr><th>Adjetivo</th><th>Comparativo</th><th>Superlativo</th></tr></thead><tbody><tr><td>gut</td><td><b>besser</b></td><td><b>am besten</b></td></tr><tr><td>viel</td><td><b>mehr</b></td><td><b>am meisten</b></td></tr><tr><td>gern</td><td><b>lieber</b></td><td><b>am liebsten</b></td></tr><tr><td>hoch</td><td><b>höher</b></td><td><b>am höchsten</b></td></tr><tr><td>nah</td><td><b>näher</b></td><td><b>am nächsten</b></td></tr></tbody></table><p><span class=\"de\">mehr</span> no cambia nunca: <span class=\"de\">Ich habe mehr Zeit / mehr Bücher.</span></p><p><b>ojo:</b> «gerner» o «am gernsten» no existen: <span class=\"de\">Ich trinke gern Tee, lieber Kaffee und am liebsten Wasser.</span></p>"
+   "html": "<p>Muchos adjetivos cortos con <b>a, o, u</b> toman <b>Umlaut</b>:</p><table><thead><tr><th>Adjetivo</th><th>Comparativo</th><th>Superlativo</th></tr></thead><tbody><tr><td>alt</td><td>älter</td><td>am ältesten</td></tr><tr><td>jung</td><td>jünger</td><td>am jüngsten</td></tr><tr><td>groß</td><td>größer</td><td>am größten</td></tr><tr><td>lang</td><td>länger</td><td>am längsten</td></tr><tr><td>warm / kalt</td><td>wärmer / kälter</td><td>am wärmsten / am kältesten</td></tr><tr><td>stark</td><td>stärker</td><td>am stärksten</td></tr></tbody></table><p><b>Irregulares</b> (¡de memoria!):</p><table><thead><tr><th>Adjetivo</th><th>Comparativo</th><th>Superlativo</th></tr></thead><tbody><tr><td>gut</td><td><b>besser</b></td><td><b>am besten</b></td></tr><tr><td>viel</td><td><b>mehr</b></td><td><b>am meisten</b></td></tr><tr><td>gern</td><td><b>lieber</b></td><td><b>am liebsten</b></td></tr><tr><td>hoch</td><td><b>höher</b></td><td><b>am höchsten</b></td></tr><tr><td>nah</td><td><b>näher</b></td><td><b>am nächsten</b></td></tr></tbody></table><p><span class=\"de\">mehr</span> no cambia nunca: <span class=\"de\">Ich habe mehr Zeit / mehr Bücher.</span></p><p><b>ojo:</b> «gerner» o «am gernsten» no existen: <span class=\"de\">Ich trinke gern Tee, lieber Kaffee und am liebsten Wasser.</span></p>",
+   "pre": {
+    "t": "mc",
+    "q": "En inglés: good → better. ¿Cuál crees que es el comparativo de «gut»?",
+    "o": [
+     "guter",
+     "besser",
+     "güter"
+    ],
+    "a": 1,
+    "exp": "«gut» es irregular, como «good»: gut → besser → am besten."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Meine Schwester ist 25, ich bin 29. Meine Schwester ist ___ als ich.",
+     "a": [
+      "jünger"
+     ],
+     "hint": "jung",
+     "exp": "«jung» toma Umlaut: jung → jünger."
+    },
+    {
+     "t": "mc",
+     "q": "Ich boxe gern, ich laufe lieber, aber am ___ schwimme ich.",
+     "o": [
+      "gernsten",
+      "liebsten",
+      "gernesten"
+     ],
+     "a": 1,
+     "exp": "«gern» es irregular: gern → lieber → am liebsten."
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "lang",
+       "länger"
+      ],
+      [
+       "kalt",
+       "kälter"
+      ],
+      [
+       "stark",
+       "stärker"
+      ],
+      [
+       "groß",
+       "größer"
+      ]
+     ]
+    }
+   ]
   },
   {
    "h": "Comparar ciudades, deportistas y productos",
-   "html": "<ul><li><span class=\"de\">Berlin ist größer als Madrid, aber Madrid ist wärmer.</span></li><li><span class=\"de\">Valencia ist nicht so groß wie Madrid.</span></li><li><span class=\"de\">Die Zugspitze ist höher als der Brocken.</span></li><li><span class=\"de\">Wer boxt am besten? – Meine Trainerin!</span></li><li><span class=\"de\">Das Handy ist billiger, aber der Laptop ist besser.</span></li><li><span class=\"de\">Welcher Laptop ist am leichtesten?</span></li></ul><p>Para comparar con personas tras <span class=\"de\">als / wie</span> usamos el nominativo: <span class=\"de\">Sie ist älter als ich.</span> (no «als mich»).</p>"
+   "html": "<ul><li><span class=\"de\">Berlin ist größer als Madrid, aber Madrid ist wärmer.</span></li><li><span class=\"de\">Valencia ist nicht so groß wie Madrid.</span></li><li><span class=\"de\">Die Zugspitze ist höher als der Brocken.</span></li><li><span class=\"de\">Wer boxt am besten? – Meine Trainerin!</span></li><li><span class=\"de\">Das Handy ist billiger, aber der Laptop ist besser.</span></li><li><span class=\"de\">Welcher Laptop ist am leichtesten?</span></li></ul><p>Para comparar con personas tras <span class=\"de\">als / wie</span> usamos el nominativo: <span class=\"de\">Sie ist älter als ich.</span> (no «als mich»).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "¿Cómo crees que se dice «Ella es mayor que yo»?",
+    "o": [
+     "Sie ist älter als ich.",
+     "Sie ist älter als mich.",
+     "Sie ist älter als mir."
+    ],
+    "a": 0,
+    "exp": "Tras «als» y «wie» la persona va en nominativo, igual que en español «que yo» (no «que mí»)."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Lucía boxt schneller als ___. (él)",
+     "o": [
+      "er",
+      "ihn",
+      "ihm"
+     ],
+     "a": 0,
+     "exp": "Tras «als», nominativo: als er."
+    },
+    {
+     "t": "read",
+     "text": "Kai ist 40 Jahre alt, Felix ist 35 und Lucía ist 29. Felix ist am größten. Lucía ist kleiner, aber sie ist am schnellsten.",
+     "q": "¿Quién es la persona más rápida?",
+     "o": [
+      "Kai",
+      "Felix",
+      "Lucía"
+     ],
+     "a": 2,
+     "exp": "«Lucía … ist am schnellsten» = Lucía es la más rápida. Felix es el más alto (am größten)."
+    },
+    {
+     "t": "order",
+     "w": [
+      "Berlin",
+      "ist",
+      "Valencia",
+      "schöner.",
+      "aber",
+      "ist",
+      "größer,"
+     ],
+     "a": "Berlin ist größer, aber Valencia ist schöner.",
+     "es": "Berlín es más grande, pero Valencia es más bonita.",
+     "alt": [
+      "Valencia ist schöner, aber Berlin ist größer."
+     ]
+    }
+   ]
   }
  ],
  "vocab": [

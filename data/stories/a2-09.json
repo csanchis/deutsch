@@ -1,0 +1,149 @@
+{
+ "title": "Das Vorstellungsgespräch",
+ "title_es": "La entrevista de trabajo",
+ "lines": [
+  {
+   "de": "Sonntagabend. Lucía schreibt eine E-Mail an NovaGen. Jonas sitzt neben ihr und liest mit.",
+   "es": "Domingo por la noche. Lucía escribe un email a NovaGen. Jonas está sentado a su lado y lo va leyendo."
+  },
+  {
+   "de": "„Sehr geehrte Damen und Herren, ich bin Biologin und würde sehr gern bei NovaGen arbeiten.“",
+   "es": "«Estimados señores: soy bióloga y me gustaría mucho trabajar en NovaGen.»"
+  },
+  {
+   "de": "„Hätten Sie morgen Zeit für ein kurzes Gespräch? Ich bin zufällig in Berlin.“",
+   "es": "«¿Tendrían tiempo mañana para una breve entrevista? Por casualidad estoy en Berlín.»"
+  },
+  {
+   "who": "Jonas",
+   "de": "„Zufällig“? Sehr gut. Aber du solltest nicht deinen echten Namen schreiben!",
+   "es": "¿«Por casualidad»? Muy bien. ¡Pero no deberías poner tu nombre de verdad!"
+  },
+  {
+   "who": "Lucía",
+   "de": "Stimmt. Also: „Mit freundlichen Grüßen, Laura Gómez.“",
+   "es": "Es verdad. Entonces: «Atentamente, Laura Gómez.»"
+  },
+  {
+   "de": "Montag, zehn Uhr, Berlin. NovaGen ist ein hohes Gebäude aus Glas.",
+   "es": "Lunes, las diez, Berlín. NovaGen es un edificio alto de cristal."
+  },
+  {
+   "who": "Frau Krüger",
+   "de": "Guten Tag, Frau Gómez! Könnten Sie bitte kurz hier warten? Möchten Sie einen Kaffee?",
+   "es": "¡Buenos días, señora Gómez! ¿Podría esperar aquí un momento, por favor? ¿Quiere un café?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ich hätte gern ein Glas Wasser, danke.",
+   "es": "Querría un vaso de agua, gracias."
+  },
+  {
+   "de": "Zehn Minuten später sitzt Lucía in einem hellen Büro. „Erzählen Sie etwas über sich, Frau Gómez.“",
+   "es": "Diez minutos después Lucía está sentada en un despacho luminoso. «Hábleme un poco de usted, señora Gómez.»"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ich habe in Valencia studiert und schreibe gerade meine Doktorarbeit. Ich interessiere mich sehr für Hefen.",
+   "es": "Estudié en Valencia y ahora estoy haciendo la tesis doctoral. Me interesan mucho las levaduras."
+  },
+  {
+   "who": "Frau Krüger",
+   "de": "Interessant! Wir hätten da ein neues Projekt. Möchten Sie unser Labor sehen?",
+   "es": "¡Interesante! Tendríamos un proyecto nuevo. ¿Le gustaría ver nuestro laboratorio?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Das wäre wunderbar.",
+   "es": "Sería estupendo."
+  },
+  {
+   "de": "Im Labor ist es dunkel. In einer Vitrine steht eine kleine Flasche. Sie leuchtet grün.",
+   "es": "En el laboratorio está oscuro. En una vitrina hay un frasquito. Brilla en verde."
+  },
+  {
+   "who": "Lucía",
+   "de": "Meine Hefe … Ich würde sie überall erkennen.",
+   "es": "Mi levadura… La reconocería en cualquier parte."
+  },
+  {
+   "who": "Frau Krüger",
+   "de": "Schön, nicht wahr? Unser Chef hat sie selbst entwickelt. Er kommt gleich.",
+   "es": "Bonita, ¿verdad? La desarrolló nuestro jefe en persona. Viene enseguida."
+  },
+  {
+   "de": "Die Tür geht auf. Ein großer Mann mit kurzen, dunklen Haaren kommt herein.",
+   "es": "Se abre la puerta. Entra un hombre alto con el pelo corto y oscuro."
+  },
+  {
+   "who": "Felix",
+   "de": "Guten Morgen, Frau … Gómez?",
+   "es": "Buenos días, señora… ¿Gómez?"
+  }
+ ],
+ "gloss": [
+  [
+   "zufällig",
+   "por casualidad"
+  ],
+  [
+   "echt",
+   "verdadero, de verdad"
+  ],
+  [
+   "das Gebäude",
+   "el edificio"
+  ],
+  [
+   "die Vitrine",
+   "la vitrina"
+  ],
+  [
+   "leuchten",
+   "brillar"
+  ],
+  [
+   "erkennen",
+   "reconocer"
+  ],
+  [
+   "entwickeln",
+   "desarrollar"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Con qué nombre firma Lucía el email?",
+   "o": [
+    "Lucía García",
+    "Laura Gómez",
+    "Mia Krüger"
+   ],
+   "a": 1,
+   "exp": "Jonas le aconseja no usar su nombre real: «Mit freundlichen Grüßen, Laura Gómez.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué pide Lucía en NovaGen?",
+   "o": [
+    "Un café",
+    "Un té",
+    "Un vaso de agua"
+   ],
+   "a": 2,
+   "exp": "«Ich hätte gern ein Glas Wasser, danke.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué ve Lucía en la vitrina?",
+   "o": [
+    "Un frasquito que brilla en verde: su levadura",
+    "Su cuaderno de laboratorio",
+    "Una foto de Felix"
+   ],
+   "a": 0,
+   "exp": "«In einer Vitrine steht eine kleine Flasche. Sie leuchtet grün.»"
+  }
+ ]
+}

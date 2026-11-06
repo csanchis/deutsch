@@ -13,19 +13,205 @@
  "lessons": [
   {
    "h": "Las nueve preposiciones de lugar",
-   "html": "<table><thead><tr><th>Preposición</th><th>Significado</th><th>Ejemplo (Wo?)</th></tr></thead><tbody><tr><td>in</td><td>en, dentro de</td><td><span class=\"de\">in der Küche</span></td></tr><tr><td>an</td><td>en, junto a (pegado a un lado, pared, borde)</td><td><span class=\"de\">an der Wand</span></td></tr><tr><td>auf</td><td>sobre, encima (tocando, superficie horizontal)</td><td><span class=\"de\">auf dem Tisch</span></td></tr><tr><td>über</td><td>encima de (sin tocar)</td><td><span class=\"de\">über dem Sofa</span></td></tr><tr><td>unter</td><td>debajo de</td><td><span class=\"de\">unter dem Bett</span></td></tr><tr><td>vor</td><td>delante de</td><td><span class=\"de\">vor dem Haus</span></td></tr><tr><td>hinter</td><td>detrás de</td><td><span class=\"de\">hinter der Tür</span></td></tr><tr><td>neben</td><td>al lado de</td><td><span class=\"de\">neben dem Computer</span></td></tr><tr><td>zwischen</td><td>entre</td><td><span class=\"de\">zwischen den Büchern</span></td></tr></tbody></table><p><b>ojo:</b> el español «en» puede ser <span class=\"de\">in</span>, <span class=\"de\">an</span> o <span class=\"de\">auf</span>: el cuadro está <span class=\"de\">an der Wand</span> (pared, vertical), el móvil <span class=\"de\">auf dem Tisch</span> (superficie), la leche <span class=\"de\">im Kühlschrank</span> (dentro). Ojo también con <span class=\"de\">auf dem Balkon</span>.</p>"
+   "html": "<table><thead><tr><th>Preposición</th><th>Significado</th><th>Ejemplo (Wo?)</th></tr></thead><tbody><tr><td>in</td><td>en, dentro de</td><td><span class=\"de\">in der Küche</span></td></tr><tr><td>an</td><td>en, junto a (pegado a un lado, pared, borde)</td><td><span class=\"de\">an der Wand</span></td></tr><tr><td>auf</td><td>sobre, encima (tocando, superficie horizontal)</td><td><span class=\"de\">auf dem Tisch</span></td></tr><tr><td>über</td><td>encima de (sin tocar)</td><td><span class=\"de\">über dem Sofa</span></td></tr><tr><td>unter</td><td>debajo de</td><td><span class=\"de\">unter dem Bett</span></td></tr><tr><td>vor</td><td>delante de</td><td><span class=\"de\">vor dem Haus</span></td></tr><tr><td>hinter</td><td>detrás de</td><td><span class=\"de\">hinter der Tür</span></td></tr><tr><td>neben</td><td>al lado de</td><td><span class=\"de\">neben dem Computer</span></td></tr><tr><td>zwischen</td><td>entre</td><td><span class=\"de\">zwischen den Büchern</span></td></tr></tbody></table><p><b>ojo:</b> el español «en» puede ser <span class=\"de\">in</span>, <span class=\"de\">an</span> o <span class=\"de\">auf</span>: el cuadro está <span class=\"de\">an der Wand</span> (pared, vertical), el móvil <span class=\"de\">auf dem Tisch</span> (superficie), la leche <span class=\"de\">im Kühlschrank</span> (dentro). Ojo también con <span class=\"de\">auf dem Balkon</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "El póster está «en» la pared. ¿Qué preposición crees que usa el alemán? (pista: «in» es dentro de algo)",
+    "o": [
+     "in der Wand",
+     "an der Wand",
+     "auf der Wand"
+    ],
+    "a": 1,
+    "exp": "Para algo pegado a una superficie vertical (pared, puerta, ventana) se usa «an». «in der Wand» sería ¡dentro de la pared!"
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "La lámpara está encima de la mesa, sin tocarla: Die Lampe hängt ___ dem Tisch.",
+     "o": [
+      "auf",
+      "über",
+      "an"
+     ],
+     "a": 1,
+     "exp": "«über» = encima sin tocar; «auf» sería apoyada sobre la mesa."
+    },
+    {
+     "t": "mc",
+     "q": "Lucía espera delante del laboratorio: Lucía wartet ___ dem Labor.",
+     "o": [
+      "vor",
+      "hinter",
+      "neben"
+     ],
+     "a": 0,
+     "exp": "«vor» = delante de; «hinter» = detrás de; «neben» = al lado de."
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "in",
+       "en, dentro de"
+      ],
+      [
+       "an",
+       "junto a (pegado a un lado)"
+      ],
+      [
+       "auf",
+       "sobre (tocando)"
+      ],
+      [
+       "vor",
+       "delante de"
+      ]
+     ]
+    }
+   ]
   },
   {
    "h": "Wo? + dativo · Wohin? + acusativo",
-   "html": "<p>Estas preposiciones se llaman <b>Wechselpräpositionen</b> (preposiciones «de cambio») porque pueden llevar dos casos:</p><ul><li><b>Wo?</b> (¿dónde?) → posición, estado, sin cambio de lugar → <b>dativo</b>: <span class=\"de\">Ich bin in der Küche.</span></li><li><b>Wohin?</b> (¿adónde?) → dirección, movimiento hacia un lugar → <b>acusativo</b>: <span class=\"de\">Ich gehe in die Küche.</span></li></ul><table><thead><tr><th></th><th>m</th><th>f</th><th>n</th><th>pl</th></tr></thead><tbody><tr><td>Wo? (dativo)</td><td>dem</td><td>der</td><td>dem</td><td>den …-n</td></tr><tr><td>Wohin? (acusativo)</td><td>den</td><td>die</td><td>das</td><td>die</td></tr></tbody></table><p><b>Contracciones</b> (muy frecuentes): <span class=\"de\">in dem = im</span>, <span class=\"de\">in das = ins</span>, <span class=\"de\">an dem = am</span>, <span class=\"de\">an das = ans</span>.</p><p><span class=\"de\">Ich bin im Kino.</span> (Wo?) · <span class=\"de\">Ich gehe ins Kino.</span> (Wohin?)</p><p><b>ojo:</b> lo que cuenta es si hay <b>cambio de lugar</b>, no si hay movimiento: <span class=\"de\">Ich laufe im Park.</span> (corro dentro del parque → dativo) vs <span class=\"de\">Ich laufe in den Park.</span> (corro hasta el parque → acusativo).</p>"
+   "html": "<p>Estas preposiciones se llaman <b>Wechselpräpositionen</b> (preposiciones «de cambio») porque pueden llevar dos casos:</p><ul><li><b>Wo?</b> (¿dónde?) → posición, estado, sin cambio de lugar → <b>dativo</b>: <span class=\"de\">Ich bin in der Küche.</span></li><li><b>Wohin?</b> (¿adónde?) → dirección, movimiento hacia un lugar → <b>acusativo</b>: <span class=\"de\">Ich gehe in die Küche.</span></li></ul><table><thead><tr><th></th><th>m</th><th>f</th><th>n</th><th>pl</th></tr></thead><tbody><tr><td>Wo? (dativo)</td><td>dem</td><td>der</td><td>dem</td><td>den …-n</td></tr><tr><td>Wohin? (acusativo)</td><td>den</td><td>die</td><td>das</td><td>die</td></tr></tbody></table><p><b>Contracciones</b> (muy frecuentes): <span class=\"de\">in dem = im</span>, <span class=\"de\">in das = ins</span>, <span class=\"de\">an dem = am</span>, <span class=\"de\">an das = ans</span>.</p><p><span class=\"de\">Ich bin im Kino.</span> (Wo?) · <span class=\"de\">Ich gehe ins Kino.</span> (Wohin?)</p><p><b>ojo:</b> lo que cuenta es si hay <b>cambio de lugar</b>, no si hay movimiento: <span class=\"de\">Ich laufe im Park.</span> (corro dentro del parque → dativo) vs <span class=\"de\">Ich laufe in den Park.</span> (corro hasta el parque → acusativo).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Estoy en la cocina» y «Voy a la cocina». ¿Crees que el alemán usa el mismo artículo en las dos?",
+    "o": [
+     "Sí: «in der Küche» en las dos.",
+     "No: Ich bin in der Küche / Ich gehe in die Küche.",
+     "No: Ich bin in die Küche / Ich gehe in der Küche."
+    ],
+    "a": 1,
+    "exp": "¡Exacto! Wo? (dónde estoy) → dativo: in der Küche. Wohin? (adónde voy) → acusativo: in die Küche."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Kai trainiert jeden Tag ___ Boxclub.",
+     "o": [
+      "im",
+      "in den"
+     ],
+     "a": 0,
+     "exp": "Kai entrena dentro del club, sin ir a otro sitio: Wo? → dativo: in dem = im."
+    },
+    {
+     "t": "gap",
+     "q": "Lucía geht ___ Fenster und schaut auf die Straße.",
+     "a": [
+      "ans",
+      "an das"
+     ],
+     "hint": "an + das Fenster",
+     "exp": "Va hacia la ventana: Wohin? → acusativo. «das Fenster» → an das = ans."
+    },
+    {
+     "t": "tr",
+     "es": "Estoy en el gimnasio.",
+     "a": [
+      "Ich bin im Fitnessstudio.",
+      "Ich bin in dem Fitnessstudio."
+     ],
+     "exp": "Wo? → dativo: in dem Fitnessstudio = im Fitnessstudio."
+    }
+   ]
   },
   {
    "h": "Poner y estar: stellen/stehen, legen/liegen, setzen/sitzen, hängen",
-   "html": "<p>El español «poner» y «estar» se reparten en alemán según la <b>posición</b> del objeto.</p><table><thead><tr><th>Acción (Wohin? + Akk)</th><th>Estado (Wo? + Dat)</th><th>Para…</th></tr></thead><tbody><tr><td><b>stellen</b> – hat gestellt</td><td><b>stehen</b> – hat gestanden</td><td>en vertical: botellas, vasos, sillas, el portátil abierto</td></tr><tr><td><b>legen</b> – hat gelegt</td><td><b>liegen</b> – hat gelegen</td><td>en horizontal: el móvil, las llaves, una carta</td></tr><tr><td><b>setzen</b> – hat gesetzt</td><td><b>sitzen</b> – hat gesessen</td><td>sentar / estar sentado</td></tr><tr><td><b>hängen</b> – hat gehängt</td><td><b>hängen</b> – hat gehangen</td><td>colgar / estar colgado</td></tr></tbody></table><p><span class=\"de\">Ich stelle die Flasche auf den Tisch. → Die Flasche steht auf dem Tisch.</span></p><p><span class=\"de\">Ich lege das Handy auf den Tisch. → Das Handy liegt auf dem Tisch.</span></p><p><span class=\"de\">Ich hänge das Bild an die Wand. → Das Bild hängt an der Wand.</span></p><p><b>Truco:</b> los verbos de acción (stellen, legen, setzen) son regulares y llevan objeto en acusativo; los de estado (stehen, liegen, sitzen) son irregulares.</p><p><b>ojo:</b> «Ich stelle die Flasche auf dem Tisch» ✗ → con verbo de acción va acusativo: <span class=\"de\">auf den Tisch</span>.</p>"
+   "html": "<p>El español «poner» y «estar» se reparten en alemán según la <b>posición</b> del objeto.</p><table><thead><tr><th>Acción (Wohin? + Akk)</th><th>Estado (Wo? + Dat)</th><th>Para…</th></tr></thead><tbody><tr><td><b>stellen</b> – hat gestellt</td><td><b>stehen</b> – hat gestanden</td><td>en vertical: botellas, vasos, sillas, el portátil abierto</td></tr><tr><td><b>legen</b> – hat gelegt</td><td><b>liegen</b> – hat gelegen</td><td>en horizontal: el móvil, las llaves, una carta</td></tr><tr><td><b>setzen</b> – hat gesetzt</td><td><b>sitzen</b> – hat gesessen</td><td>sentar / estar sentado</td></tr><tr><td><b>hängen</b> – hat gehängt</td><td><b>hängen</b> – hat gehangen</td><td>colgar / estar colgado</td></tr></tbody></table><p><span class=\"de\">Ich stelle die Flasche auf den Tisch. → Die Flasche steht auf dem Tisch.</span></p><p><span class=\"de\">Ich lege das Handy auf den Tisch. → Das Handy liegt auf dem Tisch.</span></p><p><span class=\"de\">Ich hänge das Bild an die Wand. → Das Bild hängt an der Wand.</span></p><p><b>Truco:</b> los verbos de acción (stellen, legen, setzen) son regulares y llevan objeto en acusativo; los de estado (stehen, liegen, sitzen) son irregulares.</p><p><b>ojo:</b> «Ich stelle die Flasche auf dem Tisch» ✗ → con verbo de acción va acusativo: <span class=\"de\">auf den Tisch</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En alemán «poner» depende de cómo queda el objeto. Para dejar una carta plana sobre la mesa, ¿qué verbo crees que se usa?",
+    "o": [
+     "stellen",
+     "legen",
+     "setzen"
+    ],
+    "a": 1,
+    "exp": "Lo que queda tumbado se «legt» (y luego «liegt»); lo que queda de pie se «stellt» (y luego «steht»)."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Das Kind ___ auf dem Stuhl.",
+     "o": [
+      "sitzt",
+      "setzt"
+     ],
+     "a": 0,
+     "exp": "Es un estado (Wo? + dativo «auf dem Stuhl»): sitzen = estar sentado. «setzen» es la acción de sentar."
+    },
+    {
+     "t": "gap",
+     "q": "Ich hänge das Poster an ___ Wand.",
+     "a": [
+      "die"
+     ],
+     "hint": "die Wand",
+     "exp": "Aquí «hängen» es la acción de colgar: Wohin? → acusativo: an die Wand."
+    },
+    {
+     "t": "order",
+     "w": [
+      "legt",
+      "in",
+      "die",
+      "Handschuhe",
+      "Tasche.",
+      "Lucía",
+      "die"
+     ],
+     "a": "Lucía legt die Handschuhe in die Tasche.",
+     "es": "Lucía mete los guantes en la bolsa."
+    }
+   ]
   },
   {
    "h": "Ordenar el piso y el laboratorio",
-   "html": "<ul><li><span class=\"de\">Wo ist mein Schlüssel? – Er liegt in der Schublade.</span></li><li><span class=\"de\">Stell die Proben bitte in den Kühlschrank!</span></li><li><span class=\"de\">Die Pipetten liegen neben dem Mikroskop.</span></li><li><span class=\"de\">Wohin hast du meine Brille gelegt? – Auf das Regal.</span></li><li><span class=\"de\">Das Poster hängt über dem Schreibtisch.</span></li></ul><p>Fíjate en la pregunta: <b>Wo</b> → respuesta en dativo; <b>Wohin</b> → respuesta en acusativo.</p><p><b>ojo:</b> no confundas <span class=\"de\">wo</span> (dónde) con <span class=\"de\">wohin</span> (adónde): «Wo gehst du?» ✗ → <span class=\"de\">Wohin gehst du?</span> ✓</p>"
+   "html": "<ul><li><span class=\"de\">Wo ist mein Schlüssel? – Er liegt in der Schublade.</span></li><li><span class=\"de\">Stell die Proben bitte in den Kühlschrank!</span></li><li><span class=\"de\">Die Pipetten liegen neben dem Mikroskop.</span></li><li><span class=\"de\">Wohin hast du meine Brille gelegt? – Auf das Regal.</span></li><li><span class=\"de\">Das Poster hängt über dem Schreibtisch.</span></li></ul><p>Fíjate en la pregunta: <b>Wo</b> → respuesta en dativo; <b>Wohin</b> → respuesta en acusativo.</p><p><b>ojo:</b> no confundas <span class=\"de\">wo</span> (dónde) con <span class=\"de\">wohin</span> (adónde): «Wo gehst du?» ✗ → <span class=\"de\">Wohin gehst du?</span> ✓</p>",
+   "pre": {
+    "t": "mc",
+    "q": "No encuentras las pipetas en el laboratorio. ¿Qué crees que preguntas?",
+    "o": [
+     "Wo sind die Pipetten?",
+     "Wohin sind die Pipetten?",
+     "Wohin die Pipetten sind?"
+    ],
+    "a": 0,
+    "exp": "Preguntas por un lugar donde algo está, sin movimiento: «Wo?». «Wohin?» es para «¿adónde?»."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Wohin stellst du das Mikroskop? – ___",
+     "o": [
+      "Auf den Tisch.",
+      "Auf dem Tisch."
+     ],
+     "a": 0,
+     "exp": "La pregunta es «Wohin?», así que la respuesta va en acusativo: auf den Tisch."
+    },
+    {
+     "t": "gap",
+     "q": "Wo ist mein Laborbuch? – Es liegt ___ Mikroskop. (al lado de)",
+     "a": [
+      "neben dem"
+     ],
+     "hint": "neben + das Mikroskop",
+     "exp": "«Wo?» → dativo. «das Mikroskop» → neben dem Mikroskop."
+    },
+    {
+     "t": "tr",
+     "es": "¿Adónde vais?",
+     "a": [
+      "Wohin geht ihr?",
+      "Wo geht ihr hin?",
+      "Wohin fahrt ihr?"
+     ],
+     "exp": "«¿adónde?» es «wohin», nunca «wo»: Wohin geht ihr?"
+    }
+   ]
   }
  ],
  "vocab": [

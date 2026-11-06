@@ -14,23 +14,261 @@
  "lessons": [
   {
    "h": "Präteritum de sein y haben",
-   "html": "<table><thead><tr><th></th><th>sein</th><th>haben</th></tr></thead><tbody><tr><td>ich</td><td>war</td><td>hatte</td></tr><tr><td>du</td><td>warst</td><td>hattest</td></tr><tr><td>er / sie / es</td><td>war</td><td>hatte</td></tr><tr><td>wir</td><td>waren</td><td>hatten</td></tr><tr><td>ihr</td><td>wart</td><td>hattet</td></tr><tr><td>sie / Sie</td><td>waren</td><td>hatten</td></tr></tbody></table><p>En Präteritum <b>ich</b> y <b>er/sie/es</b> son iguales y no llevan -t: <span class=\"de\">ich war, er war</span>; <span class=\"de\">ich hatte, sie hatte</span>.</p><p>Al español se traduce según el contexto con imperfecto o indefinido: <span class=\"de\">Ich war müde.</span> = <i>Estaba / estuve cansada.</i></p>"
+   "html": "<table><thead><tr><th></th><th>sein</th><th>haben</th></tr></thead><tbody><tr><td>ich</td><td>war</td><td>hatte</td></tr><tr><td>du</td><td>warst</td><td>hattest</td></tr><tr><td>er / sie / es</td><td>war</td><td>hatte</td></tr><tr><td>wir</td><td>waren</td><td>hatten</td></tr><tr><td>ihr</td><td>wart</td><td>hattet</td></tr><tr><td>sie / Sie</td><td>waren</td><td>hatten</td></tr></tbody></table><p>En Präteritum <b>ich</b> y <b>er/sie/es</b> son iguales y no llevan -t: <span class=\"de\">ich war, er war</span>; <span class=\"de\">ich hatte, sie hatte</span>.</p><p>Al español se traduce según el contexto con imperfecto o indefinido: <span class=\"de\">Ich war müde.</span> = <i>Estaba / estuve cansada.</i></p>",
+   "pre": {
+    "t": "mc",
+    "q": "ich bin → ich war. ¿Cómo crees que es «él estaba»?",
+    "o": [
+     "er wart",
+     "er war",
+     "er warte"
+    ],
+    "a": 1,
+    "exp": "En Präteritum ich y er/sie/es son iguales y sin -t: ich war, er war."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Lucía ___ gestern sehr müde.",
+     "a": [
+      "war"
+     ],
+     "hint": "sein",
+     "exp": "Präteritum de sein, 3ª persona: war (igual que ich)."
+    },
+    {
+     "t": "mc",
+     "q": "___ du gestern Zeit?",
+     "o": [
+      "Hatte",
+      "Hattet",
+      "Hattest"
+     ],
+     "a": 2,
+     "exp": "haben, du: hattest."
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "ich war",
+       "yo estaba / estuve"
+      ],
+      [
+       "wir hatten",
+       "teníamos / tuvimos"
+      ],
+      [
+       "ihr wart",
+       "estabais / estuvisteis"
+      ],
+      [
+       "du hattest",
+       "tenías / tuviste"
+      ]
+     ]
+    }
+   ]
   },
   {
    "h": "Präteritum de los modales",
-   "html": "<p>Receta: raíz <b>sin diéresis</b> + <b>-te</b> + terminación.</p><table><thead><tr><th></th><th>können</th><th>müssen</th><th>dürfen</th><th>wollen</th><th>sollen</th></tr></thead><tbody><tr><td>ich</td><td>konnte</td><td>musste</td><td>durfte</td><td>wollte</td><td>sollte</td></tr><tr><td>du</td><td>konntest</td><td>musstest</td><td>durftest</td><td>wolltest</td><td>solltest</td></tr><tr><td>er / sie / es</td><td>konnte</td><td>musste</td><td>durfte</td><td>wollte</td><td>sollte</td></tr><tr><td>wir</td><td>konnten</td><td>mussten</td><td>durften</td><td>wollten</td><td>sollten</td></tr><tr><td>ihr</td><td>konntet</td><td>musstet</td><td>durftet</td><td>wolltet</td><td>solltet</td></tr><tr><td>sie / Sie</td><td>konnten</td><td>mussten</td><td>durften</td><td>wollten</td><td>sollten</td></tr></tbody></table><p>También <span class=\"de\">mögen → mochte</span>: <span class=\"de\">Früher mochte ich keinen Kaffee.</span></p><p>La estructura es la misma que en presente: modal en 2ª posición, infinitivo al final: <span class=\"de\">Gestern musste ich lange arbeiten.</span></p><p><b>Ojo:</b> ¡sin diéresis! <span class=\"de\">konnte</span> = <i>pude/podía</i>, pero <span class=\"de\">könnte</span> = <i>podría</i> (otra forma, la verás en la próxima unidad). Igual <span class=\"de\">mochte</span> (me gustaba) ≠ <span class=\"de\">möchte</span> (quisiera).</p>"
+   "html": "<p>Receta: raíz <b>sin diéresis</b> + <b>-te</b> + terminación.</p><table><thead><tr><th></th><th>können</th><th>müssen</th><th>dürfen</th><th>wollen</th><th>sollen</th></tr></thead><tbody><tr><td>ich</td><td>konnte</td><td>musste</td><td>durfte</td><td>wollte</td><td>sollte</td></tr><tr><td>du</td><td>konntest</td><td>musstest</td><td>durftest</td><td>wolltest</td><td>solltest</td></tr><tr><td>er / sie / es</td><td>konnte</td><td>musste</td><td>durfte</td><td>wollte</td><td>sollte</td></tr><tr><td>wir</td><td>konnten</td><td>mussten</td><td>durften</td><td>wollten</td><td>sollten</td></tr><tr><td>ihr</td><td>konntet</td><td>musstet</td><td>durftet</td><td>wolltet</td><td>solltet</td></tr><tr><td>sie / Sie</td><td>konnten</td><td>mussten</td><td>durften</td><td>wollten</td><td>sollten</td></tr></tbody></table><p>También <span class=\"de\">mögen → mochte</span>: <span class=\"de\">Früher mochte ich keinen Kaffee.</span></p><p>La estructura es la misma que en presente: modal en 2ª posición, infinitivo al final: <span class=\"de\">Gestern musste ich lange arbeiten.</span></p><p><b>Ojo:</b> ¡sin diéresis! <span class=\"de\">konnte</span> = <i>pude/podía</i>, pero <span class=\"de\">könnte</span> = <i>podría</i> (otra forma, la verás en la próxima unidad). Igual <span class=\"de\">mochte</span> (me gustaba) ≠ <span class=\"de\">möchte</span> (quisiera).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Pista: el pasado de los modales lleva -te. können → ?",
+    "o": [
+     "konnte",
+     "könnte",
+     "kannte"
+    ],
+    "a": 0,
+    "exp": "Raíz sin diéresis + -te: konnte. Ojo: könnte (con diéresis) es «podría», y kannte viene de kennen."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Gestern ___ ich nicht trainieren. Der Arzt hat «Nein» gesagt.",
+     "a": [
+      "durfte"
+     ],
+     "hint": "dürfen",
+     "exp": "dürfen → durfte (sin diéresis): no me dejaron."
+    },
+    {
+     "t": "mc",
+     "q": "Wir ___ am Samstag lange schlafen.",
+     "o": [
+      "wollte",
+      "wolltet",
+      "wollten"
+     ],
+     "a": 2,
+     "exp": "wir → -ten: wir wollten."
+    },
+    {
+     "t": "order",
+     "w": [
+      "musste",
+      "gestern",
+      "Jonas",
+      "lange",
+      "arbeiten."
+     ],
+     "a": "Jonas musste gestern lange arbeiten.",
+     "es": "Jonas tuvo que trabajar hasta tarde ayer.",
+     "exp": "Modal en 2ª posición, infinitivo al final."
+    }
+   ]
   },
   {
    "h": "¿Präteritum o Perfekt?",
-   "html": "<p>Al <b>hablar</b> (y en mensajes), los alemanes usan:</p><ul><li><b>Präteritum</b> con <b>sein, haben</b> y los <b>modales</b>: <span class=\"de\">Ich war in Berlin. Ich hatte keine Zeit. Ich musste arbeiten.</span></li><li><b>Perfekt</b> con casi todos los demás verbos: <span class=\"de\">Ich habe viel gesehen. Wir sind ins Museum gegangen.</span></li></ul><p>Por eso es normal mezclarlos: <span class=\"de\">Am Wochenende war ich in Heidelberg. Ich habe meine Freundin besucht, aber ich konnte nicht lange bleiben.</span></p><p><b>Ojo:</b> el Perfekt alemán no equivale al pretérito perfecto español. <span class=\"de\">Gestern habe ich gearbeitet</span> = <i>Ayer trabajé</i>. Y no hay distinción imperfecto/indefinido: el contexto lo decide.</p>"
+   "html": "<p>Al <b>hablar</b> (y en mensajes), los alemanes usan:</p><ul><li><b>Präteritum</b> con <b>sein, haben</b> y los <b>modales</b>: <span class=\"de\">Ich war in Berlin. Ich hatte keine Zeit. Ich musste arbeiten.</span></li><li><b>Perfekt</b> con casi todos los demás verbos: <span class=\"de\">Ich habe viel gesehen. Wir sind ins Museum gegangen.</span></li></ul><p>Por eso es normal mezclarlos: <span class=\"de\">Am Wochenende war ich in Heidelberg. Ich habe meine Freundin besucht, aber ich konnte nicht lange bleiben.</span></p><p><b>Ojo:</b> el Perfekt alemán no equivale al pretérito perfecto español. <span class=\"de\">Gestern habe ich gearbeitet</span> = <i>Ayer trabajé</i>. Y no hay distinción imperfecto/indefinido: el contexto lo decide.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "¿Qué crees que suena más natural en una conversación?",
+    "o": [
+     "Am Wochenende war ich in Berlin und habe viel gesehen.",
+     "Am Wochenende bin ich in Berlin und sehe viel gewesen.",
+     "Am Wochenende hatte ich in Berlin und habe viel gesehen."
+    ],
+    "a": 0,
+    "exp": "Hablando, se mezcla: Präteritum con sein/haben/modales (war) y Perfekt con los demás verbos (habe gesehen)."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Al hablar, ¿con qué verbos se usa normalmente el Präteritum?",
+     "o": [
+      "con todos los verbos",
+      "solo con los verbos irregulares",
+      "con sein, haben y los modales"
+     ],
+     "a": 2,
+     "exp": "Con sein, haben y los modales; con el resto, Perfekt."
+    },
+    {
+     "t": "gap",
+     "q": "Am Samstag ___ ich in Mannheim und habe meine Tante besucht.",
+     "a": [
+      "war"
+     ],
+     "hint": "sein",
+     "exp": "sein va en Präteritum (war); besuchen, en Perfekt."
+    },
+    {
+     "t": "tr",
+     "es": "Ayer cociné pasta.",
+     "a": [
+      "Gestern habe ich Pasta gekocht.",
+      "Ich habe gestern Pasta gekocht.",
+      "Gestern habe ich Nudeln gekocht.",
+      "Ich habe gestern Nudeln gekocht."
+     ],
+     "exp": "kochen no es modal ni sein/haben: al hablar, Perfekt."
+    }
+   ]
   },
   {
    "h": "Früher vs. heute · Als Kind …",
-   "html": "<p>Para comparar épocas: <span class=\"de\">früher</span> (antes), <span class=\"de\">damals</span> (entonces), <span class=\"de\">als Kind</span> (de niña), <span class=\"de\">heute / jetzt</span> (hoy / ahora). Si van al principio, el verbo va <b>en 2ª posición</b>:</p><ul><li><span class=\"de\">Früher hatte ich keinen Hund, heute habe ich zwei.</span></li><li><span class=\"de\">Als Kind wollte ich Astronautin werden.</span></li><li><span class=\"de\">Damals durften wir nicht allein ins Kino gehen.</span></li></ul><p><b>Ojo:</b> ✗ <i>Als Kind ich wollte…</i> → ✓ <span class=\"de\">Als Kind wollte ich…</span> (inversión). Y «de niña» es <span class=\"de\">als Kind</span>, no <i>von Kind</i>.</p>"
+   "html": "<p>Para comparar épocas: <span class=\"de\">früher</span> (antes), <span class=\"de\">damals</span> (entonces), <span class=\"de\">als Kind</span> (de niña), <span class=\"de\">heute / jetzt</span> (hoy / ahora). Si van al principio, el verbo va <b>en 2ª posición</b>:</p><ul><li><span class=\"de\">Früher hatte ich keinen Hund, heute habe ich zwei.</span></li><li><span class=\"de\">Als Kind wollte ich Astronautin werden.</span></li><li><span class=\"de\">Damals durften wir nicht allein ins Kino gehen.</span></li></ul><p><b>Ojo:</b> ✗ <i>Als Kind ich wollte…</i> → ✓ <span class=\"de\">Als Kind wollte ich…</span> (inversión). Y «de niña» es <span class=\"de\">als Kind</span>, no <i>von Kind</i>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Si la frase empieza por «Früher» (antes), ¿dónde crees que va el verbo? (Antes tenía una bici.)",
+    "o": [
+     "Früher ich hatte ein Fahrrad.",
+     "Früher hatte ich ein Fahrrad.",
+     "Früher ein Fahrrad hatte ich."
+    ],
+    "a": 1,
+    "exp": "Regla de siempre: el verbo en 2ª posición. Früher hatte ich ein Fahrrad."
+   },
+   "check": [
+    {
+     "t": "order",
+     "w": [
+      "durfte",
+      "ich",
+      "Damals",
+      "nicht",
+      "boxen."
+     ],
+     "a": "Damals durfte ich nicht boxen.",
+     "es": "Entonces no me dejaban boxear.",
+     "exp": "Damals en 1ª posición → verbo (durfte) en 2ª."
+    },
+    {
+     "t": "mc",
+     "q": "«De niña» se dice…",
+     "o": [
+      "von Kind",
+      "als Kind",
+      "wie Kind"
+     ],
+     "a": 1,
+     "exp": "als Kind = de niño / de niña."
+    },
+    {
+     "t": "gap",
+     "q": "Früher hatte ich wenig Zeit, heute ___ ich mehr Zeit.",
+     "a": [
+      "habe"
+     ],
+     "hint": "haben",
+     "exp": "heute → presente: ich habe."
+    }
+   ]
   },
   {
    "h": "Hablar del futuro",
-   "html": "<p><b>1. Presente + expresión de tiempo</b> (lo más frecuente para planes): <span class=\"de\">Morgen fahre ich nach Heidelberg.</span> <span class=\"de\">Nächste Woche habe ich eine Prüfung.</span></p><p><b>2. werden + infinitivo al final</b> (planes firmes, previsiones, promesas):</p><table><thead><tr><th>werden</th><th>ejemplo</th></tr></thead><tbody><tr><td>ich werde</td><td><span class=\"de\">Ich werde dich anrufen.</span></td></tr><tr><td>du wirst</td><td><span class=\"de\">Du wirst das schaffen!</span></td></tr><tr><td>er / sie / es wird</td><td><span class=\"de\">Es wird morgen regnen.</span></td></tr><tr><td>wir werden</td><td><span class=\"de\">Wir werden in Berlin wohnen.</span></td></tr><tr><td>ihr werdet</td><td><span class=\"de\">Ihr werdet viel lernen.</span></td></tr><tr><td>sie / Sie werden</td><td><span class=\"de\">Sie werden bald kommen.</span></td></tr></tbody></table><p>Expresiones útiles: <span class=\"de\">morgen, übermorgen, bald, später, nächste Woche, nächstes Jahr, im Sommer</span>.</p><p><b>Ojo:</b> <span class=\"de\">Ich will</span> = <i>quiero</i>, ¡no es futuro! (cuidado con el inglés <i>will</i>). Y <span class=\"de\">werden</span> sin infinitivo significa <i>llegar a ser / ponerse</i>: <span class=\"de\">Ich werde Ärztin.</span> = <i>Voy a ser médica.</i></p>"
+   "html": "<p><b>1. Presente + expresión de tiempo</b> (lo más frecuente para planes): <span class=\"de\">Morgen fahre ich nach Heidelberg.</span> <span class=\"de\">Nächste Woche habe ich eine Prüfung.</span></p><p><b>2. werden + infinitivo al final</b> (planes firmes, previsiones, promesas):</p><table><thead><tr><th>werden</th><th>ejemplo</th></tr></thead><tbody><tr><td>ich werde</td><td><span class=\"de\">Ich werde dich anrufen.</span></td></tr><tr><td>du wirst</td><td><span class=\"de\">Du wirst das schaffen!</span></td></tr><tr><td>er / sie / es wird</td><td><span class=\"de\">Es wird morgen regnen.</span></td></tr><tr><td>wir werden</td><td><span class=\"de\">Wir werden in Berlin wohnen.</span></td></tr><tr><td>ihr werdet</td><td><span class=\"de\">Ihr werdet viel lernen.</span></td></tr><tr><td>sie / Sie werden</td><td><span class=\"de\">Sie werden bald kommen.</span></td></tr></tbody></table><p>Expresiones útiles: <span class=\"de\">morgen, übermorgen, bald, später, nächste Woche, nächstes Jahr, im Sommer</span>.</p><p><b>Ojo:</b> <span class=\"de\">Ich will</span> = <i>quiero</i>, ¡no es futuro! (cuidado con el inglés <i>will</i>). Y <span class=\"de\">werden</span> sin infinitivo significa <i>llegar a ser / ponerse</i>: <span class=\"de\">Ich werde Ärztin.</span> = <i>Voy a ser médica.</i></p>",
+   "pre": {
+    "t": "mc",
+    "q": "En inglés «I will» es futuro. ¿Qué crees que significa «Ich will boxen»?",
+    "o": [
+     "Boxearé.",
+     "Quiero boxear.",
+     "Boxeé."
+    ],
+    "a": 1,
+    "exp": "¡Cuidado con el inglés! wollen = querer. El futuro alemán se hace con werden: Ich werde boxen."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Mia ___ morgen nach Berlin fahren.",
+     "a": [
+      "wird"
+     ],
+     "hint": "werden",
+     "exp": "werden, 3ª persona: wird + infinitivo al final."
+    },
+    {
+     "t": "order",
+     "w": [
+      "Valencia",
+      "im",
+      "werden",
+      "Sommer",
+      "Wir",
+      "nach",
+      "fliegen."
+     ],
+     "a": "Wir werden im Sommer nach Valencia fliegen.",
+     "es": "En verano volaremos a Valencia.",
+     "exp": "werden en 2ª posición, infinitivo al final."
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál NO habla del futuro?",
+     "o": [
+      "Morgen fahre ich nach Berlin.",
+      "Ich wollte Ärztin werden.",
+      "Ich werde dich anrufen."
+     ],
+     "a": 1,
+     "exp": "wollte es pasado de wollen (quería); las otras usan presente + morgen o werden + infinitivo."
+    }
+   ]
   }
  ],
  "vocab": [

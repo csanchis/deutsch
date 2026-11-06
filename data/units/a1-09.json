@@ -13,23 +13,255 @@
  "lessons": [
   {
    "h": "Los verbos modales",
-   "html": "<table><thead><tr><th></th><th>können</th><th>müssen</th><th>wollen</th><th>dürfen</th><th>sollen</th></tr></thead><tbody>\n<tr><td>ich</td><td><span class=\"de\">kann</span></td><td><span class=\"de\">muss</span></td><td><span class=\"de\">will</span></td><td><span class=\"de\">darf</span></td><td><span class=\"de\">soll</span></td></tr>\n<tr><td>du</td><td><span class=\"de\">kannst</span></td><td><span class=\"de\">musst</span></td><td><span class=\"de\">willst</span></td><td><span class=\"de\">darfst</span></td><td><span class=\"de\">sollst</span></td></tr>\n<tr><td>er/sie/es</td><td><span class=\"de\">kann</span></td><td><span class=\"de\">muss</span></td><td><span class=\"de\">will</span></td><td><span class=\"de\">darf</span></td><td><span class=\"de\">soll</span></td></tr>\n<tr><td>wir</td><td><span class=\"de\">können</span></td><td><span class=\"de\">müssen</span></td><td><span class=\"de\">wollen</span></td><td><span class=\"de\">dürfen</span></td><td><span class=\"de\">sollen</span></td></tr>\n<tr><td>ihr</td><td><span class=\"de\">könnt</span></td><td><span class=\"de\">müsst</span></td><td><span class=\"de\">wollt</span></td><td><span class=\"de\">dürft</span></td><td><span class=\"de\">sollt</span></td></tr>\n<tr><td>sie/Sie</td><td><span class=\"de\">können</span></td><td><span class=\"de\">müssen</span></td><td><span class=\"de\">wollen</span></td><td><span class=\"de\">dürfen</span></td><td><span class=\"de\">sollen</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">ich</span> y <span class=\"de\">er/sie/es</span> tienen la <b>misma forma, sin -t</b>: <span class=\"de\">er kann</span>, nunca <span class=\"de\">*er kannt</span>. En singular cambia la vocal (excepto <span class=\"de\">sollen</span>).</p>\n<table><thead><tr><th>Modal</th><th>Significado</th><th>Ejemplo</th></tr></thead><tbody>\n<tr><td><span class=\"de\">können</span></td><td>poder (capacidad, posibilidad); saber hacer</td><td><span class=\"de\">Ich kann schwimmen.</span> (Sé nadar.)</td></tr>\n<tr><td><span class=\"de\">müssen</span></td><td>tener que</td><td><span class=\"de\">Ich muss arbeiten.</span></td></tr>\n<tr><td><span class=\"de\">wollen</span></td><td>querer (intención firme)</td><td><span class=\"de\">Ich will Deutsch lernen.</span></td></tr>\n<tr><td><span class=\"de\">dürfen</span></td><td>tener permiso, poder (permiso)</td><td><span class=\"de\">Hier darf man parken.</span></td></tr>\n<tr><td><span class=\"de\">sollen</span></td><td>deber (otra persona lo dice o lo recomienda)</td><td><span class=\"de\">Ich soll mehr trinken.</span></td></tr>\n</tbody></table>\n<p><span class=\"de\">man</span> = «se» impersonal, con verbo en 3ª persona singular: <span class=\"de\">Hier darf man nicht rauchen.</span></p>\n<p><b>Ojo:</b> <span class=\"de\">Ich will</span> suena muy directo. Para pedir algo usa <span class=\"de\">Ich möchte</span> (unidad 5).</p>"
+   "html": "<table><thead><tr><th></th><th>können</th><th>müssen</th><th>wollen</th><th>dürfen</th><th>sollen</th></tr></thead><tbody>\n<tr><td>ich</td><td><span class=\"de\">kann</span></td><td><span class=\"de\">muss</span></td><td><span class=\"de\">will</span></td><td><span class=\"de\">darf</span></td><td><span class=\"de\">soll</span></td></tr>\n<tr><td>du</td><td><span class=\"de\">kannst</span></td><td><span class=\"de\">musst</span></td><td><span class=\"de\">willst</span></td><td><span class=\"de\">darfst</span></td><td><span class=\"de\">sollst</span></td></tr>\n<tr><td>er/sie/es</td><td><span class=\"de\">kann</span></td><td><span class=\"de\">muss</span></td><td><span class=\"de\">will</span></td><td><span class=\"de\">darf</span></td><td><span class=\"de\">soll</span></td></tr>\n<tr><td>wir</td><td><span class=\"de\">können</span></td><td><span class=\"de\">müssen</span></td><td><span class=\"de\">wollen</span></td><td><span class=\"de\">dürfen</span></td><td><span class=\"de\">sollen</span></td></tr>\n<tr><td>ihr</td><td><span class=\"de\">könnt</span></td><td><span class=\"de\">müsst</span></td><td><span class=\"de\">wollt</span></td><td><span class=\"de\">dürft</span></td><td><span class=\"de\">sollt</span></td></tr>\n<tr><td>sie/Sie</td><td><span class=\"de\">können</span></td><td><span class=\"de\">müssen</span></td><td><span class=\"de\">wollen</span></td><td><span class=\"de\">dürfen</span></td><td><span class=\"de\">sollen</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">ich</span> y <span class=\"de\">er/sie/es</span> tienen la <b>misma forma, sin -t</b>: <span class=\"de\">er kann</span>, nunca <span class=\"de\">*er kannt</span>. En singular cambia la vocal (excepto <span class=\"de\">sollen</span>).</p>\n<table><thead><tr><th>Modal</th><th>Significado</th><th>Ejemplo</th></tr></thead><tbody>\n<tr><td><span class=\"de\">können</span></td><td>poder (capacidad, posibilidad); saber hacer</td><td><span class=\"de\">Ich kann schwimmen.</span> (Sé nadar.)</td></tr>\n<tr><td><span class=\"de\">müssen</span></td><td>tener que</td><td><span class=\"de\">Ich muss arbeiten.</span></td></tr>\n<tr><td><span class=\"de\">wollen</span></td><td>querer (intención firme)</td><td><span class=\"de\">Ich will Deutsch lernen.</span></td></tr>\n<tr><td><span class=\"de\">dürfen</span></td><td>tener permiso, poder (permiso)</td><td><span class=\"de\">Hier darf man parken.</span></td></tr>\n<tr><td><span class=\"de\">sollen</span></td><td>deber (otra persona lo dice o lo recomienda)</td><td><span class=\"de\">Ich soll mehr trinken.</span></td></tr>\n</tbody></table>\n<p><span class=\"de\">man</span> = «se» impersonal, con verbo en 3ª persona singular: <span class=\"de\">Hier darf man nicht rauchen.</span></p>\n<p><b>Ojo:</b> <span class=\"de\">Ich will</span> suena muy directo. Para pedir algo usa <span class=\"de\">Ich möchte</span> (unidad 5).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«ich kann» = yo puedo. ¿Cómo crees que se dice «él puede»?",
+    "o": [
+     "er könnt",
+     "er kannt",
+     "er kann"
+    ],
+    "a": 2,
+    "exp": "Como con «möchten» (ich möchte, er möchte): en los modales, ich y er/sie/es tienen la misma forma, sin -t."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "___ du Boxen lernen?",
+     "a": [
+      "Willst",
+      "willst"
+     ],
+     "hint": "wollen",
+     "exp": "wollen con du: willst (la vocal cambia a «i» en singular)."
+    },
+    {
+     "t": "mc",
+     "q": "Wir ___ gut kochen.",
+     "o": [
+      "kann",
+      "könnt",
+      "können"
+     ],
+     "a": 2,
+     "exp": "Con «wir» el modal va en infinitivo: wir können. «könnt» es para ihr."
+    },
+    {
+     "t": "tr",
+     "es": "Sé boxear.",
+     "a": [
+      "Ich kann boxen."
+     ],
+     "exp": "«saber hacer algo» = können: Ich kann boxen."
+    }
+   ]
   },
   {
    "h": "La Satzklammer: modal + infinitivo al final",
-   "html": "<p>El modal conjugado va en <b>posición 2</b> y el otro verbo, en <b>infinitivo, al final</b> de la frase.</p>\n<table><thead><tr><th>Pos. 1</th><th>Modal</th><th>Medio</th><th>Final</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Ich</span></td><td><span class=\"de\">muss</span></td><td><span class=\"de\">heute lange</span></td><td><span class=\"de\">arbeiten.</span></td></tr>\n<tr><td><span class=\"de\">Am Freitag</span></td><td><span class=\"de\">kann</span></td><td><span class=\"de\">ich nicht</span></td><td><span class=\"de\">kommen.</span></td></tr>\n<tr><td><span class=\"de\">Wann</span></td><td><span class=\"de\">musst</span></td><td><span class=\"de\">du morgen</span></td><td><span class=\"de\">aufstehen?</span></td></tr>\n<tr><td>—</td><td><span class=\"de\">Kannst</span></td><td><span class=\"de\">du am Montag</span></td><td><span class=\"de\">kommen?</span></td></tr>\n</tbody></table>\n<p>Los verbos separables van <b>juntos</b> al final: <span class=\"de\">Ich muss um sechs aufstehen.</span></p>\n<p><b>Ojo:</b> en español el infinitivo va pegado al modal («tengo que trabajar hoy»). En alemán <span class=\"de\">*Ich muss arbeiten heute</span> es incorrecto: <span class=\"de\">Ich muss heute arbeiten.</span></p>\n<p><b>Ojo:</b> el segundo verbo no se conjuga: <span class=\"de\">Er kann gut boxen</span> (no <span class=\"de\">*boxt</span>).</p>"
+   "html": "<p>El modal conjugado va en <b>posición 2</b> y el otro verbo, en <b>infinitivo, al final</b> de la frase.</p>\n<table><thead><tr><th>Pos. 1</th><th>Modal</th><th>Medio</th><th>Final</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Ich</span></td><td><span class=\"de\">muss</span></td><td><span class=\"de\">heute lange</span></td><td><span class=\"de\">arbeiten.</span></td></tr>\n<tr><td><span class=\"de\">Am Freitag</span></td><td><span class=\"de\">kann</span></td><td><span class=\"de\">ich nicht</span></td><td><span class=\"de\">kommen.</span></td></tr>\n<tr><td><span class=\"de\">Wann</span></td><td><span class=\"de\">musst</span></td><td><span class=\"de\">du morgen</span></td><td><span class=\"de\">aufstehen?</span></td></tr>\n<tr><td>—</td><td><span class=\"de\">Kannst</span></td><td><span class=\"de\">du am Montag</span></td><td><span class=\"de\">kommen?</span></td></tr>\n</tbody></table>\n<p>Los verbos separables van <b>juntos</b> al final: <span class=\"de\">Ich muss um sechs aufstehen.</span></p>\n<p><b>Ojo:</b> en español el infinitivo va pegado al modal («tengo que trabajar hoy»). En alemán <span class=\"de\">*Ich muss arbeiten heute</span> es incorrecto: <span class=\"de\">Ich muss heute arbeiten.</span></p>\n<p><b>Ojo:</b> el segundo verbo no se conjuga: <span class=\"de\">Er kann gut boxen</span> (no <span class=\"de\">*boxt</span>).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Ich will boxen» = quiero boxear. Añade «am Samstag». ¿Dónde crees que va?",
+    "o": [
+     "Ich will boxen am Samstag.",
+     "Ich will am Samstag boxen.",
+     "Ich am Samstag will boxen."
+    ],
+    "a": 1,
+    "exp": "Como con los separables: el modal en posición 2 y el infinitivo se va al final. Todo lo demás, en medio."
+   },
+   "check": [
+    {
+     "t": "order",
+     "w": [
+      "will",
+      "schlafen.",
+      "ich",
+      "Sonntag",
+      "Am",
+      "lange"
+     ],
+     "a": "Am Sonntag will ich lange schlafen.",
+     "es": "El domingo quiero dormir mucho.",
+     "exp": "Modal (will) en posición 2, sujeto detrás e infinitivo (schlafen) al final."
+    },
+    {
+     "t": "gap",
+     "q": "Lucía will heute im Labor ___.",
+     "a": [
+      "bleiben"
+     ],
+     "hint": "bleiben",
+     "exp": "El segundo verbo va en infinitivo y al final de la frase."
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué frase es correcta?",
+     "o": [
+      "Er kann kocht gut.",
+      "Er kann gut kochen.",
+      "Er kann gut kocht."
+     ],
+     "a": 1,
+     "exp": "Con modal, el otro verbo no se conjuga y va al final: kann … kochen."
+    }
+   ]
   },
   {
    "h": "müssen nicht ≠ nicht dürfen",
-   "html": "<table><thead><tr><th>Alemán</th><th>Significa</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Du musst nicht kommen.</span></td><td>No hace falta que vengas (no es obligatorio).</td></tr>\n<tr><td><span class=\"de\">Du darfst nicht kommen.</span></td><td>No puedes venir (está prohibido).</td></tr>\n</tbody></table>\n<p><b>Ojo:</b> el español «no debes» puede significar las dos cosas; en alemán hay que elegir. <span class=\"de\">Am Sonntag muss ich nicht arbeiten</span> = el domingo no tengo que trabajar (¡qué bien!).</p>"
+   "html": "<table><thead><tr><th>Alemán</th><th>Significa</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Du musst nicht kommen.</span></td><td>No hace falta que vengas (no es obligatorio).</td></tr>\n<tr><td><span class=\"de\">Du darfst nicht kommen.</span></td><td>No puedes venir (está prohibido).</td></tr>\n</tbody></table>\n<p><b>Ojo:</b> el español «no debes» puede significar las dos cosas; en alemán hay que elegir. <span class=\"de\">Am Sonntag muss ich nicht arbeiten</span> = el domingo no tengo que trabajar (¡qué bien!).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En el laboratorio hay un cartel: «Hier darf man nicht essen.» ¿Qué crees que significa?",
+    "o": [
+     "Aquí no se puede comer porque no hay comida.",
+     "Aquí no hace falta comer.",
+     "Aquí está prohibido comer."
+    ],
+    "a": 2,
+    "exp": "nicht dürfen = está prohibido. Ojo: «nicht müssen» es otra cosa: no hace falta."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Kai: «Wir haben Handschuhe für dich. Du ___ keine Handschuhe kaufen.» (no hace falta)",
+     "o": [
+      "willst",
+      "musst",
+      "darfst"
+     ],
+     "a": 1,
+     "exp": "No es obligatorio comprarlos, pero tampoco está prohibido: no hace falta → nicht/kein + müssen."
+    },
+    {
+     "t": "gap",
+     "q": "Man ___ im Labor nicht essen. Das ist verboten.",
+     "a": [
+      "darf"
+     ],
+     "hint": "dürfen",
+     "exp": "Está prohibido → nicht dürfen. Con «man» se usa la 3ª persona: darf."
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "Du musst kommen.",
+       "Tienes que venir."
+      ],
+      [
+       "Du musst nicht kommen.",
+       "No hace falta que vengas."
+      ],
+      [
+       "Du darfst kommen.",
+       "Puedes venir (tienes permiso)."
+      ],
+      [
+       "Du darfst nicht kommen.",
+       "No puedes venir (está prohibido)."
+      ]
+     ]
+    }
+   ]
   },
   {
    "h": "Termine – quedar y concertar citas",
-   "html": "<table><thead><tr><th>Función</th><th>Frases</th></tr></thead><tbody>\n<tr><td>Proponer</td><td><span class=\"de\">Hast du am Freitag Zeit?</span> / <span class=\"de\">Kannst du am Montag um zehn?</span> / <span class=\"de\">Wollen wir am Samstag ins Kino gehen?</span></td></tr>\n<tr><td>Aceptar</td><td><span class=\"de\">Ja, gern!</span> / <span class=\"de\">Ja, das geht.</span> / <span class=\"de\">Gute Idee!</span> / <span class=\"de\">Super, bis Samstag!</span></td></tr>\n<tr><td>Rechazar</td><td><span class=\"de\">Leider nicht.</span> / <span class=\"de\">Tut mir leid, ich kann nicht. Ich muss arbeiten.</span> / <span class=\"de\">Am Freitag geht es leider nicht.</span></td></tr>\n<tr><td>Alternativa</td><td><span class=\"de\">Und am Sonntag?</span> / <span class=\"de\">Geht es auch um elf?</span></td></tr>\n<tr><td>Formal</td><td><span class=\"de\">Ich möchte einen Termin machen.</span> / <span class=\"de\">Haben Sie am Dienstag Zeit?</span> / <span class=\"de\">Geht es am Mittwoch um neun Uhr?</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">der Termin</span> es una cita «oficial» (médico, oficina, reunión), no «término». Con amigos se dice <span class=\"de\">Hast du Zeit?</span> o <span class=\"de\">die Verabredung</span>.</p>"
+   "html": "<table><thead><tr><th>Función</th><th>Frases</th></tr></thead><tbody>\n<tr><td>Proponer</td><td><span class=\"de\">Hast du am Freitag Zeit?</span> / <span class=\"de\">Kannst du am Montag um zehn?</span> / <span class=\"de\">Wollen wir am Samstag ins Kino gehen?</span></td></tr>\n<tr><td>Aceptar</td><td><span class=\"de\">Ja, gern!</span> / <span class=\"de\">Ja, das geht.</span> / <span class=\"de\">Gute Idee!</span> / <span class=\"de\">Super, bis Samstag!</span></td></tr>\n<tr><td>Rechazar</td><td><span class=\"de\">Leider nicht.</span> / <span class=\"de\">Tut mir leid, ich kann nicht. Ich muss arbeiten.</span> / <span class=\"de\">Am Freitag geht es leider nicht.</span></td></tr>\n<tr><td>Alternativa</td><td><span class=\"de\">Und am Sonntag?</span> / <span class=\"de\">Geht es auch um elf?</span></td></tr>\n<tr><td>Formal</td><td><span class=\"de\">Ich möchte einen Termin machen.</span> / <span class=\"de\">Haben Sie am Dienstag Zeit?</span> / <span class=\"de\">Geht es am Mittwoch um neun Uhr?</span></td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">der Termin</span> es una cita «oficial» (médico, oficina, reunión), no «término». Con amigos se dice <span class=\"de\">Hast du Zeit?</span> o <span class=\"de\">die Verabredung</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Un compañero alemán te dice: «Hast du am Freitag Zeit?» ¿Qué crees que quiere?",
+    "o": [
+     "Pedirte un reloj.",
+     "Saber qué hora es el viernes.",
+     "Quedar contigo el viernes."
+    ],
+    "a": 2,
+    "exp": "«¿Tienes tiempo el viernes?» es la forma típica de proponer una cita entre amigos."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Quieres rechazar una propuesta con amabilidad. ¿Qué dices?",
+     "o": [
+      "Nein, ich will nicht.",
+      "Tut mir leid, am Freitag kann ich nicht.",
+      "Ja, das geht."
+     ],
+     "a": 1,
+     "exp": "«Tut mir leid» + motivo suena amable. «Ich will nicht» es muy brusco y «Ja, das geht» es aceptar."
+    },
+    {
+     "t": "order",
+     "w": [
+      "elf?",
+      "Geht",
+      "auch",
+      "um",
+      "es"
+     ],
+     "a": "Geht es auch um elf?",
+     "es": "¿Va bien también a las once?",
+     "exp": "Pregunta sí/no: el verbo (geht) va primero."
+    },
+    {
+     "t": "mc",
+     "q": "Quieres pedir cita en el médico: «Ich möchte ___ machen.»",
+     "o": [
+      "einen Kalender",
+      "eine Verabredung",
+      "einen Termin"
+     ],
+     "a": 2,
+     "exp": "der Termin = cita «oficial» (médico, oficina). Verabredung es con amigos."
+    }
+   ]
   },
   {
    "h": "Meses y fechas",
-   "html": "<p>Los meses son todos <span class=\"de\">der</span> y van con <span class=\"de\">im</span>: <span class=\"de\">Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember</span> → <span class=\"de\">im Juli</span>.</p>\n<p>Para las fechas se usan <b>ordinales</b>: del 1 al 19 se añade <b>-te</b>, desde el 20 <b>-ste</b>. Irregulares: <span class=\"de\">erste, dritte, siebte</span>.</p>\n<table><thead><tr><th>Número</th><th>Heute ist der …</th><th>am …</th></tr></thead><tbody>\n<tr><td>1.</td><td><span class=\"de\">erste</span></td><td><span class=\"de\">am ersten</span></td></tr>\n<tr><td>2.</td><td><span class=\"de\">zweite</span></td><td><span class=\"de\">am zweiten</span></td></tr>\n<tr><td>3.</td><td><span class=\"de\">dritte</span></td><td><span class=\"de\">am dritten</span></td></tr>\n<tr><td>4.</td><td><span class=\"de\">vierte</span></td><td><span class=\"de\">am vierten</span></td></tr>\n<tr><td>7.</td><td><span class=\"de\">siebte</span></td><td><span class=\"de\">am siebten</span></td></tr>\n<tr><td>8.</td><td><span class=\"de\">achte</span></td><td><span class=\"de\">am achten</span></td></tr>\n<tr><td>19.</td><td><span class=\"de\">neunzehnte</span></td><td><span class=\"de\">am neunzehnten</span></td></tr>\n<tr><td>20.</td><td><span class=\"de\">zwanzigste</span></td><td><span class=\"de\">am zwanzigsten</span></td></tr>\n<tr><td>31.</td><td><span class=\"de\">einunddreißigste</span></td><td><span class=\"de\">am einunddreißigsten</span></td></tr>\n</tbody></table>\n<p><span class=\"de\">Heute ist der erste Mai.</span> (-e) – <span class=\"de\">Ich habe am ersten Mai Geburtstag.</span> (am + -en). Por escrito: <span class=\"de\">am 1. Mai</span>; el punto indica ordinal. Pregunta: <span class=\"de\">Wann hast du Geburtstag?</span> – <span class=\"de\">Der Wievielte ist heute?</span></p>\n<p><b>Ojo:</b> en español decimos «el uno de mayo» con número cardinal; en alemán siempre ordinal. <span class=\"de\">Juni</span> y <span class=\"de\">Juli</span> se confunden: al teléfono se dice <span class=\"de\">Juno</span> y <span class=\"de\">Julei</span>.</p>"
+   "html": "<p>Los meses son todos <span class=\"de\">der</span> y van con <span class=\"de\">im</span>: <span class=\"de\">Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember</span> → <span class=\"de\">im Juli</span>.</p>\n<p>Para las fechas se usan <b>ordinales</b>: del 1 al 19 se añade <b>-te</b>, desde el 20 <b>-ste</b>. Irregulares: <span class=\"de\">erste, dritte, siebte</span>.</p>\n<table><thead><tr><th>Número</th><th>Heute ist der …</th><th>am …</th></tr></thead><tbody>\n<tr><td>1.</td><td><span class=\"de\">erste</span></td><td><span class=\"de\">am ersten</span></td></tr>\n<tr><td>2.</td><td><span class=\"de\">zweite</span></td><td><span class=\"de\">am zweiten</span></td></tr>\n<tr><td>3.</td><td><span class=\"de\">dritte</span></td><td><span class=\"de\">am dritten</span></td></tr>\n<tr><td>4.</td><td><span class=\"de\">vierte</span></td><td><span class=\"de\">am vierten</span></td></tr>\n<tr><td>7.</td><td><span class=\"de\">siebte</span></td><td><span class=\"de\">am siebten</span></td></tr>\n<tr><td>8.</td><td><span class=\"de\">achte</span></td><td><span class=\"de\">am achten</span></td></tr>\n<tr><td>19.</td><td><span class=\"de\">neunzehnte</span></td><td><span class=\"de\">am neunzehnten</span></td></tr>\n<tr><td>20.</td><td><span class=\"de\">zwanzigste</span></td><td><span class=\"de\">am zwanzigsten</span></td></tr>\n<tr><td>31.</td><td><span class=\"de\">einunddreißigste</span></td><td><span class=\"de\">am einunddreißigsten</span></td></tr>\n</tbody></table>\n<p><span class=\"de\">Heute ist der erste Mai.</span> (-e) – <span class=\"de\">Ich habe am ersten Mai Geburtstag.</span> (am + -en). Por escrito: <span class=\"de\">am 1. Mai</span>; el punto indica ordinal. Pregunta: <span class=\"de\">Wann hast du Geburtstag?</span> – <span class=\"de\">Der Wievielte ist heute?</span></p>\n<p><b>Ojo:</b> en español decimos «el uno de mayo» con número cardinal; en alemán siempre ordinal. <span class=\"de\">Juni</span> y <span class=\"de\">Juli</span> se confunden: al teléfono se dice <span class=\"de\">Juno</span> y <span class=\"de\">Julei</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español decimos «el uno de mayo». En alemán, ¿qué crees que se usa?",
+    "o": [
+     "Primero el mes: «Mai eins»",
+     "El ordinal: «am ersten Mai» (el primero de mayo)",
+     "El número normal: «am eins Mai»"
+    ],
+    "a": 1,
+    "exp": "En alemán las fechas siempre van con ordinal: am ersten, am zweiten… Por escrito: am 1. Mai."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Heute ist der ___ Juli. (7.)",
+     "a": [
+      "siebte"
+     ],
+     "exp": "7. = siebte (irregular: no «siebente» ni «siebete»). Tras «der» termina en -e."
+    },
+    {
+     "t": "mc",
+     "q": "¿Cómo se dice «el 20 de agosto»?",
+     "o": [
+      "am zwanzigsten August",
+      "am zwanzig August",
+      "am zwanzigten August"
+     ],
+     "a": 0,
+     "exp": "Desde el 20 se añade -ste(n): zwanzigsten."
+    },
+    {
+     "t": "tr",
+     "es": "Mi cumpleaños es en marzo.",
+     "a": [
+      "Mein Geburtstag ist im März.",
+      "Ich habe im März Geburtstag."
+     ],
+     "exp": "Los meses van con «im»: im März."
+    }
+   ]
   }
  ],
  "vocab": [

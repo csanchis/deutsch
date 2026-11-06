@@ -1,0 +1,158 @@
+{
+ "title": "Früher wollte er alles wissen",
+ "title_es": "Antes quería saberlo todo",
+ "lines": [
+  {
+   "de": "Samstagnachmittag. Lucía, Jonas und Mia sitzen im Büro von Prof. Wolf. Sogar Jonas trinkt keinen Kaffee.",
+   "es": "Sábado por la tarde. Lucía, Jonas y Mia están sentados en el despacho de la Prof. Wolf. Ni siquiera Jonas toma café."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Felix war mein bester Doktorand. Das ist die Wahrheit.",
+   "es": "Felix era mi mejor doctorando. Esa es la verdad."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Früher wollte er alles wissen. Er konnte zwölf Stunden im Labor bleiben.",
+   "es": "Antes quería saberlo todo. Era capaz de quedarse doce horas en el laboratorio."
+  },
+  {
+   "who": "Lucía",
+   "de": "Und was ist dann passiert?",
+   "es": "¿Y qué pasó después?"
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Er wollte schnell berühmt werden. Aber er musste noch zwei Jahre arbeiten. So ist die Wissenschaft.",
+   "es": "Quería hacerse famoso rápido. Pero aún tenía que trabajar dos años más. Así es la ciencia."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Dann hatte er keine Geduld mehr. Eines Tages waren die Daten weg – und Felix auch.",
+   "es": "Luego perdió la paciencia. Un día los datos habían desaparecido… y Felix también."
+  },
+  {
+   "who": "Jonas",
+   "de": "Konnten Sie damals nichts machen?",
+   "es": "¿No pudo hacer nada entonces?"
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Nein. Wir hatten keine Beweise. Ich durfte nichts sagen.",
+   "es": "No. No teníamos pruebas. No podía decir nada."
+  },
+  {
+   "who": "Mia",
+   "de": "Es tut mir so leid, Frau Wolf.",
+   "es": "Lo siento muchísimo, señora Wolf."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Später, Mia. Jetzt brauchen wir einen Plan.",
+   "es": "Luego, Mia. Ahora necesitamos un plan."
+  },
+  {
+   "who": "Lucía",
+   "de": "Ich habe einen Plan. Morgen werde ich nach Berlin fahren.",
+   "es": "Yo tengo un plan. Mañana iré a Berlín."
+  },
+  {
+   "who": "Jonas",
+   "de": "Du meinst: Wir werden nach Berlin fahren. Du fährst nicht allein!",
+   "es": "Querrás decir: iremos a Berlín. ¡Tú no vas sola!"
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Gut. Ich werde die Polizei in Berlin anrufen. Und Sie, Mia, werden uns alles über NovaGen erzählen.",
+   "es": "Bien. Yo llamaré a la policía de Berlín. Y usted, Mia, nos contará todo sobre NovaGen."
+  },
+  {
+   "who": "Mia",
+   "de": "Ich werde Ihnen helfen. Versprochen.",
+   "es": "Les ayudaré. Lo prometo."
+  },
+  {
+   "de": "Am Abend packt Lucía ihre Tasche. Einstein sitzt auf dem Bett und sieht sie an.",
+   "es": "Por la noche Lucía hace la bolsa. Einstein está sentado en la cama y la mira."
+  },
+  {
+   "who": "Lucía",
+   "de": "Keine Sorge, Einstein. Ich werde vorsichtig sein.",
+   "es": "Tranquilo, Einstein. Tendré cuidado."
+  },
+  {
+   "de": "Da klingelt ihr Handy. Eine unbekannte Nummer.",
+   "es": "Entonces suena su móvil. Un número desconocido."
+  },
+  {
+   "who": "Felix",
+   "de": "Hallo, Lucía. Du solltest nicht nach Berlin kommen.",
+   "es": "Hola, Lucía. No deberías venir a Berlín."
+  }
+ ],
+ "gloss": [
+  [
+   "die Wahrheit",
+   "la verdad"
+  ],
+  [
+   "berühmt",
+   "famoso/a"
+  ],
+  [
+   "die Geduld",
+   "la paciencia"
+  ],
+  [
+   "der Beweis",
+   "la prueba"
+  ],
+  [
+   "vorsichtig",
+   "prudente, con cuidado"
+  ],
+  [
+   "sogar",
+   "incluso"
+  ],
+  [
+   "unbekannt",
+   "desconocido/a"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "Según la Prof. Wolf, ¿cómo era Felix como doctorando?",
+   "o": [
+    "Vago y desordenado",
+    "Muy paciente",
+    "El mejor: quería saberlo todo"
+   ],
+   "a": 2,
+   "exp": "«Felix war mein bester Doktorand. Früher wollte er alles wissen.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Por qué la Prof. Wolf no pudo hacer nada entonces?",
+   "o": [
+    "No tenía pruebas",
+    "Estaba en Berlín",
+    "Felix era su sobrino"
+   ],
+   "a": 0,
+   "exp": "«Wir hatten keine Beweise.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué va a hacer la Prof. Wolf?",
+   "o": [
+    "Viajar sola a Berlín",
+    "Llamar a la policía de Berlín",
+    "Hablar con Felix"
+   ],
+   "a": 1,
+   "exp": "«Ich werde die Polizei in Berlin anrufen.»"
+  }
+ ]
+}

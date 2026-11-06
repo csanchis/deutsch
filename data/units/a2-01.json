@@ -13,23 +13,282 @@
  "lessons": [
   {
    "h": "Repaso: el Perfekt",
-   "html": "<p>El <b>Perfekt</b> es el pasado normal cuando hablamos: <b>haben/sein</b> conjugado en 2ª posición + <b>participio al final</b> de la frase.</p><p><span class=\"de\">Ich habe gestern Paella gekocht.</span> · <span class=\"de\">Wir sind nach Berlin gefahren.</span></p><p>Con <b>sein</b> van los verbos de movimiento de un sitio a otro (<span class=\"de\">gehen, fahren, fliegen, kommen, laufen, umsteigen</span>), los de cambio de estado (<span class=\"de\">aufstehen, einschlafen, werden, passieren</span>) y además <span class=\"de\">sein</span> y <span class=\"de\">bleiben</span>. Casi todos los demás van con <b>haben</b>.</p><p><b>ojo:</b> en español «he ido» siempre lleva «haber»; en alemán es <span class=\"de\">Ich bin gegangen</span>, nunca «Ich habe gegangen».</p>"
+   "html": "<p>El <b>Perfekt</b> es el pasado normal cuando hablamos: <b>haben/sein</b> conjugado en 2ª posición + <b>participio al final</b> de la frase.</p><p><span class=\"de\">Ich habe gestern Paella gekocht.</span> · <span class=\"de\">Wir sind nach Berlin gefahren.</span></p><p>Con <b>sein</b> van los verbos de movimiento de un sitio a otro (<span class=\"de\">gehen, fahren, fliegen, kommen, laufen, umsteigen</span>), los de cambio de estado (<span class=\"de\">aufstehen, einschlafen, werden, passieren</span>) y además <span class=\"de\">sein</span> y <span class=\"de\">bleiben</span>. Casi todos los demás van con <b>haben</b>.</p><p><b>ojo:</b> en español «he ido» siempre lleva «haber»; en alemán es <span class=\"de\">Ich bin gegangen</span>, nunca «Ich habe gegangen».</p>",
+   "pre": {
+    "t": "mc",
+    "q": "¿Cómo crees que se dice «he ido a Berlín (en tren)»?",
+    "o": [
+     "Ich habe nach Berlin gefahren.",
+     "Ich bin nach Berlin gefahren.",
+     "Ich fahre nach Berlin gefahren."
+    ],
+    "a": 1,
+    "exp": "¡Bien visto! Cuando te mueves de un sitio a otro, el Perfekt se hace con «sein»: Ich bin nach Berlin gefahren. Es justo lo contrario que en español, donde siempre usamos «haber»."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Wir ___ am Samstag zu Hause geblieben.",
+     "o": [
+      "haben",
+      "sind",
+      "sein"
+     ],
+     "a": 1,
+     "exp": "«bleiben» va con «sein» aunque no haya movimiento: es una de las excepciones que hay que recordar (igual que «sein»)."
+    },
+    {
+     "t": "gap",
+     "q": "Lucía ___ gestern drei Stunden im Labor gearbeitet.",
+     "a": [
+      "hat"
+     ],
+     "hint": "haben o sein",
+     "exp": "«arbeiten» no indica cambio de lugar ni de estado, así que va con «haben»: Lucía hat … gearbeitet."
+    },
+    {
+     "t": "order",
+     "w": [
+      "ist",
+      "gefahren.",
+      "Fahrrad",
+      "Labor",
+      "zum",
+      "Claudia",
+      "mit",
+      "dem"
+     ],
+     "a": "Claudia ist mit dem Fahrrad zum Labor gefahren.",
+     "es": "Claudia ha ido en bici al laboratorio."
+    }
+   ]
   },
   {
    "h": "Verbos separables: el ge- va en medio",
-   "html": "<p>En los verbos separables el <b>ge-</b> se mete entre el prefijo y el verbo, y todo se escribe junto: prefijo + participio del verbo base.</p><table><thead><tr><th>Infinitivo</th><th>Participio</th><th>Ejemplo</th></tr></thead><tbody><tr><td>aufstehen</td><td>auf<b>ge</b>standen (sein)</td><td><span class=\"de\">Ich bin um sechs aufgestanden.</span></td></tr><tr><td>einkaufen</td><td>ein<b>ge</b>kauft</td><td><span class=\"de\">Wir haben im Supermarkt eingekauft.</span></td></tr><tr><td>anrufen</td><td>an<b>ge</b>rufen</td><td><span class=\"de\">Hast du Mama angerufen?</span></td></tr><tr><td>fernsehen</td><td>fern<b>ge</b>sehen</td><td><span class=\"de\">Ich habe gestern ferngesehen.</span></td></tr><tr><td>ankommen</td><td>an<b>ge</b>kommen (sein)</td><td><span class=\"de\">Der Zug ist pünktlich angekommen.</span></td></tr><tr><td>abfahren</td><td>ab<b>ge</b>fahren (sein)</td><td><span class=\"de\">Der Bus ist um acht abgefahren.</span></td></tr><tr><td>umsteigen</td><td>um<b>ge</b>stiegen (sein)</td><td><span class=\"de\">Ich bin in Frankfurt umgestiegen.</span></td></tr><tr><td>mitbringen</td><td>mit<b>ge</b>bracht</td><td><span class=\"de\">Sie hat Wein mitgebracht.</span></td></tr></tbody></table><p>Si el verbo base es irregular, el compuesto también: <span class=\"de\">stehen → gestanden → aufgestanden</span>; <span class=\"de\">kommen → gekommen → angekommen</span>.</p><p><b>ojo:</b> nada de «geaufstanden» ni «auf gestanden»: es una sola palabra, <span class=\"de\">aufgestanden</span>.</p>"
+   "html": "<p>En los verbos separables el <b>ge-</b> se mete entre el prefijo y el verbo, y todo se escribe junto: prefijo + participio del verbo base.</p><table><thead><tr><th>Infinitivo</th><th>Participio</th><th>Ejemplo</th></tr></thead><tbody><tr><td>aufstehen</td><td>auf<b>ge</b>standen (sein)</td><td><span class=\"de\">Ich bin um sechs aufgestanden.</span></td></tr><tr><td>einkaufen</td><td>ein<b>ge</b>kauft</td><td><span class=\"de\">Wir haben im Supermarkt eingekauft.</span></td></tr><tr><td>anrufen</td><td>an<b>ge</b>rufen</td><td><span class=\"de\">Hast du Mama angerufen?</span></td></tr><tr><td>fernsehen</td><td>fern<b>ge</b>sehen</td><td><span class=\"de\">Ich habe gestern ferngesehen.</span></td></tr><tr><td>ankommen</td><td>an<b>ge</b>kommen (sein)</td><td><span class=\"de\">Der Zug ist pünktlich angekommen.</span></td></tr><tr><td>abfahren</td><td>ab<b>ge</b>fahren (sein)</td><td><span class=\"de\">Der Bus ist um acht abgefahren.</span></td></tr><tr><td>umsteigen</td><td>um<b>ge</b>stiegen (sein)</td><td><span class=\"de\">Ich bin in Frankfurt umgestiegen.</span></td></tr><tr><td>mitbringen</td><td>mit<b>ge</b>bracht</td><td><span class=\"de\">Sie hat Wein mitgebracht.</span></td></tr></tbody></table><p>Si el verbo base es irregular, el compuesto también: <span class=\"de\">stehen → gestanden → aufgestanden</span>; <span class=\"de\">kommen → gekommen → angekommen</span>.</p><p><b>ojo:</b> nada de «geaufstanden» ni «auf gestanden»: es una sola palabra, <span class=\"de\">aufgestanden</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«aufstehen» es separable (Ich stehe um sieben auf). ¿Cómo crees que es su participio?",
+    "o": [
+     "geaufstanden",
+     "aufgestanden",
+     "aufgesteht"
+    ],
+    "a": 1,
+    "exp": "El «ge-» se cuela entre el prefijo y el verbo, y todo va junto: auf-ge-standen. Y como «stehen» es irregular, termina en -en."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Der Bus ist schon ___. Wir müssen laufen.",
+     "a": [
+      "abgefahren"
+     ],
+     "hint": "abfahren",
+     "exp": "«abfahren» es separable y de movimiento: ab + gefahren = abgefahren, con «sein»."
+    },
+    {
+     "t": "mc",
+     "q": "Ich bin in Mannheim ___.",
+     "o": [
+      "umgestiegt",
+      "umgestiegen",
+      "geumstiegen"
+     ],
+     "a": 1,
+     "exp": "«steigen» es irregular (gestiegen), así que «umsteigen» → umgestiegen: prefijo + participio del verbo base."
+    },
+    {
+     "t": "order",
+     "w": [
+      "Markt",
+      "eingekauft.",
+      "auf",
+      "dem",
+      "Wir",
+      "am",
+      "Samstag",
+      "haben"
+     ],
+     "a": "Wir haben am Samstag auf dem Markt eingekauft.",
+     "es": "El sábado hicimos la compra en el mercado."
+    }
+   ]
   },
   {
    "h": "Sin ge-: verbos inseparables y en -ieren",
-   "html": "<p>Los verbos con prefijo <b>inseparable</b> (<b>be-, ver-, er-, ent-, emp-, ge-, zer-, miss-</b>) y los verbos en <b>-ieren</b> forman el participio <b>sin ge-</b>.</p><table><thead><tr><th>Tipo</th><th>Infinitivo → participio</th></tr></thead><tbody><tr><td>be-</td><td>besuchen → <b>besucht</b>, besichtigen → <b>besichtigt</b>, bezahlen → <b>bezahlt</b>, bekommen → <b>bekommen</b></td></tr><tr><td>ver-</td><td>verstehen → <b>verstanden</b>, vergessen → <b>vergessen</b>, verlieren → <b>verloren</b>, verdienen → <b>verdient</b></td></tr><tr><td>er-</td><td>erzählen → <b>erzählt</b>, erleben → <b>erlebt</b></td></tr><tr><td>ge-</td><td>gewinnen → <b>gewonnen</b>, gefallen → <b>gefallen</b></td></tr><tr><td>-ieren</td><td>trainieren → <b>trainiert</b>, studieren → <b>studiert</b>, telefonieren → <b>telefoniert</b>, fotografieren → <b>fotografiert</b>, reservieren → <b>reserviert</b>, probieren → <b>probiert</b>, passieren → <b>(ist) passiert</b></td></tr></tbody></table><p><b>Truco:</b> si la primera sílaba <b>no</b> lleva el acento (be<b>SU</b>chen, trai<b>NIE</b>ren), no hay ge-.</p><p><b>ojo:</b> «gestudiert», «getrainiert» o «gebesucht» son errores muy típicos. Y <span class=\"de\">bekommen</span> significa «recibir», no «convertirse» (eso es <span class=\"de\">werden</span>).</p>"
+   "html": "<p>Los verbos con prefijo <b>inseparable</b> (<b>be-, ver-, er-, ent-, emp-, ge-, zer-, miss-</b>) y los verbos en <b>-ieren</b> forman el participio <b>sin ge-</b>.</p><table><thead><tr><th>Tipo</th><th>Infinitivo → participio</th></tr></thead><tbody><tr><td>be-</td><td>besuchen → <b>besucht</b>, besichtigen → <b>besichtigt</b>, bezahlen → <b>bezahlt</b>, bekommen → <b>bekommen</b></td></tr><tr><td>ver-</td><td>verstehen → <b>verstanden</b>, vergessen → <b>vergessen</b>, verlieren → <b>verloren</b>, verdienen → <b>verdient</b></td></tr><tr><td>er-</td><td>erzählen → <b>erzählt</b>, erleben → <b>erlebt</b></td></tr><tr><td>ge-</td><td>gewinnen → <b>gewonnen</b>, gefallen → <b>gefallen</b></td></tr><tr><td>-ieren</td><td>trainieren → <b>trainiert</b>, studieren → <b>studiert</b>, telefonieren → <b>telefoniert</b>, fotografieren → <b>fotografiert</b>, reservieren → <b>reserviert</b>, probieren → <b>probiert</b>, passieren → <b>(ist) passiert</b></td></tr></tbody></table><p><b>Truco:</b> si la primera sílaba <b>no</b> lleva el acento (be<b>SU</b>chen, trai<b>NIE</b>ren), no hay ge-.</p><p><b>ojo:</b> «gestudiert», «getrainiert» o «gebesucht» son errores muy típicos. Y <span class=\"de\">bekommen</span> significa «recibir», no «convertirse» (eso es <span class=\"de\">werden</span>).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español decimos «estudiado». ¿Cuál crees que es el participio de «studieren»?",
+    "o": [
+     "gestudiert",
+     "studiert",
+     "studieren"
+    ],
+    "a": 1,
+    "exp": "Los verbos en -ieren no llevan «ge-»: studiert, trainiert, telefoniert. Así que «gestudiert» suena bien… ¡pero es un error clásico!"
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Jonas hat mir eine lustige Geschichte ___.",
+     "o": [
+      "geerzählt",
+      "erzählt",
+      "erzählen"
+     ],
+     "a": 1,
+     "exp": "«er-» es un prefijo inseparable, así que no hay «ge-»: erzählen → erzählt."
+    },
+    {
+     "t": "gap",
+     "q": "Kai hat am Samstag den Kampf ___.",
+     "a": [
+      "gewonnen"
+     ],
+     "hint": "gewinnen",
+     "exp": "«gewinnen» ya empieza por el prefijo inseparable «ge-», así que no se añade otro: gewonnen (irregular, en -en)."
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "bezahlen",
+       "bezahlt"
+      ],
+      [
+       "erleben",
+       "erlebt"
+      ],
+      [
+       "probieren",
+       "probiert"
+      ],
+      [
+       "verdienen",
+       "verdient"
+      ],
+      [
+       "telefonieren",
+       "telefoniert"
+      ]
+     ]
+    }
+   ]
   },
   {
    "h": "Participios irregulares frecuentes",
-   "html": "<p>Los verbos irregulares terminan en <b>-en</b> y a menudo cambian la vocal. Hay que aprenderlos con su auxiliar (s = sein).</p><table><thead><tr><th>Infinitivo</th><th>Participio</th><th>Infinitivo</th><th>Participio</th></tr></thead><tbody><tr><td>fliegen</td><td>(s) geflogen</td><td>schreiben</td><td>geschrieben</td></tr><tr><td>bleiben</td><td>(s) geblieben</td><td>steigen</td><td>(s) gestiegen</td></tr><tr><td>trinken</td><td>getrunken</td><td>finden</td><td>gefunden</td></tr><tr><td>sprechen</td><td>gesprochen</td><td>helfen</td><td>geholfen</td></tr><tr><td>nehmen</td><td>genommen</td><td>treffen</td><td>getroffen</td></tr><tr><td>gehen</td><td>(s) gegangen</td><td>stehen</td><td>gestanden</td></tr><tr><td>sitzen</td><td>gesessen</td><td>liegen</td><td>gelegen</td></tr><tr><td>sehen</td><td>gesehen</td><td>lesen</td><td>gelesen</td></tr><tr><td>essen</td><td>gegessen</td><td>schlafen</td><td>geschlafen</td></tr><tr><td>fahren</td><td>(s) gefahren</td><td>laufen</td><td>(s) gelaufen</td></tr><tr><td>kommen</td><td>(s) gekommen</td><td>werden</td><td>(s) geworden</td></tr><tr><td>sein</td><td>(s) gewesen</td><td>tun</td><td>getan</td></tr></tbody></table><p><b>Mixtos</b> (cambian la vocal pero terminan en -t): <span class=\"de\">bringen → gebracht, denken → gedacht, kennen → gekannt, wissen → gewusst</span>.</p><p><b>ojo:</b> <span class=\"de\">essen → gegessen</span> (con doble g), y <span class=\"de\">gegangen</span>, no «gegeht».</p>"
+   "html": "<p>Los verbos irregulares terminan en <b>-en</b> y a menudo cambian la vocal. Hay que aprenderlos con su auxiliar (s = sein).</p><table><thead><tr><th>Infinitivo</th><th>Participio</th><th>Infinitivo</th><th>Participio</th></tr></thead><tbody><tr><td>fliegen</td><td>(s) geflogen</td><td>schreiben</td><td>geschrieben</td></tr><tr><td>bleiben</td><td>(s) geblieben</td><td>steigen</td><td>(s) gestiegen</td></tr><tr><td>trinken</td><td>getrunken</td><td>finden</td><td>gefunden</td></tr><tr><td>sprechen</td><td>gesprochen</td><td>helfen</td><td>geholfen</td></tr><tr><td>nehmen</td><td>genommen</td><td>treffen</td><td>getroffen</td></tr><tr><td>gehen</td><td>(s) gegangen</td><td>stehen</td><td>gestanden</td></tr><tr><td>sitzen</td><td>gesessen</td><td>liegen</td><td>gelegen</td></tr><tr><td>sehen</td><td>gesehen</td><td>lesen</td><td>gelesen</td></tr><tr><td>essen</td><td>gegessen</td><td>schlafen</td><td>geschlafen</td></tr><tr><td>fahren</td><td>(s) gefahren</td><td>laufen</td><td>(s) gelaufen</td></tr><tr><td>kommen</td><td>(s) gekommen</td><td>werden</td><td>(s) geworden</td></tr><tr><td>sein</td><td>(s) gewesen</td><td>tun</td><td>getan</td></tr></tbody></table><p><b>Mixtos</b> (cambian la vocal pero terminan en -t): <span class=\"de\">bringen → gebracht, denken → gedacht, kennen → gekannt, wissen → gewusst</span>.</p><p><b>ojo:</b> <span class=\"de\">essen → gegessen</span> (con doble g), y <span class=\"de\">gegangen</span>, no «gegeht».</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En inglés: drink → drunk. ¿Cuál crees que es el participio de «trinken»?",
+    "o": [
+     "getrinkt",
+     "getrunken",
+     "getranken"
+    ],
+    "a": 1,
+    "exp": "¡El inglés ayuda! trinken → getrunken: los irregulares terminan en -en y muchas veces cambian la vocal."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Hast du das Buch schon ___?",
+     "o": [
+      "gelest",
+      "gelesen",
+      "gelasen"
+     ],
+     "a": 1,
+     "exp": "«lesen» es irregular: ge- + lesen = gelesen (aquí la vocal no cambia)."
+    },
+    {
+     "t": "gap",
+     "q": "Wir haben im Hotel sehr gut ___.",
+     "a": [
+      "geschlafen"
+     ],
+     "hint": "schlafen",
+     "exp": "«schlafen» es irregular: geschlafen, con «haben»."
+    },
+    {
+     "t": "tr",
+     "es": "Ayer hablé con Jonas.",
+     "a": [
+      "Ich habe gestern mit Jonas gesprochen.",
+      "Gestern habe ich mit Jonas gesprochen."
+     ],
+     "exp": "sprechen → gesprochen (irregular, cambia la e por o), con «haben» y el participio al final."
+    }
+   ]
   },
   {
    "h": "Contar una historia: zuerst, dann, danach, am Ende",
-   "html": "<p>Para narrar en orden usamos conectores que ocupan la <b>posición 1</b>. Por eso el verbo conjugado (haben/sein) va justo después y el sujeto detrás.</p><table><thead><tr><th>Alemán</th><th>Español</th></tr></thead><tbody><tr><td>zuerst</td><td>primero</td></tr><tr><td>dann</td><td>luego, entonces</td></tr><tr><td>danach</td><td>después</td></tr><tr><td>später</td><td>más tarde</td></tr><tr><td>am Ende / zum Schluss</td><td>al final</td></tr><tr><td>am ersten Tag</td><td>el primer día</td></tr></tbody></table><p><span class=\"de\">Zuerst haben wir gefrühstückt. Dann sind wir zum Strand gegangen. Danach haben wir Paella gegessen. Am Ende waren wir sehr müde.</span></p><p><b>ojo:</b> «Dann ich bin gegangen» ✗ → <span class=\"de\">Dann bin ich gegangen</span> ✓. Pero <span class=\"de\">und</span> no ocupa posición: <span class=\"de\">… und dann sind wir gegangen</span>.</p>"
+   "html": "<p>Para narrar en orden usamos conectores que ocupan la <b>posición 1</b>. Por eso el verbo conjugado (haben/sein) va justo después y el sujeto detrás.</p><table><thead><tr><th>Alemán</th><th>Español</th></tr></thead><tbody><tr><td>zuerst</td><td>primero</td></tr><tr><td>dann</td><td>luego, entonces</td></tr><tr><td>danach</td><td>después</td></tr><tr><td>später</td><td>más tarde</td></tr><tr><td>am Ende / zum Schluss</td><td>al final</td></tr><tr><td>am ersten Tag</td><td>el primer día</td></tr></tbody></table><p><span class=\"de\">Zuerst haben wir gefrühstückt. Dann sind wir zum Strand gegangen. Danach haben wir Paella gegessen. Am Ende waren wir sehr müde.</span></p><p><b>ojo:</b> «Dann ich bin gegangen» ✗ → <span class=\"de\">Dann bin ich gegangen</span> ✓. Pero <span class=\"de\">und</span> no ocupa posición: <span class=\"de\">… und dann sind wir gegangen</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Quieres decir «Luego me fui a casa». Si empiezas con «dann», ¿cómo crees que sigue?",
+    "o": [
+     "Dann ich bin nach Hause gegangen.",
+     "Dann bin ich nach Hause gegangen.",
+     "Dann ich nach Hause gegangen bin."
+    ],
+    "a": 1,
+    "exp": "«dann» ocupa la posición 1, y el verbo conjugado siempre quiere ir en la 2: Dann bin ich … El sujeto se pone detrás."
+   },
+   "check": [
+    {
+     "t": "order",
+     "w": [
+      "Kampf",
+      "gewonnen.",
+      "den",
+      "hat",
+      "Am",
+      "Ende",
+      "Lucía"
+     ],
+     "a": "Am Ende hat Lucía den Kampf gewonnen.",
+     "es": "Al final Lucía ganó el combate."
+    },
+    {
+     "t": "mc",
+     "q": "Wir sind nach Hause gefahren und dann ___ gekocht.",
+     "o": [
+      "haben wir",
+      "wir haben",
+      "haben"
+     ],
+     "a": 0,
+     "exp": "«und» no ocupa posición, pero «dann» sí: después de «dann» va el verbo y luego el sujeto → und dann haben wir gekocht."
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "zuerst",
+       "primero"
+      ],
+      [
+       "dann",
+       "luego"
+      ],
+      [
+       "danach",
+       "después"
+      ],
+      [
+       "später",
+       "más tarde"
+      ],
+      [
+       "am Ende",
+       "al final"
+      ]
+     ]
+    }
+   ]
   }
  ],
  "vocab": [

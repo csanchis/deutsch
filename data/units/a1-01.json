@@ -13,23 +13,253 @@
  "lessons": [
   {
    "h": "Saludos y despedidas",
-   "html": "<p>En alemán se distingue mucho entre registro <b>formal</b> (desconocidos, trabajo, tiendas) e <b>informal</b> (amigos, familia, compañeros de clase).</p><table><thead><tr><th></th><th>formal</th><th>informal</th></tr></thead><tbody><tr><td>saludar</td><td><span class=\"de\">Guten Morgen!</span> (hasta ~11 h)<br><span class=\"de\">Guten Tag!</span><br><span class=\"de\">Guten Abend!</span> (desde ~18 h)</td><td><span class=\"de\">Hallo!</span><br><span class=\"de\">Hi!</span><br><span class=\"de\">Morgen!</span></td></tr><tr><td>despedirse</td><td><span class=\"de\">Auf Wiedersehen!</span></td><td><span class=\"de\">Tschüss!</span><br><span class=\"de\">Bis später!</span> / <span class=\"de\">Bis morgen!</span></td></tr><tr><td>¿qué tal?</td><td><span class=\"de\">Wie geht es Ihnen?</span></td><td><span class=\"de\">Wie geht's?</span></td></tr></tbody></table><p>Respuestas: <span class=\"de\">Gut, danke. Und Ihnen?</span> / <span class=\"de\">Gut, danke. Und dir?</span> — <span class=\"de\">Es geht.</span> (regular).</p><p><b>Ojo:</b> <span class=\"de\">Gute Nacht!</span> solo se dice al irse a dormir; para saludar por la noche se dice <span class=\"de\">Guten Abend!</span>. Al presentarte: <span class=\"de\">Freut mich!</span> (¡encantada!).</p>"
+   "html": "<p>En alemán se distingue mucho entre registro <b>formal</b> (desconocidos, trabajo, tiendas) e <b>informal</b> (amigos, familia, compañeros de clase).</p><table><thead><tr><th></th><th>formal</th><th>informal</th></tr></thead><tbody><tr><td>saludar</td><td><span class=\"de\">Guten Morgen!</span> (hasta ~11 h)<br><span class=\"de\">Guten Tag!</span><br><span class=\"de\">Guten Abend!</span> (desde ~18 h)</td><td><span class=\"de\">Hallo!</span><br><span class=\"de\">Hi!</span><br><span class=\"de\">Morgen!</span></td></tr><tr><td>despedirse</td><td><span class=\"de\">Auf Wiedersehen!</span></td><td><span class=\"de\">Tschüss!</span><br><span class=\"de\">Bis später!</span> / <span class=\"de\">Bis morgen!</span></td></tr><tr><td>¿qué tal?</td><td><span class=\"de\">Wie geht es Ihnen?</span></td><td><span class=\"de\">Wie geht's?</span></td></tr></tbody></table><p>Respuestas: <span class=\"de\">Gut, danke. Und Ihnen?</span> / <span class=\"de\">Gut, danke. Und dir?</span> — <span class=\"de\">Es geht.</span> (regular).</p><p><b>Ojo:</b> <span class=\"de\">Gute Nacht!</span> solo se dice al irse a dormir; para saludar por la noche se dice <span class=\"de\">Guten Abend!</span>. Al presentarte: <span class=\"de\">Freut mich!</span> (¡encantada!).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Primer día en el laboratorio y aparece tu nueva jefa. «Hallo» es informal… ¿cuál crees que es el saludo formal?",
+    "o": [
+     "Guten Tag!",
+     "Hallo!",
+     "Tschüss!"
+    ],
+    "a": 0,
+    "exp": "«Guten Tag» (literalmente «buen día») es el saludo formal. «Hallo» es para amigos y «Tschüss» sirve para despedirse."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Tu vecina mayor te pregunta: «Wie geht es Ihnen?». ¿Qué respondes?",
+     "o": [
+      "Gut, danke. Und Ihnen?",
+      "Gut, danke. Und dir?",
+      "Gute Nacht!"
+     ],
+     "a": 0,
+     "exp": "Te habla de usted (Ihnen), así que devuelves la pregunta igual: «Und Ihnen?». «Und dir?» es para quien te tutea."
+    },
+    {
+     "t": "gap",
+     "q": "Jonas: «Wie geht's?» – Tú: «Gut, danke. Und ___?»",
+     "a": [
+      "dir"
+     ],
+     "hint": "¿y a ti?",
+     "exp": "«Wie geht's?» es informal, así que respondes con «dir»: Und dir?"
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "Guten Abend!",
+       "¡Buenas noches! (al llegar)"
+      ],
+      [
+       "Bis morgen!",
+       "¡Hasta mañana!"
+      ],
+      [
+       "Freut mich!",
+       "¡Encantada!"
+      ],
+      [
+       "Es geht.",
+       "Regular."
+      ],
+      [
+       "Bis später!",
+       "¡Hasta luego!"
+      ]
+     ]
+    }
+   ]
   },
   {
    "h": "Pronombres personales: du y Sie",
-   "html": "<table><thead><tr><th>alemán</th><th>español</th></tr></thead><tbody><tr><td>ich</td><td>yo</td></tr><tr><td>du</td><td>tú</td></tr><tr><td>er / sie / es</td><td>él / ella / (ello)</td></tr><tr><td>wir</td><td>nosotros/-as</td></tr><tr><td>ihr</td><td>vosotros/-as</td></tr><tr><td>sie</td><td>ellos/-as</td></tr><tr><td>Sie</td><td>usted / ustedes</td></tr></tbody></table><p><b>du</b> = tutear; <b>Sie</b> = tratar de usted. En Alemania se usa <b>Sie</b> mucho más que «usted» en España: con desconocidos, en el trabajo, en tiendas y con profesores (salvo que te ofrezcan el «du»). <b>Sie</b> formal se escribe siempre con mayúscula y se conjuga igual que <b>sie</b> (ellos).</p><p><b>Ojo:</b> en alemán el pronombre es <b>obligatorio</b>. «Vivo en Madrid» es <span class=\"de\">Ich wohne in Madrid</span>, nunca *Wohne in Madrid. Y <span class=\"de\">ich</span> va en minúscula (salvo al inicio de frase).</p>"
+   "html": "<table><thead><tr><th>alemán</th><th>español</th></tr></thead><tbody><tr><td>ich</td><td>yo</td></tr><tr><td>du</td><td>tú</td></tr><tr><td>er / sie / es</td><td>él / ella / (ello)</td></tr><tr><td>wir</td><td>nosotros/-as</td></tr><tr><td>ihr</td><td>vosotros/-as</td></tr><tr><td>sie</td><td>ellos/-as</td></tr><tr><td>Sie</td><td>usted / ustedes</td></tr></tbody></table><p><b>du</b> = tutear; <b>Sie</b> = tratar de usted. En Alemania se usa <b>Sie</b> mucho más que «usted» en España: con desconocidos, en el trabajo, en tiendas y con profesores (salvo que te ofrezcan el «du»). <b>Sie</b> formal se escribe siempre con mayúscula y se conjuga igual que <b>sie</b> (ellos).</p><p><b>Ojo:</b> en alemán el pronombre es <b>obligatorio</b>. «Vivo en Madrid» es <span class=\"de\">Ich wohne in Madrid</span>, nunca *Wohne in Madrid. Y <span class=\"de\">ich</span> va en minúscula (salvo al inicio de frase).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En España tuteas a casi todo el mundo. En una panadería alemana, ¿cómo crees que tratas a la dependienta, a la que no conoces?",
+    "o": [
+     "De usted: «Sie»",
+     "De tú: «du»",
+     "Da igual, como quieras"
+    ],
+    "a": 0,
+    "exp": "En Alemania se usa «Sie» con desconocidos, en tiendas y en el trabajo, mucho más que «usted» en España. El «du» es para amigos y familia."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "«Frau Wolf, wohnen Sie in Heidelberg?» ¿Qué significa «Sie» aquí?",
+     "o": [
+      "usted",
+      "ella",
+      "ellos"
+     ],
+     "a": 0,
+     "exp": "«Sie» con mayúscula en mitad de la frase, hablando con Frau Wolf: es el «usted» de cortesía."
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál de estas frases es correcta?",
+     "o": [
+      "Ich wohne in Madrid.",
+      "Wohne in Madrid.",
+      "In Madrid wohne."
+     ],
+     "a": 0,
+     "exp": "En alemán el pronombre es obligatorio: «Ich wohne in Madrid». No se puede omitir como en español."
+    },
+    {
+     "t": "gap",
+     "q": "Paul und ich = ___",
+     "a": [
+      "wir"
+     ],
+     "hint": "pronombre",
+     "exp": "Paul y yo = nosotros = wir."
+    }
+   ]
   },
   {
    "h": "Los verbos heißen, kommen, wohnen",
-   "html": "<p>Para presentarte necesitas tres verbos regulares. La terminación cambia con cada persona:</p><table><thead><tr><th></th><th>heißen (llamarse)</th><th>kommen (venir, ser de)</th><th>wohnen (vivir)</th></tr></thead><tbody><tr><td>ich</td><td>heiße</td><td>komme</td><td>wohne</td></tr><tr><td>du</td><td>heißt</td><td>kommst</td><td>wohnst</td></tr><tr><td>er/sie/es</td><td>heißt</td><td>kommt</td><td>wohnt</td></tr><tr><td>wir</td><td>heißen</td><td>kommen</td><td>wohnen</td></tr><tr><td>ihr</td><td>heißt</td><td>kommt</td><td>wohnt</td></tr><tr><td>sie/Sie</td><td>heißen</td><td>kommen</td><td>wohnen</td></tr></tbody></table><p><b>Ojo:</b> <span class=\"de\">du heißt</span> (no *heißst): si la raíz acaba en -ß, solo se añade -t. «Llamarse» no es reflexivo en alemán: <span class=\"de\">Ich heiße Claudia</span> (no *Ich mich heiße).</p><p>Para decir solo el nombre también vale <span class=\"de\">Ich bin Claudia.</span> (el verbo <i>sein</i> completo lo verás en la unidad 2).</p>"
+   "html": "<p>Para presentarte necesitas tres verbos regulares. La terminación cambia con cada persona:</p><table><thead><tr><th></th><th>heißen (llamarse)</th><th>kommen (venir, ser de)</th><th>wohnen (vivir)</th></tr></thead><tbody><tr><td>ich</td><td>heiße</td><td>komme</td><td>wohne</td></tr><tr><td>du</td><td>heißt</td><td>kommst</td><td>wohnst</td></tr><tr><td>er/sie/es</td><td>heißt</td><td>kommt</td><td>wohnt</td></tr><tr><td>wir</td><td>heißen</td><td>kommen</td><td>wohnen</td></tr><tr><td>ihr</td><td>heißt</td><td>kommt</td><td>wohnt</td></tr><tr><td>sie/Sie</td><td>heißen</td><td>kommen</td><td>wohnen</td></tr></tbody></table><p><b>Ojo:</b> <span class=\"de\">du heißt</span> (no *heißst): si la raíz acaba en -ß, solo se añade -t. «Llamarse» no es reflexivo en alemán: <span class=\"de\">Ich heiße Claudia</span> (no *Ich mich heiße).</p><p>Para decir solo el nombre también vale <span class=\"de\">Ich bin Claudia.</span> (el verbo <i>sein</i> completo lo verás en la unidad 2).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Si «ich wohne» = yo vivo y «du wohnst» = tú vives… ¿cómo crees que se dice «él vive»?",
+    "o": [
+     "er wohnt",
+     "er wohne",
+     "er wohnen"
+    ],
+    "a": 0,
+    "exp": "Igual que en español, cada persona tiene su terminación: er/sie/es → -t: er wohnt."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Ihr ___ in Valencia.",
+     "a": [
+      "wohnt"
+     ],
+     "hint": "wohnen",
+     "exp": "ihr → -t: ihr wohnt."
+    },
+    {
+     "t": "mc",
+     "q": "Er ___ Jonas.",
+     "o": [
+      "heißt",
+      "heißst",
+      "heißen"
+     ],
+     "a": 0,
+     "exp": "Si la raíz acaba en -ß, solo se añade -t: er heißt (nunca *heißst)."
+    },
+    {
+     "t": "order",
+     "w": [
+      "wohnen",
+      "in",
+      "Sie",
+      "Berlin."
+     ],
+     "a": "Sie wohnen in Berlin.",
+     "es": "Ellos viven en Berlín."
+    }
+   ]
   },
   {
    "h": "Preguntas con W: wie, woher, wo, was, wer",
-   "html": "<table><thead><tr><th>pregunta</th><th>significado</th><th>ejemplo</th></tr></thead><tbody><tr><td>Wie?</td><td>¿cómo?</td><td><span class=\"de\">Wie heißt du?</span></td></tr><tr><td>Woher?</td><td>¿de dónde?</td><td><span class=\"de\">Woher kommen Sie?</span></td></tr><tr><td>Wo?</td><td>¿dónde?</td><td><span class=\"de\">Wo wohnst du?</span></td></tr><tr><td>Was?</td><td>¿qué?</td><td><span class=\"de\">Was ist das?</span></td></tr><tr><td>Wer?</td><td>¿quién?</td><td><span class=\"de\">Wer ist das?</span></td></tr></tbody></table><p>Orden: <b>palabra W + verbo + sujeto</b>: <span class=\"de\">Wo wohnst du?</span> El verbo va siempre en 2ª posición.</p><p><b>Ojo:</b> <span class=\"de\">wer</span> = quién y <span class=\"de\">wo</span> = dónde (¡no te dejes engañar por el inglés <i>where</i>!). Y la pregunta lleva verbo conjugado: <span class=\"de\">Woher kommst du?</span>, no *Woher du?</p>"
+   "html": "<table><thead><tr><th>pregunta</th><th>significado</th><th>ejemplo</th></tr></thead><tbody><tr><td>Wie?</td><td>¿cómo?</td><td><span class=\"de\">Wie heißt du?</span></td></tr><tr><td>Woher?</td><td>¿de dónde?</td><td><span class=\"de\">Woher kommen Sie?</span></td></tr><tr><td>Wo?</td><td>¿dónde?</td><td><span class=\"de\">Wo wohnst du?</span></td></tr><tr><td>Was?</td><td>¿qué?</td><td><span class=\"de\">Was ist das?</span></td></tr><tr><td>Wer?</td><td>¿quién?</td><td><span class=\"de\">Wer ist das?</span></td></tr></tbody></table><p>Orden: <b>palabra W + verbo + sujeto</b>: <span class=\"de\">Wo wohnst du?</span> El verbo va siempre en 2ª posición.</p><p><b>Ojo:</b> <span class=\"de\">wer</span> = quién y <span class=\"de\">wo</span> = dónde (¡no te dejes engañar por el inglés <i>where</i>!). Y la pregunta lleva verbo conjugado: <span class=\"de\">Woher kommst du?</span>, no *Woher du?</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español: «¿Dónde vives?». ¿Cómo crees que se ordena la pregunta en alemán?",
+    "o": [
+     "Wo wohnst du?",
+     "Wo du wohnst?",
+     "Du wohnst wo?"
+    ],
+    "a": 0,
+    "exp": "¡Como en español! Palabra interrogativa + verbo + sujeto: Wo wohnst du?"
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "___ kommst du? – Aus Valencia.",
+     "o": [
+      "Woher",
+      "Wo",
+      "Wer"
+     ],
+     "a": 0,
+     "exp": "La respuesta es un origen (aus…), así que se pregunta con Woher? (¿de dónde?)."
+    },
+    {
+     "t": "order",
+     "w": [
+      "ist",
+      "Wer",
+      "das?"
+     ],
+     "a": "Wer ist das?",
+     "es": "¿Quién es?"
+    },
+    {
+     "t": "tr",
+     "es": "¿Dónde vivís (vosotros)?",
+     "a": [
+      "Wo wohnt ihr?"
+     ],
+     "exp": "Wo + verbo + sujeto; ihr → -t: Wo wohnt ihr?"
+    }
+   ]
   },
   {
    "h": "Países y ciudades: aus / in",
-   "html": "<p><span class=\"de\">Woher?</span> → <b>aus</b> + país/ciudad: <span class=\"de\">Ich komme aus Spanien.</span><br><span class=\"de\">Wo?</span> → <b>in</b> + país/ciudad: <span class=\"de\">Ich wohne in Deutschland.</span></p><p>La mayoría de países no llevan artículo: <span class=\"de\">Spanien, Deutschland, Österreich, Italien, Frankreich, Mexiko</span>. Algunos son femeninos y lo llevan siempre:</p><table><thead><tr><th>país</th><th>Woher?</th><th>Wo?</th></tr></thead><tbody><tr><td>die Schweiz</td><td>aus der Schweiz</td><td>in der Schweiz</td></tr><tr><td>die Türkei</td><td>aus der Türkei</td><td>in der Türkei</td></tr></tbody></table><p>Aprende <span class=\"de\">aus der Schweiz</span> / <span class=\"de\">in der Schweiz</span> como bloque (el porqué, el dativo, llegará más adelante).</p><p><b>Ojo:</b> «soy de España» no se dice con <i>sein + von</i>, sino <span class=\"de\">Ich komme aus Spanien</span>. Y no confundas <span class=\"de\">aus</span> (origen) con <span class=\"de\">in</span> (lugar donde vives).</p>"
+   "html": "<p><span class=\"de\">Woher?</span> → <b>aus</b> + país/ciudad: <span class=\"de\">Ich komme aus Spanien.</span><br><span class=\"de\">Wo?</span> → <b>in</b> + país/ciudad: <span class=\"de\">Ich wohne in Deutschland.</span></p><p>La mayoría de países no llevan artículo: <span class=\"de\">Spanien, Deutschland, Österreich, Italien, Frankreich, Mexiko</span>. Algunos son femeninos y lo llevan siempre:</p><table><thead><tr><th>país</th><th>Woher?</th><th>Wo?</th></tr></thead><tbody><tr><td>die Schweiz</td><td>aus der Schweiz</td><td>in der Schweiz</td></tr><tr><td>die Türkei</td><td>aus der Türkei</td><td>in der Türkei</td></tr></tbody></table><p>Aprende <span class=\"de\">aus der Schweiz</span> / <span class=\"de\">in der Schweiz</span> como bloque (el porqué, el dativo, llegará más adelante).</p><p><b>Ojo:</b> «soy de España» no se dice con <i>sein + von</i>, sino <span class=\"de\">Ich komme aus Spanien</span>. Y no confundas <span class=\"de\">aus</span> (origen) con <span class=\"de\">in</span> (lugar donde vives).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Ich wohne in Deutschland» = vivo EN Alemania. Para decir «soy DE España», ¿qué crees que se usa?",
+    "o": [
+     "Ich komme aus Spanien.",
+     "Ich komme in Spanien.",
+     "Ich bin von Spanien."
+    ],
+    "a": 0,
+    "exp": "Origen → «aus» con el verbo kommen: Ich komme aus Spanien. «in» es para el lugar donde estás o vives."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Ayşe kommt aus ___ Türkei.",
+     "a": [
+      "der"
+     ],
+     "hint": "artículo",
+     "exp": "die Türkei lleva siempre artículo: aus der Türkei, in der Türkei."
+    },
+    {
+     "t": "mc",
+     "q": "Ich wohne ___ Heidelberg.",
+     "o": [
+      "in",
+      "aus",
+      "von"
+     ],
+     "a": 0,
+     "exp": "Lugar donde vives (Wo?) → in: Ich wohne in Heidelberg."
+    },
+    {
+     "t": "tr",
+     "es": "Vivo en Austria.",
+     "a": [
+      "Ich wohne in Österreich.",
+      "Ich lebe in Österreich."
+     ],
+     "exp": "Lugar donde vives → in; Austria no lleva artículo: in Österreich."
+    }
+   ]
   }
  ],
  "vocab": [

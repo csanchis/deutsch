@@ -14,23 +14,255 @@
  "lessons": [
   {
    "h": "Los pronombres reflexivos",
-   "html": "<table><thead><tr><th>persona</th><th>acusativo</th><th>dativo</th><th>español</th></tr></thead><tbody><tr><td>ich</td><td><b>mich</b></td><td><b>mir</b></td><td>me</td></tr><tr><td>du</td><td><b>dich</b></td><td><b>dir</b></td><td>te</td></tr><tr><td>er / sie / es</td><td>sich</td><td>sich</td><td>se</td></tr><tr><td>wir</td><td>uns</td><td>uns</td><td>nos</td></tr><tr><td>ihr</td><td>euch</td><td>euch</td><td>os</td></tr><tr><td>sie / Sie</td><td>sich</td><td>sich</td><td>se</td></tr></tbody></table><p>¡Buena noticia! Funciona casi como en español: <span class=\"de\">Ich dusche mich.</span> = <i>Me ducho.</i> Solo <b>ich</b> y <b>du</b> tienen forma distinta en dativo (mir, dir).</p><p><b>Ojo:</b> con <b>Sie</b> (usted) el reflexivo es <b>sich</b> en minúscula: <span class=\"de\">Setzen Sie sich bitte!</span></p>"
+   "html": "<table><thead><tr><th>persona</th><th>acusativo</th><th>dativo</th><th>español</th></tr></thead><tbody><tr><td>ich</td><td><b>mich</b></td><td><b>mir</b></td><td>me</td></tr><tr><td>du</td><td><b>dich</b></td><td><b>dir</b></td><td>te</td></tr><tr><td>er / sie / es</td><td>sich</td><td>sich</td><td>se</td></tr><tr><td>wir</td><td>uns</td><td>uns</td><td>nos</td></tr><tr><td>ihr</td><td>euch</td><td>euch</td><td>os</td></tr><tr><td>sie / Sie</td><td>sich</td><td>sich</td><td>se</td></tr></tbody></table><p>¡Buena noticia! Funciona casi como en español: <span class=\"de\">Ich dusche mich.</span> = <i>Me ducho.</i> Solo <b>ich</b> y <b>du</b> tienen forma distinta en dativo (mir, dir).</p><p><b>Ojo:</b> con <b>Sie</b> (usted) el reflexivo es <b>sich</b> en minúscula: <span class=\"de\">Setzen Sie sich bitte!</span></p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español: «me ducho, te duchas, se ducha». ¿Cómo crees que se dice «él se ducha»?",
+    "o": [
+     "Er duscht er.",
+     "Er duscht sich.",
+     "Er duscht dich."
+    ],
+    "a": 1,
+    "exp": "¡Bien! sich es el «se» alemán: vale para er/sie/es y para sie/Sie. Er duscht sich."
+   },
+   "check": [
+    {
+     "t": "match",
+     "p": [
+      [
+       "ich dusche mich",
+       "me ducho"
+      ],
+      [
+       "du duschst dich",
+       "te duchas"
+      ],
+      [
+       "wir duschen uns",
+       "nos duchamos"
+      ],
+      [
+       "ihr duscht euch",
+       "os ducháis"
+      ],
+      [
+       "sie duschen sich",
+       "se duchan"
+      ]
+     ]
+    },
+    {
+     "t": "gap",
+     "q": "Lucía duscht ___ nach dem Boxen.",
+     "a": [
+      "sich"
+     ],
+     "hint": "reflexivo",
+     "exp": "Para er/sie/es el reflexivo es sich."
+    },
+    {
+     "t": "mc",
+     "q": "¿En qué personas cambia el reflexivo en dativo?",
+     "o": [
+      "en todas",
+      "solo en ich y du (mir, dir)",
+      "solo en wir e ihr"
+     ],
+     "a": 1,
+     "exp": "Solo ich → mir y du → dir; el resto es igual en acusativo y dativo."
+    }
+   ]
   },
   {
    "h": "Verbos reflexivos frecuentes",
-   "html": "<table><thead><tr><th>verbo</th><th>ejemplo</th><th>español</th></tr></thead><tbody><tr><td>sich duschen</td><td><span class=\"de\">Ich dusche mich jeden Morgen.</span></td><td>ducharse</td></tr><tr><td>sich anziehen</td><td><span class=\"de\">Ich ziehe mich schnell an.</span></td><td>vestirse</td></tr><tr><td>sich ausruhen</td><td><span class=\"de\">Am Sonntag ruhe ich mich aus.</span></td><td>descansar</td></tr><tr><td>sich treffen (mit)</td><td><span class=\"de\">Wir treffen uns um acht.</span> / <span class=\"de\">Ich treffe mich mit Anna.</span></td><td>quedar, verse</td></tr><tr><td>sich beeilen</td><td><span class=\"de\">Du musst dich beeilen!</span></td><td>darse prisa</td></tr><tr><td>sich fühlen</td><td><span class=\"de\">Ich fühle mich müde.</span></td><td>sentirse</td></tr><tr><td>sich setzen</td><td><span class=\"de\">Setz dich!</span></td><td>sentarse</td></tr></tbody></table><p><b>Ojo:</b> muchos verbos reflexivos en español <b>no lo son</b> en alemán: <span class=\"de\">aufstehen</span> (levantarse), <span class=\"de\">heißen</span> (llamarse), <span class=\"de\">einschlafen</span> (dormirse), <span class=\"de\">bleiben</span> (quedarse). ✗ <i>Ich stehe mich auf</i> → ✓ <span class=\"de\">Ich stehe um sieben auf.</span></p>"
+   "html": "<table><thead><tr><th>verbo</th><th>ejemplo</th><th>español</th></tr></thead><tbody><tr><td>sich duschen</td><td><span class=\"de\">Ich dusche mich jeden Morgen.</span></td><td>ducharse</td></tr><tr><td>sich anziehen</td><td><span class=\"de\">Ich ziehe mich schnell an.</span></td><td>vestirse</td></tr><tr><td>sich ausruhen</td><td><span class=\"de\">Am Sonntag ruhe ich mich aus.</span></td><td>descansar</td></tr><tr><td>sich treffen (mit)</td><td><span class=\"de\">Wir treffen uns um acht.</span> / <span class=\"de\">Ich treffe mich mit Anna.</span></td><td>quedar, verse</td></tr><tr><td>sich beeilen</td><td><span class=\"de\">Du musst dich beeilen!</span></td><td>darse prisa</td></tr><tr><td>sich fühlen</td><td><span class=\"de\">Ich fühle mich müde.</span></td><td>sentirse</td></tr><tr><td>sich setzen</td><td><span class=\"de\">Setz dich!</span></td><td>sentarse</td></tr></tbody></table><p><b>Ojo:</b> muchos verbos reflexivos en español <b>no lo son</b> en alemán: <span class=\"de\">aufstehen</span> (levantarse), <span class=\"de\">heißen</span> (llamarse), <span class=\"de\">einschlafen</span> (dormirse), <span class=\"de\">bleiben</span> (quedarse). ✗ <i>Ich stehe mich auf</i> → ✓ <span class=\"de\">Ich stehe um sieben auf.</span></p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español decimos «me quedo en casa». ¿Cómo crees que se dice en alemán?",
+    "o": [
+     "Ich bleibe mich zu Hause.",
+     "Ich bleibe mir zu Hause.",
+     "Ich bleibe zu Hause."
+    ],
+    "a": 2,
+    "exp": "¡Trampa! No todos los reflexivos españoles lo son en alemán: bleiben (quedarse), aufstehen, heißen… van sin pronombre."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Nach dem Sparring fühle ich ___ sehr müde.",
+     "a": [
+      "mich"
+     ],
+     "hint": "reflexivo",
+     "exp": "sich fühlen es reflexivo: ich fühle mich."
+    },
+    {
+     "t": "tr",
+     "es": "¡Siéntate, por favor!",
+     "a": [
+      "Setz dich bitte!",
+      "Bitte setz dich!",
+      "Setze dich bitte!",
+      "Setz dich!"
+     ],
+     "exp": "sich setzen; en el imperativo de du: Setz dich!"
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál es correcta? (Me duermo enseguida.)",
+     "o": [
+      "Ich schlafe mich sofort ein.",
+      "Ich schlafe sofort ein.",
+      "Ich schlafe mir sofort ein."
+     ],
+     "a": 1,
+     "exp": "einschlafen (dormirse) no es reflexivo en alemán."
+    }
+   ]
   },
   {
    "h": "¿Dónde va el pronombre?",
-   "html": "<p>El reflexivo va <b>justo después del verbo conjugado</b> (o del sujeto pronombre si hay inversión). La partícula separable y el infinitivo siguen al final.</p><ul><li>Normal: <span class=\"de\">Ich ziehe mich an.</span></li><li>Inversión: <span class=\"de\">Morgens ziehe ich mich schnell an.</span></li><li>Pregunta: <span class=\"de\">Freust du dich?</span></li><li>Con modal: <span class=\"de\">Ich muss mich beeilen.</span></li><li>Perfekt (con <b>haben</b>): <span class=\"de\">Ich habe mich sehr gefreut.</span></li><li>Subordinada: <span class=\"de\">…, weil ich mich für Biologie interessiere.</span></li></ul><p><b>Ojo:</b> en español el pronombre va delante del verbo (<i>me ducho</i>); en alemán va detrás: ✗ <i>Ich mich dusche</i>.</p>"
+   "html": "<p>El reflexivo va <b>justo después del verbo conjugado</b> (o del sujeto pronombre si hay inversión). La partícula separable y el infinitivo siguen al final.</p><ul><li>Normal: <span class=\"de\">Ich ziehe mich an.</span></li><li>Inversión: <span class=\"de\">Morgens ziehe ich mich schnell an.</span></li><li>Pregunta: <span class=\"de\">Freust du dich?</span></li><li>Con modal: <span class=\"de\">Ich muss mich beeilen.</span></li><li>Perfekt (con <b>haben</b>): <span class=\"de\">Ich habe mich sehr gefreut.</span></li><li>Subordinada: <span class=\"de\">…, weil ich mich für Biologie interessiere.</span></li></ul><p><b>Ojo:</b> en español el pronombre va delante del verbo (<i>me ducho</i>); en alemán va detrás: ✗ <i>Ich mich dusche</i>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español el pronombre va delante del verbo: «me ducho». ¿Dónde crees que va en alemán?",
+    "o": [
+     "Ich mich dusche.",
+     "Ich duschen mich.",
+     "Ich dusche mich."
+    ],
+    "a": 2,
+    "exp": "Al revés que en español: el reflexivo va justo detrás del verbo conjugado. Ich dusche mich."
+   },
+   "check": [
+    {
+     "t": "order",
+     "w": [
+      "Nach",
+      "dusche",
+      "ich",
+      "Training",
+      "dem",
+      "mich."
+     ],
+     "a": "Nach dem Training dusche ich mich.",
+     "es": "Después del entrenamiento me ducho.",
+     "exp": "Con inversión: verbo en 2ª posición, sujeto y luego el reflexivo."
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál es correcta?",
+     "o": [
+      "Ich habe sehr mich gefreut.",
+      "Ich habe mich sehr gefreut.",
+      "Ich mich habe sehr gefreut."
+     ],
+     "a": 1,
+     "exp": "El reflexivo va justo después del verbo conjugado (habe): Ich habe mich sehr gefreut."
+    },
+    {
+     "t": "gap",
+     "q": "Ich gehe ins Gym, weil ich ___ dann besser fühle.",
+     "a": [
+      "mich"
+     ],
+     "hint": "reflexivo",
+     "exp": "En la subordinada el verbo va al final, pero el reflexivo sigue pronto: weil ich mich … fühle."
+    }
+   ]
   },
   {
    "h": "Reflexivos con preposición",
-   "html": "<table><thead><tr><th>verbo</th><th>uso</th><th>ejemplo</th></tr></thead><tbody><tr><td>sich freuen <b>auf</b> + Akk.</td><td>algo <b>futuro</b> (tener ganas de)</td><td><span class=\"de\">Ich freue mich auf den Urlaub.</span></td></tr><tr><td>sich freuen <b>über</b> + Akk.</td><td>algo que <b>ya</b> pasó o tengo</td><td><span class=\"de\">Ich freue mich über das Geschenk.</span></td></tr><tr><td>sich interessieren <b>für</b> + Akk.</td><td>interesarse por</td><td><span class=\"de\">Ich interessiere mich für Boxen.</span></td></tr><tr><td>sich ärgern <b>über</b> + Akk.</td><td>enfadarse por</td><td><span class=\"de\">Er ärgert sich über den Bus.</span></td></tr></tbody></table><p><b>Ojo:</b> <i>interesarse <b>por</b></i> → <span class=\"de\">sich interessieren <b>für</b></span> (no <i>durch</i> ni <i>über</i>). Y <i>alegrarse <b>de</b></i> → <span class=\"de\">über</span>, nunca <i>von</i>.</p>"
+   "html": "<table><thead><tr><th>verbo</th><th>uso</th><th>ejemplo</th></tr></thead><tbody><tr><td>sich freuen <b>auf</b> + Akk.</td><td>algo <b>futuro</b> (tener ganas de)</td><td><span class=\"de\">Ich freue mich auf den Urlaub.</span></td></tr><tr><td>sich freuen <b>über</b> + Akk.</td><td>algo que <b>ya</b> pasó o tengo</td><td><span class=\"de\">Ich freue mich über das Geschenk.</span></td></tr><tr><td>sich interessieren <b>für</b> + Akk.</td><td>interesarse por</td><td><span class=\"de\">Ich interessiere mich für Boxen.</span></td></tr><tr><td>sich ärgern <b>über</b> + Akk.</td><td>enfadarse por</td><td><span class=\"de\">Er ärgert sich über den Bus.</span></td></tr></tbody></table><p><b>Ojo:</b> <i>interesarse <b>por</b></i> → <span class=\"de\">sich interessieren <b>für</b></span> (no <i>durch</i> ni <i>über</i>). Y <i>alegrarse <b>de</b></i> → <span class=\"de\">über</span>, nunca <i>von</i>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En alemán hay dos preposiciones distintas para «tener ganas de algo (futuro)» y «alegrarse de algo (que ya pasó)». ¿Cuál crees que mira hacia el futuro?",
+    "o": [
+     "über",
+     "auf",
+     "von"
+    ],
+    "a": 1,
+    "exp": "sich freuen auf mira hacia delante (el finde, las vacaciones); sich freuen über es por algo que ya tienes o ha pasado."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Jonas ärgert sich ___ die Kaffeemaschine. Sie ist schon wieder kaputt!",
+     "o": [
+      "auf",
+      "für",
+      "über"
+     ],
+     "a": 2,
+     "exp": "enfadarse por = sich ärgern über + acusativo."
+    },
+    {
+     "t": "gap",
+     "q": "Danke für die Blumen! Wir freuen uns sehr ___ die Blumen.",
+     "a": [
+      "über"
+     ],
+     "hint": "preposición",
+     "exp": "Las flores ya están aquí: alegrarse de algo presente → über."
+    },
+    {
+     "t": "tr",
+     "es": "Me intereso por la biología.",
+     "a": [
+      "Ich interessiere mich für Biologie.",
+      "Ich interessiere mich für die Biologie."
+     ],
+     "exp": "interesarse por = sich interessieren für."
+    }
+   ]
   },
   {
    "h": "Reflexivo en dativo: Ich putze mir die Zähne",
-   "html": "<p>Si en la frase ya hay <b>otro complemento en acusativo</b> (los dientes, las manos, una chaqueta), el reflexivo pasa a <b>dativo</b>. Solo se nota con <b>ich → mir</b> y <b>du → dir</b>.</p><table><thead><tr><th>solo reflexivo (Akk.)</th><th>reflexivo (Dat.) + objeto (Akk.)</th></tr></thead><tbody><tr><td><span class=\"de\">Ich wasche mich.</span></td><td><span class=\"de\">Ich wasche mir die Hände.</span></td></tr><tr><td><span class=\"de\">Du ziehst dich an.</span></td><td><span class=\"de\">Du ziehst dir eine Jacke an.</span></td></tr><tr><td><span class=\"de\">Er kämmt sich.</span></td><td><span class=\"de\">Er kämmt sich die Haare.</span></td></tr></tbody></table><p>Como en español, se usa el <b>artículo</b>, no el posesivo: <i>me lavo <b>las</b> manos</i> = <span class=\"de\">Ich wasche mir <b>die</b> Hände</span> (no <i>meine Hände</i>).</p>"
+   "html": "<p>Si en la frase ya hay <b>otro complemento en acusativo</b> (los dientes, las manos, una chaqueta), el reflexivo pasa a <b>dativo</b>. Solo se nota con <b>ich → mir</b> y <b>du → dir</b>.</p><table><thead><tr><th>solo reflexivo (Akk.)</th><th>reflexivo (Dat.) + objeto (Akk.)</th></tr></thead><tbody><tr><td><span class=\"de\">Ich wasche mich.</span></td><td><span class=\"de\">Ich wasche mir die Hände.</span></td></tr><tr><td><span class=\"de\">Du ziehst dich an.</span></td><td><span class=\"de\">Du ziehst dir eine Jacke an.</span></td></tr><tr><td><span class=\"de\">Er kämmt sich.</span></td><td><span class=\"de\">Er kämmt sich die Haare.</span></td></tr></tbody></table><p>Como en español, se usa el <b>artículo</b>, no el posesivo: <i>me lavo <b>las</b> manos</i> = <span class=\"de\">Ich wasche mir <b>die</b> Hände</span> (no <i>meine Hände</i>).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Me lavo» = Ich wasche mich. ¿Y «me lavo las manos»?",
+    "o": [
+     "Ich wasche mich die Hände.",
+     "Ich wasche mir die Hände.",
+     "Ich wasche meine Hände mich."
+    ],
+    "a": 1,
+    "exp": "Cuando ya hay otro complemento en acusativo (die Hände), el reflexivo pasa a dativo: mir. Y como en español, con artículo: die Hände."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Du ziehst ___ die Boxhandschuhe an.",
+     "o": [
+      "dich",
+      "sich",
+      "dir"
+     ],
+     "a": 2,
+     "exp": "Hay otro acusativo (die Boxhandschuhe), así que el reflexivo va en dativo: dir."
+    },
+    {
+     "t": "gap",
+     "q": "Nach dem Kochen wasche ich ___ die Hände.",
+     "a": [
+      "mir"
+     ],
+     "hint": "reflexivo",
+     "exp": "Con objeto en acusativo (die Hände) → reflexivo dativo: mir."
+    },
+    {
+     "t": "tr",
+     "es": "¿Te lavas las manos?",
+     "a": [
+      "Wäschst du dir die Hände?"
+     ],
+     "exp": "waschen: du wäschst; con objeto (die Hände) → dir."
+    }
+   ]
   }
  ],
  "vocab": [

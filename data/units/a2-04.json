@@ -13,23 +13,258 @@
  "lessons": [
   {
    "h": "La subordinada: el verbo se va al final",
-   "html": "<p>En una oración subordinada el <b>verbo conjugado va al final</b>. Entre la principal y la subordinada siempre hay <b>coma</b>.</p><table><thead><tr><th>Conector</th><th>Significado</th><th>Ejemplo</th></tr></thead><tbody><tr><td>weil</td><td>porque</td><td><span class=\"de\">Ich lerne Deutsch, weil ich in Heidelberg <b>arbeite</b>.</span></td></tr><tr><td>dass</td><td>que</td><td><span class=\"de\">Ich weiß, dass du müde <b>bist</b>.</span></td></tr><tr><td>wenn</td><td>si (condición), cuando (habitual/futuro)</td><td><span class=\"de\">Ich gehe joggen, wenn es nicht <b>regnet</b>.</span></td></tr><tr><td>ob</td><td>si (pregunta indirecta, duda)</td><td><span class=\"de\">Ich weiß nicht, ob er heute <b>kommt</b>.</span></td></tr></tbody></table><p><b>ojo:</b> el «si» español tiene dos traducciones: condición → <span class=\"de\">wenn</span> (<i>si llueve…</i>); duda o pregunta → <span class=\"de\">ob</span> (<i>no sé si…</i>).</p><p><b>ojo:</b> no escribas «dass» con una sola s (<span class=\"de\">das</span> es el artículo).</p>"
+   "html": "<p>En una oración subordinada el <b>verbo conjugado va al final</b>. Entre la principal y la subordinada siempre hay <b>coma</b>.</p><table><thead><tr><th>Conector</th><th>Significado</th><th>Ejemplo</th></tr></thead><tbody><tr><td>weil</td><td>porque</td><td><span class=\"de\">Ich lerne Deutsch, weil ich in Heidelberg <b>arbeite</b>.</span></td></tr><tr><td>dass</td><td>que</td><td><span class=\"de\">Ich weiß, dass du müde <b>bist</b>.</span></td></tr><tr><td>wenn</td><td>si (condición), cuando (habitual/futuro)</td><td><span class=\"de\">Ich gehe joggen, wenn es nicht <b>regnet</b>.</span></td></tr><tr><td>ob</td><td>si (pregunta indirecta, duda)</td><td><span class=\"de\">Ich weiß nicht, ob er heute <b>kommt</b>.</span></td></tr></tbody></table><p><b>ojo:</b> el «si» español tiene dos traducciones: condición → <span class=\"de\">wenn</span> (<i>si llueve…</i>); duda o pregunta → <span class=\"de\">ob</span> (<i>no sé si…</i>).</p><p><b>ojo:</b> no escribas «dass» con una sola s (<span class=\"de\">das</span> es el artículo).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "¿Cómo crees que se dice «Aprendo alemán porque trabajo en Heidelberg» con «weil»?",
+    "o": [
+     "Ich lerne Deutsch, weil ich arbeite in Heidelberg.",
+     "Ich lerne Deutsch, weil ich in Heidelberg arbeite.",
+     "Ich lerne Deutsch, weil arbeite ich in Heidelberg."
+    ],
+    "a": 1,
+    "exp": "Sorpresa: tras «weil» el verbo conjugado se va hasta el final de la frase. Es la marca de las subordinadas alemanas."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Lucía fragt, ___ das Labor am Sonntag offen ist.",
+     "o": [
+      "ob",
+      "wenn",
+      "dass"
+     ],
+     "a": 0,
+     "exp": "Es una pregunta indirecta («pregunta si…»): se usa «ob». «wenn» es el «si» de condición."
+    },
+    {
+     "t": "gap",
+     "q": "Ich weiß, dass das Experiment ___.",
+     "a": [
+      "funktioniert"
+     ],
+     "hint": "funktionieren",
+     "exp": "Tras «dass» el verbo conjugado va al final: …, dass das Experiment funktioniert."
+    },
+    {
+     "t": "order",
+     "w": [
+      "Jonas",
+      "Kaffee",
+      "der",
+      "ist.",
+      "sagt,",
+      "kalt",
+      "dass"
+     ],
+     "a": "Jonas sagt, dass der Kaffee kalt ist.",
+     "es": "Jonas dice que el café está frío."
+    }
+   ]
   },
   {
    "h": "Verbo final con separables, modales y Perfekt",
-   "html": "<table><thead><tr><th>Tipo</th><th>Principal</th><th>Subordinada</th></tr></thead><tbody><tr><td>separable</td><td><span class=\"de\">Er ruft heute an.</span></td><td><span class=\"de\">…, dass er heute <b>anruft</b>.</span> (se junta)</td></tr><tr><td>modal</td><td><span class=\"de\">Ich muss arbeiten.</span></td><td><span class=\"de\">…, weil ich arbeiten <b>muss</b>.</span></td></tr><tr><td>Perfekt</td><td><span class=\"de\">Sie hat viel gelernt.</span></td><td><span class=\"de\">…, weil sie viel gelernt <b>hat</b>.</span></td></tr></tbody></table><p>El sujeto va justo detrás del conector: <span class=\"de\">weil <b>ich</b> …</span>, <span class=\"de\">dass <b>du</b> …</span>. La negación <span class=\"de\">nicht</span> va antes del verbo final: <span class=\"de\">…, weil ich heute nicht arbeite.</span></p><p><b>ojo:</b> «weil ich muss arbeiten» ✗ → <span class=\"de\">weil ich arbeiten muss</span> ✓. El verbo conjugado es siempre el último.</p>"
+   "html": "<table><thead><tr><th>Tipo</th><th>Principal</th><th>Subordinada</th></tr></thead><tbody><tr><td>separable</td><td><span class=\"de\">Er ruft heute an.</span></td><td><span class=\"de\">…, dass er heute <b>anruft</b>.</span> (se junta)</td></tr><tr><td>modal</td><td><span class=\"de\">Ich muss arbeiten.</span></td><td><span class=\"de\">…, weil ich arbeiten <b>muss</b>.</span></td></tr><tr><td>Perfekt</td><td><span class=\"de\">Sie hat viel gelernt.</span></td><td><span class=\"de\">…, weil sie viel gelernt <b>hat</b>.</span></td></tr></tbody></table><p>El sujeto va justo detrás del conector: <span class=\"de\">weil <b>ich</b> …</span>, <span class=\"de\">dass <b>du</b> …</span>. La negación <span class=\"de\">nicht</span> va antes del verbo final: <span class=\"de\">…, weil ich heute nicht arbeite.</span></p><p><b>ojo:</b> «weil ich muss arbeiten» ✗ → <span class=\"de\">weil ich arbeiten muss</span> ✓. El verbo conjugado es siempre el último.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Der Zug kommt um acht an.» ¿Cómo crees que queda con «dass»?",
+    "o": [
+     "Ich weiß, dass der Zug um acht kommt an.",
+     "Ich weiß, dass der Zug um acht ankommt.",
+     "Ich weiß, dass der Zug ankommt um acht."
+    ],
+    "a": 1,
+    "exp": "En la subordinada el verbo separable se vuelve a juntar al final: ankommt."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Ich bleibe heute zu Hause, weil ich ___.",
+     "o": [
+      "lernen muss",
+      "muss lernen",
+      "lernen müssen"
+     ],
+     "a": 0,
+     "exp": "Con modal, el modal conjugado es lo último: …, weil ich lernen muss."
+    },
+    {
+     "t": "gap",
+     "q": "Jonas ist nicht da, weil er nach Berlin gefahren ___.",
+     "a": [
+      "ist"
+     ],
+     "hint": "haben o sein",
+     "exp": "En Perfekt el auxiliar va al final, y «fahren» usa «sein»: …, weil er nach Berlin gefahren ist."
+    },
+    {
+     "t": "order",
+     "w": [
+      "nicht",
+      "Kai",
+      "dass",
+      "kann.",
+      "Lucía",
+      "trainieren",
+      "heute",
+      "sagt,"
+     ],
+     "a": "Kai sagt, dass Lucía heute nicht trainieren kann.",
+     "es": "Kai dice que Lucía hoy no puede entrenar."
+    }
+   ]
   },
   {
    "h": "Posición 0: und, aber, oder, denn, sondern",
-   "html": "<p>Estos conectores unen dos oraciones principales y <b>no ocupan posición</b>: después viene una frase normal con el verbo en 2ª posición.</p><table><thead><tr><th>Posición 0</th><th>1</th><th>2 (verbo)</th><th>resto</th></tr></thead><tbody><tr><td>denn</td><td>ich</td><td>bin</td><td>krank.</td></tr><tr><td>aber</td><td>ich</td><td>habe</td><td>keine Zeit.</td></tr><tr><td>und</td><td>dann</td><td>gehe</td><td>ich ins Kino.</td></tr></tbody></table><p><span class=\"de\">weil</span> y <span class=\"de\">denn</span> significan lo mismo (porque), pero cambian el orden:</p><p><span class=\"de\">Ich komme nicht, <b>weil</b> ich krank <b>bin</b>.</span> = <span class=\"de\">Ich komme nicht, <b>denn</b> ich <b>bin</b> krank.</span></p><p><b>ojo:</b> <span class=\"de\">denn</span> no puede ir al principio de la frase ni responder a <span class=\"de\">Warum?</span>; para eso se usa <span class=\"de\">weil</span>: <span class=\"de\">Warum lernst du Deutsch? – Weil ich in Deutschland arbeite.</span></p>"
+   "html": "<p>Estos conectores unen dos oraciones principales y <b>no ocupan posición</b>: después viene una frase normal con el verbo en 2ª posición.</p><table><thead><tr><th>Posición 0</th><th>1</th><th>2 (verbo)</th><th>resto</th></tr></thead><tbody><tr><td>denn</td><td>ich</td><td>bin</td><td>krank.</td></tr><tr><td>aber</td><td>ich</td><td>habe</td><td>keine Zeit.</td></tr><tr><td>und</td><td>dann</td><td>gehe</td><td>ich ins Kino.</td></tr></tbody></table><p><span class=\"de\">weil</span> y <span class=\"de\">denn</span> significan lo mismo (porque), pero cambian el orden:</p><p><span class=\"de\">Ich komme nicht, <b>weil</b> ich krank <b>bin</b>.</span> = <span class=\"de\">Ich komme nicht, <b>denn</b> ich <b>bin</b> krank.</span></p><p><b>ojo:</b> <span class=\"de\">denn</span> no puede ir al principio de la frase ni responder a <span class=\"de\">Warum?</span>; para eso se usa <span class=\"de\">weil</span>: <span class=\"de\">Warum lernst du Deutsch? – Weil ich in Deutschland arbeite.</span></p>",
+   "pre": {
+    "t": "mc",
+    "q": "«weil» y «denn» significan «porque». Con «denn», ¿cómo crees que sigue la frase?",
+    "o": [
+     "Ich trinke Kaffee, denn ich müde bin.",
+     "Ich trinke Kaffee, denn ich bin müde.",
+     "Ich trinke Kaffee, denn bin ich müde."
+    ],
+    "a": 1,
+    "exp": "«denn» no ocupa posición (posición 0): después viene una frase normal, con el verbo en 2ª posición: denn ich bin müde."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Warum lernst du Deutsch? – ___ ich in Heidelberg wohne.",
+     "o": [
+      "Weil",
+      "Denn"
+     ],
+     "a": 0,
+     "exp": "Para responder a «Warum?» se usa «weil» (con el verbo al final). «denn» no puede abrir la respuesta."
+    },
+    {
+     "t": "tr",
+     "es": "Estoy cansada, pero voy al gimnasio.",
+     "a": [
+      "Ich bin müde, aber ich gehe ins Fitnessstudio.",
+      "Ich bin müde, aber ich gehe in das Fitnessstudio.",
+      "Ich bin müde, aber ich gehe zum Fitnessstudio."
+     ],
+     "exp": "«aber» es de posición 0: después, orden normal con el verbo en 2ª posición (ich gehe)."
+    },
+    {
+     "t": "order",
+     "w": [
+      "kommt",
+      "denn",
+      "später.",
+      "bleibe",
+      "der",
+      "Ich",
+      "Zug",
+      "hier,"
+     ],
+     "a": "Ich bleibe hier, denn der Zug kommt später.",
+     "es": "Me quedo aquí, porque el tren viene más tarde."
+    }
+   ]
   },
   {
    "h": "La subordinada delante: verbo, coma, verbo",
-   "html": "<p>La subordinada puede ir <b>primero</b>. Entonces ocupa la posición 1 de la frase y la principal empieza directamente con el <b>verbo</b>:</p><p><span class=\"de\">Wenn ich Zeit <b>habe</b>, <b>gehe</b> ich boxen.</span></p><p><span class=\"de\">Weil es regnet, <b>bleiben</b> wir zu Hause.</span></p><p>Fórmula: … <b>verbo</b>, <b>verbo</b> … — dos verbos juntos separados por la coma.</p><p><b>ojo:</b> «Wenn ich Zeit habe, ich gehe boxen» ✗ (orden español) → <span class=\"de\">Wenn ich Zeit habe, gehe ich boxen.</span> ✓</p>"
+   "html": "<p>La subordinada puede ir <b>primero</b>. Entonces ocupa la posición 1 de la frase y la principal empieza directamente con el <b>verbo</b>:</p><p><span class=\"de\">Wenn ich Zeit <b>habe</b>, <b>gehe</b> ich boxen.</span></p><p><span class=\"de\">Weil es regnet, <b>bleiben</b> wir zu Hause.</span></p><p>Fórmula: … <b>verbo</b>, <b>verbo</b> … — dos verbos juntos separados por la coma.</p><p><b>ojo:</b> «Wenn ich Zeit habe, ich gehe boxen» ✗ (orden español) → <span class=\"de\">Wenn ich Zeit habe, gehe ich boxen.</span> ✓</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Empiezas con la subordinada: «Wenn ich müde bin, …». ¿Cómo crees que sigue?",
+    "o": [
+     "…, ich trinke Kaffee.",
+     "…, trinke ich Kaffee.",
+     "…, ich Kaffee trinke."
+    ],
+    "a": 1,
+    "exp": "Toda la subordinada cuenta como posición 1, así que el verbo de la principal va justo después de la coma: verbo, verbo."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Weil der Bus nicht kommt, ___ zu Fuß.",
+     "o": [
+      "gehen wir",
+      "wir gehen"
+     ],
+     "a": 0,
+     "exp": "La subordinada ocupa la posición 1 → después de la coma va directamente el verbo: gehen wir."
+    },
+    {
+     "t": "order",
+     "w": [
+      "Wenn",
+      "Kaffee",
+      "Jonas",
+      "glücklich.",
+      "ist",
+      "er",
+      "trinkt,"
+     ],
+     "a": "Wenn Jonas Kaffee trinkt, ist er glücklich.",
+     "es": "Cuando Jonas toma café, está contento."
+    },
+    {
+     "t": "gap",
+     "q": "Weil Lucía sehr schnell ist, ___ sie oft.",
+     "a": [
+      "gewinnt"
+     ],
+     "hint": "gewinnen",
+     "exp": "Tras la subordinada viene el verbo de la principal: …, gewinnt sie oft."
+    }
+   ]
   },
   {
    "h": "Dar tu opinión",
-   "html": "<ul><li><span class=\"de\">Ich finde, dass Deutsch schwierig ist.</span> – Me parece que el alemán es difícil.</li><li><span class=\"de\">Ich glaube, dass er recht hat.</span> – Creo que tiene razón.</li><li><span class=\"de\">Ich denke, dass die Idee gut ist.</span> – Pienso que la idea es buena.</li><li><span class=\"de\">Meinst du, dass wir pünktlich ankommen?</span> – ¿Crees que llegaremos puntuales?</li></ul><p>En la lengua hablada, tras <span class=\"de\">ich finde / ich glaube / ich denke</span> se puede omitir <span class=\"de\">dass</span>; entonces el orden es normal (verbo en 2ª): <span class=\"de\">Ich glaube, er hat recht.</span></p><p><b>ojo:</b> «Ich finde, dass Deutsch ist schwierig» ✗ → con <span class=\"de\">dass</span>, verbo al final; sin <span class=\"de\">dass</span>, verbo en 2ª.</p>"
+   "html": "<ul><li><span class=\"de\">Ich finde, dass Deutsch schwierig ist.</span> – Me parece que el alemán es difícil.</li><li><span class=\"de\">Ich glaube, dass er recht hat.</span> – Creo que tiene razón.</li><li><span class=\"de\">Ich denke, dass die Idee gut ist.</span> – Pienso que la idea es buena.</li><li><span class=\"de\">Meinst du, dass wir pünktlich ankommen?</span> – ¿Crees que llegaremos puntuales?</li></ul><p>En la lengua hablada, tras <span class=\"de\">ich finde / ich glaube / ich denke</span> se puede omitir <span class=\"de\">dass</span>; entonces el orden es normal (verbo en 2ª): <span class=\"de\">Ich glaube, er hat recht.</span></p><p><b>ojo:</b> «Ich finde, dass Deutsch ist schwierig» ✗ → con <span class=\"de\">dass</span>, verbo al final; sin <span class=\"de\">dass</span>, verbo en 2ª.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Quieres decir «Me parece que el boxeo es genial». ¿Cómo crees que se dice?",
+    "o": [
+     "Ich finde, dass Boxen ist toll.",
+     "Ich finde, dass Boxen toll ist.",
+     "Ich finde, Boxen toll ist."
+    ],
+    "a": 1,
+    "exp": "Con «dass» el verbo va al final: …, dass Boxen toll ist. (Sin «dass» se diría: Ich finde, Boxen ist toll.)"
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "¿Qué frase es correcta?",
+     "o": [
+      "Ich glaube, Kai hat recht.",
+      "Ich glaube, Kai recht hat.",
+      "Ich glaube, dass Kai hat recht."
+     ],
+     "a": 0,
+     "exp": "Sin «dass», orden normal con el verbo en 2ª posición: Kai hat recht. Con «dass» sería: …, dass Kai recht hat."
+    },
+    {
+     "t": "tr",
+     "es": "Creo que el laboratorio es demasiado pequeño.",
+     "a": [
+      "Ich glaube, dass das Labor zu klein ist.",
+      "Ich glaube, das Labor ist zu klein.",
+      "Ich denke, dass das Labor zu klein ist.",
+      "Ich denke, das Labor ist zu klein.",
+      "Ich finde, dass das Labor zu klein ist.",
+      "Ich finde, das Labor ist zu klein."
+     ],
+     "exp": "Con «dass» el verbo va al final (… zu klein ist); sin «dass», en 2ª posición (… ist zu klein)."
+    },
+    {
+     "t": "gap",
+     "q": "Meinst du, dass Kai heute ___?",
+     "a": [
+      "kommt"
+     ],
+     "hint": "kommen",
+     "exp": "«meinen, dass…» = creer que… El verbo conjugado va al final: …, dass Kai heute kommt."
+    }
+   ]
   }
  ],
  "vocab": [

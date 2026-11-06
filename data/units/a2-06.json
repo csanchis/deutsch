@@ -14,23 +14,242 @@
  "lessons": [
   {
    "h": "Predicativo vs. atributivo",
-   "html": "<p>Después de <b>sein</b>, <b>werden</b> o <b>bleiben</b> el adjetivo <b>no cambia</b>: <span class=\"de\">Der Laptop ist neu.</span> <span class=\"de\">Die Schuhe sind teuer.</span></p><p>Pero cuando va <b>delante de un sustantivo</b> (atributivo) <b>siempre lleva terminación</b>: <span class=\"de\">der neue Laptop</span>, <span class=\"de\">teure Schuhe</span>.</p><p>En español el adjetivo suele ir detrás (<i>el portátil nuevo</i>); en alemán va <b>siempre delante</b> del sustantivo: <span class=\"de\">ein neuer Laptop</span>, nunca <i>ein Laptop neuer</i>.</p><p><b>Idea clave:</b> el género y el caso tienen que verse <b>al menos una vez</b>. Si el artículo ya los muestra (der, den, das…), el adjetivo lleva una terminación «floja» (-e / -en). Si el artículo no los muestra (ein), el adjetivo los toma él mismo (-er / -es).</p>"
+   "html": "<p>Después de <b>sein</b>, <b>werden</b> o <b>bleiben</b> el adjetivo <b>no cambia</b>: <span class=\"de\">Der Laptop ist neu.</span> <span class=\"de\">Die Schuhe sind teuer.</span></p><p>Pero cuando va <b>delante de un sustantivo</b> (atributivo) <b>siempre lleva terminación</b>: <span class=\"de\">der neue Laptop</span>, <span class=\"de\">teure Schuhe</span>.</p><p>En español el adjetivo suele ir detrás (<i>el portátil nuevo</i>); en alemán va <b>siempre delante</b> del sustantivo: <span class=\"de\">ein neuer Laptop</span>, nunca <i>ein Laptop neuer</i>.</p><p><b>Idea clave:</b> el género y el caso tienen que verse <b>al menos una vez</b>. Si el artículo ya los muestra (der, den, das…), el adjetivo lleva una terminación «floja» (-e / -en). Si el artículo no los muestra (ein), el adjetivo los toma él mismo (-er / -es).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español: «el portátil es nuevo» y «el portátil nuevo». ¿En cuál de los dos crees que el adjetivo alemán lleva terminación?",
+    "o": [
+     "Solo cuando va delante del sustantivo: der neue Laptop",
+     "Solo después de «ist»: Der Laptop ist neue",
+     "En los dos casos"
+    ],
+    "a": 0,
+    "exp": "¡Eso es! Tras sein el adjetivo se queda tal cual (Der Laptop ist neu); delante del sustantivo siempre lleva terminación (der neue Laptop)."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "¿Cuál es correcta?",
+     "o": [
+      "Die Boxhandschuhe sind neue.",
+      "Die Boxhandschuhe sind neu.",
+      "Die Boxhandschuhe sind neuen."
+     ],
+     "a": 1,
+     "exp": "Después de sein el adjetivo no cambia: sind neu."
+    },
+    {
+     "t": "mc",
+     "q": "¿Cómo se dice «una chaqueta nueva»?",
+     "o": [
+      "eine Jacke neue",
+      "eine Jacke neu",
+      "eine neue Jacke"
+     ],
+     "a": 2,
+     "exp": "En alemán el adjetivo va siempre delante del sustantivo: eine neue Jacke."
+    },
+    {
+     "t": "gap",
+     "q": "Die Wohnung von Lucía ist klein, aber sehr ___.",
+     "a": [
+      "schön",
+      "hübsch"
+     ],
+     "hint": "bonita",
+     "exp": "Va detrás de «ist» (predicativo), así que sin terminación: schön."
+    }
+   ]
   },
   {
    "h": "Tras artículo determinado (der, die, das)",
-   "html": "<table><thead><tr><th></th><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td><b>Nom.</b></td><td>der neu<b>e</b> Laptop</td><td>die neu<b>e</b> Jacke</td><td>das neu<b>e</b> Handy</td><td>die neu<b>en</b> Schuhe</td></tr><tr><td><b>Akk.</b></td><td>den neu<b>en</b> Laptop</td><td>die neu<b>e</b> Jacke</td><td>das neu<b>e</b> Handy</td><td>die neu<b>en</b> Schuhe</td></tr></tbody></table><p><b>Regla:</b> <b>-e</b> solo en los cinco casos «de diccionario» (der/die/das en nominativo y die/das en acusativo). En todo lo demás: <b>-en</b>. Lo mismo vale tras <span class=\"de\">dieser, jeder, welcher</span>.</p><p><span class=\"de\">Der rote Pullover ist schön.</span> · <span class=\"de\">Ich nehme den roten Pullover.</span> · <span class=\"de\">Die neuen Schuhe sind bequem.</span></p>"
+   "html": "<table><thead><tr><th></th><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td><b>Nom.</b></td><td>der neu<b>e</b> Laptop</td><td>die neu<b>e</b> Jacke</td><td>das neu<b>e</b> Handy</td><td>die neu<b>en</b> Schuhe</td></tr><tr><td><b>Akk.</b></td><td>den neu<b>en</b> Laptop</td><td>die neu<b>e</b> Jacke</td><td>das neu<b>e</b> Handy</td><td>die neu<b>en</b> Schuhe</td></tr></tbody></table><p><b>Regla:</b> <b>-e</b> solo en los cinco casos «de diccionario» (der/die/das en nominativo y die/das en acusativo). En todo lo demás: <b>-en</b>. Lo mismo vale tras <span class=\"de\">dieser, jeder, welcher</span>.</p><p><span class=\"de\">Der rote Pullover ist schön.</span> · <span class=\"de\">Ich nehme den roten Pullover.</span> · <span class=\"de\">Die neuen Schuhe sind bequem.</span></p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Der neue Laptop» es nominativo. Si decimos «Ich nehme ___ Laptop», el artículo cambia a «den». ¿Qué crees que le pasa al adjetivo?",
+    "o": [
+     "den neuen Laptop",
+     "den neue Laptop",
+     "den neuer Laptop"
+    ],
+    "a": 0,
+    "exp": "Bien pensado: fuera de los cinco casos «de diccionario» (der/die/das en nominativo, die/das en acusativo) la terminación es -en: den neuen Laptop."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Die ___ Boxhandschuhe sind super.",
+     "o": [
+      "rote",
+      "roten",
+      "roter"
+     ],
+     "a": 1,
+     "exp": "Plural tras artículo determinado: siempre -en (die roten Boxhandschuhe)."
+    },
+    {
+     "t": "gap",
+     "q": "Dieser ___ Kaffee ist wirklich gut.",
+     "a": [
+      "starke"
+     ],
+     "hint": "stark",
+     "exp": "dieser funciona como der: masculino nominativo → -e (dieser starke Kaffee)."
+    },
+    {
+     "t": "order",
+     "w": [
+      "den",
+      "kalten",
+      "trinkt",
+      "Jonas",
+      "Kaffee."
+     ],
+     "a": "Jonas trinkt den kalten Kaffee.",
+     "es": "Jonas se bebe el café frío.",
+     "exp": "Acusativo masculino tras den → -en: den kalten Kaffee."
+    }
+   ]
   },
   {
    "h": "Tras artículo indeterminado (ein, kein, mein…)",
-   "html": "<table><thead><tr><th></th><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td><b>Nom.</b></td><td>ein neu<b>er</b> Laptop</td><td>eine neu<b>e</b> Jacke</td><td>ein neu<b>es</b> Handy</td><td>keine neu<b>en</b> Schuhe</td></tr><tr><td><b>Akk.</b></td><td>einen neu<b>en</b> Laptop</td><td>eine neu<b>e</b> Jacke</td><td>ein neu<b>es</b> Handy</td><td>keine neu<b>en</b> Schuhe</td></tr></tbody></table><p><span class=\"de\">ein</span> no deja ver si el sustantivo es masculino o neutro, así que el adjetivo «lo dice»: <b>-er</b> (como <i>der</i>) y <b>-es</b> (como <i>das</i>). Igual con <span class=\"de\">kein</span> y los posesivos: <span class=\"de\">mein neuer Trainer</span>, <span class=\"de\">unser altes Auto</span>, <span class=\"de\">Ich habe keinen warmen Pullover.</span></p><p>Plural <b>sin artículo</b>: <b>-e</b> → <span class=\"de\">Ich brauche neue Schuhe.</span> <span class=\"de\">Hier gibt es frische Brötchen.</span></p>"
+   "html": "<table><thead><tr><th></th><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td><b>Nom.</b></td><td>ein neu<b>er</b> Laptop</td><td>eine neu<b>e</b> Jacke</td><td>ein neu<b>es</b> Handy</td><td>keine neu<b>en</b> Schuhe</td></tr><tr><td><b>Akk.</b></td><td>einen neu<b>en</b> Laptop</td><td>eine neu<b>e</b> Jacke</td><td>ein neu<b>es</b> Handy</td><td>keine neu<b>en</b> Schuhe</td></tr></tbody></table><p><span class=\"de\">ein</span> no deja ver si el sustantivo es masculino o neutro, así que el adjetivo «lo dice»: <b>-er</b> (como <i>der</i>) y <b>-es</b> (como <i>das</i>). Igual con <span class=\"de\">kein</span> y los posesivos: <span class=\"de\">mein neuer Trainer</span>, <span class=\"de\">unser altes Auto</span>, <span class=\"de\">Ich habe keinen warmen Pullover.</span></p><p>Plural <b>sin artículo</b>: <b>-e</b> → <span class=\"de\">Ich brauche neue Schuhe.</span> <span class=\"de\">Hier gibt es frische Brötchen.</span></p>",
+   "pre": {
+    "t": "mc",
+    "q": "«ein» no deja ver si el sustantivo es masculino (der Laptop) o neutro (das Handy). ¿Cómo crees que lo resuelve el alemán?",
+    "o": [
+     "El sustantivo cambia de terminación",
+     "El adjetivo toma la marca del artículo: ein neuer Laptop, ein neues Handy",
+     "No hace falta: se adivina por el contexto"
+    ],
+    "a": 1,
+    "exp": "¡Exacto! Como ein no lo dice, lo dice el adjetivo: -er (como der) y -es (como das)."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Im Labor gibt es ein ___ Mikroskop.",
+     "o": [
+      "neuer",
+      "neue",
+      "neues"
+     ],
+     "a": 2,
+     "exp": "das Mikroskop es neutro y ein no lo muestra: el adjetivo lleva -es (ein neues Mikroskop)."
+    },
+    {
+     "t": "gap",
+     "q": "Mein ___ Trainer heißt Kai.",
+     "a": [
+      "neuer"
+     ],
+     "hint": "neu",
+     "exp": "mein se comporta como ein: masculino nominativo → -er (mein neuer Trainer)."
+    },
+    {
+     "t": "tr",
+     "es": "Compro tomates frescos.",
+     "a": [
+      "Ich kaufe frische Tomaten."
+     ],
+     "exp": "Plural sin artículo: el adjetivo lleva -e (frische Tomaten)."
+    }
+   ]
   },
   {
    "h": "Dativo: la regla fácil (-en)",
-   "html": "<p>En dativo, tras cualquier artículo (der/ein/kein/mein…), el adjetivo termina <b>siempre en -en</b>:</p><table><thead><tr><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td>mit dem neu<b>en</b> Laptop</td><td>in einer klein<b>en</b> Wohnung</td><td>mit meinem alt<b>en</b> Fahrrad</td><td>mit den neu<b>en</b> Schuhe<b>n</b></td></tr></tbody></table><p>Recuerda: en dativo plural también el sustantivo lleva <b>-n</b>: <span class=\"de\">mit meinen alten Freunden</span>.</p>"
+   "html": "<p>En dativo, tras cualquier artículo (der/ein/kein/mein…), el adjetivo termina <b>siempre en -en</b>:</p><table><thead><tr><th>masculino</th><th>femenino</th><th>neutro</th><th>plural</th></tr></thead><tbody><tr><td>mit dem neu<b>en</b> Laptop</td><td>in einer klein<b>en</b> Wohnung</td><td>mit meinem alt<b>en</b> Fahrrad</td><td>mit den neu<b>en</b> Schuhe<b>n</b></td></tr></tbody></table><p>Recuerda: en dativo plural también el sustantivo lleva <b>-n</b>: <span class=\"de\">mit meinen alten Freunden</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Buena noticia: en dativo, tras cualquier artículo, el adjetivo tiene UNA sola terminación. ¿Cuál apuestas que es?",
+    "o": [
+     "-e",
+     "-es",
+     "-en"
+    ],
+    "a": 2,
+    "exp": "¡Premio! En dativo siempre -en: mit dem neuen Laptop, in einer kleinen Wohnung, mit meinem alten Fahrrad."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Ich trainiere mit einem ___ Boxsack.",
+     "o": [
+      "schweren",
+      "schwerer",
+      "schweres"
+     ],
+     "a": 0,
+     "exp": "mit + dativo: el adjetivo siempre en -en (mit einem schweren Boxsack)."
+    },
+    {
+     "t": "gap",
+     "q": "Ich spiele mit den kleinen ___.",
+     "a": [
+      "Kindern"
+     ],
+     "hint": "die Kinder",
+     "exp": "Dativo plural: también el sustantivo lleva -n (mit den kleinen Kindern)."
+    },
+    {
+     "t": "tr",
+     "es": "Vivo en una ciudad pequeña.",
+     "a": [
+      "Ich wohne in einer kleinen Stadt."
+     ],
+     "exp": "in + dativo (¿dónde?): in einer kleinen Stadt, con -en."
+    }
+   ]
   },
   {
    "h": "Ojo: errores típicos",
-   "html": "<ul><li>Olvidar la terminación: ✗ <i>ein neu Laptop</i> → ✓ <span class=\"de\">ein neuer Laptop</span>.</li><li>Acusativo masculino: ¡dos veces -n! ✓ <span class=\"de\">Ich kaufe einen neuen Laptop.</span> (no <i>einen neuer</i>).</li><li>Poner terminación al predicativo: ✗ <i>Das Kleid ist schönes</i> → ✓ <span class=\"de\">Das Kleid ist schön.</span></li><li>Adjetivos que pierden una -e-: <span class=\"de\">teuer → ein teures Kleid</span>, <span class=\"de\">dunkel → eine dunkle Jacke</span>. Y <span class=\"de\">hoch → ein hoher Berg</span> (pierde la c).</li><li>Varios adjetivos seguidos llevan la misma terminación: <span class=\"de\">ein großer, sportlicher Mann</span>.</li><li><span class=\"de\">lila, rosa</span> y <span class=\"de\">orange</span> no se declinan: <span class=\"de\">ein lila Kleid</span>.</li></ul>"
+   "html": "<ul><li>Olvidar la terminación: ✗ <i>ein neu Laptop</i> → ✓ <span class=\"de\">ein neuer Laptop</span>.</li><li>Acusativo masculino: ¡dos veces -n! ✓ <span class=\"de\">Ich kaufe einen neuen Laptop.</span> (no <i>einen neuer</i>).</li><li>Poner terminación al predicativo: ✗ <i>Das Kleid ist schönes</i> → ✓ <span class=\"de\">Das Kleid ist schön.</span></li><li>Adjetivos que pierden una -e-: <span class=\"de\">teuer → ein teures Kleid</span>, <span class=\"de\">dunkel → eine dunkle Jacke</span>. Y <span class=\"de\">hoch → ein hoher Berg</span> (pierde la c).</li><li>Varios adjetivos seguidos llevan la misma terminación: <span class=\"de\">ein großer, sportlicher Mann</span>.</li><li><span class=\"de\">lila, rosa</span> y <span class=\"de\">orange</span> no se declinan: <span class=\"de\">ein lila Kleid</span>.</li></ul>",
+   "pre": {
+    "t": "mc",
+    "q": "«teuer» = caro. ¿Cómo crees que se dice «un vestido caro»? (Pista: el alemán también busca que se pronuncie fácil.)",
+    "o": [
+     "ein teuer Kleid",
+     "ein teures Kleid",
+     "ein teueres Kleid"
+    ],
+    "a": 1,
+    "exp": "Neutro tras ein → -es, y teuer pierde la -e- para que suene mejor: ein teures Kleid. Igual dunkel → eine dunkle Jacke."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Kai ist ein großer, ___ Mann.",
+     "o": [
+      "sportliche",
+      "sportlich",
+      "sportlicher"
+     ],
+     "a": 2,
+     "exp": "Varios adjetivos seguidos llevan la misma terminación: ein großer, sportlicher Mann."
+    },
+    {
+     "t": "gap",
+     "q": "Mia trägt eine ___ Jacke.",
+     "a": [
+      "dunkle"
+     ],
+     "hint": "dunkel",
+     "exp": "dunkel pierde la -e- al declinarse: eine dunkle Jacke."
+    },
+    {
+     "t": "order",
+     "w": [
+      "sehen",
+      "einen",
+      "Wir",
+      "hohen",
+      "Berg."
+     ],
+     "a": "Wir sehen einen hohen Berg.",
+     "es": "Vemos una montaña alta.",
+     "exp": "hoch pierde la c cuando lleva terminación: einen hohen Berg."
+    }
+   ]
   }
  ],
  "vocab": [

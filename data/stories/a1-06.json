@@ -1,0 +1,141 @@
+{
+ "title": "Neckar Boxen",
+ "title_es": "Neckar Boxen",
+ "lines": [
+  {
+   "de": "Lucía boxt gern. Heute ist sie im Club «Neckar Boxen».",
+   "es": "A Lucía le gusta boxear. Hoy está en el club «Neckar Boxen»."
+  },
+  {
+   "who": "Kai",
+   "de": "Hallo! Ich bin Kai, der Trainer. Boxt du oft?",
+   "es": "¡Hola! Soy Kai, el entrenador. ¿Boxeas a menudo?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ja, in Valencia boxe ich dreimal pro Woche. Und manchmal jogge ich.",
+   "es": "Sí, en Valencia boxeo tres veces por semana. Y a veces salgo a correr."
+  },
+  {
+   "who": "Kai",
+   "de": "Super! Sprichst du gut Deutsch?",
+   "es": "¡Genial! ¿Hablas bien alemán?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ich spreche ein bisschen Deutsch. Ich lerne jeden Tag!",
+   "es": "Hablo un poco de alemán. ¡Estudio cada día!"
+  },
+  {
+   "de": "Ein Mann kommt. Er ist groß und lächelt.",
+   "es": "Llega un hombre. Es alto y sonríe."
+  },
+  {
+   "who": "Felix",
+   "de": "Hi! Ich bin Felix. Ich bin neu hier. Du kommst aus Spanien? Ich esse gern Paella!",
+   "es": "¡Hola! Soy Felix. Soy nuevo aquí. ¿Eres de España? ¡Me encanta la paella!"
+  },
+  {
+   "who": "Lucía",
+   "de": "Und was machst du gern, Felix?",
+   "es": "¿Y qué te gusta hacer, Felix?"
+  },
+  {
+   "who": "Felix",
+   "de": "Ich lese gern, ich boxe lieber… und am liebsten schlafe ich.",
+   "es": "Me gusta leer, prefiero boxear… y lo que más me gusta es dormir."
+  },
+  {
+   "who": "Kai",
+   "de": "Felix schläft gern, aber er läuft nie. Und du, Lucía? Magst du Sparring?",
+   "es": "A Felix le gusta dormir, pero no corre nunca. ¿Y tú, Lucía? ¿Te gusta el sparring?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ich mag Sparring sehr!",
+   "es": "¡Me encanta el sparring!"
+  },
+  {
+   "de": "Nach dem Training duscht Felix. Seine Sporttasche ist offen.",
+   "es": "Después del entrenamiento, Felix se ducha. Su bolsa de deporte está abierta."
+  },
+  {
+   "de": "In der Tasche ist ein Laborkittel. Das Logo: «Institut für Biologie, Heidelberg».",
+   "es": "En la bolsa hay una bata de laboratorio. El logo: «Instituto de Biología, Heidelberg»."
+  },
+  {
+   "who": "Lucía",
+   "de": "Was?! Das ist unser Logo!",
+   "es": "¡¿Qué?! ¡Es nuestro logo!"
+  }
+ ],
+ "gloss": [
+  [
+   "der Trainer",
+   "el entrenador"
+  ],
+  [
+   "ein bisschen",
+   "un poco"
+  ],
+  [
+   "lächeln",
+   "sonreír"
+  ],
+  [
+   "nach dem Training",
+   "después del entrenamiento"
+  ],
+  [
+   "duschen",
+   "ducharse"
+  ],
+  [
+   "die (Sport)tasche",
+   "la bolsa (de deporte)"
+  ],
+  [
+   "offen",
+   "abierto/a"
+  ],
+  [
+   "der Laborkittel",
+   "la bata de laboratorio"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Cuántas veces por semana boxea Lucía en Valencia?",
+   "o": [
+    "Tres",
+    "Dos",
+    "Nunca"
+   ],
+   "a": 0,
+   "exp": "«dreimal pro Woche» = tres veces por semana."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué es lo que más le gusta hacer a Felix?",
+   "o": [
+    "Dormir",
+    "Leer",
+    "Boxear"
+   ],
+   "a": 0,
+   "exp": "«am liebsten schlafe ich» = lo que más me gusta es dormir."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué encuentra Lucía en la bolsa de Felix?",
+   "o": [
+    "Una bata con el logo de su instituto",
+    "Una muestra de levadura",
+    "Una foto de Frau Becker"
+   ],
+   "a": 0,
+   "exp": "Hay un Laborkittel con el logo del Institut für Biologie de Heidelberg: ¡su instituto!"
+  }
+ ]
+}

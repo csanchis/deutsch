@@ -1,0 +1,130 @@
+{
+ "title": "Der leere Inkubator",
+ "title_es": "La incubadora vacía",
+ "lines": [
+  {
+   "de": "Montagmorgen im Labor. Jonas hat schon drei Kaffee getrunken.",
+   "es": "Lunes por la mañana en el laboratorio. Jonas ya se ha tomado tres cafés."
+  },
+  {
+   "who": "Jonas",
+   "de": "Na, Lucía? Wie war dein Wochenende?",
+   "es": "¿Qué tal, Lucía? ¿Cómo fue tu fin de semana?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ruhig. Ich habe nicht geboxt. Ich habe viel geschlafen und gelesen.",
+   "es": "Tranquilo. No he boxeado. He dormido y leído mucho."
+  },
+  {
+   "who": "Lucía",
+   "de": "Aber am Sonntag bin ich in die Altstadt gegangen. Und ich habe Felix gesehen – mit Mia!",
+   "es": "Pero el domingo fui al casco antiguo. Y vi a Felix… ¡con Mia!"
+  },
+  {
+   "who": "Jonas",
+   "de": "Mit Mia? Unsere Mia?",
+   "es": "¿Con Mia? ¿Nuestra Mia?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ja. Sie waren im Café und haben lange gesprochen.",
+   "es": "Sí. Estaban en un café y hablaron mucho rato."
+  },
+  {
+   "who": "Jonas",
+   "de": "Interessant … Ich habe am Wochenende auch gearbeitet. Ich habe Felix im Internet gesucht.",
+   "es": "Interesante… Yo el fin de semana también trabajé. Busqué a Felix en internet."
+  },
+  {
+   "who": "Lucía",
+   "de": "Und? Was hast du gefunden?",
+   "es": "¿Y? ¿Qué encontraste?"
+  },
+  {
+   "who": "Jonas",
+   "de": "Felix, 35 Jahre alt. Er war Doktorand hier, bei Professorin Wolf!",
+   "es": "Felix, 35 años. ¡Fue doctorando aquí, con la profesora Wolf!"
+  },
+  {
+   "who": "Jonas",
+   "de": "Und jetzt arbeitet er bei NovaGen in Berlin. Die Firma arbeitet auch mit Hefe.",
+   "es": "Y ahora trabaja en NovaGen, en Berlín. La empresa también trabaja con levaduras."
+  },
+  {
+   "who": "Lucía",
+   "de": "Mit Hefe? Komm, wir kontrollieren den Inkubator. Sofort!",
+   "es": "¿Con levaduras? Vamos a revisar la incubadora. ¡Ya!"
+  },
+  {
+   "de": "Jonas öffnet den Inkubator. Er ist leer.",
+   "es": "Jonas abre la incubadora. Está vacía."
+  },
+  {
+   "who": "Lucía",
+   "de": "Das gibt's doch nicht! Alle Proben sind weg!",
+   "es": "¡No puede ser! ¡Han desaparecido todas las muestras!"
+  }
+ ],
+ "gloss": [
+  [
+   "suchen",
+   "buscar"
+  ],
+  [
+   "der Doktorand",
+   "el doctorando"
+  ],
+  [
+   "die Firma",
+   "la empresa"
+  ],
+  [
+   "kontrollieren",
+   "revisar, comprobar"
+  ],
+  [
+   "der Inkubator",
+   "la incubadora"
+  ],
+  [
+   "Das gibt's doch nicht!",
+   "¡No puede ser!"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Qué hizo Lucía el fin de semana, además de ir al casco antiguo?",
+   "o": [
+    "Boxeó con Kai",
+    "Viajó a Berlín",
+    "Durmió y leyó mucho"
+   ],
+   "a": 2,
+   "exp": "«Ich habe viel geschlafen und gelesen.» No boxeó por la mano."
+  },
+  {
+   "t": "mc",
+   "q": "¿A quién vio Lucía el domingo?",
+   "o": [
+    "A la Prof. Wolf con Herr Brandt",
+    "A Felix con Mia",
+    "A Frau Becker con Einstein"
+   ],
+   "a": 1,
+   "exp": "«Ich habe Felix gesehen – mit Mia!»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué descubrió Jonas en internet?",
+   "o": [
+    "Que Mia trabaja en NovaGen",
+    "Que Felix es entrenador de boxeo",
+    "Que Felix fue doctorando de la Prof. Wolf y ahora trabaja en NovaGen"
+   ],
+   "a": 2,
+   "exp": "Felix fue doctorando con la Prof. Wolf y ahora trabaja en NovaGen, una empresa que también trabaja con levaduras."
+  }
+ ]
+}

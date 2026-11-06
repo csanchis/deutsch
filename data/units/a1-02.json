@@ -13,23 +13,277 @@
  "lessons": [
   {
    "h": "El alfabeto y deletrear",
-   "html": "<p>Así suenan las letras (aproximación en español):</p><table><thead><tr><th>letra</th><th>suena</th><th>letra</th><th>suena</th><th>letra</th><th>suena</th></tr></thead><tbody><tr><td>A</td><td>a</td><td>K</td><td>ka</td><td>U</td><td>u</td></tr><tr><td>B</td><td>be</td><td>L</td><td>el</td><td>V</td><td>fau</td></tr><tr><td>C</td><td>tse</td><td>M</td><td>em</td><td>W</td><td>ve</td></tr><tr><td>D</td><td>de</td><td>N</td><td>en</td><td>X</td><td>iks</td></tr><tr><td>E</td><td>e</td><td>O</td><td>o</td><td>Y</td><td>ýpsilon</td></tr><tr><td>F</td><td>ef</td><td>P</td><td>pe</td><td>Z</td><td>tset</td></tr><tr><td>G</td><td>gue</td><td>Q</td><td>ku</td><td>Ä</td><td>e abierta</td></tr><tr><td>H</td><td>ha</td><td>R</td><td>er</td><td>Ö</td><td>«e» con labios redondos</td></tr><tr><td>I</td><td>i</td><td>S</td><td>es</td><td>Ü</td><td>«i» con labios redondos</td></tr><tr><td>J</td><td>yot</td><td>T</td><td>te</td><td>ß</td><td>es-tset (Eszett)</td></tr></tbody></table><p>Para pedir que te deletreen: <span class=\"de\">Wie schreibt man das?</span> (¿Cómo se escribe?). En un email: @ = <span class=\"de\">ät</span>, . = <span class=\"de\">Punkt</span>, - = <span class=\"de\">Bindestrich</span>, _ = <span class=\"de\">Unterstrich</span>.</p><p><b>Ojo:</b> la E se dice «e» y la I «i» (no como en inglés). La J es «yot», la V es «fau» y la W es «ve»: «Valencia» se deletrea <i>fau-a-el-e-en-tse-i-a</i>.</p>"
+   "html": "<p>Así suenan las letras (aproximación en español):</p><table><thead><tr><th>letra</th><th>suena</th><th>letra</th><th>suena</th><th>letra</th><th>suena</th></tr></thead><tbody><tr><td>A</td><td>a</td><td>K</td><td>ka</td><td>U</td><td>u</td></tr><tr><td>B</td><td>be</td><td>L</td><td>el</td><td>V</td><td>fau</td></tr><tr><td>C</td><td>tse</td><td>M</td><td>em</td><td>W</td><td>ve</td></tr><tr><td>D</td><td>de</td><td>N</td><td>en</td><td>X</td><td>iks</td></tr><tr><td>E</td><td>e</td><td>O</td><td>o</td><td>Y</td><td>ýpsilon</td></tr><tr><td>F</td><td>ef</td><td>P</td><td>pe</td><td>Z</td><td>tset</td></tr><tr><td>G</td><td>gue</td><td>Q</td><td>ku</td><td>Ä</td><td>e abierta</td></tr><tr><td>H</td><td>ha</td><td>R</td><td>er</td><td>Ö</td><td>«e» con labios redondos</td></tr><tr><td>I</td><td>i</td><td>S</td><td>es</td><td>Ü</td><td>«i» con labios redondos</td></tr><tr><td>J</td><td>yot</td><td>T</td><td>te</td><td>ß</td><td>es-tset (Eszett)</td></tr></tbody></table><p>Para pedir que te deletreen: <span class=\"de\">Wie schreibt man das?</span> (¿Cómo se escribe?). En un email: @ = <span class=\"de\">ät</span>, . = <span class=\"de\">Punkt</span>, - = <span class=\"de\">Bindestrich</span>, _ = <span class=\"de\">Unterstrich</span>.</p><p><b>Ojo:</b> la E se dice «e» y la I «i» (no como en inglés). La J es «yot», la V es «fau» y la W es «ve»: «Valencia» se deletrea <i>fau-a-el-e-en-tse-i-a</i>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "El alemán escribe la «w» y la pronuncia como nuestra «v/b» («Wasser» suena «vaser»). ¿Cómo crees que se llama la letra W?",
+    "o": [
+     "«ve»",
+     "«uve doble»",
+     "«dabliu»"
+    ],
+    "a": 0,
+    "exp": "W se dice «ve». Y ojo: la V se llama «fau» (y suena como f en palabras como «Vater»)."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Alguien deletrea: «yot – o – en – a – es». ¿Qué nombre es?",
+     "o": [
+      "Jonas",
+      "Gonas",
+      "Yonas"
+     ],
+     "a": 0,
+     "exp": "La J alemana se llama «yot» y suena como nuestra «y»: J-O-N-A-S = Jonas."
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "H",
+       "«ha»"
+      ],
+      [
+       "C",
+       "«tse»"
+      ],
+      [
+       "Q",
+       "«ku»"
+      ],
+      [
+       "G",
+       "«gue»"
+      ],
+      [
+       "ß",
+       "«es-tset»"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "Tu email es lucia_garcia@web.de. ¿Cómo dices el signo «_»?",
+     "o": [
+      "Unterstrich",
+      "Bindestrich",
+      "Punkt"
+     ],
+     "a": 0,
+     "exp": "_ = Unterstrich (guion bajo); - = Bindestrich; . = Punkt."
+    }
+   ]
   },
   {
    "h": "Números del 0 al 20",
-   "html": "<table><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>0 null</td><td>1 eins</td><td>2 zwei</td><td>3 drei</td></tr><tr><td>4 vier</td><td>5 fünf</td><td>6 sechs</td><td>7 sieben</td></tr><tr><td>8 acht</td><td>9 neun</td><td>10 zehn</td><td>11 elf</td></tr><tr><td>12 zwölf</td><td>13 dreizehn</td><td>14 vierzehn</td><td>15 fünfzehn</td></tr><tr><td>16 sechzehn</td><td>17 siebzehn</td><td>18 achtzehn</td><td>19 neunzehn</td></tr><tr><td>20 zwanzig</td><td></td><td></td><td></td></tr></tbody></table><p><b>Ojo:</b> <span class=\"de\">sechzehn</span> pierde la -s y <span class=\"de\">siebzehn</span> pierde el -en. Por teléfono se dice a menudo <span class=\"de\">zwo</span> en vez de <i>zwei</i> para no confundirlo con <i>drei</i>.</p>"
+   "html": "<table><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>0 null</td><td>1 eins</td><td>2 zwei</td><td>3 drei</td></tr><tr><td>4 vier</td><td>5 fünf</td><td>6 sechs</td><td>7 sieben</td></tr><tr><td>8 acht</td><td>9 neun</td><td>10 zehn</td><td>11 elf</td></tr><tr><td>12 zwölf</td><td>13 dreizehn</td><td>14 vierzehn</td><td>15 fünfzehn</td></tr><tr><td>16 sechzehn</td><td>17 siebzehn</td><td>18 achtzehn</td><td>19 neunzehn</td></tr><tr><td>20 zwanzig</td><td></td><td></td><td></td></tr></tbody></table><p><b>Ojo:</b> <span class=\"de\">sechzehn</span> pierde la -s y <span class=\"de\">siebzehn</span> pierde el -en. Por teléfono se dice a menudo <span class=\"de\">zwo</span> en vez de <i>zwei</i> para no confundirlo con <i>drei</i>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«sieben» = 7 y «zehn» = 10. ¿Qué número crees que es «siebzehn»?",
+    "o": [
+     "17",
+     "70",
+     "107"
+    ],
+    "a": 0,
+    "exp": "-zehn funciona como nuestro «dieci-»: siebzehn = 17. Fíjate en que pierde el -en de sieben."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Sechs plus zehn ist ___.",
+     "a": [
+      "sechzehn"
+     ],
+     "hint": "16",
+     "exp": "16 = sechzehn: sechs pierde la -s."
+    },
+    {
+     "t": "mc",
+     "q": "Por teléfono oyes «null – eins – sieben – zwo». ¿Qué cifra es «zwo»?",
+     "o": [
+      "2",
+      "3",
+      "12"
+     ],
+     "a": 0,
+     "exp": "«zwo» = zwei. Se usa al teléfono para no confundirlo con «drei»."
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "3",
+       "drei"
+      ],
+      [
+       "8",
+       "acht"
+      ],
+      [
+       "9",
+       "neun"
+      ],
+      [
+       "14",
+       "vierzehn"
+      ],
+      [
+       "19",
+       "neunzehn"
+      ]
+     ]
+    }
+   ]
   },
   {
    "h": "Del 21 al 100: primero las unidades",
-   "html": "<p>En alemán se dicen <b>las unidades antes que las decenas</b>, unidas con <i>und</i> y todo en una palabra:</p><p><span class=\"de\">21 = einundzwanzig</span> (uno-y-veinte), <span class=\"de\">35 = fünfunddreißig</span>, <span class=\"de\">99 = neunundneunzig</span>.</p><table><thead><tr><th>decenas</th><th></th></tr></thead><tbody><tr><td>20 zwanzig</td><td>60 sechzig</td></tr><tr><td>30 dreißig</td><td>70 siebzig</td></tr><tr><td>40 vierzig</td><td>80 achtzig</td></tr><tr><td>50 fünfzig</td><td>90 neunzig</td></tr><tr><td colspan=\"2\">100 hundert / einhundert</td></tr></tbody></table><p><b>Ojo:</b> <span class=\"de\">dreißig</span> se escribe con ß (no -zig como las demás). Con «und» el 1 pierde la -s: <span class=\"de\">einundzwanzig</span>, no *einsundzwanzig. Muchos hispanohablantes dicen «zweiundvierzig» pero escriben 24: ¡piensa primero en la unidad!</p>"
+   "html": "<p>En alemán se dicen <b>las unidades antes que las decenas</b>, unidas con <i>und</i> y todo en una palabra:</p><p><span class=\"de\">21 = einundzwanzig</span> (uno-y-veinte), <span class=\"de\">35 = fünfunddreißig</span>, <span class=\"de\">99 = neunundneunzig</span>.</p><table><thead><tr><th>decenas</th><th></th></tr></thead><tbody><tr><td>20 zwanzig</td><td>60 sechzig</td></tr><tr><td>30 dreißig</td><td>70 siebzig</td></tr><tr><td>40 vierzig</td><td>80 achtzig</td></tr><tr><td>50 fünfzig</td><td>90 neunzig</td></tr><tr><td colspan=\"2\">100 hundert / einhundert</td></tr></tbody></table><p><b>Ojo:</b> <span class=\"de\">dreißig</span> se escribe con ß (no -zig como las demás). Con «und» el 1 pierde la -s: <span class=\"de\">einundzwanzig</span>, no *einsundzwanzig. Muchos hispanohablantes dicen «zweiundvierzig» pero escriben 24: ¡piensa primero en la unidad!</p>",
+   "pre": {
+    "t": "mc",
+    "q": "21 se dice «einundzwanzig», literalmente «uno-y-veinte». ¿Cómo crees que se dice 45?",
+    "o": [
+     "fünfundvierzig",
+     "vierzigundfünf",
+     "vierundfünfzig"
+    ],
+    "a": 0,
+    "exp": "Primero las unidades, luego «und» y las decenas: fünf-und-vierzig (cinco y cuarenta)."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Oyes «achtundsechzig». ¿Qué número escribes?",
+     "o": [
+      "68",
+      "86",
+      "608"
+     ],
+     "a": 0,
+     "exp": "acht-und-sechzig = 8 + 60 = 68. ¡Escribe primero la decena que oyes al final!"
+    },
+    {
+     "t": "gap",
+     "q": "42 = ___",
+     "a": [
+      "zweiundvierzig"
+     ],
+     "hint": "en letras",
+     "exp": "Unidades + und + decenas: zwei-und-vierzig."
+    },
+    {
+     "t": "mc",
+     "q": "¿Cómo se escribe 31?",
+     "o": [
+      "einunddreißig",
+      "einsunddreißig",
+      "dreißigeins"
+     ],
+     "a": 0,
+     "exp": "Con «und», eins pierde la -s: einunddreißig."
+    }
+   ]
   },
   {
    "h": "El verbo sein (ser / estar)",
-   "html": "<table><thead><tr><th>persona</th><th>sein</th><th>ejemplo</th></tr></thead><tbody><tr><td>ich</td><td>bin</td><td><span class=\"de\">Ich bin Claudia.</span></td></tr><tr><td>du</td><td>bist</td><td><span class=\"de\">Du bist aus Madrid.</span></td></tr><tr><td>er/sie/es</td><td>ist</td><td><span class=\"de\">Das ist Tom.</span></td></tr><tr><td>wir</td><td>sind</td><td><span class=\"de\">Wir sind in Berlin.</span></td></tr><tr><td>ihr</td><td>seid</td><td><span class=\"de\">Ihr seid nett.</span></td></tr><tr><td>sie/Sie</td><td>sind</td><td><span class=\"de\">Sind Sie Frau Weber?</span></td></tr></tbody></table><p>Un solo verbo para «ser» y «estar»: <span class=\"de\">Ich bin müde</span> (estoy cansada), <span class=\"de\">Ich bin Spanierin</span> (soy española).</p><p><b>Ojo:</b> <span class=\"de\">ihr seid</span> (vosotros sois) se escribe con <b>d</b>; <i>seit</i> con t es otra palabra (desde).</p>"
+   "html": "<table><thead><tr><th>persona</th><th>sein</th><th>ejemplo</th></tr></thead><tbody><tr><td>ich</td><td>bin</td><td><span class=\"de\">Ich bin Claudia.</span></td></tr><tr><td>du</td><td>bist</td><td><span class=\"de\">Du bist aus Madrid.</span></td></tr><tr><td>er/sie/es</td><td>ist</td><td><span class=\"de\">Das ist Tom.</span></td></tr><tr><td>wir</td><td>sind</td><td><span class=\"de\">Wir sind in Berlin.</span></td></tr><tr><td>ihr</td><td>seid</td><td><span class=\"de\">Ihr seid nett.</span></td></tr><tr><td>sie/Sie</td><td>sind</td><td><span class=\"de\">Sind Sie Frau Weber?</span></td></tr></tbody></table><p>Un solo verbo para «ser» y «estar»: <span class=\"de\">Ich bin müde</span> (estoy cansada), <span class=\"de\">Ich bin Spanierin</span> (soy española).</p><p><b>Ojo:</b> <span class=\"de\">ihr seid</span> (vosotros sois) se escribe con <b>d</b>; <i>seit</i> con t es otra palabra (desde).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español «soy española» y «estoy cansada» usan dos verbos distintos. ¿Cuántos crees que necesita el alemán?",
+    "o": [
+     "Uno solo: sein",
+     "Dos, como en español",
+     "Tres"
+    ],
+    "a": 0,
+    "exp": "Un solo verbo, «sein», sirve para ser y estar: Ich bin Spanierin. Ich bin müde."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Ich ___ müde.",
+     "a": [
+      "bin"
+     ],
+     "hint": "sein",
+     "exp": "ich → bin: Ich bin müde (estoy cansada)."
+    },
+    {
+     "t": "mc",
+     "q": "Das ___ Herr Brandt.",
+     "o": [
+      "ist",
+      "sind",
+      "bist"
+     ],
+     "a": 0,
+     "exp": "das (esto/este) va con la forma de er/sie/es: Das ist…"
+    },
+    {
+     "t": "order",
+     "w": [
+      "Sie",
+      "Sind",
+      "Frau",
+      "Wolf?"
+     ],
+     "a": "Sind Sie Frau Wolf?",
+     "es": "¿Es usted la señora Wolf?"
+    }
+   ]
   },
   {
    "h": "Edad, teléfono y email",
-   "html": "<table><thead><tr><th>pregunta</th><th>respuesta</th></tr></thead><tbody><tr><td><span class=\"de\">Wie alt bist du?</span> / <span class=\"de\">Wie alt sind Sie?</span></td><td><span class=\"de\">Ich bin 30 (Jahre alt).</span></td></tr><tr><td><span class=\"de\">Wie ist deine Telefonnummer?</span> / <span class=\"de\">Wie ist Ihre Telefonnummer?</span></td><td><span class=\"de\">Meine Nummer ist 0176 3482 91.</span></td></tr><tr><td><span class=\"de\">Wie ist deine E-Mail-Adresse?</span></td><td><span class=\"de\">claudia.ruiz@web.de</span> (claudia Punkt ruiz ät web Punkt de)</td></tr></tbody></table><p><span class=\"de\">deine</span> = tu, <span class=\"de\">Ihre</span> = su (de usted), <span class=\"de\">meine</span> = mi: de momento apréndelos como fórmula (los posesivos llegan en la unidad 4).</p><p><b>Ojo:</b> la edad se dice con <b>sein</b>, no con «tener»: <span class=\"de\">Ich bin 30 Jahre alt</span>, nunca *Ich habe 30 Jahre. Y se pregunta <span class=\"de\">Wie ist …?</span> (no *Was ist …?) para números y direcciones. Los teléfonos se dicen cifra a cifra o en pares: <span class=\"de\">null eins sieben sechs</span>.</p>"
+   "html": "<table><thead><tr><th>pregunta</th><th>respuesta</th></tr></thead><tbody><tr><td><span class=\"de\">Wie alt bist du?</span> / <span class=\"de\">Wie alt sind Sie?</span></td><td><span class=\"de\">Ich bin 30 (Jahre alt).</span></td></tr><tr><td><span class=\"de\">Wie ist deine Telefonnummer?</span> / <span class=\"de\">Wie ist Ihre Telefonnummer?</span></td><td><span class=\"de\">Meine Nummer ist 0176 3482 91.</span></td></tr><tr><td><span class=\"de\">Wie ist deine E-Mail-Adresse?</span></td><td><span class=\"de\">claudia.ruiz@web.de</span> (claudia Punkt ruiz ät web Punkt de)</td></tr></tbody></table><p><span class=\"de\">deine</span> = tu, <span class=\"de\">Ihre</span> = su (de usted), <span class=\"de\">meine</span> = mi: de momento apréndelos como fórmula (los posesivos llegan en la unidad 4).</p><p><b>Ojo:</b> la edad se dice con <b>sein</b>, no con «tener»: <span class=\"de\">Ich bin 30 Jahre alt</span>, nunca *Ich habe 30 Jahre. Y se pregunta <span class=\"de\">Wie ist …?</span> (no *Was ist …?) para números y direcciones. Los teléfonos se dicen cifra a cifra o en pares: <span class=\"de\">null eins sieben sechs</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Ich bin» = soy/estoy. ¿Cómo crees que dice un alemán «tengo 29 años»?",
+    "o": [
+     "Ich bin 29 Jahre alt.",
+     "Ich habe 29 Jahre.",
+     "Ich habe 29 Jahre alt."
+    ],
+    "a": 0,
+    "exp": "Literalmente «soy 29 años viejo»: la edad va con sein, no con «tener»."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Quieres el número de la profesora Wolf, a la que tratas de usted. ¿Qué preguntas?",
+     "o": [
+      "Wie ist Ihre Telefonnummer?",
+      "Wie ist deine Telefonnummer?",
+      "Wie sind Sie Telefonnummer?"
+     ],
+     "a": 0,
+     "exp": "De usted → Ihre (su). «deine» es para quien tuteas."
+    },
+    {
+     "t": "mc",
+     "q": "Alguien dice «Ich habe 29 Jahre». ¿Qué falla?",
+     "o": [
+      "La edad va con sein: Ich bin 29.",
+      "Solo falta «alt» al final.",
+      "Nada, es correcto."
+     ],
+     "a": 0,
+     "exp": "En alemán la edad se dice con sein: Ich bin 29 (Jahre alt). Con «haben» es un error típico de hispanohablantes."
+    },
+    {
+     "t": "tr",
+     "es": "Tengo 29 años y vivo en Heidelberg.",
+     "a": [
+      "Ich bin 29 Jahre alt und wohne in Heidelberg.",
+      "Ich bin 29 und wohne in Heidelberg.",
+      "Ich bin 29 Jahre alt und ich wohne in Heidelberg.",
+      "Ich bin 29 und ich wohne in Heidelberg.",
+      "Ich bin neunundzwanzig Jahre alt und wohne in Heidelberg.",
+      "Ich bin neunundzwanzig und wohne in Heidelberg."
+     ],
+     "exp": "Edad con sein (Ich bin 29) y lugar con wohnen + in."
+    }
+   ]
   }
  ],
  "vocab": [

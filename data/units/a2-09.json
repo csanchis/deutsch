@@ -14,23 +14,265 @@
  "lessons": [
   {
    "h": "Profesiones y lugar de trabajo",
-   "html": "<table><thead><tr><th>masculino</th><th>femenino</th><th>español</th></tr></thead><tbody><tr><td>der Arzt</td><td>die Ärztin</td><td>médico/a</td></tr><tr><td>der Ingenieur</td><td>die Ingenieurin</td><td>ingeniero/a</td></tr><tr><td>der Forscher</td><td>die Forscherin</td><td>investigador/a</td></tr><tr><td>der Doktorand</td><td>die Doktorandin</td><td>doctorando/a</td></tr><tr><td>der Krankenpfleger</td><td>die Krankenpflegerin</td><td>enfermero/a</td></tr><tr><td>der Verkäufer</td><td>die Verkäuferin</td><td>dependiente/a</td></tr></tbody></table><ul><li><span class=\"de\">Ich bin Biologin.</span> / <span class=\"de\">Ich arbeite als Biologin.</span> (sin artículo)</li><li><span class=\"de\">Ich arbeite bei Siemens / an der Universität / im Labor / in einem Krankenhaus.</span></li><li><span class=\"de\">Ich mache meine Doktorarbeit über Bakterien.</span> / <span class=\"de\">Ich promoviere in Mikrobiologie.</span></li><li><span class=\"de\">Ich arbeite Vollzeit / Teilzeit.</span></li></ul><p><b>Ojo:</b> empresa → <span class=\"de\">bei</span> (<span class=\"de\">bei BASF</span>); universidad → <span class=\"de\">an</span> (<span class=\"de\">an der Uni</span>); lugar físico → <span class=\"de\">in</span> (<span class=\"de\">im Büro</span>).</p>"
+   "html": "<table><thead><tr><th>masculino</th><th>femenino</th><th>español</th></tr></thead><tbody><tr><td>der Arzt</td><td>die Ärztin</td><td>médico/a</td></tr><tr><td>der Ingenieur</td><td>die Ingenieurin</td><td>ingeniero/a</td></tr><tr><td>der Forscher</td><td>die Forscherin</td><td>investigador/a</td></tr><tr><td>der Doktorand</td><td>die Doktorandin</td><td>doctorando/a</td></tr><tr><td>der Krankenpfleger</td><td>die Krankenpflegerin</td><td>enfermero/a</td></tr><tr><td>der Verkäufer</td><td>die Verkäuferin</td><td>dependiente/a</td></tr></tbody></table><ul><li><span class=\"de\">Ich bin Biologin.</span> / <span class=\"de\">Ich arbeite als Biologin.</span> (sin artículo)</li><li><span class=\"de\">Ich arbeite bei Siemens / an der Universität / im Labor / in einem Krankenhaus.</span></li><li><span class=\"de\">Ich mache meine Doktorarbeit über Bakterien.</span> / <span class=\"de\">Ich promoviere in Mikrobiologie.</span></li><li><span class=\"de\">Ich arbeite Vollzeit / Teilzeit.</span></li></ul><p><b>Ojo:</b> empresa → <span class=\"de\">bei</span> (<span class=\"de\">bei BASF</span>); universidad → <span class=\"de\">an</span> (<span class=\"de\">an der Uni</span>); lugar físico → <span class=\"de\">in</span> (<span class=\"de\">im Büro</span>).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "der Arzt → die Ärztin. ¿Y la forma femenina de der Forscher (investigador)?",
+    "o": [
+     "die Forschera",
+     "die Forscherin",
+     "die Forscherfrau"
+    ],
+    "a": 1,
+    "exp": "Casi siempre basta con -in: die Forscherin, die Ingenieurin, die Doktorandin."
+   },
+   "check": [
+    {
+     "t": "match",
+     "p": [
+      [
+       "der Ingenieur",
+       "el ingeniero"
+      ],
+      [
+       "die Krankenpflegerin",
+       "la enfermera"
+      ],
+      [
+       "die Verkäuferin",
+       "la dependienta"
+      ],
+      [
+       "der Doktorand",
+       "el doctorando"
+      ],
+      [
+       "die Forscherin",
+       "la investigadora"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "Ich arbeite ___ BASF.",
+     "o": [
+      "an",
+      "in",
+      "bei"
+     ],
+     "a": 2,
+     "exp": "Con empresas se usa bei: bei BASF, bei Siemens."
+    },
+    {
+     "t": "tr",
+     "es": "Trabajo como investigadora.",
+     "a": [
+      "Ich arbeite als Forscherin."
+     ],
+     "exp": "als + profesión, sin artículo."
+    }
+   ]
   },
   {
    "h": "Konjunktiv II de cortesía",
-   "html": "<p>Equivale al <b>condicional</b> español (<i>querría, podría, sería</i>) y suena más amable que el presente.</p><table><thead><tr><th></th><th>werden → würde</th><th>haben → hätte</th><th>sein → wäre</th><th>können → könnte</th></tr></thead><tbody><tr><td>ich</td><td>würde</td><td>hätte</td><td>wäre</td><td>könnte</td></tr><tr><td>du</td><td>würdest</td><td>hättest</td><td>wär(e)st</td><td>könntest</td></tr><tr><td>er / sie / es</td><td>würde</td><td>hätte</td><td>wäre</td><td>könnte</td></tr><tr><td>wir</td><td>würden</td><td>hätten</td><td>wären</td><td>könnten</td></tr><tr><td>ihr</td><td>würdet</td><td>hättet</td><td>wär(e)t</td><td>könntet</td></tr><tr><td>sie / Sie</td><td>würden</td><td>hätten</td><td>wären</td><td>könnten</td></tr></tbody></table><ul><li>Deseos: <span class=\"de\">Ich würde gern im Ausland arbeiten.</span> (würde + infinitivo al final)</li><li>Pedir: <span class=\"de\">Ich hätte gern einen Termin.</span></li><li>Preguntar con cortesía: <span class=\"de\">Könnten Sie mir bitte helfen?</span> <span class=\"de\">Würden Sie das bitte wiederholen?</span> <span class=\"de\">Hätten Sie morgen Zeit?</span></li><li>Valorar: <span class=\"de\">Das wäre super!</span> <span class=\"de\">Wäre Montag möglich?</span></li></ul><p><b>Ojo:</b> la diéresis lo cambia todo: <span class=\"de\">konnte</span> (pude) / <span class=\"de\">könnte</span> (podría); <span class=\"de\">hatte</span> (tenía) / <span class=\"de\">hätte</span> (tendría); <span class=\"de\">wurde</span> / <span class=\"de\">würde</span>.</p>"
+   "html": "<p>Equivale al <b>condicional</b> español (<i>querría, podría, sería</i>) y suena más amable que el presente.</p><table><thead><tr><th></th><th>werden → würde</th><th>haben → hätte</th><th>sein → wäre</th><th>können → könnte</th></tr></thead><tbody><tr><td>ich</td><td>würde</td><td>hätte</td><td>wäre</td><td>könnte</td></tr><tr><td>du</td><td>würdest</td><td>hättest</td><td>wär(e)st</td><td>könntest</td></tr><tr><td>er / sie / es</td><td>würde</td><td>hätte</td><td>wäre</td><td>könnte</td></tr><tr><td>wir</td><td>würden</td><td>hätten</td><td>wären</td><td>könnten</td></tr><tr><td>ihr</td><td>würdet</td><td>hättet</td><td>wär(e)t</td><td>könntet</td></tr><tr><td>sie / Sie</td><td>würden</td><td>hätten</td><td>wären</td><td>könnten</td></tr></tbody></table><ul><li>Deseos: <span class=\"de\">Ich würde gern im Ausland arbeiten.</span> (würde + infinitivo al final)</li><li>Pedir: <span class=\"de\">Ich hätte gern einen Termin.</span></li><li>Preguntar con cortesía: <span class=\"de\">Könnten Sie mir bitte helfen?</span> <span class=\"de\">Würden Sie das bitte wiederholen?</span> <span class=\"de\">Hätten Sie morgen Zeit?</span></li><li>Valorar: <span class=\"de\">Das wäre super!</span> <span class=\"de\">Wäre Montag möglich?</span></li></ul><p><b>Ojo:</b> la diéresis lo cambia todo: <span class=\"de\">konnte</span> (pude) / <span class=\"de\">könnte</span> (podría); <span class=\"de\">hatte</span> (tenía) / <span class=\"de\">hätte</span> (tendría); <span class=\"de\">wurde</span> / <span class=\"de\">würde</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "¿Cuál crees que suena más amable?",
+    "o": [
+     "Helfen Sie mir!",
+     "Könnten Sie mir helfen?",
+     "Sie helfen mir."
+    ],
+    "a": 1,
+    "exp": "Könnten es como «podría»: el Konjunktiv II hace la petición mucho más cortés."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Guten Abend, wir ___ gern einen Tisch für zwei.",
+     "a": [
+      "hätten"
+     ],
+     "hint": "haben",
+     "exp": "Para pedir con cortesía: hätte(n) gern. wir → hätten."
+    },
+    {
+     "t": "mc",
+     "q": "___ ihr morgen Zeit für ein Sparring?",
+     "o": [
+      "Hätten",
+      "Hattet",
+      "Hättet"
+     ],
+     "a": 2,
+     "exp": "ihr + Konjunktiv II de haben: hättet (con diéresis; hattet es pasado)."
+    },
+    {
+     "t": "order",
+     "w": [
+      "Berlin",
+      "würde",
+      "gern",
+      "Ich",
+      "in",
+      "wohnen."
+     ],
+     "a": "Ich würde gern in Berlin wohnen.",
+     "es": "Me gustaría vivir en Berlín.",
+     "exp": "würde gern + infinitivo al final."
+    }
+   ]
   },
   {
    "h": "Dar consejos: Du solltest …",
-   "html": "<table><thead><tr><th>sollen (Konj. II)</th><th>ejemplo</th></tr></thead><tbody><tr><td>ich sollte</td><td><span class=\"de\">Ich sollte mehr schlafen.</span></td></tr><tr><td>du solltest</td><td><span class=\"de\">Du solltest eine Pause machen.</span></td></tr><tr><td>er / sie sollte</td><td><span class=\"de\">Sie sollte mit ihrem Chef sprechen.</span></td></tr><tr><td>wir sollten</td><td><span class=\"de\">Wir sollten früher anfangen.</span></td></tr><tr><td>ihr solltet</td><td><span class=\"de\">Ihr solltet mehr Deutsch sprechen.</span></td></tr><tr><td>sie / Sie sollten</td><td><span class=\"de\">Sie sollten Ihren Lebenslauf mitbringen.</span></td></tr></tbody></table><p>= <i>deberías …</i>. Infinitivo al final, como con todos los modales. Otra fórmula: <span class=\"de\">An deiner Stelle würde ich …</span> (<i>yo que tú…</i>).</p><p><b>Ojo:</b> la forma coincide con el Präteritum (ich sollte); el contexto de consejo lo aclara.</p>"
+   "html": "<table><thead><tr><th>sollen (Konj. II)</th><th>ejemplo</th></tr></thead><tbody><tr><td>ich sollte</td><td><span class=\"de\">Ich sollte mehr schlafen.</span></td></tr><tr><td>du solltest</td><td><span class=\"de\">Du solltest eine Pause machen.</span></td></tr><tr><td>er / sie sollte</td><td><span class=\"de\">Sie sollte mit ihrem Chef sprechen.</span></td></tr><tr><td>wir sollten</td><td><span class=\"de\">Wir sollten früher anfangen.</span></td></tr><tr><td>ihr solltet</td><td><span class=\"de\">Ihr solltet mehr Deutsch sprechen.</span></td></tr><tr><td>sie / Sie sollten</td><td><span class=\"de\">Sie sollten Ihren Lebenslauf mitbringen.</span></td></tr></tbody></table><p>= <i>deberías …</i>. Infinitivo al final, como con todos los modales. Otra fórmula: <span class=\"de\">An deiner Stelle würde ich …</span> (<i>yo que tú…</i>).</p><p><b>Ojo:</b> la forma coincide con el Präteritum (ich sollte); el contexto de consejo lo aclara.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Tu amiga quiere entrenar con fiebre. ¿Cómo crees que se le da un consejo?",
+    "o": [
+     "Du solltet heute nicht trainieren.",
+     "Du solltest heute nicht trainieren.",
+     "Du sollen heute nicht trainieren."
+    ],
+    "a": 1,
+    "exp": "du solltest = deberías. Infinitivo al final, como con todos los modales."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Er hustet viel. Er ___ zum Arzt gehen.",
+     "a": [
+      "sollte"
+     ],
+     "hint": "sollen",
+     "exp": "er → sollte (sin -t final)."
+    },
+    {
+     "t": "mc",
+     "q": "Mia, du ___ mit der Professorin sprechen.",
+     "o": [
+      "solltest",
+      "sollten",
+      "solltet"
+     ],
+     "a": 0,
+     "exp": "du → solltest."
+    },
+    {
+     "t": "tr",
+     "es": "Yo que tú, iría al médico.",
+     "a": [
+      "An deiner Stelle würde ich zum Arzt gehen.",
+      "An deiner Stelle würde ich zur Ärztin gehen."
+     ],
+     "exp": "«Yo que tú» = An deiner Stelle würde ich …"
+    }
+   ]
   },
   {
    "h": "El email formal",
-   "html": "<table><thead><tr><th></th><th>formal</th><th>informal</th></tr></thead><tbody><tr><td>saludo (mujer)</td><td><span class=\"de\">Sehr geehrte Frau Müller,</span></td><td><span class=\"de\">Liebe Anna,</span></td></tr><tr><td>saludo (hombre)</td><td><span class=\"de\">Sehr geehrter Herr Schmidt,</span></td><td><span class=\"de\">Lieber Jonas,</span></td></tr><tr><td>no sé el nombre</td><td><span class=\"de\">Sehr geehrte Damen und Herren,</span></td><td><span class=\"de\">Hallo zusammen,</span></td></tr><tr><td>despedida</td><td><span class=\"de\">Mit freundlichen Grüßen</span></td><td><span class=\"de\">Viele Grüße / Liebe Grüße</span></td></tr></tbody></table><ul><li>Tras el saludo va <b>coma</b> (no dos puntos) y la primera palabra del texto en <b>minúscula</b>: <span class=\"de\">Sehr geehrte Frau Müller, vielen Dank für Ihre E-Mail.</span></li><li>Tras <span class=\"de\">Mit freundlichen Grüßen</span> no se pone coma; el nombre va en la línea siguiente.</li><li>Frases útiles: <span class=\"de\">Ich schreibe Ihnen, weil …</span> · <span class=\"de\">Könnten Sie mir bitte … schicken?</span> · <span class=\"de\">Ich freue mich auf Ihre Antwort.</span></li></ul><p><b>Ojo:</b> la terminación del adjetivo depende del género: <span class=\"de\">geehrte</span> Frau, <span class=\"de\">geehrter</span> Herr, <span class=\"de\">Liebe</span> Anna, <span class=\"de\">Lieber</span> Jonas.</p>"
+   "html": "<table><thead><tr><th></th><th>formal</th><th>informal</th></tr></thead><tbody><tr><td>saludo (mujer)</td><td><span class=\"de\">Sehr geehrte Frau Müller,</span></td><td><span class=\"de\">Liebe Anna,</span></td></tr><tr><td>saludo (hombre)</td><td><span class=\"de\">Sehr geehrter Herr Schmidt,</span></td><td><span class=\"de\">Lieber Jonas,</span></td></tr><tr><td>no sé el nombre</td><td><span class=\"de\">Sehr geehrte Damen und Herren,</span></td><td><span class=\"de\">Hallo zusammen,</span></td></tr><tr><td>despedida</td><td><span class=\"de\">Mit freundlichen Grüßen</span></td><td><span class=\"de\">Viele Grüße / Liebe Grüße</span></td></tr></tbody></table><ul><li>Tras el saludo va <b>coma</b> (no dos puntos) y la primera palabra del texto en <b>minúscula</b>: <span class=\"de\">Sehr geehrte Frau Müller, vielen Dank für Ihre E-Mail.</span></li><li>Tras <span class=\"de\">Mit freundlichen Grüßen</span> no se pone coma; el nombre va en la línea siguiente.</li><li>Frases útiles: <span class=\"de\">Ich schreibe Ihnen, weil …</span> · <span class=\"de\">Könnten Sie mir bitte … schicken?</span> · <span class=\"de\">Ich freue mich auf Ihre Antwort.</span></li></ul><p><b>Ojo:</b> la terminación del adjetivo depende del género: <span class=\"de\">geehrte</span> Frau, <span class=\"de\">geehrter</span> Herr, <span class=\"de\">Liebe</span> Anna, <span class=\"de\">Lieber</span> Jonas.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español el saludo del email lleva dos puntos: «Estimada Sra. Müller:». ¿Qué crees que va en alemán?",
+    "o": [
+     "Dos puntos, igual que en español",
+     "Un punto",
+     "Una coma, y el texto sigue en minúscula"
+    ],
+    "a": 2,
+    "exp": "Sehr geehrte Frau Müller, (coma) y la primera palabra del texto en minúscula: vielen Dank …"
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Sehr geehrte Frau Wolf, ___ Dank für Ihre E-Mail.",
+     "a": [
+      "vielen"
+     ],
+     "hint": "muchas",
+     "exp": "Tras la coma del saludo, minúscula: vielen Dank."
+    },
+    {
+     "t": "mc",
+     "q": "Escribes a una empresa y no sabes el nombre. ¿Cómo empiezas?",
+     "o": [
+      "Liebe Damen und Herren,",
+      "Sehr geehrte Damen und Herren,",
+      "Hallo zusammen,"
+     ],
+     "a": 1,
+     "exp": "Formal y sin nombre: Sehr geehrte Damen und Herren,"
+    },
+    {
+     "t": "tr",
+     "es": "Querido Jonas:",
+     "a": [
+      "Lieber Jonas,",
+      "Lieber Jonas"
+     ],
+     "exp": "Informal a un hombre: Lieber (con -r) + coma."
+    }
+   ]
   },
   {
    "h": "La entrevista de trabajo",
-   "html": "<table><thead><tr><th>pregunta</th><th>respuesta posible</th></tr></thead><tbody><tr><td><span class=\"de\">Erzählen Sie etwas über sich.</span></td><td><span class=\"de\">Ich bin Biologin und mache gerade meine Doktorarbeit.</span></td></tr><tr><td><span class=\"de\">Was sind Ihre Stärken?</span></td><td><span class=\"de\">Ich bin genau und arbeite gern im Team.</span></td></tr><tr><td><span class=\"de\">Welche Erfahrung haben Sie?</span></td><td><span class=\"de\">Ich habe drei Jahre in einem Labor gearbeitet.</span></td></tr><tr><td><span class=\"de\">Warum möchten Sie bei uns arbeiten?</span></td><td><span class=\"de\">Ich interessiere mich sehr für Ihre Forschung.</span></td></tr><tr><td><span class=\"de\">Haben Sie noch Fragen?</span></td><td><span class=\"de\">Ja, wann würde die Stelle beginnen?</span></td></tr></tbody></table><p>En una entrevista se usa siempre <b>Sie</b>, y en Alemania se llama a la gente por su apellido: <span class=\"de\">Frau Dr. Lehmann</span>.</p>"
+   "html": "<table><thead><tr><th>pregunta</th><th>respuesta posible</th></tr></thead><tbody><tr><td><span class=\"de\">Erzählen Sie etwas über sich.</span></td><td><span class=\"de\">Ich bin Biologin und mache gerade meine Doktorarbeit.</span></td></tr><tr><td><span class=\"de\">Was sind Ihre Stärken?</span></td><td><span class=\"de\">Ich bin genau und arbeite gern im Team.</span></td></tr><tr><td><span class=\"de\">Welche Erfahrung haben Sie?</span></td><td><span class=\"de\">Ich habe drei Jahre in einem Labor gearbeitet.</span></td></tr><tr><td><span class=\"de\">Warum möchten Sie bei uns arbeiten?</span></td><td><span class=\"de\">Ich interessiere mich sehr für Ihre Forschung.</span></td></tr><tr><td><span class=\"de\">Haben Sie noch Fragen?</span></td><td><span class=\"de\">Ja, wann würde die Stelle beginnen?</span></td></tr></tbody></table><p>En una entrevista se usa siempre <b>Sie</b>, y en Alemania se llama a la gente por su apellido: <span class=\"de\">Frau Dr. Lehmann</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En una entrevista en Alemania, ¿cómo crees que te van a llamar?",
+    "o": [
+     "Por el nombre y de tú",
+     "«Frau» + apellido, y de usted (Sie)",
+     "Solo con el título: «Doktorandin»"
+    ],
+    "a": 1,
+    "exp": "En una entrevista siempre Sie y apellido: Frau García, Frau Dr. Lehmann."
+   },
+   "check": [
+    {
+     "t": "match",
+     "p": [
+      [
+       "Erzählen Sie etwas über sich.",
+       "Hábleme de usted."
+      ],
+      [
+       "Welche Erfahrung haben Sie?",
+       "¿Qué experiencia tiene?"
+      ],
+      [
+       "Haben Sie noch Fragen?",
+       "¿Tiene alguna pregunta más?"
+      ],
+      [
+       "Ich arbeite gern im Team.",
+       "Me gusta trabajar en equipo."
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "Te preguntan: «Warum möchten Sie bei uns arbeiten?» ¿Qué respuesta encaja?",
+     "o": [
+      "Ich bin 29 Jahre alt.",
+      "Ich habe in Valencia gewohnt.",
+      "Ich interessiere mich sehr für Ihre Forschung."
+     ],
+     "a": 2,
+     "exp": "Preguntan por qué: tu interés por su investigación."
+    },
+    {
+     "t": "tr",
+     "es": "He trabajado dos años en un laboratorio.",
+     "a": [
+      "Ich habe zwei Jahre in einem Labor gearbeitet.",
+      "Ich habe zwei Jahre im Labor gearbeitet."
+     ],
+     "exp": "Experiencia con Perfekt: Ich habe … gearbeitet."
+    }
+   ]
   }
  ],
  "vocab": [

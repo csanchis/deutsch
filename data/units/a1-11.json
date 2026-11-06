@@ -13,23 +13,273 @@
  "lessons": [
   {
    "h": "Der Körper – el cuerpo",
-   "html": "<table><thead><tr><th>Singular</th><th>Plural</th><th>Español</th></tr></thead><tbody>\n<tr><td><span class=\"de\">der Kopf</span></td><td><span class=\"de\">die Köpfe</span></td><td>cabeza</td></tr>\n<tr><td><span class=\"de\">das Auge</span></td><td><span class=\"de\">die Augen</span></td><td>ojo</td></tr>\n<tr><td><span class=\"de\">das Ohr</span></td><td><span class=\"de\">die Ohren</span></td><td>oreja, oído</td></tr>\n<tr><td><span class=\"de\">die Nase</span></td><td><span class=\"de\">die Nasen</span></td><td>nariz</td></tr>\n<tr><td><span class=\"de\">der Mund</span></td><td><span class=\"de\">die Münder</span></td><td>boca</td></tr>\n<tr><td><span class=\"de\">der Zahn</span></td><td><span class=\"de\">die Zähne</span></td><td>diente, muela</td></tr>\n<tr><td><span class=\"de\">der Hals</span></td><td><span class=\"de\">die Hälse</span></td><td>cuello, garganta</td></tr>\n<tr><td><span class=\"de\">die Schulter</span></td><td><span class=\"de\">die Schultern</span></td><td>hombro</td></tr>\n<tr><td><span class=\"de\">der Rücken</span></td><td><span class=\"de\">die Rücken</span></td><td>espalda</td></tr>\n<tr><td><span class=\"de\">der Bauch</span></td><td><span class=\"de\">die Bäuche</span></td><td>barriga, tripa</td></tr>\n<tr><td><span class=\"de\">der Arm</span></td><td><span class=\"de\">die Arme</span></td><td>brazo</td></tr>\n<tr><td><span class=\"de\">die Hand</span></td><td><span class=\"de\">die Hände</span></td><td>mano</td></tr>\n<tr><td><span class=\"de\">der Finger</span></td><td><span class=\"de\">die Finger</span></td><td>dedo (de la mano)</td></tr>\n<tr><td><span class=\"de\">das Bein</span></td><td><span class=\"de\">die Beine</span></td><td>pierna</td></tr>\n<tr><td><span class=\"de\">das Knie</span></td><td><span class=\"de\">die Knie</span></td><td>rodilla</td></tr>\n<tr><td><span class=\"de\">der Fuß</span></td><td><span class=\"de\">die Füße</span></td><td>pie</td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">die Hand</span> es femenino, como en español, pero <span class=\"de\">der Kopf, der Bauch, der Rücken</span> son masculinos aunque «cabeza» y «espalda» sean femeninos.</p>"
+   "html": "<table><thead><tr><th>Singular</th><th>Plural</th><th>Español</th></tr></thead><tbody>\n<tr><td><span class=\"de\">der Kopf</span></td><td><span class=\"de\">die Köpfe</span></td><td>cabeza</td></tr>\n<tr><td><span class=\"de\">das Auge</span></td><td><span class=\"de\">die Augen</span></td><td>ojo</td></tr>\n<tr><td><span class=\"de\">das Ohr</span></td><td><span class=\"de\">die Ohren</span></td><td>oreja, oído</td></tr>\n<tr><td><span class=\"de\">die Nase</span></td><td><span class=\"de\">die Nasen</span></td><td>nariz</td></tr>\n<tr><td><span class=\"de\">der Mund</span></td><td><span class=\"de\">die Münder</span></td><td>boca</td></tr>\n<tr><td><span class=\"de\">der Zahn</span></td><td><span class=\"de\">die Zähne</span></td><td>diente, muela</td></tr>\n<tr><td><span class=\"de\">der Hals</span></td><td><span class=\"de\">die Hälse</span></td><td>cuello, garganta</td></tr>\n<tr><td><span class=\"de\">die Schulter</span></td><td><span class=\"de\">die Schultern</span></td><td>hombro</td></tr>\n<tr><td><span class=\"de\">der Rücken</span></td><td><span class=\"de\">die Rücken</span></td><td>espalda</td></tr>\n<tr><td><span class=\"de\">der Bauch</span></td><td><span class=\"de\">die Bäuche</span></td><td>barriga, tripa</td></tr>\n<tr><td><span class=\"de\">der Arm</span></td><td><span class=\"de\">die Arme</span></td><td>brazo</td></tr>\n<tr><td><span class=\"de\">die Hand</span></td><td><span class=\"de\">die Hände</span></td><td>mano</td></tr>\n<tr><td><span class=\"de\">der Finger</span></td><td><span class=\"de\">die Finger</span></td><td>dedo (de la mano)</td></tr>\n<tr><td><span class=\"de\">das Bein</span></td><td><span class=\"de\">die Beine</span></td><td>pierna</td></tr>\n<tr><td><span class=\"de\">das Knie</span></td><td><span class=\"de\">die Knie</span></td><td>rodilla</td></tr>\n<tr><td><span class=\"de\">der Fuß</span></td><td><span class=\"de\">die Füße</span></td><td>pie</td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">die Hand</span> es femenino, como en español, pero <span class=\"de\">der Kopf, der Bauch, der Rücken</span> son masculinos aunque «cabeza» y «espalda» sean femeninos.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«der Finger» es fácil. Piensa en el inglés «knee»: ¿qué crees que es «das Knie»?",
+    "o": [
+     "la rodilla",
+     "la nariz",
+     "el codo"
+    ],
+    "a": 0,
+    "exp": "¡Exacto! das Knie = la rodilla (y en plural no cambia: die Knie). Muchas partes del cuerpo se parecen al inglés: Hand, Arm, Finger, Fuß (foot)."
+   },
+   "check": [
+    {
+     "t": "match",
+     "p": [
+      [
+       "die Schulter",
+       "el hombro"
+      ],
+      [
+       "das Knie",
+       "la rodilla"
+      ],
+      [
+       "das Auge",
+       "el ojo"
+      ],
+      [
+       "das Ohr",
+       "la oreja"
+      ],
+      [
+       "der Hals",
+       "el cuello, la garganta"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué género tiene «Kopf» (cabeza)?",
+     "o": [
+      "der",
+      "das",
+      "die"
+     ],
+     "a": 0,
+     "exp": "der Kopf es masculino, aunque «cabeza» sea femenino en español."
+    },
+    {
+     "t": "gap",
+     "q": "Eine Hand hat fünf ___.",
+     "a": [
+      "Finger"
+     ],
+     "hint": "der Finger",
+     "exp": "der Finger acaba en -er: el plural no cambia → die Finger."
+    }
+   ]
   },
   {
    "h": "¿Qué te duele?",
-   "html": "<p>Hay dos estructuras principales:</p>\n<table><thead><tr><th>Estructura</th><th>Ejemplos</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Ich habe</span> + …<span class=\"de\">schmerzen</span> (plural, sin artículo)</td><td><span class=\"de\">Ich habe Kopfschmerzen / Halsschmerzen / Bauchschmerzen / Rückenschmerzen / Zahnschmerzen.</span></td></tr>\n<tr><td><span class=\"de\">Mir tut</span> + singular + <span class=\"de\">weh</span></td><td><span class=\"de\">Mir tut der Kopf weh.</span> (Me duele la cabeza.)</td></tr>\n<tr><td><span class=\"de\">Mir tun</span> + plural + <span class=\"de\">weh</span></td><td><span class=\"de\">Mir tun die Füße weh.</span> (Me duelen los pies.)</td></tr>\n</tbody></table>\n<p><span class=\"de\">mir</span> = «a mí», <span class=\"de\">dir</span> = «a ti», <span class=\"de\">Ihnen</span> = «a usted» (son pronombres en dativo; los verás todos en A2). Preguntas: <span class=\"de\">Was tut dir weh?</span> – <span class=\"de\">Tut dir der Rücken weh?</span> – <span class=\"de\">Was fehlt Ihnen?</span> (¿Qué le pasa?).</p>\n<p>Otros problemas, también <b>sin artículo</b>: <span class=\"de\">Ich habe Fieber / Husten / Schnupfen.</span> – <span class=\"de\">Ich bin krank / erkältet.</span></p>\n<p><b>Ojo:</b> el verbo concuerda con la parte del cuerpo, igual que «me duele / me duelen»: <span class=\"de\">Mir tut der Arm weh</span>, <span class=\"de\">Mir tun die Augen weh</span>.</p>\n<p><b>Ojo:</b> «estoy enferma» = <span class=\"de\">Ich bin krank</span>, no <span class=\"de\">*Ich habe krank</span>. «Estoy constipada» = <span class=\"de\">Ich bin erkältet</span>: ¡<span class=\"de\">konstipiert</span> significa «estreñida»!</p>"
+   "html": "<p>Hay dos estructuras principales:</p>\n<table><thead><tr><th>Estructura</th><th>Ejemplos</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Ich habe</span> + …<span class=\"de\">schmerzen</span> (plural, sin artículo)</td><td><span class=\"de\">Ich habe Kopfschmerzen / Halsschmerzen / Bauchschmerzen / Rückenschmerzen / Zahnschmerzen.</span></td></tr>\n<tr><td><span class=\"de\">Mir tut</span> + singular + <span class=\"de\">weh</span></td><td><span class=\"de\">Mir tut der Kopf weh.</span> (Me duele la cabeza.)</td></tr>\n<tr><td><span class=\"de\">Mir tun</span> + plural + <span class=\"de\">weh</span></td><td><span class=\"de\">Mir tun die Füße weh.</span> (Me duelen los pies.)</td></tr>\n</tbody></table>\n<p><span class=\"de\">mir</span> = «a mí», <span class=\"de\">dir</span> = «a ti», <span class=\"de\">Ihnen</span> = «a usted» (son pronombres en dativo; los verás todos en A2). Preguntas: <span class=\"de\">Was tut dir weh?</span> – <span class=\"de\">Tut dir der Rücken weh?</span> – <span class=\"de\">Was fehlt Ihnen?</span> (¿Qué le pasa?).</p>\n<p>Otros problemas, también <b>sin artículo</b>: <span class=\"de\">Ich habe Fieber / Husten / Schnupfen.</span> – <span class=\"de\">Ich bin krank / erkältet.</span></p>\n<p><b>Ojo:</b> el verbo concuerda con la parte del cuerpo, igual que «me duele / me duelen»: <span class=\"de\">Mir tut der Arm weh</span>, <span class=\"de\">Mir tun die Augen weh</span>.</p>\n<p><b>Ojo:</b> «estoy enferma» = <span class=\"de\">Ich bin krank</span>, no <span class=\"de\">*Ich habe krank</span>. «Estoy constipada» = <span class=\"de\">Ich bin erkältet</span>: ¡<span class=\"de\">konstipiert</span> significa «estreñida»!</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Mir tut der Kopf weh» = me duele la cabeza. ¿Cómo crees que se dice «me duelen los ojos»?",
+    "o": [
+     "Mir tut die Augen weh.",
+     "Mir tun die Augen weh.",
+     "Ich tue die Augen weh."
+    ],
+    "a": 1,
+    "exp": "¡Igual que en español! El verbo concuerda con lo que duele: me duele → tut, me duelen → tun."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Ich habe ___. (dolor de espalda)",
+     "a": [
+      "Rückenschmerzen",
+      "Rueckenschmerzen"
+     ],
+     "hint": "der Rücken",
+     "exp": "parte del cuerpo + schmerzen, sin artículo: Rücken + Schmerzen."
+    },
+    {
+     "t": "order",
+     "w": [
+      "Schulter",
+      "die",
+      "Tut",
+      "dir",
+      "weh?"
+     ],
+     "a": "Tut dir die Schulter weh?",
+     "es": "¿Te duele el hombro?",
+     "exp": "Pregunta sí/no: el verbo (tut) primero, «dir» = a ti, y «weh» al final."
+    },
+    {
+     "t": "tr",
+     "es": "Tengo fiebre.",
+     "a": [
+      "Ich habe Fieber."
+     ],
+     "exp": "Fieber va sin artículo, como en español: Ich habe Fieber."
+    }
+   ]
   },
   {
    "h": "Beim Arzt – en la consulta",
-   "html": "<ul>\n<li><span class=\"de\">Ich möchte einen Termin machen.</span> – Quisiera pedir cita.</li>\n<li><span class=\"de\">Haben Sie Ihre Versichertenkarte?</span> – ¿Tiene su tarjeta sanitaria? (también <span class=\"de\">Gesundheitskarte</span>)</li>\n<li><span class=\"de\">Was fehlt Ihnen?</span> – ¿Qué le pasa?</li>\n<li><span class=\"de\">Seit wann haben Sie die Schmerzen? – Seit drei Tagen.</span></li>\n<li><span class=\"de\">Ich schreibe Ihnen ein Rezept.</span> – Le hago una receta.</li>\n<li><span class=\"de\">Brauchen Sie eine Krankmeldung?</span> – ¿Necesita una baja?</li>\n</ul>\n<p><span class=\"de\">der Arzt / die Ärztin</span> (médico/a), <span class=\"de\">die Praxis</span> (consulta), <span class=\"de\">das Wartezimmer</span> (sala de espera), <span class=\"de\">das Rezept</span> (receta), <span class=\"de\">die Krankmeldung</span> (baja médica para el trabajo).</p>\n<p><b>Ojo:</b> si estás enferma más de tres días, tu empresa necesita una <span class=\"de\">Krankmeldung</span> del médico. Hoy el médico la envía normalmente de forma electrónica.</p>"
+   "html": "<ul>\n<li><span class=\"de\">Ich möchte einen Termin machen.</span> – Quisiera pedir cita.</li>\n<li><span class=\"de\">Haben Sie Ihre Versichertenkarte?</span> – ¿Tiene su tarjeta sanitaria? (también <span class=\"de\">Gesundheitskarte</span>)</li>\n<li><span class=\"de\">Was fehlt Ihnen?</span> – ¿Qué le pasa?</li>\n<li><span class=\"de\">Seit wann haben Sie die Schmerzen? – Seit drei Tagen.</span></li>\n<li><span class=\"de\">Ich schreibe Ihnen ein Rezept.</span> – Le hago una receta.</li>\n<li><span class=\"de\">Brauchen Sie eine Krankmeldung?</span> – ¿Necesita una baja?</li>\n</ul>\n<p><span class=\"de\">der Arzt / die Ärztin</span> (médico/a), <span class=\"de\">die Praxis</span> (consulta), <span class=\"de\">das Wartezimmer</span> (sala de espera), <span class=\"de\">das Rezept</span> (receta), <span class=\"de\">die Krankmeldung</span> (baja médica para el trabajo).</p>\n<p><b>Ojo:</b> si estás enferma más de tres días, tu empresa necesita una <span class=\"de\">Krankmeldung</span> del médico. Hoy el médico la envía normalmente de forma electrónica.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En la consulta te preguntan: «Was fehlt Ihnen?» (fehlen = faltar). ¿Qué crees que quieren saber?",
+    "o": [
+     "¿Cuánto va a pagar?",
+     "¿Qué le pasa?",
+     "¿Qué le falta en casa?"
+    ],
+    "a": 1,
+    "exp": "Literalmente «¿qué le falta?», pero significa «¿qué le pasa?, ¿qué tiene?»."
+   },
+   "check": [
+    {
+     "t": "match",
+     "p": [
+      [
+       "das Rezept",
+       "la receta"
+      ],
+      [
+       "die Krankmeldung",
+       "la baja médica"
+      ],
+      [
+       "die Praxis",
+       "la consulta"
+      ],
+      [
+       "das Wartezimmer",
+       "la sala de espera"
+      ],
+      [
+       "die Versichertenkarte",
+       "la tarjeta sanitaria"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "Trabajas en un laboratorio y estás enferma cuatro días. ¿Qué necesita tu jefa?",
+     "o": [
+      "einen Termin",
+      "eine Krankmeldung",
+      "ein Rezept"
+     ],
+     "a": 1,
+     "exp": "Más de tres días enferma → la empresa necesita la Krankmeldung (baja) del médico."
+    },
+    {
+     "t": "mc",
+     "q": "La médica pregunta: «Seit wann haben Sie die Schmerzen?» ¿Qué respondes?",
+     "o": [
+      "Seit zwei Tage.",
+      "Seit zwei Tagen.",
+      "Seit zwei Tag."
+     ],
+     "a": 1,
+     "exp": "seit + dativo plural: los sustantivos añaden -n → seit zwei Tagen."
+    }
+   ]
   },
   {
    "h": "Consejos: imperativo formal, sollen y dürfen",
-   "html": "<p>El médico da consejos con el <b>imperativo formal</b> (unidad 10):</p>\n<ul>\n<li><span class=\"de\">Trinken Sie viel Tee!</span></li>\n<li><span class=\"de\">Bleiben Sie zu Hause!</span></li>\n<li><span class=\"de\">Nehmen Sie dreimal täglich eine Tablette!</span></li>\n<li><span class=\"de\">Gehen Sie früh ins Bett!</span></li>\n</ul>\n<p>Para <b>repetir</b> lo que dice el médico se usa <span class=\"de\">sollen</span>: <span class=\"de\">Ich soll viel Tee trinken.</span> – <span class=\"de\">Was soll ich machen?</span> – <span class=\"de\">Sie sollen zu Hause bleiben.</span></p>\n<p>Para <b>prohibir</b> se usa <span class=\"de\">nicht/kein + dürfen</span>:</p>\n<table><thead><tr><th>Alemán</th><th>Español</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Sie dürfen eine Woche keinen Sport machen.</span></td><td>No puede hacer deporte durante una semana.</td></tr>\n<tr><td><span class=\"de\">Sie dürfen nicht boxen.</span></td><td>No puede boxear.</td></tr>\n<tr><td><span class=\"de\">Sie müssen nicht ins Krankenhaus.</span></td><td>No hace falta que vaya al hospital.</td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">keinen Sport</span> (kein + sustantivo) pero <span class=\"de\">nicht boxen</span> (nicht + verbo).</p>"
+   "html": "<p>El médico da consejos con el <b>imperativo formal</b> (unidad 10):</p>\n<ul>\n<li><span class=\"de\">Trinken Sie viel Tee!</span></li>\n<li><span class=\"de\">Bleiben Sie zu Hause!</span></li>\n<li><span class=\"de\">Nehmen Sie dreimal täglich eine Tablette!</span></li>\n<li><span class=\"de\">Gehen Sie früh ins Bett!</span></li>\n</ul>\n<p>Para <b>repetir</b> lo que dice el médico se usa <span class=\"de\">sollen</span>: <span class=\"de\">Ich soll viel Tee trinken.</span> – <span class=\"de\">Was soll ich machen?</span> – <span class=\"de\">Sie sollen zu Hause bleiben.</span></p>\n<p>Para <b>prohibir</b> se usa <span class=\"de\">nicht/kein + dürfen</span>:</p>\n<table><thead><tr><th>Alemán</th><th>Español</th></tr></thead><tbody>\n<tr><td><span class=\"de\">Sie dürfen eine Woche keinen Sport machen.</span></td><td>No puede hacer deporte durante una semana.</td></tr>\n<tr><td><span class=\"de\">Sie dürfen nicht boxen.</span></td><td>No puede boxear.</td></tr>\n<tr><td><span class=\"de\">Sie müssen nicht ins Krankenhaus.</span></td><td>No hace falta que vaya al hospital.</td></tr>\n</tbody></table>\n<p><b>Ojo:</b> <span class=\"de\">keinen Sport</span> (kein + sustantivo) pero <span class=\"de\">nicht boxen</span> (nicht + verbo).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "El médico dice: «Bleiben Sie zu Hause!» Luego Jonas te pregunta qué te ha dicho. ¿Qué crees que respondes?",
+    "o": [
+     "Ich soll zu Hause bleiben.",
+     "Ich kann zu Hause bleiben.",
+     "Ich will zu Hause bleiben."
+    ],
+    "a": 0,
+    "exp": "Para repetir lo que otra persona te manda o aconseja se usa «sollen»."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Die Ärztin sagt: «___ Sie dreimal täglich eine Tablette!»",
+     "a": [
+      "Nehmen"
+     ],
+     "hint": "nehmen",
+     "exp": "Imperativo formal: infinitivo + Sie → Nehmen Sie!"
+    },
+    {
+     "t": "mc",
+     "q": "Sie dürfen eine Woche ___ boxen.",
+     "o": [
+      "kein",
+      "keinen",
+      "nicht"
+     ],
+     "a": 2,
+     "exp": "Con un verbo (boxen) se niega con «nicht»; «kein» va con sustantivos (keinen Sport)."
+    },
+    {
+     "t": "tr",
+     "es": "Debo beber mucha agua (lo dice el médico).",
+     "a": [
+      "Ich soll viel Wasser trinken."
+     ],
+     "exp": "El médico lo recomienda → sollen. El infinitivo «trinken» va al final."
+    }
+   ]
   },
   {
    "h": "In der Apotheke – en la farmacia",
-   "html": "<ul>\n<li><span class=\"de\">Ich brauche etwas gegen Kopfschmerzen.</span> – Necesito algo para el dolor de cabeza.</li>\n<li><span class=\"de\">Haben Sie etwas gegen Husten?</span></li>\n<li><span class=\"de\">Brauche ich ein Rezept?</span></li>\n<li><span class=\"de\">Wie oft soll ich die Tabletten nehmen? – Dreimal täglich, nach dem Essen.</span></li>\n</ul>\n<p><span class=\"de\">etwas gegen</span> + problema = «algo para / contra». <span class=\"de\">einmal, zweimal, dreimal täglich</span> = una, dos, tres veces al día.</p>\n<p><b>Ojo:</b> la <span class=\"de\">Drogerie</span> (dm, Rossmann) vende cosmética y productos de higiene, <b>no medicamentos</b>. Hasta el ibuprofeno se compra en la <span class=\"de\">Apotheke</span>.</p>"
+   "html": "<ul>\n<li><span class=\"de\">Ich brauche etwas gegen Kopfschmerzen.</span> – Necesito algo para el dolor de cabeza.</li>\n<li><span class=\"de\">Haben Sie etwas gegen Husten?</span></li>\n<li><span class=\"de\">Brauche ich ein Rezept?</span></li>\n<li><span class=\"de\">Wie oft soll ich die Tabletten nehmen? – Dreimal täglich, nach dem Essen.</span></li>\n</ul>\n<p><span class=\"de\">etwas gegen</span> + problema = «algo para / contra». <span class=\"de\">einmal, zweimal, dreimal täglich</span> = una, dos, tres veces al día.</p>\n<p><b>Ojo:</b> la <span class=\"de\">Drogerie</span> (dm, Rossmann) vende cosmética y productos de higiene, <b>no medicamentos</b>. Hasta el ibuprofeno se compra en la <span class=\"de\">Apotheke</span>.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En la farmacia dices: «Ich brauche etwas gegen Kopfschmerzen.» ¿Qué crees que significa «etwas gegen»?",
+    "o": [
+     "algo para / contra",
+     "algo sin",
+     "algo con"
+    ],
+    "a": 0,
+    "exp": "«gegen» = contra: «algo contra el dolor de cabeza», es decir, «algo para el dolor de cabeza»."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Haben Sie etwas ___ Schnupfen?",
+     "a": [
+      "gegen"
+     ],
+     "exp": "«etwas gegen» + problema = algo para (contra) el problema."
+    },
+    {
+     "t": "mc",
+     "q": "«Dreimal täglich» significa:",
+     "o": [
+      "tres veces al día",
+      "cada tres días",
+      "durante tres días"
+     ],
+     "a": 0,
+     "exp": "dreimal = tres veces; täglich = al día, diariamente."
+    },
+    {
+     "t": "order",
+     "w": [
+      "oft",
+      "Tabletten",
+      "nehmen?",
+      "soll",
+      "Wie",
+      "die",
+      "ich"
+     ],
+     "a": "Wie oft soll ich die Tabletten nehmen?",
+     "es": "¿Cada cuánto tengo que tomar las pastillas?",
+     "exp": "Pregunta con W-: «Wie oft», luego el modal (soll), el sujeto, y el infinitivo al final."
+    }
+   ]
   }
  ],
  "vocab": [

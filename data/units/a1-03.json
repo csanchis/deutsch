@@ -13,23 +13,248 @@
  "lessons": [
   {
    "h": "Conjugación regular en presente",
-   "html": "<p>Quita <b>-en</b> al infinitivo (<i>lern-en</i>) y añade la terminación:</p><table><thead><tr><th>persona</th><th>terminación</th><th>lernen</th><th>machen</th><th>spielen</th></tr></thead><tbody><tr><td>ich</td><td>-e</td><td>lerne</td><td>mache</td><td>spiele</td></tr><tr><td>du</td><td>-st</td><td>lernst</td><td>machst</td><td>spielst</td></tr><tr><td>er/sie/es</td><td>-t</td><td>lernt</td><td>macht</td><td>spielt</td></tr><tr><td>wir</td><td>-en</td><td>lernen</td><td>machen</td><td>spielen</td></tr><tr><td>ihr</td><td>-t</td><td>lernt</td><td>macht</td><td>spielt</td></tr><tr><td>sie/Sie</td><td>-en</td><td>lernen</td><td>machen</td><td>spielen</td></tr></tbody></table><p>Fíjate: <b>er</b> e <b>ihr</b> tienen la misma forma (<span class=\"de\">er lernt / ihr lernt</span>), y <b>wir</b>, <b>sie</b> y <b>Sie</b> son iguales al infinitivo.</p><p>El presente alemán sirve para «aprendo» y «estoy aprendiendo»: <span class=\"de\">Ich lerne Deutsch</span>. <b>Ojo:</b> no existe *Ich bin lernen.</p>"
+   "html": "<p>Quita <b>-en</b> al infinitivo (<i>lern-en</i>) y añade la terminación:</p><table><thead><tr><th>persona</th><th>terminación</th><th>lernen</th><th>machen</th><th>spielen</th></tr></thead><tbody><tr><td>ich</td><td>-e</td><td>lerne</td><td>mache</td><td>spiele</td></tr><tr><td>du</td><td>-st</td><td>lernst</td><td>machst</td><td>spielst</td></tr><tr><td>er/sie/es</td><td>-t</td><td>lernt</td><td>macht</td><td>spielt</td></tr><tr><td>wir</td><td>-en</td><td>lernen</td><td>machen</td><td>spielen</td></tr><tr><td>ihr</td><td>-t</td><td>lernt</td><td>macht</td><td>spielt</td></tr><tr><td>sie/Sie</td><td>-en</td><td>lernen</td><td>machen</td><td>spielen</td></tr></tbody></table><p>Fíjate: <b>er</b> e <b>ihr</b> tienen la misma forma (<span class=\"de\">er lernt / ihr lernt</span>), y <b>wir</b>, <b>sie</b> y <b>Sie</b> son iguales al infinitivo.</p><p>El presente alemán sirve para «aprendo» y «estoy aprendiendo»: <span class=\"de\">Ich lerne Deutsch</span>. <b>Ojo:</b> no existe *Ich bin lernen.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Ya sabes «ich wohne, du wohnst, er wohnt». ¿Cómo crees que se dice «tú aprendes» con el verbo lernen?",
+    "o": [
+     "du lernst",
+     "du lerne",
+     "du lernt"
+    ],
+    "a": 0,
+    "exp": "¡Las mismas terminaciones! Casi todos los verbos funcionan igual: du → -st: du lernst."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Lucía und Jonas ___ heute Tennis.",
+     "a": [
+      "spielen"
+     ],
+     "hint": "spielen",
+     "exp": "Lucía y Jonas = sie (ellos) → -en: sie spielen."
+    },
+    {
+     "t": "mc",
+     "q": "¿Cómo se dice «Estoy aprendiendo alemán»?",
+     "o": [
+      "Ich lerne Deutsch.",
+      "Ich bin lernen Deutsch.",
+      "Ich bin Deutsch lernen."
+     ],
+     "a": 0,
+     "exp": "El presente alemán vale para «aprendo» y «estoy aprendiendo»: Ich lerne Deutsch."
+    },
+    {
+     "t": "match",
+     "p": [
+      [
+       "ich",
+       "mache"
+      ],
+      [
+       "du",
+       "machst"
+      ],
+      [
+       "sie (ella)",
+       "macht"
+      ],
+      [
+       "wir",
+       "machen"
+      ]
+     ]
+    }
+   ]
   },
   {
    "h": "Verbos en -ten / -den y en -s / -ß / -z",
-   "html": "<p>Si la raíz acaba en <b>-t</b> o <b>-d</b>, se mete una <b>-e-</b> en du, er/sie/es e ihr para poder pronunciarlo:</p><table><thead><tr><th></th><th>arbeiten</th><th>finden</th></tr></thead><tbody><tr><td>ich</td><td>arbeite</td><td>finde</td></tr><tr><td>du</td><td>arbeit<b>e</b>st</td><td>find<b>e</b>st</td></tr><tr><td>er/sie/es</td><td>arbeit<b>e</b>t</td><td>find<b>e</b>t</td></tr><tr><td>wir</td><td>arbeiten</td><td>finden</td></tr><tr><td>ihr</td><td>arbeit<b>e</b>t</td><td>find<b>e</b>t</td></tr><tr><td>sie/Sie</td><td>arbeiten</td><td>finden</td></tr></tbody></table><p>Si la raíz acaba en <b>-s, -ß, -z</b>, en du solo se añade <b>-t</b>: <span class=\"de\">du heißt, du tanzt</span>.</p><p><b>Ojo:</b> *du arbeitst o *er arbeitt son errores frecuentes. <span class=\"de\">Wie findest du Berlin?</span> = ¿Qué te parece Berlín?</p>"
+   "html": "<p>Si la raíz acaba en <b>-t</b> o <b>-d</b>, se mete una <b>-e-</b> en du, er/sie/es e ihr para poder pronunciarlo:</p><table><thead><tr><th></th><th>arbeiten</th><th>finden</th></tr></thead><tbody><tr><td>ich</td><td>arbeite</td><td>finde</td></tr><tr><td>du</td><td>arbeit<b>e</b>st</td><td>find<b>e</b>st</td></tr><tr><td>er/sie/es</td><td>arbeit<b>e</b>t</td><td>find<b>e</b>t</td></tr><tr><td>wir</td><td>arbeiten</td><td>finden</td></tr><tr><td>ihr</td><td>arbeit<b>e</b>t</td><td>find<b>e</b>t</td></tr><tr><td>sie/Sie</td><td>arbeiten</td><td>finden</td></tr></tbody></table><p>Si la raíz acaba en <b>-s, -ß, -z</b>, en du solo se añade <b>-t</b>: <span class=\"de\">du heißt, du tanzt</span>.</p><p><b>Ojo:</b> *du arbeitst o *er arbeitt son errores frecuentes. <span class=\"de\">Wie findest du Berlin?</span> = ¿Qué te parece Berlín?</p>",
+   "pre": {
+    "t": "mc",
+    "q": "Intenta pronunciar «er arbeitt»… imposible, ¿verdad? ¿Qué crees que hace el alemán?",
+    "o": [
+     "Mete una -e-: er arbeitet",
+     "Quita una t: er arbeit",
+     "Lo deja así: er arbeitt"
+    ],
+    "a": 0,
+    "exp": "Si la raíz acaba en -t o -d, se mete una -e- para poder pronunciarlo: du arbeitest, er arbeitet."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Ihr ___ heute viel.",
+     "a": [
+      "arbeitet"
+     ],
+     "hint": "arbeiten",
+     "exp": "ihr + raíz en -t → -e-: ihr arbeitet."
+    },
+    {
+     "t": "mc",
+     "q": "Du ___ Boxen super, oder?",
+     "o": [
+      "findest",
+      "findst",
+      "finden"
+     ],
+     "a": 0,
+     "exp": "Raíz en -d: du findest."
+    },
+    {
+     "t": "mc",
+     "q": "Du ___ super!",
+     "o": [
+      "tanzt",
+      "tanzst",
+      "tanzest"
+     ],
+     "a": 0,
+     "exp": "Raíz en -z: en du solo se añade -t: du tanzt."
+    }
+   ]
   },
   {
    "h": "El verbo haben (tener)",
-   "html": "<table><thead><tr><th>persona</th><th>haben</th></tr></thead><tbody><tr><td>ich</td><td>habe</td></tr><tr><td>du</td><td>hast</td></tr><tr><td>er/sie/es</td><td>hat</td></tr><tr><td>wir</td><td>haben</td></tr><tr><td>ihr</td><td>habt</td></tr><tr><td>sie/Sie</td><td>haben</td></tr></tbody></table><p>Igual que en español: <span class=\"de\">Ich habe Hunger</span> (tengo hambre), <span class=\"de\">Hast du Durst?</span> (¿tienes sed?), <span class=\"de\">Wir haben Zeit</span> (tenemos tiempo).</p><p><b>Ojo:</b> la edad <b>no</b> va con haben: <span class=\"de\">Ich bin 30</span>, no *Ich habe 30 Jahre. Y <span class=\"de\">du hast / er hat</span> pierden la b.</p>"
+   "html": "<table><thead><tr><th>persona</th><th>haben</th></tr></thead><tbody><tr><td>ich</td><td>habe</td></tr><tr><td>du</td><td>hast</td></tr><tr><td>er/sie/es</td><td>hat</td></tr><tr><td>wir</td><td>haben</td></tr><tr><td>ihr</td><td>habt</td></tr><tr><td>sie/Sie</td><td>haben</td></tr></tbody></table><p>Igual que en español: <span class=\"de\">Ich habe Hunger</span> (tengo hambre), <span class=\"de\">Hast du Durst?</span> (¿tienes sed?), <span class=\"de\">Wir haben Zeit</span> (tenemos tiempo).</p><p><b>Ojo:</b> la edad <b>no</b> va con haben: <span class=\"de\">Ich bin 30</span>, no *Ich habe 30 Jahre. Y <span class=\"de\">du hast / er hat</span> pierden la b.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español: «tengo hambre». Con haben (tener), ¿cómo crees que se dice en alemán?",
+    "o": [
+     "Ich habe Hunger.",
+     "Ich bin Hunger.",
+     "Ich habe hungrig."
+    ],
+    "a": 0,
+    "exp": "¡Igual que en español! haben + Hunger: Ich habe Hunger."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Wir ___ Durst.",
+     "a": [
+      "haben"
+     ],
+     "hint": "haben",
+     "exp": "wir → haben: Wir haben Durst (tenemos sed)."
+    },
+    {
+     "t": "mc",
+     "q": "Jonas ___ Durst.",
+     "o": [
+      "hat",
+      "habt",
+      "hast"
+     ],
+     "a": 0,
+     "exp": "er/sie/es → hat (sin b)."
+    },
+    {
+     "t": "tr",
+     "es": "Tengo sed.",
+     "a": [
+      "Ich habe Durst."
+     ],
+     "exp": "Como en español: haben + Durst."
+    }
+   ]
   },
   {
    "h": "El verbo en 2ª posición y las preguntas de sí/no",
-   "html": "<table><thead><tr><th>tipo</th><th>posición 1</th><th>posición 2 (verbo)</th><th>resto</th></tr></thead><tbody><tr><td>afirmación</td><td>Ich</td><td>arbeite</td><td>in Heidelberg.</td></tr><tr><td>pregunta W</td><td>Wo</td><td>arbeitest</td><td>du?</td></tr><tr><td>pregunta sí/no</td><td colspan=\"2\">Arbeitest (verbo en posición 1)</td><td>du in Heidelberg?</td></tr></tbody></table><p>En una frase afirmativa el verbo conjugado es siempre el <b>segundo elemento</b>. Si empieza otro elemento, el sujeto se coloca justo detrás del verbo: <span class=\"de\">Heute arbeite ich.</span> (lo practicarás a fondo en la unidad 7).</p><p>En las preguntas de sí/no el verbo va <b>el primero</b>: <span class=\"de\">Lernst du Deutsch?</span> – <span class=\"de\">Ja.</span> / <span class=\"de\">Nein.</span></p><p><b>Ojo:</b> en español basta la entonación («¿Trabajas en Berlín?»); en alemán hay que <b>invertir</b> verbo y sujeto: <span class=\"de\">Arbeitest du in Berlin?</span></p>"
+   "html": "<table><thead><tr><th>tipo</th><th>posición 1</th><th>posición 2 (verbo)</th><th>resto</th></tr></thead><tbody><tr><td>afirmación</td><td>Ich</td><td>arbeite</td><td>in Heidelberg.</td></tr><tr><td>pregunta W</td><td>Wo</td><td>arbeitest</td><td>du?</td></tr><tr><td>pregunta sí/no</td><td colspan=\"2\">Arbeitest (verbo en posición 1)</td><td>du in Heidelberg?</td></tr></tbody></table><p>En una frase afirmativa el verbo conjugado es siempre el <b>segundo elemento</b>. Si empieza otro elemento, el sujeto se coloca justo detrás del verbo: <span class=\"de\">Heute arbeite ich.</span> (lo practicarás a fondo en la unidad 7).</p><p>En las preguntas de sí/no el verbo va <b>el primero</b>: <span class=\"de\">Lernst du Deutsch?</span> – <span class=\"de\">Ja.</span> / <span class=\"de\">Nein.</span></p><p><b>Ojo:</b> en español basta la entonación («¿Trabajas en Berlín?»); en alemán hay que <b>invertir</b> verbo y sujeto: <span class=\"de\">Arbeitest du in Berlin?</span></p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español «¿Trabajas en Berlín?» se distingue solo por la entonación. ¿Cómo crees que se pregunta en alemán?",
+    "o": [
+     "Arbeitest du in Berlin?",
+     "Du in Berlin arbeitest?",
+     "In Berlin du arbeitest?"
+    ],
+    "a": 0,
+    "exp": "En las preguntas de sí/no el verbo va el primero: Arbeitest du in Berlin?"
+   },
+   "check": [
+    {
+     "t": "order",
+     "w": [
+      "du",
+      "Kochst",
+      "heute?"
+     ],
+     "a": "Kochst du heute?",
+     "es": "¿Cocinas hoy?"
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál es correcta?",
+     "o": [
+      "Heute arbeite ich.",
+      "Heute ich arbeite.",
+      "Arbeite heute ich."
+     ],
+     "a": 0,
+     "exp": "El verbo va en 2ª posición: si empieza «Heute», el sujeto se coloca detrás del verbo."
+    },
+    {
+     "t": "tr",
+     "es": "¿Estudias en Heidelberg?",
+     "a": [
+      "Studierst du in Heidelberg?"
+     ],
+     "exp": "Pregunta de sí/no: verbo primero + sujeto + resto."
+    }
+   ]
   },
   {
    "h": "Profesiones: masculino y femenino -in",
-   "html": "<table><thead><tr><th>masculino</th><th>femenino</th><th>español</th></tr></thead><tbody><tr><td>der Lehrer</td><td>die Lehrerin</td><td>profesor/a</td></tr><tr><td>der Biologe</td><td>die Biologin</td><td>biólogo/a</td></tr><tr><td>der Ingenieur</td><td>die Ingenieurin</td><td>ingeniero/a</td></tr><tr><td>der Student</td><td>die Studentin</td><td>estudiante</td></tr><tr><td>der Verkäufer</td><td>die Verkäuferin</td><td>vendedor/a</td></tr><tr><td>der Arzt</td><td>die <b>Ä</b>rztin</td><td>médico/a</td></tr><tr><td>der Koch</td><td>die K<b>ö</b>chin</td><td>cocinero/a</td></tr></tbody></table><p>El femenino casi siempre se forma con <b>-in</b> (plural <b>-innen</b>); algunos añaden Umlaut (Arzt → Ärztin). Si el masculino acaba en -e, la -e cae: Biologe → Biologin.</p><p>La profesión va <b>sin artículo</b>, como en español: <span class=\"de\">Ich bin Biologin.</span> (no *Ich bin eine Biologin). Preguntar: <span class=\"de\">Was sind Sie von Beruf?</span> / <span class=\"de\">Was machst du beruflich?</span> También: <span class=\"de\">Ich arbeite als Ärztin.</span></p><p><b>Ojo:</b> una mujer dice siempre la forma en -in: <span class=\"de\">Ich bin Lehrerin</span>, no *Ich bin Lehrer.</p>"
+   "html": "<table><thead><tr><th>masculino</th><th>femenino</th><th>español</th></tr></thead><tbody><tr><td>der Lehrer</td><td>die Lehrerin</td><td>profesor/a</td></tr><tr><td>der Biologe</td><td>die Biologin</td><td>biólogo/a</td></tr><tr><td>der Ingenieur</td><td>die Ingenieurin</td><td>ingeniero/a</td></tr><tr><td>der Student</td><td>die Studentin</td><td>estudiante</td></tr><tr><td>der Verkäufer</td><td>die Verkäuferin</td><td>vendedor/a</td></tr><tr><td>der Arzt</td><td>die <b>Ä</b>rztin</td><td>médico/a</td></tr><tr><td>der Koch</td><td>die K<b>ö</b>chin</td><td>cocinero/a</td></tr></tbody></table><p>El femenino casi siempre se forma con <b>-in</b> (plural <b>-innen</b>); algunos añaden Umlaut (Arzt → Ärztin). Si el masculino acaba en -e, la -e cae: Biologe → Biologin.</p><p>La profesión va <b>sin artículo</b>, como en español: <span class=\"de\">Ich bin Biologin.</span> (no *Ich bin eine Biologin). Preguntar: <span class=\"de\">Was sind Sie von Beruf?</span> / <span class=\"de\">Was machst du beruflich?</span> También: <span class=\"de\">Ich arbeite als Ärztin.</span></p><p><b>Ojo:</b> una mujer dice siempre la forma en -in: <span class=\"de\">Ich bin Lehrerin</span>, no *Ich bin Lehrer.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«der Lehrer» = el profesor, «die Lehrerin» = la profesora. Si «der Ingenieur» es el ingeniero, ¿cómo crees que es «la ingeniera»?",
+    "o": [
+     "die Ingenieurin",
+     "die Ingenieura",
+     "die Ingenieure"
+    ],
+    "a": 0,
+    "exp": "El femenino casi siempre se forma con -in: Ingenieur → Ingenieurin."
+   },
+   "check": [
+    {
+     "t": "mc",
+     "q": "Carmen es médica: «Carmen ist ___.»",
+     "o": [
+      "Ärztin",
+      "Arztin",
+      "eine Ärztin"
+     ],
+     "a": 0,
+     "exp": "Femenino de Arzt con Umlaut (Ärztin) y sin artículo, como en español."
+    },
+    {
+     "t": "gap",
+     "q": "Was sind Sie von ___?",
+     "a": [
+      "Beruf"
+     ],
+     "hint": "profesión",
+     "exp": "«Was sind Sie von Beruf?» = ¿A qué se dedica usted?"
+    },
+    {
+     "t": "order",
+     "w": [
+      "arbeite",
+      "als",
+      "Ich",
+      "Köchin."
+     ],
+     "a": "Ich arbeite als Köchin.",
+     "es": "Trabajo como cocinera."
+    }
+   ]
   }
  ],
  "vocab": [

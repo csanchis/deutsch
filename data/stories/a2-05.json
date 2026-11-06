@@ -1,0 +1,150 @@
+{
+ "title": "Größer, stärker – aber schneller?",
+ "title_es": "Más grande, más fuerte… pero ¿más rápido?",
+ "lines": [
+  {
+   "de": "Freitag, Neckar Boxen. Kai ruft: «Sparring! Lucía und Felix, in den Ring!»",
+   "es": "Viernes, Neckar Boxen. Kai grita: «¡Sparring! ¡Lucía y Felix, al ring!»"
+  },
+  {
+   "who": "Felix",
+   "de": "Lucía! Endlich. Bist du heute schneller als am Montag?",
+   "es": "¡Lucía! Por fin. ¿Hoy eres más rápida que el lunes?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ich bin immer schneller als du, Felix.",
+   "es": "Siempre soy más rápida que tú, Felix."
+  },
+  {
+   "who": "Felix",
+   "de": "Vielleicht. Aber ich bin größer und stärker.",
+   "es": "Puede ser. Pero yo soy más grande y más fuerte."
+  },
+  {
+   "de": "Felix ist zwanzig Zentimeter größer als Lucía und viel schwerer. Aber Lucía ist schneller.",
+   "es": "Felix es veinte centímetros más alto que Lucía y mucho más pesado. Pero Lucía es más rápida."
+  },
+  {
+   "who": "Kai",
+   "de": "Lucía, schneller! Felix, nicht so hart, das ist nur Training!",
+   "es": "¡Lucía, más rápido! ¡Felix, no tan fuerte, que es solo un entrenamiento!"
+  },
+  {
+   "who": "Felix",
+   "de": "Du boxt besser als viele Männer hier. Wer hat dir das gezeigt?",
+   "es": "Boxeas mejor que muchos hombres de aquí. ¿Quién te ha enseñado?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Mein Trainer in Valencia. Er war noch strenger als Kai.",
+   "es": "Mi entrenador de Valencia. Era aún más estricto que Kai."
+  },
+  {
+   "who": "Kai",
+   "de": "Strenger als ich? Das glaube ich nicht!",
+   "es": "¿Más estricto que yo? ¡No me lo creo!"
+  },
+  {
+   "who": "Felix",
+   "de": "Und dein Projekt im Labor? Ist die Hefe schon so hell wie eine Lampe?",
+   "es": "¿Y tu proyecto en el laboratorio? ¿La levadura ya brilla tanto como una lámpara?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Warum fragst du immer nach meiner Arbeit?",
+   "es": "¿Por qué siempre preguntas por mi trabajo?"
+  },
+  {
+   "who": "Felix",
+   "de": "Ich finde Biologie interessanter als Boxen. Das ist alles.",
+   "es": "La biología me parece más interesante que el boxeo. Eso es todo."
+  },
+  {
+   "de": "Am Ende gewinnt Lucía die Runde. Kai sagt: «Am schnellsten war heute Lucía!»",
+   "es": "Al final Lucía gana el asalto. Kai dice: «¡Hoy la más rápida ha sido Lucía!»"
+  },
+  {
+   "de": "Nach dem Training geht Lucía noch ins Labor. Es ist spät. Nur Mia ist noch da.",
+   "es": "Después del entrenamiento Lucía pasa por el laboratorio. Es tarde. Solo queda Mia."
+  },
+  {
+   "who": "Mia",
+   "de": "Oh! Lucía … Ich gehe jetzt. Tschüss!",
+   "es": "¡Oh! Lucía… Ya me voy. ¡Adiós!"
+  },
+  {
+   "de": "Mia geht sehr schnell. Aber ihr Handy liegt noch auf dem Tisch. Eine Nachricht leuchtet:",
+   "es": "Mia se va muy deprisa. Pero su móvil sigue encima de la mesa. Se ilumina un mensaje:"
+  },
+  {
+   "de": "An Felix: «Samstag, 8 Uhr.»",
+   "es": "Para Felix: «Sábado, 8 h.»"
+  }
+ ],
+ "gloss": [
+  [
+   "das Sparring",
+   "el combate de entrenamiento"
+  ],
+  [
+   "der Ring",
+   "el ring"
+  ],
+  [
+   "hart",
+   "duro, fuerte"
+  ],
+  [
+   "streng",
+   "estricto"
+  ],
+  [
+   "die Runde",
+   "el asalto"
+  ],
+  [
+   "die Nachricht",
+   "el mensaje"
+  ],
+  [
+   "leuchten",
+   "brillar, iluminarse"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿En qué es mejor Lucía que Felix?",
+   "o": [
+    "Es más fuerte",
+    "Es más rápida",
+    "Es más alta"
+   ],
+   "a": 1,
+   "exp": "Felix es «größer und stärker», pero «Lucía ist schneller»."
+  },
+  {
+   "t": "mc",
+   "q": "¿Por qué pregunta Felix con mucho interés?",
+   "o": [
+    "Por el entrenador de Valencia",
+    "Por el proyecto de la levadura",
+    "Por Frau Becker"
+   ],
+   "a": 1,
+   "exp": "«Und dein Projekt im Labor? Ist die Hefe schon so hell wie eine Lampe?»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué ve Lucía en el móvil de Mia?",
+   "o": [
+    "Una foto de Einstein",
+    "Un mensaje para Felix: «Samstag, 8 Uhr»",
+    "Un billete de tren a Berlín"
+   ],
+   "a": 1,
+   "exp": "En el móvil de Mia se ilumina: «An Felix: Samstag, 8 Uhr.»"
+  }
+ ]
+}

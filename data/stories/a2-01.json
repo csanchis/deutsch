@@ -1,0 +1,162 @@
+{
+ "title": "Was ist damals passiert?",
+ "title_es": "¿Qué pasó entonces?",
+ "lines": [
+  {
+   "de": "Es ist acht Uhr morgens. Lucía ist heute schon um fünf aufgestanden.",
+   "es": "Son las ocho de la mañana. Hoy Lucía se ha levantado ya a las cinco."
+  },
+  {
+   "de": "Der Inkubator ist immer noch leer. Alle Proben sind weg.",
+   "es": "La incubadora sigue vacía. Todas las muestras han desaparecido."
+  },
+  {
+   "who": "Lucía",
+   "de": "Frau Wolf, jemand hat alle Proben mitgenommen!",
+   "es": "Profesora Wolf, ¡alguien se ha llevado todas las muestras!"
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Ich weiß. Herr Brandt hat mich um sechs angerufen. Kommen Sie bitte in mein Büro. Sie auch, Jonas.",
+   "es": "Lo sé. Herr Brandt me ha llamado a las seis. Venga a mi despacho, por favor. Usted también, Jonas."
+  },
+  {
+   "who": "Jonas",
+   "de": "Moment, ich habe heute noch keinen Kaffee getrunken … Okay, ich komme!",
+   "es": "Un momento, hoy todavía no me he tomado ningún café… ¡Vale, ya voy!"
+  },
+  {
+   "who": "Lucía",
+   "de": "Kennen Sie Felix? Jonas hat ihn gestern im Internet gefunden.",
+   "es": "¿Conoce a Felix? Jonas lo encontró ayer en internet."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Ja, ich kenne ihn. Felix war mein Doktorand. Er hat fünf Jahre hier gearbeitet.",
+   "es": "Sí, lo conozco. Felix era mi doctorando. Trabajó aquí cinco años."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Zuerst war alles gut. Er hat viel experimentiert, und seine Ergebnisse waren super.",
+   "es": "Al principio todo iba bien. Experimentaba mucho y sus resultados eran estupendos."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Dann hat er oft mit einer Firma in Berlin telefoniert. Mit NovaGen.",
+   "es": "Luego empezó a hablar a menudo por teléfono con una empresa de Berlín. Con NovaGen."
+  },
+  {
+   "who": "Lucía",
+   "de": "Und danach?",
+   "es": "¿Y después?"
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Danach sind meine Daten verschwunden. Er hat sie nach Berlin mitgenommen und ist nie zurückgekommen.",
+   "es": "Después desaparecieron mis datos. Se los llevó a Berlín y nunca volvió."
+  },
+  {
+   "who": "Jonas",
+   "de": "Haben Sie die Polizei angerufen?",
+   "es": "¿Llamó usted a la policía?"
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Natürlich. Aber die Polizei hat nichts gefunden. Am Ende hat NovaGen viel Geld verdient, und ich habe drei Jahre Arbeit verloren.",
+   "es": "Por supuesto. Pero la policía no encontró nada. Al final NovaGen ganó mucho dinero y yo perdí tres años de trabajo."
+  },
+  {
+   "who": "Lucía",
+   "de": "Frau Wolf … ich habe Felix schon kennengelernt. Er trainiert in meinem Boxclub.",
+   "es": "Profesora Wolf… yo ya he conocido a Felix. Entrena en mi club de boxeo."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Was? Seien Sie vorsichtig, Frau García. Felix ist sehr charmant.",
+   "es": "¿Qué? Tenga cuidado, señora García. Felix es muy encantador."
+  },
+  {
+   "de": "Am Abend kommt Lucía müde nach Hause. Frau Becker wartet schon mit Einstein auf der Treppe.",
+   "es": "Por la noche Lucía llega cansada a casa. Frau Becker ya la está esperando con Einstein en la escalera."
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Lucía, endlich! Weißt du was?",
+   "es": "¡Lucía, por fin! ¿Sabes qué?"
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Felix hat mich gestern besucht und einen Koffer mitgebracht.",
+   "es": "Felix vino a verme ayer y trajo una maleta."
+  }
+ ],
+ "gloss": [
+  [
+   "der Inkubator",
+   "la incubadora"
+  ],
+  [
+   "experimentieren",
+   "experimentar"
+  ],
+  [
+   "die Ergebnisse",
+   "los resultados"
+  ],
+  [
+   "verschwinden (ist verschwunden)",
+   "desaparecer"
+  ],
+  [
+   "kennenlernen",
+   "conocer (a alguien por primera vez)"
+  ],
+  [
+   "vorsichtig",
+   "prudente, con cuidado"
+  ],
+  [
+   "charmant",
+   "encantador"
+  ],
+  [
+   "die Treppe",
+   "la escalera"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Qué relación tenía Felix con la Prof. Wolf?",
+   "o": [
+    "Era su doctorando",
+    "Era su hermano",
+    "Era el conserje del instituto"
+   ],
+   "a": 0,
+   "exp": "«Felix war mein Doktorand» = Felix era mi doctorando."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué pasó con los datos de la Prof. Wolf?",
+   "o": [
+    "La policía los encontró",
+    "Desaparecieron: Felix se los llevó a Berlín",
+    "Felix los publicó con la Prof. Wolf"
+   ],
+   "a": 1,
+   "exp": "«Danach sind meine Daten verschwunden. Er hat sie nach Berlin mitgenommen.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué le cuenta Frau Becker a Lucía al final?",
+   "o": [
+    "Que Einstein está enfermo",
+    "Que Felix la visitó ayer y trajo una maleta",
+    "Que ha perdido las llaves"
+   ],
+   "a": 1,
+   "exp": "«Felix hat mich gestern besucht und einen Koffer mitgebracht.»"
+  }
+ ]
+}

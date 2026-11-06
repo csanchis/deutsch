@@ -1,0 +1,1957 @@
+[
+ {
+  "id": "kampfstellung",
+  "unit": "a1-04",
+  "kind": "técnica",
+  "title": "Die Kampfstellung",
+  "title_es": "La posición de combate",
+  "yt": "Boxen lernen Grundstellung Deckung Anfänger",
+  "lines": [
+   {
+    "de": "Das ist die Kampfstellung. Sie ist die Basis im Boxen.",
+    "es": "Esta es la posición de combate. Es la base del boxeo."
+   },
+   {
+    "de": "Ich bin Rechtshänderin. Der linke Fuß ist vorne, der rechte Fuß ist hinten.",
+    "es": "Soy diestra. El pie izquierdo está delante y el derecho, detrás."
+   },
+   {
+    "de": "Die Füße sind schulterbreit auseinander.",
+    "es": "Los pies están separados a la anchura de los hombros."
+   },
+   {
+    "de": "Die Knie sind ein bisschen gebeugt. Sie sind locker.",
+    "es": "Las rodillas están un poco flexionadas. Están sueltas."
+   },
+   {
+    "de": "Die Hände sind oben. Das ist die Deckung.",
+    "es": "Las manos están arriba. Esa es la guardia."
+   },
+   {
+    "de": "Die Fäuste sind am Gesicht. Die rechte Faust ist am Kinn.",
+    "es": "Los puños están junto a la cara. El puño derecho está en el mentón."
+   },
+   {
+    "de": "Die Ellbogen sind unten und eng am Körper.",
+    "es": "Los codos están abajo y pegados al cuerpo."
+   },
+   {
+    "de": "Und das Kinn? Das Kinn ist unten.",
+    "es": "¿Y el mentón? El mentón está abajo."
+   },
+   {
+    "de": "„Kinn runter!“, sagt mein Trainer. Das ist seine Regel Nummer eins.",
+    "es": "«¡Mentón abajo!», dice mi entrenador. Es su regla número uno."
+   },
+   {
+    "de": "Die Schultern sind locker. Die Augen sind immer offen.",
+    "es": "Los hombros están sueltos. Los ojos están siempre abiertos."
+   },
+   {
+    "de": "Ich bin ruhig, aber wach.",
+    "es": "Estoy tranquila, pero atenta."
+   },
+   {
+    "de": "Mein Partner ist Linkshänder. Seine Stellung ist umgekehrt.",
+    "es": "Mi compañero es zurdo. Su posición es al revés."
+   },
+   {
+    "de": "Die Deckung ist sehr wichtig. Ohne Deckung kein Schutz!",
+    "es": "La guardia es muy importante. ¡Sin guardia no hay protección!"
+   }
+  ],
+  "gloss": [
+   [
+    "die Kampfstellung",
+    "la posición de combate"
+   ],
+   [
+    "der linke / der rechte Fuß",
+    "el pie izquierdo / derecho"
+   ],
+   [
+    "schulterbreit",
+    "a la anchura de los hombros"
+   ],
+   [
+    "gebeugt",
+    "flexionado"
+   ],
+   [
+    "die Deckung",
+    "la guardia"
+   ],
+   [
+    "die Faust (Fäuste)",
+    "el puño"
+   ],
+   [
+    "das Kinn",
+    "el mentón"
+   ],
+   [
+    "der Ellbogen",
+    "el codo"
+   ],
+   [
+    "umgekehrt",
+    "al revés"
+   ],
+   [
+    "der Schutz",
+    "la protección"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "En la guardia, ¿dónde está el mentón?",
+    "o": [
+     "Arriba",
+     "Abajo",
+     "Hacia un lado"
+    ],
+    "a": 1,
+    "exp": "«Das Kinn ist unten.» – «Kinn runter!» es la regla número uno del entrenador."
+   },
+   {
+    "t": "gap",
+    "q": "Die Hände sind ___. Das ist die Deckung.",
+    "a": [
+     "oben"
+    ],
+    "hint": "arriba",
+    "exp": "Las manos arriba (oben) forman la guardia (die Deckung)."
+   },
+   {
+    "t": "order",
+    "w": [
+     "ist",
+     "Kinn",
+     "Das",
+     "unten"
+    ],
+    "a": "Das Kinn ist unten.",
+    "es": "El mentón está abajo."
+   }
+  ]
+ },
+ {
+  "id": "jab-gerade",
+  "unit": "a1-06",
+  "kind": "técnica",
+  "title": "Der Jab und die Gerade",
+  "title_es": "El jab y el directo",
+  "yt": "Boxen lernen Jab Gerade Technik",
+  "lines": [
+   {
+    "de": "Der Jab ist ein Schlag mit der Führhand.",
+    "es": "El jab es un golpe con la mano adelantada."
+   },
+   {
+    "de": "Die Führhand ist vorne. Für Rechtshänder ist das die linke Hand.",
+    "es": "La mano adelantada está delante. Para los diestros es la mano izquierda."
+   },
+   {
+    "de": "Der Jab ist schnell und kurz. Er ist nicht sehr hart.",
+    "es": "El jab es rápido y corto. No es muy fuerte."
+   },
+   {
+    "de": "Ich schlage den Jab oft. Er misst die Distanz.",
+    "es": "Lanzo el jab a menudo. Mide la distancia."
+   },
+   {
+    "de": "Die Gerade kommt von hinten, von der Schlaghand.",
+    "es": "El directo viene de atrás, de la mano trasera."
+   },
+   {
+    "de": "Sie ist nicht so schnell, aber sie ist hart.",
+    "es": "No es tan rápido, pero es fuerte."
+   },
+   {
+    "de": "Bei der Geraden dreht man die Hüfte und die Schulter.",
+    "es": "En el directo se giran la cadera y el hombro."
+   },
+   {
+    "de": "Die Kraft kommt von unten: Beine, Hüfte, Schulter, Faust.",
+    "es": "La fuerza viene de abajo: piernas, cadera, hombro, puño."
+   },
+   {
+    "de": "Danach ist die Hand sofort wieder am Kinn.",
+    "es": "Después, la mano vuelve enseguida al mentón."
+   },
+   {
+    "de": "Die Kombination Jab und Gerade heißt „Eins-Zwei“.",
+    "es": "La combinación jab y directo se llama «uno-dos»."
+   },
+   {
+    "de": "Mein Trainer sagt: „Der Jab ist die Basis.“",
+    "es": "Mi entrenador dice: «El jab es la base.»"
+   },
+   {
+    "de": "Er schlägt den Jab sehr schnell. Ich sehe ihn fast nicht!",
+    "es": "Él lanza el jab muy rápido. ¡Casi no lo veo!"
+   },
+   {
+    "de": "Ich schlage gern Geraden, aber den Jab schlage ich am liebsten.",
+    "es": "Me gusta lanzar directos, pero lo que más me gusta es el jab."
+   },
+   {
+    "de": "Und du? Was schlägst du lieber?",
+    "es": "¿Y tú? ¿Qué prefieres lanzar?"
+   }
+  ],
+  "gloss": [
+   [
+    "der Schlag",
+    "el golpe"
+   ],
+   [
+    "schlagen (er schlägt)",
+    "golpear, lanzar (un golpe)"
+   ],
+   [
+    "die Führhand",
+    "la mano adelantada"
+   ],
+   [
+    "die Schlaghand",
+    "la mano trasera (de potencia)"
+   ],
+   [
+    "die Gerade",
+    "el directo, el recto"
+   ],
+   [
+    "messen (er misst)",
+    "medir"
+   ],
+   [
+    "die Hüfte",
+    "la cadera"
+   ],
+   [
+    "drehen",
+    "girar"
+   ],
+   [
+    "die Kraft",
+    "la fuerza"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "¿Con qué mano lanza el jab una persona diestra?",
+    "o": [
+     "Con la derecha",
+     "Con la izquierda",
+     "Con las dos"
+    ],
+    "a": 1,
+    "exp": "El jab es un golpe con la Führhand, la mano adelantada: para los diestros, la izquierda."
+   },
+   {
+    "t": "mc",
+    "q": "¿Cómo se llama la combinación jab + directo?",
+    "o": [
+     "Eins-Zwei",
+     "Jab-Haken",
+     "Doppeljab"
+    ],
+    "a": 0,
+    "exp": "«Die Kombination Jab und Gerade heißt „Eins-Zwei“.»"
+   },
+   {
+    "t": "gap",
+    "q": "Er ___ den Jab sehr schnell.",
+    "a": [
+     "schlägt"
+    ],
+    "hint": "schlagen",
+    "exp": "schlagen cambia la vocal: ich schlage, du schlägst, er schlägt."
+   }
+  ]
+ },
+ {
+  "id": "trainingsabend",
+  "unit": "a1-07",
+  "kind": "entreno",
+  "title": "Ein Abend im Boxclub",
+  "title_es": "Una tarde en el club de boxeo",
+  "yt": "Boxtraining Ablauf Seilspringen Sandsack Pratzen",
+  "lines": [
+   {
+    "de": "Dienstag, halb sieben. Ich komme im Boxclub an.",
+    "es": "Martes, las seis y media. Llego al club de boxeo."
+   },
+   {
+    "de": "Zuerst ziehe ich die Sportsachen an. Dann lege ich die Bandagen an.",
+    "es": "Primero me pongo la ropa de deporte. Luego me pongo las vendas."
+   },
+   {
+    "de": "Um sieben fängt das Training an.",
+    "es": "A las siete empieza el entrenamiento."
+   },
+   {
+    "de": "Wir springen zehn Minuten Seil. Das ist das Aufwärmen.",
+    "es": "Saltamos a la comba diez minutos. Es el calentamiento."
+   },
+   {
+    "de": "Danach kommt das Schattenboxen: drei Runden ohne Partner.",
+    "es": "Después viene el boxeo de sombra: tres asaltos sin compañero."
+   },
+   {
+    "de": "Eine Runde dauert drei Minuten. Die Pause dauert eine Minute.",
+    "es": "Un asalto dura tres minutos. El descanso dura un minuto."
+   },
+   {
+    "de": "Dann boxe ich fünf Runden am Sandsack.",
+    "es": "Luego hago cinco asaltos en el saco."
+   },
+   {
+    "de": "Danach kommen die Pratzen. Kai hält die Pratzen, ich schlage Kombinationen.",
+    "es": "Después vienen las manoplas. Kai sujeta las manoplas y yo lanzo combinaciones."
+   },
+   {
+    "de": "Am Mittwoch und am Freitag gibt es auch Sparring.",
+    "es": "Los miércoles y los viernes también hay sparring."
+   },
+   {
+    "de": "Am Ende machen wir Bauchübungen und Liegestütze. Das ist hart!",
+    "es": "Al final hacemos abdominales y flexiones. ¡Es duro!"
+   },
+   {
+    "de": "Um halb neun ist das Training zu Ende.",
+    "es": "A las ocho y media termina el entrenamiento."
+   },
+   {
+    "de": "Ich bin müde, aber glücklich.",
+    "es": "Estoy cansada, pero feliz."
+   },
+   {
+    "de": "Zu Hause esse ich etwas, und dann schlafe ich sofort ein.",
+    "es": "En casa como algo y luego me quedo dormida enseguida."
+   }
+  ],
+  "gloss": [
+   [
+    "die Bandage (anlegen)",
+    "la venda (ponerse)"
+   ],
+   [
+    "Seil springen",
+    "saltar a la comba"
+   ],
+   [
+    "das Aufwärmen",
+    "el calentamiento"
+   ],
+   [
+    "das Schattenboxen",
+    "el boxeo de sombra"
+   ],
+   [
+    "die Runde",
+    "el asalto"
+   ],
+   [
+    "der Sandsack",
+    "el saco"
+   ],
+   [
+    "die Pratze",
+    "la manopla (paos)"
+   ],
+   [
+    "die Bauchübung",
+    "el ejercicio abdominal"
+   ],
+   [
+    "der Liegestütz (die Liegestütze)",
+    "la flexión (de brazos)"
+   ],
+   [
+    "einschlafen",
+    "dormirse"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "¿A qué hora empieza el entrenamiento?",
+    "o": [
+     "A las seis y media",
+     "A las siete",
+     "A las ocho y media"
+    ],
+    "a": 1,
+    "exp": "«Um sieben fängt das Training an.» Halb sieben (6:30) es cuando llega; halb neun (8:30), cuando termina."
+   },
+   {
+    "t": "mc",
+    "q": "¿Qué hace Kai con las manoplas?",
+    "o": [
+     "Las sujeta",
+     "Las lleva a casa",
+     "Golpea con ellas el saco"
+    ],
+    "a": 0,
+    "exp": "«Kai hält die Pratzen, ich schlage Kombinationen.» – halten = sujetar."
+   },
+   {
+    "t": "order",
+    "w": [
+     "fängt",
+     "Um",
+     "an",
+     "sieben",
+     "Training",
+     "das"
+    ],
+    "a": "Um sieben fängt das Training an.",
+    "es": "A las siete empieza el entrenamiento."
+   }
+  ]
+ },
+ {
+  "id": "haken",
+  "unit": "a1-09",
+  "kind": "técnica",
+  "title": "Haken und Aufwärtshaken",
+  "title_es": "Ganchos y uppercuts",
+  "yt": "Boxen lernen Haken Aufwärtshaken Technik",
+  "lines": [
+   {
+    "de": "Der Haken kommt von der Seite. Er ist kurz und sehr hart.",
+    "es": "El gancho viene de lado. Es corto y muy fuerte."
+   },
+   {
+    "de": "Mit dem Haken kann man den Kopf oder den Körper treffen.",
+    "es": "Con el gancho se puede golpear la cabeza o el cuerpo."
+   },
+   {
+    "de": "Der Ellbogen muss oben sein, fast auf Schulterhöhe.",
+    "es": "El codo tiene que estar arriba, casi a la altura del hombro."
+   },
+   {
+    "de": "Der Winkel im Arm: ungefähr 90 Grad.",
+    "es": "El ángulo del brazo: unos 90 grados."
+   },
+   {
+    "de": "Du musst die Hüfte drehen. Der Arm allein ist nicht stark genug.",
+    "es": "Tienes que girar la cadera. El brazo solo no es lo bastante fuerte."
+   },
+   {
+    "de": "Der Aufwärtshaken kommt von unten nach oben.",
+    "es": "El uppercut va de abajo hacia arriba."
+   },
+   {
+    "de": "Er trifft das Kinn oder den Bauch.",
+    "es": "Golpea el mentón o el estómago."
+   },
+   {
+    "de": "Für den Aufwärtshaken musst du ein bisschen in die Knie gehen.",
+    "es": "Para el uppercut tienes que flexionar un poco las rodillas."
+   },
+   {
+    "de": "Aber Vorsicht: Du darfst die Hand nicht zu weit nach unten nehmen.",
+    "es": "Pero cuidado: no debes bajar demasiado la mano."
+   },
+   {
+    "de": "Sonst sieht der Gegner den Schlag.",
+    "es": "Si no, el rival ve venir el golpe."
+   },
+   {
+    "de": "Der Leberhaken trifft die Leber. Er ist sehr gefährlich.",
+    "es": "El gancho al hígado golpea el hígado. Es muy peligroso."
+   },
+   {
+    "de": "Willst du Haken üben? Dann probier die Kombination Jab, Gerade, Haken.",
+    "es": "¿Quieres practicar ganchos? Entonces prueba la combinación jab, directo, gancho."
+   },
+   {
+    "de": "Am Sandsack kann ich Haken gut üben. Im Sparring ist es nicht so leicht.",
+    "es": "En el saco puedo practicar bien los ganchos. En el sparring no es tan fácil."
+   }
+  ],
+  "gloss": [
+   [
+    "der Haken",
+    "el gancho"
+   ],
+   [
+    "der Aufwärtshaken",
+    "el uppercut (gancho ascendente)"
+   ],
+   [
+    "von der Seite",
+    "de lado"
+   ],
+   [
+    "treffen (er trifft)",
+    "golpear, alcanzar"
+   ],
+   [
+    "die Schulterhöhe",
+    "la altura del hombro"
+   ],
+   [
+    "der Winkel",
+    "el ángulo"
+   ],
+   [
+    "in die Knie gehen",
+    "flexionar las rodillas"
+   ],
+   [
+    "der Gegner",
+    "el rival"
+   ],
+   [
+    "die Leber",
+    "el hígado"
+   ],
+   [
+    "gefährlich",
+    "peligroso"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "¿Cómo va el uppercut (Aufwärtshaken)?",
+    "o": [
+     "De lado",
+     "De abajo hacia arriba",
+     "De arriba hacia abajo"
+    ],
+    "a": 1,
+    "exp": "«Der Aufwärtshaken kommt von unten nach oben.»"
+   },
+   {
+    "t": "mc",
+    "q": "¿Qué pasa si bajas demasiado la mano?",
+    "o": [
+     "El golpe es más fuerte",
+     "El rival ve venir el golpe",
+     "Pierdes el equilibrio"
+    ],
+    "a": 1,
+    "exp": "«Sonst sieht der Gegner den Schlag.»"
+   },
+   {
+    "t": "gap",
+    "q": "Du ___ die Hüfte drehen.",
+    "a": [
+     "musst"
+    ],
+    "hint": "müssen",
+    "exp": "Modal en 2ª posición (du musst) e infinitivo al final (drehen)."
+   }
+  ]
+ },
+ {
+  "id": "kommandos",
+  "unit": "a1-10",
+  "kind": "entreno",
+  "title": "Hände hoch!",
+  "title_es": "¡Manos arriba!",
+  "yt": "Boxtraining zum Mitmachen deutsch",
+  "lines": [
+   {
+    "de": "Montag, sieben Uhr. Kai ist heute sehr streng.",
+    "es": "Lunes, las siete. Kai está hoy muy estricto."
+   },
+   {
+    "who": "Kai",
+    "de": "Los geht's! Springt Seil, fünf Minuten!",
+    "es": "¡Vamos! ¡Saltad a la comba, cinco minutos!"
+   },
+   {
+    "who": "Kai",
+    "de": "Claudia, Hände hoch! Kinn runter!",
+    "es": "¡Claudia, manos arriba! ¡Mentón abajo!"
+   },
+   {
+    "who": "Kai",
+    "de": "Atmet! Beim Schlag kurz ausatmen.",
+    "es": "¡Respirad! Al golpear, soltad el aire de golpe."
+   },
+   {
+    "who": "Kai",
+    "de": "Nicht so steif! Bleib locker!",
+    "es": "¡No tan rígida! ¡Mantente suelta!"
+   },
+   {
+    "who": "Kai",
+    "de": "Jetzt Partnerarbeit. Nehmt die Pratzen!",
+    "es": "Ahora trabajo por parejas. ¡Coged las manoplas!"
+   },
+   {
+    "who": "Kai",
+    "de": "Jab, Jab, Gerade! Schnell, schnell!",
+    "es": "¡Jab, jab, directo! ¡Rápido, rápido!"
+   },
+   {
+    "who": "Claudia",
+    "de": "Kai, ich kann nicht mehr!",
+    "es": "¡Kai, no puedo más!"
+   },
+   {
+    "who": "Kai",
+    "de": "Doch, du kannst! Noch eine Runde!",
+    "es": "¡Claro que puedes! ¡Otro asalto más!"
+   },
+   {
+    "who": "Kai",
+    "de": "Beweg die Füße! Bleib nicht stehen!",
+    "es": "¡Mueve los pies! ¡No te quedes parada!"
+   },
+   {
+    "who": "Kai",
+    "de": "Dreh die Hüfte! Die Kraft kommt aus den Beinen.",
+    "es": "¡Gira la cadera! La fuerza sale de las piernas."
+   },
+   {
+    "de": "Gong! Die Runde ist vorbei.",
+    "es": "¡Gong! El asalto ha terminado."
+   },
+   {
+    "who": "Kai",
+    "de": "Herr Weber, Sie sind neu? Kommen Sie bitte mit! Machen Sie mit!",
+    "es": "Señor Weber, ¿es usted nuevo? ¡Venga, por favor! ¡Participe!"
+   },
+   {
+    "who": "Kai",
+    "de": "Gut gemacht, alle! Trinkt Wasser. Bis Mittwoch!",
+    "es": "¡Bien hecho, todos! Bebed agua. ¡Hasta el miércoles!"
+   }
+  ],
+  "gloss": [
+   [
+    "streng",
+    "estricto"
+   ],
+   [
+    "Los geht's!",
+    "¡Vamos!"
+   ],
+   [
+    "atmen / ausatmen",
+    "respirar / soltar el aire"
+   ],
+   [
+    "steif",
+    "rígido"
+   ],
+   [
+    "locker",
+    "suelto, relajado"
+   ],
+   [
+    "Noch eine Runde!",
+    "¡Otro asalto más!"
+   ],
+   [
+    "bewegen",
+    "mover"
+   ],
+   [
+    "stehen bleiben",
+    "quedarse parado"
+   ],
+   [
+    "vorbei",
+    "terminado"
+   ],
+   [
+    "mitmachen",
+    "participar"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "¿Qué significa «Noch eine Runde!»?",
+    "o": [
+     "¡Se acabó!",
+     "¡Otro asalto más!",
+     "¡Descanso!"
+    ],
+    "a": 1,
+    "exp": "noch eine = una más; die Runde = el asalto."
+   },
+   {
+    "t": "gap",
+    "q": "Claudia, ___ die Füße!",
+    "a": [
+     "beweg",
+     "bewege"
+    ],
+    "hint": "bewegen (imperativo, du)",
+    "exp": "Imperativo de du: raíz del verbo sin -st (du bewegst → beweg!)."
+   },
+   {
+    "t": "order",
+    "w": [
+     "Sie",
+     "mit",
+     "Kommen",
+     "bitte"
+    ],
+    "a": "Kommen Sie bitte mit!",
+    "es": "¡Venga conmigo, por favor!"
+   }
+  ]
+ },
+ {
+  "id": "beinarbeit",
+  "unit": "a1-11",
+  "kind": "técnica",
+  "title": "Beinarbeit",
+  "title_es": "El juego de piernas",
+  "yt": "Boxen Beinarbeit lernen Übungen",
+  "lines": [
+   {
+    "de": "Viele Anfänger trainieren nur die Hände. Aber auch die Füße sind sehr wichtig.",
+    "es": "Muchos principiantes solo entrenan las manos. Pero los pies también son muy importantes."
+   },
+   {
+    "de": "Beinarbeit heißt: Du bist immer im Gleichgewicht.",
+    "es": "Juego de piernas significa: siempre estás en equilibrio."
+   },
+   {
+    "de": "Steh auf den Fußballen, nicht auf den Fersen.",
+    "es": "Apóyate en la parte delantera de la planta, no en los talones."
+   },
+   {
+    "de": "Die Füße sollen nie zusammen sein. Kreuze die Füße nie!",
+    "es": "Los pies no deben juntarse nunca. ¡No cruces nunca los pies!"
+   },
+   {
+    "de": "Nach vorne: zuerst der vordere Fuß. Nach hinten: zuerst der hintere Fuß.",
+    "es": "Hacia delante: primero el pie delantero. Hacia atrás: primero el pie trasero."
+   },
+   {
+    "de": "Nach links: zuerst der linke Fuß. Nach rechts: zuerst der rechte Fuß.",
+    "es": "Hacia la izquierda: primero el pie izquierdo. Hacia la derecha: primero el derecho."
+   },
+   {
+    "de": "Die Schritte sind klein und schnell. Große Sprünge sind gefährlich.",
+    "es": "Los pasos son cortos y rápidos. Los saltos grandes son peligrosos."
+   },
+   {
+    "de": "Mein Trainer sagt, ich soll jeden Tag Seil springen. Das ist gut für die Füße.",
+    "es": "Mi entrenador dice que debo saltar a la comba todos los días. Es bueno para los pies."
+   },
+   {
+    "de": "Nach drei Runden bin ich oft müde. Dann stehe ich still – ein Fehler!",
+    "es": "Después de tres asaltos a menudo estoy cansada. Entonces me quedo quieta: ¡un error!"
+   },
+   {
+    "de": "Kai sagt: „Bleib in Bewegung! Du bist kein Sandsack!“",
+    "es": "Kai dice: «¡Sigue moviéndote! ¡No eres un saco!»"
+   },
+   {
+    "de": "Tipp: Mach Schattenboxen ohne Schläge, nur mit Beinarbeit.",
+    "es": "Consejo: haz boxeo de sombra sin golpes, solo con juego de piernas."
+   },
+   {
+    "de": "Meine Waden tun nach dem Training weh. Aber das ist normal.",
+    "es": "Después del entrenamiento me duelen los gemelos. Pero es normal."
+   }
+  ],
+  "gloss": [
+   [
+    "die Beinarbeit",
+    "el juego de piernas"
+   ],
+   [
+    "das Gleichgewicht",
+    "el equilibrio"
+   ],
+   [
+    "der Fußballen",
+    "la parte delantera de la planta del pie"
+   ],
+   [
+    "die Ferse",
+    "el talón"
+   ],
+   [
+    "kreuzen",
+    "cruzar"
+   ],
+   [
+    "der vordere / der hintere Fuß",
+    "el pie delantero / trasero"
+   ],
+   [
+    "der Schritt",
+    "el paso"
+   ],
+   [
+    "der Sprung",
+    "el salto"
+   ],
+   [
+    "in Bewegung bleiben",
+    "seguir en movimiento"
+   ],
+   [
+    "die Wade",
+    "el gemelo (pantorrilla)"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "Si te mueves hacia atrás, ¿qué pie mueves primero?",
+    "o": [
+     "El delantero",
+     "El trasero",
+     "Los dos a la vez"
+    ],
+    "a": 1,
+    "exp": "«Nach hinten: zuerst der hintere Fuß.»"
+   },
+   {
+    "t": "mc",
+    "q": "¿Qué no debes hacer nunca con los pies?",
+    "o": [
+     "Cruzarlos",
+     "Moverlos",
+     "Apoyarte en la parte delantera"
+    ],
+    "a": 0,
+    "exp": "«Kreuze die Füße nie!»"
+   },
+   {
+    "t": "gap",
+    "q": "Mein Trainer sagt, ich ___ jeden Tag Seil springen.",
+    "a": [
+     "soll"
+    ],
+    "hint": "sollen",
+    "exp": "sollen (ich soll) expresa lo que otra persona te dice que hagas."
+   }
+  ]
+ },
+ {
+  "id": "muhammad-ali",
+  "unit": "a1-12",
+  "kind": "historia",
+  "title": "Der Größte: Muhammad Ali",
+  "title_es": "El más grande: Muhammad Ali",
+  "yt": "Muhammad Ali Dokumentation deutsch",
+  "lines": [
+   {
+    "de": "Muhammad Ali hat immer gesagt: „Ich bin der Größte!“",
+    "es": "Muhammad Ali siempre decía: «¡Soy el más grande!»"
+   },
+   {
+    "de": "Sein Name war zuerst Cassius Clay. Er ist 1942 in Louisville in den USA geboren.",
+    "es": "Al principio se llamaba Cassius Clay. Nació en 1942 en Louisville, en EE. UU."
+   },
+   {
+    "de": "Mit zwölf Jahren hat er mit dem Boxen angefangen.",
+    "es": "Empezó a boxear a los doce años."
+   },
+   {
+    "de": "1960 hat er bei den Olympischen Spielen in Rom Gold gewonnen.",
+    "es": "En 1960 ganó el oro en los Juegos Olímpicos de Roma."
+   },
+   {
+    "de": "1964 hat er gegen Sonny Liston gekämpft und gewonnen. Er war Weltmeister im Schwergewicht!",
+    "es": "En 1964 peleó contra Sonny Liston y ganó. ¡Era campeón del mundo de los pesos pesados!"
+   },
+   {
+    "de": "Danach hat er seinen Namen geändert. Sein Name war jetzt Muhammad Ali.",
+    "es": "Después se cambió el nombre. Ahora se llamaba Muhammad Ali."
+   },
+   {
+    "de": "Er hat viel gesprochen und gern provoziert.",
+    "es": "Hablaba mucho y le gustaba provocar."
+   },
+   {
+    "de": "Sein Motto: „Schweben wie ein Schmetterling, stechen wie eine Biene.“",
+    "es": "Su lema: «Flotar como una mariposa, picar como una abeja.»"
+   },
+   {
+    "de": "1967 hat er den Militärdienst abgelehnt. Er ist nicht in den Vietnamkrieg gegangen.",
+    "es": "En 1967 rechazó el servicio militar. No fue a la guerra de Vietnam."
+   },
+   {
+    "de": "Er hat seinen Titel verloren und mehr als drei Jahre nicht geboxt.",
+    "es": "Perdió su título y estuvo más de tres años sin boxear."
+   },
+   {
+    "de": "1974 hat er in Kinshasa in Afrika gegen George Foreman geboxt.",
+    "es": "En 1974 boxeó contra George Foreman en Kinsasa, en África."
+   },
+   {
+    "de": "Er hat in der achten Runde gewonnen und war wieder Weltmeister.",
+    "es": "Ganó en el octavo asalto y volvió a ser campeón del mundo."
+   },
+   {
+    "de": "Später hatte er Parkinson. 2016 ist er gestorben.",
+    "es": "Más tarde tuvo párkinson. Murió en 2016."
+   }
+  ],
+  "gloss": [
+   [
+    "der Größte",
+    "el más grande"
+   ],
+   [
+    "geboren",
+    "nacido"
+   ],
+   [
+    "die Olympischen Spiele",
+    "los Juegos Olímpicos"
+   ],
+   [
+    "der Weltmeister",
+    "el campeón del mundo"
+   ],
+   [
+    "das Schwergewicht",
+    "el peso pesado"
+   ],
+   [
+    "ändern",
+    "cambiar"
+   ],
+   [
+    "schweben",
+    "flotar"
+   ],
+   [
+    "der Schmetterling",
+    "la mariposa"
+   ],
+   [
+    "stechen",
+    "picar"
+   ],
+   [
+    "ablehnen",
+    "rechazar"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "¿Cómo se llamaba Muhammad Ali al principio?",
+    "o": [
+     "George Foreman",
+     "Cassius Clay",
+     "Sonny Liston"
+    ],
+    "a": 1,
+    "exp": "«Sein Name war zuerst Cassius Clay.»"
+   },
+   {
+    "t": "mc",
+    "q": "¿Qué pasó en 1974?",
+    "o": [
+     "Ganó el oro olímpico",
+     "Rechazó el servicio militar",
+     "Ganó a Foreman y volvió a ser campeón"
+    ],
+    "a": 2,
+    "exp": "1974: Kinshasa, contra George Foreman; ganó en el octavo asalto («war wieder Weltmeister»)."
+   },
+   {
+    "t": "order",
+    "w": [
+     "Gold",
+     "Er",
+     "gewonnen",
+     "hat"
+    ],
+    "a": "Er hat Gold gewonnen.",
+    "es": "Ganó el oro."
+   }
+  ]
+ },
+ {
+  "id": "regina-halmich",
+  "unit": "a2-01",
+  "kind": "historia",
+  "title": "Regina Halmich, die Pionierin",
+  "title_es": "Regina Halmich, la pionera",
+  "yt": "Regina Halmich Boxen Karriere",
+  "lines": [
+   {
+    "de": "Regina Halmich ist eine Pionierin: Sie hat das Frauenboxen in Deutschland bekannt gemacht.",
+    "es": "Regina Halmich es una pionera: dio a conocer el boxeo femenino en Alemania."
+   },
+   {
+    "de": "Sie kommt aus Karlsruhe und ist 1976 geboren.",
+    "es": "Es de Karlsruhe y nació en 1976."
+   },
+   {
+    "de": "Damals haben viele Leute gesagt: Boxen ist nichts für Frauen.",
+    "es": "Entonces mucha gente decía: el boxeo no es para mujeres."
+   },
+   {
+    "de": "Das hat Regina nicht interessiert. Sie hat trainiert, trainiert, trainiert.",
+    "es": "A Regina eso no le importó. Entrenó, entrenó y entrenó."
+   },
+   {
+    "de": "Sie hat im Fliegengewicht gekämpft. Das ist eine Gewichtsklasse bis ungefähr 51 Kilo.",
+    "es": "Peleaba en el peso mosca. Es una categoría de hasta unos 51 kilos."
+   },
+   {
+    "de": "Sie ist Weltmeisterin geworden und hat ihren Titel viele Jahre verteidigt.",
+    "es": "Se proclamó campeona del mundo y defendió su título durante muchos años."
+   },
+   {
+    "de": "Sie hat fast alle Kämpfe gewonnen.",
+    "es": "Ganó casi todos sus combates."
+   },
+   {
+    "de": "Im Fernsehen hat sie auch gegen den Moderator Stefan Raab geboxt.",
+    "es": "En la tele también boxeó contra el presentador Stefan Raab."
+   },
+   {
+    "de": "Millionen Menschen haben zugesehen.",
+    "es": "Lo vieron millones de personas."
+   },
+   {
+    "de": "So ist Frauenboxen in Deutschland sehr populär geworden.",
+    "es": "Así el boxeo femenino se hizo muy popular en Alemania."
+   },
+   {
+    "de": "2007 hat sie aufgehört.",
+    "es": "En 2007 se retiró."
+   },
+   {
+    "de": "2012 ist Frauenboxen olympisch geworden: in London.",
+    "es": "En 2012 el boxeo femenino se hizo olímpico: en Londres."
+   },
+   {
+    "de": "Heute boxen in Deutschland viele Frauen – auch Claudia!",
+    "es": "Hoy en Alemania boxean muchas mujeres. ¡También Claudia!"
+   }
+  ],
+  "gloss": [
+   [
+    "die Pionierin",
+    "la pionera"
+   ],
+   [
+    "das Frauenboxen",
+    "el boxeo femenino"
+   ],
+   [
+    "damals",
+    "entonces, en aquella época"
+   ],
+   [
+    "das Fliegengewicht",
+    "el peso mosca"
+   ],
+   [
+    "die Gewichtsklasse",
+    "la categoría de peso"
+   ],
+   [
+    "verteidigen",
+    "defender"
+   ],
+   [
+    "der Moderator",
+    "el presentador"
+   ],
+   [
+    "zusehen (zugesehen)",
+    "mirar, ver"
+   ],
+   [
+    "aufhören (aufgehört)",
+    "dejarlo, retirarse"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "¿En qué categoría de peso boxeaba Regina Halmich?",
+    "o": [
+     "Peso pesado",
+     "Peso mosca",
+     "Peso medio"
+    ],
+    "a": 1,
+    "exp": "«Sie hat im Fliegengewicht gekämpft.» – Fliege = mosca."
+   },
+   {
+    "t": "mc",
+    "q": "¿Qué decía mucha gente en aquella época?",
+    "o": [
+     "Que el boxeo no es para mujeres",
+     "Que el boxeo es aburrido",
+     "Que Regina era demasiado alta"
+    ],
+    "a": 0,
+    "exp": "«Boxen ist nichts für Frauen.»"
+   },
+   {
+    "t": "gap",
+    "q": "2007 hat sie ___.",
+    "a": [
+     "aufgehört"
+    ],
+    "hint": "aufhören",
+    "exp": "Verbo separable: el ge- va entre el prefijo y la raíz (auf-ge-hört)."
+   }
+  ]
+ },
+ {
+  "id": "ausweichen",
+  "unit": "a2-02",
+  "kind": "técnica",
+  "title": "Ausweichen und Blocken",
+  "title_es": "Esquivar y bloquear",
+  "yt": "Boxen lernen Ausweichen Abducken Pendeln",
+  "lines": [
+   {
+    "de": "Im Boxen musst du nicht nur schlagen. Du musst auch den Schlägen ausweichen.",
+    "es": "En el boxeo no solo tienes que golpear. También tienes que esquivar los golpes."
+   },
+   {
+    "de": "Ausweichen heißt: Der Schlag trifft dich nicht, und deine Hände sind frei.",
+    "es": "Esquivar significa: el golpe no te alcanza y tienes las manos libres."
+   },
+   {
+    "de": "Beim Abducken gehst du mit den Knien nach unten. Der Haken geht ins Leere.",
+    "es": "Al agacharte bajas flexionando las rodillas. El gancho se va al aire."
+   },
+   {
+    "de": "Wichtig: Du schaust deinem Gegner in die Augen, nicht auf den Boden.",
+    "es": "Importante: miras a los ojos a tu rival, no al suelo."
+   },
+   {
+    "de": "Beim Pendeln bewegst du den Oberkörper nach links oder rechts. So weichst du dem Jab aus.",
+    "es": "Al pendular mueves el torso a la izquierda o a la derecha. Así esquivas el jab."
+   },
+   {
+    "de": "Blocken ist anders: Die Hand oder der Unterarm stoppt den Schlag.",
+    "es": "Bloquear es distinto: la mano o el antebrazo paran el golpe."
+   },
+   {
+    "de": "Gegen den Haken hilft dir die Doppeldeckung: Beide Hände sind am Kopf.",
+    "es": "Contra el gancho te ayuda la doble guardia: las dos manos están en la cabeza."
+   },
+   {
+    "de": "Gegen die Gerade hilft dir die Parade: Du lenkst den Schlag mit der Hand zur Seite.",
+    "es": "Contra el directo te ayuda la parada: desvías el golpe hacia un lado con la mano."
+   },
+   {
+    "de": "Kai zeigt mir eine Übung: Er schlägt langsam, und ich weiche ihm aus.",
+    "es": "Kai me enseña un ejercicio: él golpea despacio y yo lo esquivo."
+   },
+   {
+    "de": "Am Anfang hat mir die Übung nicht gefallen. Ich hatte Angst.",
+    "es": "Al principio no me gustaba el ejercicio. Tenía miedo."
+   },
+   {
+    "de": "Jetzt gefällt sie mir. Ausweichen ist wie Tanzen.",
+    "es": "Ahora me gusta. Esquivar es como bailar."
+   },
+   {
+    "de": "Und dann: sofort kontern!",
+    "es": "Y luego: ¡contraatacar enseguida!"
+   }
+  ],
+  "gloss": [
+   [
+    "ausweichen (+ Dativ)",
+    "esquivar"
+   ],
+   [
+    "abducken",
+    "agacharse (esquiva hacia abajo)"
+   ],
+   [
+    "ins Leere gehen",
+    "irse al aire, fallar"
+   ],
+   [
+    "pendeln",
+    "pendular (esquiva lateral)"
+   ],
+   [
+    "der Oberkörper",
+    "el torso"
+   ],
+   [
+    "blocken",
+    "bloquear"
+   ],
+   [
+    "der Unterarm",
+    "el antebrazo"
+   ],
+   [
+    "die Doppeldeckung",
+    "la doble guardia"
+   ],
+   [
+    "die Parade / lenken",
+    "la parada / desviar"
+   ],
+   [
+    "kontern",
+    "contraatacar"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "¿Qué es «abducken»?",
+    "o": [
+     "Bajar flexionando las rodillas",
+     "Parar el golpe con el antebrazo",
+     "Dar un paso atrás"
+    ],
+    "a": 0,
+    "exp": "«Beim Abducken gehst du mit den Knien nach unten.»"
+   },
+   {
+    "t": "mc",
+    "q": "Según el texto, ¿qué ayuda contra el gancho?",
+    "o": [
+     "La parada",
+     "La doble guardia",
+     "El jab"
+    ],
+    "a": 1,
+    "exp": "«Gegen den Haken hilft dir die Doppeldeckung.» La parada es contra el directo."
+   },
+   {
+    "t": "gap",
+    "q": "Er schlägt langsam, und ich weiche ___ aus.",
+    "a": [
+     "ihm"
+    ],
+    "hint": "er → dativo",
+    "exp": "ausweichen rige dativo: er → ihm."
+   }
+  ]
+ },
+ {
+  "id": "sparring-regeln",
+  "unit": "a2-04",
+  "kind": "entreno",
+  "title": "Sparring und Ringregeln",
+  "title_es": "El sparring y las reglas del ring",
+  "yt": "Boxen Regeln einfach erklärt",
+  "lines": [
+   {
+    "de": "Sparring ist ein Übungskampf. Es ist kein Wettkampf.",
+    "es": "El sparring es un combate de práctica. No es una competición."
+   },
+   {
+    "de": "Im Sparring trägst du immer Kopfschutz, Mundschutz und Sparringshandschuhe.",
+    "es": "En el sparring siempre llevas casco, protector bucal y guantes de sparring."
+   },
+   {
+    "de": "Die Handschuhe sind schwer und weich, weil sie den Partner schützen.",
+    "es": "Los guantes son pesados y blandos porque protegen al compañero."
+   },
+   {
+    "de": "Wenn du Sparring machst, schlägst du nicht mit voller Kraft.",
+    "es": "Cuando haces sparring, no golpeas con toda tu fuerza."
+   },
+   {
+    "de": "Der Partner ist kein Feind. Ihr lernt zusammen.",
+    "es": "El compañero no es un enemigo. Aprendéis juntos."
+   },
+   {
+    "de": "Im Wettkampf gibt es einen Ringrichter. Er passt auf, dass die Boxer fair kämpfen.",
+    "es": "En la competición hay un árbitro. Vigila que los boxeadores peleen limpio."
+   },
+   {
+    "de": "Man darf nicht unter die Gürtellinie schlagen und nicht mit dem Kopf stoßen.",
+    "es": "No se puede golpear por debajo del cinturón ni dar cabezazos."
+   },
+   {
+    "de": "Wenn der Ringrichter „Break!“ sagt, müssen beide Boxer einen Schritt zurückgehen.",
+    "es": "Cuando el árbitro dice «¡Break!», los dos boxeadores tienen que dar un paso atrás."
+   },
+   {
+    "de": "Wenn ein Boxer zu Boden geht, zählt der Ringrichter.",
+    "es": "Cuando un boxeador cae a la lona, el árbitro cuenta."
+   },
+   {
+    "de": "Wenn er bei zehn nicht steht, ist es ein K.o.",
+    "es": "Si a la cuenta de diez no está de pie, es un K.O."
+   },
+   {
+    "de": "Wenn es keinen K.o. gibt, entscheiden die Punktrichter.",
+    "es": "Si no hay K.O., deciden los jueces."
+   },
+   {
+    "de": "Sie geben Punkte für jede Runde.",
+    "es": "Dan puntos por cada asalto."
+   },
+   {
+    "de": "Ich finde, dass Sparring wichtig ist, weil man echte Situationen lernt.",
+    "es": "Creo que el sparring es importante porque se aprenden situaciones reales."
+   },
+   {
+    "de": "Aber Kai sagt immer: „Im Sparring gibt es keinen Sieger.“",
+    "es": "Pero Kai siempre dice: «En el sparring no hay ganador.»"
+   }
+  ],
+  "gloss": [
+   [
+    "der Übungskampf",
+    "el combate de práctica"
+   ],
+   [
+    "der Wettkampf",
+    "la competición"
+   ],
+   [
+    "der Kopfschutz / der Mundschutz",
+    "el casco / el protector bucal"
+   ],
+   [
+    "mit voller Kraft",
+    "con toda la fuerza"
+   ],
+   [
+    "der Ringrichter",
+    "el árbitro"
+   ],
+   [
+    "aufpassen",
+    "vigilar, prestar atención"
+   ],
+   [
+    "die Gürtellinie",
+    "la línea del cinturón"
+   ],
+   [
+    "zu Boden gehen",
+    "caer a la lona"
+   ],
+   [
+    "der Punktrichter",
+    "el juez (de puntos)"
+   ],
+   [
+    "der Sieger",
+    "el ganador"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "¿Qué tienen que hacer los boxeadores cuando el árbitro dice «Break!»?",
+    "o": [
+     "Dar un paso atrás",
+     "Volver a su esquina",
+     "Tocarse los guantes"
+    ],
+    "a": 0,
+    "exp": "«… müssen beide Boxer einen Schritt zurückgehen.»"
+   },
+   {
+    "t": "mc",
+    "q": "Si no hay K.O., ¿quién decide el combate?",
+    "o": [
+     "El entrenador",
+     "Los jueces (Punktrichter)",
+     "El público"
+    ],
+    "a": 1,
+    "exp": "«Wenn es keinen K.o. gibt, entscheiden die Punktrichter.»"
+   },
+   {
+    "t": "order",
+    "w": [
+     "dass",
+     "Ich",
+     "wichtig",
+     "glaube,",
+     "Sparring",
+     "ist"
+    ],
+    "a": "Ich glaube, dass Sparring wichtig ist.",
+    "es": "Creo que el sparring es importante."
+   }
+  ]
+ },
+ {
+  "id": "klitschko",
+  "unit": "a2-05",
+  "kind": "historia",
+  "title": "Die Klitschko-Brüder",
+  "title_es": "Los hermanos Klitschko",
+  "yt": "Klitschko Brüder Dokumentation deutsch",
+  "lines": [
+   {
+    "de": "Vitali und Wladimir Klitschko sind Brüder aus der Ukraine.",
+    "es": "Vitali y Wladimir Klitschko son hermanos de Ucrania."
+   },
+   {
+    "de": "Vitali ist älter: Er ist 1971 geboren. Wladimir ist fünf Jahre jünger.",
+    "es": "Vitali es mayor: nació en 1971. Wladimir es cinco años más joven."
+   },
+   {
+    "de": "Beide sind sehr groß: Vitali ist 2,01 Meter groß, Wladimir 1,98 Meter.",
+    "es": "Los dos son muy altos: Vitali mide 2,01 metros; Wladimir, 1,98."
+   },
+   {
+    "de": "Vitali ist also ein bisschen größer als Wladimir.",
+    "es": "Así que Vitali es un poco más alto que Wladimir."
+   },
+   {
+    "de": "1996 hat Wladimir bei den Olympischen Spielen in Atlanta Gold gewonnen.",
+    "es": "En 1996 Wladimir ganó el oro en los Juegos Olímpicos de Atlanta."
+   },
+   {
+    "de": "Danach sind die Brüder Profis geworden – in Hamburg.",
+    "es": "Después los hermanos se hicieron profesionales, en Hamburgo."
+   },
+   {
+    "de": "Ihr Trainer in Hamburg war Fritz Sdunek.",
+    "es": "Su entrenador en Hamburgo fue Fritz Sdunek."
+   },
+   {
+    "de": "Deshalb sprechen beide sehr gut Deutsch, und in Deutschland sind sie sehr bekannt.",
+    "es": "Por eso los dos hablan muy bien alemán y en Alemania son muy conocidos."
+   },
+   {
+    "de": "Beide waren Weltmeister im Schwergewicht.",
+    "es": "Los dos fueron campeones del mundo de los pesos pesados."
+   },
+   {
+    "de": "Wladimir war berühmt für seinen Jab.",
+    "es": "Wladimir era famoso por su jab."
+   },
+   {
+    "de": "Gegeneinander haben sie nie geboxt. Das haben sie ihrer Mutter versprochen.",
+    "es": "Nunca boxearon el uno contra el otro. Se lo prometieron a su madre."
+   },
+   {
+    "de": "Beide haben einen Doktortitel in Sportwissenschaft.",
+    "es": "Los dos tienen un doctorado en ciencias del deporte."
+   },
+   {
+    "de": "Deshalb nennt man sie „Dr. Eisenfaust“ und „Dr. Steelhammer“.",
+    "es": "Por eso los llaman «Dr. Puño de Hierro» y «Dr. Steelhammer»."
+   },
+   {
+    "de": "2014 ist Vitali Bürgermeister von Kiew geworden.",
+    "es": "En 2014 Vitali se convirtió en alcalde de Kiev."
+   }
+  ],
+  "gloss": [
+   [
+    "älter / jünger",
+    "mayor / más joven"
+   ],
+   [
+    "größer als",
+    "más alto que"
+   ],
+   [
+    "der Profi",
+    "el profesional"
+   ],
+   [
+    "deshalb",
+    "por eso"
+   ],
+   [
+    "berühmt für",
+    "famoso por"
+   ],
+   [
+    "gegeneinander",
+    "el uno contra el otro"
+   ],
+   [
+    "versprechen (versprochen)",
+    "prometer"
+   ],
+   [
+    "der Doktortitel",
+    "el doctorado"
+   ],
+   [
+    "die Eisenfaust",
+    "el puño de hierro"
+   ],
+   [
+    "der Bürgermeister",
+    "el alcalde"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "¿Quién es el mayor de los dos hermanos?",
+    "o": [
+     "Wladimir",
+     "Vitali",
+     "Tienen la misma edad"
+    ],
+    "a": 1,
+    "exp": "«Vitali ist älter: Er ist 1971 geboren.»"
+   },
+   {
+    "t": "mc",
+    "q": "¿Por qué hablan bien alemán?",
+    "o": [
+     "Porque su madre es alemana",
+     "Porque fueron profesionales en Hamburgo",
+     "Porque estudiaron en Berlín"
+    ],
+    "a": 1,
+    "exp": "«Danach sind die Brüder Profis geworden – in Hamburg … Deshalb sprechen beide sehr gut Deutsch.»"
+   },
+   {
+    "t": "gap",
+    "q": "Wladimir ist fünf Jahre ___ als Vitali.",
+    "a": [
+     "jünger"
+    ],
+    "hint": "jung",
+    "exp": "Comparativo con Umlaut: jung → jünger (+ als)."
+   }
+  ]
+ },
+ {
+  "id": "mma-boxen",
+  "unit": "a2-05",
+  "kind": "entreno",
+  "title": "MMA oder Boxen?",
+  "title_es": "¿MMA o boxeo?",
+  "yt": "MMA vs Boxen Unterschiede erklärt",
+  "lines": [
+   {
+    "de": "Boxen und MMA sind Kampfsportarten, aber die Regeln sind sehr verschieden.",
+    "es": "El boxeo y las MMA son deportes de combate, pero las reglas son muy distintas."
+   },
+   {
+    "de": "MMA heißt „Mixed Martial Arts“: gemischte Kampfkünste.",
+    "es": "MMA significa «Mixed Martial Arts»: artes marciales mixtas."
+   },
+   {
+    "de": "Im Boxen darf man nur mit den Fäusten schlagen. Im MMA darf man auch treten und mit Knien und Ellbogen kämpfen.",
+    "es": "En el boxeo solo se puede golpear con los puños. En las MMA también se puede patear y pelear con rodillas y codos."
+   },
+   {
+    "de": "Die MMA-Handschuhe sind kleiner und leichter als Boxhandschuhe. Die Finger sind frei.",
+    "es": "Los guantes de MMA son más pequeños y ligeros que los de boxeo. Los dedos quedan libres."
+   },
+   {
+    "de": "So kann man den Gegner greifen.",
+    "es": "Así se puede agarrar al rival."
+   },
+   {
+    "de": "Ein Takedown bringt den Gegner auf den Boden. Dann beginnt der Bodenkampf.",
+    "es": "Un derribo lleva al rival al suelo. Entonces empieza la lucha en el suelo."
+   },
+   {
+    "de": "Am Boden kann man schlagen oder einen Hebel oder einen Würgegriff machen.",
+    "es": "En el suelo se puede golpear o hacer una luxación o una estrangulación."
+   },
+   {
+    "de": "Wenn der Gegner abklopft, ist der Kampf vorbei. Das heißt Aufgabe.",
+    "es": "Cuando el rival palmea, el combate se acaba. Eso se llama rendición (sumisión)."
+   },
+   {
+    "de": "Der Boxring ist quadratisch, mit Seilen. Im MMA kämpft man oft in einem Käfig.",
+    "es": "El ring de boxeo es cuadrado, con cuerdas. En las MMA se pelea a menudo en una jaula."
+   },
+   {
+    "de": "Eine MMA-Runde dauert fünf Minuten, eine Boxrunde meistens drei. Die MMA-Runde ist also länger.",
+    "es": "Un asalto de MMA dura cinco minutos; uno de boxeo, normalmente tres. El asalto de MMA es, pues, más largo."
+   },
+   {
+    "de": "Aber im MMA gibt es weniger Runden: meistens drei, bei Titelkämpfen fünf.",
+    "es": "Pero en las MMA hay menos asaltos: normalmente tres, y cinco en los combates por el título."
+   },
+   {
+    "de": "Was ist härter? Das ist schwer zu sagen.",
+    "es": "¿Qué es más duro? Es difícil de decir."
+   },
+   {
+    "de": "Ein Boxer ist im Stand oft besser, ein MMA-Kämpfer am Boden.",
+    "es": "Un boxeador suele ser mejor de pie; un luchador de MMA, en el suelo."
+   },
+   {
+    "de": "Claudia findet MMA spannend, aber Boxen gefällt ihr am besten.",
+    "es": "A Claudia las MMA le parecen emocionantes, pero lo que más le gusta es el boxeo."
+   }
+  ],
+  "gloss": [
+   [
+    "die Kampfsportart",
+    "el deporte de combate"
+   ],
+   [
+    "treten",
+    "patear, dar patadas"
+   ],
+   [
+    "greifen",
+    "agarrar"
+   ],
+   [
+    "der Takedown",
+    "el derribo"
+   ],
+   [
+    "der Bodenkampf",
+    "la lucha en el suelo"
+   ],
+   [
+    "der Hebel",
+    "la luxación (palanca)"
+   ],
+   [
+    "der Würgegriff",
+    "la estrangulación"
+   ],
+   [
+    "abklopfen",
+    "palmear (para rendirse)"
+   ],
+   [
+    "der Käfig",
+    "la jaula"
+   ],
+   [
+    "im Stand",
+    "de pie"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "¿Cuánto dura un asalto de MMA?",
+    "o": [
+     "Tres minutos",
+     "Cinco minutos",
+     "Diez minutos"
+    ],
+    "a": 1,
+    "exp": "«Eine MMA-Runde dauert fünf Minuten.»"
+   },
+   {
+    "t": "mc",
+    "q": "¿Qué significa «abklopfen» en las MMA?",
+    "o": [
+     "Palmear para rendirse",
+     "Golpear con la rodilla",
+     "Derribar al rival"
+    ],
+    "a": 0,
+    "exp": "«Wenn der Gegner abklopft, ist der Kampf vorbei. Das heißt Aufgabe.»"
+   },
+   {
+    "t": "gap",
+    "q": "Die MMA-Handschuhe sind ___ als Boxhandschuhe.",
+    "a": [
+     "kleiner",
+     "leichter"
+    ],
+    "hint": "klein / leicht",
+    "exp": "Comparativo: adjetivo + -er + als (kleiner als, leichter als)."
+   }
+  ]
+ },
+ {
+  "id": "ufc-1993",
+  "unit": "a2-08",
+  "kind": "historia",
+  "title": "UFC 1: Wer ist der Beste?",
+  "title_es": "UFC 1: ¿quién es el mejor?",
+  "yt": "UFC 1 1993 Royce Gracie Geschichte",
+  "lines": [
+   {
+    "de": "Im November 1993 hat in Denver in den USA ein besonderes Turnier stattgefunden: UFC 1.",
+    "es": "En noviembre de 1993 se celebró en Denver (EE. UU.) un torneo especial: UFC 1."
+   },
+   {
+    "de": "Die Frage war: Welcher Kampfsport ist der beste?",
+    "es": "La pregunta era: ¿qué deporte de combate es el mejor?"
+   },
+   {
+    "de": "Ein Boxer, ein Sumoringer, ein Karateka und andere Kämpfer waren dabei.",
+    "es": "Participaban un boxeador, un luchador de sumo, un karateka y otros luchadores."
+   },
+   {
+    "de": "Es hat keine Gewichtsklassen gegeben. Ein kleiner Kämpfer musste oft gegen einen sehr großen Gegner kämpfen.",
+    "es": "No había categorías de peso. Un luchador pequeño a menudo tenía que pelear contra un rival muy grande."
+   },
+   {
+    "de": "Es hat fast keine Regeln gegeben. Man durfte nur nicht beißen und nicht in die Augen stechen.",
+    "es": "Casi no había reglas. Solo estaba prohibido morder y meter los dedos en los ojos."
+   },
+   {
+    "de": "Der Sieger war Royce Gracie aus Brasilien. Er war schlank und nicht sehr groß.",
+    "es": "El ganador fue Royce Gracie, de Brasil. Era delgado y no muy grande."
+   },
+   {
+    "de": "Er hat Brazilian Jiu-Jitsu gemacht, einen Kampfsport für den Boden.",
+    "es": "Practicaba jiu-jitsu brasileño, un deporte de combate para el suelo."
+   },
+   {
+    "de": "Er musste nicht hart schlagen.",
+    "es": "No tenía que golpear fuerte."
+   },
+   {
+    "de": "Er hat die Gegner auf den Boden gebracht und mit Würgegriffen und Hebeln besiegt.",
+    "es": "Llevaba a los rivales al suelo y los vencía con estrangulaciones y luxaciones."
+   },
+   {
+    "de": "Das hat viele Leute überrascht.",
+    "es": "Eso sorprendió a mucha gente."
+   },
+   {
+    "de": "Danach wollten alle Kämpfer auch Bodenkampf lernen.",
+    "es": "Después, todos los luchadores querían aprender también lucha en el suelo."
+   },
+   {
+    "de": "Später hat die UFC mehr Regeln und Gewichtsklassen eingeführt. So ist das moderne MMA entstanden.",
+    "es": "Más tarde la UFC introdujo más reglas y categorías de peso. Así nacieron las MMA modernas."
+   },
+   {
+    "de": "Wird MMA einmal so populär wie Boxen sein? Wir werden sehen!",
+    "es": "¿Llegarán las MMA a ser tan populares como el boxeo? ¡Ya veremos!"
+   }
+  ],
+  "gloss": [
+   [
+    "stattfinden (stattgefunden)",
+    "celebrarse, tener lugar"
+   ],
+   [
+    "das Turnier",
+    "el torneo"
+   ],
+   [
+    "der Sumoringer",
+    "el luchador de sumo"
+   ],
+   [
+    "beißen",
+    "morder"
+   ],
+   [
+    "stechen",
+    "pinchar, clavar"
+   ],
+   [
+    "schlank",
+    "delgado"
+   ],
+   [
+    "besiegen",
+    "vencer"
+   ],
+   [
+    "überraschen",
+    "sorprender"
+   ],
+   [
+    "einführen (eingeführt)",
+    "introducir"
+   ],
+   [
+    "entstehen (entstanden)",
+    "surgir, nacer"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "¿Quién ganó UFC 1?",
+    "o": [
+     "Un boxeador",
+     "Un luchador de sumo",
+     "Royce Gracie"
+    ],
+    "a": 2,
+    "exp": "«Der Sieger war Royce Gracie aus Brasilien.»"
+   },
+   {
+    "t": "mc",
+    "q": "¿Qué estaba prohibido en UFC 1?",
+    "o": [
+     "Dar patadas",
+     "Morder y meter los dedos en los ojos",
+     "Luchar en el suelo"
+    ],
+    "a": 1,
+    "exp": "«Man durfte nur nicht beißen und nicht in die Augen stechen.»"
+   },
+   {
+    "t": "gap",
+    "q": "Man ___ nur nicht beißen.",
+    "a": [
+     "durfte"
+    ],
+    "hint": "dürfen (Präteritum)",
+    "exp": "Präteritum de dürfen: ich/er durfte (sin Umlaut)."
+   }
+  ]
+ },
+ {
+  "id": "schmeling-louis",
+  "unit": "a2-10",
+  "kind": "historia",
+  "title": "Max Schmeling und Joe Louis",
+  "title_es": "Max Schmeling y Joe Louis",
+  "yt": "Max Schmeling Joe Louis 1938",
+  "lines": [
+   {
+    "de": "Max Schmeling ist eine Legende im deutschen Boxen.",
+    "es": "Max Schmeling es una leyenda del boxeo alemán."
+   },
+   {
+    "de": "1930 ist er Weltmeister im Schwergewicht geworden – als erster Deutscher.",
+    "es": "En 1930 se proclamó campeón del mundo de los pesos pesados, el primer alemán en lograrlo."
+   },
+   {
+    "de": "1936 hat er in New York gegen Joe Louis geboxt. Louis war jung, ungeschlagen und der große Favorit.",
+    "es": "En 1936 boxeó en Nueva York contra Joe Louis. Louis era joven, estaba invicto y era el gran favorito."
+   },
+   {
+    "de": "Schmeling hat vorher viele Filme von Louis angesehen.",
+    "es": "Antes, Schmeling había visto muchas grabaciones de Louis."
+   },
+   {
+    "de": "Er hat eine Schwäche gesehen: Nach dem Jab hat Louis die linke Hand fallen lassen.",
+    "es": "Vio un punto débil: después del jab, Louis bajaba la mano izquierda."
+   },
+   {
+    "de": "In der zwölften Runde hat Schmeling durch K.o. gewonnen.",
+    "es": "En el duodécimo asalto Schmeling ganó por K.O."
+   },
+   {
+    "de": "Die Nazis haben den Sieg für ihre Propaganda benutzt.",
+    "es": "Los nazis utilizaron la victoria para su propaganda."
+   },
+   {
+    "de": "1938 haben die beiden wieder in New York gekämpft: der Rückkampf.",
+    "es": "En 1938 volvieron a pelear en Nueva York: la revancha."
+   },
+   {
+    "de": "Dieses Mal war alles anders: Louis hat Schmeling schon in der ersten Runde k.o. geschlagen.",
+    "es": "Esta vez todo fue distinto: Louis noqueó a Schmeling ya en el primer asalto."
+   },
+   {
+    "de": "Der Kampf hat nur gut zwei Minuten gedauert.",
+    "es": "El combate duró poco más de dos minutos."
+   },
+   {
+    "de": "Im November 1938 hat Schmeling zwei jüdische Jungen in Berlin versteckt und gerettet.",
+    "es": "En noviembre de 1938 Schmeling escondió y salvó a dos chicos judíos en Berlín."
+   },
+   {
+    "de": "Nach dem Krieg sind Schmeling und Louis Freunde geworden.",
+    "es": "Después de la guerra, Schmeling y Louis se hicieron amigos."
+   },
+   {
+    "de": "Später hat Schmeling Louis auch mit Geld geholfen.",
+    "es": "Más tarde Schmeling también ayudó a Louis con dinero."
+   },
+   {
+    "de": "Schmeling ist 2005 gestorben, mit 99 Jahren.",
+    "es": "Schmeling murió en 2005, a los 99 años."
+   }
+  ],
+  "gloss": [
+   [
+    "ungeschlagen",
+    "invicto"
+   ],
+   [
+    "der Favorit",
+    "el favorito"
+   ],
+   [
+    "die Schwäche",
+    "el punto débil"
+   ],
+   [
+    "fallen lassen",
+    "dejar caer, bajar"
+   ],
+   [
+    "k.o. schlagen",
+    "noquear"
+   ],
+   [
+    "der Rückkampf",
+    "la revancha"
+   ],
+   [
+    "jüdisch",
+    "judío"
+   ],
+   [
+    "verstecken",
+    "esconder"
+   ],
+   [
+    "retten",
+    "salvar"
+   ],
+   [
+    "der Krieg",
+    "la guerra"
+   ]
+  ],
+  "q": [
+   {
+    "t": "mc",
+    "q": "¿Quién ganó el combate de 1936?",
+    "o": [
+     "Joe Louis",
+     "Max Schmeling",
+     "Nadie: fue empate"
+    ],
+    "a": 1,
+    "exp": "«In der zwölften Runde hat Schmeling durch K.o. gewonnen.»"
+   },
+   {
+    "t": "mc",
+    "q": "¿Cuánto duró la revancha de 1938?",
+    "o": [
+     "Doce asaltos",
+     "Poco más de dos minutos",
+     "Diez minutos"
+    ],
+    "a": 1,
+    "exp": "«Der Kampf hat nur gut zwei Minuten gedauert.» Louis ganó en el primer asalto."
+   },
+   {
+    "t": "order",
+    "w": [
+     "Krieg",
+     "Nach",
+     "sind",
+     "Freunde",
+     "dem",
+     "sie",
+     "geworden"
+    ],
+    "a": "Nach dem Krieg sind sie Freunde geworden.",
+    "es": "Después de la guerra se hicieron amigos."
+   }
+  ]
+ }
+]

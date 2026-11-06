@@ -1,0 +1,153 @@
+{
+ "title": "Wem gehört der Koffer?",
+ "title_es": "¿De quién es la maleta?",
+ "lines": [
+  {
+   "de": "Am Abend sitzt Lucía bei Frau Becker. Es gibt Tee und Apfelkuchen.",
+   "es": "Por la noche Lucía está en casa de Frau Becker. Hay té y tarta de manzana."
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Schmeckt dir der Kuchen, Lucía?",
+   "es": "¿Te gusta la tarta, Lucía?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ja, er schmeckt mir sehr gut. Aber … wo ist der Koffer?",
+   "es": "Sí, está muy rica. Pero… ¿dónde está la maleta?"
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Moment! Zuerst habe ich ein Geschenk für dich. Ich schenke dir einen Schal.",
+   "es": "¡Un momento! Primero tengo un regalo para ti. Te regalo una bufanda."
+  },
+  {
+   "de": "Der Schal ist sehr lang und sehr orange.",
+   "es": "La bufanda es muy larga y muy naranja."
+  },
+  {
+   "who": "Lucía",
+   "de": "Oh … danke! Er … gefällt mir.",
+   "es": "Oh… ¡gracias! Me… gusta."
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Er steht dir super! So, jetzt der Koffer.",
+   "es": "¡Te queda genial! Bueno, ahora la maleta."
+  },
+  {
+   "who": "Lucía",
+   "de": "Wem gehört der Koffer eigentlich? Ihnen oder Felix?",
+   "es": "¿De quién es la maleta, en realidad? ¿Suya o de Felix?"
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Er gehört Felix. Er hat gesagt: «Oma, bitte nicht aufmachen!» Und den Schlüssel hat er mir nicht gegeben.",
+   "es": "Es de Felix. Me dijo: «Abuela, ¡no la abras, por favor!». Y la llave no me la dio."
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Aber heute Morgen hat Einstein mir etwas gebracht. Schau mal!",
+   "es": "Pero esta mañana Einstein me ha traído algo. ¡Mira!"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ein Schlüssel! Einstein, du bist ein Genie!",
+   "es": "¡Una llave! Einstein, ¡eres un genio!"
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Ich gebe ihn dir. Ich verstehe das alles nicht, und ich habe Angst. Hilfst du mir?",
+   "es": "Te la doy. No entiendo nada de todo esto y tengo miedo. ¿Me ayudas?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Natürlich helfe ich Ihnen, Frau Becker.",
+   "es": "Claro que la ayudo, Frau Becker."
+  },
+  {
+   "de": "Lucía probiert den Schlüssel aus. Er passt! Langsam macht sie den Koffer auf.",
+   "es": "Lucía prueba la llave. ¡Encaja! Despacio, abre la maleta."
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Und? Was ist drin? Gold? Geld?",
+   "es": "¿Y? ¿Qué hay dentro? ¿Oro? ¿Dinero?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Nein. Eine Kühlbox … und sie ist leer.",
+   "es": "No. Una nevera portátil… y está vacía."
+  },
+  {
+   "who": "Lucía",
+   "de": "Und hier ist eine Fahrkarte: Heidelberg – Berlin. Für diesen Sonntag!",
+   "es": "Y aquí hay un billete: Heidelberg–Berlín. ¡Para este domingo!"
+  }
+ ],
+ "gloss": [
+  [
+   "der Schal",
+   "la bufanda"
+  ],
+  [
+   "aufmachen",
+   "abrir"
+  ],
+  [
+   "das Genie",
+   "el genio"
+  ],
+  [
+   "Angst haben",
+   "tener miedo"
+  ],
+  [
+   "ausprobieren",
+   "probar"
+  ],
+  [
+   "drin",
+   "dentro"
+  ],
+  [
+   "die Kühlbox",
+   "la nevera portátil"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Qué le regala Frau Becker a Lucía?",
+   "o": [
+    "Una tarta",
+    "Una bufanda naranja",
+    "Una llave"
+   ],
+   "a": 1,
+   "exp": "«Ich schenke dir einen Schal.» Y la bufanda es «sehr lang und sehr orange»."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cómo consigue Frau Becker la llave de la maleta?",
+   "o": [
+    "Felix se la dio",
+    "Se la trajo Einstein",
+    "La compró en una tienda"
+   ],
+   "a": 1,
+   "exp": "«Heute Morgen hat Einstein mir etwas gebracht.» Felix no le dio la llave."
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué encuentra Lucía en la maleta?",
+   "o": [
+    "Las muestras de levadura",
+    "Una nevera portátil vacía y un billete a Berlín",
+    "El Laborbuch"
+   ],
+   "a": 1,
+   "exp": "«Eine Kühlbox … und sie ist leer.» Y además «eine Fahrkarte: Heidelberg – Berlin»."
+  }
+ ]
+}

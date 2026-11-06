@@ -1,0 +1,138 @@
+{
+ "title": "Mir tut die Hand weh",
+ "title_es": "Me duele la mano",
+ "lines": [
+  {
+   "de": "Montagabend im Club «Neckar Boxen». Lucía boxt sehr hart. Sie ist wütend.",
+   "es": "Lunes por la noche en el club «Neckar Boxen». Lucía boxea muy fuerte. Está furiosa."
+  },
+  {
+   "who": "Kai",
+   "de": "Lucía, langsam! Ist alles okay?",
+   "es": "¡Lucía, despacio! ¿Va todo bien?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Au! Meine Hand! Mir tut die Hand sehr weh.",
+   "es": "¡Ay! ¡Mi mano! Me duele mucho la mano."
+  },
+  {
+   "who": "Kai",
+   "de": "Zeig mal. Hm … Geh morgen zum Arzt, bitte!",
+   "es": "A ver, enséñamela. Mmm… ¡Ve mañana al médico, por favor!"
+  },
+  {
+   "de": "Dienstag, neun Uhr. In der Praxis von Dr. Yilmaz ist das Wartezimmer voll.",
+   "es": "Martes, las nueve. En la consulta de la doctora Yilmaz la sala de espera está llena."
+  },
+  {
+   "who": "Dr. Yilmaz",
+   "de": "Guten Tag, Frau García. Was fehlt Ihnen?",
+   "es": "Buenos días, señora García. ¿Qué le pasa?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Mir tut die Hand weh, seit gestern Abend. Und mir tun auch zwei Finger weh.",
+   "es": "Me duele la mano desde ayer por la noche. Y también me duelen dos dedos."
+  },
+  {
+   "who": "Dr. Yilmaz",
+   "de": "Die Hand ist nicht gebrochen. Aber Sie dürfen zwei Wochen nicht boxen.",
+   "es": "La mano no está rota. Pero no puede boxear durante dos semanas."
+  },
+  {
+   "who": "Dr. Yilmaz",
+   "de": "Nehmen Sie zweimal täglich eine Tablette. Und kein Sport!",
+   "es": "Tómese una pastilla dos veces al día. ¡Y nada de deporte!"
+  },
+  {
+   "de": "Am Abend ist Lucía trotzdem im Club – aber nur als Zuschauerin.",
+   "es": "Por la noche Lucía va al club de todos modos, pero solo de espectadora."
+  },
+  {
+   "who": "Lucía",
+   "de": "Kai, ich soll zwei Wochen nicht boxen. Das sagt die Ärztin.",
+   "es": "Kai, no debo boxear en dos semanas. Lo dice la médica."
+  },
+  {
+   "who": "Kai",
+   "de": "Zwei Wochen? Schade.",
+   "es": "¿Dos semanas? Qué pena."
+  },
+  {
+   "who": "Lucía",
+   "de": "Ist Felix heute hier?",
+   "es": "¿Está Felix hoy aquí?"
+  },
+  {
+   "who": "Kai",
+   "de": "Nein. Aber übrigens … Felix fragt immer nach dir.",
+   "es": "No. Pero, por cierto… Felix siempre pregunta por ti."
+  }
+ ],
+ "gloss": [
+  [
+   "wütend",
+   "furioso"
+  ],
+  [
+   "Zeig mal!",
+   "¡A ver, enseña!"
+  ],
+  [
+   "gebrochen",
+   "roto"
+  ],
+  [
+   "trotzdem",
+   "de todos modos"
+  ],
+  [
+   "als Zuschauerin",
+   "como espectadora"
+  ],
+  [
+   "übrigens",
+   "por cierto"
+  ],
+  [
+   "fragen nach",
+   "preguntar por"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Qué le duele a Lucía?",
+   "o": [
+    "La espalda y el hombro",
+    "La mano y dos dedos",
+    "La cabeza"
+   ],
+   "a": 1,
+   "exp": "«Mir tut die Hand weh … Und mir tun auch zwei Finger weh.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué le dice la médica?",
+   "o": [
+    "Que tiene la mano rota",
+    "Que no puede boxear durante dos semanas",
+    "Que tiene que ir al hospital"
+   ],
+   "a": 1,
+   "exp": "«Die Hand ist nicht gebrochen. Aber Sie dürfen zwei Wochen nicht boxen.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué le cuenta Kai al final?",
+   "o": [
+    "Que Felix también está lesionado",
+    "Que Felix siempre pregunta por ella",
+    "Que Felix ha dejado el club"
+   ],
+   "a": 1,
+   "exp": "«Felix fragt immer nach dir.» ¿Por qué le interesa tanto Lucía?"
+  }
+ ]
+}

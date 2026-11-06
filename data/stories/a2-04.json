@@ -1,0 +1,158 @@
+{
+ "title": "Ich glaube, dass …",
+ "title_es": "Creo que…",
+ "lines": [
+  {
+   "de": "In der Mensa. Jonas trinkt Kaffee, Lucía denkt nach.",
+   "es": "En el comedor. Jonas toma café; Lucía piensa."
+  },
+  {
+   "who": "Jonas",
+   "de": "Ich glaube, dass Felix Einstein ins Labor gebracht hat. Er ist doch der Enkel von Frau Becker.",
+   "es": "Creo que Felix llevó a Einstein al laboratorio. Es el nieto de Frau Becker, ¿no?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Vielleicht. Aber ich weiß nicht, ob es wirklich Felix war. Die Hand im Video war klein.",
+   "es": "Puede ser. Pero no sé si de verdad fue Felix. La mano del vídeo era pequeña."
+  },
+  {
+   "who": "Jonas",
+   "de": "Klein? Die Hände von Felix sind riesig. Er boxt doch!",
+   "es": "¿Pequeña? Las manos de Felix son enormes. ¡Si boxea!"
+  },
+  {
+   "who": "Lucía",
+   "de": "Genau. Und wie ist er ins Institut gekommen? Mit dem Code von Herrn Brandt.",
+   "es": "Exacto. ¿Y cómo entró en el instituto? Con el código de Herr Brandt."
+  },
+  {
+   "who": "Jonas",
+   "de": "Wenn wir Herrn Brandt fragen, sagt er wieder nichts.",
+   "es": "Si le preguntamos a Herr Brandt, otra vez no dirá nada."
+  },
+  {
+   "who": "Lucía",
+   "de": "Vielleicht spricht er, wenn wir ihm das Video zeigen.",
+   "es": "A lo mejor habla si le enseñamos el vídeo."
+  },
+  {
+   "de": "Herr Brandt sitzt in seinem Büro im Keller und isst ein Brot.",
+   "es": "Herr Brandt está sentado en su despacho del sótano y se come un bocadillo."
+  },
+  {
+   "who": "Herr Brandt",
+   "de": "Was wollen Sie? Ich habe keine Zeit, weil ich gerade esse.",
+   "es": "¿Qué quieren? No tengo tiempo, porque estoy comiendo."
+  },
+  {
+   "who": "Lucía",
+   "de": "Herr Brandt, wir wissen, dass Felix Ihren Code hat. Bitte sagen Sie uns die Wahrheit.",
+   "es": "Herr Brandt, sabemos que Felix tiene su código. Por favor, díganos la verdad."
+  },
+  {
+   "de": "Herr Brandt ist lange still. Dann sagt er leise:",
+   "es": "Herr Brandt se queda callado mucho rato. Luego dice en voz baja:"
+  },
+  {
+   "who": "Herr Brandt",
+   "de": "Ich habe ihm den Code gegeben, weil er gesagt hat, dass er bei Frau Wolf studiert.",
+   "es": "Le di el código porque me dijo que estudiaba con la profesora Wolf."
+  },
+  {
+   "who": "Herr Brandt",
+   "de": "Er war so nett. Er hat mir oft Kuchen gebracht. Ich habe nicht gewusst, dass er gefährlich ist.",
+   "es": "Era tan amable… Me traía pasteles a menudo. No sabía que era peligroso."
+  },
+  {
+   "who": "Jonas",
+   "de": "Und warum haben Sie uns nichts gesagt?",
+   "es": "¿Y por qué no nos dijo nada?"
+  },
+  {
+   "who": "Herr Brandt",
+   "de": "Weil ich meine Arbeit nicht verlieren will. Es tut mir leid.",
+   "es": "Porque no quiero perder mi trabajo. Lo siento."
+  },
+  {
+   "who": "Lucía",
+   "de": "Jonas, die Hand im Video war nicht von Felix. Und auch nicht von Herrn Brandt.",
+   "es": "Jonas, la mano del vídeo no era de Felix. Y tampoco de Herr Brandt."
+  },
+  {
+   "who": "Jonas",
+   "de": "Was meinst du? Wer war es dann?",
+   "es": "¿Qué quieres decir? Entonces, ¿quién fue?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ich weiß es nicht. Aber ich glaube, dass er nicht allein ist.",
+   "es": "No lo sé. Pero creo que no está solo."
+  }
+ ],
+ "gloss": [
+  [
+   "nachdenken",
+   "pensar, reflexionar"
+  ],
+  [
+   "riesig",
+   "enorme"
+  ],
+  [
+   "der Keller",
+   "el sótano"
+  ],
+  [
+   "die Wahrheit",
+   "la verdad"
+  ],
+  [
+   "still",
+   "callado"
+  ],
+  [
+   "leise",
+   "en voz baja"
+  ],
+  [
+   "gefährlich",
+   "peligroso"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Por qué duda Lucía de que la mano del vídeo sea de Felix?",
+   "o": [
+    "Porque era pequeña",
+    "Porque Felix estaba en Berlín",
+    "Porque llevaba un guante de boxeo"
+   ],
+   "a": 0,
+   "exp": "«Die Hand im Video war klein», y las manos de Felix son enormes."
+  },
+  {
+   "t": "mc",
+   "q": "¿Por qué le dio Herr Brandt el código a Felix?",
+   "o": [
+    "Porque Felix le pagó",
+    "Porque Felix le dijo que estudiaba con la Prof. Wolf",
+    "Porque la Prof. Wolf se lo pidió"
+   ],
+   "a": 1,
+   "exp": "«…, weil er gesagt hat, dass er bei Frau Wolf studiert.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué cree Lucía al final?",
+   "o": [
+    "Que Felix es inocente",
+    "Que Felix no actúa solo",
+    "Que Herr Brandt miente"
+   ],
+   "a": 1,
+   "exp": "«Ich glaube, dass er nicht allein ist.» = Creo que no está solo."
+  }
+ ]
+}

@@ -13,23 +13,257 @@
  "lessons": [
   {
    "h": "Verbos con cambio vocálico",
-   "html": "<p>Algunos verbos frecuentes cambian la vocal de la raíz <b>solo en du y er/sie/es</b>. Las terminaciones son las normales.</p><table><thead><tr><th></th><th>a → ä</th><th>a → ä</th><th>e → i</th><th>e → i</th><th>e → ie</th></tr></thead><tbody><tr><td></td><td>fahren</td><td>schlafen</td><td>sprechen</td><td>essen</td><td>lesen</td></tr><tr><td>ich</td><td>fahre</td><td>schlafe</td><td>spreche</td><td>esse</td><td>lese</td></tr><tr><td>du</td><td><b>fährst</b></td><td><b>schläfst</b></td><td><b>sprichst</b></td><td><b>isst</b></td><td><b>liest</b></td></tr><tr><td>er/sie/es</td><td><b>fährt</b></td><td><b>schläft</b></td><td><b>spricht</b></td><td><b>isst</b></td><td><b>liest</b></td></tr><tr><td>wir</td><td>fahren</td><td>schlafen</td><td>sprechen</td><td>essen</td><td>lesen</td></tr><tr><td>ihr</td><td>fahrt</td><td>schlaft</td><td>sprecht</td><td>esst</td><td>lest</td></tr><tr><td>sie/Sie</td><td>fahren</td><td>schlafen</td><td>sprechen</td><td>essen</td><td>lesen</td></tr></tbody></table><p>Otros del mismo tipo: <span class=\"de\">laufen → du läufst, er läuft</span> (correr), <span class=\"de\">sehen → du siehst, er sieht</span> (ver), <span class=\"de\">nehmen → du nimmst, er nimmt</span> (tomar), <span class=\"de\">treffen → du triffst, er trifft</span> (quedar con).</p><p><b>Ojo:</b> <b>ihr</b> no cambia: <span class=\"de\">ihr fahrt, ihr sprecht</span> (no *ihr fährt). Con raíz en -s/-ß, du solo lleva -t: <span class=\"de\">du isst, du liest</span> (no *du liesst).</p>"
+   "html": "<p>Algunos verbos frecuentes cambian la vocal de la raíz <b>solo en du y er/sie/es</b>. Las terminaciones son las normales.</p><table><thead><tr><th></th><th>a → ä</th><th>a → ä</th><th>e → i</th><th>e → i</th><th>e → ie</th></tr></thead><tbody><tr><td></td><td>fahren</td><td>schlafen</td><td>sprechen</td><td>essen</td><td>lesen</td></tr><tr><td>ich</td><td>fahre</td><td>schlafe</td><td>spreche</td><td>esse</td><td>lese</td></tr><tr><td>du</td><td><b>fährst</b></td><td><b>schläfst</b></td><td><b>sprichst</b></td><td><b>isst</b></td><td><b>liest</b></td></tr><tr><td>er/sie/es</td><td><b>fährt</b></td><td><b>schläft</b></td><td><b>spricht</b></td><td><b>isst</b></td><td><b>liest</b></td></tr><tr><td>wir</td><td>fahren</td><td>schlafen</td><td>sprechen</td><td>essen</td><td>lesen</td></tr><tr><td>ihr</td><td>fahrt</td><td>schlaft</td><td>sprecht</td><td>esst</td><td>lest</td></tr><tr><td>sie/Sie</td><td>fahren</td><td>schlafen</td><td>sprechen</td><td>essen</td><td>lesen</td></tr></tbody></table><p>Otros del mismo tipo: <span class=\"de\">laufen → du läufst, er läuft</span> (correr), <span class=\"de\">sehen → du siehst, er sieht</span> (ver), <span class=\"de\">nehmen → du nimmst, er nimmt</span> (tomar), <span class=\"de\">treffen → du triffst, er trifft</span> (quedar con).</p><p><b>Ojo:</b> <b>ihr</b> no cambia: <span class=\"de\">ihr fahrt, ihr sprecht</span> (no *ihr fährt). Con raíz en -s/-ß, du solo lleva -t: <span class=\"de\">du isst, du liest</span> (no *du liesst).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español la vocal a veces cambia: «pedir → él pide». En alemán pasa algo parecido. «ich sehe» = veo. ¿Cómo crees que se dice «él ve»?",
+    "o": [
+     "er sieht",
+     "er seht",
+     "er sehe"
+    ],
+    "a": 0,
+    "exp": "sehen cambia e → ie en du y er/sie/es: du siehst, er sieht. ¡Como pedir → pide!"
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "Jonas ___ jeden Tag.",
+     "a": [
+      "läuft"
+     ],
+     "hint": "laufen",
+     "exp": "laufen: a → äu en du y er/sie/es: er läuft."
+    },
+    {
+     "t": "mc",
+     "q": "Ihr ___ viel Paella.",
+     "o": [
+      "esst",
+      "isst",
+      "esset"
+     ],
+     "a": 0,
+     "exp": "ihr no cambia la vocal: ihr esst."
+    },
+    {
+     "t": "tr",
+     "es": "¿Quedas hoy con Jonas?",
+     "a": [
+      "Triffst du heute Jonas?",
+      "Triffst du Jonas heute?"
+     ],
+     "exp": "treffen: e → i en du: du triffst."
+    }
+   ]
   },
   {
    "h": "gern, lieber, am liebsten",
-   "html": "<p>Para decir que algo te gusta hacer, pon <b>gern</b> detrás del verbo. No existe un verbo «gustar» como en español.</p><table><thead><tr><th>alemán</th><th>español</th></tr></thead><tbody><tr><td><span class=\"de\">Ich boxe gern.</span></td><td>Me gusta boxear.</td></tr><tr><td><span class=\"de\">Ich jogge lieber.</span></td><td>Prefiero correr.</td></tr><tr><td><span class=\"de\">Ich schwimme am liebsten.</span></td><td>Lo que más me gusta es nadar.</td></tr><tr><td><span class=\"de\">Ich koche nicht gern.</span></td><td>No me gusta cocinar.</td></tr></tbody></table><p>Pregunta: <span class=\"de\">Was machst du gern?</span> / <span class=\"de\">Liest du gern?</span></p><p><b>Ojo:</b> el sujeto es la persona, no la cosa: «me gusta leer» = <span class=\"de\">Ich lese gern</span> (literalmente «yo leo con gusto»), nunca *Mir gusta lesen. <span class=\"de\">gern</span> y <span class=\"de\">gerne</span> son iguales.</p>"
+   "html": "<p>Para decir que algo te gusta hacer, pon <b>gern</b> detrás del verbo. No existe un verbo «gustar» como en español.</p><table><thead><tr><th>alemán</th><th>español</th></tr></thead><tbody><tr><td><span class=\"de\">Ich boxe gern.</span></td><td>Me gusta boxear.</td></tr><tr><td><span class=\"de\">Ich jogge lieber.</span></td><td>Prefiero correr.</td></tr><tr><td><span class=\"de\">Ich schwimme am liebsten.</span></td><td>Lo que más me gusta es nadar.</td></tr><tr><td><span class=\"de\">Ich koche nicht gern.</span></td><td>No me gusta cocinar.</td></tr></tbody></table><p>Pregunta: <span class=\"de\">Was machst du gern?</span> / <span class=\"de\">Liest du gern?</span></p><p><b>Ojo:</b> el sujeto es la persona, no la cosa: «me gusta leer» = <span class=\"de\">Ich lese gern</span> (literalmente «yo leo con gusto»), nunca *Mir gusta lesen. <span class=\"de\">gern</span> y <span class=\"de\">gerne</span> son iguales.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En alemán no hay verbo «gustar». «gern» significa «con gusto». ¿Cómo crees que se dice «Me gusta cocinar»?",
+    "o": [
+     "Ich koche gern.",
+     "Mir gern kochen.",
+     "Ich gern koche."
+    ],
+    "a": 0,
+    "exp": "Literalmente «yo cocino con gusto»: verbo en 2ª posición + gern. Ich koche gern."
+   },
+   "check": [
+    {
+     "t": "order",
+     "w": [
+      "nicht",
+      "jogge",
+      "Ich",
+      "gern."
+     ],
+     "a": "Ich jogge nicht gern.",
+     "es": "No me gusta correr."
+    },
+    {
+     "t": "mc",
+     "q": "«Ich schwimme gern, ich jogge lieber, aber ich boxe ___.» (lo que más)",
+     "o": [
+      "am liebsten",
+      "lieber",
+      "gern"
+     ],
+     "a": 0,
+     "exp": "gern → lieber → am liebsten: lo que más te gusta va con am liebsten."
+    },
+    {
+     "t": "gap",
+     "q": "Was machst du ___? – Ich tanze.",
+     "a": [
+      "gern",
+      "gerne"
+     ],
+     "hint": "con gusto",
+     "exp": "«Was machst du gern?» = ¿Qué te gusta hacer?"
+    }
+   ]
   },
   {
    "h": "El verbo mögen",
-   "html": "<table><thead><tr><th>persona</th><th>mögen</th></tr></thead><tbody><tr><td>ich</td><td>mag</td></tr><tr><td>du</td><td>magst</td></tr><tr><td>er/sie/es</td><td>mag</td></tr><tr><td>wir</td><td>mögen</td></tr><tr><td>ihr</td><td>mögt</td></tr><tr><td>sie/Sie</td><td>mögen</td></tr></tbody></table><p><span class=\"de\">mögen</span> + sustantivo (en acusativo) = «gustar algo»: <span class=\"de\">Ich mag Fußball.</span> <span class=\"de\">Magst du Käse?</span> <span class=\"de\">Er mag den Film nicht.</span></p><p><b>Regla práctica:</b> con un <b>sustantivo</b> → <span class=\"de\">mögen</span>; con una <b>actividad (verbo)</b> → <span class=\"de\">verbo + gern</span>. <span class=\"de\">Ich mag Musik</span> / <span class=\"de\">Ich tanze gern</span>.</p><p><b>Ojo:</b> <span class=\"de\">ich mag</span> y <span class=\"de\">er mag</span> no llevan terminación.</p>"
+   "html": "<table><thead><tr><th>persona</th><th>mögen</th></tr></thead><tbody><tr><td>ich</td><td>mag</td></tr><tr><td>du</td><td>magst</td></tr><tr><td>er/sie/es</td><td>mag</td></tr><tr><td>wir</td><td>mögen</td></tr><tr><td>ihr</td><td>mögt</td></tr><tr><td>sie/Sie</td><td>mögen</td></tr></tbody></table><p><span class=\"de\">mögen</span> + sustantivo (en acusativo) = «gustar algo»: <span class=\"de\">Ich mag Fußball.</span> <span class=\"de\">Magst du Käse?</span> <span class=\"de\">Er mag den Film nicht.</span></p><p><b>Regla práctica:</b> con un <b>sustantivo</b> → <span class=\"de\">mögen</span>; con una <b>actividad (verbo)</b> → <span class=\"de\">verbo + gern</span>. <span class=\"de\">Ich mag Musik</span> / <span class=\"de\">Ich tanze gern</span>.</p><p><b>Ojo:</b> <span class=\"de\">ich mag</span> y <span class=\"de\">er mag</span> no llevan terminación.</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«mögen» = gustar (con cosas). Recuerda que «ich möchte» no lleva -t. ¿Cómo crees que se dice «me gusta el boxeo»?",
+    "o": [
+     "Ich mag Boxen.",
+     "Ich magt Boxen.",
+     "Ich möge Boxen."
+    ],
+    "a": 0,
+    "exp": "ich mag, sin terminación (igual que er mag): Ich mag Boxen."
+   },
+   "check": [
+    {
+     "t": "gap",
+     "q": "___ du Pizza?",
+     "a": [
+      "Magst",
+      "magst"
+     ],
+     "hint": "mögen",
+     "exp": "du → magst: Magst du Pizza?"
+    },
+    {
+     "t": "mc",
+     "q": "«Me gusta la música.» ¿Cuál es correcta?",
+     "o": [
+      "Ich mag Musik.",
+      "Ich Musik gern.",
+      "Ich gern mag Musik."
+     ],
+     "a": 0,
+     "exp": "Con un sustantivo → mögen: Ich mag Musik."
+    },
+    {
+     "t": "mc",
+     "q": "Ihr ___ Fußball, oder?",
+     "o": [
+      "mögt",
+      "mögen",
+      "magt"
+     ],
+     "a": 0,
+     "exp": "ihr → mögt."
+    }
+   ]
   },
   {
    "h": "Aficiones y deporte",
-   "html": "<table><thead><tr><th>alemán</th><th>español</th></tr></thead><tbody><tr><td>boxen – ich boxe, er boxt</td><td>boxear</td></tr><tr><td>joggen – ich jogge</td><td>correr (hacer jogging)</td></tr><tr><td>schwimmen</td><td>nadar</td></tr><tr><td>tanzen – du tanzt</td><td>bailar</td></tr><tr><td>ins Fitnessstudio gehen</td><td>ir al gimnasio</td></tr><tr><td>Fahrrad fahren – er fährt Fahrrad</td><td>ir en bici</td></tr><tr><td>Fußball / Tennis spielen</td><td>jugar al fútbol / al tenis</td></tr><tr><td>lesen, Musik hören, Filme sehen</td><td>leer, escuchar música, ver películas</td></tr></tbody></table><p><span class=\"de\">ins</span> = <i>in das</i>: aprende <span class=\"de\">Ich gehe ins Fitnessstudio</span> como bloque.</p><p><b>Ojo:</b> los deportes con <i>spielen</i> no llevan artículo ni preposición: <span class=\"de\">Ich spiele Tennis</span> (no *Ich spiele am Tennis).</p>"
+   "html": "<table><thead><tr><th>alemán</th><th>español</th></tr></thead><tbody><tr><td>boxen – ich boxe, er boxt</td><td>boxear</td></tr><tr><td>joggen – ich jogge</td><td>correr (hacer jogging)</td></tr><tr><td>schwimmen</td><td>nadar</td></tr><tr><td>tanzen – du tanzt</td><td>bailar</td></tr><tr><td>ins Fitnessstudio gehen</td><td>ir al gimnasio</td></tr><tr><td>Fahrrad fahren – er fährt Fahrrad</td><td>ir en bici</td></tr><tr><td>Fußball / Tennis spielen</td><td>jugar al fútbol / al tenis</td></tr><tr><td>lesen, Musik hören, Filme sehen</td><td>leer, escuchar música, ver películas</td></tr></tbody></table><p><span class=\"de\">ins</span> = <i>in das</i>: aprende <span class=\"de\">Ich gehe ins Fitnessstudio</span> como bloque.</p><p><b>Ojo:</b> los deportes con <i>spielen</i> no llevan artículo ni preposición: <span class=\"de\">Ich spiele Tennis</span> (no *Ich spiele am Tennis).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "«Ich spiele Tennis» = juego al tenis. ¿Cómo crees que se dice «juego al fútbol»?",
+    "o": [
+     "Ich spiele Fußball.",
+     "Ich spiele am Fußball.",
+     "Ich spiele zu Fußball."
+    ],
+    "a": 0,
+    "exp": "Igual que Tennis: sin artículo ni preposición. Ich spiele Fußball."
+   },
+   "check": [
+    {
+     "t": "match",
+     "p": [
+      [
+       "boxen",
+       "boxear"
+      ],
+      [
+       "schwimmen",
+       "nadar"
+      ],
+      [
+       "tanzen",
+       "bailar"
+      ],
+      [
+       "Fahrrad fahren",
+       "ir en bici"
+      ],
+      [
+       "Musik hören",
+       "escuchar música"
+      ]
+     ]
+    },
+    {
+     "t": "gap",
+     "q": "Ich gehe ___ Fitnessstudio.",
+     "a": [
+      "ins"
+     ],
+     "hint": "in das",
+     "exp": "Bloque fijo: ins Fitnessstudio (ins = in das)."
+    },
+    {
+     "t": "tr",
+     "es": "Lucía boxea y Jonas corre.",
+     "a": [
+      "Lucía boxt und Jonas joggt.",
+      "Lucia boxt und Jonas joggt.",
+      "Lucía boxt und Jonas läuft.",
+      "Lucia boxt und Jonas läuft."
+     ],
+     "exp": "boxen → sie boxt; joggen → er joggt (o laufen → er läuft)."
+    }
+   ]
   },
   {
    "h": "¿Con qué frecuencia?",
-   "html": "<p>siempre → nunca: <span class=\"de\">immer</span> – <span class=\"de\">oft</span> – <span class=\"de\">manchmal</span> – <span class=\"de\">selten</span> – <span class=\"de\">nie</span>. También: <span class=\"de\">jeden Tag</span> (cada día), <span class=\"de\">einmal / zweimal / dreimal pro Woche</span> (una/dos/tres veces por semana).</p><table><thead><tr><th>1</th><th>2 (verbo)</th><th>3</th><th>…</th></tr></thead><tbody><tr><td>Ich</td><td>boxe</td><td>oft.</td><td></td></tr><tr><td>Er</td><td>geht</td><td>manchmal</td><td>ins Fitnessstudio.</td></tr><tr><td>Wir</td><td>essen</td><td>nie</td><td>Fleisch.</td></tr></tbody></table><p>El adverbio de frecuencia va normalmente justo después del verbo (y del sujeto, si este va detrás).</p><p><b>Ojo:</b> <span class=\"de\">nie</span> ya es negativo: «no como nunca carne» = <span class=\"de\">Ich esse nie Fleisch</span>, sin <i>nicht</i> ni <i>kein</i> (en alemán no hay doble negación).</p>"
+   "html": "<p>siempre → nunca: <span class=\"de\">immer</span> – <span class=\"de\">oft</span> – <span class=\"de\">manchmal</span> – <span class=\"de\">selten</span> – <span class=\"de\">nie</span>. También: <span class=\"de\">jeden Tag</span> (cada día), <span class=\"de\">einmal / zweimal / dreimal pro Woche</span> (una/dos/tres veces por semana).</p><table><thead><tr><th>1</th><th>2 (verbo)</th><th>3</th><th>…</th></tr></thead><tbody><tr><td>Ich</td><td>boxe</td><td>oft.</td><td></td></tr><tr><td>Er</td><td>geht</td><td>manchmal</td><td>ins Fitnessstudio.</td></tr><tr><td>Wir</td><td>essen</td><td>nie</td><td>Fleisch.</td></tr></tbody></table><p>El adverbio de frecuencia va normalmente justo después del verbo (y del sujeto, si este va detrás).</p><p><b>Ojo:</b> <span class=\"de\">nie</span> ya es negativo: «no como nunca carne» = <span class=\"de\">Ich esse nie Fleisch</span>, sin <i>nicht</i> ni <i>kein</i> (en alemán no hay doble negación).</p>",
+   "pre": {
+    "t": "mc",
+    "q": "En español: «No bebo nunca café» (doble negación). ¿Qué crees que pasa en alemán?",
+    "o": [
+     "Ich trinke nie Kaffee.",
+     "Ich trinke nicht nie Kaffee.",
+     "Ich trinke keinen nie Kaffee."
+    ],
+    "a": 0,
+    "exp": "«nie» ya es negativo y no se combina con nicht ni kein: Ich trinke nie Kaffee."
+   },
+   "check": [
+    {
+     "t": "order",
+     "w": [
+      "boxt",
+      "jeden",
+      "Kai",
+      "Tag."
+     ],
+     "a": "Kai boxt jeden Tag.",
+     "es": "Kai boxea cada día."
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué palabra indica más frecuencia?",
+     "o": [
+      "oft",
+      "selten",
+      "nie"
+     ],
+     "a": 0,
+     "exp": "Escala: immer > oft > manchmal > selten > nie."
+    },
+    {
+     "t": "gap",
+     "q": "Ich schwimme ___ pro Woche.",
+     "a": [
+      "zweimal"
+     ],
+     "hint": "dos veces",
+     "exp": "einmal, zweimal, dreimal pro Woche = una, dos, tres veces por semana."
+    }
+   ]
   }
  ],
  "vocab": [

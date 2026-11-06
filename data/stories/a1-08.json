@@ -1,0 +1,139 @@
+{
+ "title": "Ein Kater im Wohnzimmer",
+ "title_es": "Un gato en el salón",
+ "lines": [
+  {
+   "de": "Mittwochabend. Lucías Wohnung ist klein, aber sehr gemütlich.",
+   "es": "Miércoles por la noche. El piso de Lucía es pequeño, pero muy acogedor."
+  },
+  {
+   "de": "Es gibt ein Wohnzimmer, ein Schlafzimmer, eine Küche und ein Bad. Die Miete ist ziemlich hoch.",
+   "es": "Hay un salón, un dormitorio, una cocina y un baño. El alquiler es bastante alto."
+  },
+  {
+   "de": "Aber heute ist etwas anders. Im Flur ist Licht.",
+   "es": "Pero hoy algo es distinto. En el pasillo hay luz."
+  },
+  {
+   "who": "Lucía",
+   "de": "Hallo? Ist da jemand?",
+   "es": "¿Hola? ¿Hay alguien?"
+  },
+  {
+   "de": "Im Wohnzimmer ist der Schrank offen. Und das Sofa ist nicht grau – es ist schwarz und weiß!",
+   "es": "En el salón el armario está abierto. Y el sofá no es gris: ¡es blanco y negro!"
+  },
+  {
+   "de": "Da schläft ein Kater. Er ist ziemlich dick und sehr ruhig.",
+   "es": "Ahí duerme un gato. Es bastante gordo y está muy tranquilo."
+  },
+  {
+   "who": "Lucía",
+   "de": "Einstein?! Was machst du hier? Das ist nicht deine Wohnung!",
+   "es": "¿¡Einstein!? ¿Qué haces aquí? ¡Este no es tu piso!"
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Einstein! Ach, Lucía, Entschuldigung! Er ist sehr neugierig.",
+   "es": "¡Einstein! Ay, Lucía, ¡perdona! Es muy curioso."
+  },
+  {
+   "who": "Lucía",
+   "de": "Aber Frau Becker, meine Tür ist zu. Und das Fenster ist auch zu.",
+   "es": "Pero, Frau Becker, mi puerta está cerrada. Y la ventana también."
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Komisch … Einstein hat keinen Schlüssel.",
+   "es": "Qué raro… Einstein no tiene llave."
+  },
+  {
+   "de": "Lucía geht ins Schlafzimmer. Der Tisch ist leer.",
+   "es": "Lucía va al dormitorio. La mesa está vacía."
+  },
+  {
+   "who": "Lucía",
+   "de": "Wo ist mein Laborbuch? Es ist rot und ziemlich groß …",
+   "es": "¿Dónde está mi cuaderno de laboratorio? Es rojo y bastante grande…"
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Ein Buch? Hier gibt es kein Buch, Lucía.",
+   "es": "¿Un libro? Aquí no hay ningún libro, Lucía."
+  },
+  {
+   "who": "Lucía",
+   "de": "Mein Laborbuch ist weg! Und alle Daten sind im Laborbuch!",
+   "es": "¡Mi cuaderno de laboratorio ha desaparecido! ¡Y todos los datos están en él!"
+  }
+ ],
+ "gloss": [
+  [
+   "der Kater",
+   "el gato (macho)"
+  ],
+  [
+   "das Licht",
+   "la luz"
+  ],
+  [
+   "offen",
+   "abierto"
+  ],
+  [
+   "zu (Tür, Fenster)",
+   "cerrado"
+  ],
+  [
+   "neugierig",
+   "curioso"
+  ],
+  [
+   "der Schlüssel",
+   "la llave"
+  ],
+  [
+   "leer",
+   "vacío"
+  ],
+  [
+   "das Laborbuch",
+   "el cuaderno de laboratorio"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Cómo es el piso de Lucía?",
+   "o": [
+    "Pequeño pero muy acogedor",
+    "Barato y oscuro",
+    "Grande y ruidoso"
+   ],
+   "a": 0,
+   "exp": "«Lucías Wohnung ist klein, aber sehr gemütlich.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Por qué es raro que Einstein esté en el piso?",
+   "o": [
+    "Porque Frau Becker vive en otra ciudad",
+    "Porque Einstein odia a Lucía",
+    "Porque la puerta y la ventana están cerradas"
+   ],
+   "a": 2,
+   "exp": "Lucía dice que la puerta y la ventana están cerradas (zu). Y Einstein no tiene llave…"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué ha desaparecido?",
+   "o": [
+    "La llave de Frau Becker",
+    "El cuaderno de laboratorio de Lucía",
+    "El sofá gris"
+   ],
+   "a": 1,
+   "exp": "«Mein Laborbuch ist weg!» Y todos sus datos están dentro."
+  }
+ ]
+}

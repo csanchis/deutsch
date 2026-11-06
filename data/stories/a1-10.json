@@ -1,0 +1,134 @@
+{
+ "title": "Der Umschlag",
+ "title_es": "El sobre",
+ "lines": [
+  {
+   "de": "Samstag, acht Uhr morgens. Herr Brandt kommt aus dem Institut.",
+   "es": "Sábado, ocho de la mañana. Herr Brandt sale del instituto."
+  },
+  {
+   "who": "Lucía",
+   "de": "Jonas, schnell! Brandt geht zur Haltestelle. Komm!",
+   "es": "¡Jonas, rápido! Brandt va a la parada. ¡Ven!"
+  },
+  {
+   "who": "Jonas",
+   "de": "Jetzt? Ich bin noch im Bett! Geh allein und ruf mich an!",
+   "es": "¿Ahora? ¡Todavía estoy en la cama! ¡Ve tú sola y llámame!"
+  },
+  {
+   "de": "Brandt fährt mit dem Bus zum Bismarckplatz. Lucía sitzt hinten, mit Mütze und Sonnenbrille.",
+   "es": "Brandt va en autobús a la Bismarckplatz. Lucía va sentada detrás, con gorro y gafas de sol."
+  },
+  {
+   "de": "Dann geht er zu Fuß zur Alten Brücke. Lucía geht hinterher.",
+   "es": "Luego va a pie al Puente Viejo. Lucía lo sigue."
+  },
+  {
+   "who": "eine Touristin",
+   "de": "Entschuldigung, wie komme ich zum Schloss?",
+   "es": "Perdone, ¿cómo llego al castillo?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Gehen Sie geradeaus und dann links! Sorry, ich habe keine Zeit!",
+   "es": "¡Vaya todo recto y luego a la izquierda! ¡Perdón, no tengo tiempo!"
+  },
+  {
+   "de": "Brandt geht nicht zum Bahnhof. Er geht zur Bäckerei bei der Brücke.",
+   "es": "Brandt no va a la estación. Va a la panadería que hay junto al puente."
+  },
+  {
+   "de": "Lucía wartet draußen und schaut durch das Fenster.",
+   "es": "Lucía espera fuera y mira por la ventana."
+  },
+  {
+   "de": "Da kommt ein Mann mit einer Sporttasche. Er ist groß und sehr freundlich.",
+   "es": "Entonces llega un hombre con una bolsa de deporte. Es alto y muy simpático."
+  },
+  {
+   "who": "Lucía",
+   "de": "Das ist doch Felix! Felix aus dem Boxclub!",
+   "es": "¡Pero si es Felix! ¡Felix, el del club de boxeo!"
+  },
+  {
+   "who": "Felix",
+   "de": "Hallo, Herr Brandt. Haben Sie es?",
+   "es": "Hola, Herr Brandt. ¿Lo tiene?"
+  },
+  {
+   "de": "Herr Brandt sieht nervös aus. Er gibt Felix einen Umschlag. Der Umschlag ist dick.",
+   "es": "Herr Brandt parece nervioso. Le da a Felix un sobre. El sobre es gordo."
+  },
+  {
+   "who": "Lucía",
+   "de": "Jonas, komm sofort zur Bäckerei bei der Brücke! Schnell!",
+   "es": "¡Jonas, ven ahora mismo a la panadería del puente! ¡Rápido!"
+  }
+ ],
+ "gloss": [
+  [
+   "die Mütze",
+   "el gorro"
+  ],
+  [
+   "die Sonnenbrille",
+   "las gafas de sol"
+  ],
+  [
+   "die Brücke",
+   "el puente"
+  ],
+  [
+   "hinterhergehen",
+   "seguir (a alguien) andando"
+  ],
+  [
+   "das Schloss",
+   "el castillo"
+  ],
+  [
+   "durch das Fenster schauen",
+   "mirar por la ventana"
+  ],
+  [
+   "der Umschlag",
+   "el sobre"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿Cómo va Herr Brandt a la Bismarckplatz?",
+   "o": [
+    "A pie",
+    "En tranvía",
+    "En autobús"
+   ],
+   "a": 2,
+   "exp": "«Brandt fährt mit dem Bus zum Bismarckplatz.»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué le dice Lucía a la turista?",
+   "o": [
+    "Que vaya todo recto y luego a la izquierda",
+    "Que el castillo está muy lejos",
+    "Que coja el autobús"
+   ],
+   "a": 0,
+   "exp": "«Gehen Sie geradeaus und dann links!»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué pasa en la panadería?",
+   "o": [
+    "Herr Brandt le da un sobre a Felix",
+    "Felix le da pan a Herr Brandt",
+    "Herr Brandt llama a la Prof. Wolf"
+   ],
+   "a": 0,
+   "exp": "«Er gibt Felix einen Umschlag.»"
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "title": "Willkommen in Heidelberg",
+ "title_es": "Bienvenida a Heidelberg",
+ "lines": [
+  {
+   "de": "Heidelberg, Montag. Das Labor von Professorin Wolf.",
+   "es": "Heidelberg, lunes. El laboratorio de la profesora Wolf."
+  },
+  {
+   "who": "Jonas",
+   "de": "Hallo! Ich bin Jonas. Kaffee?",
+   "es": "¡Hola! Soy Jonas. ¿Café?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Hallo, Jonas! Ich heiße Lucía. Ja, danke!",
+   "es": "¡Hola, Jonas! Me llamo Lucía. ¡Sí, gracias!"
+  },
+  {
+   "who": "Jonas",
+   "de": "Woher kommst du, Lucía?",
+   "es": "¿De dónde eres, Lucía?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Ich komme aus Spanien, aus Valencia. Und du?",
+   "es": "Soy de España, de Valencia. ¿Y tú?"
+  },
+  {
+   "who": "Jonas",
+   "de": "Ich komme aus Hamburg, aber ich wohne in Heidelberg.",
+   "es": "Soy de Hamburgo, pero vivo en Heidelberg."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Guten Morgen. Wie heißen Sie?",
+   "es": "Buenos días. ¿Cómo se llama usted?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Guten Morgen! Ich heiße Lucía García. Ich komme aus Valencia.",
+   "es": "¡Buenos días! Me llamo Lucía García. Soy de Valencia."
+  },
+  {
+   "who": "Prof. Wolf",
+   "de": "Ah, Frau García. Willkommen. Ich bin Professorin Wolf.",
+   "es": "Ah, señora García. Bienvenida. Soy la profesora Wolf."
+  },
+  {
+   "who": "Jonas",
+   "de": "Pssst… Sie ist sehr streng. Aber fair.",
+   "es": "Pssst… Es muy estricta. Pero justa."
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Guten Abend! Ich bin Frau Becker, Ihre Nachbarin. Und das ist Einstein.",
+   "es": "¡Buenas noches! Soy la señora Becker, su vecina. Y este es Einstein."
+  },
+  {
+   "who": "Frau Becker",
+   "de": "Woher kommen Sie? Wo wohnen Sie in Spanien? Wohnen Sie allein?",
+   "es": "¿De dónde es usted? ¿Dónde vive en España? ¿Vive usted sola?"
+  },
+  {
+   "who": "Lucía",
+   "de": "Äh… aus Valencia. Ja. Gute Nacht, Frau Becker!",
+   "es": "Eh… de Valencia. Sí. ¡Buenas noches, señora Becker!"
+  },
+  {
+   "de": "Dienstag, im Labor. Ein Zettel für Lucía: «Hallo Lucía. Ich kenne dich.»",
+   "es": "Martes, en el laboratorio. Una nota para Lucía: «Hola, Lucía. Te conozco.»"
+  }
+ ],
+ "gloss": [
+  [
+   "Montag / Dienstag",
+   "lunes / martes"
+  ],
+  [
+   "das Labor",
+   "el laboratorio"
+  ],
+  [
+   "willkommen",
+   "bienvenido/a"
+  ],
+  [
+   "streng",
+   "estricto/a"
+  ],
+  [
+   "die Nachbarin",
+   "la vecina"
+  ],
+  [
+   "allein",
+   "solo/a"
+  ],
+  [
+   "der Zettel",
+   "la nota, el papelito"
+  ],
+  [
+   "kennen",
+   "conocer"
+  ]
+ ],
+ "q": [
+  {
+   "t": "mc",
+   "q": "¿De dónde es Jonas?",
+   "o": [
+    "De Hamburgo",
+    "De Heidelberg",
+    "De Valencia"
+   ],
+   "a": 0,
+   "exp": "Jonas dice: «Ich komme aus Hamburg, aber ich wohne in Heidelberg» (es de Hamburgo, vive en Heidelberg)."
+  },
+  {
+   "t": "mc",
+   "q": "¿Cómo trata la profesora Wolf a Lucía?",
+   "o": [
+    "De usted: «Frau García», «Sie»",
+    "De tú: «Lucía», «du»",
+    "No le habla"
+   ],
+   "a": 0,
+   "exp": "La jefa usa el registro formal: «Wie heißen Sie?», «Frau García». Jonas, en cambio, la tutea: «Woher kommst du?»"
+  },
+  {
+   "t": "mc",
+   "q": "¿Qué dice la nota que encuentra Lucía?",
+   "o": [
+    "«Hola, Lucía. Te conozco.»",
+    "«Bienvenida, Lucía.»",
+    "«Hola, Lucía. ¿De dónde eres?»"
+   ],
+   "a": 0,
+   "exp": "«Ich kenne dich» = te conozco. ¿Quién la habrá escrito?"
+  }
+ ]
+}
